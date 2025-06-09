@@ -15,6 +15,7 @@ There are different types of steganography depending on the medium used to hide 
 ---
 # Image Steganography
 
+
 1. Prepare Files:
 	Ensure you have an image file (`pic.jpg`) and the text file (`hidden.txt`) ready in the same directory.
 2. Concatenate Files:

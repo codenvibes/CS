@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DIGITAL FORENSICS/STEGANOGRAPHY.md",
+                "file": "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STEGANOGRAPHY"
+              "title": "IDENTITY AND ACCESS MANAGEMENT (IAM)"
             }
           }
         ],
@@ -180,10 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e929a11384cd7ceb",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "CORE_CONCEPTS/NETWORKING FUNDAMENTALS/DNS.md",
     "DIGITAL FORENSICS/STEGANOGRAPHY.md",
+    "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
+    "CORE_CONCEPTS/NETWORKING FUNDAMENTALS/DNS.md",
+    "BASH.md",
     "DIGITAL FORENSICS",
     "Pasted image 20250609141249.png",
     "Pasted image 20250609121852.png",
