@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
+                "file": "SECURITY_FOUNDATIONS/IAM/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
                 "mode": "source",
                 "source": false
               },
@@ -180,10 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "e929a11384cd7ceb",
   "lastOpenFiles": [
+    "SECURITY_FOUNDATIONS/IAM/ENTRA ID.md",
+    "SECURITY_FOUNDATIONS/IAM/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
+    "SECURITY_FOUNDATIONS/IAM",
     "DIGITAL FORENSICS/STEGANOGRAPHY.md",
-    "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
     "CORE_CONCEPTS/NETWORKING FUNDAMENTALS/DNS.md",
     "BASH.md",
     "DIGITAL FORENSICS",
@@ -197,7 +199,6 @@
     "POST-EXPLOITATION_&_LATERAL_MOVEMENT/LATERAL_MOVEMENT/desktop.ini",
     "POST-EXPLOITATION_&_LATERAL_MOVEMENT/CREDENTIAL_DUMPING/desktop.ini",
     "POST-EXPLOITATION_&_LATERAL_MOVEMENT/TUNNELING_&_PIVOTING",
-    "POST-EXPLOITATION_&_LATERAL_MOVEMENT/LATERAL_MOVEMENT",
     "Welcome.md",
     "Untitled.canvas",
     "CORE CONCEPTS/NETWORKING FUNDAMENTALS.md"

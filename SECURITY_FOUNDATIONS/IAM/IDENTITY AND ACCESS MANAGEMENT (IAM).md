@@ -22,7 +22,7 @@ ___
 
 ## IDP (Identity Provider)
 - A trusted service that **authenticates users** and **issues identity tokens**.
-- Examples: **Azure AD**, **Google**, **Auth0**, **Okta**, **Keycloak**.
+- Examples: ==**Azure AD**, **Google**, **Auth0**, **Okta**, **Keycloak**.==
 ## Token
 - A compact, digitally signed string that **represents the user's identity and permissions**.
 - Common types:
@@ -94,6 +94,6 @@ Each organization’s **IdP trusts the other**, allowing users to access resourc
         _→ Federation across multiple departments/IdPs._
 
 ### Analogy
-> - **SSO** is like using one key to unlock all doors **in your own house**.
-> - **Federation** is like using your work ID badge to enter **another company’s building**, because they’ve agreed to trust your employer’s ID system.
+ - **SSO** is like using one key to unlock all doors **in your own house**.
+ - **Federation** is like using your work ID badge to enter **another company’s building**, because they’ve agreed to trust your employer’s ID system.
 
