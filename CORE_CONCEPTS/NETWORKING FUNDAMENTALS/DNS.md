@@ -26,6 +26,7 @@ Think of DNS like your phone's contacts list:
 | Subdomain              | Sits to the left of the Second-Level Domain. Can be used to create subdivisions of a site.                | `admin` in `admin.tryhackme.com` | A subdomain name has the same creation restrictions as a Second-Level Domain, being limited to 63 characters and can only use a-z 0-9 and hyphens (cannot start or end with hyphens or have consecutive hyphens). You can use multiple subdomains split with periods to create longer names, such as jupiter.servers.tryhackme.com. But the length must be kept to 253 characters or less. |
 
 ---
+
 # DNS Record Types
 
 | **A Record**     |     |
@@ -36,6 +37,7 @@ Think of DNS like your phone's contacts list:
 | **TXT Record**   |     |
 
 ___
+
 # What happens when you make a DNS request
 <img width="400" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1724075620083.png">
 1. When you request a domain name, your computer first checks its local cache to see if you've previously looked up the address recently; if not, a request to your Recursive DNS Server will be made.
