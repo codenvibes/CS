@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SECURITY_FOUNDATIONS/IAM/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
+                "file": "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
                 "mode": "source",
                 "source": false
               },
@@ -180,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e929a11384cd7ceb",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "SECURITY_FOUNDATIONS/IAM/ENTRA ID.md",
-    "SECURITY_FOUNDATIONS/IAM/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
+    "SECURITY_FOUNDATIONS/IDENTITY AND ACCESS MANAGEMENT (IAM).md",
     "SECURITY_FOUNDATIONS/IAM",
     "DIGITAL FORENSICS/STEGANOGRAPHY.md",
     "CORE_CONCEPTS/NETWORKING FUNDAMENTALS/DNS.md",
