@@ -97,3 +97,7 @@ Each organization’s **IdP trusts the other**, allowing users to access resourc
  - **SSO** is like using one key to unlock all doors **in your own house**.
  - **Federation** is like using your work ID badge to enter **another company’s building**, because they’ve agreed to trust your employer’s ID system.
 
+
+---
+
+# References

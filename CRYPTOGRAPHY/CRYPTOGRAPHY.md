@@ -1,0 +1,14 @@
+
+---
+
+# HASHING
+
+
+---
+
+# ENCRYPTION
+
+
+---
+
+# DECRYPTION

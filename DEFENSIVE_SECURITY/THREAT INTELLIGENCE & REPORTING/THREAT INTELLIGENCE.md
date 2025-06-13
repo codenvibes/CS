@@ -1,4 +1,4 @@
-Threat Intelligence is ==the analysis of data and information using tools and techniques to generate meaningful patterns on how to mitigate against potential risks associated with existing or emerging threats targeting organisations, industries, sectors or governments==.
+Threat Intelligence is ==the analysis of data and information using tools and techniques to generate meaningful patterns on how to mitigate against potential risks associated with existing or emerging threats targeting organizations, industries, sectors or governments==.
 
 To mitigate against risks, we can start by trying to answer a few simple questions:
 - Who's attacking you?
@@ -16,13 +16,24 @@ Threat Intel is geared towards understanding the relationship between your opera
 - **Operational Intel:** Looks into an adversary's specific motives and intent to perform an attack. Security teams may use this intel to understand the critical assets available in the organisation (people, processes, and technologies) that may be targeted.
 
 
-- Using [[UrlScan.io]] to scan for malicious URLs.
-- Using Abuse.ch to track malware and botnet indicators.
+---
+
+# Threat Intelligence Tools
+
+- Using [UrlScan.io](https://urlscan.io/) to scan for malicious URLs.
+- Using [Abuse.ch](https://abuse.ch/) to track malware and botnet indicators. It was developed to identify and track malware and botnets through several operational platforms developed under the project. These platforms are:
+	- [Malware Bazaar](https://bazaar.abuse.ch/):  A resource for sharing malware samples.
+	- [Feodo Tracker](https://feodotracker.abuse.ch/):  A resource used to track botnet command and control (C2) infrastructure linked with Emotet, Dridex and TrickBot.
+	- [SSL Blacklist](https://sslbl.abuse.ch/):  A resource for collecting and providing a blocklist for malicious SSL certificates and JA3/JA3s fingerprints.
+	- [URL Haus](https://urlhaus.abuse.ch/):  A resource for sharing malware distribution sites.
+	- [Threat Fox](https://threatfox.abuse.ch/):  A resource for sharing indicators of compromise (IOCs).
 - Investigate phishing emails using PhishTool
-- Using Cisco's Talos Intelligence platform for intel gatherin
+- Using Cisco's Talos Intelligence platform for intel gathering
+
 
 ---
 
 # References
-- https://tryhackme.com/room/threatinteltools
+
+https://tryhackme.com/room/threatinteltools
 
