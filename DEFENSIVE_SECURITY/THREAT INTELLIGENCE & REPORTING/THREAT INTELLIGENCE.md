@@ -36,4 +36,7 @@ Threat Intel is geared towards understanding the relationship between your opera
 # References
 
 https://tryhackme.com/room/threatinteltools
-
+https://urlscan.io/
+https://abuse.ch/
+https://www.phishtool.com/
+https://talosintelligence.com/
