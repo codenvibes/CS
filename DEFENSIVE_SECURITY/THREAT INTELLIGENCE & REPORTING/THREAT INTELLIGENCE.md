@@ -27,8 +27,8 @@ Threat Intel is geared towards understanding the relationship between your opera
 	- [SSL Blacklist](https://sslbl.abuse.ch/):  A resource for collecting and providing a blocklist for malicious SSL certificates and JA3/JA3s fingerprints.
 	- [URL Haus](https://urlhaus.abuse.ch/):  A resource for sharing malware distribution sites.
 	- [Threat Fox](https://threatfox.abuse.ch/):  A resource for sharing indicators of compromise (IOCs).
-- Investigate phishing emails using PhishTool
-- Using Cisco's Talos Intelligence platform for intel gathering
+- Investigate phishing emails using [PhishTool](https://www.phishtool.com/)
+- Using [Cisco's Talos Intelligence](https://talosintelligence.com/) platform for intel gathering
 
 
 ---
