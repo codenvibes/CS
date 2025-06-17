@@ -13,19 +13,13 @@ Namespaces are a fundamental feature of modern operating systems, especially Lin
 Processes running within the same namespace can see and interact with one another, but are isolated from processes in other namespaces. This is crucial for **security and process separation**, particularly in containerized environments (like Docker), where you want one container’s processes to remain invisible and inaccessible to another.
 
 In practical terms, namespaces allow different processes to:
-
 - Have isolated views of the filesystem
-    
 - Use different network stacks
-    
 - See different sets of running processes (via PID namespaces)
-    
 - Control resource consumption independently
-    
 
----
 
-#### 🔸 The Role of PIDs
+#### The Role of PIDs
 
 Each process on a Linux system is assigned a **Process Identifier (PID)**, which uniquely distinguishes it from other processes. The kernel uses these PIDs to manage and track processes efficiently.
 
