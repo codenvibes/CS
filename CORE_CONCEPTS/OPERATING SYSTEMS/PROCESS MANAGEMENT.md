@@ -2,16 +2,14 @@
 
 
 ## Viewing Processes
+
 [[ps]] 
-
----
-
 [[top]]
 
 ---
+## Managing Processes
 
 [[kill]]
-
 
 ---
 
