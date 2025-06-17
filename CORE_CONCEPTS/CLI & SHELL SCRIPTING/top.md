@@ -1,6 +1,6 @@
+#bash 
 
 The `top` command is a **real-time system monitoring tool** available on **Unix-like systems** (such as Linux and macOS). It displays live information about system processes, including:
-
 - CPU usage
 - Memory usage
 - Running tasks
@@ -8,21 +8,37 @@ The `top` command is a **real-time system monitoring tool** available on **Unix-
 - User running each process
 - Time each process has been running
 
----
 
-### 🔧 Example Output (Linux):
+## Example Output (Linux):
 
 ```bash
 top
 ```
 
 ```
-top - 10:31:01 up  1:42,  2 users,  load average: 0.50, 0.45, 0.25
-Tasks: 160 total,   2 running, 158 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  5.0 us,  1.0 sy,  0.0 ni, 93.5 id,  0.5 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem :  8054352 total,  1219832 free,  3245000 used,  3589520 buff/cache
-PID  USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
-2020 user      20   0  267848   8240   6984 S   1.3  0.1   0:00.39 gnome-terminal-
+┌──(mopsy㉿APHP)-[~]
+└─$ top
+top - 08:23:17 up 48 min,  0 user,  load average: 0.36, 0.49, 0.43
+Tasks:  14 total,   1 running,  13 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.1 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3862.9 total,   2955.7 free,    667.2 used,    469.2 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3195.6 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    431 mopsy     20   0   10344   5044   2948 R   0.7   0.1   0:01.92 top
+      1 root      20   0   22700  13640  10512 S   0.0   0.3   0:03.85 systemd
+      2 root      20   0    2784   1928   1796 S   0.0   0.0   0:00.20 init-systemd(ka
+      6 root      20   0    2776      4      0 S   0.0   0.0   0:00.00 init
+    125 root      20   0    2792    212     80 S   0.0   0.0   0:00.00 SessionLeader
+    126 root      20   0    2792    216     80 S   0.0   0.0   0:00.12 Relay(127)
+    127 mopsy     20   0    7416   4228   3528 S   0.0   0.1   0:00.08 bash
+    128 root      20   0    7220   3620   3100 S   0.0   0.1   0:00.03 login
+    135 mopsy     20   0    4332   3728   3152 S   0.0   0.1   0:00.02 bash
+    167 root      20   0   33760  12088  11040 S   0.0   0.3   0:00.87 systemd-journal
+    179 root      20   0   31320   9412   7672 S   0.0   0.2   0:01.60 systemd-udevd
+    238 root      20   0    4268   2588   2336 S   0.0   0.1   0:00.16 cron
+    239 message+  20   0    6780   3668   3344 S   0.0   0.1   0:00.34 dbus-daemon
+    245 root      20   0   17648   6904   5972 S   0.0   0.2   0:00.50 systemd
 ```
 
 ---
