@@ -117,7 +117,8 @@ Impacket accepts many formats for credentials:
 |NTLM Hash|`domain/user@target -hashes :<NTLM_HASH>`|
 |Kerberos Ticket|`-k -no-pass` (uses TGT from system)|
 
-## 🛡️ 4. **Use Case Scenarios**
+
+## 4. Use Case Scenarios
 
 |Goal|Tool|
 |---|---|
@@ -127,20 +128,14 @@ Impacket accepts many formats for credentials:
 |Relay NTLM auth|`ntlmrelayx.py`|
 |Create forged tickets|`ticketer.py`|
 
----
 
-## ✅ 5. **Best Practices**
+## 5. Best Practices
 
 - Use **VPN or lab environments** for testing.
-    
 - Pair with tools like **CrackMapExec**, **Responder**, and **BloodHound**.
-    
 - Consider setting up a **Windows test lab** with AD for hands-on learning.
-    
 
----
 
-Would you like to try a specific Impacket command step-by-step or see how it fits into a red team attack chain?
 ---
 
 ## References
