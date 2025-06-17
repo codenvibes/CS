@@ -1,6 +1,7 @@
 
-| Identity       | the set of things that define or characterize someone or something such, as their username and password and their level of authorization.    |
+|                |                                                                                                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Identity       | the set of things that define or characterize someone or something such, as their username and password and their level of authorization.    |
 | Authorization  | Denying or granting access to a user after Authentication by determining the level of access or the permissions an authenticated person has. |
 | Authentication | Authentication is the process of proving that a person is who they claim they are.                                                           |
 
@@ -10,12 +11,12 @@ The architecture and technologies that manage the identity lifecycle, authentica
 
 ### Four pillars of an identity infrastructure
 
-| **Administration** | Administration is about the creation and management/governance of identities for users, devices, and services. As an administrator, you manage how and under what circumstances the characteristics of identities can change (be created, updated, deleted). |
+|                    |                                                                                                                                                                                                                                                              |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Administration** | Administration is about the creation and management/governance of identities for users, devices, and services. As an administrator, you manage how and under what circumstances the characteristics of identities can change (be created, updated, deleted). |
 | **Authentication** | The authentication pillar tells the story of how much an IT system needs to know about an identity to have sufficient proof that they really are who they say they are. It involves the act of challenging a party for legitimate credentials.<br>           |
 | **Authorization**  | The authorization pillar is about processing the incoming identity data to determine the level of access an authenticated person or service has within the application or service that it wants to access.                                                   |
 | **Auditing**       | The auditing pillar is about tracking who does what, when, where, and how. Auditing includes having in-depth reporting, alerts, and governance of identities.                                                                                                |
-|                    |                                                                                                                                                                                                                                                              |
 
 ___
 

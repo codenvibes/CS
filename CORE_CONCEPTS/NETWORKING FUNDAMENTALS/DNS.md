@@ -20,18 +20,19 @@ Think of DNS like your phone's contacts list:
 <img width="500" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/a168c8511887fff98a6944619c4b5259.png">
 
 
-| TLD (Top-Level Domain) | The last part of a domain name (e.g., .com). Comes in two types: gTLD (Generic) and ccTLD (Country Code). | `.com`, `.org`, `.ca`, `.uk`     | There are two types of TLD, gTLD (Generic Top Level) and ccTLD (Country Code Top Level Domain). gTLDs show domain purpose, ccTLDs indicate geography.                                                                                                                                                                                                                                      |
+|                        |                                                                                                           |                                  |                                                                                                                                                                                                                                                                                                                                                                                            |
 | ---------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| TLD (Top-Level Domain) | The last part of a domain name (e.g., .com). Comes in two types: gTLD (Generic) and ccTLD (Country Code). | `.com`, `.org`, `.ca`, `.uk`     | There are two types of TLD, gTLD (Generic Top Level) and ccTLD (Country Code Top Level Domain). gTLDs show domain purpose, ccTLDs indicate geography.                                                                                                                                                                                                                                      |
 | Second-Level Domain    | The part directly left of the TLD. Represents the main name chosen during registration.                   | `tryhackme` in `tryhackme.com`   | Up to 63 characters. Only a-z, 0-9, and hyphens (-). Cannot start/end with hyphens or use consecutive hyphens.                                                                                                                                                                                                                                                                             |
 | Subdomain              | Sits to the left of the Second-Level Domain. Can be used to create subdivisions of a site.                | `admin` in `admin.tryhackme.com` | A subdomain name has the same creation restrictions as a Second-Level Domain, being limited to 63 characters and can only use a-z 0-9 and hyphens (cannot start or end with hyphens or have consecutive hyphens). You can use multiple subdomains split with periods to create longer names, such as jupiter.servers.tryhackme.com. But the length must be kept to 253 characters or less. |
-|                        |                                                                                                           |                                  |                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ---
 
 ## DNS Record Types
 
-| **A Record**     |     |
+|                  |     |
 | ---------------- | --- |
+| **A Record**     |     |
 | **AAAA Record**  |     |
 | **CNAME Record** |     |
 | **MX Record**    |     |
