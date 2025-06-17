@@ -22,13 +22,10 @@ BloodHound maps out **relationships and permissions** in an Active Directory net
     - **ACL-based privilege escalation**
 
 
-### 🧠 Example Use Case:
+## Example Use Case:
 
-> An attacker compromises a low-level user account. BloodHound reveals that this user has local admin rights on a machine where a domain admin is logged in. From there, the attacker uses credential dumping to get domain admin privileges — all visualized in BloodHound.
+An attacker compromises a low-level user account. BloodHound reveals that this user has local admin rights on a machine where a domain admin is logged in. From there, the attacker uses credential dumping to get domain admin privileges — all visualized in BloodHound.
 
----
-
-Let me know if you want a practical demo scenario or setup steps.
 ---
 
 ## References
