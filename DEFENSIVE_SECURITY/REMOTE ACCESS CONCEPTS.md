@@ -11,7 +11,7 @@ Some of the most common remote access technologies include but aren't limited to
 
 ---
 
-# SSH
+## SSH
 [Secure Shell (SSH)](https://en.wikipedia.org/wiki/SSH_\(Secure_Shell\)) is a cryptographic network protocol that runs on port `22` by default and is used to securely connect to remote systems over a network.
 - It enables **secure communication** between a client and a server.
 - Mostly used for **remote login** and **command execution** on servers.
@@ -24,14 +24,14 @@ Some of the most common remote access technologies include but aren't limited to
 | **Port 22**        | Default port SSH listens to                  |
 | **Username**       | The user account on the remote machine       |
 | **Authentication** | Can be done via **password** or **SSH keys** |
-## How SSH Works
+### How SSH Works
 1. The client sends a connection request to the server.
 2. The server responds with its public key.
 3. The client and server negotiate encryption (e.g., using RSA, Ed25519).
 4. The client authenticates (via password or key).
 5. A secure channel is established.
 
-## Basic SSH Command
+### Basic SSH Command
 
 ```bash
 ssh username@remote_host
@@ -50,9 +50,9 @@ ssh -p 2222 terrence@192.168.1.10
 ```
 
 
-## Using SSH Keys (Instead of Passwords)
+### Using SSH Keys (Instead of Passwords)
 
-### 1. Generate SSH Key Pair
+#### 1. Generate SSH Key Pair
 
 ```bash
 ssh-keygen
@@ -62,7 +62,7 @@ ssh-keygen
 - **Public key**: `id_rsa.pub` (can be shared)
 - **Private key**: `id_rsa` (keep secure!)
 
-### 2. Copy Public Key to Remote Server
+#### 2. Copy Public Key to Remote Server
 
 ```bash
 ssh-copy-id username@remote_host
@@ -70,7 +70,7 @@ ssh-copy-id username@remote_host
 
 Now, you can log in **without typing your password**.
 
-## Common SSH Options
+### Common SSH Options
 
 |Option|Purpose|
 |---|---|

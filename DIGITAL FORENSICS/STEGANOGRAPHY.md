@@ -13,7 +13,7 @@ There are different types of steganography depending on the medium used to hide 
 | 5. Network Steganography | Concealing data within network traffic.   | - **Covert channels**: Using unused packet fields.  <br>- **Steganographic tunneling**: Encapsulating data in other protocols.                |
 
 ---
-# Image Steganography
+## Image Steganography
 
 
 1. Prepare Files:
