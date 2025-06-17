@@ -29,9 +29,12 @@ An attacker compromises a low-level user account. BloodHound reveals that this u
 
 ---
 
-## 1. Installing BloodHound
+## Installing BloodHound
 
-### Requirements:
+```
+apt install bloodhound neo4j
+```
+
 ---
 
 ## References
