@@ -45,11 +45,8 @@ Some useful tools included in Impacket (located in the `examples/` directory):
 ### Requirements:
 
 - **Python 3.7+**
-    
-- Common Python packages (`pyasn1`, `pycryptodomex`, etc.)
-    
 
-### 💻 Installation:
+### Installation:
 
 ```bash
 # Clone the repository
