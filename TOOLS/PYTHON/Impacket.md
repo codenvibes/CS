@@ -58,15 +58,12 @@ pip install -r requirements.txt
 python3 setup.py install
 ```
 
-> ✅ Tip: Run commands with `python3` or add Impacket to your system PATH.
 
----
-
-## 🧰 2. **Basic Tools and Examples**
+## 2. Basic Tools and Examples
 
 Impacket comes with many tools located in the `examples/` directory.
 
-### 🔹 `smbclient.py` – SMB File Access
+### `smbclient.py` – SMB File Access
 
 ```bash
 python3 examples/smbclient.py user:pass@target_ip
@@ -74,22 +71,16 @@ python3 examples/smbclient.py user:pass@target_ip
 
 Like a Windows share browser. Use it to list and interact with SMB shares.
 
----
-
-### 🔹 `secretsdump.py` – Dump Password Hashes
+### `secretsdump.py` – Dump Password Hashes
 
 ```bash
 python3 examples/secretsdump.py user:pass@target_ip
 ```
 
 Extracts:
-
 - NTLM hashes
-    
 - Cached credentials
-    
 - LSA secrets
-    
 
 ---
 
