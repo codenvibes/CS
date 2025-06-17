@@ -1,3 +1,5 @@
 
 Study these before exam:
-nmap
+- [ ] nmap
+- [ ] metasploit
+- [ ] 
