@@ -21,50 +21,42 @@ Nmap sends specially crafted packets to target hosts and analyzes the responses.
 ## Common Command Examples
 
 **Scan a single IP**:
-    
 ```
 nmap 192.168.1.1
 ```
-    
+
 **Scan a range of IPs**:
-    
 ```
 nmap 192.168.1.1-50
 ```
-    
+
 **Scan a subnet**:
-    
 ```
 nmap 192.168.1.0/24
 ```
-    
+
 **Service version detection**:
-    
 ```
 nmap -sV 192.168.1.1
 ```
-    
+
 **OS detection**:
-    
 ```
 nmap -O 192.168.1.1
 ```
-    
+
 **Aggressive scan (includes version detection, OS detection, script scanning, traceroute)**:
-    
 ```
 nmap -A 192.168.1.1
 ```
-    
+
 
 ---
 
-### 🛠️ Advanced Features
+### Advanced Features
 
 - **NSE (Nmap Scripting Engine)**: Automates tasks like brute-force attacks, vulnerability detection, or backdoor detection.
-    
 - **Zenmap**: GUI version of Nmap for easier use.
-    
 
 ---
 
