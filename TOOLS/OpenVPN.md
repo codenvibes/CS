@@ -24,20 +24,20 @@ It allows:
 
 ## How to Connect Using OpenVPN (Linux)
 
-1. **Install OpenVPN**
-    
-    ```bash
-    sudo apt update
-    sudo apt install openvpn
-    ```
-    
-2. **Navigate to the `.ovpn` file**
-    
-    ```bash
-    cd ~/Downloads
-    ```
-    
-3. **Connect**
+**Install OpenVPN**
+
+```bash
+sudo apt update
+sudo apt install openvpn
+```
+
+Navigate to the `.ovpn` file
+
+```bash
+cd ~/Downloads
+```
+
+Connect
     
     ```bash
     sudo openvpn <filename>.ovpn
