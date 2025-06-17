@@ -8,31 +8,23 @@ It allows:
 - Safe connections on public Wi-Fi
 - ==Connecting virtual labs (e.g., TryHackMe or Hack The Box)==
 
-### Key Components
+## Key Components
 
 - **Client Config (`.ovpn`) file**: Contains settings, keys, and server info.
 - **Server**: Remote machine you're connecting to.
 - **Client**: Your local machine.
 
-
-### 📦 Common Files in OpenVPN Setup
+## Common Files in OpenVPN Setup
 
 - `.ovpn` file: Config file to connect to VPN
-    
 - `ca.crt`: Certificate authority file (validates server cert)
-    
 - `client.crt`: Your client certificate
-    
 - `client.key`: Your private key
-    
 - `ta.key`: TLS auth key (for additional security, optional)
-    
 
----
+## How to Connect Using OpenVPN (Linux)
 
-### 🔧 How to Connect Using OpenVPN (Linux)
-
-1. **Install OpenVPN**
+Install OpenVPN
     
     ```bash
     sudo apt update
