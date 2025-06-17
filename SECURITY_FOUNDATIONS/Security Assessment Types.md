@@ -10,6 +10,13 @@ A vulnerability assessment can be based on various security standards. Which sta
 
 Vulnerability assessments may be performed independently or alongside other security assessments depending on an organization's situation.
 
+
+## Penetration Test
+
+Here at `Hack The Box`, we love penetration tests, otherwise known as pentests. Our labs and many of our other Academy courses focus on pentesting.
+
+They're called penetration tests because testers conduct them to determine if and how they can penetrate a network. A pentest is a type of simulated cyber attack, and pentesters conduct actions that a threat actor may perform to see if certain kinds of exploits are possible.
+
 ---
 
 ## References
