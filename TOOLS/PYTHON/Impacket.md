@@ -82,9 +82,7 @@ Extracts:
 - Cached credentials
 - LSA secrets
 
----
-
-### 🔹 `psexec.py` – Remote Code Execution via SMB
+### `psexec.py` – Remote Code Execution via SMB
 
 ```bash
 python3 examples/psexec.py user:pass@target_ip
@@ -92,9 +90,7 @@ python3 examples/psexec.py user:pass@target_ip
 
 Launches a shell on the remote system, mimicking Sysinternals PsExec.
 
----
-
-### 🔹 `wmiexec.py` – Command Execution via WMI
+### `wmiexec.py` – Command Execution via WMI
 
 ```bash
 python3 examples/wmiexec.py user:pass@target_ip
@@ -102,9 +98,7 @@ python3 examples/wmiexec.py user:pass@target_ip
 
 Executes commands without writing to disk (fileless execution).
 
----
-
-### 🔹 `ntlmrelayx.py` – NTLM Relay Attacks
+### `ntlmrelayx.py` – NTLM Relay Attacks
 
 Used in **man-in-the-middle attacks** when capturing and relaying NTLM authentication.
 
@@ -112,9 +106,8 @@ Used in **man-in-the-middle attacks** when capturing and relaying NTLM authentic
 python3 examples/ntlmrelayx.py -tf targets.txt
 ```
 
----
 
-## 📚 3. **Authentication Formats**
+## 3. Authentication Formats
 
 Impacket accepts many formats for credentials:
 
@@ -123,8 +116,6 @@ Impacket accepts many formats for credentials:
 |Username & Password|`domain/user:password@target`|
 |NTLM Hash|`domain/user@target -hashes :<NTLM_HASH>`|
 |Kerberos Ticket|`-k -no-pass` (uses TGT from system)|
-
----
 
 ## 🛡️ 4. **Use Case Scenarios**
 
