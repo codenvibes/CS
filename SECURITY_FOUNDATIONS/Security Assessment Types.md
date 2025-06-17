@@ -15,8 +15,11 @@ Vulnerability assessments may be performed independently or alongside other secu
 
 A pentest is a type of simulated cyber attack, and pentesters conduct actions that a threat actor may perform to see if certain kinds of exploits are possible.
 
-The key difference between a pentest and an actual cyber attack is that the former is done with the full legal consent of the entity being pentested. Whether a pentester is an employee or a third-party contractor, they will need to sign a lengthy legal document with the target company that describes what they're allowed to do and what they're not allowed to do.
+The key difference between a pentest and an actual cyber attack is that the former is done with the full legal consent of the entity being pentested. Whether a pentester is an employee or a third-party contractor, they will need to sign a lengthy legal document with the target company that describes what they're allowed to do and what they're not allowed to do. As with a vulnerability assessment, an effective pentest will result in a detailed report full of information that can be used to improve a network's security.
 
+|     |     |
+| --- | --- |
+|     |     |
 
 
 ---
