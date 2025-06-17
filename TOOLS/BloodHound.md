@@ -22,7 +22,7 @@ BloodHound maps out **relationships and permissions** in an Active Directory net
     - **ACL-based privilege escalation**
 
 
-### Is BloodHound Malicious?
+## Is BloodHound Malicious?
 
 - **No**, BloodHound itself is **not malware**, but it **can be used by attackers**.
     
