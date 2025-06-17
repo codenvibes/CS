@@ -1,15 +1,12 @@
-
 #Process_Management #System_Initialization
 
-#### 🔹 How Do Processes Start?
+## How Do Processes Start?
 
 When an operating system boots up, it must set up a structured environment for managing and running various applications. One of the core responsibilities of the OS is to handle processes — individual instances of running programs — and manage how they consume and share system resources like CPU, memory, and I/O.
 
 To accomplish this, the OS uses **namespaces** and **process identifiers (PIDs)** to organize and isolate processes securely and efficiently.
 
----
-
-#### 🔸 Namespaces
+### Namespaces
 
 Namespaces are a fundamental feature of modern operating systems, especially Linux, used to isolate processes and control their access to system resources. They allow the OS to divide the system into isolated environments — you can think of these as slices of a cake. Each "slice" or namespace operates like a mini-environment, with its own subset of available resources.
 
