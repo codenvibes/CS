@@ -30,7 +30,7 @@ Only shows:
 - The `ps` command itself (since you're running it)
 
 
-## 🔹 `ps aux`
+#### `ps aux`
 
 This is the **standard way to list _all_ processes on the system** — across all users, not just yours.
 
@@ -55,14 +55,12 @@ user      1234  0.0  0.2  54320  2024 ?        Sl   09:01   0:03 /usr/bin/gnome-
 user      5678  0.0  0.0   4268   832 pts/0    R+   10:00   0:00 ps aux
 ```
 
----
+#### Summary:
 
-### ✅ Summary:
-
-|Command|Shows|Use When You Want To...|
-|---|---|---|
-|`ps`|Your own shell-related processes|Quickly see what’s running _in your terminal_|
-|`ps aux`|**All** processes for **all** users, detailed|Monitor the whole system or troubleshoot issues|
+| Command  | Shows                                         | Use When You Want To...                         |
+| -------- | --------------------------------------------- | ----------------------------------------------- |
+| `ps`     | Your own shell-related processes              | Quickly see what’s running _in your terminal_   |
+| `ps aux` | **All** processes for **all** users, detailed | Monitor the whole system or troubleshoot issues |
 
 Let me know if you want to filter by name, PID, memory usage, etc. — that's easy too!
 
