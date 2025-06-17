@@ -1,8 +1,16 @@
 #Process_Management #System_Initialization #Linux
 
-- [[ps]] 
-- [[top]]
-- [[kill]]
+
+## Viewing Processes
+[[ps]] 
+
+---
+
+[[top]]
+
+---
+
+[[kill]]
 
 
 ---
