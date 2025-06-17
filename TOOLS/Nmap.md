@@ -7,7 +7,7 @@
 - **Audit network security** by detecting vulnerabilities.
 
 
-### How It Works
+## How It Works
 
 Nmap sends specially crafted packets to target hosts and analyzes the responses. Based on these, it determines:
 - Host availability (is the host online?).
@@ -15,41 +15,42 @@ Nmap sends specially crafted packets to target hosts and analyzes the responses.
 - What services/versions are running.
 - Operating system and hardware characteristics.
 
+
 ---
 
-### 🖥️ Common Command Examples
+## Common Command Examples
 
-- **Scan a single IP**:
+**Scan a single IP**:
     
     ```
     nmap 192.168.1.1
     ```
     
-- **Scan a range of IPs**:
+**Scan a range of IPs**:
     
     ```
     nmap 192.168.1.1-50
     ```
     
-- **Scan a subnet**:
+**Scan a subnet**:
     
     ```
     nmap 192.168.1.0/24
     ```
     
-- **Service version detection**:
+**Service version detection**:
     
     ```
     nmap -sV 192.168.1.1
     ```
     
-- **OS detection**:
+**OS detection**:
     
     ```
     nmap -O 192.168.1.1
     ```
     
-- **Aggressive scan (includes version detection, OS detection, script scanning, traceroute)**:
+**Aggressive scan (includes version detection, OS detection, script scanning, traceroute)**:
     
     ```
     nmap -A 192.168.1.1
