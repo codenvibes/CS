@@ -38,43 +38,16 @@ cd ~/Downloads
 ```
 
 Connect
-    
-    ```bash
-    sudo openvpn <filename>.ovpn
-    ```
-    
-4. **Verify connection**
-    
-    - Check your IP
-        
-    - Use `ifconfig` or `ip a` to view tunnel interface (usually `tun0`)
-        
 
----
+```bash
+sudo openvpn <filename>.ovpn
+```
 
-### 🧠 Common Issues
+Verify connection
+- Check your IP
+- Use `ifconfig` or `ip a` to view tunnel interface (usually `tun0`)
 
-- `.ovpn` file missing
-    
-- No sudo privileges
-    
-- DNS leaks (use secure DNS or manually configure)
-    
-
----
-
-### 🔐 Security Tips
-
-- Don’t share your `.ovpn` file
-    
-- Rotate keys periodically
-    
-- Avoid storing VPN credentials in plaintext
-    
-
----
-
-### ✅ Use Cases in Cybersecurity Labs
+### Use Cases in Cybersecurity Labs
 
 - **TryHackMe/HTB**: Both use OpenVPN to connect your system to their virtual lab networks
     
