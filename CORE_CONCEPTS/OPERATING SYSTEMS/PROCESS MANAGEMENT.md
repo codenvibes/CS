@@ -19,18 +19,16 @@ In practical terms, namespaces allow different processes to:
 - Control resource consumption independently
 
 
-#### The Role of PIDs
+### The Role of PIDs
 
 Each process on a Linux system is assigned a **Process Identifier (PID)**, which uniquely distinguishes it from other processes. The kernel uses these PIDs to manage and track processes efficiently.
 
 - The process with **PID 0** is a special process. It is created by the kernel itself and is not a typical user-space process. It’s often referred to as the **swapper** or **idle** task.
-    
 - After this, **PID 1** is the first user-space process to be created — commonly the **init system**.
-    
 
----
 
-#### 🔸 systemd and the Init System
+
+### systemd and the Init System
 
 In modern Linux distributions such as Ubuntu, the init system is usually **`systemd`**, which plays a central role in system initialization and service management.
 
