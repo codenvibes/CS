@@ -41,3 +41,9 @@ Will show a list of running processes, similar to Task Manager. But the output f
 |Bash|`ps`|Show process list (native)|
 |PowerShell|`ps`|Alias for `Get-Process`|
 
+
+---
+
+# References
+
+https://tryhackme.com/room/linuxfundamentalspart3
