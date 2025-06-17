@@ -28,37 +28,15 @@ Some useful tools included in Impacket (located in the `examples/` directory):
 |`ticketer.py`|Creates Kerberos tickets for impersonation (Golden/Silver tickets).|
 |`ntlmrelayx.py`|Relays NTLM authentication to hijack sessions and authenticate to services.|
 
----
-
-### 🧠 **Use Cases:**
+### Use Cases:
 
 - **Red teaming / offensive security:**
-    
     - Credential theft, lateral movement, remote code execution.
-        
 - **Blue teaming / defense:**
-    
     - Emulating attacker behavior for detection testing.
-        
 - **Protocol testing:**
-    
     - Debug or reverse engineer Windows protocols.
-        
 
----
-
-### ⚠️ Legal & Ethical Note:
-
-Impacket is a powerful toolkit often used in **penetration testing**, but it can also be abused for malicious purposes. Always ensure:
-
-- You have **explicit authorization** before using it on a network.
-    
-- You comply with all **laws and ethical guidelines**.
-    
-
----
-
-Would you like help installing Impacket or using a specific tool from it?
 
 ---
 
