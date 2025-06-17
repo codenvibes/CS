@@ -58,13 +58,7 @@ nmap -A 192.168.1.1
 - **NSE (Nmap Scripting Engine)**: Automates tasks like brute-force attacks, vulnerability detection, or backdoor detection.
 - **Zenmap**: GUI version of Nmap for easier use.
 
----
 
-### ⚠️ Legal Note
-
-Using Nmap on networks you don’t own or have explicit permission to scan **can be illegal** and is considered unethical.
-
-Would you like help installing it or using it for a specific purpose?
 ---
 
 ## References
