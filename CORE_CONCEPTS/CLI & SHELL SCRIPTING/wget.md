@@ -46,3 +46,8 @@ Create a text file (`urls.txt`) with one URL per line, then:
 ```bash
 wget -i urls.txt
 ```
+
+
+---
+
+## References

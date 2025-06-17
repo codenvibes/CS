@@ -15,7 +15,7 @@ Think of DNS like your phone's contacts list:
 
 ---
 
-# Domain Hierarchy
+## Domain Hierarchy
 ![]()
 <img width="500" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/a168c8511887fff98a6944619c4b5259.png">
 
@@ -27,7 +27,7 @@ Think of DNS like your phone's contacts list:
 
 ---
 
-# DNS Record Types
+## DNS Record Types
 
 | **A Record**     |     |
 | ---------------- | --- |
@@ -38,7 +38,7 @@ Think of DNS like your phone's contacts list:
 
 ___
 
-# What happens when you make a DNS request
+## What happens when you make a DNS request
 <img width="400" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1724075620083.png">
 1. When you request a domain name, your computer first checks its local cache to see if you've previously looked up the address recently; if not, a request to your Recursive DNS Server will be made.
 2. A Recursive DNS Server is usually provided by your ISP, but you can also choose your own. This server also has a local cache of recently looked up domain names. If a result is found locally, this is sent back to your computer, and your request ends here (this is common for popular and heavily requested services such as Google, Facebook, Twitter). If the request cannot be found locally, a journey begins to find the correct answer, starting with the internet's root DNS servers.
@@ -49,4 +49,4 @@ ___
 
 ---
 
-# References
+## References
