@@ -26,26 +26,19 @@ Output (only a few lines):
 ```
 
 Only shows:
-
 - The shell
-    
 - The `ps` command itself (since you're running it)
-    
 
----
 
 ## 🔹 `ps aux`
 
 This is the **standard way to list _all_ processes on the system** — across all users, not just yours.
 
-### Breakdown:
+##### Breakdown:
 
 - `a` – show processes from **all users**
-    
 - `u` – show the user/owner of the process
-    
 - `x` – show processes **not attached to a terminal** (like daemons, background services)
-    
 
 Example:
 
