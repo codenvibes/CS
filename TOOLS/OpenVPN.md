@@ -24,7 +24,7 @@ It allows:
 
 ## How to Connect Using OpenVPN (Linux)
 
-Install OpenVPN
+1. **Install OpenVPN**
     
     ```bash
     sudo apt update
