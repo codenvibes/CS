@@ -1,5 +1,6 @@
 #Process_Management #System_Initialization #Linux
 
+
 ## How Do Processes Start?
 
 When an operating system boots up, it must set up a structured environment for managing and running various applications. One of the core responsibilities of the OS is to handle processes — individual instances of running programs — and manage how they consume and share system resources like CPU, memory, and I/O.
