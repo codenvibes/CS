@@ -22,26 +22,6 @@ BloodHound maps out **relationships and permissions** in an Active Directory net
     - **ACL-based privilege escalation**
 
 
-## Is BloodHound Malicious?
-
-- **No**, BloodHound itself is **not malware**, but it **can be used by attackers**.
-    
-- It’s also used by **defenders** (blue teams) to find and fix misconfigurations before attackers can exploit them.
-    
-
----
-
-### 🧰 Who Uses BloodHound?
-
-- **Red Teams** – To simulate real-world attacks.
-    
-- **Blue Teams** – To audit Active Directory security.
-    
-- **Security Researchers** – To study privilege escalation techniques.
-    
-
----
-
 ### 🧠 Example Use Case:
 
 > An attacker compromises a low-level user account. BloodHound reveals that this user has local admin rights on a machine where a domain admin is logged in. From there, the attacker uses credential dumping to get domain admin privileges — all visualized in BloodHound.
