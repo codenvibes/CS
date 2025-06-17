@@ -40,6 +40,130 @@ Some useful tools included in Impacket (located in the `examples/` directory):
 
 ---
 
+## 1. Installing Impacket
+
+### Requirements:
+
+- **Python 3.7+**
+    
+- Common Python packages (`pyasn1`, `pycryptodomex`, etc.)
+    
+
+### 💻 Installation:
+
+```bash
+# Clone the repository
+git clone https://github.com/fortra/impacket.git
+cd impacket
+
+# Install dependencies and setup
+pip install -r requirements.txt
+python3 setup.py install
+```
+
+> ✅ Tip: Run commands with `python3` or add Impacket to your system PATH.
+
+---
+
+## 🧰 2. **Basic Tools and Examples**
+
+Impacket comes with many tools located in the `examples/` directory.
+
+### 🔹 `smbclient.py` – SMB File Access
+
+```bash
+python3 examples/smbclient.py user:pass@target_ip
+```
+
+Like a Windows share browser. Use it to list and interact with SMB shares.
+
+---
+
+### 🔹 `secretsdump.py` – Dump Password Hashes
+
+```bash
+python3 examples/secretsdump.py user:pass@target_ip
+```
+
+Extracts:
+
+- NTLM hashes
+    
+- Cached credentials
+    
+- LSA secrets
+    
+
+---
+
+### 🔹 `psexec.py` – Remote Code Execution via SMB
+
+```bash
+python3 examples/psexec.py user:pass@target_ip
+```
+
+Launches a shell on the remote system, mimicking Sysinternals PsExec.
+
+---
+
+### 🔹 `wmiexec.py` – Command Execution via WMI
+
+```bash
+python3 examples/wmiexec.py user:pass@target_ip
+```
+
+Executes commands without writing to disk (fileless execution).
+
+---
+
+### 🔹 `ntlmrelayx.py` – NTLM Relay Attacks
+
+Used in **man-in-the-middle attacks** when capturing and relaying NTLM authentication.
+
+```bash
+python3 examples/ntlmrelayx.py -tf targets.txt
+```
+
+---
+
+## 📚 3. **Authentication Formats**
+
+Impacket accepts many formats for credentials:
+
+|Format|Example|
+|---|---|
+|Username & Password|`domain/user:password@target`|
+|NTLM Hash|`domain/user@target -hashes :<NTLM_HASH>`|
+|Kerberos Ticket|`-k -no-pass` (uses TGT from system)|
+
+---
+
+## 🛡️ 4. **Use Case Scenarios**
+
+|Goal|Tool|
+|---|---|
+|Browse SMB shares|`smbclient.py`|
+|Dump user credentials|`secretsdump.py`|
+|Remote command exec|`psexec.py` / `wmiexec.py`|
+|Relay NTLM auth|`ntlmrelayx.py`|
+|Create forged tickets|`ticketer.py`|
+
+---
+
+## ✅ 5. **Best Practices**
+
+- Use **VPN or lab environments** for testing.
+    
+- Pair with tools like **CrackMapExec**, **Responder**, and **BloodHound**.
+    
+- Consider setting up a **Windows test lab** with AD for hands-on learning.
+    
+
+---
+
+Would you like to try a specific Impacket command step-by-step or see how it fits into a red team attack chain?
+---
+
 ## References
 
 https://tryhackme.com/room/attacktivedirectory
