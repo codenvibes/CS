@@ -43,49 +43,23 @@ Once `systemd` starts:
 - Each child process receives its own PID and can run independently, though it remains under the overall control of `systemd`.
 
 This hierarchy is essential for resource management and makes it easier to:
-
 - Track running services
-    
 - Control startup behavior
-    
 - Gracefully stop or restart applications
-    
 - Monitor logs via `journalctl`
-    
 
----
 
-#### 🔸 Child Processes and Resource Sharing
+### Child Processes and Resource Sharing
 
 When a new application or service is started on a Linux system, it typically becomes a **child process** of `systemd` (or whichever process spawned it). This child process runs independently but shares some environment settings and potentially resource limits defined by its parent.
 
 This parent-child relationship between processes:
-
 - Forms a **process tree**
-    
 - Allows better tracking and grouping of related processes
-    
 - Is vital for process cleanup and termination when services crash or are stopped
-    
 
 For example, if you launch the Firefox browser, it may spawn multiple processes: one for the main UI, others for rendering tabs, extensions, or GPU acceleration. These are all structured in a tree under a parent process.
 
----
-
-### 📝 Summary
-
-Understanding how processes start — from namespaces and PID allocation to the init system and child processes — provides foundational knowledge for both system administration and cybersecurity. This knowledge is especially useful when:
-
-- Analyzing how malware maintains persistence
-    
-- Investigating process injection or hijacking techniques
-    
-- Understanding privilege escalation or sandbox escape scenarios
-    
-
----
-
-Let me know what you studied next, and I’ll add it in the same comprehensive format under the right section!
 
 ---
 
