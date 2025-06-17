@@ -15,6 +15,7 @@ The architecture and technologies that manage the identity lifecycle, authentica
 | **Authentication** | The authentication pillar tells the story of how much an IT system needs to know about an identity to have sufficient proof that they really are who they say they are. It involves the act of challenging a party for legitimate credentials.<br>           |
 | **Authorization**  | The authorization pillar is about processing the incoming identity data to determine the level of access an authenticated person or service has within the application or service that it wants to access.                                                   |
 | **Auditing**       | The auditing pillar is about tracking who does what, when, where, and how. Auditing includes having in-depth reporting, alerts, and governance of identities.                                                                                                |
+|                    |                                                                                                                                                                                                                                                              |
 
 ___
 
