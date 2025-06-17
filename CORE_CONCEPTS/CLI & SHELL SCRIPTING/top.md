@@ -41,51 +41,9 @@ MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3195.6 avail Mem
     245 root      20   0   17648   6904   5972 S   0.0   0.2   0:00.50 systemd
 ```
 
----
-
-### ✅ Is `top` available in:
-
-|Shell / OS|`top` Available?|Alternative|
-|---|---|---|
-|**Bash (Linux/macOS)**|✅ Yes|`htop` (more user-friendly)|
-|**PowerShell (Windows)**|❌ No (Not natively)|`Get-Process`, `tasklist`, or use `top` via WSL|
-
----
-
-### 🔄 Alternatives in PowerShell / Windows:
-
-1. **Get-Process** (PowerShell)
-    
-    ```powershell
-    Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
-    ```
-    
-2. **Tasklist** (CMD and PowerShell)
-    
-    ```cmd
-    tasklist
-    ```
-    
-3. **Windows Task Manager** (GUI)
-    
-4. **WSL** (Windows Subsystem for Linux)  
-    If you're using WSL, you can run `top` exactly as on Linux:
-    
-    ```bash
-    top
-    ```
-    
-
----
-
-### Summary:
-
-- `top` is a Linux/macOS command for real-time system monitoring.
-    
-- **Available in Bash**, not **natively in PowerShell**.
-    
-- Use `Get-Process` or install WSL if you want to use `top` on Windows.
 
 ---
 
 ## References
+
+https://tryhackme.com/room/linuxfundamentalspart3
