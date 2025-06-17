@@ -1,4 +1,4 @@
-# IOC
+## IOC
 
 An **IOC** stands for **Indicator of Compromise**. An **IOC** is a piece of forensic data that identifies potentially malicious activity on a system or network. These indicators help security teams **detect, respond to, and investigate** potential threats or intrusions.
 
@@ -13,25 +13,25 @@ An **IOC** stands for **Indicator of Compromise**. An **IOC** is a piece of fore
 - **Registry changes** in Windows that are commonly used by malware
 - **Command and control (C2) server connections**
 
-## How Are IOCs Used?
+### How Are IOCs Used?
 
 1. **Detection** – SIEM systems and antivirus software use IOCs to scan for signs of compromise.
 2. **Threat Hunting** – Analysts search for IOCs within logs and systems to identify threats.
 3. **Incident Response** – During or after an attack, IOCs help in understanding the scope and nature of the breach.
 4. **Threat Intelligence Sharing** – Organizations share IOCs with peers or industry groups to help others defend against known threats.
 
-## Example:
+### Example:
 
 If a threat actor uses the domain `malicious-update[.]com` to deliver malware, that domain becomes an IOC. Security teams can then block or monitor this domain across their infrastructure.
 
 ---
 
-# IOA
+## IOA
 
 
 ---
 
-# References
+## References
 
 
 

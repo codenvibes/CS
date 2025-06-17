@@ -83,7 +83,7 @@ Now, you can log in **without typing your password**.
 
 ---
 
-# References
+## References
 https://academy.hackthebox.com/module/77/section/847
 https://academy.hackthebox.com/module/77/section/847
 

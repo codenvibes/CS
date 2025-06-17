@@ -18,7 +18,7 @@ Threat Intel is geared towards understanding the relationship between your opera
 
 ---
 
-# Threat Intelligence Tools
+## Threat Intelligence Tools
 
 - Using [UrlScan.io](https://urlscan.io/) to scan for malicious URLs.
 - Using [Abuse.ch](https://abuse.ch/) to track malware and botnet indicators. It was developed to identify and track malware and botnets through several operational platforms developed under the project. These platforms are:
@@ -33,7 +33,7 @@ Threat Intel is geared towards understanding the relationship between your opera
 
 ---
 
-# References
+## References
 
 https://tryhackme.com/room/threatinteltools
 https://urlscan.io/
