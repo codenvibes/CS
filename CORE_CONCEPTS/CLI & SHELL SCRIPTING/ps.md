@@ -1,9 +1,10 @@
+#bash #powershell 
 
 The `ps` command is:
 - ✅ **A standard command in Bash (and other Unix/Linux shells)** — it stands for **"process status"**, and it’s used to display information about running processes.
 - ✅ **Also available in PowerShell**, but it **behaves differently**.
 
-### In **Bash (Linux/macOS)**:
+### In Bash (Linux/macOS):
 
 ```bash
 ps aux
@@ -12,7 +13,7 @@ ps aux
 This lists all running processes with detailed info.
 
 
-### 📌 In **PowerShell (Windows)**:
+### In PowerShell (Windows):
 
 ```powershell
 ps
@@ -32,9 +33,8 @@ ps
 
 Will show a list of running processes, similar to Task Manager. But the output format and options are different from Bash's `ps`.
 
----
 
-### ✅ Summary:
+### Summary:
 
 |Environment|Command|Purpose|
 |---|---|---|
