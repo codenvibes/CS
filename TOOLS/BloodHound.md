@@ -32,8 +32,11 @@ An attacker compromises a low-level user account. BloodHound reveals that this u
 ## Installing BloodHound
 
 ```
-apt install bloodhound neo4j
+sudo apt install bloodhound neo4j
 ```
+
+**Neo4j** is a graph database BloodHound relies on.
+
 
 ---
 
