@@ -64,6 +64,25 @@ This parent-child relationship between processes:
 
 For example, if you launch the Firefox browser, it may spawn multiple processes: one for the main UI, others for rendering tabs, extensions, or GPU acceleration. These are all structured in a tree under a parent process.
 
+---
+
+## Getting Processes/Services to Start on Boot
+
+Some applications can be started on the boot of the system that we own. For example, web servers, database servers or file transfer servers. This software is often critical and is often told to start during the boot-up of the system by administrators.
+
+In this example, we're going to be telling the apache web server to be starting apache manually and then telling the system to launch apache2 on boot.
+
+Enter the use of `systemctl` -- this command allows us to interact with the **systemd** process/daemon. Continuing on with our example, systemctl is an easy to use command that takes the following formatting: `systemctl [option] [service]`
+
+For example, to tell apache to start up, we'll use `systemctl start apache2`. Seems simple enough, right? Same with if we wanted to stop apache, we'd just replace the `[option]` with stop (instead of start like we provided)
+
+We can do four options with `systemctl`:
+
+- Start
+- Stop
+- Enable
+- Disable
+
 
 ---
 
