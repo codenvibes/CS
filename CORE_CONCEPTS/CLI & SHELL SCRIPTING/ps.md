@@ -41,4 +41,3 @@ Will show a list of running processes, similar to Task Manager. But the output f
 |Bash|`ps`|Show process list (native)|
 |PowerShell|`ps`|Alias for `Get-Process`|
 
-So yes, `ps` can be used in **both Bash and PowerShell**, but it **means different things** in each context.
