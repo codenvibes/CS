@@ -58,12 +58,12 @@ ___
 
 ---
 
-# **Single Sign-On (SSO)**
+## Single Sign-On (SSO)
 
 - **SSO** is a fundamental capability provided by **modern identity providers**.    
 - It allows a **user to authenticate once** and gain access to **multiple applications or systems** without needing to log in again for each one.    
 
-## Benefits of SSO:
+### Benefits of SSO:
 - Enhances **user experience** (fewer logins).
 - Improves **security** (fewer password prompts reduces phishing risk).
 - Centralizes **session management** and reduces password fatigue.
@@ -73,7 +73,7 @@ ___
 - Logging into apps like Spotify, Airbnb, or Canva using your **Google or Facebook** account.
 - This avoids creating a new username and password for each service.
 
-## Federation
+### Federation
 Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between the respective domain’s identity provider.
 Each organization’s **IdP trusts the other**, allowing users to access resources **across organizational boundaries**.
 
@@ -100,4 +100,4 @@ Each organization’s **IdP trusts the other**, allowing users to access resourc
 
 ---
 
-# References
+## References

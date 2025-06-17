@@ -5,7 +5,7 @@
 - **Social Security numbers**
 - **Bank account details**
 
-# 🎣 **Common Types of Phishing:**
+## Common Types of Phishing:
 
 | Type               | Description                                                                    |
 | ------------------ | ------------------------------------------------------------------------------ |
@@ -19,6 +19,6 @@
 
 ---
 
-# References
+## References
 
 https://tryhackme.com/room/threatinteltools
