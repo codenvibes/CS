@@ -45,7 +45,7 @@ top            # or use htop
 
 ---
 
-## ❌ `kill` in **PowerShell/Windows**:
+### ❌ `kill` in PowerShell/Windows:
 
 PowerShell does **not** have a native `kill` command, but you can terminate processes with:
 
@@ -63,17 +63,7 @@ taskkill /PID 1234 /F     # Forcefully ends process by PID
 taskkill /IM notepad.exe /F
 ```
 
----
 
-### Summary:
-
-|Shell|Kill Command|Example|
-|---|---|---|
-|Bash/Linux|`kill`, `kill -9`|`kill -9 1234`|
-|PowerShell|`Stop-Process`|`Stop-Process -Id 1234`|
-|CMD|`taskkill`|`taskkill /PID 1234 /F`|
-
-Let me know if you want a script to automatically find and kill a process by name.
 
 ---
 
