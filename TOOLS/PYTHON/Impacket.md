@@ -14,19 +14,19 @@
     - Written in Python, making it easily modifiable and scriptable.
 
 
-### 🛠️ **Common Impacket Tools:**
+### Common Impacket Tools:
 
 Some useful tools included in Impacket (located in the `examples/` directory):
 
-|Tool|Description|
-|---|---|
-|`smbclient.py`|SMB command-line client (like `smbclient` in Linux).|
-|`secretsdump.py`|Dumps NTLM hashes and secrets from remote Windows systems.|
-|`wmiexec.py`|Executes commands on a remote host using WMI.|
-|`psexec.py`|Runs commands remotely using the SMB protocol (like Sysinternals PsExec).|
-|`mimikatz.py`|Wrapper for invoking Mimikatz remotely.|
-|`ticketer.py`|Creates Kerberos tickets for impersonation (Golden/Silver tickets).|
-|`ntlmrelayx.py`|Relays NTLM authentication to hijack sessions and authenticate to services.|
+| Tool             | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| `smbclient.py`   | SMB command-line client (like `smbclient` in Linux).                        |
+| `secretsdump.py` | Dumps NTLM hashes and secrets from remote Windows systems.                  |
+| `wmiexec.py`     | Executes commands on a remote host using WMI.                               |
+| `psexec.py`      | Runs commands remotely using the SMB protocol (like Sysinternals PsExec).   |
+| `mimikatz.py`    | Wrapper for invoking Mimikatz remotely.                                     |
+| `ticketer.py`    | Creates Kerberos tickets for impersonation (Golden/Silver tickets).         |
+| `ntlmrelayx.py`  | Relays NTLM authentication to hijack sessions and authenticate to services. |
 
 ### Use Cases:
 
