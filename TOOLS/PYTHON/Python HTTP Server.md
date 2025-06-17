@@ -6,9 +6,9 @@ Python comes with a **built-in HTTP server module** called `http.server` (Python
 - Running lightweight development servers.
 
 
-### How to Start a Simple Server
+## How to Start a Simple Server
 
-#### Python 3
+### Python 3
 
 ```bash
 python -m http.server
@@ -17,7 +17,7 @@ python -m http.server
 - Serves files from the current directory on port `8000`.
 - Access it in your browser at: `http://localhost:8000`
 
-#### Python 2
+### Python 2
 
 ```bash
 python -m SimpleHTTPServer 8000
@@ -95,4 +95,4 @@ file                    100%[=================================================>]
 
 ---
 
-# References
+## References
