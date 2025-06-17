@@ -5,10 +5,10 @@
 | Authentication | Authentication is the process of proving that a person is who they claim they are.                                                           |
 
 ---
-# Identity Infrastructure
+## Identity Infrastructure
 The architecture and technologies that manage the identity lifecycle, authentication, authorization, and governance of user access.
 
-## Four pillars of an identity infrastructure
+### Four pillars of an identity infrastructure
 
 | **Administration** | Administration is about the creation and management/governance of identities for users, devices, and services. As an administrator, you manage how and under what circumstances the characteristics of identities can change (be created, updated, deleted). |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -18,19 +18,19 @@ The architecture and technologies that manage the identity lifecycle, authentica
 
 ___
 
-# Modern Authentication
+## Modern Authentication
 
-## IDP (Identity Provider)
+### IDP (Identity Provider)
 - A trusted service that **authenticates users** and **issues identity tokens**.
 - Examples: ==**Azure AD**, **Google**, **Auth0**, **Okta**, **Keycloak**.==
-## Token
+### Token
 - A compact, digitally signed string that **represents the user's identity and permissions**.
 - Common types:
     - **ID Token**: Provides identity information about the user (via OIDC).
     - **Access Token**: Grants access to a resource (via OAuth 2.0).
     - **Refresh Token**: Used to obtain new tokens without re-authenticating.
 	Tokens usually follow the **JWT (JSON Web Token)** format.
-## Claims
+### Claims
 - **Key-value pairs** embedded inside tokens.
 - They carry information about the user and the authentication session.
 - Examples of claims:
@@ -39,12 +39,12 @@ ___
     - `exp`: Expiration : The **timestamp** after which the token is no longer valid. Prevents the use of old, potentially compromised tokens.
     - `aud`: Audience : Indicates the **intended recipient** of the token. Ensures that a token meant for one service isn’t used in another.
     - `email`, `name`, `roles`: Additional user info    
-## Subject (`sub`)
+### Subject (`sub`)
 - A **unique identifier** for the authenticated user.    
 - Does not change even if the user's email or username does.    
 - Important for linking a token to a specific user.    
 
-## 🔐 Authentication Flow
+### Authentication Flow
 1. **Client initiates authentication** by submitting identity credentials to the **Identity Provider (IdP)**.    
 2. The **IdP verifies** the identity—this can involve passwords, biometrics, certificates, or other factors.    
 3. Upon successful authentication, the **IdP issues a security token** (e.g., a JWT).    
@@ -73,7 +73,7 @@ ___
 - Logging into apps like Spotify, Airbnb, or Canva using your **Google or Facebook** account.
 - This avoids creating a new username and password for each service.
 
-### Federation
+## Federation
 Federation enables the access of services across organizational or domain boundaries by establishing trust relationships between the respective domain’s identity provider.
 Each organization’s **IdP trusts the other**, allowing users to access resources **across organizational boundaries**.
 
