@@ -12,16 +12,16 @@ During enumeration, an attacker or ethical hacker:
     - System banners
 
 
-### 🛠️ **Common Enumeration Techniques & Tools**
+### Common Enumeration Techniques & Tools
 
-|Type|Examples|Tools|
-|---|---|---|
-|**NetBIOS/SMB**|Get network shares, users, OS info|`enum4linux`, `smbclient`|
-|**SNMP**|Extract network device info|`snmpwalk`|
-|**DNS Enumeration**|Discover subdomains, zone transfers|`dig`, `dnsrecon`|
-|**Port/Service Enum**|Discover open ports, banners|`nmap`, `netcat`|
-|**LDAP/AD Enumeration**|Find users/groups in AD|`ldapsearch`, BloodHound|
-|**Web App Enum**|Discover hidden pages/files|`gobuster`, `dirb`|
+| Type                    | Examples                            | Tools                     |
+| ----------------------- | ----------------------------------- | ------------------------- |
+| **NetBIOS/SMB**         | Get network shares, users, OS info  | `enum4linux`, `smbclient` |
+| **SNMP**                | Extract network device info         | `snmpwalk`                |
+| **DNS Enumeration**     | Discover subdomains, zone transfers | `dig`, `dnsrecon`         |
+| **Port/Service Enum**   | Discover open ports, banners        | `nmap`, `netcat`          |
+| **LDAP/AD Enumeration** | Find users/groups in AD             | `ldapsearch`, BloodHound  |
+| **Web App Enum**        | Discover hidden pages/files         | `gobuster`, `dirb`        |
 
 
 ---
