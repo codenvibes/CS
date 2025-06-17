@@ -1,24 +1,18 @@
 
 **Impacket** is a popular open-source collection of Python classes focused on working with network protocols. It's widely used by cybersecurity professionals for **penetration testing**, **network reconnaissance**, **credential dumping**, and **lateral movement** in Windows environments.
 
-### 🔍 **Key Features of Impacket:**
+## Key Features of Impacket:
 
 1. **Low-level protocol interaction:**
-    
     - Provides access to raw packets and lets you craft custom network protocol messages.
-        
     - Supports many protocols: **SMB, NTLM, DNS, RDP, LDAP, Kerberos, MSRPC**, and more.
-        
-2. **High-level scripting:**
     
+2. **High-level scripting:**
     - Comes with a set of **ready-to-use tools** for common offensive security tasks.
         
 3. **Python-based:**
-    
     - Written in Python, making it easily modifiable and scriptable.
-        
 
----
 
 ### 🛠️ **Common Impacket Tools:**
 
