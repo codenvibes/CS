@@ -60,9 +60,13 @@ scp -i ~/.ssh/id_rsa file.txt user@remote_host:/remote/path/
 |`-v`|Verbose mode (debugging info)|
 |`-C`|Enable compression during transfer|
 
-
 ## Security Notes
 
 - Uses SSH for encryption
 - Better than `ftp` or `rsh` for secure file transfer
 - SCP is being replaced in some cases by more modern tools like `rsync` or `sftp`, which offer more flexibility
+
+
+---
+
+## References
