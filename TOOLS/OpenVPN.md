@@ -47,49 +47,7 @@ Verify connection
 - Check your IP
 - Use `ifconfig` or `ip a` to view tunnel interface (usually `tun0`)
 
-### Use Cases in Cybersecurity Labs
 
-- **TryHackMe/HTB**: Both use OpenVPN to connect your system to their virtual lab networks
-    
-- **Simulated Attacks**: Secure your machine while attacking or pentesting remote VMs
-    
-
----
-
-## 📂 Where to Put These Notes in Your Structure
-
-This fits under:
-
-### 🛠️ Core Concepts → **Virtualization & VMs**
-
-- Because it's foundational for connecting to lab environments
-    
-
-AND
-
-### 🔍 Reconnaissance & Enumeration → **Lab Setup Tools** (optional sub-section)
-
-- Since VPN is a prerequisite for scanning and attacking target machines in THM/HTB labs
-    
-
-If we want to be even more specific, we could create a section:
-
----
-
-### 🌐 Network Tunneling & VPNs (Optional New Section)
-
-- OpenVPN
-    
-- WireGuard
-    
-- SSH Tunnels
-    
-- VPN Security Best Practices
-    
-
----
-
-Would you like to add that new section or keep it under “Virtualization & VMs”?
 ---
 
 ## References
