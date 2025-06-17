@@ -1,3 +1,4 @@
+#bash 
 
 The `kill` command is used to **send signals to processes**, most commonly to **terminate (kill) a process** by its PID (Process ID).
 
@@ -19,14 +20,14 @@ kill -9 1234        # Sends SIGKILL (force kill) to PID 1234
 kill -15 1234       # Explicitly sends SIGTERM
 ```
 
-### 🧠 Signals:
+### Signals:
 
-|Signal|Number|Meaning|
-|---|---|---|
-|`SIGTERM`|15|Graceful termination (default)|
-|`SIGKILL`|9|Forceful termination (cannot be ignored)|
-|`SIGHUP`|1|Hang up / restart|
-|`SIGSTOP`|19|Pause process|
+| Signal    | Number | Meaning                                  |
+| --------- | ------ | ---------------------------------------- |
+| `SIGTERM` | 15     | Graceful termination (default)           |
+| `SIGKILL` | 9      | Forceful termination (cannot be ignored) |
+| `SIGHUP`  | 1      | Hang up / restart                        |
+| `SIGSTOP` | 19     | Pause process                            |
 
 To list all available signals:
 
@@ -34,9 +35,8 @@ To list all available signals:
 kill -l
 ```
 
----
 
-### 🔍 How to find a PID:
+### How to find a PID:
 
 ```bash
 ps aux | grep process_name
@@ -45,7 +45,7 @@ top            # or use htop
 
 ---
 
-### ❌ `kill` in **PowerShell/Windows**:
+## ❌ `kill` in **PowerShell/Windows**:
 
 PowerShell does **not** have a native `kill` command, but you can terminate processes with:
 
