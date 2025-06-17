@@ -1,14 +1,18 @@
 
 ---
 
-# HASHING
+## HASHING
 
 
 ---
 
-# ENCRYPTION
+## ENCRYPTION
 
 
 ---
 
-# DECRYPTION
+## DECRYPTION
+
+---
+
+## References

@@ -2,7 +2,7 @@
 
 This is mainly done to **prevent accidental access**, especially when sharing malicious IPs or URLs in emails, logs, or reports (like in cybersecurity). The goal is to **avoid triggering firewalls, antivirus software, or a user’s browser**.
 
-### 🔧 Example:
+## Example:
 
 Original IP:
 
@@ -28,10 +28,14 @@ or
 192(.)168(.)0(.)1
 ```
 
-### ✅ Use Cases:
+## Use Cases:
 
 - Cybersecurity reports
 - Malware analysis writeups
 - Threat intelligence sharing
 - Avoiding automatic hyperlinking in emails or chat
 
+
+---
+
+## References
