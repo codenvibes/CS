@@ -33,22 +33,14 @@ Each process on a Linux system is assigned a **Process Identifier (PID)**, which
 In modern Linux distributions such as Ubuntu, the init system is usually **`systemd`**, which plays a central role in system initialization and service management.
 
 Here's what happens during system startup:
-
 1. The computer powers on and loads the **BIOS or UEFI** firmware.
-    
 2. This firmware loads the **bootloader** (like GRUB), which then loads the **Linux kernel**.
-    
 3. The kernel initializes hardware and low-level components and then starts **PID 1**, which is `systemd`.
-    
 
 Once `systemd` starts:
-
 - It acts as the **root process** of the entire user-space process tree.
-    
 - All other services, background daemons, and user programs are launched as **child processes of `systemd`**.
-    
 - Each child process receives its own PID and can run independently, though it remains under the overall control of `systemd`.
-    
 
 This hierarchy is essential for resource management and makes it easier to:
 
