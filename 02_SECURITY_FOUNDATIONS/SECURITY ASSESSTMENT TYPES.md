@@ -2,6 +2,7 @@ The primary purpose of most types of security assessments is to find and confirm
 
 Some types of security assessments are more appropriate for certain networks than others. But they all serve a purpose in improving cybersecurity. All organizations have different compliance requirements and risk tolerance, face different threats, and have different business models that determine the types of systems they run externally and internally. Some organizations have a much more mature security posture than their peers and can focus on advanced red team simulations conducted by third parties, while others are still working to establish baseline security. Regardless, all organizations must stay on top of both legacy and recent vulnerabilities and have a system for detecting and mitigating risks to their systems and data.
 
+---
 ## Vulnerability Assessment
 
 `Vulnerability assessments` are appropriate for all organizations and networks. A vulnerability assessment is based on a particular security standard, and compliance with these standards is analyzed (e.g., going through a checklist).
@@ -10,6 +11,8 @@ A vulnerability assessment can be based on various security standards. Which sta
 
 Vulnerability assessments may be performed independently or alongside other security assessments depending on an organization's situation.
 
+
+---
 
 ## Penetration Test
 
@@ -34,6 +37,15 @@ The key difference between a pentest and an actual cyber attack is that the form
 
 Often, pentesters specialize in a particular area. Penetration testers must have knowledge of many different technologies but still will usually have a specialty.
 
+| Type                           | Description                                        | Example Targets                       |
+| ------------------------------ | -------------------------------------------------- | ------------------------------------- |
+| **Network Pentest**            | Tests internal or external network infrastructure  | Routers, firewalls, workstations      |
+| **Web Application Pentest**    | Assesses security of websites and web applications | Login forms, APIs, session tokens     |
+| **Mobile App Pentest**         | Focuses on mobile applications (iOS/Android)       | APK/IPA files, APIs, local storage    |
+| **Cloud Pentest**              | Evaluates cloud environments and configurations    | AWS S3, IAM roles, Azure storage      |
+| **Wireless Pentest**           | Analyzes Wi-Fi networks and access points          | Access points, wireless clients       |
+| **Social Engineering Pentest** | Tests human factor by tricking users               | Employees, helpdesks, phishing emails |
+| **Physical Pentest**           | Checks physical security controls                  | Entry points, locks, USB ports        |
 
 ### Pentests based on Evasion/Stealth Techniques:
 | Type               | Stealth Level | Detectable by Security Tools? | Typical Use Case                         |
@@ -42,27 +54,6 @@ Often, pentesters specialize in a particular area. Penetration testers must have
 | **Evasive**        | ✅ High        | ❌ Rarely                      | Mimic stealthy real-world attackers      |
 | **Hybrid Evasive** | ⚠️ Medium     | ⚠️ Sometimes                  | Mix of stealth and coverage              |
 
----
-
-### 🔹 **1. By Scope / Target**
-
-
-
----
-
-### 🔹 **2. By Access Level (Knowledge)**
-
-
-
----
-
-### 🔹 **3. By Stealth / Detection Evasion**
-
-
-
----
-
-Let me know if you'd like this exported as a downloadable table or turned into a visual infographic.
 
 ---
 
