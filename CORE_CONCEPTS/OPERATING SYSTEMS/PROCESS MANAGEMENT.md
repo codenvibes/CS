@@ -288,18 +288,15 @@ Or kill by PID:
 kill 12345
 ```
 
----
 
-## 6. 🤔 Why Does This Matter?
+
+### Why Does This Matter?
 
 Here’s when backgrounding processes is useful:
 
 - **Long-running commands**: Background them and keep using the terminal.
-    
 - **Running scripts or servers**: Don’t let them block your session.
-    
 - **Pausing a command**: Suspend it and decide later if you want to kill or resume it.
-    
 
 It’s especially handy in **Linux server environments**, where you might be managing multiple processes from a single terminal.
 
