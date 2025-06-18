@@ -24,14 +24,14 @@ sudo systemctl restart <service-name>     # Fully restarts the service
 sudo systemctl reload <service-name>      # Reloads configuration without restarting (if supported)
 ```
 
-#### 3. **Enabling and Disabling Services (at boot)**
+### 3. Enabling and Disabling Services (at boot)
 
 ```bash
 sudo systemctl enable <service-name>      # Start service automatically on boot
 sudo systemctl disable <service-name>     # Disable service from starting at boot
 ```
 
-#### 4. **Checking Service Status**
+### 4. Checking Service Status
 
 ```bash
 systemctl status <service-name>
@@ -43,32 +43,32 @@ Example:
 systemctl status ssh
 ```
 
-#### 5. **Check if a Service is Enabled/Disabled**
+### 5. Check if a Service is Enabled/Disabled
 
 ```bash
 systemctl is-enabled <service-name>
 ```
 
-#### 6. **Listing All Services**
+### 6. Listing All Services
 
 ```bash
 systemctl list-units --type=service
 ```
 
-#### 7. **Listing All Loaded Units (services, sockets, devices, etc.)**
+### 7. Listing All Loaded Units (services, sockets, devices, etc.)
 
 ```bash
 systemctl list-units
 ```
 
-#### 8. **Rebooting or Shutting Down**
+### 8. Rebooting or Shutting Down
 
 ```bash
 sudo systemctl reboot
 sudo systemctl poweroff
 ```
 
-#### 9. **Daemon Reload**
+### 9. Daemon Reload
 
 If you change a unit file or add a new one:
 
