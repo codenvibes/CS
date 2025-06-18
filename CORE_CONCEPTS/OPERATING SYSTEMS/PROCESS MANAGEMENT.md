@@ -250,11 +250,13 @@ jobs
 Example output:
 
 ```
-[1]+  Stopped   ./loop.sh
-[2]-  Running   some_other_script.sh &
+┌──(mopsy㉿APHP)-[~]
+└─$ jobs
+[1]-  Stopped                 sleep 1
+[2]+  Stopped                 sleep 1
 ```
 
-### Bring a job back to the foreground:
+#### Bring a job back to the foreground:
 
 ```bash
 fg %1
