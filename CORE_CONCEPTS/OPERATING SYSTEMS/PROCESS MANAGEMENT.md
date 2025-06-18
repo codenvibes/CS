@@ -94,7 +94,35 @@ We can do four options with `systemctl`:
 
 ---
 
+## An Introduction to Backgrounding and Foregrounding in Linux
 
+Processes can run in two states: In the background and in the foreground. For example, commands that you run in your terminal such as "echo" or things of that sort will run in the foreground of your terminal as it is the only command provided that hasn't been told to run in the background. "Echo" is a great example as the output of echo will return to you in the foreground, but wouldn't in the background - take the screenshot below, for example.
+
+![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg1.png)  
+
+Here we're running `echo "Hi THM"` , where we expect the output to be returned to us like it is at the start. But after adding the `&` operator to the command, we're instead just given the ID of the echo process rather than the actual output -- as it is running in the background.
+
+This is great for commands such as copying files because it means that we can run the command in the background and continue on with whatever further commands we wish to execute (without having to wait for the file copy to finish first)
+
+We can do the exact same when executing things like scripts -- rather than relying on the & operator, we can use `Ctrl + Z` on our keyboard to background a process. It is also an effective way of "pausing" the execution of a script or command like in the example below:
+
+![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg2.png)  
+
+This script will keep on repeating "This will keep on looping until I stop!" until I stop or suspend the process. By using `Ctrl + Z` (as indicated by **T^Z**). Now our terminal is no longer filled up with messages -- until we foreground it, which we will discuss below.
+
+  
+
+**Foregrounding a process**
+
+Now that we have a process running in the background, for example, our script "background.sh" which can be confirmed by using the `ps aux` command, we can back-pedal and bring this process back to the foreground to interact with.
+
+![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg3.png)  
+
+With our process backgrounded using either `Ctrl + Z` or the `&` operator, we can use `fg` to bring this back to focus like below, where we can see the `fg` command is being used to bring the background process back into use on the terminal, where the output of the script is now returned to us.
+
+![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg4.png)
+
+![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg5.png)
 
 ---
 
