@@ -24,6 +24,7 @@ The key difference between a pentest and an actual cyber attack is that the form
 | White box pentesting | White box pentesting is typically conducted by giving the penetration tester full access to all systems, configurations, build documents, etc., and source code if web applications are in-scope. The goal here is to discover as many flaws as possible that would be difficult or impossible to discover blindly in a reasonable amount of time.                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
+
 ---
 
 ## References
