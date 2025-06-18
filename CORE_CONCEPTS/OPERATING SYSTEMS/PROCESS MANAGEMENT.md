@@ -110,7 +110,6 @@ These processes can run in **two modes**:
     - You don’t see the output (unless you redirect it).
     - Your terminal remains usable — you can type other commands.
 
----
 
 ## 2. 💡 How to Run Processes in the Background
 
