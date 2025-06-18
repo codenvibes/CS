@@ -26,14 +26,7 @@
 
 Here are some platforms and course titles to look into:
 
-|Platform|Course or Resource|Notes|
-|---|---|---|
-|**Tails OS**|[Tails documentation](https://tails.net/)|Teaches how to use an OS designed for anonymity.|
-|**TryHackMe**|"Anonymous" room (under Cyber Defense or Red Team paths)|Hands-on practical guide to staying anonymous.|
-|**Hack The Box Academy**|“Operational Security”|Focus on real-world OpSec practices.|
-|**Privacy Guides**|[privacyguides.org](https://www.privacyguides.org/)|A comprehensive privacy knowledge base (not a course, but gold).|
-|**Coursera / Udemy**|Search for “Digital Privacy”, “OpSec”, or “Online Anonymity”|Variable quality — look for reviews and syllabus.|
-|**Books**|"The Art of Invisibility" by Kevin Mitnick|Covers high-level and practical techniques for anonymity.|
+
 
 ---
 
@@ -263,13 +256,14 @@ Here’s a **comprehensive roadmap to achieving and maintaining strong online an
 
 ## 📚 Resources for All Levels
 
-|Type|Source|Description|
-|---|---|---|
-|Website|[privacyguides.org](https://www.privacyguides.org/)|Continuously updated guide to tools & tactics|
-|Course|TryHackMe “Anonymous” Room|Hands-on guide to using Tor, Tails, VPNs|
-|Book|_The Art of Invisibility_ – Kevin Mitnick|Best intro book to digital invisibility|
-|Docs|[Tails OS Docs](https://tails.net/)|How to stay safe using Tails|
-|Community|r/privacy, r/OpSec|Reddit forums to learn and ask questions|
+| Platform                 | Course or Resource                                           | Notes                                                            |
+| ------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------------- |
+| **Tails OS**             | [Tails documentation](https://tails.net/)                    | Teaches how to use an OS designed for anonymity.                 |
+| **TryHackMe**            | "Anonymous" room (under Cyber Defense or Red Team paths)     | Hands-on practical guide to staying anonymous.                   |
+| **Hack The Box Academy** | “Operational Security”                                       | Focus on real-world OpSec practices.                             |
+| **Privacy Guides**       | [privacyguides.org](https://www.privacyguides.org/)          | A comprehensive privacy knowledge base (not a course, but gold). |
+| **Coursera / Udemy**     | Search for “Digital Privacy”, “OpSec”, or “Online Anonymity” | Variable quality — look for reviews and syllabus.                |
+| **Books**                | "The Art of Invisibility" by Kevin Mitnick                   | Covers high-level and practical techniques for anonymity.        |
 
 ---
 
