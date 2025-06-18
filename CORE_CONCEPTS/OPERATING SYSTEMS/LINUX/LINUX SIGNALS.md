@@ -69,15 +69,11 @@ pkill -SIGINT python
 #### Sending signals interactively:
 
 - `Ctrl + C`: Sends `SIGINT`
-    
 - `Ctrl + Z`: Sends `SIGTSTP`
-    
 - `fg`, `bg`, `jobs`: Resume/switch foreground/background
-    
 
----
 
-### 2. **Listing Signals**
+### 2. Listing Signals
 
 #### Using `kill -l`:
 
@@ -91,9 +87,8 @@ Gives a list like:
  1) SIGHUP     2) SIGINT     3) SIGQUIT   ... 9) SIGKILL ...
 ```
 
----
 
-### 3. **Handling Signals in Scripts/Programs**
+### 3. Handling Signals in Scripts/Programs
 
 In shell scripting or programming languages like Python or C, processes can **trap and handle signals**.
 
