@@ -11,9 +11,7 @@ A vulnerability assessment can be based on various security standards. Which sta
 
 Vulnerability assessments may be performed independently or alongside other security assessments depending on an organization's situation.
 
-
 ---
-
 ## Penetration Test
 
 A pentest is a type of simulated cyber attack, and pentesters conduct actions that a threat actor may perform to see if certain kinds of exploits are possible.
@@ -21,17 +19,17 @@ A pentest is a type of simulated cyber attack, and pentesters conduct actions th
 The key difference between a pentest and an actual cyber attack is that the former is done with the full legal consent of the entity being pentested. Whether a pentester is an employee or a third-party contractor, they will need to sign a lengthy legal document with the target company that describes what they're allowed to do and what they're not allowed to do. As with a vulnerability assessment, an effective pentest will result in a detailed report full of information that can be used to improve a network's security.
 
 ### Pentests based on By Access Level:
-| Type          | Pentester's Knowledge      | Simulates                   | Common Use Case                 |
-| ------------- | -------------------------- | --------------------------- | ------------------------------- |
-| **Black Box** | No prior knowledge         | External attacker           | Public-facing attack simulation |
-| **Grey Box**  | Limited/internal knowledge | Insider or compromised user | Balance of realism and depth    |
-| **White Box** | Full system knowledge      | Internal audit              | Thorough security assessment    |
+| Type          | Pentester's Knowledge      | Simulates                   | Common Use Case                 |     |
+| ------------- | -------------------------- | --------------------------- | ------------------------------- | --- |
+| **Black Box** | No prior knowledge         | External attacker           | Public-facing attack simulation |     |
+| **Grey Box**  | Limited/internal knowledge | Insider or compromised user | Balance of realism and depth    |     |
+| **White Box** | Full system knowledge      | Internal audit              | Thorough security assessment    |     |
 
-| Type                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Black box pentesting | Black box pentesting is done with no knowledge of a network's configuration or applications. Typically a tester will either be given network access (or an ethernet port and have to bypass Network Access Control NAC) and nothing else (requiring them to perform their own discovery for IP addresses) if the pentest is internal, or nothing more than the company name if the pentest is from an external standpoint. This type of pentesting is usually conducted by third parties from the perspective of an external attacker. Often the customer will ask the pentester to show them discovered internal/external IP addresses/network ranges so they can confirm ownership and note down any hosts that should be considered out-of-scope. |
-| Grey box pentesting  | Grey box pentesting is done with a little bit of knowledge of the network they're testing, from a perspective equivalent to an employee who doesn't work in the IT department, such as a receptionist or customer service agent. The customer will typically give the tester in-scope network ranges or individual IP addresses in a grey box situation.                                                                                                                                                                                                                                                                                                                                                                                             |
-| White box pentesting | White box pentesting is typically conducted by giving the penetration tester full access to all systems, configurations, build documents, etc., and source code if web applications are in-scope. The goal here is to discover as many flaws as possible that would be difficult or impossible to discover blindly in a reasonable amount of time.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Type                 |
+| -------------------- |
+| Black box pentesting |
+| Grey box pentesting  |
+| White box pentesting |
 
 ### Pentests based on Scope/Target:
 
