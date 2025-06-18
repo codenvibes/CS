@@ -118,42 +118,6 @@ while True:
     pass
 ```
 
----
-
-## 🔹 Foreground vs. Background Jobs & Signals
-
-When working in a terminal:
-
-- Foreground jobs receive keyboard signals (`SIGINT`, `SIGTSTP`) directly.
-    
-- Background jobs do not receive these by default.
-    
-
-You can manage jobs using:
-
-- `jobs` – List current background/paused jobs
-    
-- `fg %1` – Bring job 1 to the foreground
-    
-- `bg %1` – Resume job 1 in background
-    
-- `kill %1` – Send `SIGTERM` to job 1
-    
-
----
-
-## 🔹 Signal Summary Table
-
-|Signal|Num|Catchable|Default Action|Keyboard Equivalent|
-|---|---|---|---|---|
-|`SIGTERM`|15|Yes|Terminate|–|
-|`SIGKILL`|9|**No**|Immediate Terminate|–|
-|`SIGINT`|2|Yes|Terminate|`Ctrl + C`|
-|`SIGQUIT`|3|Yes|Core dump|`Ctrl + \`|
-|`SIGTSTP`|20|Yes|Pause (stop)|`Ctrl + Z`|
-|`SIGSTOP`|19|**No**|Pause (stop)|–|
-|`SIGCONT`|18|Yes|Resume|–|
-|`SIGHUP`|1|Yes|Terminate|–|
 
 ---
 
