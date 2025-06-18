@@ -289,7 +289,6 @@ kill 12345
 ```
 
 
-
 ### Why Does This Matter?
 
 Here’s when backgrounding processes is useful:
@@ -300,13 +299,6 @@ Here’s when backgrounding processes is useful:
 
 It’s especially handy in **Linux server environments**, where you might be managing multiple processes from a single terminal.
 
----
-
-## ✅ Final Thought
-
-Foreground vs. background is not just about convenience — it’s about **control**. When you understand how to suspend, resume, and background processes, you're using your terminal like a pro. It’s one of the core concepts behind job control in Linux.
-
-Let me know if you want to test some of this out in a terminal, or if you’d like a little script to practice with.g)
 
 ---
 
