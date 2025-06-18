@@ -73,6 +73,7 @@ Organizations with a lower security maturity level may want to focus on vulnerab
 | **Relationship**       | A precursor to penetration testing.                                          | Builds on vulnerability assessments.                                              |
 | **Misconception**      | Not the same as a penetration test.                                          | Not “better” than a vulnerability assessment – they serve different purposes.     |
 | **Use Together?**      | Yes, they complement each other and can be done in the same year.            | Yes, but only after vulnerability assessments and remediation.                    |
+> **false positives** refer to **vulnerabilities that a scanner reports as existing, but which are not actually real or exploitable**.
 
 ----
 
