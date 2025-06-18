@@ -18,3 +18,4 @@
 | **Blue Teamer**                               | EDR Specialist, SIEM Engineer, Detection Engineer                                                                 | Detect and defend against cyber threats                             |
 | **CISO (Chief Information Security Officer)** | Deputy CISO, Security Program Manager, Security Risk Director                                                     | Lead the overall cybersecurity strategy and risk management efforts |
 
+Network Penetration Testing Web Appication Penetration Testing Wireless Penetration Testing Mobile Appiication Penetration Testing Social Engineering Penetration Testing Cloud Penetration Testing Physical Penetration Testing
