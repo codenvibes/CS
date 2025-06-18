@@ -47,6 +47,10 @@ Often, pentesters specialize in a particular area. Penetration testers must have
 | **Hybrid Evasive** | ⚠️ Medium     | ⚠️ Sometimes                  | Mix of stealth and coverage              |
 
 
+Pentesting is most appropriate for organizations with a medium or high security maturity level. Security maturity measures how well developed a company's cybersecurity program is, and security maturity takes years to build. It involves hiring knowledgeable cybersecurity professionals, having well-designed security policies and enforcement (such as configuration, patch, and vulnerability management), baseline hardening standards for all device types in the network, strong regulatory compliance, well-executed cyber incident response plans, a seasoned CSIRT (computer security incident response team), an established change control process, a CISO (chief information security officer), a CTO (chief technical officer), frequent security testing performed over the years, and strong security culture. Security culture is all about the attitude and habits employees have toward cybersecurity. Part of this can be taught through security awareness training programs and part by building security into the company's culture. Everyone, from secretaries to sysadmins to C-level staff, should be security conscious, understand how to avoid risky practices, and be educated on recognizing suspicious activity that should be reported to security staff.
+
+Organizations with a lower security maturity level may want to focus on vulnerability assessments because a pentest could find too many vulnerabilities to be useful and could overwhelm staff tasked with remediation. Before penetration testing is considered, there should be a track record of vulnerability assessments and actions taken in response to vulnerability assessments.
+
 ---
 
 ## References
