@@ -103,21 +103,13 @@ In Linux (and Unix-like systems), every command you run in a terminal starts a *
 These processes can run in **two modes**:
 
 - **Foreground**:
-    
     - You interact with the program directly in the terminal.
-        
     - You see all its output.
-        
     - You can’t type or run anything else until the process finishes or you interrupt it.
-        
 - **Background**:
-    
     - The program runs behind the scenes.
-        
     - You don’t see the output (unless you redirect it).
-        
     - Your terminal remains usable — you can type other commands.
-        
 
 ---
 
