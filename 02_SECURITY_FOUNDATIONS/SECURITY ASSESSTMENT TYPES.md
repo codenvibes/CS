@@ -76,6 +76,15 @@ Organizations with a lower security maturity level may want to focus on vulnerab
 
 Vulnerability assessments and penetration tests are not the only types of security assessments that an organization can perform to protect its assets. Other types of assessments may also be necessary, depending on the type of the organization.
 
+| **Assessment Type**        | **Description**                                                                                                         | **Applicability / Context**                                                                                           | **Notable Details**                                                                                                                                                    |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Security Audits**        | Mandated evaluations of an organization’s compliance with external regulations or standards.                            | Typically required by government agencies or industry associations.                                                   | Example: PCI-DSS compliance audits for businesses accepting credit cards. Noncompliance can lead to fines or restrictions on payment method acceptance.                |
+| **Bug Bounties**           | Programs inviting external individuals to find vulnerabilities in an organization’s applications.                       | Best suited for large organizations with high security maturity and ability to handle external vulnerability reports. | Payments can range from hundreds to hundreds of thousands of dollars. No automated scanning typically allowed. Example companies: Microsoft, Apple.                    |
+| **Red Team Assessment**    | Offensive security teams simulate realistic cyber attacks to test an organization’s defenses.                           | Suitable for companies with larger budgets and higher security maturity.                                              | Focuses on completing a goal (e.g., accessing sensitive data) rather than listing all vulnerabilities. Internal red teams perform more focused and continuous testing. |
+| **Purple Team Assessment** | Collaboration between offensive (red team) and defensive (blue team) security teams to enhance organizational security. | Used to foster real-time collaboration and improve security posture across departments.                               | Blue team learns and provides feedback during assessments. Example: Collaborating on PCI DSS compliance by watching red team test point-of-sale systems.               |
+
+
+
 ---
 
 ## References
