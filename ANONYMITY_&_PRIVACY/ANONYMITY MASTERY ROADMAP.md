@@ -35,41 +35,27 @@
 ####  Actions
 
 - Start using **VPNs** with a no-logs policy (e.g., Mullvad, ProtonVPN).
-    
 - Create separate **pseudonymous personas** for different purposes (social, research, etc.).
-    
 - Practice **compartmentalization**: Never mix identities or devices.
-    
 - Use **temporary/burner phone numbers** for signups (e.g., TextNow, MySudo).
-    
 - Learn to use **Incognito/Private Browsing** correctly (and its limitations).
 - Use **HTTP/SOCKS5 proxies** to route specific apps or browser traffic.
-    
 - Test with tools like **FoxProxy** (Firefox) or **Proxychains** (Linux).
-    
 - Learn to differentiate:
-    
-    - **Datacenter proxies** (fast, cheap, less anonymous)
-        
-    - **Residential proxies** (more believable IPs, more expensive)
-        
+    - **Datacenter proxies** (fast, cheap, less anonymous
+    - **Residential proxies** (more believable IPs, more expensive
     - **SOCKS5 proxies** (better for anonymity, e.g., from Tor)
 
 ####  Tools
 
 - VPN: Mullvad, ProtonVPN (not free ones)
-    
 - Burner phones or SIM cards (optional)
-    
 
 ####  Learn
 
 - How IP addresses reveal your location
-    
 - Why a VPN alone is **not** anonymity
-    
 - Threat modeling basics: _who do you want to hide from?_
-    
 
 ---
 
@@ -80,33 +66,22 @@
 ####  Actions
 
 - Use **Tor Browser** for sensitive browsing (from a non-personal OS).
-    
 - Boot from **Tails OS** (runs entirely from USB, leaves no traces).
-    
 - Communicate using **Signal**, Session, or Ricochet (anonymous chat).
-    
 - Use **crypto wallets** with privacy coins (e.g., Monero, Zcash).
-    
 
 ####  Tools
 
 - Tor Browser (download from [torproject.org](https://www.torproject.org/))
-    
 - Tails OS (burn to USB)
-    
 - Signal / Session
-    
 - Monero wallet (Feather Wallet)
-    
 
 ####  Learn
 
 - Onion routing & how Tor works
-    
 - Cryptocurrency privacy vs. pseudonymity
-    
 - What DNS leaks are and how to prevent them
-    
 
 ---
 
@@ -117,15 +92,10 @@
 ####  Actions
 
 - Use **Whonix** or **Qubes OS** for hardened, compartmentalized systems.
-    
 - Randomize or spoof your **browser fingerprint** (with caution).
-    
 - Chain **VPN → Tor → Internet** for extra layers.
-    
 - Use **MAC address randomization** on devices before connecting to networks.
-    
 - Never reuse usernames or emails across platforms.
-    
 
 ####  Tools
 
