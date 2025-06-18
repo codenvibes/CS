@@ -173,7 +173,6 @@ bg
 The command continues running in the background **from where it left off**.
 
 
-
 ### 3. 🔎 What Happens When You Use `&`?
 
 Let’s understand the internals a bit:
