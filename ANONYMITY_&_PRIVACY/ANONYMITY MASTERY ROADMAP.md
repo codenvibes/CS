@@ -197,7 +197,7 @@
 
 ---
 
-## 📚 Resources for All Levels
+## Resources for All Levels
 
 | Platform                 | Course or Resource                                           | Notes                                                            |
 | ------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------------- |
@@ -208,17 +208,11 @@
 | **Coursera / Udemy**     | Search for “Digital Privacy”, “OpSec”, or “Online Anonymity” | Variable quality — look for reviews and syllabus.                |
 | **Books**                | "The Art of Invisibility" by Kevin Mitnick                   | Covers high-level and practical techniques for anonymity.        |
 
----
-
-## 🧠 Final Advice
-
 - **Anonymity is a skill** — it improves with practice and paranoia.
-    
 - Always **assume compromise** and verify your setup.
-    
 - Never become lazy with habits. One mistake can undo everything.
-    
 
 ---
 
-Would you like this as a **PDF roadmap** or **Notion template** to track your progress?
+## References
+
