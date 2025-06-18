@@ -264,7 +264,7 @@ fg %1
 
 This brings job number 1 to the foreground. If you leave out `%1`, `fg` defaults to the last job.
 
-### Continue a job in the background:
+#### Continue a job in the background:
 
 ```bash
 bg %1
@@ -272,7 +272,7 @@ bg %1
 
 This resumes a **stopped** job and puts it in the background.
 
-### Terminate a job:
+#### Terminate a job:
 
 - From foreground: `Ctrl + C` (sends SIGINT)
     
