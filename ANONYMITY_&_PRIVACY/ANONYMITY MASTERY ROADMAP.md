@@ -2,44 +2,29 @@
 
 **Goal**: Minimize your current exposure and lay the groundwork for privacy hygiene.
 
-#### 🔹 Actions
+### Actions
 
 - Use a **privacy-first browser**: Firefox (hardened) or Brave.
-    
 - Install key **privacy extensions**:
-    
     - uBlock Origin
-        
     - Privacy Badger
-        
     - HTTPS Everywhere (or use Brave’s built-in)
-        
 - Switch to **privacy-respecting search engines**:
-    
     - DuckDuckGo or Startpage
-        
 - Create a **burner email** using ProtonMail or Tutanota.
-    
 - Audit and delete old or unused online accounts ([JustDelete.me](https://justdelete.me/)).
-    
 
-#### 🔹 Tools
+####  Tools
 
-- Browser: Brave or Firefox (with telemetry off)
-    
-- Email: ProtonMail / Tutanota
-    
-- Password Manager: Bitwarden or KeePassXC
-    
+- Browser: Brave or Firefox (with telemetry of
+- Email: ProtonMail / Tutano
+- Password Manager: Bitwarden or KeePass
 
-#### 🔹 Learn
+####  Learn
 
 - What is metadata and why it matters
-    
 - How trackers and cookies work
-    
 - How websites fingerprint you
-    
 
 ---
 
@@ -47,7 +32,7 @@
 
 **Goal**: Start separating your real identity from online activities.
 
-#### 🔹 Actions
+####  Actions
 
 - Start using **VPNs** with a no-logs policy (e.g., Mullvad, ProtonVPN).
     
@@ -70,14 +55,14 @@
         
     - **SOCKS5 proxies** (better for anonymity, e.g., from Tor)
 
-#### 🔹 Tools
+####  Tools
 
 - VPN: Mullvad, ProtonVPN (not free ones)
     
 - Burner phones or SIM cards (optional)
     
 
-#### 🔹 Learn
+####  Learn
 
 - How IP addresses reveal your location
     
@@ -92,7 +77,7 @@
 
 **Goal**: Begin browsing, communicating, and transacting anonymously.
 
-#### 🔹 Actions
+####  Actions
 
 - Use **Tor Browser** for sensitive browsing (from a non-personal OS).
     
@@ -103,7 +88,7 @@
 - Use **crypto wallets** with privacy coins (e.g., Monero, Zcash).
     
 
-#### 🔹 Tools
+####  Tools
 
 - Tor Browser (download from [torproject.org](https://www.torproject.org/))
     
@@ -114,7 +99,7 @@
 - Monero wallet (Feather Wallet)
     
 
-#### 🔹 Learn
+####  Learn
 
 - Onion routing & how Tor works
     
@@ -129,7 +114,7 @@
 
 **Goal**: Combine tools, isolate environments, and eliminate traceable patterns.
 
-#### 🔹 Actions
+####  Actions
 
 - Use **Whonix** or **Qubes OS** for hardened, compartmentalized systems.
     
@@ -142,7 +127,7 @@
 - Never reuse usernames or emails across platforms.
     
 
-#### 🔹 Tools
+####  Tools
 
 - Whonix (ideal for anonymity with virtual machines)
     
@@ -151,7 +136,7 @@
 - MAC address changer (Linux: `macchanger`, Windows: TMAC)
     
 
-#### 🔹 Learn
+####  Learn
 
 - Virtual machines & sandboxing
     
@@ -166,7 +151,7 @@
 
 **Goal**: Master anonymity in real life and online. Be untraceable unless you _choose_ not to be.
 
-#### 🔹 Actions
+####  Actions
 
 - Never connect your real identity to your anonymous one (digitally or physically).
     
@@ -177,7 +162,7 @@
 - Study **de-anonymization** techniques to understand how people get exposed.
     
 
-#### 🔹 Tools
+####  Tools
 
 - Air-gapped laptop for ultra-private tasks
     
@@ -186,7 +171,7 @@
 - Disposable travel routers or 4G dongles with prepaid SIMs
     
 
-#### 🔹 Learn
+####  Learn
 
 - How facial recognition, gait analysis, and other bio-data work
     
