@@ -1,12 +1,3 @@
-Yes, there _are_ courses and resources that teach how to stay anonymous online — often under the umbrella of topics like:
-
-
-
-### 🔐 **Operational Security (OpSec)**
-
-This involves practices to protect your digital identity and avoid linking your online activities to your real-world identity.
-
----
 
 ### 🧑‍💻 Common Course Topics in Anonymity/Privacy
 
