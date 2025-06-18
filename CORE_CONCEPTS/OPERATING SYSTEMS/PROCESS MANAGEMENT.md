@@ -160,24 +160,21 @@ You’ll see something like:
 
 This means the job is paused (status: _Stopped_). You can now:
 
-- **Foreground it** again with:
-    
-    ```bash
-    fg
-    ```
-    
-- **Resume it in the background** with:
-    
-    ```bash
-    bg
-    ```
-    
+Foreground it** again with:
+```bash
+fg
+```
+
+Resume it in the background** with:
+```bash
+bg
+```
 
 The command continues running in the background **from where it left off**.
 
----
 
-## 3. 🔎 What Happens When You Use `&`?
+
+### 3. 🔎 What Happens When You Use `&`?
 
 Let’s understand the internals a bit:
 
