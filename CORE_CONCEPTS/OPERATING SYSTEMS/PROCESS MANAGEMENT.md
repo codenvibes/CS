@@ -81,7 +81,7 @@ Some applications can be started on the boot of the system that we own. For exam
 
 In this example, we're going to be telling the apache web server to be starting apache manually and then telling the system to launch apache2 on boot.
 
-Enter the use of `systemctl` -- this command allows us to interact with the **systemd** process/daemon. Continuing on with our example, systemctl is an easy to use command that takes the following formatting: `systemctl [option] [service]`
+Enter the use of `[[systemctl]]` -- this command allows us to interact with the **systemd** process/daemon. Continuing on with our example, systemctl is an easy to use command that takes the following formatting: `systemctl [option] [service]`
 
 For example, to tell apache to start up, we'll use `systemctl start apache2`. Seems simple enough, right? Same with if we wanted to stop apache, we'd just replace the `[option]` with stop (instead of start like we provided)
 

@@ -77,30 +77,7 @@ sudo systemctl daemon-reexec     # Reexecutes systemd itself
 sudo systemctl daemon-reload     # Reloads unit files without restarting systemd
 ```
 
----
 
-### 📁 Unit File Locations
-
-Unit files define how services are started. They're usually stored in:
-
-- `/etc/systemd/system/` – custom and system-specific overrides
-    
-- `/lib/systemd/system/` or `/usr/lib/systemd/system/` – packaged units
-    
-
----
-
-### 🔍 Example: Managing `nginx`
-
-```bash
-sudo systemctl start nginx
-sudo systemctl enable nginx
-systemctl status nginx
-```
-
----
-
-Would you like a cheat sheet or a breakdown of unit file structure next?
 ---
 
 ## References
