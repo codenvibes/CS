@@ -121,7 +121,7 @@ while True:
 
 ---
 
-## 🛠️ Real-World Examples
+## Real-World Examples
 
 ### Reloading a service (like `nginx`) without stopping it:
 
@@ -144,20 +144,14 @@ kill -CONT <PID>   # Resume
 
 ---
 
-## 🧠 Things to Remember
+## Things to Remember
 
 - **Prefer `SIGTERM` (15)** for clean shutdowns.
-    
 - **Use `SIGKILL` (9)** only when absolutely necessary — no cleanup happens.
-    
 - **`SIGSTOP` and `SIGKILL` cannot be caught or ignored**.
-    
 - Many daemons and services respond to **`SIGHUP`** by reloading config files.
-    
 
----
 
-Would you like a **printable PDF version**, **flashcards**, or example scripts to practice handling signals?
 ---
 
 ## References
