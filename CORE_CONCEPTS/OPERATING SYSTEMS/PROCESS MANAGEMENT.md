@@ -173,7 +173,7 @@ bg
 The command continues running in the background **from where it left off**.
 
 
-### 3. 🔎 What Happens When You Use `&`?
+### What Happens When You Use `&`?
 
 Let’s understand the internals a bit:
 
@@ -186,11 +186,8 @@ some_command &
 Three key things happen:
 
 1. The shell **forks** the process — it creates a child process to run the command.
-    
 2. That child process is **disassociated** from the terminal input/output — so it doesn’t "talk back" to the screen.
-    
 3. The shell immediately **returns control to you**, showing you the PID.
-    
 
 So if you're running something like:
 
@@ -202,9 +199,8 @@ You don’t have to wait for the copy to finish — you can go on and run other 
 
 If you don’t redirect output (`> file.txt`), the background process might still write messages to your terminal, especially if there are errors.
 
----
 
-## 4. ⏸️ Using `Ctrl + Z` to Suspend a Foreground Process
+### Using `Ctrl + Z` to Suspend a Foreground Process
 
 Let’s say you have a script that loops forever:
 
