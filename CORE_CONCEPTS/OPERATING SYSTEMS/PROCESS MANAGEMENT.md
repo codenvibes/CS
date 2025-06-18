@@ -311,31 +311,8 @@ It’s especially handy in **Linux server environments**, where you might be man
 | **Targeted by** | `kill`, `ps`, `top`             | `systemctl`, `service`                      |
 
 Every service is just a background process, often called a **daemon**.
-
 - `systemctl` is a **high-level manager** that figures out which process to start/stop.
-    
 - `kill` is **low-level** — it only knows about PIDs.
-    
-
-You **can** use `kill` to affect a service if you manually find its PID:
-
-```bash
-ps aux | grep nginx
-kill -9 1234
-```
-
-But this is **not recommended** for regular service control — it bypasses systemd’s tracking and might leave things in an inconsistent state.
-
----
-
-### ✅ Summary
-
-|Task|Use This Tool|
-|---|---|
-|Stop a specific **process**|`kill`, `killall`, `pkill`|
-|Stop/restart a **service**|`systemctl`, `service`|
-
-Let me know if you want a diagram or a cheat sheet showing these tools side by side!
 
 ---
 
