@@ -21,7 +21,7 @@ Some signals **cannot be caught or ignored**, like:
 
 ---
 
-## 🔹 Common Signals and Their Uses
+## Common Signals and Their Uses
 
 |Signal Name|Number|Description|Default Action|Typical Use Case|
 |---|---|---|---|---|
@@ -42,9 +42,9 @@ Some signals **cannot be caught or ignored**, like:
 
 ---
 
-## 🔹 Signal Commands and Usage
+## Signal Commands and Usage
 
-### 1. **Sending Signals**
+### 1. Sending Signals
 
 #### Using `kill` (by PID):
 
