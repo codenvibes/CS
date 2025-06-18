@@ -111,7 +111,7 @@ These processes can run in **two modes**:
     - Your terminal remains usable — you can type other commands.
 
 
-## 2. 💡 How to Run Processes in the Background
+### How to Run Processes in the Background
 
 ### Method 1: Use the `&` symbol
 
@@ -136,15 +136,12 @@ You get:
 ```
 
 - `12345` is the Process ID (PID).
-    
 - `[1]` is the job number.
-    
 
 This tells you: “Job 1 is now running in the background as process 12345.”
 
 But here's the catch: you **don’t see the output** in your terminal. The shell starts the process but doesn't tie the output to your screen, so nothing is printed.
 
----
 
 ### Method 2: Suspend a foreground job with `Ctrl + Z`, then background it with `bg`
 
