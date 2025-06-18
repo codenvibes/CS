@@ -70,6 +70,11 @@ Organizations with a lower security maturity level may want to focus on vulnerab
 | **Misconception**      | Not the same as a penetration test.                                          | Not “better” than a vulnerability assessment – they serve different purposes.     |
 | **Use Together?**      | Yes, they complement each other and can be done in the same year.            | Yes, but only after vulnerability assessments and remediation.                    |
 
+----
+
+## Other Types of Security Assessments
+
+Vulnerability assessments and penetration tests are not the only types of security assessments that an organization can perform to protect its assets. Other types of assessments may also be necessary, depending on the type of the organization.
 
 ---
 
