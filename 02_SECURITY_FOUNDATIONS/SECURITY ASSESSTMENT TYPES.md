@@ -17,7 +17,12 @@ A pentest is a type of simulated cyber attack, and pentesters conduct actions th
 
 The key difference between a pentest and an actual cyber attack is that the former is done with the full legal consent of the entity being pentested. Whether a pentester is an employee or a third-party contractor, they will need to sign a lengthy legal document with the target company that describes what they're allowed to do and what they're not allowed to do. As with a vulnerability assessment, an effective pentest will result in a detailed report full of information that can be used to improve a network's security.
 
-### Pentests based on By Access:
+### Pentests based on By Access Level:
+| Type          | Pentester's Knowledge      | Simulates                   | Common Use Case                 |
+| ------------- | -------------------------- | --------------------------- | ------------------------------- |
+| **Black Box** | No prior knowledge         | External attacker           | Public-facing attack simulation |
+| **Grey Box**  | Limited/internal knowledge | Insider or compromised user | Balance of realism and depth    |
+| **White Box** | Full system knowledge      | Internal audit              | Thorough security assessment    |
 
 | Type                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,42 +35,30 @@ The key difference between a pentest and an actual cyber attack is that the form
 Often, pentesters specialize in a particular area. Penetration testers must have knowledge of many different technologies but still will usually have a specialty.
 
 
-### Pentests based on Evasion Techniques:
-Here’s a **comprehensive table** combining the types of penetration tests by **scope/target**, **access level**, and **stealth**:
+### Pentests based on Evasion/Stealth Techniques:
+| Type               | Stealth Level | Detectable by Security Tools? | Typical Use Case                         |
+| ------------------ | ------------- | ----------------------------- | ---------------------------------------- |
+| **Non-Evasive**    | ❌ Low         | ✅ Yes                         | Test detection and response capabilities |
+| **Evasive**        | ✅ High        | ❌ Rarely                      | Mimic stealthy real-world attackers      |
+| **Hybrid Evasive** | ⚠️ Medium     | ⚠️ Sometimes                  | Mix of stealth and coverage              |
 
 ---
 
 ### 🔹 **1. By Scope / Target**
 
-|Type|Description|Example Targets|
-|---|---|---|
-|**Network Pentest**|Tests internal or external network infrastructure|Routers, firewalls, workstations|
-|**Web Application Pentest**|Assesses security of websites and web applications|Login forms, APIs, session tokens|
-|**Mobile App Pentest**|Focuses on mobile applications (iOS/Android)|APK/IPA files, APIs, local storage|
-|**Cloud Pentest**|Evaluates cloud environments and configurations|AWS S3, IAM roles, Azure storage|
-|**Wireless Pentest**|Analyzes Wi-Fi networks and access points|Access points, wireless clients|
-|**Social Engineering Pentest**|Tests human factor by tricking users|Employees, helpdesks, phishing emails|
-|**Physical Pentest**|Checks physical security controls|Entry points, locks, USB ports|
+
 
 ---
 
 ### 🔹 **2. By Access Level (Knowledge)**
 
-|Type|Pentester's Knowledge|Simulates|Common Use Case|
-|---|---|---|---|
-|**Black Box**|No prior knowledge|External attacker|Public-facing attack simulation|
-|**Grey Box**|Limited/internal knowledge|Insider or compromised user|Balance of realism and depth|
-|**White Box**|Full system knowledge|Internal audit|Thorough security assessment|
+
 
 ---
 
 ### 🔹 **3. By Stealth / Detection Evasion**
 
-|Type|Stealth Level|Detectable by Security Tools?|Typical Use Case|
-|---|---|---|---|
-|**Non-Evasive**|❌ Low|✅ Yes|Test detection and response capabilities|
-|**Evasive**|✅ High|❌ Rarely|Mimic stealthy real-world attackers|
-|**Hybrid Evasive**|⚠️ Medium|⚠️ Sometimes|Mix of stealth and coverage|
+
 
 ---
 
