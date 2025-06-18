@@ -101,7 +101,6 @@ We can do four options with `systemctl`:
 In Linux (and Unix-like systems), every command you run in a terminal starts a **process** — a running instance of a program.
 
 These processes can run in **two modes**:
-
 - **Foreground**:
     - You interact with the program directly in the terminal.
     - You see all its output.
