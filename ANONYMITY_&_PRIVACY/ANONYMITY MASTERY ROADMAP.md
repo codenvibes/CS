@@ -1,10 +1,4 @@
-
-
-## 🛡️ **Anonymity Mastery Roadmap**
-
----
-
-### ✅ **LEVEL 1: Privacy Foundations (Week 1–2)**
+# LEVEL 1: Privacy Foundations
 
 **Goal**: Minimize your current exposure and lay the groundwork for privacy hygiene.
 
