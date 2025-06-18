@@ -205,7 +205,7 @@ If you don’t redirect output (`> file.txt`), the background process might stil
 Let’s say you have a script that loops forever:
 
 ```bash
-while true; do echo "This will keep on looping until I stop!"; done
+while true; do echo "looping"; sleep 1; done
 ```
 
 When you run this, it fills your terminal with output.
@@ -223,8 +223,14 @@ This sends a **SIGTSTP** signal to the process, telling it to "stop temporarily.
 The shell responds with something like:
 
 ```
+┌──(mopsy㉿APHP)-[~]
+└─$ while true; do echo "looping"; sleep 1; done
+looping
+looping
+looping
+looping
 ^Z
-[1]+  Stopped   ./loop.sh
+[2]+  Stopped                 sleep 1
 ```
 
 Now the process is no longer flooding your terminal — it’s frozen in RAM, not terminated.
