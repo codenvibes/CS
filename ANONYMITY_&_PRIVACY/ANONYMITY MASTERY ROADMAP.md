@@ -1,4 +1,4 @@
-## LEVEL 1: Privacy Foundations
+## Level 1: Privacy Foundations
 
 **Goal**: Minimize your current exposure and lay the groundwork for privacy hygiene.
 
@@ -28,7 +28,7 @@
 
 ---
 
-## LEVEL 2: Basic Anonymity Layer
+## Level 2: Basic Anonymity Layer
 
 **Goal**: Start separating your real identity from online activities.
 
@@ -59,7 +59,7 @@
 
 ---
 
-## LEVEL 3: Anonymous Internet Use
+## Level 3: Anonymous Internet Use
 
 **Goal**: Begin browsing, communicating, and transacting anonymously.
 
@@ -85,7 +85,7 @@
 
 ---
 
-## LEVEL 4: Advanced Anonymity
+## Level 4: Advanced Anonymity
 
 **Goal**: Combine tools, isolate environments, and eliminate traceable patterns.
 
@@ -111,7 +111,7 @@
 
 ---
 
-## LEVEL 5: Expert OpSec & Real-World Anonymity
+## Level 5: Expert OpSec & Real-World Anonymity
 
 **Goal**: Master anonymity in real life and online. Be untraceable unless you _choose_ not to be.
 
