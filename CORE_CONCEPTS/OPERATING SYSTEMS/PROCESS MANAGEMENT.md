@@ -113,7 +113,7 @@ These processes can run in **two modes**:
 
 ### How to Run Processes in the Background
 
-### Method 1: Use the `&` symbol
+#### Method 1: Use the `&` symbol
 
 If you add an `&` at the end of any command, Linux starts that process in the **background**.
 
@@ -143,7 +143,7 @@ This tells you: “Job 1 is now running in the background as process 12345.”
 But here's the catch: you **don’t see the output** in your terminal. The shell starts the process but doesn't tie the output to your screen, so nothing is printed.
 
 
-### Method 2: Suspend a foreground job with `Ctrl + Z`, then background it with `bg`
+#### Method 2: Suspend a foreground job with `Ctrl + Z`, then background it with `bg`
 
 When you run a command (e.g., a looping script), it's in the foreground. If it's overwhelming or long-running, you can **pause** it without stopping it using:
 
