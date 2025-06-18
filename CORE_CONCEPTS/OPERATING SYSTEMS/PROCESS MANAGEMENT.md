@@ -275,7 +275,6 @@ This resumes a **stopped** job and puts it in the background.
 #### Terminate a job:
 
 - From foreground: `Ctrl + C` (sends SIGINT)
-    
 - From background: use `kill`, e.g.:
     
     ```bash
