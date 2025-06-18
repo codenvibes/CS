@@ -122,7 +122,17 @@ Here’s a **comprehensive roadmap to achieving and maintaining strong online an
 - Use **temporary/burner phone numbers** for signups (e.g., TextNow, MySudo).
     
 - Learn to use **Incognito/Private Browsing** correctly (and its limitations).
+- Use **HTTP/SOCKS5 proxies** to route specific apps or browser traffic.
     
+- Test with tools like **FoxProxy** (Firefox) or **Proxychains** (Linux).
+    
+- Learn to differentiate:
+    
+    - **Datacenter proxies** (fast, cheap, less anonymous)
+        
+    - **Residential proxies** (more believable IPs, more expensive)
+        
+    - **SOCKS5 proxies** (better for anonymity, e.g., from Tor)
 
 #### 🔹 Tools
 
