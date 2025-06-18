@@ -40,6 +40,9 @@ Often, pentesters specialize in a particular area. Penetration testers must have
 | **Physical Pentest**               | Physical pentesters try to leverage physical security weaknesses and breakdowns in processes to gain access to a facility such as a data center or office building.<br><br>- Can you open a door in an unintended way?<br>- Can you tailgate someone into the data center?<br>- Can you crawl through a vent? | Entry points, locks, USB ports        |
 
 ### Pentests based on Evasion/Stealth Techniques:
+
+Penetration tests can be categorized based on their **stealth** and **approach**, especially when discussing how detectable they are by security systems like firewalls, IDS (Intrusion Detection Systems), and endpoint protection tools.
+
 | Type               | Stealth Level | Detectable by Security Tools? | Typical Use Case                         |
 | ------------------ | ------------- | ----------------------------- | ---------------------------------------- |
 | **Non-Evasive**    | ❌ Low         | ✅ Yes                         | Test detection and response capabilities |
