@@ -28,7 +28,7 @@
 
 ---
 
-## LEVEL 2: Basic Anonymity Layer (Week 3–4)
+## LEVEL 2: Basic Anonymity Layer
 
 **Goal**: Start separating your real identity from online activities.
 
@@ -59,7 +59,7 @@
 
 ---
 
-## LEVEL 3: Anonymous Internet Use (Month 2)
+## LEVEL 3: Anonymous Internet Use
 
 **Goal**: Begin browsing, communicating, and transacting anonymously.
 
@@ -100,55 +100,39 @@
 ####  Tools
 
 - Whonix (ideal for anonymity with virtual machines)
-    
 - Qubes OS (for advanced users)
-    
 - MAC address changer (Linux: `macchanger`, Windows: TMAC)
-    
 
 ####  Learn
 
 - Virtual machines & sandboxing
-    
 - OPSEC: hiding in plain sight
-    
 - Secure file sharing (OnionShare, Magic Wormhole)
-    
 
 ---
 
-## LEVEL 5: Expert OpSec & Real-World Anonymity (Month 4+)
+## LEVEL 5: Expert OpSec & Real-World Anonymity
 
 **Goal**: Master anonymity in real life and online. Be untraceable unless you _choose_ not to be.
 
 ####  Actions
 
 - Never connect your real identity to your anonymous one (digitally or physically).
-    
 - Practice **air-gapped** system use for highly sensitive activities.
-    
 - Transact with cash or privacy coins only.
-    
 - Study **de-anonymization** techniques to understand how people get exposed.
-    
 
 ####  Tools
 
 - Air-gapped laptop for ultra-private tasks
-    
 - Electromagnetic shielding for RF-sensitive areas
-    
 - Disposable travel routers or 4G dongles with prepaid SIMs
-    
 
 ####  Learn
 
 - How facial recognition, gait analysis, and other bio-data work
-    
 - Counter-forensics and metadata stripping (e.g., `exiftool`)
-    
 - How intelligence agencies conduct surveillance
-    
 
 ---
 
