@@ -210,7 +210,7 @@ while true; do echo "looping"; sleep 1; done
 
 When you run this, it fills your terminal with output.
 
-### To pause (suspend) it:
+#### To pause (suspend) it:
 
 Press:
 
@@ -235,13 +235,13 @@ looping
 
 Now the process is no longer flooding your terminal — it’s frozen in RAM, not terminated.
 
----
 
-## 5. 🛠️ Managing Jobs with `jobs`, `fg`, and `bg`
+
+### Managing Jobs with `jobs`, `fg`, and `bg`
 
 Once you’ve suspended or backgrounded a job, you can manage it.
 
-### View active jobs:
+#### View active jobs:
 
 ```bash
 jobs
