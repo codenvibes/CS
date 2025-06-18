@@ -53,6 +53,27 @@ Organizations with a lower security maturity level may want to focus on vulnerab
 
 ---
 
+Here's a clear table comparing **Vulnerability Assessments** and **Penetration Tests** based on your content:
+
+|**Aspect**|**Vulnerability Assessment**|**Penetration Test**|
+|---|---|---|
+|**Definition**|Identifies vulnerabilities without simulating attacks.|Simulates cyber attacks to evaluate security.|
+|**Purpose**|To check for known vulnerabilities and misconfigurations.|To exploit vulnerabilities and assess real-world security impact.|
+|**Approach**|Follows a checklist or standard (e.g., GDPR, OWASP).|Uses manual and automated attacks (e.g., privilege escalation, lateral movement).|
+|**Tools Used**|Vulnerability scanners + validation tools.|Tools for exploitation and simulation (e.g., Metasploit, custom scripts).|
+|**Level of Intrusion**|Non-intrusive – does not exploit vulnerabilities.|Intrusive – actively exploits vulnerabilities.|
+|**Validation**|Confirms real vulnerabilities (not false positives) without exploiting them.|Demonstrates the extent and impact of successful exploitation.|
+|**Frequency**|Should be done regularly.|Should follow after vulnerability assessments and fixes.|
+|**Outcome**|A report of vulnerabilities ranked by severity.|A report on how attackers could exploit the environment.|
+|**Best For**|Ensuring security controls and configurations meet standards.|Understanding the actual threat level and attack paths.|
+|**Relationship**|A precursor to penetration testing.|Builds on vulnerability assessments.|
+|**Misconception**|Not the same as a penetration test.|Not “better” than a vulnerability assessment – they serve different purposes.|
+|**Use Together?**|Yes, they complement each other and can be done in the same year.|Yes, but only after vulnerability assessments and remediation.|
+
+Let me know if you'd like this in PDF, Excel, or a graphic format too.
+
+---
+
 ## References
 
 https://academy.hackthebox.com/module/108/section/1160
