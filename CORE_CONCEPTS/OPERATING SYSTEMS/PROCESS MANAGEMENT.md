@@ -96,33 +96,234 @@ We can do four options with `systemctl`:
 
 ## An Introduction to Backgrounding and Foregrounding in Linux
 
-Processes can run in two states: In the background and in the foreground. For example, commands that you run in your terminal such as "echo" or things of that sort will run in the foreground of your terminal as it is the only command provided that hasn't been told to run in the background. "Echo" is a great example as the output of echo will return to you in the foreground, but wouldn't in the background - take the screenshot below, for example.
+### What Are Foreground and Background Processes?
 
-![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg1.png)  
+In Linux (and Unix-like systems), every command you run in a terminal starts a **process** — a running instance of a program.
 
-Here we're running `echo "Hi THM"` , where we expect the output to be returned to us like it is at the start. But after adding the `&` operator to the command, we're instead just given the ID of the echo process rather than the actual output -- as it is running in the background.
+These processes can run in **two modes**:
 
-This is great for commands such as copying files because it means that we can run the command in the background and continue on with whatever further commands we wish to execute (without having to wait for the file copy to finish first)
+- **Foreground**:
+    
+    - You interact with the program directly in the terminal.
+        
+    - You see all its output.
+        
+    - You can’t type or run anything else until the process finishes or you interrupt it.
+        
+- **Background**:
+    
+    - The program runs behind the scenes.
+        
+    - You don’t see the output (unless you redirect it).
+        
+    - Your terminal remains usable — you can type other commands.
+        
 
-We can do the exact same when executing things like scripts -- rather than relying on the & operator, we can use `Ctrl + Z` on our keyboard to background a process. It is also an effective way of "pausing" the execution of a script or command like in the example below:
+---
 
-![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg2.png)  
+## 2. 💡 How to Run Processes in the Background
 
-This script will keep on repeating "This will keep on looping until I stop!" until I stop or suspend the process. By using `Ctrl + Z` (as indicated by **T^Z**). Now our terminal is no longer filled up with messages -- until we foreground it, which we will discuss below.
+### Method 1: Use the `&` symbol
 
-  
+If you add an `&` at the end of any command, Linux starts that process in the **background**.
 
-**Foregrounding a process**
+#### Example:
 
-Now that we have a process running in the background, for example, our script "background.sh" which can be confirmed by using the `ps aux` command, we can back-pedal and bring this process back to the foreground to interact with.
+```bash
+echo "Hi THM" &
+```
 
-![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg3.png)  
+Instead of:
 
-With our process backgrounded using either `Ctrl + Z` or the `&` operator, we can use `fg` to bring this back to focus like below, where we can see the `fg` command is being used to bring the background process back into use on the terminal, where the output of the script is now returned to us.
+```
+Hi THM
+```
 
-![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg4.png)
+You get:
 
-![](https://assets.tryhackme.com/additional/linux-fundamentals/part3/bg5.png)
+```
+[1] 12345
+```
+
+- `12345` is the Process ID (PID).
+    
+- `[1]` is the job number.
+    
+
+This tells you: “Job 1 is now running in the background as process 12345.”
+
+But here's the catch: you **don’t see the output** in your terminal. The shell starts the process but doesn't tie the output to your screen, so nothing is printed.
+
+---
+
+### Method 2: Suspend a foreground job with `Ctrl + Z`, then background it with `bg`
+
+When you run a command (e.g., a looping script), it's in the foreground. If it's overwhelming or long-running, you can **pause** it without stopping it using:
+
+```bash
+Ctrl + Z
+```
+
+You’ll see something like:
+
+```
+^Z
+[1]+  Stopped   ./script.sh
+```
+
+This means the job is paused (status: _Stopped_). You can now:
+
+- **Foreground it** again with:
+    
+    ```bash
+    fg
+    ```
+    
+- **Resume it in the background** with:
+    
+    ```bash
+    bg
+    ```
+    
+
+The command continues running in the background **from where it left off**.
+
+---
+
+## 3. 🔎 What Happens When You Use `&`?
+
+Let’s understand the internals a bit:
+
+When you run:
+
+```bash
+some_command &
+```
+
+Three key things happen:
+
+1. The shell **forks** the process — it creates a child process to run the command.
+    
+2. That child process is **disassociated** from the terminal input/output — so it doesn’t "talk back" to the screen.
+    
+3. The shell immediately **returns control to you**, showing you the PID.
+    
+
+So if you're running something like:
+
+```bash
+cp largefile.txt /destination/ &
+```
+
+You don’t have to wait for the copy to finish — you can go on and run other commands.
+
+If you don’t redirect output (`> file.txt`), the background process might still write messages to your terminal, especially if there are errors.
+
+---
+
+## 4. ⏸️ Using `Ctrl + Z` to Suspend a Foreground Process
+
+Let’s say you have a script that loops forever:
+
+```bash
+while true; do echo "This will keep on looping until I stop!"; done
+```
+
+When you run this, it fills your terminal with output.
+
+### To pause (suspend) it:
+
+Press:
+
+```bash
+Ctrl + Z
+```
+
+This sends a **SIGTSTP** signal to the process, telling it to "stop temporarily."
+
+The shell responds with something like:
+
+```
+^Z
+[1]+  Stopped   ./loop.sh
+```
+
+Now the process is no longer flooding your terminal — it’s frozen in RAM, not terminated.
+
+---
+
+## 5. 🛠️ Managing Jobs with `jobs`, `fg`, and `bg`
+
+Once you’ve suspended or backgrounded a job, you can manage it.
+
+### View active jobs:
+
+```bash
+jobs
+```
+
+Example output:
+
+```
+[1]+  Stopped   ./loop.sh
+[2]-  Running   some_other_script.sh &
+```
+
+### Bring a job back to the foreground:
+
+```bash
+fg %1
+```
+
+This brings job number 1 to the foreground. If you leave out `%1`, `fg` defaults to the last job.
+
+### Continue a job in the background:
+
+```bash
+bg %1
+```
+
+This resumes a **stopped** job and puts it in the background.
+
+### Terminate a job:
+
+- From foreground: `Ctrl + C` (sends SIGINT)
+    
+- From background: use `kill`, e.g.:
+    
+    ```bash
+    kill %1
+    ```
+    
+
+Or kill by PID:
+
+```bash
+kill 12345
+```
+
+---
+
+## 6. 🤔 Why Does This Matter?
+
+Here’s when backgrounding processes is useful:
+
+- **Long-running commands**: Background them and keep using the terminal.
+    
+- **Running scripts or servers**: Don’t let them block your session.
+    
+- **Pausing a command**: Suspend it and decide later if you want to kill or resume it.
+    
+
+It’s especially handy in **Linux server environments**, where you might be managing multiple processes from a single terminal.
+
+---
+
+## ✅ Final Thought
+
+Foreground vs. background is not just about convenience — it’s about **control**. When you understand how to suspend, resume, and background processes, you're using your terminal like a pro. It’s one of the core concepts behind job control in Linux.
+
+Let me know if you want to test some of this out in a terminal, or if you’d like a little script to practice with.g)
 
 ---
 
