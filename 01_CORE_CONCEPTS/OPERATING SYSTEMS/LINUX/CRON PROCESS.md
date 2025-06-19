@@ -69,7 +69,7 @@ Example:
 
 ---
 
-## ✍️ Writing a Crontab Entry
+## Writing a Crontab Entry
 
 When you use `crontab -e`, it opens the file in a text editor (like `vi` or `nano`). You just write the schedule and the command.
 
