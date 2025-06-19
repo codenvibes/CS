@@ -83,14 +83,11 @@ This runs every day at 6:00 PM and logs both stdout and stderr to `log.txt`.
 
 ---
 
-## 🔍 Common Tips
+## Common Tips
 
 - Always use **absolute paths** in cron commands (cron doesn’t load user profiles).
-    
 - Redirect output to a file for debugging (`>> log.txt 2>&1`).
-    
 - You can specify ranges and lists:
-    
 
 ```bash
 0 9-17 * * 1-5 command   # Every hour from 9 to 5, Monday to Friday
@@ -99,14 +96,11 @@ This runs every day at 6:00 PM and logs both stdout and stderr to `log.txt`.
 
 ---
 
-## 📦 System-wide Crontabs
+## System-wide Crontabs
 
 - `/etc/crontab` – system-wide crontab.
-    
 - `/etc/cron.d/` – put custom job files here.
-    
 - `/etc/cron.daily/`, `/etc/cron.hourly/`, etc. – run jobs at specific intervals.
-    
 
 System crontabs include a **user field**:
 
