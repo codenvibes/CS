@@ -110,9 +110,6 @@ System crontabs include a **user field**:
 
 ---
 
-If you want to try something specific, I can help you write a crontab entry or debug one. Just let me know!
-
----
-
 ## References
 
+https://tryhackme.com/room/linuxfundamentalspart3
