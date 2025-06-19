@@ -1,16 +1,9 @@
-
----
-
-## 🔄 What is a **Cron Process**?
+## What is a Cron Process?
 
 The **cron** process is a **daemon** — a background process — that runs on Unix/Linux systems and is responsible for executing scheduled tasks automatically at specified times and intervals.
-
 - It runs continuously in the background.
-    
 - It wakes up every minute to check if any tasks are due.
-    
 - If it finds a matching task in the crontab, it executes it.
-    
 
 You can check if cron is running using:
 
