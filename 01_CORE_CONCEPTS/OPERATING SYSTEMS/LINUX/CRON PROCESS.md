@@ -13,18 +13,14 @@ ps aux | grep cron
 
 ---
 
-## 📄 What is a **Crontab**?
+## What is a Crontab?
 
 A **crontab** (short for "cron table") is a file that lists jobs (commands or scripts) and the times they should be run. Each user (including root) can have their own crontab file.
 
 To view or edit your crontab:
-
 - View: `crontab -l`
-    
 - Edit: `crontab -e`
-    
 - Remove: `crontab -r`
-    
 
 ---
 
