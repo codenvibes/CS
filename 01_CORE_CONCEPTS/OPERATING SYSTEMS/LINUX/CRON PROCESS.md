@@ -48,7 +48,7 @@ This means: run `/home/user/backup.sh` every **Monday** at **2:30 AM**.
 
 ---
 
-## 🔧 Special Strings in Crontab
+## Special Strings in Crontab
 
 You can also use shortcuts:
 
