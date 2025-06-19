@@ -46,6 +46,16 @@ Each line in a crontab file follows this format:
 
 This means: run `/home/user/backup.sh` every **Monday** at **2:30 AM**.
 
+Let's use the another example of backing up files. You may wish to backup "cmnatic"'s  "Documents" every 12 hours. We would use the following formatting: 
+
+```bash
+0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/
+```
+
+An interesting feature of crontabs is that these also support the wildcard or asterisk (`*`). If we do not wish to provide a value for that specific field, i.e. we don't care what month, day, or year it is executed -- only that it is executed every 12 hours, we simply just place an asterisk.
+
+This can be confusing to begin with, which is why there are some great resources such as the online "[Crontab Generator](https://crontab-generator.org/)" that allows you to use a friendly application to generate your formatting for you! As well as the site "[Cron Guru](https://crontab.guru/)"!
+
 ---
 
 ## Special Strings in Crontab
