@@ -24,7 +24,7 @@ To view or edit your crontab:
 
 ---
 
-## 🕒 Crontab Format
+## Crontab Format
 
 Each line in a crontab file follows this format:
 
