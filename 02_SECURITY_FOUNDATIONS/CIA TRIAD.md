@@ -5,3 +5,4 @@
 
 ## References
 
+https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png
