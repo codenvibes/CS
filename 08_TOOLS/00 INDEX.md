@@ -1,7 +1,7 @@
-| TOOL       | NOTES          |
-| ---------- | -------------- |
-| BloodHound | [[BLOODHOUND]] |
-| Nmap       | [[NMAP]]       |
-| OpenVPN    | [[OPENVPN]]    |
-| Nessus     |                |
+| TOOL       | NOTES                                                                                                                                                                                                                                 |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BloodHound | [[BLOODHOUND]]                                                                                                                                                                                                                        |
+| Nmap       | [[NMAP]]                                                                                                                                                                                                                              |
+| OpenVPN    | [[OPENVPN]]                                                                                                                                                                                                                           |
+| Nessus     | [[06 VULNERABILITY SCANNING OVERVIEW]]<br>[[07 GETTING STARTED WITH NESSUS]]<br>[[08 NESSUS SCAN]]<br>[[09 ADVANCED SETTINGS]]<br>[[10 WORKING WITH NESSUS SCAN OUTPUT]]<br>[[11 SCANNING ISSUES]]<br>[[12 NESSUS SKILLS ASSESSMENT]] |
 
