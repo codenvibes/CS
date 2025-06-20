@@ -1,9 +1,6 @@
 
-|     |                          |                      |     |
-| --- | ------------------------ | -------------------- | --- |
-|     | Nessus Skills Assessment | Friday, 20 June 2025 | HTB |
+|     |                          |                          |     |                                                        |
+| --- | ------------------------ | ------------------------ | --- | ------------------------------------------------------ |
+|     | Nessus Skills Assessment | Vulnerability Assessment | HTB | https://academy.hackthebox.com/module/108/section/1233 |
 
 
-
-Nessus Skills Assessment
-HTB Vulnerability Assessment
