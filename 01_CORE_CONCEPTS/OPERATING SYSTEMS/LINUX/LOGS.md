@@ -76,8 +76,11 @@ uptime               # System load and uptime
 
 ##### What is the IP address of the user who visited the site?
 
+![[Pasted image 20250622172926.png]]
 
 ##### What file did they access?
+
+
 
 ---
 
