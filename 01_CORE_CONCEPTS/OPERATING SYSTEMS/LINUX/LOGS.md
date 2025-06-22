@@ -70,9 +70,9 @@ uptime               # System load and uptime
 ![[Pasted image 20250622171812.png]]
 ![[Pasted image 20250622172006.png]]
 
-
 ##### Look for the apache2 logs on the deployable Linux machine
 
+![[Pasted image 20250622172149.png]]
 
 ##### What is the IP address of the user who visited the site?
 
