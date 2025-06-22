@@ -64,6 +64,11 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 - [ ] rxExVoSitLbzzw1bTJwNuJ
 
 >It starts off with a regular login -> browsing of the dashboard. But then it turns into a regular, once-per-hour (see the time stamps) automated check of the statuses in all 4 factories with no page resources being loaded and with an obviously non-human punctuality.
+>
+>This user ID repeatedly hammered the `/api/factory/machine/status` endpoint for **every factory wildcard (`factory=*`) once every hour for many hours**, and most of those requests were denied with `401 UNAUTHORIZED`. The pattern looks like an automated enumeration or brute-force probe rather than normal interactive use:
+>	- Dozens of back-to-back 401 calls across _meiyo, seiko, shenzhen,_ and _berlin_ at 00:00, 01:00, 02:00 … through the afternoon of 26 June 2021
+>	- Identical bursts continuing later the same day, again cycling every hour through all factories
+>None of the other candidates show anything close to this volume or persistence of unauthorized, multi-factory queries, so **mdB7yD2dp1BFZPontHBQ1Z stands out as the most suspicious.**
 
 ---
 
