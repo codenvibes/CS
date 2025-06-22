@@ -52,10 +52,8 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 - [ ] Yes, they only need to steal the credentials of a Daikibo employee.
 - [ ] Yes, they can "brute-force" the authentication service and get in.
 - [ ] No, because Daikibo's employees follow perfect security guidelines and would never have allowed their credentials to get stolen.
-- [ ] No, the attacker has no direct access to the status dashboard.
+- [x] No, the attacker has no direct access to the status dashboard.
 
----
+In the original scope of the project we have listed that the dashboard will be living in Daikibo's intranet. The only remote access to it would be through VPN tunnelling.
 
-## References
-
-https://www.theforage.com/simulations/deloitte-au/cyber-c1e3
+# Q 2/2: Looking at the web_requests.log, what is the user ID with the most suspic
