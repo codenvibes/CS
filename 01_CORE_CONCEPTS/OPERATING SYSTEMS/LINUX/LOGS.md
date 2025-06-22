@@ -66,13 +66,13 @@ uptime               # System load and uptime
 
 ## Task 8 Maintaining Your System: Logs (Linux Fundamentals Part 3)
 
-Look for the apache2 logs on the deployable Linux machine
+##### Look for the apache2 logs on the deployable Linux machine
 
 
-What is the IP address of the user who visited the site?
+##### What is the IP address of the user who visited the site?
 
 
-What file did they access?
+##### What file did they access?
 
 ---
 
