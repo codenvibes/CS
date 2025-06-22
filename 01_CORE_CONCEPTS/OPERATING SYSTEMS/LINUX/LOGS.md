@@ -68,6 +68,7 @@ uptime               # System load and uptime
 
 ![[Pasted image 20250622171420.png]]
 ![[Pasted image 20250622171812.png]]
+![[Pasted image 20250622172006.png]]
 
 
 ##### Look for the apache2 logs on the deployable Linux machine
