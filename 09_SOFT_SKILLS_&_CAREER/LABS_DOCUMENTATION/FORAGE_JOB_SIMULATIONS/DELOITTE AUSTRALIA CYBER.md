@@ -43,6 +43,9 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 ### Here are some resources to help you
 
 ![[web_activity.log]]
+![[how-to-read-the-logs.pdf]]
+
+
 
 ---
 
