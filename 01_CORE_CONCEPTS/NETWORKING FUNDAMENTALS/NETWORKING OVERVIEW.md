@@ -4,3 +4,4 @@ As an information security professional, a firm grasp of networking fundamentals
 
 ## References
 
+https://academy.hackthebox.com/module/34/section/297
