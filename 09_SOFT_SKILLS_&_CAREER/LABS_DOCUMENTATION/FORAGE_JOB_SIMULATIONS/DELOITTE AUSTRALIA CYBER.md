@@ -54,16 +54,16 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 - [ ] No, because Daikibo's employees follow perfect security guidelines and would never have allowed their credentials to get stolen.
 - [x] No, the attacker has no direct access to the status dashboard.
 
-> In the original scope of the project we have listed that the dashboard will be living in Daikibo's intranet. The only remote access to it would be through VPN tunnelling.
+>In the original scope of the project we have listed that the dashboard will be living in Daikibo's intranet. The only remote access to it would be through VPN tunnelling.
 
 ## Q 2/2: Looking at the web_requests.log, what is the user ID with the most suspicious activity?
 
 - [ ] 5Eckr4DTaLLDaDMGqmMJ3g
-- [ ] mdB7yD2dp1BFZPontHBQ1Z
+- [x] mdB7yD2dp1BFZPontHBQ1Z
 - [ ] dBCm2JjBU815PB8zPDvKqv
 - [ ] rxExVoSitLbzzw1bTJwNuJ
 
-It starts off with a regular login -> browsing of the dashboard. But then it turns into a regular, once-per-hour (see the time stamps) automated check of the statuses in all 4 factories with no page resources being loaded and with an obviously non-human punctuality.
+>It starts off with a regular login -> browsing of the dashboard. But then it turns into a regular, once-per-hour (see the time stamps) automated check of the statuses in all 4 factories with no page resources being loaded and with an obviously non-human punctuality.
 
 ---
 
