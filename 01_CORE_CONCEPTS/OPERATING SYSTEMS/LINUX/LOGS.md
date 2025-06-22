@@ -66,6 +66,9 @@ uptime               # System load and uptime
 
 ## Task 8 Maintaining Your System: Logs (Linux Fundamentals Part 3)
 
+![[Pasted image 20250622171420.png]]
+
+
 ##### Look for the apache2 logs on the deployable Linux machine
 
 
