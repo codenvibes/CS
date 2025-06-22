@@ -49,10 +49,10 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 
 ## Q 1/2: Is there a way for a hacker to access Daikibo's manufacturing status dashboard directly from the internet?
 
-Yes, they only need to steal the credentials of a Daikibo employee.
-Yes, they can "brute-force" the authentication service and get in.
-No, because Daikibo's employees follow perfect security guidelines and would never have allowed their credentials to get stolen.
-No, the attacker has no direct access to the status dashboard.
+- [ ] Yes, they only need to steal the credentials of a Daikibo employee.
+- [ ] Yes, they can "brute-force" the authentication service and get in.
+- [ ] No, because Daikibo's employees follow perfect security guidelines and would never have allowed their credentials to get stolen.
+- [ ] No, the attacker has no direct access to the status dashboard.
 
 ---
 
