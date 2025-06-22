@@ -10,11 +10,11 @@
 - Help a client determine the source of a data breach
 - Answer questions to identify suspicious user activity
 
-### Here is the background information on your task
+## Here is the background information on your task
 
 A major news publication has revealed sensitive private information about Daikibo Industrials, our client. A production problem has caused its assembly lines to stop, threatening the smooth operation of supply chains relying on Daikibo’s products. The client suspects the security of their new status board may have been breached.
 
-# Here is your task
+## Here is your task
 
 In this task you will be joining our cyber security team. Your job is to:
 
@@ -40,7 +40,9 @@ Here is how the _web_requests.log_ file is structured:
 
 When you believe you have completed the 2 tasks above, submit your work by taking a quick quiz to check your discoveries. Start the quiz by clicking 'Start your quiz' below. Good luck!
 
-## Here are some resources to help you
+### Here are some resources to help you
+
+
 
 ---
 
