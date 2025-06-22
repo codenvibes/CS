@@ -42,7 +42,7 @@ When you believe you have completed the 2 tasks above, submit your work by takin
 
 ### Here are some resources to help you
 
-
+[](https://github.com/codenvibes/CS/blob/master/FILES/web_activity.log)
 
 ![[how-to-read-the-logs.pdf]]
 
