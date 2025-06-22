@@ -80,7 +80,7 @@ uptime               # System load and uptime
 
 ##### What file did they access?
 
-
+![[Pasted image 20250622173026.png]]
 
 ---
 
