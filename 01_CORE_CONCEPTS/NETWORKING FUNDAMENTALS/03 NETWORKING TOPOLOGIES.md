@@ -68,8 +68,6 @@ Since the medium is shared with all the others, only `one host can send`, and a
 
 The star topology is a network component that maintains a connection to all hosts. Each host is connected to the `central network component` via a separate link. This is usually a router, a hub, or a switch. These handle the `forwarding function` for the data packets. To do this, the data packets are received and forwarded to the destination. The data traffic on the central network component can be very high since all data and connections go through it.
 
-#### Star Topology
-
 ![Diagram showing connections between Hosts A, B, C, D, E, and F.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_star.png)
 
 ---
