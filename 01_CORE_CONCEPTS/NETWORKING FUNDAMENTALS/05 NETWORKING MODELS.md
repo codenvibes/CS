@@ -1,7 +1,7 @@
 Two networking models describe the communication and transfer of data from one host to another, called `ISO/OSI model` and the `TCP/IP model`. This is a simplified representation of the so-called `layers` representing transferred Bits in readable contents for us.
 
-> ISO/OSIInternational Organization for Standardization's Open Systems Interconnection model
-> Transmission Control Protocol/Internet Protocol model
+> ISO/OSI - International Organization for Standardization's Open Systems Interconnection model
+> TCP/IP - Transmission Control Protocol/Internet Protocol model
 
 ![Comparison of OSI and TCP/IP models: OSI has 7 layers including Application, Presentation, Session, Transport, Network, Data-Link, and Physical. TCP/IP has 4 layers: Application, Transport, Internet, and Link.](https://academy.hackthebox.com/storage/modules/34/redesigned/net_models4.png)
 
