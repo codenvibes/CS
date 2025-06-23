@@ -19,8 +19,9 @@ We can divide the entire network topology area into three areas:
 
 #### 2. Nodes - Network Interface Controller (NICs)
 
-|Repeaters|Hubs|Bridges|Switches|
-|Router/Modem|Gateways|Firewalls||
+| Repeaters    | Hubs     | Bridges   | Switches |
+| ------------ | -------- | --------- | -------- |
+| Router/Modem | Gateways | Firewalls |          |
 
 Network nodes are the `transmission medium's connection points` to transmitters and receivers of electrical, optical, or radio signals in the medium. A node may be connected to a computer, but certain types may have only one microcontroller on a node or may have no programmable device at all.
 
