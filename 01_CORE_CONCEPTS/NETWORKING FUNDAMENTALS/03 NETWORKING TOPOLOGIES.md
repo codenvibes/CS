@@ -85,8 +85,6 @@ A `logical` ring topology is based on a physical star topology, where a distri
 
 The information is transmitted in a predetermined transmission direction. Typically, the transmission medium is accessed sequentially from station to station using a retrieval system from the central station or a `token`. A token is a bit pattern that continually passes through a ring network in one direction, which works according to the `claim token process`.
 
-#### Ring Topology
-
 ![Diagram showing a router connecting Hosts A, B, C, and D.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_ring.png)
 
 ---
