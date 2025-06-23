@@ -131,8 +131,6 @@ Since this creates a chain of connections, it is also known as a daisy-chain con
 
 Daisy chaining is based on the physical arrangement of the nodes, in contrast to token procedures, which are structural but can be made independent of the physical layout. The signal is sent to and from a component via its previous nodes to the computer system.
 
-#### Daisy Chain Topology
-
 ![Network diagram showing Hosts A, B, D, and E connected to Host C.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_daisy-chain.png)
 
 
