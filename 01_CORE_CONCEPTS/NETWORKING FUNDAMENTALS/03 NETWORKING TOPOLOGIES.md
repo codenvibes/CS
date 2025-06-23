@@ -101,8 +101,6 @@ Each node of a fully meshed topology has the same routing functions and knows th
 
 In the `partially meshed structure`, the endpoints are connected by only one connection. In this type of network topology, specific nodes are connected to exactly one other node, and some other nodes are connected to two or more other nodes with a point-to-point connection.
 
-#### Mesh Topology
-
 ![Network diagram showing Hosts A, B, C, and D connected through Routers A, B, C, and D.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_mesh.png)
 
 ---
