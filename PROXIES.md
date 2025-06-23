@@ -9,6 +9,8 @@ Not all the above examples are correct. A proxy is when a device or service sits
 
 Back to the above question, the average person has a mistaken idea of what a proxy is as they are most likely using a VPN to obfuscate their location, which technically is not a proxy. Most people think whenever an IP Address changes, it is a proxy, and in most cases, it's probably best not to correct them as it is a common and harmless misconception. Correcting them could lead to a more extended conversation that trails into tabs vs. spaces, `emacs` vs. `vim`, or finding out they are a `nano` user.
 
+==A **proxy** is an intermediary device or service that sits between a client (like your computer) and a destination server (like a website) and **actively mediates the communication between them**.==
+
 If you have trouble remembering this, proxies will almost always operate at Layer 7 of the OSI Model. There are many types of proxy services, but the key ones are:
 
 - `Dedicated Proxy` / `Forward Proxy`
