@@ -32,8 +32,6 @@ Alternatively, malware could use DNS as a c2 mechanism, but if an organization i
 
 Another example of a Forward Proxy is Burp Suite, as most people utilize it to forward HTTP Requests. However, this application is the swiss army knife of HTTP Proxies and can be configured to be a reverse proxy or transparent!
 
-#### Forward Proxy
-
 ![Diagram showing Host A sending an HTTP request through a Forward Proxy to the Internet, reaching a Webserver. Host B is also connected.](https://academy.hackthebox.com/storage/modules/34/redesigned/forward_proxy.png)
 
 ---
@@ -47,8 +45,6 @@ Many organizations use CloudFlare as they have a robust network that can withsta
 Penetration Testers will configure reverse proxies on infected endpoints. The infected endpoint will listen on a port and send any client that connects to the port back to the attacker through the infected endpoint. This is useful to bypass firewalls or evade logging. Organizations may have `IDS` (`Intrusion Detection Systems`), watching external web requests. If the attacker gains access to the organization over SSH, a reverse proxy can send web requests through the SSH Tunnel and evade the IDS.
 
 Another common Reverse Proxy is `ModSecurity`, a `Web Application Firewall` (`WAF`). Web Application Firewalls inspect web requests for malicious content and block the request if it is malicious. If you want to learn more about this, we recommend reading into the [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/), as its a great starting point. Cloudflare, also can act as a WAF but doing so requires letting them decrypt HTTPS Traffic, which some organizations may not want.
-
-#### Reverse Proxy
 
 ![Diagram showing Host A sending an HTTP request through the Internet, passing firewalls, a Reverse Proxy, and reaching a Webserver. Host B is also connected.](https://academy.hackthebox.com/storage/modules/34/redesigned/reverse_proxy.png)
 
