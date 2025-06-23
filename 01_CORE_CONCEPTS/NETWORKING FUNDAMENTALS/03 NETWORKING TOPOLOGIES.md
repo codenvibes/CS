@@ -111,8 +111,6 @@ The tree topology is an extended star topology that more extensive local network
 
 There are both logical tree structures according to the `spanning tree` and physical ones. Modular modern networks, based on structured cabling with a hub hierarchy, also have a tree structure. Tree topologies are also used for `broadband networks` and `city networks` (`MAN`).
 
-#### Tree Topology
-
 ![Network diagram showing a server connected to two Ethernet switches, each linking to Hosts A, B, C, D, E, and F.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_tree.png)
 
 ---
@@ -120,8 +118,6 @@ There are both logical tree structures according to the `spanning tree` and ph
 ## Hybrid
 
 Hybrid networks combine two or more topologies so that the resulting network does not present any standard topologies. For example, a tree network can represent a hybrid topology in which star networks are connected via interconnected bus networks. However, a tree network that is linked to another tree network is still topologically a tree network. A hybrid topology is always created when `two different` basic network topologies are interconnected.
-
-#### Hybrid Topology
 
 ![Network diagram showing Hosts A, B, C, D, E, and F connected through Routers A, B, and C.](https://academy.hackthebox.com/storage/modules/34/redesigned/topo_hybrid.png)
 
