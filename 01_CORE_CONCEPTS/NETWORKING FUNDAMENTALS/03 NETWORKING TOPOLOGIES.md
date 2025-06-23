@@ -33,12 +33,12 @@ We can imagine a topology as a virtual form or `structure of a network`. This f
 
 Network topologies are divided into the following eight basic types:
 
-|||
-|---|---|
-|Point-to-Point|Bus|
-|Star|Ring|
-|Mesh|Tree|
-|Hybrid|Daisy Chain|
+|                |             |
+| -------------- | ----------- |
+| Point-to-Point | Bus         |
+| Star           | Ring        |
+| Mesh           | Tree        |
+| Hybrid         | Daisy Chain |
 
 More complex networks can be built as hybrids of two or more of the basic topologies mentioned above.
 
