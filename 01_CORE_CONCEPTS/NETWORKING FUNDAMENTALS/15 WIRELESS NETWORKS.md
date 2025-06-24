@@ -161,8 +161,6 @@ MAC filtering is a security measure that allows a WAP to accept or reject connec
 
 EAP-TLS is a security protocol used to authenticate and encrypt wireless communications. It uses digital certificates and PKI to verify the identity of clients and establish secure connections. Deploying EAP-TLS can help to harden a WAP by providing strong authentication and encryption for wireless communications, which can protect against unauthorized access to the network and the interception of sensitive data.
 
- [Previous](https://academy.hackthebox.com/module/34/section/1872)
-
 ---
 
 ## References
