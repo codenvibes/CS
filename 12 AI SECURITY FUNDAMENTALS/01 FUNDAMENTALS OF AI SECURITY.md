@@ -80,7 +80,7 @@ To protect the AI platform from malicious inputs, a safety system must be built 
 
 ## AI jailbreaking
 
-An AI jailbreak is a _technique_ that can cause the failure of guardrails (_mitigations_). The resulting _harm_ comes from whatever guardrail was circumvented: for example, causing the system to violate its operators' policies, make decisions unduly influenced by one user, or execute malicious instructions. This _technique_ is associated with attack _techniques_ including prompt injection, evasion, and model manipulation.
+==An AI jailbreak is a _technique_ that can cause the failure of guardrails (_mitigations_).== The resulting _harm_ comes from whatever guardrail was circumvented: for example, causing the system to violate its operators' policies, make decisions unduly influenced by one user, or execute malicious instructions. This _technique_ is associated with attack _techniques_ including prompt injection, evasion, and model manipulation.
 
 ![Diagram showing AI jailbreak.](https://learn.microsoft.com/en-us/training/advocates/fundamentals-ai-security/media/ai-jailbreak.png)
 
