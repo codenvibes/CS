@@ -21,7 +21,6 @@ IPv6 consistently follows the `end-to-end` principle and provides publicly acc
 |Dynamic addressing|DHCP|SLAAC / DHCPv6|
 |IPsec|Optional|Mandatory|
 
----
 
 There are three different types of IPv6 addresses:
 
