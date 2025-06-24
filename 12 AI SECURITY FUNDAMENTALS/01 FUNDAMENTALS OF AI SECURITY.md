@@ -19,7 +19,7 @@ Other considerations specific to AI security include, but aren't limited to:
 - Overreliance on AI
 - Nondeterministic (creative) nature of generative AI
 
-One of the biggest challenges with AI security is that the field is developing rapidly with new features and technology. This makes it challenging for security professionals to keep up to date with the scope and capabilities of the technology and thus it's challenging to have the correct security controls in place to secure these systems.
+==One of the biggest challenges with AI security is that the field is developing rapidly with new features and technology. This makes it challenging for security professionals to keep up to date with the scope and capabilities of the technology and thus it's challenging to have the correct security controls in place to secure these systems.==
 
 ### Why does responsible AI matter for cyber security?
 
