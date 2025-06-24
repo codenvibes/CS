@@ -77,10 +77,10 @@ rtt min/avg/max/mdev = 11.688/11.688/11.688/0.000 ms
 
 The output indicates that a `ping` request was sent and a response was received from the destination device and also shows the `Record-Route field` in the IP header of the `ICMP Echo Request` packet. The Record Route field contains the IP addresses of all devices that passed through the `ICMP Echo Request` packet on the way to the destination device. In this case, the `Record-Route field` contains the IP addresses:
 
-||||
-|---|---|---|
-|10.10.14.38|10.129.0.1|10.129.143.158|
-|10.129.143.158|10.10.14.1|10.10.14.38|
+|                |            |                |
+| -------------- | ---------- | -------------- |
+| 10.10.14.38    | 10.129.0.1 | 10.129.143.158 |
+| 10.129.143.158 | 10.10.14.1 | 10.10.14.38    |
 
 The `traceroute` tool can also be used to trace the route to a destination more accurately, which uses the TCP timeout method to determine when the route has been fully traced.
 
