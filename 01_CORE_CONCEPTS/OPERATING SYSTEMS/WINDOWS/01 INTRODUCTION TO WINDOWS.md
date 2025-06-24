@@ -115,37 +115,15 @@ codenvibes@htb[/htb]$ xfreerdp /v:<targetIp> /u:htb-student /p:Password
 
 Note: It may take 1-2 minutes for your target instance to spawn.
 
+---
+
+## Questions
+
+##### What is the Build Number of the target workstation?
 
 
-#### Questions
+##### Which Windows NT version is installed on the workstation? (i.e. Windows X - case sensitive)
 
-Answer the question(s) below to complete this Section and earn cubes!
-
-Target(s): Click here to spawn the target system!  
-
-Cheat Sheet
-
-[
-
-Download VPN Connection File
-
-](https://academy.hackthebox.com/vpn/key)
-
- RDP to with user "htb-student" and password "Academy_WinFun!"
-
-+ 0  What is the Build Number of the target workstation?
-
- Submit
-
-+ 0  Which Windows NT version is installed on the workstation? (i.e. Windows X - case sensitive)
-
- Submit
-
- Mark Complete & Next
-
-[Next](https://academy.hackthebox.com/module/49/section/455) 
-
- Cheat Sheet [Go to Questions](https://academy.hackthebox.com/module/49/section/454#questionsDiv)
 
 ---
 
