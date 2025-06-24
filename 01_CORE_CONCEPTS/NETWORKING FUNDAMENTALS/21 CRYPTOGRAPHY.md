@@ -48,10 +48,12 @@ Compared to DES, AES uses 128-bit (`AES-128`), 192-bit (`AES-192`), or 256-bit (
 
 For example, we can find AES in many different applications and protocols, but they are not limited to:
 
-||||
-|---|---|---|
-|WLAN IEEE 802.11i|IPsec|SSH|
-|VoIP|PGP|OpenSSL|
+- WLAN IEEE 802.11i
+- IPsec
+- SSH
+- VoIP
+- PGP
+- OpenSSL
 
 ---
 
