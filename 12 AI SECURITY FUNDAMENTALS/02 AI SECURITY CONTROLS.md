@@ -7,6 +7,10 @@ AI security controls refer to the measures and protocols implemented to protect 
 
 ## Content filters
 
+---
+
+## Content filters
+
 Open-source software (OSS) is an integral part of modern software development, and AI OSS software is no different. Just like other OSS software, AI OSS tools and libraries need to undergo a comprehensive security review. When you are performing a security review, you need to perform the following steps:
 
 - Assess the suitability of OSS libraries
