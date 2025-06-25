@@ -24,11 +24,11 @@ Microsoft has several AI Red Teams who run these adversarial tests against LLMs,
 - AI systems constantly evolve
 - Mitigating AI failures requires defense in depth
 
-## AI red teaming is more expansive than traditional red teaming
+### AI red teaming is more expansive than traditional red teaming
 
 AI red teaming is now an umbrella term for probing both security and responsible AI (safety) outcomes. AI red teaming intersects with traditional red teaming goals but includes LLMs as an attack vector. AI red teaming checks defenses against new classes of security vulnerabilities including prompt injection and model poisoning. AI red teaming also includes probing for outcomes that may harm organizational reputations, such as fairness issues and harmful content. Performing AI red teaming before an LLM or AI enabled workload is released to the public helps organizations identify issues and prioritize defense investments.
 
-## AI red teaming focuses on failures from both malicious and benign personas
+### AI red teaming focuses on failures from both malicious and benign personas
 
 Unlike traditional security red teaming, which mostly focuses on only malicious adversaries, AI red teaming considers broader set of personas and failures. Microsoft's AI red team learned many things when performing adversarial testing against an AI enabled new Bing. When testing the new Bing, AI red teaming not only focused on how a malicious adversary can subvert the AI system via security-focused techniques and exploits, but also on how the system can generate problematic and harmful content when regular users interact with the system. This is important because as Bing is a flagship Microsoft product, having Bing generate problematic content would trigger reputational harm to Microsoft.
 
@@ -47,6 +47,28 @@ AI red teaming requires a defense-in-depth approach. Defense in depth requires a
 ---
 
 ## The three categories of AI red teaming
+
+Through the process of performing AI red teaming against LLMs and AI enabled applications used by the organization, Microsoft has developed three different categories, termed flavors, to describe different types of AI red teaming. These flavors are:
+
+- Full stack red teaming
+- Adversarial machine learning
+- Prompt injection
+
+The diagram provides an overview of these three flavors:
+
+![Graphic showing the three different flavors of AI red teaming.](https://learn.microsoft.com/en-us/training/advocates/introduction-ai-security-testing/media/ai-red-teaming-flavors.png)
+
+## Full stack red teaming
+
+Full stack red teaming involves probing for security harms across the entire AI system, with a focus on analyzing the entire tech stack. This includes performing tests against the developer's environment right up to the hosting infrastructure. The full stack red teaming methodology includes assessing vulnerabilities and potential attack vectors, such as identifying weaknesses in data pipelines, APIs, and deployment configurations.
+
+## Adversarial machine learning
+
+Adversarial machine learning (AML) is dedicated to studying machine learning model attacks to identify weak points and defend against malicious inputs. AML emphasizes vulnerability assessment and employs tactics like black-box attacks, where models are manipulated without access to their code, and white-box attacks, where models are controlled with access to their code. An example of its application is making slight modifications to road signs to fool self-driving vehicles' ML models.
+
+## Prompt injection
+
+Prompt injection aims to exploit LLMs by injecting carefully crafted prompts. This focus is on manipulating generative AI systems into leaking sensitive data or spreading misinformation. For example, crafting a prompt in such a way that the LLM emits sensitive company information. A significant challenge is distinguishing between developer instructions and user inputs, an example of this is tricking Bing Chat into divulging its programming only via questioning it via the prompts.
 
 ---
 
