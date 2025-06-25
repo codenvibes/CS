@@ -32,15 +32,15 @@ AI red teaming is now an umbrella term for probing both security and responsible
 
 Unlike traditional security red teaming, which mostly focuses on only malicious adversaries, AI red teaming considers broader set of personas and failures. Microsoft's AI red team learned many things when performing adversarial testing against an AI enabled new Bing. When testing the new Bing, AI red teaming not only focused on how a malicious adversary can subvert the AI system via security-focused techniques and exploits, but also on how the system can generate problematic and harmful content when regular users interact with the system. This is important because as Bing is a flagship Microsoft product, having Bing generate problematic content would trigger reputational harm to Microsoft.
 
-## Red teaming generative AI systems require multiple attempts of the same test
+### Red teaming generative AI systems require multiple attempts of the same test
 
 In a traditional red teaming engagement, using a tool or technique at two different time points on the same input, would always produce the same output. This is termed a deterministic output. Generative AI systems are probabilistic, which means that running the same input twice may provide different outputs. The probabilistic nature of generative AI allows for a wider range in creative output. This makes red teaming challenging as using the same test prompt may lead to success in one attempt and failure in another. One method to address this is to perform multiple iterations of red teaming in the same operation. To accomplish this, Microsoft invested in automation that helps to scale operations. Microsoft also developed a systemic measurement strategy that quantifies the extent of the risk.
 
-## AI systems constantly evolve
+### AI systems constantly evolve
 
 As new models are released, the AI applications that use them are regularly updated. For example, developers may update an LLM or an AI enabled application's metaprompt (also known as the system message). Metaprompts provide the underlying instructions to the underlying language model. Changing the metaprompt leads to changes in how the model responds, result in red team exercises having to be performed again. As the responses from LLMs are probabilistic rather than deterministic, the outcomes of changes can't be predicted and can only really be understood through testing. AI red teams need to perform systematic, automated measurement and testing and monitor AI enabled systems over time.
 
-## Mitigating AI failures requires defense in depth
+### Mitigating AI failures requires defense in depth
 
 AI red teaming requires a defense-in-depth approach. Defense in depth requires applying multiple security controls, each of which mitigates a different adversarial strategy. With AI enabled applications that can involve the use of classifiers to flag potentially harmful content to using metaprompt. By implementing classifiers, it's possible to guide the behavior or AI enabled applications and limit conversational drift in interactive scenarios.
 
