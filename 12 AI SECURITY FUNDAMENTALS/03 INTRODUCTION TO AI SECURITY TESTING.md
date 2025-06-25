@@ -180,7 +180,7 @@ It's important to share a short report on a regular interval with key stakeholde
 - Acknowledges red teamers
 - Provides any other relevant information
 
-In the report, be sure to clarify that the role of RAI red teaming is to expose and raise understanding of risk surface and isn't a replacement for systematic measurement and rigorous mitigation work. It's important that people don't interpret specific examples as a metric for the perv
+In the report, be sure to clarify that the role of RAI red teaming is to expose and raise understanding of risk surface and isn't a replacement for systematic measurement and rigorous mitigation work. It's important that people don't interpret specific examples as a metric for the pervasiveness of that harm. Additionally consider a content warning on the report if the report contains problematic content.
 
 ---
 
