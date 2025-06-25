@@ -1,8 +1,12 @@
-What is AI red teaming?
 
-The three categories of AI red teaming
+---
+## What is AI red teaming?
 
-Planning AI red teaming
+---
+## The three categories of AI red teaming
+
+---
+## Planning AI red teaming
 
 
 
