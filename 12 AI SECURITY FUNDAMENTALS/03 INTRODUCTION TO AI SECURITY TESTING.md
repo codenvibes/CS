@@ -1,6 +1,3 @@
-
----
-
 ## What is AI red teaming?
 
 Red teaming is a term in the information security industry that is used to describe the process of testing security vulnerabilities using systematic adversarial attacks. Red teaming is performed to harden the security of an organization's systems. Red teaming is separate from unauthorized attacks by malicious third parties.
