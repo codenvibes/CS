@@ -2,6 +2,7 @@
 | NOTE                                                                     | MODULE                         | PLATFORM | LINK TO LAB                                            |
 | ------------------------------------------------------------------------ | ------------------------------ | -------- | ------------------------------------------------------ |
 |                                                                          |                                |          |                                                        |
+| [[10 METERPRETER#Questions]]                                             | Using the Metasploit Framework | HTB      |                                                        |
 | [[09 SESSIONS & JOBS#Questions]]                                         | Using the Metasploit Framework | HTB      | https://academy.hackthebox.com/module/39/section/415   |
 | [[05 PAYLOADS#Questions]]                                                | Using the Metasploit Framework | HTB      | https://academy.hackthebox.com/module/39/section/407   |
 | [[03 MODULES#Questions]]                                                 | Using the Metasploit Framework | HTB      | https://academy.hackthebox.com/module/39/section/404   |
