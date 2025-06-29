@@ -95,5 +95,3 @@ If the client had designed a secure network, this attack probably would not have
 ## References
 
 https://academy.hackthebox.com/module/34/section/297
-
-
