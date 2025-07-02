@@ -36,7 +36,7 @@ When we access a website, your browser will need to make requests to a web serve
 
 ### Making a Request
 
-It's possible to make a request to a web server with just one line **GET / HTTP/1.1**
+It's possible to make a request to a web server with just one line `GET / HTTP/1.1`
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/09e70200e7af451077081a3ee3d3708c.png)
 
