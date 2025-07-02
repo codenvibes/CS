@@ -92,11 +92,10 @@ You'll notice that the client doesn't see any PHP code because it's on the Ba
 ![[Pasted image 20250703005420.png]]
 ![[Pasted image 20250703005426.png]]
 ![[Pasted image 20250703005437.png]]
-
-
-
-
-
+![[Pasted image 20250703005447.png]]
+![[Pasted image 20250703005454.png]]
+![[Pasted image 20250703005514.png]]
+![[Pasted image 20250703005521.png]]
 
 
 ---
