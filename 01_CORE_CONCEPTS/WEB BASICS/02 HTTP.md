@@ -108,15 +108,15 @@ To breakdown each line of the response:
 ==HTTP methods are the verbs that tell a server _what action_ to perform on a resource== (like a file, an API endpoint, or a web page).
 There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
 
-| **Method**  | **Purpose**                                                | **Idempotent?** | **Where Data Goes** | **Typical Use Case**                      |
-| ----------- | ---------------------------------------------------------- | --------------- | ------------------- | ----------------------------------------- |
-| **GET**     | Retrieve data (read)                                       | ✅ Yes           | URL (query string)  | Load a web page, fetch API data           |
-| **POST**    | Submitting data to the web server and creating new records | ❌ No            | Request body        | Submit a form, create a user, upload file |
-| **PUT**     | Replace entire resource                                    | ✅ Yes           | Request body        | Update a full user profile                |
-| **PATCH**   | Update part of a resource                                  | ✅ (should be)   | Request body        | Update just an email or password          |
-| **DELETE**  | Delete a resource                                          | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account       |
-| **HEAD**    | Same as GET, no body returned                              | ✅ Yes           | URL                 | Check if a file exists, get metadata      |
-| **OPTIONS** | Discover server capabilities                               | ✅ Yes           | -                   | Preflight CORS checks                     |
+| **Method**  | **Purpose**                                                | **Idempotent?** | **Where Data Goes** | **Typical Use Case**                                                                      |
+| ----------- | ---------------------------------------------------------- | --------------- | ------------------- | ----------------------------------------------------------------------------------------- |
+| **GET**     | Retrieve data (read) from the server.                      | ✅ Yes           | URL (query string)  | Visit a web page — your browser sends a `GET` request for the HTML, CSS, JS, images, etc. |
+| **POST**    | Submitting data to the web server and creating new records | ❌ No            | Request body        | Submit a form (e.g., sign up, log in, upload a file).                                     |
+| **PUT**     | Replace entire resource                                    | ✅ Yes           | Request body        | Update a full user profile                                                                |
+| **PATCH**   | Update part of a resource                                  | ✅ (should be)   | Request body        | Update just an email or password                                                          |
+| **DELETE**  | Delete a resource                                          | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                       |
+| **HEAD**    | Same as GET, no body returned                              | ✅ Yes           | URL                 | Check if a file exists, get metadata                                                      |
+| **OPTIONS** | Discover server capabilities                               | ✅ Yes           | -                   | Preflight CORS checks                                                                     |
 
 **GET Request**
 
