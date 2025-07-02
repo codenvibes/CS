@@ -9,6 +9,8 @@ There are also a few other components that help the web run more efficiently and
 ## Other Components
 ### Load Balancer
 
+==A **load balancer** is a system or device that distributes incoming network traffic across multiple servers or resources to ensure no single server becomes overwhelmed.==
+
 When a website's traffic starts getting quite large or is running an application that needs to have high availability, one web server might no longer do the job. Load balancers provide two main features, ensuring high traffic websites can handle the load and providing a failover if a server becomes unresponsive.
 
 When you request a website with a load balancer, the load balancer will receive your request first and then forward it to one of the multiple servers behind it. The load balancer uses different algorithms to help it decide which server is best to deal with the request. A couple of examples of these algorithms are **round-robin**, which sends it to each server in turn, or **weighted**, which checks how many requests a server is currently dealing with and sends it to the least busy server.
