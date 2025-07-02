@@ -200,9 +200,9 @@ Cookies are saved when you receive a "Set-Cookie" header from a web server. Then
 
 Cookies can be used for many purposes but are most commonly used for website authentication. The cookie value won't usually be a clear-text string where you can see the password, but a token (unique secret code that isn't easily humanly guessable).
 
-**Viewing Your Cookies**
+### Viewing Your Cookies
 
-**You can easily view what cookies your browser is sending to a website by using the developer tools, in your browser. If you're not sure how to get to the developer tools in your browser, click on the "View Site" button at the top of this task for a how-to guide.**
+**You can easily view what cookies your browser is sending to a website by using the developer tools, in your browser.**
 
 **Once you have developer tools open, click on the "Network" tab. This tab will show you a list of all the resources your browser has requested. You can click on each one to receive a detailed breakdown of the request and response. If your browser sent a cookie, you will see these on the "Cookies" tab of the request.**
 
