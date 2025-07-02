@@ -117,22 +117,9 @@ There are a lot of HTTP methods but we'll cover the most common ones, although
 | **DELETE**  | Remove a resource from the server.                                        | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                                       |
 | **HEAD**    | Same as `GET` but only asks for the **headers**, no response body.        | ✅ Yes           | URL                 | Check if a resource exists or get its metadata (e.g., file size) before downloading.                      |
 | **OPTIONS** | Ask the server which methods and operations are supported for a resource. | ✅ Yes           | -                   | Used in CORS (Cross-Origin Resource Sharing) to check what’s allowed before a cross-site request is made. |
-
-**GET Request**
-
-This is used for getting information from a web server.  
-
-**POST Request**
-
-This is used for submitting data to the web server and potentially creating new records  
-
-**PUT Request**
-
-This is used for submitting data to a web server to update information
-
-**DELETE Request**  
-
-This is used for deleting information/records from a web server.
+**Legend:**
+- ✅ **Idempotent:** Doing it once or many times results in the same effect.
+- ❌ **Not Idempotent:** Repeating it creates multiple or unintended effects.
 
 ---
 
