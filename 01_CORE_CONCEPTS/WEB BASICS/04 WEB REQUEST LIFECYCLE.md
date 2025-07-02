@@ -87,9 +87,6 @@ You'll notice that the client doesn't see any PHP code because it's on the Ba
 
 ---
 
-
----
-
 ## References
 
 https://tryhackme.com/room/puttingitalltogether
