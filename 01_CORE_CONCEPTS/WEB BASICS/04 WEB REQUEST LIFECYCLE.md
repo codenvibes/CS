@@ -21,10 +21,17 @@ Load balancers also perform periodic checks with each server to ensure they are 
 
 ### CDN (Content Delivery Networks)
 
-A CDN can be an excellent resource for cutting down traffic to a busy website. It allows you to host static files from your website, such as JavaScript, CSS, Images, Videos, and host them across thousands of servers all over the world. When a user requests one of the hosted files, the CDN works out where the nearest server is physically located and sends the request there instead of potentially the other side of the world.  
+A **CDN** (Content Delivery Network) is a network of geographically distributed servers that work together to deliver web content (like images, videos, scripts, or entire web pages) to users **more quickly and reliably**.
 
-**Databases  
-**
+**Here’s how it works:**
+
+- Instead of serving content from a single origin server (like the one where your website is hosted), a CDN stores cached copies of your content on servers all over the world — these are called **edge servers**.
+
+- When a user visits your website, the CDN delivers the content from the **edge server that’s physically closest to them**, which reduces latency and speeds up load times.
+
+- CDNs also help handle **traffic spikes** by distributing requests across many servers, improving reliability and availability.
+
+### Databases  
 
 Often websites will need a way of storing information for their users. Webservers can communicate with databases to store and recall data from them. Databases can range from just a simple plain text file up to complex clusters of multiple servers providing speed and resilience. You'll come across some common databases: MySQL, MSSQL, MongoDB, Postgres, and more; each has its specific features.
 
