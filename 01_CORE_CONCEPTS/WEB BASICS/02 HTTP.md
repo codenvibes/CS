@@ -114,7 +114,7 @@ There are a lot of HTTP methods but we'll cover the most common ones, although
 | **POST**    | Submitting data to the web server and creating new records | ❌ No            | Request body        | Submit a form (e.g., sign up, log in, upload a file).                                     |
 | **PUT**     | **Replace** a resource _entirely_ with new data.           | ✅ Yes           | Request body        | Update a full user profile                                                                |
 | **PATCH**   | Update part of a resource                                  | ✅ (should be)   | Request body        | Update just an email or password                                                          |
-| **DELETE**  | Delete a resource                                          | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                       |
+| **DELETE**  | Remove a resource from the server.                         | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                       |
 | **HEAD**    | Same as GET, no body returned                              | ✅ Yes           | URL                 | Check if a file exists, get metadata                                                      |
 | **OPTIONS** | Discover server capabilities                               | ✅ Yes           | -                   | Preflight CORS checks                                                                     |
 
