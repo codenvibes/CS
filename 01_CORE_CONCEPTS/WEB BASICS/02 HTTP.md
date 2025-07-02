@@ -108,15 +108,15 @@ To breakdown each line of the response:
 ==HTTP methods are the verbs that tell a server _what action_ to perform on a resource== (like a file, an API endpoint, or a web page).
 There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
 
-| **Method**  | **Purpose**                                                | **Idempotent?** | **Where Data Goes** | **Typical Use Case**                                                                      |
-| ----------- | ---------------------------------------------------------- | --------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| **GET**     | Retrieve data (read) from the server.                      | ✅ Yes           | URL (query string)  | Visit a web page — your browser sends a `GET` request for the HTML, CSS, JS, images, etc. |
-| **POST**    | Submitting data to the web server and creating new records | ❌ No            | Request body        | Submit a form (e.g., sign up, log in, upload a file).                                     |
-| **PUT**     | **Replace** a resource _entirely_ with new data.           | ✅ Yes           | Request body        | Update a full user profile                                                                |
-| **PATCH**   | Update part of a resource                                  | ✅ (should be)   | Request body        | Update just an email or password                                                          |
-| **DELETE**  | Remove a resource from the server.                         | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                       |
-| **HEAD**    | Same as GET, no body returned                              | ✅ Yes           | URL                 | Check if a file exists, get metadata                                                      |
-| **OPTIONS** | Discover server capabilities                               | ✅ Yes           | -                   | Preflight CORS checks                                                                     |
+| **Method**  | **Purpose**                                                               | **Idempotent?** | **Where Data Goes** | **Typical Use Case**                                                                                      |
+| ----------- | ------------------------------------------------------------------------- | --------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
+| **GET**     | Retrieve data (read) from the server.                                     | ✅ Yes           | URL (query string)  | Visit a web page — your browser sends a `GET` request for the HTML, CSS, JS, images, etc.                 |
+| **POST**    | Submitting data to the web server and creating new records                | ❌ No            | Request body        | Submit a form (e.g., sign up, log in, upload a file).                                                     |
+| **PUT**     | **Replace** a resource _entirely_ with new data.                          | ✅ Yes           | Request body        | Update a full user profile                                                                                |
+| **PATCH**   | Update part of a resource                                                 | ✅ (should be)   | Request body        | Update just an email or password                                                                          |
+| **DELETE**  | Remove a resource from the server.                                        | ✅ Yes           | URL (usually ID)    | Delete a comment, remove an account                                                                       |
+| **HEAD**    | Same as `GET` but only asks for the **headers**, no response body.        | ✅ Yes           | URL                 | Check if a resource exists or get its metadata (e.g., file size) before downloading.                      |
+| **OPTIONS** | Ask the server which methods and operations are supported for a resource. | ✅ Yes           | -                   | Used in CORS (Cross-Origin Resource Sharing) to check what’s allowed before a cross-site request is made. |
 
 **GET Request**
 
