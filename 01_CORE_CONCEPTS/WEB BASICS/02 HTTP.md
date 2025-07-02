@@ -174,11 +174,9 @@ Although no headers are strictly required when making a HTTP request, you’ll
 
 **Accept-Encoding:** Tells the web server what types of compression methods the browser supports so the data can be made smaller for transmitting over the internet.
 
-  
+**Cookie:** Data sent to the server to help remember your information.  
 
-**Cookie:** Data sent to the server to help remember your information (see cookies task for more information).  
-
-**Common Response Headers**
+### Common Response Headers
 
 These are the headers that are returned to the client from the server after a request.
 
