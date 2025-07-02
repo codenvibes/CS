@@ -135,7 +135,7 @@ When a HTTP server responds, the first line always contains a status code info
 |**400-499 - Client Errors**|Used to inform the client that there was an error with their request.|
 |**500-599 - Server Errors**|This is reserved for errors happening on the server-side and usually indicate quite a major problem with the server handling the request.|
 
-**Common HTTP Status Codes:**
+### Common HTTP Status Codes:
 
 There are a lot of different HTTP status codes and that's not including the fact that applications can even define their own, we'll go over the most common HTTP responses you are likely to come across:
 
