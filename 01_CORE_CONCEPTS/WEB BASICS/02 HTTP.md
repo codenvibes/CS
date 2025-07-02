@@ -105,7 +105,7 @@ To breakdown each line of the response:
 
 ## HTTP Methods
 
-HTTP methods are a way for the client to show their intended action when making an HTTP request. There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
+==HTTP methods are the verbs that tell a server _what action_ to perform on a resource== (like a file, an API endpoint, or a web page). There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
 
 **GET Request**
 
