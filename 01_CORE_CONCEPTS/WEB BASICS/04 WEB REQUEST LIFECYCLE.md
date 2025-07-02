@@ -63,7 +63,7 @@ Virtual Hosts can have their root directory mapped to different locations on the
 
 There's no limit to the number of different websites you can host on a web server.
 
-**Static Vs Dynamic Content**
+### Static Vs Dynamic Content
 
 Static content, as the name suggests, is content that never changes. Common examples of this are pictures, javascript, CSS, etc., but can also include HTML that never changes. Furthermore, these are files that are directly served from the webserver with no changes made to them.
 
@@ -71,7 +71,7 @@ Dynamic content, on the other hand, is content that could change with different 
 
 These changes to what you end up seeing are done in what is called the **Backend** with the use of programming and scripting languages. It's called the Backend because what is being done is all done behind the scenes. You can't view the websites' HTML source and see what's happening in the Backend, while the HTML is the result of the processing from the Backend. Everything you see in your browser is called the **Frontend.**
 
-**Scripting and Backend Languages**
+### Scripting and Backend Languages
 
 There's not much of a limit to what a backend language can achieve, and these are what make a website interactive to the user. Some examples of these languages (in no particular order :p) are PHP, Python, Ruby, NodeJS, Perl and many more. These languages can interact with databases, call external services, process data from the user, and so much more. A very basic PHP example of this would be if you requested the website [http://example.com/index.php?name=adam](http://example.com/index.php?name=adam)  
 [  
