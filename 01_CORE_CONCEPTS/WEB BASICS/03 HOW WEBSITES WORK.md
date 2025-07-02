@@ -64,6 +64,11 @@ Sensitive information can be potentially leveraged to further an attacker's acce
 
 ---
 
+
+
+
+---
+
 ## References
 
 https://tryhackme.com/room/howwebsiteswork
