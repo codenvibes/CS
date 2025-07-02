@@ -49,6 +49,11 @@ The following JavaScript code finds a HTML element on the page with the id of "d
 HTML elements can also have events, such as "onclick" or "onhover" that execute JavaScript when the event occurs. The following code changes the text of the element with the demo ID to Button Clicked: `<button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>` - onclick events can also be defined inside the JavaScript script tags, and not on elements directly.
 
 ---
+
+
+
+---
+
 ## References
 
 https://tryhackme.com/room/howwebsiteswork
