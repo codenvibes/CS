@@ -12,7 +12,7 @@ HTTPS is the secure version of HTTP. HTTPS data is encrypted so it not only sto
 
 When we access a website, your browser will need to make requests to a web server for assets such as HTML, Images, and download the responses. Before that, you need to tell the browser specifically how and where to access these resources, this is where URLs will help.
 
-**What is a URL? (Uniform Resource Locator)**
+### What is a URL? (Uniform Resource Locator)
 
 If you’ve used the internet, you’ve used a URL before. A URL is predominantly an instruction on how to access a resource on the internet. The below image shows what a URL looks like with all of its features (it does not use all features in every request).
 
