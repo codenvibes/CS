@@ -74,8 +74,6 @@ These changes to what you end up seeing are done in what is called the **Backen
 ### Scripting and Backend Languages
 
 There's not much of a limit to what a backend language can achieve, and these are what make a website interactive to the user. Some examples of these languages (in no particular order :p) are PHP, Python, Ruby, NodeJS, Perl and many more. These languages can interact with databases, call external services, process data from the user, and so much more. A very basic PHP example of this would be if you requested the website [http://example.com/index.php?name=adam](http://example.com/index.php?name=adam)  
-[  
-](http://example.com/index.php?name=adam)
 
 If index.php was built like this:  
 
