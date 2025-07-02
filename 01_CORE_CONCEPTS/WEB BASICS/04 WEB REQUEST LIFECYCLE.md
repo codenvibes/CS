@@ -19,7 +19,7 @@ Load balancers also perform periodic checks with each server to ensure they are 
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/829e340231cd8aa9f5ed2fa5c464ea80.svg)  
 
-**CDN (Content Delivery Networks)**
+### CDN (Content Delivery Networks)
 
 A CDN can be an excellent resource for cutting down traffic to a busy website. It allows you to host static files from your website, such as JavaScript, CSS, Images, Videos, and host them across thousands of servers all over the world. When a user requests one of the hosted files, the CDN works out where the nearest server is physically located and sends the request there instead of potentially the other side of the world.  
 
