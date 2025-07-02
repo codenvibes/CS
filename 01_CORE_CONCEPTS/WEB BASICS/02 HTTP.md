@@ -54,7 +54,7 @@ Referer: https://tryhackme.com/
 
 To breakdown each line of this request:
 
-**Line 1:** This request is sending the GET method ( more on this in the HTTP Methods task ), request the home page with / and telling the web server we are using HTTP protocol version 1.1.
+**Line 1:** This request is sending the GET method , request the home page with / and telling the web server we are using HTTP protocol version 1.1.
 
 **Line 2:** We tell the web server we want the website tryhackme.com
 
