@@ -160,10 +160,9 @@ If you are a visual learner, also check out a great [http.cat](https://http.cat
 ## Headers
 
 Headers are additional bits of data you can send to the web server when making requests.
-
 Although no headers are strictly required when making a HTTP request, you’ll find it difficult to view a website properly.
 
-**Common Request Headers**
+### Common Request Headers
 
 ﻿These are headers that are sent from the client (usually your browser) to the server.  
 
