@@ -157,7 +157,7 @@ If you are a visual learner, also check out a great [http.cat](https://http.cat
 
 ---
 
-Task 5Headers
+## Headers
 
 Headers are additional bits of data you can send to the web server when making requests.
 
