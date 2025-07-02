@@ -208,6 +208,9 @@ Cookies can be used for many purposes but are most commonly used for website aut
 
 ---
 
+
+
+---
 ## References
 
 https://tryhackme.com/room/httpindetail
