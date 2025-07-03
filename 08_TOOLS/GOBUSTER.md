@@ -86,7 +86,7 @@ gobuster dns -d example.com -w subdomains-top1million-5000.txt
 
 ---
 
-## 🏭 **VHost brute‑forcing** (virtual hosts)
+## VHost brute‑forcing (virtual hosts)
 
 Useful if the server might respond differently based on the `Host` header.
 
@@ -96,27 +96,10 @@ gobuster vhost -u http://example.com -w /usr/share/wordlists/seclists/Discovery/
 
 ---
 
-## 📒 **Tips:**
-
-✅ Always choose your wordlist wisely. The bigger the list, the longer the scan.  
-✅ Respect target servers: high thread counts can overload them.  
-✅ Combine Gobuster with tools like `ffuf` or `dirsearch` to cross‑check results.
-
----
-
-## 🛠 **Summary of modes:**
+## Summary of modes:
 
 |Mode|Use for|
 |---|---|
 |`dir`|Discover directories & files|
 |`dns`|Find subdomains|
 |`vhost`|Discover virtual hosts by brute‑forcing Host header|
-
----
-
-If you’d like, tell me:  
-✅ Your specific goal (dirs? files? subdomains?)  
-✅ Your environment (Kali? Parrot? other?)  
-✅ Target type (small site? large web app?)
-
-And I can **write you a tailored Gobuster command**! 🚀
