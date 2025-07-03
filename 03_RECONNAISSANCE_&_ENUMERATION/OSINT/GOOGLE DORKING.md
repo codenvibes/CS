@@ -37,8 +37,6 @@ You can, for instance, pick out results from a certain domain name using the **
 - **Offensive Security:** Resources often mention advanced dorking for pentesting.
 
 
----
-
 ### ✅ **Example Operators**
 
 |Operator|Use|Example|
