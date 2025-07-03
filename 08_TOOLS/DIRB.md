@@ -1,5 +1,4 @@
-
-## 📌 What is `dirb`?
+## What is `dirb`?
 
 **`dirb`** is a command-line web content scanner used to brute-force directories and files on a web server.  
 It tries to find hidden or unlinked web resources by making HTTP requests using a wordlist.
