@@ -203,10 +203,12 @@ Using the results from the commands above, please answer the below questions:
 #### Questions
 
 ##### What is the name of the directory beginning "/mo...." that was discovered?  
-
+monthly
 
 
 ##### What is the name of the log file that was discovered?
+development.log 
+
 
 ---
 
