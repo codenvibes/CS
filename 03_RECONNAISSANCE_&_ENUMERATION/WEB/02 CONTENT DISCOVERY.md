@@ -130,9 +130,9 @@ user@machine$ curl http://10.10.127.158 -v
 < Connection: keep-alive
 ```
 
-Answer the questions below
+#### Questions
 
-What is the flag value from the X-FLAG header?
+##### What is the flag value from the X-FLAG header?
 
 
 
