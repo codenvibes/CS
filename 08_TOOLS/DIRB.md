@@ -47,13 +47,9 @@ dirb http://target.com
 ```
 
 This runs with the default wordlist.
-
 **Common locations for wordlists:**
-
 - `/usr/share/wordlists/dirb/`
-    
 - `/usr/share/wordlists/` (look for `rockyou.txt` for passwords, `common.txt` for directories)
-    
 
 ---
 
