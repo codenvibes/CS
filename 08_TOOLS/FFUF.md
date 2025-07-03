@@ -33,9 +33,7 @@ ffuf -u https://example.com/FUZZ -w wordlist.txt
 **What this means:**
 
 - `-u` specifies the **URL** — `FUZZ` is the placeholder.
-    
 - `-w` specifies the **wordlist**.
-    
 
 Example: Discover hidden directories:
 
