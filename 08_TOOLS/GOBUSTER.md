@@ -44,17 +44,13 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt
 ```
 
 Let’s break it down:
-
 - `dir` → use the directory brute‑forcing mode
-    
 - `-u` → target URL
-    
 - `-w` → path to the wordlist
-    
 
 ---
 
-## ⚙️ **Common useful options**
+## Common useful options
 
 |Option|Purpose|
 |---|---|
