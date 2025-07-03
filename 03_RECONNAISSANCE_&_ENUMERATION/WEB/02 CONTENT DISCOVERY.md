@@ -98,7 +98,7 @@ Unlike the robots.txt file, which restricts what search engine crawlers can look
  
 Take a look at the sitemap.xml file on the Acme IT Support website to see if there's any new content we haven't yet discovered: [http://10.10.127.158/sitemap.xml](http://10.10.127.158/sitemap.xml)[](http://10.10.127.158/sitemap.xml) (open this in the FireFox browser on the AttackBox).
 
-Answer the questions below
+#### Questions
 
 What is the path of the secret area that can be found in the sitemap.xml file?
 
