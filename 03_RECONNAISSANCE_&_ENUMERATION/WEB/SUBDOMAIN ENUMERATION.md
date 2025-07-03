@@ -2,6 +2,16 @@
 
 ---
 
+OSINT - SSL/TLS Certificates
+
+OSINT - Search Engines
+
+DNS Bruteforce
+
+OSINT - Sublist3r
+
+Virtual Hosts
+
 ---
 
 ---
