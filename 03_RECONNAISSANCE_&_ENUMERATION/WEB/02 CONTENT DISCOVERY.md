@@ -26,7 +26,6 @@ It’s part of the **Robots Exclusion Protocol (REP)** — a standard for managi
 - 🚫 **Purpose:** Common uses include blocking private areas (like `/admin/`), preventing indexing of duplicate content, or managing crawl budgets for large sites.
 - ❗ **Limitations:** It’s not a security feature — it only _requests_ bots to stay away; it doesn’t prevent them from accessing the content if they choose to ignore the rules.
 
----
 
 **Example `robots.txt`:**
 
@@ -37,13 +36,9 @@ Allow: /public/
 ```
 
 This means:
-
 - `User-agent: *` → applies to all bots.
-    
 - `Disallow: /private/` → bots should not crawl anything under `/private/`.
-    
 - `Allow: /public/` → bots can crawl `/public/`.
-    
 
 ---
 
