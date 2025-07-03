@@ -7,7 +7,6 @@ Google hacking / Dorking utilizes Google's advanced search engine features, whic
 | filetype   | filetype:pdf       | returns results which are a particular file extension        |
 | intitle    | intitle:admin      | returns results that contain the specified word in the title |
 
-
 More information about google hacking can be found here: [https://en.wikipedia.org/wiki/Google_hacking](https://en.wikipedia.org/wiki/Google_hacking)
 
 ---
