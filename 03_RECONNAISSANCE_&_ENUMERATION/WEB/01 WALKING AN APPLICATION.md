@@ -71,13 +71,9 @@ Viewing the page source can often give us clues into whether a framework is in u
 
 ## Developer Tools - Inspector
 
-**Developer Tools**
-
 Every modern browser includes developer tools; this is a tool kit used to aid web developers in debugging web applications and gives you a peek under the hood of a website to see what is going on. As a pentester, we can leverage these tools to provide us with a much better understanding of the web application. We're specifically focusing on three features of the developer tool kit, Inspector, Debugger and Network.
 
-  
-
-## **Opening Developer Tools**
+### Opening Developer Tools
 
 The way to access developer tools is different for every browser. If you're not sure how to access it, click the "View Site" button on the top right of this task to get instructions to how to access the tools for your browser.
 
