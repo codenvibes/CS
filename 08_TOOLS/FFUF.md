@@ -1,5 +1,3 @@
-#TOOLS
-
 ## What is `ffuf`?
 
 **`ffuf`** (pronounced “fuff”) stands for **Fuzz Faster U Fool**. It’s a super-fast web fuzzer used for:
@@ -10,7 +8,7 @@
 
 ---
 
-## ✅ Installing `ffuf`
+## Installing `ffuf`
 
 If you haven’t already:
 
@@ -24,7 +22,7 @@ go install github.com/ffuf/ffuf/v2@latest
 
 ---
 
-## 🗂️ Basic usage
+## Basic usage
 
 **The basic syntax:**
 
