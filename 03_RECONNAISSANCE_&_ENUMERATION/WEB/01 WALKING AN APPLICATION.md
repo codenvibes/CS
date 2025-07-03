@@ -114,7 +114,11 @@ This little bit of JavaScript is what is removing the red popup from the page. W
 
 If you click the line number that contains the above code, you'll notice it turns blue; you've now inserted a breakpoint on this line. Now try refreshing the page, and you'll notice the red box stays on the page instead of disappearing, and it contains a flag.
 
+![[Pasted image 20250703094959.png]]
+
 ---
+
+
 
 ---
 
