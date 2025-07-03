@@ -45,13 +45,68 @@ This file gives us a great list of locations on the website that the owners don'
 
 Take a look at the robots.txt file on the Acme IT Support website to see if they have anything they don't want to list - To do this open Firefox on the AttackBox, and enter the url: [http://MACHINE_IP/robots.txt](http://machine_ip/robots.txt)[](https://lab_web_url.p.thmlabs.com/robots.txt) (_this URL will update 2 minutes from when you start the machine in task 1_)
 
-### Questions
+#### Questions
 
 ##### What is the directory in the robots.txt that isn't allowed to be viewed by web crawlers?
 /staff-portal
 
 ![[Pasted image 20250703122229.png]]
 
+### Favicon
+
+The favicon is a small icon displayed in the browser's address bar or tab used for branding a website.
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efe36fb68daf465530ca761/room-content/42a556740d021fc3e7111a689dcadb28.png)
+
+  
+
+Sometimes when frameworks are used to build a website, a favicon that is part of the installation gets leftover, and if the website developer doesn't replace this with a custom one, this can give us a clue on what framework is in use. OWASP host a database of common framework icons that you can use to check against the targets favicon [https://wiki.owasp.org/index.php/OWASP_favicon_database](https://wiki.owasp.org/index.php/OWASP_favicon_database). Once we know the framework stack, we can use external resources to discover more about it (see next section).
+
+  
+
+**Practical Exercise:**
+
+  
+
+On the AttackBox, open firefox and enter the url [https://static-labs.tryhackme.cloud/sites/favicon/](https://static-labs.tryhackme.cloud/sites/favicon/) here you'll see a basic website with a note saying "Website coming soon...", if you look at your tabs you'll notice an icon that confirms this site is using a favicon.
+
+  
+
+Viewing the page source you'll see line six contains a link to the images/favicon.ico file. 
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efe36fb68daf465530ca761/room-content/1f1217249bf0edf74c8e6d0ba58bbc58.png)  
+
+  
+
+If you run the following command on the AttackBox, it will download the favicon and get its md5 hash value which you can then lookup on the  
+[https://wiki.owasp.org/index.php/OWASP_favicon_database](https://wiki.owasp.org/index.php/OWASP_favicon_database).
+
+  
+
+curl
+
+```shell-session
+user@machine$ curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico | md5sum
+```
+
+Note: This curl will fail on the AttackBox if you are a free user, in which case you should use a VM for this. If your hash ends with 427e then your curl failed, and you may need to try it again. You could also run this on Windows in Powershell as shown below.  
+
+  
+
+PowerShell
+
+```markup
+PS C:\> curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico -UseBasicParsing -o favicon.ico
+PS C:\> Get-FileHash .\favicon.ico -Algorithm MD5 
+```
+
+Answer the questions below
+
+What framework did the favicon belong to?
 
 ---
 
