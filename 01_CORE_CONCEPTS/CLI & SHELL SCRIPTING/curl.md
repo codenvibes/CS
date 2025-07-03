@@ -122,6 +122,8 @@ curl -O https://example.com/file1.txt -O https://example.com/file2.txt
 curl -v https://example.com
 ```
 
+---
+
 ## Quick test
 
 Try:
