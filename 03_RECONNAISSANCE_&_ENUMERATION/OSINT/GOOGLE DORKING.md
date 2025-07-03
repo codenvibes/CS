@@ -8,6 +8,17 @@ You can, for instance, pick out results from a certain domain name using the **
 | filetype   | filetype:pdf       | returns results which are a particular file extension        |
 | intitle    | intitle:admin      | returns results that contain the specified word in the title |
 
+
+| Operator             | Use                                                                       | Example              |
+| -------------------- | ------------------------------------------------------------------------- | -------------------- |
+| `site:`              | Limit search to a domain                                                  | `site:example.com`   |
+| `filetype:` / `ext:` | Find specific file types                                                  | `filetype:pdf`       |
+| `intitle:`           | Keywords in page title                                                    | `intitle:"index of"` |
+| `inurl:`             | Keywords in URL (returns results that have the specified word in the URL) | `inurl:admin`        |
+| `allintext:`         | Keywords in page body                                                     | `allintext:password` |
+| `cache:`             | Google’s cached version                                                   | `cache:example.com`  |
+| `OR`                 | Combine terms                                                             | `"login" OR "admin"` |
+
 ## Google Dorking & Search Operators — Quick Reference
 
 ### Official Google Search Operator Resources
@@ -36,33 +47,6 @@ You can, for instance, pick out results from a certain domain name using the **
 
 - **Offensive Security:** Resources often mention advanced dorking for pentesting.
 
-
-### ✅ **Example Operators**
-
-|Operator|Use|Example|
-|---|---|---|
-|`site:`|Limit search to a domain|`site:example.com`|
-|`filetype:` / `ext:`|Find specific file types|`filetype:pdf`|
-|`intitle:`|Keywords in page title|`intitle:"index of"`|
-|`inurl:`|Keywords in URL|`inurl:admin`|
-|`allintext:`|Keywords in page body|`allintext:password`|
-|`cache:`|Google’s cached version|`cache:example.com`|
-|`OR`|Combine terms|`"login" OR "admin"`|
-
----
-
-### ⚠️ **Reminder**
-
-- **Using operators:** Totally safe and legal.
-    
-- **Accessing private or restricted data without permission:** Illegal and unethical.
-    
-- Always practice safe & responsible research.
-    
-
----
-
-Would you like me to generate this as a **PDF**, **Markdown**, or **text file** you can download? Just say **yes**, and I’ll prep it for you!
 
 ---
 
