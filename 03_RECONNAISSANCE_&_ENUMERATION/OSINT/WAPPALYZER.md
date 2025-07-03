@@ -1,5 +1,86 @@
-Wappalyzer ([https://www.wappalyzer.com/](https://www.wappalyzer.com/)) is an online tool and browser extension that helps identify what technologies a website uses, such as frameworks, Content Management Systems (CMS), payment processors and much more, and it can even find version numbers as well.
+**Wappalyzer** is a popular tool (and browser extension) used to **identify the technologies** used by websites. It tells you what frameworks, programming languages, CMSs, eCommerce platforms, analytics tools, JavaScript libraries, server software, and more a website is using — just by scanning its public-facing code.
 
+---
+
+## What Wappalyzer Does
+
+When you visit a website with Wappalyzer:
+
+- It inspects the HTML, HTTP headers, JavaScript, cookies, and other hints.
+- Then it matches these fingerprints to known patterns.
+- You see a list of technologies like:
+    - CMS: WordPress, Joomla, Drupal
+    - Web Server: Apache, Nginx, LiteSpeed
+    - Programming Languages: PHP, Python, Ruby
+    - Frameworks: React, Angular, Laravel
+    - E-commerce: Shopify, WooCommerce
+    - Analytics: Google Analytics, Hotjar, Facebook Pixel
+
+---
+
+## How to Use Wappalyzer
+
+1. **Browser Extension**
+    
+    - Available for Chrome, Firefox, Edge, Safari.
+        
+    - After installing, click the icon when you visit any site — it instantly shows detected tech.
+        
+2. **Online Lookup**
+    
+    - You can check a website manually on [wappalyzer.com](https://www.wappalyzer.com/) → Enter the URL → Get the report.
+        
+3. **APIs & Integrations**
+    
+    - Wappalyzer also has a paid API and command-line tools.
+        
+    - Useful for automated tech reconnaissance and competitive research.
+        
+
+---
+
+## 🛡️ **Is It Legal?**
+
+Yes! Wappalyzer only gathers publicly visible info. It doesn’t hack, scan ports, or probe servers — it just analyzes what’s served in the webpage code.
+
+---
+
+## 📌 **Common Uses**
+
+- **Pentesting:** To understand the stack and look for known vulnerabilities.
+    
+- **Competitive Research:** See what stack your competitors use.
+    
+- **Sales/Marketing:** Find leads based on tech stacks (e.g., find all sites using Magento).
+    
+- **Learning:** See what frameworks modern sites run on.
+    
+
+---
+
+## ✅ **Alternatives**
+
+If you’re interested in other tools like Wappalyzer, here are some:
+
+- **BuiltWith:** [builtwith.com](https://www.builtwith.com/) — more detailed reports.
+    
+- **WhatRuns:** Another lightweight browser extension.
+    
+- **Netcraft:** For deep server info and hosting history.
+    
+
+---
+
+If you’d like, I can:
+
+- Help you install Wappalyzer
+    
+- Suggest how to use it with OSINT or pentesting
+    
+- Or share a quick comparison with BuiltWith
+    
+
+Would you like that?
 
 ---
 
