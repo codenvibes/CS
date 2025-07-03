@@ -16,9 +16,38 @@ There are multiple places we can manually check on a website to start discoverin
 
 ### Robots.txt
 
-**`robots.txt`** is a simple text file that websites use to give instructions to web crawlers (like Googlebot, Bingbot, or other search engine bots) about which pages or files they’re allowed or not allowed to crawl and index.
+==**`robots.txt`** is a simple text file that websites use to give instructions to web crawlers (like Googlebot, Bingbot, or other search engine bots) about which pages or files they’re allowed or not allowed to crawl and index.==
 
 It’s part of the **Robots Exclusion Protocol (REP)** — a standard for managing crawler access to your site.
+
+**Key points about `robots.txt`:**
+- 📍 **Location:** It must be placed in the root directory of your website. For example, `https://example.com/robots.txt`.
+- ⚙️ **Syntax:** It uses simple rules like `User-agent` to specify which bot the rule applies to, and `Disallow` or `Allow` to tell bots what they can or can’t crawl.
+- 🚫 **Purpose:** Common uses include blocking private areas (like `/admin/`), preventing indexing of duplicate content, or managing crawl budgets for large sites.
+- ❗ **Limitations:** It’s not a security feature — it only _requests_ bots to stay away; it doesn’t prevent them from accessing the content if they choose to ignore the rules.
+
+---
+
+**Example `robots.txt`:**
+
+```txt
+User-agent: *
+Disallow: /private/
+Allow: /public/
+```
+
+This means:
+
+- `User-agent: *` → applies to all bots.
+    
+- `Disallow: /private/` → bots should not crawl anything under `/private/`.
+    
+- `Allow: /public/` → bots can crawl `/public/`.
+    
+
+---
+
+If you’d like, I can help you write or check a `robots.txt` for your own site — just say so!
 
 The robots.txt file is a document that tells search engines which pages they are and aren't allowed to show on their search engine results or ban specific search engines from crawling the website altogether. It can be common practice to restrict certain website areas so they aren't displayed in search engine results. These pages may be areas such as administration portals or files meant for the website's customers. This file gives us a great list of locations on the website that the owners don't want us to discover as penetration testers.
 
