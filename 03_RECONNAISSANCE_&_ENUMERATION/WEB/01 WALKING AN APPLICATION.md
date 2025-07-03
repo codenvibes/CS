@@ -81,13 +81,8 @@ The way to access developer tools is different for every browser.
 
 The page source doesn't always represent what's shown on a webpage; this is because CSS, JavaScript and user interaction can change the content and style of the page, which means we need a way to view what's been displayed in the browser window at this exact time. Element inspector assists us with this by providing us with a live representation of what is currently on the website.
 
-  
-
 As well as viewing this live view, we can also edit and interact with the page elements, which is helpful for web developers to debug issues.
-
 On the Acme IT Support website, click into the news section, where you'll see three news articles.
-
-  
 
 The first two articles are readable, but the third has been blocked with a floating notice above the content stating you have to be a premium customer to view the article. These floating boxes blocking the page contents are often referred to as paywalls as they put up a metaphorical wall in front of the content you wish to see until you pay.
 
