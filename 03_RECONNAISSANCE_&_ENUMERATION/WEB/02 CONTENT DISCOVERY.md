@@ -156,6 +156,10 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ---
 
+## OSINT
+
+---
+
 ---
 
 ## References
