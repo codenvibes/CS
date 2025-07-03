@@ -106,7 +106,7 @@ Take a look at the sitemap.xml file on the Acme IT Support website to see if th
 ![[Pasted image 20250703131757.png]]
 
 
-## HTTP Headers
+### HTTP Headers
 
 When we make requests to the web server, the server returns various HTTP headers. These headers can sometimes contain useful information such as the webserver software and possibly the programming/scripting language in use. In the below example, we can see the webserver is NGINX version 1.18.0 and runs PHP version 7.4.3. Using this information, we could find vulnerable versions of software being used. Try running the below curl command against the web server, where the **-v** switch enables verbose mode, which will output the headers (there might be something interesting!).
 
@@ -130,23 +130,23 @@ user@machine$ curl http://10.10.127.158 -v
 < Connection: keep-alive
 ```
 
-#### Questions
+##### Questions
 
-##### What is the flag value from the X-FLAG header?
+###### What is the flag value from the X-FLAG header?
 THM{HEADER_FLAG}
 
 ![[Pasted image 20250703140222.png]]
 
 
-## Framework Stack
+### Framework Stack
 
 Once you've established the framework of a website, either from the above favicon example or by looking for clues in the page source such as comments, copyright notices or credits, you can then locate the framework's website. From there, we can learn more about the software and other information, possibly leading to more content we can discover.
 
 Looking at the page source of our Acme IT Support website ([http://MACHINE_IP](http://machine_ip/)), you'll see a comment at the end of every page with a page load time and also a link to the framework's website, which is [https://static-labs.tryhackme.cloud/sites/thm-web-framework](https://static-labs.tryhackme.cloud/sites/thm-web-framework). Let's take a look at that website. Viewing the documentation page gives us the path of the framework's administration portal, which gives us a flag if viewed on the Acme IT Support website.
 
-#### Questions
+##### Questions
 
-##### What is the flag from the framework's administration portal?
+###### What is the flag from the framework's administration portal?
 THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ![[Pasted image 20250703153911.png]]
@@ -157,6 +157,8 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 ---
 
 ## OSINT
+
+
 
 ---
 
