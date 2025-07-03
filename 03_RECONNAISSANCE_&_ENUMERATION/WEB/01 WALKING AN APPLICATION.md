@@ -16,7 +16,6 @@ Finding interactive portions of the website can be as easy as spotting a login f
 
 An example site review for the Acme IT Support website would look something like this:
 
-
 | **Feature**             | **URL**               | **Summary**                                                                                                                                               |
 | ----------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Home Page               | /                     | This page contains a summary of what Acme IT Support does with a company photo of their staff.                                                            |
