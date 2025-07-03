@@ -53,7 +53,7 @@ This runs with the default wordlist.
 
 ---
 
-## ✅ Useful options
+## Useful options
 
 |Option|What it does|
 |---|---|
@@ -64,8 +64,6 @@ This runs with the default wordlist.
 |`-i`|Ignore case sensitivity|
 |`-t 20`|Number of concurrent threads|
 
----
-
 **Example with extensions:**
 
 ```bash
@@ -73,13 +71,6 @@ dirb http://target.com /usr/share/wordlists/dirb/common.txt -X .php,.bak,.txt
 ```
 
 This tries each word with `.php`, `.bak`, `.txt`.
-
----
-
-## ✅ Good practice
-
-🔒 **Ethical note**:  
-Only scan websites you own or have explicit permission to test. Unauthorized scanning is illegal.
 
 ---
 
