@@ -1,4 +1,3 @@
-#### ZIP Files
 
 **Check if `unzip` is installed**
 
@@ -46,25 +45,3 @@ unzip -l file.zip
 unzip file.zip file1.txt file2.txt
 ```
 
-
----
-
-
-
----
-
-**📝 Tips**
-
-- `x` means extract.
-    
-- `v` means verbose (show files while extracting).
-    
-- `z` is for gzip-compressed tarballs.
-    
-- `j` is for bzip2-compressed tarballs.
-    
-
----
-
-**Done!** Copy this as-is and you’re set.  
-Want me to make a **printable PDF** version too? 🚀
