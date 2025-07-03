@@ -158,7 +158,7 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ## [[00 OSINT|OSINT]]
 
-Google Hacking / Dorking
+[[GOOGLE DORKING]]
 Wappalyzer
 Wayback Machine
 GitHub
