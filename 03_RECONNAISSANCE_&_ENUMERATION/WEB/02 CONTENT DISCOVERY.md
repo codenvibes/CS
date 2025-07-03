@@ -192,7 +192,7 @@ user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common
 user@machine$ dirb http://MACHINE_IP/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
 ```
 
-#### Using Gobuster
+#### Using [[GOBUSTER|Gobuster]]
 
 ```shell-session
 user@machine$ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
