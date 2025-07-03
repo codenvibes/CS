@@ -176,13 +176,9 @@ Wordlists are just text files that contain a long list of commonly used words; t
 
 ### Automation Tools
 
-Although there are many different content discovery tools available, all with their features and flaws, we're going to cover three which are preinstalled on our attack box, ffuf, dirb and gobuster.
+Although there are many different content discovery tools available, all with their features and flaws, we're going to cover three which are preinstalled on our attack box, ffuf, dirb and gobuster. 
 
-  
-
-On the AttackBox execute the following three commands, targeting the Acme IT Support website and see what results you get.
-
-  
+On the AttackBox execute the following three commands, targeting the Acme IT Support website and see what results you get. 
 
 **Using ffuf:**
 
