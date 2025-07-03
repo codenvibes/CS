@@ -180,7 +180,7 @@ Although there are many different content discovery tools available, all with th
 
 On the AttackBox execute the following three commands, targeting the Acme IT Support website and see what results you get. 
 
-**Using ffuf:**
+**Using [[FFUF]]:**
 
 ffuf
 
