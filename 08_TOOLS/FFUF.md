@@ -43,9 +43,9 @@ ffuf -u https://example.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
 
 ---
 
-## 🧩 Common examples
+## Common examples
 
-### 🔍 1️⃣ Directory brute-forcing
+### Directory brute-forcing
 
 ```bash
 ffuf -u https://target.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
