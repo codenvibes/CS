@@ -45,6 +45,10 @@ This file gives us a great list of locations on the website that the owners don'
 
 Take a look at the robots.txt file on the Acme IT Support website to see if they have anything they don't want to list - To do this open Firefox on the AttackBox, and enter the url: [http://MACHINE_IP/robots.txt](http://machine_ip/robots.txt)[](https://lab_web_url.p.thmlabs.com/robots.txt) (_this URL will update 2 minutes from when you start the machine in task 1_)
 
+### Questions
+
+What is the directory in the robots.txt that isn't allowed to be viewed by web crawlers?
+
 ---
 
 ---
