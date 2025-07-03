@@ -49,25 +49,15 @@ For our purposes, viewing the page source can help us discover more information 
 2. Most browsers support putting view-source: in front of the URL for example, **view-source:https://www.google.com/**
 3. In your browser menu, you'll find an option to view the page source. This option can sometimes be in submenus such as developer tools or more tools.
 
-###   
-
 ### Let's view some Page Source!
 
 Try viewing the page source of the home page of the Acme IT Support website. Unfortunately, explaining everything you can see here is well out of the scope of this room, and you'll need to look into website design/development courses to understand it fully. What we can do, is pick out bits of information that are of importance to us.
 
-  
-
 At the top of the page, you'll notice some code starting with `<!--` and ending with `-->` these are comments. Comments are messages left by the website developer, usually to explain something in the code to other programmers or even notes/reminders for themselves. These comments don't get displayed on the actual webpage. This comment describes how the homepage is temporary while a new one is in development. View the webpage in the comment to get your first flag.
-
-  
 
 Links to different pages in HTML are written in anchor tags ( these are HTML elements that start with `<a` ), and the link that you'll be directed to is stored in the `href` attribute.
 
-  
-
 For example, you'll see the contact page link on line 31:
-
-  
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5efe36fb68daf465530ca761/room-content/ccc306acf34d0c83ffd18f33da1a5994.png)  
 
