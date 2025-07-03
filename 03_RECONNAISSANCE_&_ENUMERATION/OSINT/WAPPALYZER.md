@@ -21,44 +21,18 @@ When you visit a website with Wappalyzer:
 ## How to Use Wappalyzer
 
 1. **Browser Extension**
-    
     - Available for Chrome, Firefox, Edge, Safari.
-        
     - After installing, click the icon when you visit any site — it instantly shows detected tech.
-        
+
 2. **Online Lookup**
-    
     - You can check a website manually on [wappalyzer.com](https://www.wappalyzer.com/) → Enter the URL → Get the report.
-        
+
 3. **APIs & Integrations**
-    
     - Wappalyzer also has a paid API and command-line tools.
-        
     - Useful for automated tech reconnaissance and competitive research.
-        
 
----
 
-## 🛡️ **Is It Legal?**
-
-Yes! Wappalyzer only gathers publicly visible info. It doesn’t hack, scan ports, or probe servers — it just analyzes what’s served in the webpage code.
-
----
-
-## 📌 **Common Uses**
-
-- **Pentesting:** To understand the stack and look for known vulnerabilities.
-    
-- **Competitive Research:** See what stack your competitors use.
-    
-- **Sales/Marketing:** Find leads based on tech stacks (e.g., find all sites using Magento).
-    
-- **Learning:** See what frameworks modern sites run on.
-    
-
----
-
-## ✅ **Alternatives**
+## Alternatives
 
 If you’re interested in other tools like Wappalyzer, here are some:
 
