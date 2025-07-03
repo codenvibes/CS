@@ -1,3 +1,5 @@
+#bash #powershell 
+
 **`curl`** is a command-line tool for transferring data to or from a server using various protocols (HTTP, HTTPS, FTP, etc.). It’s commonly used for testing APIs, downloading files, and more.
 
 ---
