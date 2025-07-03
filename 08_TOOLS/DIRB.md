@@ -74,24 +74,6 @@ This tries each word with `.php`, `.bak`, `.txt`.
 
 ---
 
-## ✅ Alternative tools
+## Alternative tools
 
 `dirb` is good but older — alternatives like `gobuster` or `feroxbuster` are faster and support multi-threading better.
-
-Example with **gobuster**:
-
-```bash
-gobuster dir -u http://target.com -w /usr/share/wordlists/dirb/common.txt
-```
-
----
-
-## ✅ Tips for effective scans
-
-- Try different wordlists (big ones like `SecLists`).
-    
-- Use extensions relevant to the target tech (`.php`, `.asp`, `.js`).
-    
-- Combine with manual analysis — look at robots.txt or sitemap.xml.
-    
-- Respect server performance — don’t hammer sites aggressively.
