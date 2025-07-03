@@ -85,7 +85,7 @@ ffuf -u https://FUZZ.target.com/ -w subdomains.txt -H "Host: FUZZ.target.com"
 
 ---
 
-## ⚡ Example: Fuzzing POST data
+## Example: Fuzzing POST data
 
 ```bash
 ffuf -u https://example.com/login -X POST -d "username=admin&password=FUZZ" -w passwords.txt
@@ -93,11 +93,11 @@ ffuf -u https://example.com/login -X POST -d "username=admin&password=FUZZ" -w p
 
 ---
 
-## 🧹 Filtering junk
+## Filtering junk
 
 Sometimes results are noisy. For example:
 
-- If the valid page returns 200 and so do the 404s — filter by size or words:
+If the valid page returns 200 and so do the 404s — filter by size or words:
     
     ```bash
     ffuf -u https://site.com/FUZZ -w words.txt -fs 1234
