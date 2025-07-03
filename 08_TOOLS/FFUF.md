@@ -71,7 +71,7 @@ ffuf -u https://FUZZ.target.com/ -w subdomains.txt -H "Host: FUZZ.target.com"
 
 ---
 
-## ⚙️ Useful options
+## Useful options
 
 |Option|What it does|
 |---|---|
