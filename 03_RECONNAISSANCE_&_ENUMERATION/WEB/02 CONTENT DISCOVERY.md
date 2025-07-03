@@ -133,7 +133,9 @@ user@machine$ curl http://10.10.127.158 -v
 #### Questions
 
 ##### What is the flag value from the X-FLAG header?
+THM{HEADER_FLAG}
 
+![[Pasted image 20250703140222.png]]
 
 
 ---
