@@ -186,13 +186,13 @@ Using [[FFUF|ffuf]]
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://MACHINE_IP/FUZZ
 ```
 
-**Using dirb:**
+**Using dirb**
 
 ```shell-session
 user@machine$ dirb http://MACHINE_IP/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
 ```
 
-**Using Gobuster:**
+**Using Gobuster:*
 
 ```shell-session
 user@machine$ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
