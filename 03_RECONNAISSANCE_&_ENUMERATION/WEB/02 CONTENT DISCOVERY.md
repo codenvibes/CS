@@ -180,9 +180,7 @@ Although there are many different content discovery tools available, all with th
 
 On the AttackBox execute the following three commands, targeting the Acme IT Support website and see what results you get. 
 
-**Using [[FFUF]]:**
-
-ffuf
+**Using [[FFUF|ffuf]]:**
 
 ```shell-session
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://MACHINE_IP/FUZZ
@@ -190,15 +188,11 @@ user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common
 
 **Using dirb:**
 
-dirb
-
 ```shell-session
 user@machine$ dirb http://MACHINE_IP/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
 ```
 
 **Using Gobuster:**
-
-gobuster
 
 ```shell-session
 user@machine$ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
