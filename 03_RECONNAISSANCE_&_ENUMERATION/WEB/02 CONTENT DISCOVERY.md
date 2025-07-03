@@ -2,6 +2,10 @@ Various ways of discovering hidden or private content on a webserver that could 
 
 ---
 
+
+
+---
+
 ## References
 
 https://tryhackme.com/room/contentdiscovery
