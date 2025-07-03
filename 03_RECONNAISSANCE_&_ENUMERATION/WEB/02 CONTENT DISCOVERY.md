@@ -149,6 +149,8 @@ Looking at the page source of our Acme IT Support website ([http://MACHINE_IP](h
 ##### What is the flag from the framework's administration portal?
 
 ![[Pasted image 20250703153911.png]]
+![[Pasted image 20250703154009.png]]
+
 
 ---
 
