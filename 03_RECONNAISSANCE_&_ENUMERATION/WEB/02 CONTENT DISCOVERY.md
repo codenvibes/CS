@@ -71,8 +71,6 @@ Viewing the page source you'll see line six contains a link to the images/favico
 If you run the following command on the AttackBox, it will download the favicon and get its md5 hash value which you can then lookup on the  
 [https://wiki.owasp.org/index.php/OWASP_favicon_database](https://wiki.owasp.org/index.php/OWASP_favicon_database).
 
-curl
-
 ```shell-session
 user@machine$ curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico | md5sum
 ```
