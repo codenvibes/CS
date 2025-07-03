@@ -31,30 +31,16 @@ When you visit a website with Wappalyzer:
     - Wappalyzer also has a paid API and command-line tools.
     - Useful for automated tech reconnaissance and competitive research.
 
+---
 
 ## Alternatives
 
 If you’re interested in other tools like Wappalyzer, here are some:
 
 - **BuiltWith:** [builtwith.com](https://www.builtwith.com/) — more detailed reports.
-    
 - **WhatRuns:** Another lightweight browser extension.
-    
 - **Netcraft:** For deep server info and hosting history.
-    
 
----
-
-If you’d like, I can:
-
-- Help you install Wappalyzer
-    
-- Suggest how to use it with OSINT or pentesting
-    
-- Or share a quick comparison with BuiltWith
-    
-
-Would you like that?
 
 ---
 
