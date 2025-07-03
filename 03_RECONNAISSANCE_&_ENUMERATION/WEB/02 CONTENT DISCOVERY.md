@@ -204,6 +204,7 @@ Using the results from the commands above, please answer the below questions:
 
 ##### What is the name of the directory beginning "/mo...." that was discovered?  
 /monthly
+
 ![[Pasted image 20250703234700.png]]
 
 ##### What is the name of the log file that was discovered?
