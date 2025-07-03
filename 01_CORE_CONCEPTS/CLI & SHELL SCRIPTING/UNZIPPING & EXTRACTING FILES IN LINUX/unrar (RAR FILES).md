@@ -1,4 +1,3 @@
-#### RAR Files
 
 **Install `unrar`**
 
