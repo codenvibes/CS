@@ -47,31 +47,6 @@ unzip file.zip file1.txt file2.txt
 
 ---
 
-#### 📦 **2️⃣ TAR & TAR.GZ Files**
-
-- **Usually pre-installed**
-    
-- **Extract `.tar`**
-    
-    ```bash
-    tar -xvf file.tar
-    ```
-    
-- **Extract `.tar.gz` or `.tgz`**
-    
-    ```bash
-    tar -xvzf file.tar.gz
-    ```
-    
-- **Extract `.tar.bz2`**
-    
-    ```bash
-    tar -xvjf file.tar.bz2
-    ```
-    
-
----
-
 #### 📂 **3️⃣ RAR Files**
 
 - **Install `unrar`**
