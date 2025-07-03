@@ -75,6 +75,10 @@ If you run the following command on the AttackBox, it will download the favicon 
 user@machine$ curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico | md5sum
 ```
 
+![[Pasted image 20250703125738.png]]
+
+![[Pasted image 20250703125837.png]]
+
 Note: This curl will fail on the AttackBox if you are a free user, in which case you should use a VM for this. If your hash ends with 427e then your curl failed, and you may need to try it again. You could also run this on Windows in Powershell as shown below.  
 
 ```markup
@@ -85,8 +89,7 @@ PS C:\> Get-FileHash .\favicon.ico -Algorithm MD5
 #### Questions
 
 ##### What framework did the favicon belong to?
-
-
+cgiirc
 
 ---
 
