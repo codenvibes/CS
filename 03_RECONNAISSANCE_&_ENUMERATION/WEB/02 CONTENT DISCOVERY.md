@@ -206,13 +206,13 @@ user@machine$ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecL
 
 Using the results from the commands above, please answer the below questions:  
 
-Answer the questions below
+##### Questions
 
-What is the name of the directory beginning "/mo...." that was discovered?  
+###### What is the name of the directory beginning "/mo...." that was discovered?  
 
-SubmitHint
 
-What is the name of the log file that was discovered?
+
+###### What is the name of the log file that was discovered?
 
 ---
 
