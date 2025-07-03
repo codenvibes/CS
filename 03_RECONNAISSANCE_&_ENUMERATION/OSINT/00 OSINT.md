@@ -22,7 +22,6 @@
 **Example:**  
 Tracking troop movements using commercial satellite images, verifying videos through geolocation, or monitoring extremist groups’ public posts online.
 
-If you’d like, I can give you examples of popular OSINT tools or methods too — just let me know!
 
 ---
 
