@@ -147,10 +147,12 @@ Looking at the page source of our Acme IT Support website ([http://MACHINE_IP](h
 #### Questions
 
 ##### What is the flag from the framework's administration portal?
+THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ![[Pasted image 20250703153911.png]]
 ![[Pasted image 20250703154009.png]]
-
+![[Pasted image 20250703154100.png]]
+![[Pasted image 20250703154142.png]]
 
 ---
 
