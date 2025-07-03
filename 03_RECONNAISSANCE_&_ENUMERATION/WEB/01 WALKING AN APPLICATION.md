@@ -75,11 +75,9 @@ Every modern browser includes developer tools; this is a tool kit used to aid we
 
 ### Opening Developer Tools
 
-The way to access developer tools is different for every browser. If you're not sure how to access it, click the "View Site" button on the top right of this task to get instructions to how to access the tools for your browser.
+The way to access developer tools is different for every browser.  
 
-  
-
-## **Inspecto****r**
+### Inspector
 
 The page source doesn't always represent what's shown on a webpage; this is because CSS, JavaScript and user interaction can change the content and style of the page, which means we need a way to view what's been displayed in the browser window at this exact time. Element inspector assists us with this by providing us with a live representation of what is currently on the website.
 
