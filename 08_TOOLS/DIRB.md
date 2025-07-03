@@ -5,7 +5,7 @@ It tries to find hidden or unlinked web resources by making HTTP requests using 
 
 ---
 
-## ✅ Basic installation
+## Installation
 
 On **Kali Linux**, it’s usually pre-installed.  
 If not, you can install it with:
@@ -17,7 +17,7 @@ sudo apt install dirb
 
 ---
 
-## ✅ Basic syntax
+## Basic syntax
 
 ```bash
 dirb [URL] [wordlist]
@@ -31,12 +31,10 @@ dirb http://example.com /usr/share/wordlists/dirb/common.txt
 
 ---
 
-## ✅ How it works
+## How it works
 
 - `URL` — The base URL to scan.
-    
 - `wordlist` — A file with potential directory and file names.
-    
 
 If you omit the wordlist, `dirb` uses its default: `/usr/share/dirb/wordlists/common.txt`.
 
