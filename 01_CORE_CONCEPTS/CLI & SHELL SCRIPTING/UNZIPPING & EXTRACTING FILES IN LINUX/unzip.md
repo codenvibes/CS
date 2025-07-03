@@ -1,3 +1,5 @@
+#### ZIP Files
+
 **Check if `unzip` is installed**
 
 ```bash
