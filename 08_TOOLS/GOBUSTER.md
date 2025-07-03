@@ -63,7 +63,7 @@ Let’s break it down:
 
 ---
 
-## 🧪 **Example: look for common PHP files**
+## Example: look for common PHP files
 
 ```bash
 gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt -x php,txt,html -t 50 -o gobuster_results.txt
@@ -71,7 +71,7 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt -x ph
 
 ---
 
-## 🌐 **DNS subdomain brute‑forcing**
+## DNS subdomain brute‑forcing
 
 If you have a domain (e.g., `example.com`) and a subdomain wordlist (e.g., `subdomains-top1million-5000.txt`):
 
