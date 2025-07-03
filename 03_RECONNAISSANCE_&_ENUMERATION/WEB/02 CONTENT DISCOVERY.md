@@ -186,7 +186,7 @@ On the AttackBox execute the following three commands, targeting the Acme IT Sup
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://MACHINE_IP/FUZZ
 ```
 
-#### Using dirb
+#### Using [[DIRB|dirb]]
 
 ```shell-session
 user@machine$ dirb http://MACHINE_IP/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
