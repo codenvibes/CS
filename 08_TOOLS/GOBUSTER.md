@@ -9,7 +9,7 @@ It’s valued for its speed and low memory footprint.
 
 ---
 
-## ✅ **Installation**
+## Installation
 
 If you’re on Kali, Parrot, or most pentest distros:
 
@@ -25,7 +25,7 @@ go install github.com/OJ/gobuster/v3@latest
 
 ---
 
-## 🚀 **Basic Usage: Directory brute‑forcing**
+## Basic Usage: Directory brute‑forcing
 
 Suppose you want to find hidden directories on:
 
@@ -34,11 +34,8 @@ http://example.com
 ```
 
 You’ll need:
-
 - The target URL
-    
 - A wordlist (e.g., `/usr/share/wordlists/dirb/common.txt`)
-    
 
 **Command:**
 
