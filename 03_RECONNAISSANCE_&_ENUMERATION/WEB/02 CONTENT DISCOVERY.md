@@ -158,7 +158,11 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ## [[00 OSINT|OSINT]]
 
-[[]]
+Google Hacking / Dorking
+Wappalyzer
+Wayback Machine
+GitHub
+S3 Buckets
 
 ---
 
