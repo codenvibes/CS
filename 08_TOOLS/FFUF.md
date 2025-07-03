@@ -51,7 +51,7 @@ ffuf -u https://example.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
 ffuf -u https://target.com/FUZZ -w /usr/share/wordlists/dirb/common.txt
 ```
 
-### 🗝️ 2️⃣ File extension fuzzing
+### File extension fuzzing
 
 ```bash
 ffuf -u https://target.com/FUZZ.php -w wordlist.txt
@@ -63,7 +63,7 @@ Or try multiple extensions:
 ffuf -u https://target.com/FUZZ -w wordlist.txt -e .php,.bak,.txt
 ```
 
-### 🔎 3️⃣ Virtual host fuzzing
+### Virtual host fuzzing
 
 ```bash
 ffuf -u https://FUZZ.target.com/ -w subdomains.txt -H "Host: FUZZ.target.com"
