@@ -130,7 +130,7 @@ With the network tab open, try filling in the contact form and pressing the **S
  
 Examine the new entry on the network tab that the contact form created and view the page the data was sent to in order to reveal a flag.
 
-![[Pasted image 20250703095652.png]]
+![[Pasted image 20250703100328.png]]
 
 ---
 
