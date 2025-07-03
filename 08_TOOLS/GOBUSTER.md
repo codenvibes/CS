@@ -71,7 +71,7 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt -x ph
 
 ---
 
-## DNS subdomain brute‑forcing
+## DNS subdomain brute‑forci
 
 If you have a domain (e.g., `example.com`) and a subdomain wordlist (e.g., `subdomains-top1million-5000.txt`):
 
@@ -80,13 +80,9 @@ gobuster dns -d example.com -w subdomains-top1million-5000.txt
 ```
 
 **Options:**
-
 - `dns` → DNS brute‑forcing mode
-    
 - `-d` → domain
-    
 - `-w` → wordlist
-    
 
 ---
 
