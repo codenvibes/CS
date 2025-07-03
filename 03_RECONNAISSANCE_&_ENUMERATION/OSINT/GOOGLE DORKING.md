@@ -8,7 +8,72 @@ You can, for instance, pick out results from a certain domain name using the **
 | filetype   | filetype:pdf       | returns results which are a particular file extension        |
 | intitle    | intitle:admin      | returns results that contain the specified word in the title |
 
-More information about google hacking can be found here: [https://en.wikipedia.org/wiki/Google_hacking](https://en.wikipedia.org/wiki/Google_hacking)
+##  Google Dorking & Search Operators — Quick Reference
+
+### Official Google Search Operator Resources
+
+- **Google Advanced Search Page:**  
+    [https://www.google.com/advanced_search](https://www.google.com/advanced_search)
+ 
+- **Google Search Help — Refine Web Searches:**  
+    [https://support.google.com/websearch/answer/2466433?hl=en](https://support.google.com/websearch/answer/2466433?hl=en)   
+
+---
+
+### ✅ **Comprehensive Google Dork Database**
+
+- **Exploit-DB Google Hacking Database (GHDB):**  
+    [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
+    
+    - Biggest public repository of Google Dorks.
+        
+    - Maintained by Offensive Security.
+        
+    - Categories: vulnerable files, config files, login portals, exposed cameras, and more.
+        
+
+---
+
+### ✅ **Community Cheat Sheets & Collections**
+
+- **GitHub:** Search _“Google Dork Cheat Sheet GitHub”_ for user-maintained lists.  
+    Example:  
+    [https://github.com](https://github.com/) → search for **Google Dork Cheat Sheet**.
+    
+- **HackTricks (by Carlos Polop):** Practical OSINT & Dorking tricks.  
+    [https://book.hacktricks.xyz](https://book.hacktricks.xyz/)
+    
+- **Offensive Security:** Resources often mention advanced dorking for pentesting.
+    
+
+---
+
+### ✅ **Example Operators**
+
+|Operator|Use|Example|
+|---|---|---|
+|`site:`|Limit search to a domain|`site:example.com`|
+|`filetype:` / `ext:`|Find specific file types|`filetype:pdf`|
+|`intitle:`|Keywords in page title|`intitle:"index of"`|
+|`inurl:`|Keywords in URL|`inurl:admin`|
+|`allintext:`|Keywords in page body|`allintext:password`|
+|`cache:`|Google’s cached version|`cache:example.com`|
+|`OR`|Combine terms|`"login" OR "admin"`|
+
+---
+
+### ⚠️ **Reminder**
+
+- **Using operators:** Totally safe and legal.
+    
+- **Accessing private or restricted data without permission:** Illegal and unethical.
+    
+- Always practice safe & responsible research.
+    
+
+---
+
+Would you like me to generate this as a **PDF**, **Markdown**, or **text file** you can download? Just say **yes**, and I’ll prep it for you!
 
 ---
 
