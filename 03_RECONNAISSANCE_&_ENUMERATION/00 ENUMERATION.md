@@ -1,4 +1,4 @@
-**DEF Enumeration** is the process of **actively gathering detailed information about a target system or network**, usually after initial reconnaissance. It's a key phase in ethical hacking, penetration testing, and cybersecurity assessments.
+**DEF-Enumeration** is the process of **actively gathering detailed information about a target system or network**, usually after initial reconnaissance. It's a key phase in ethical hacking, penetration testing, and cybersecurity assessments.
 
 During enumeration, an attacker or ethical hacker:
 - Makes **active connections** to the target.
