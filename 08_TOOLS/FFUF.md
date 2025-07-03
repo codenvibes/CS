@@ -98,17 +98,17 @@ ffuf -u https://example.com/login -X POST -d "username=admin&password=FUZZ" -w p
 Sometimes results are noisy. For example:
 
 If the valid page returns 200 and so do the 404s — filter by size or words:
-    
-    ```bash
-    ffuf -u https://site.com/FUZZ -w words.txt -fs 1234
-    ```
-    
-    This filters out responses with size `1234`.
-    
+
+```bash
+ffuf -u https://site.com/FUZZ -w words.txt -fs 1234
+```
+
+This filters out responses with size `1234`.
+
 
 ---
 
-## 🏆 Pro Tips
+## Pro Tips
 
 ✅ Use good wordlists: e.g. `SecLists` (`/usr/share/seclists/`).  
 ✅ Always check the response codes/sizes manually.  
