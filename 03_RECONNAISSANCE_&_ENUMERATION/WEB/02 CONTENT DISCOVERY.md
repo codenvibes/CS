@@ -156,9 +156,9 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ---
 
-## OSINT
+## [[00 OSINT|OSINT]]
 
-
+[[]]
 
 ---
 
