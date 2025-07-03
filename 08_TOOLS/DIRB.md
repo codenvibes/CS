@@ -40,7 +40,7 @@ If you omit the wordlist, `dirb` uses its default: `/usr/share/dirb/wordlists/co
 
 ---
 
-## ✅ Example scan
+## Example scan
 
 ```bash
 dirb http://target.com
