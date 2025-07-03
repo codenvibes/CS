@@ -77,8 +77,6 @@ user@machine$ curl https://static-labs.tryhackme.cloud/sites/favicon/images/favi
 
 Note: This curl will fail on the AttackBox if you are a free user, in which case you should use a VM for this. If your hash ends with 427e then your curl failed, and you may need to try it again. You could also run this on Windows in Powershell as shown below.  
 
-PowerShell
-
 ```markup
 PS C:\> curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico -UseBasicParsing -o favicon.ico
 PS C:\> Get-FileHash .\favicon.ico -Algorithm MD5 
