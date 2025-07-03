@@ -166,7 +166,7 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 
 ---
 
-## What is Automated Discovery?
+## Automated Discovery?
 
 Automated discovery is the process of using tools to discover content rather than doing it manually. This process is automated as it usually contains hundreds, thousands or even millions of requests to a web server. These requests check whether a file or directory exists on a website, giving us access to resources we didn't previously know existed. This process is made possible by using a resource called wordlists.
 
@@ -180,7 +180,7 @@ Although there are many different content discovery tools available, all with th
 
 On the AttackBox execute the following three commands, targeting the Acme IT Support website and see what results you get. 
 
-**Using [[FFUF|ffuf]]:**
+Using [[FFUF|ffuf]]
 
 ```shell-session
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://MACHINE_IP/FUZZ
