@@ -19,31 +19,24 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 - Many websites share the same certificate (like subdomains: `mail.example.com`, `api.example.com`).
 - Certificate fields (like the **Subject Alternative Name** or SAN) often list multiple domains — so you can discover infrastructure connections.
 
-### ✅ **2. Reveal ownership clues**
+### 2. Reveal ownership clues
 
 - Certificates sometimes include organization names, email addresses, or locations in the subject or issuer fields.
-    
 - This can help attribute a site to a company or person.
-    
 
 ### ✅ **3. Track infrastructure**
 
 - Some attackers reuse certificates across multiple servers.
-    
 - Investigators can search **certificate transparency logs** (public records of all certificates issued) to spot suspicious patterns or find related malicious domains.
-    
 
 ### ✅ **4. Timeline and history**
 
 - Certificates have issue/expiry dates — this helps track when a domain was likely active or changed hands.
-    
 - You can correlate this with other events (like domain registration dates).
-    
 
 ### ✅ **5. Bypass privacy shields**
 
 - Even if WHOIS data is hidden with privacy services, certificates might still expose real organizational info.
-    
 
 ---
 
