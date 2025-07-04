@@ -58,10 +58,3 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 3. Check the organization field → link to the attacker or company.
 4. Check logs for older certs → see if they reused info elsewhere.
 
----
-
-## 📌 **Summary**
-
-**SSL/TLS certificates** are both a security tool **and** an OSINT data source. They help protect privacy, but paradoxically, they can also expose infrastructure relationships when publicly logged.
-
-If you’d like, I can show you **how to check a cert** or help you try a real lookup. Just say so!
