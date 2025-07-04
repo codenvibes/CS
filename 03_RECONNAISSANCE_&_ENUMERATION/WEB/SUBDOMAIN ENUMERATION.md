@@ -18,8 +18,9 @@ store.tryhackme.com
 ### Questions
 
 #### What is the TryHackMe subdomain beginning with **S** discovered using the above Google search?
+store.tryhackme.com
 
-
+![[Pasted image 20250704112339.png]]
 
 ---
 
