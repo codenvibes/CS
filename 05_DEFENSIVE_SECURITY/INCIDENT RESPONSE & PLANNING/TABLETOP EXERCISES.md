@@ -1,4 +1,4 @@
-==**Tabletop exercises** (often abbreviated as TTX) are discussion-based training activities used to test and improve an organization’s plans, procedures, and decision-making processes in a low-stress, no-risk environment.==
+==Tabletop exercises are guided, interactive simulations that test your organisation's Computer Security Incident Response Team (CSIRT) under realistic attack scenarios..==
 
 Here’s a clear breakdown:
 
@@ -31,3 +31,4 @@ A tabletop exercise is a structured, facilitated discussion where participants w
 They’re a cost-effective way to prepare for crises, build confidence, and make sure everyone knows what to do — without risking safety or disrupting operations.
 
 If you’d like, I can share an example scenario or even help you design a simple tabletop outline — just say the word!
+
