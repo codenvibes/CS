@@ -97,6 +97,8 @@ Start the AttackBox and then try the following command against the Acme IT Suppo
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://MACHINE_IP
 ```
 
+> ![[Pasted image 20250704133716.png]]
+
 The above command uses the -w switch to specify the wordlist we are going to use. The **-H** switch adds/edits a header (in this instance, the Host header), we have the **FUZZ** keyword in the space where a subdomain would normally go, and this is where we will try all the options from the wordlist.
 
 Because the above command will always produce a valid result, we need to filter the output. We can do this by using the page size result with the **-fs** switch. Edit the below command replacing **{size}** with the most occurring size value from the previous result and try it on the AttackBox.
