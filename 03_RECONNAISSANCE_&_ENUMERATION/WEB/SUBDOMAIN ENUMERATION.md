@@ -48,7 +48,9 @@ Bruteforce DNS (Domain Name System) enumeration is the method of trying tens, 
 
 ### Questions
 
-####
+#### What is the first subdomain found with the dnsrecon tool?
+
+
 
 ---
 
