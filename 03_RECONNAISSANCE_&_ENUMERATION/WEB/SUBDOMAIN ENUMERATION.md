@@ -64,6 +64,7 @@ Because this method requires many requests, we automate it with tools to make th
 ### Questions
 
 #### What is the first subdomain found with the dnsrecon tool?
+api.acmeitsupport.thm
 
 ![[Pasted image 20250704114254.png]]
 
