@@ -31,7 +31,6 @@ Search engines contain trillions of links to more than a billion websites, which
 > - `support.domain.com/help`
 > - `beta.domain.com/login`
 
-
 Go to [Google](https://tryhackme.com/room/google.com) and use the search term `site:*.tryhackme.com -site:www.tryhackme.com`, which should reveal a subdomain for tryhackme.com; use that subdomain to answer the question below.
 
 ### Questions
@@ -44,6 +43,12 @@ store.tryhackme.com
 ---
 
 ## DNS Bruteforce
+
+Bruteforce DNS (Domain Name System) enumeration is the method of trying tens, hundreds, thousands or even millions of different possible subdomains from a pre-defined list of commonly used subdomains. Because this method requires many requests, we automate it with tools to make the process quicker. In this instance, we are using a tool called dnsrecon to perform this. Click the "View Site" button to open the static site, press the "Run DNSrecon Request" button to start the simulation, and then answer the question below.
+
+### Questions
+
+####
 
 ---
 
