@@ -2,11 +2,10 @@
 
 ---
 
-## OSINT - SSL/TLS Certificates
-[[SSL TLS CERTIFICATES]]
+## [[SSL TLS CERTIFICATES|OSINT - SSL/TLS Certificates]]
 
 ---
-
+[[]]
 ## OSINT - Search Engines
 
 ---
