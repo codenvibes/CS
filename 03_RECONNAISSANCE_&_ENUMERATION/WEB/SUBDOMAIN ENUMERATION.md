@@ -4,9 +4,9 @@
 
 ## [[SSL TLS CERTIFICATES|OSINT - SSL/TLS Certificates]]
 
-##### Questions
+### Questions
 
-######
+#### What domain was logged on crt.sh at 2020-12-26?
 
 ---
 
