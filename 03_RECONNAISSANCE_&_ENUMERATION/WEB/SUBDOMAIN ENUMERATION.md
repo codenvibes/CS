@@ -107,6 +107,8 @@ Because the above command will always produce a valid result, we need to filter 
 user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://MACHINE_IP -fs {size}
 ```
 
+> ![[Pasted image 20250704134159.png]]
+
 This command has a similar syntax to the first apart from the **-fs** switch, which tells **ffuf** to ignore any results that are of the specified size.
 
 The above command should have revealed two positive results that we haven't come across before.
