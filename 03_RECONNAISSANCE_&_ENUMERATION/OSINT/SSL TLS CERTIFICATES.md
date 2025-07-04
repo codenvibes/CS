@@ -40,7 +40,7 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 
 ---
 
-## 🧰 **Common tools and sites for SSL/TLS OSINT**
+## Common tools and sites for SSL/TLS OSINT
 
 - **Censys**, **Shodan** — search engines for internet-connected devices & their certificates.
     
