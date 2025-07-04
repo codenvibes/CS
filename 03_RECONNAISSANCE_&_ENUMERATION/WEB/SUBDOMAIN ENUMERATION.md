@@ -77,6 +77,9 @@ To speed up the process of OSINT subdomain discovery, we can automate the abov
 ### Questions
 
 #### What is the first subdomain discovered by sublist3r?
+web55.acmeitsupport.thm
+
+![[Pasted image 20250704115057.png]]
 
 ---
 
