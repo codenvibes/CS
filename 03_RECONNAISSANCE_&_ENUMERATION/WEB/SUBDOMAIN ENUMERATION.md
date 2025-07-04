@@ -17,7 +17,7 @@ store.tryhackme.com
 
 ### Questions
 
-####
+#### What is the TryHackMe subdomain beginning with **S** discovered using the above Google search?
 
 ---
 
