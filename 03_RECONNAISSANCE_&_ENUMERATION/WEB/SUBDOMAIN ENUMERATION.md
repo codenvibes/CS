@@ -109,6 +109,13 @@ This command has a similar syntax to the first apart from the **-fs** switch, 
 
 The above command should have revealed two positive results that we haven't come across before.
 
+### Questions
+
+#### What is the first subdomain discovered?
+
+
+#### What is the second subdomain discovered?
+
 ---
 
 ## References
