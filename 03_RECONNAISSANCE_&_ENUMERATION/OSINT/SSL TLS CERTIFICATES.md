@@ -8,6 +8,10 @@
 
 When you see `https://` and the 🔒 lock icon in your browser — that’s SSL/TLS at work.
 
+When an SSL/TLS certificate is issued for a website by a Certificate Authority (CA), it gets recorded in something called a **Certificate Transparency (CT) log**.
+
+These logs are public lists of all SSL/TLS certificates created for websites. The main reason for CT logs is to help catch fake or mistakenly issued certificates before they can be used for bad purposes.
+
 ---
 
 ## How are SSL/TLS certificates used in OSINT (Open Source Intelligence)?
