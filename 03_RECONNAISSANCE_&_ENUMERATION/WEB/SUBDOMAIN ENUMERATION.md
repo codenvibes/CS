@@ -2,7 +2,8 @@
 
 ---
 
-## [[OSINT - SSL/TLS Certificates]]
+## OSINT - SSL/TLS Certificates
+[[SSL TLS CERTIFICATES]]
 
 ---
 
