@@ -1,4 +1,4 @@
-==Tabletop exercises are guided, interactive simulations that test your organisation's Computer Security Incident Response Team (CSIRT) under realistic attack scenarios..==
+==DEF-Tabletop exercises are guided, interactive simulations that test your organisation's Computer Security Incident Response Team (CSIRT) under realistic attack scenarios..==
 
 Here’s a clear breakdown:
 
@@ -32,3 +32,9 @@ They’re a cost-effective way to prepare for crises, build confidence, and make
 
 If you’d like, I can share an example scenario or even help you design a simple tabletop outline — just say the word!
 
+
+---
+
+## References
+
+https://tryhackme.com/ttx/dashboard
