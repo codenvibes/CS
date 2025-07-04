@@ -43,28 +43,20 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 ## Common tools and sites for SSL/TLS OSINT
 
 - **Censys**, **Shodan** — search engines for internet-connected devices & their certificates.
-    
 - **crt.sh** — searches Certificate Transparency logs.
-    
 - **Google Certificate Transparency** — logs issued certs.
-    
 - **OpenSSL** — to manually inspect certs.
-    
 
 ---
 
-## ✅ **Example scenario**
+## Example scenario
 
 **Imagine you find a suspicious phishing domain:**
 
 1. Look up its certificate on `crt.sh`.
-    
 2. Find all other domains using the same cert → more phishing domains.
-    
 3. Check the organization field → link to the attacker or company.
-    
 4. Check logs for older certs → see if they reused info elsewhere.
-    
 
 ---
 
