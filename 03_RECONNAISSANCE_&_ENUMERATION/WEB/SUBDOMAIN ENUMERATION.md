@@ -117,8 +117,11 @@ The above command should have revealed two positive results that we haven't come
 
 #### What is the first subdomain discovered?
 
+![[Pasted image 20250704134302.png]]
 
 #### What is the second subdomain discovered?
+
+![[{97738FE6-A625-4AAE-B393-489C9EE7CD0C}.png]]
 
 ---
 
