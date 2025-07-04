@@ -14,12 +14,10 @@ When you see `https://` and the 🔒 lock icon in your browser — that’s SSL/
 
 In OSINT investigations, SSL/TLS certificates can reveal valuable information. Here’s how:
 
-### ✅ **1. Identify related domains**
+### 1. Identify related domains
 
 - Many websites share the same certificate (like subdomains: `mail.example.com`, `api.example.com`).
-    
 - Certificate fields (like the **Subject Alternative Name** or SAN) often list multiple domains — so you can discover infrastructure connections.
-    
 
 ### ✅ **2. Reveal ownership clues**
 
