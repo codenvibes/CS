@@ -65,7 +65,7 @@ Because this method requires many requests, we automate it with tools to make th
 
 #### What is the first subdomain found with the dnsrecon tool?
 
-
+![[Pasted image 20250704114254.png]]
 
 ---
 
