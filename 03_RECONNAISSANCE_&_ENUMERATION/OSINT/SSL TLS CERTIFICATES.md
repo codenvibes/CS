@@ -2,7 +2,7 @@
 
 **SSL** (Secure Sockets Layer) and its successor **TLS** (Transport Layer Security) are cryptographic protocols that secure communication over a network (mainly the internet).
 
-- **SSL/TLS certificates** are digital certificates issued by a Certificate Authority (CA).
+- **DEF-SSL/TLS certificates** are digital certificates issued by a Certificate Authority (CA).
 - They verify that a website (or server) is who it claims to be and enable **HTTPS**, which encrypts data between your browser and the server.
 - Technically, the certificate contains the website’s public key, the domain name it’s issued for, the CA’s signature, and metadata like expiry dates.
 
