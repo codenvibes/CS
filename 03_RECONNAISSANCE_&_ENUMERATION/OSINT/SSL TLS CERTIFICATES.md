@@ -10,7 +10,7 @@ When you see `https://` and the 🔒 lock icon in your browser — that’s SSL/
 
 ---
 
-## 🔍 **How are SSL/TLS certificates used in OSINT (Open Source Intelligence)?**
+## How are SSL/TLS certificates used in OSINT (Open Source Intelligence)?
 
 In OSINT investigations, SSL/TLS certificates can reveal valuable information. Here’s how:
 
