@@ -17,7 +17,6 @@ A tabletop exercise is a structured, facilitated discussion where participants w
 **Why they matter:**  
 They’re a cost-effective way to prepare for crises, build confidence, and make sure everyone knows what to do — without risking safety or disrupting operations.
 
-
 ---
 
 ## References
