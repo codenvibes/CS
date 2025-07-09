@@ -16,6 +16,8 @@ Each host in a network has its own `48`-bit (`6 octets`) `Media Access Control
 
 This is because the `MAC` address addresses the physical connection (network card, Bluetooth, or WLAN adapter) of a host. Each network card has its individual MAC address, which is configured once on the manufacturer's hardware side but can always be changed/faked/"spoofed", at least temporarily.
 
+This spoofing occurs when a networked device pretends to identify as another using its MAC address. When this occurs, it can often break poorly implemented security designs that assume that devices talking on a network are trustworthy. Take the following scenario: A firewall is configured to allow any communication going to and from the MAC address of the administrator. If a device were to pretend or "spoof" this MAC address, the firewall would now think that it is receiving communication from the administrator when it isn't.
+
 Let's have a look at an example of such a MAC address:
 
 MAC address:
