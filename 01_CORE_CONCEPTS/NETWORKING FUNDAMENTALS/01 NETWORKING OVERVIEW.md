@@ -1,4 +1,4 @@
-> DEF-Network: The interconnection of 2 or more devices to facilitate communication between them through sharing of resources and information.
+> DEF-Network: The interconnection of 2 or more devices to facilitate communication between them for sharing of resources and information.
 
 As an information security professional, a firm grasp of networking fundamentals and the required components is necessary. Without a strong foundation in networking, it will be tough to progress in any area of information security. Understanding how a network is structured and how the communication between the individual hosts and servers takes place using the various protocols allows us to understand the entire network structure and its network traffic in detail and how different communication standards are handled. This knowledge is essential to create our tools and to interact with the protocols.
 
@@ -97,3 +97,4 @@ If the client had designed a secure network, this attack probably would not have
 ## References
 
 https://academy.hackthebox.com/module/34/section/297
+https://tryhackme.com/room/whatisnetworking
