@@ -8,6 +8,8 @@ Now we can change our name through deed poll, but we can't, however, change our 
 - An IP Address
 - A Media Access Control (MAC) Address -- think of this as being similar to a serial number.
 
+### What is an IP address?
+
 > An **DEF-IP address** (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network that uses the Internet Protocol for communication.
 
 This number is calculated through a technique known as IP addressing & subnetting. What's important to understand here is that IP addresses can change from device to device but cannot be active simultaneously more than once within the same network.
