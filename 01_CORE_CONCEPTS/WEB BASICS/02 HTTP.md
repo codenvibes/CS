@@ -16,7 +16,7 @@ When we access a website, your browser will need to make requests to a web serve
 
 ### What is a URL? (Uniform Resource Locator)
 
-==A URL is an instruction on how to access a resource on the internet.== The image below shows what a URL looks like with all of its features (it does not use all features in every request).
+==DEF-URL: an instruction on how to access a resource on the internet.== The image below shows what a URL looks like with all of its features (it does not use all features in every request).
 
 ![A diagram showing different parts of a URL on an example, where http is the scheme, user:password is the user, tryhackme.com is a domain or the host, 80 is the port, view-room is the path, ?id=1 is the query string, and #task3 is the fragment. The full address is http://user:password@tryhackme.com:80/view-room?id=1#task3.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/34ad66d8b90aaaa35f9536d3b152ea97.png)
 
