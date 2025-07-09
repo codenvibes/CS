@@ -1,6 +1,6 @@
-> DEF-Network: The interconnection of 2 or more devices to facilitate communication between them for sharing of resources and information.
+> DEF-**Network:** The interconnection of 2 or more devices to facilitate communication between them for sharing of resources and information.
 > 
-> DEF-Internet: A collection of LANS.
+> DEF-**Internet:** A collection of LANS.
 > The first iteration of the Internet was within the ARPANET project in the late 1960s. This project was funded by the United States Defence Department and was the first documented network in action. However, it wasn't until 1989 when the Internet as we know it was invented by Tim Berners-Lee by the creation of the **W**orld **W**ide **W**eb (**WWW**). It wasn't until this point that the Internet started to be used as a repository for storing and sharing information, just like it is today.
 
 As an information security professional, a firm grasp of networking fundamentals and the required components is necessary. Without a strong foundation in networking, it will be tough to progress in any area of information security. Understanding how a network is structured and how the communication between the individual hosts and servers takes place using the various protocols allows us to understand the entire network structure and its network traffic in detail and how different communication standards are handled. This knowledge is essential to create our tools and to interact with the protocols.
