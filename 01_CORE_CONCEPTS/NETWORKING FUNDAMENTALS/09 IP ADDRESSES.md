@@ -16,7 +16,10 @@ This number is calculated through a technique known as IP addressing & subnettin
 
 IP Addresses follow a set of standards known as protocols. These protocols are the backbone of networking and force many devices to communicate in the same language. However, we should recall that devices can be on both a private and public network. Depending on where they are will determine what type of IP address they have: a public or private IP address.
 
-A public address is used to identify the device on the Internet, whereas a private address is used to identify a device amongst other devices. Take the table & screenshot below as an example. Here we have two devices on a private network:
+- A public address is used to identify the device on the Internet, 
+- whereas a private address is used to identify a device amongst other devices. Take the table & screenshot below as an example. 
+
+Here we have two devices on a private network:
 
 |   |   |   |
 |---|---|---|
