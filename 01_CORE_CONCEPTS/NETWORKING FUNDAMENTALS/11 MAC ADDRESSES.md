@@ -176,6 +176,15 @@ We can use ARP poisoning to perform various activities, such as stealing sensiti
 
 ---
 
+## Questions
+
+What does the term "IP" stand for?
+What is each section of an IP address called?  
+How many sections (in digits) does an IPv4 address have?   
+What does the term "MAC" stand for?
+
+---
+
 ## References
 
 https://academy.hackthebox.com/module/34/section/307
