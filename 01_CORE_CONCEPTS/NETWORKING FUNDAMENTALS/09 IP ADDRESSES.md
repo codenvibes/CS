@@ -21,13 +21,12 @@ IP Addresses follow a set of standards known as protocols. These protocols are t
 
 Here we have two devices on a private network:
 
-|   |   |   |
-|---|---|---|
-|**Device Name**|**IP Address**|**IP Address Type**|
-|DESKTOP-KJE57FD|192.168.1.77|Private|
-|DESKTOP-KJE57FD|86.157.52.21|Public|
-|CMNatic-PC|192.168.1.74|Private|
-|CMNatic-PC|86.157.52.21|Public|
+| **Device Name** | **IP Address** | **IP Address Type** |
+| --------------- | -------------- | ------------------- |
+| DESKTOP-KJE57FD | 192.168.1.77   | Private             |
+| DESKTOP-KJE57FD | 86.157.52.21   | Public              |
+| CMNatic-PC      | 192.168.1.74   | Private             |
+| CMNatic-PC      | 86.157.52.21   | Public              |
 
 ![https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png](https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png)
 
