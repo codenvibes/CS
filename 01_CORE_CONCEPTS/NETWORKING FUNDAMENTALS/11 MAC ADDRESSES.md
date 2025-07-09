@@ -1,6 +1,6 @@
-A **DEF-MAC address** (**M**edia **A**ccess **C**ontrol address) is a unique twelve-character hexadecimal number assigned to a device’s physical network interface — a microchip board built into the device’s motherboard. It is set at the factory where the device is made and cannot easily be changed.
+==A **DEF-MAC address** (**M**edia **A**ccess **C**ontrol address) is a unique twelve-character hexadecimal number assigned to a device’s physical network interface — a microchip board built into the device’s motherboard. It is set at the factory where the device is made and cannot easily be changed.==
 
-A MAC address is written in pairs of characters separated by colons (e.g., `a4:c3:f0:85:ac:2d`). The first six characters identify the manufacturer of the network interface, while the last six characters are a unique identifier for that specific device.
+==A MAC address is written in pairs of characters separated by colons (e.g., `a4:c3:f0:85:ac:2d`). The first six characters identify the manufacturer of the network interface, while the last six characters are a unique identifier for that specific device.==
 
 MAC addresses allow devices to be uniquely identified within a local network, like a Wi-Fi or Ethernet network.
 
