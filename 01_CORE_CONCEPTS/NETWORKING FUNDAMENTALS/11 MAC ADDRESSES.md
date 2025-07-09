@@ -14,7 +14,7 @@ Each host in a network has its own `48`-bit (`6 octets`) `Media Access Control
 - Bluetooth (IEEE 802.15)
 - WLAN (IEEE 802.11)
 
-This is because the `MAC` address addresses the physical connection (network card, Bluetooth, or WLAN adapter) of a host. Each network card has its individual MAC address, which is configured once on the manufacturer's hardware side but can always be changed, at least temporarily.
+This is because the `MAC` address addresses the physical connection (network card, Bluetooth, or WLAN adapter) of a host. Each network card has its individual MAC address, which is configured once on the manufacturer's hardware side but can always be changed/faked/"spoofed", at least temporarily.
 
 Let's have a look at an example of such a MAC address:
 
