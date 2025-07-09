@@ -178,10 +178,13 @@ We can use ARP poisoning to perform various activities, such as stealing sensiti
 
 ## Questions
 
-What does the term "IP" stand for?
-What is each section of an IP address called?  
-How many sections (in digits) does an IPv4 address have?   
-What does the term "MAC" stand for?
+- What does the term "IP" stand for?
+	Internet Protocol
+- What is each section of an IP address called?  
+	octet
+- How many sections (in digits) does an IPv4 address have?   
+	4
+- What does the term "MAC" stand for?
 
 ---
 
