@@ -8,6 +8,7 @@ Now we can change our name through deed poll, but we can't, however, change our 
 - An IP Address
 - A Media Access Control (MAC) Address -- think of this as being similar to a serial number.
 
+An **DEF-IP address** (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network that uses the Internet Protocol for communication.
 
 Each host in the network located can be identified by the so-called `Media Access Control` address (`MAC`). This would allow data exchange within this one network. If the remote host is located in another network, knowledge of the `MAC` address is not enough to establish a connection. Addressing on the Internet is done via the `IPv4` and/or `IPv6` address, which is made up of the `network address` and the `host address`.
 
