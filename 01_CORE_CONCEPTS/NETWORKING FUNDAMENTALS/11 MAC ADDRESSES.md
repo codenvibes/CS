@@ -1,4 +1,8 @@
-Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a **MAC** (**M**edia **A**ccess **C**ontrol ) address. The MAC address is a **twelve-character** hexadecimal number (_a base sixteen numbering system used in computing to represent numbers_) split into two's and separated by a colon. These colons are considered separators. For example, _a4:c3:f0:85:ac:2d_. The first six characters represent the company that made the network interface, and the last six is a unique number.
+A **DEF-MAC address** (**M**edia **A**ccess **C**ontrol address) is a unique twelve-character hexadecimal number assigned to a device’s physical network interface — a microchip board built into the device’s motherboard. It is set at the factory where the device is made and cannot easily be changed.
+
+A MAC address is written in pairs of characters separated by colons (e.g., `a4:c3:f0:85:ac:2d`). The first six characters identify the manufacturer of the network interface, while the last six characters are a unique identifier for that specific device.
+
+MAC addresses allow devices to be uniquely identified within a local network, like a Wi-Fi or Ethernet network.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png)
 
