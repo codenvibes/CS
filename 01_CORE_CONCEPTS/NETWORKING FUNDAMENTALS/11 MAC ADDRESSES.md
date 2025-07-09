@@ -1,3 +1,6 @@
+Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a **MAC** (**M**edia **A**ccess **C**ontrol ) address. The MAC address is a **twelve-character** hexadecimal number (_a base sixteen numbering system used in computing to represent numbers_) split into two's and separated by a colon. These colons are considered separators. For example, _a4:c3:f0:85:ac:2d_. The first six characters represent the company that made the network interface, and the last six is a unique number.
+
+
 Each host in a network has its own `48`-bit (`6 octets`) `Media Access Control` (`MAC`) address, represented in hexadecimal format. `MAC` is the `physical address` for our network interfaces. There are several different standards for the MAC address:
 
 - Ethernet (IEEE 802.3)
@@ -163,3 +166,4 @@ We can use ARP poisoning to perform various activities, such as stealing sensiti
 ## References
 
 https://academy.hackthebox.com/module/34/section/307
+https://tryhackme.com/room/whatisnetworking
