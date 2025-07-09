@@ -80,9 +80,9 @@ In the context of the `Internet of Things` (`IoT`), `WPAN`s are used to commu
 - What is a Site-To-Site VPN?
 - Define Remote Access VPN.
 - What is an SSL VPN?
-- What is a Global Area Network (GAN)?
-- Define Metropolitan Area Network (MAN).
-- What is a Wireless Personal Area Network (WPAN), and what technology does it usually use?
+- What is a GAN?
+- Define MAN.
+- What is a WPAN, and what technology does it usually use?
 - What is an Airgap Network?
 - What is a Piconet?
 
