@@ -73,29 +73,17 @@ In the context of the `Internet of Things` (`IoT`), `WPAN`s are used to commu
 ## Questions
 
 - What is the Internet commonly referred to as in networking terminology?
-    
 - Define WAN.
-    
-- What does LAN stand for, and what is it used for?
-    
+- What does LAN stand for, and what is it?
 - What does WLAN stand for, and how is it different from a LAN?
-    
 - What is a VPN, and what is its main purpose?
-    
 - What is a Site-To-Site VPN?
-    
 - Define Remote Access VPN.
-    
 - What is an SSL VPN?
-    
 - What is a Global Area Network (GAN)?
-    
 - Define Metropolitan Area Network (MAN).
-    
 - What is a Wireless Personal Area Network (WPAN), and what technology does it usually use?
-    
 - What is an Airgap Network?
-    
 - What is a Piconet?
 
 ---
