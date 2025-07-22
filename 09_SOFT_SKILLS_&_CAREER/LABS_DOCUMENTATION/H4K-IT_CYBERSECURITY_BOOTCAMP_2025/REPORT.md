@@ -10,22 +10,14 @@ DATE; WEDNESDAY 23RD JULY 2025
 <!--Table of Contents-->
 <!--Challenge Summary-->
 <!--Detailed Walkthrough-->
-##### Challenge: [Name of the challenge]
+##### Name of the challenge
 
 - **Category**: Web, Forensics, Reverse Engineering, etc.
-    
-- **Description**: [Brief summary]
-    
-- **Tools Used**: [List of tools]
-    
+- **Description**: Brief summary
+- **Tools Used**: List of tools
 - **Methodology**:
-    
     - Step-by-step approach
-        
-    - Screenshots (if allowed)
-        
+    - Screenshots 
     - Commands used
-        
 - **Flag Captured**: `h4kit{flag_here}`
-    
-- **Lessons Learned**: [What you learned from this challenge]
+- **Lessons Learned**:
