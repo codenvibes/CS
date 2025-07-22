@@ -1,15 +1,15 @@
 # H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT
 
-<!--Cover Page-->
+#### 1. **Cover Page**
 
 CTF CHALLENGE REPORT – H4K-IT CYBERSECURITY BOOTCAMP 2025
 TERRENCE M.K
 DATE; WEDNESDAY 23RD JULY 2025
 
 
-<!--Table of Contents-->
-<!--Challenge Summary-->
-<!--Detailed Walkthrough-->
+#### 2. **Table of Contents**
+#### 3. **Challenge Summary**
+#### 4. **Challenge Summary**
 ##### Name of the challenge
 
 - **Category**: Web, Forensics, Reverse Engineering, etc.
