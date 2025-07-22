@@ -34,4 +34,4 @@ I’m now working on my report and presentation and was wondering if you’d be 
 Thanks in advance, and I completely understand if you’re unable to share. Looking forward to learning from your experience!
 
 Best regards
-Terrence
+Terrence.
