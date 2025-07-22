@@ -21,3 +21,5 @@ DATE; WEDNESDAY 23RD JULY 2025
     - Commands used
 - **Flag Captured**: `h4kit{flag_here}`
 - **Lessons Learned**:
+
+#### 5. **Conslusion**
