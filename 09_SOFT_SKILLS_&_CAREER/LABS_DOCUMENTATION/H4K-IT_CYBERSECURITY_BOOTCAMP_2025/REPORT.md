@@ -321,6 +321,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723201009.png]]
 	
 	Captured server response headers:
+	→ Converted to UNIX timestamp: `1753277901`
 	
 9. Attempted manual reproduction using the server’s timestamp from response headers.
     
