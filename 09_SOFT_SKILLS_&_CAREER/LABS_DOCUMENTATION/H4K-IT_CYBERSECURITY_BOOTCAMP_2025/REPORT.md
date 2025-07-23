@@ -89,35 +89,3 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 
 
 
-I ran this 
-
-```
-┌──(mopsy㉿APHP)-[~/H4K-IT]
-└─$ gobuster dir -u http://68.183.205.254:34664 -w ~/SecLists/Discovery/Web-Content/common.txt
-===============================================================
-Gobuster v3.6
-by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
-===============================================================
-[+] Url:                     http://68.183.205.254:34664
-[+] Method:                  GET
-[+] Threads:                 10
-[+] Wordlist:                /home/mopsy/SecLists/Discovery/Web-Content/common.txt
-[+] Negative Status codes:   404
-[+] User Agent:              gobuster/3.6
-[+] Timeout:                 10s
-===============================================================
-Starting gobuster in directory enumeration mode
-===============================================================
-/admin                (Status: 200) [Size: 542]
-/dashboard            (Status: 302) [Size: 199] [--> /login]
-/login                (Status: 200) [Size: 476]
-/register             (Status: 200) [Size: 450]
-Progress: 4746 / 4747 (99.98%)
-===============================================================
-Finished
-===============================================================
-
-```
-
-then accessed the http://68.183.205.254:34664/admin URL and got this; 
-
