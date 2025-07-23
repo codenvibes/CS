@@ -200,7 +200,8 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
     ![[Pasted image 20250723135235.png]]
 
 5. Modified the `id` parameter to `1` to access the admin profile.
-    
+    ![[Pasted image 20250723135335.png]]
+
 6. Inspected the page source and discovered the flag in the `<footer>` tag.
 
 ### Flag Captured: `h4kit{email_override_success_e2359b737f00}`
