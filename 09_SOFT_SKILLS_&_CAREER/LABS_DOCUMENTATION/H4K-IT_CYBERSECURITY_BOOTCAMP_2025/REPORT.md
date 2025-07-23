@@ -472,3 +472,21 @@ the first page I land on is http://68.183.205.254:34715/
 ```
 
 I click on upload script link
+ I get to a page http://68.183.205.254:34715/upload which look like this;
+ 
+```
+ 
+<!DOCTYPE html>
+<html>
+<head><title>Upload Script – ScriptServe</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Upload New Script</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="script" required />
+        <button type="submit">Upload</button>
+    </form>
+</div>
+</body>
+</html>
+```
