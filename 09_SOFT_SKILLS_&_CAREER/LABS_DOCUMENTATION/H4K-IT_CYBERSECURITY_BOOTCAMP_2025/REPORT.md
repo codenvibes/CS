@@ -407,23 +407,14 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 
 6. File Fuzzing with FFUF
 	I figured `/preview` might be used to view uploaded scripts, possibly by filename. Since I didn’t know any uploaded script names, I tried fuzzing it with common file names and extensions using FFUF:
+	![[Pasted image 20250724000520.png]]
 	
-```bash
-ffuf -u "http://68.183.205.254:34715/preview?file=FUZZ" \
-     -w ~/SecLists/Discovery/Web-Content/common.txt \
-     -e .txt,.php,.log,.bak -mc 200 -ac
-```
-
-💥 Success:  
-Discovered file:
-
-```
-flag.txt [Status: 200]
-```
+	💥 Success:  
+	Discovered file: `flag.txt [Status: 200]`
 
 ---
 
-#### 📦 4. Retrieved the Flag
+4. Retrieved the Flag
 
 ```bash
 curl "http://68.183.205.254:34715/preview?file=flag.txt"
