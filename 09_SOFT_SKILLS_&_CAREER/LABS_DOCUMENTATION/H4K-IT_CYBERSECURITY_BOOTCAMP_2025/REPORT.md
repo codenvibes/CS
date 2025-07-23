@@ -235,7 +235,7 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 1. Visiting the provided instance: `http://68.183.205.254:34689/`
     ![[Pasted image 20250723153711.png]]
-2. 
+2. Click on the 
     ![[Pasted image 20250723153820.png]]
     
 3. Confirmed SSRF by submitting a public PDF link and observing the reflected content.
