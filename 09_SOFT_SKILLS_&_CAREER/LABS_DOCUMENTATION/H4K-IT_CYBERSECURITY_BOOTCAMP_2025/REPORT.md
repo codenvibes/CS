@@ -325,7 +325,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 9. I converted the `Date` header (`Wed, 23 Jul 2025 13:38:21 GMT`) to its UNIX timestamp: `1753277901` to test my suspicion that the token might be generated using a pattern like `md5(username + timestamp)`. I tried recreating the token locally with this timestamp, but the result didn’t match the token provided by the server.
 	
 10. Decided to request a reset token for `admin`:
-	Returned to `/reset/forgot`
+	Returned to `http://68.183.205.254:34713/reset/forgot`
 	![[Pasted image 20250723211041.png]]
 	
 11. Tried to reproduce the token locally (unsuccessfully)
