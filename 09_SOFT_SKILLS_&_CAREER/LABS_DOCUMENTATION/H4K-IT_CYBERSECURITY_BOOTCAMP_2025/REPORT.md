@@ -383,4 +383,21 @@ I go to http://68.183.205.254:34696/reset/forgot
 and I see the reset password form 
 
 ```
+
+<!DOCTYPE html>
+<html>
+<head><title>Forgot Password – ResetRealm</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Request Password Reset</h2>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <button type="submit">Generate Reset Link</button>
+    </form>
+</div>
+</body>
+</html>
 ```
+
+I enter my username; attacker and click generate reset link
+
