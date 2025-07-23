@@ -288,7 +288,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 1. Visiting the provided instance: `http://68.183.205.254:34689/`
 	A basic login page was presented `http://68.183.205.254:34696/login` with a login form but first let's create an account.
-	![[Pasted image 20250723182302.png]]
+	![[Pasted image 20250723195634.png]]
 	
 2. Clicked the **"Register"** link.
 	**Landed on**: `http://68.183.205.254:34696/register`
