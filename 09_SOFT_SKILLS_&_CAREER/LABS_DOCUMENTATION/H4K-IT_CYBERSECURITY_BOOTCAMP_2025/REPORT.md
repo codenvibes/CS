@@ -100,8 +100,11 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Discovered a link to the registration page.
 	![[Pasted image 20250723130131.png]]
 	
-2. registration pages and created a user (`attacker`).
-    
+2. User Registration
+	Registered at `http://68.183.205.254:34664/register`
+	- Username: `attacker`
+	- Password: `attacker`
+	- 
 3. Logged in and confirmed the user role was **user**, not **admin**.
     
 4. Used Gobuster to enumerate directories:
