@@ -311,7 +311,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 5. Visited the forgot password page. `http://68.183.205.254:34696/reset/forgot`
 	![[Pasted image 20250723200301.png]]
 	
-6. Entered `attacker` and triggered a password reset.
+6. Entered `attacker` as the username and triggered a password reset.
     ![[Pasted image 20250723200425.png]]
     
 7. Observed the format of the reset token (`md5(username + timestamp)`).
