@@ -184,9 +184,10 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
     ![[Pasted image 20250723134548.png]]
     
 2. User Registration
-	Registered at `http://68.183.205.254:34664/register`
+	Registered at `http://68.183.205.254:34684/register`
 	- Username: `attacker`
 	- Password: `attacker
+    ![[Pasted image 20250723134635.png]]
     
 3. Viewed the attacker's profile at `/profile?id=3`.
     
