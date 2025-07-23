@@ -25,8 +25,14 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 ---
 
-#### 3. **Challenge Summary**
-#### 4. **Challenge Summary**
+# Detailed Walkthrough
+
+---
+
+# Challenge Summary*
+
+---
+
 ##### Name of the challenge
 
 - **Category**: Web, Forensics, Reverse Engineering, etc.
@@ -39,6 +45,7 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 - **Flag Captured**: `h4kit{flag_here}`
 - **Lessons Learned**:
 
-#### 5. **Conclusion**
+---
+# Conclusion
 
 
