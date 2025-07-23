@@ -314,7 +314,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 6. Entered `attacker` as the username and triggered a password reset.
     ![[Pasted image 20250723200425.png]]
     
-7. Observed the format of the reset token (`md5(username + timestamp)`).
+7. The system responded with:
+	![[Pasted image 20250723200729.png]]
+	Observed the format of the reset token (`md5(username + timestamp)`).
     
 8. Attempted manual reproduction using the server’s timestamp from response headers.
     
