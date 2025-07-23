@@ -67,7 +67,7 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 4. **Clicked profile link** and noted the URL: `/profile?id=2`
 	![[Pasted image 20250723081623.png]]
 	
-5. **Modified `id=2` to `id=1`** and accessed the admin’s profile
+5. **==IDOR Exploitation==; Modified `id=2` to `id=1`** and accessed the admin’s profile
 	![[{92782614-64A8-423C-A30E-6D82BEBE246A}.png]]
 	![[{EF24814F-9414-4A9C-A292-F982E5C64B52}.png]]
 	
