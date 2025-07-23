@@ -104,8 +104,11 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	Registered at `http://68.183.205.254:34664/register`
 	- Username: `attacker`
 	- Password: `attacker`
-	- 
-3. Logged in and confirmed the user role was **user**, not **admin**.
+	![[Pasted image 20250723130304.png]]
+	
+3. Login & Dashboard Access
+	Logged in successfully and confirmed the user role was **user**, not **admin**.
+    ![[Pasted image 20250723130408.png]]
     
 4. Used Gobuster to enumerate directories:
        
