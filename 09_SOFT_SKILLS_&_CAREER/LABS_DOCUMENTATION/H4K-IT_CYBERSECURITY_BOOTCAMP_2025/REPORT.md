@@ -379,25 +379,4 @@ Investigate how the tokens are generated. Can you predict a token for another us
 so the first page on launch is the login page http://68.183.205.254:34684/login and there's a link on the page to the registration page http://68.183.205.254:34684/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard http://68.183.205.254:34684/dashboard and it looks like this;
 
 
-I go to http://68.183.205.254:34696/reset/forgot
-and I see the reset password form 
-
-```
-
-<!DOCTYPE html>
-<html>
-<head><title>Forgot Password – ResetRealm</title><link rel="stylesheet" href="/static/style.css"></head>
-<body>
-<div class="container">
-    <h2>Request Password Reset</h2>
-    <form method="POST">
-        <input type="text" name="username" placeholder="Username" required />
-        <button type="submit">Generate Reset Link</button>
-    </form>
-</div>
-</body>
-</html>
-```
-
-I enter my username; attacker and click generate reset link
 
