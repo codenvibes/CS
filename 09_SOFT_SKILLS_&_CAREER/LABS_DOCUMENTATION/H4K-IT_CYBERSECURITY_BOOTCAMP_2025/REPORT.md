@@ -182,7 +182,10 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Found standard login form.
 	- Discovered a link to the registration page.
     
-2. Logged in and accessed the dashboard at `/dashboard`.
+2. User Registration
+	Registered at `http://68.183.205.254:34664/register`
+	- Username: `attacker`
+	- Password: `attacker
     
 3. Viewed the attacker's profile at `/profile?id=3`.
     
