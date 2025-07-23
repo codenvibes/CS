@@ -403,7 +403,7 @@ HTML revealed a basic welcome page with a link to `/upload`.
 4. Received this error after uploading the file:
 	![[Pasted image 20250723233832.png]]
 
-#### 🧭 2. Directory Discovery with Gobuster
+5. Got Stuck… So I Turned to Discovery
 
 ```bash
 gobuster dir -u http://68.183.205.254:34715/ -w ~/SecLists/Discovery/Web-Content/common.txt
