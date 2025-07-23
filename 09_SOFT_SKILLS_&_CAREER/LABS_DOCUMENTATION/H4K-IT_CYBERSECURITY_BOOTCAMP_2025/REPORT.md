@@ -95,15 +95,17 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-1. Visited the login and registration pages and created a user (`attacker`).
+1. Visited the login page `http://68.183.205.254:34664/login`
+2. 
+3. registration pages and created a user (`attacker`).
     
-2. Logged in and confirmed the user role was **user**, not **admin**.
+4. Logged in and confirmed the user role was **user**, not **admin**.
     
-3. Used Gobuster to enumerate directories:
+5. Used Gobuster to enumerate directories:
        
-4. Discovered `/admin` endpoint via bruteforce.
+6. Discovered `/admin` endpoint via bruteforce.
     
-5. Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
+7. Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
 
 ### Flag Captured: 
 
