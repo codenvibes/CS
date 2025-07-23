@@ -160,7 +160,7 @@ Finished
     Access control logic must be enforced on the server, not just in the client.
 
 
-## DevPortal Ownership Override (200 pts)
+## ✅ DevPortal Ownership Override (200 pts)
 
 ### Task
 CorpDocs is a lightweight internal document management system used by CloudNova Inc. Employees can register, upload files, and view personal dashboards. There’s also an /admin panel that was intended to be accessible only to internal staff during development.
