@@ -178,7 +178,9 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-1. Registered a user (`attacker/attacker`) via `/register`.
+1. Visited the login page `http://68.183.205.254:34664/login`
+	- Found standard login form.
+	- Discovered a link to the registration page.
     
 2. Logged in and accessed the dashboard at `/dashboard`.
     
