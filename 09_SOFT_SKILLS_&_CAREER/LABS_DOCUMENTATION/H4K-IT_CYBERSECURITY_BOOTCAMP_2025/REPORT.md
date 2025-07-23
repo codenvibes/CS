@@ -280,6 +280,12 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 ### Tools Used
 
+- Web browser 
+    
+- Python (hashlib)
+    
+- Developer Tools (for headers and response timing)
+
 ### Methodology
 
 ### 🚩Flag Captured: 
