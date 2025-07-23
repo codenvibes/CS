@@ -89,6 +89,9 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 
 
 
-so the first page on launch is the login page http://68.183.205.254:34664/login and there's a link on the page to the registration page http://68.183.205.254:34664/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard
+so the first page on launch is the login page http://68.183.205.254:34664/login and there's a link on the page to the registration page http://68.183.205.254:34664/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard 
+http://68.183.205.254:34664/dashboard with this content 
 
+## Welcome, attacker
 
+You are logged in as **user**.
