@@ -223,3 +223,4 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 
 
+so the first page on launch is the login page http://68.183.205.254:34684/login and there's a link on the page to the registration page and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard
