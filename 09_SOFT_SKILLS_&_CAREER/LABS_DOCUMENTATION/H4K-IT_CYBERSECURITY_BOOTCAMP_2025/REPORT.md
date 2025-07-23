@@ -377,6 +377,11 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 
 ### Tools Used
 
+- Web browser (Chrome)
+- Gobuster – for directory enumeration
+- FFUF – for file fuzzing
+- curl – for fetching file content
+
 ### Methodology
 
 ### 🚩Flag Captured: 
