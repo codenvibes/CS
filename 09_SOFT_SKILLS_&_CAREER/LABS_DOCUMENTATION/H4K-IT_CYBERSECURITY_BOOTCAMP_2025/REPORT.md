@@ -8,7 +8,7 @@ EMAIL: [terrence.tech@proton.me](mailto:terrence.tech@proton.me)
 
 WEDNESDAY 23RD JULY 2025
 
-**H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT**
+<div align="center">**H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT**</div>
 
 
 ## Introduction
