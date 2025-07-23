@@ -27,10 +27,6 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 # Detailed Walkthrough
 
----
-
-# Challenge Summary
-
 ## AI Solutions Portal Profile Peek (100 pts)
 
 ### Task
@@ -81,6 +77,11 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 - Never trust client-side input; always validate access server-side.
 - IDOR vulnerabilities are often exploitable using sequential IDs.
 - Viewing page source is essential when hunting for hidden content.
+
+
+---
+
+# Challenge Summary
 
 ---
 
