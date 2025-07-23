@@ -394,14 +394,8 @@ HTML revealed a basic welcome page with a link to `/upload`.
 
 ![[Pasted image 20250723232901.png]]
 
-Clicking on `Upload Script``, revealed an upload form:
-
-```html
-<form method="POST" enctype="multipart/form-data">
-    <input type="file" name="script" required />
-    <button type="submit">Upload</button>
-</form>
-```
+2. Clicking on `Upload Script` revealed an upload form:
+	![[Pasted image 20250723233215.png]]
 
 Attempted to upload a benign `.txt` file (named `attacker.txt`) →  
 Received this error:
