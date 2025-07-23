@@ -229,6 +229,9 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 ### Tools Used
 
+- Web browser (Chrome)
+- Public PDF URL (for testing SSRF)
+
 ### Methodology
 
 ### 🚩Flag Captured: 
