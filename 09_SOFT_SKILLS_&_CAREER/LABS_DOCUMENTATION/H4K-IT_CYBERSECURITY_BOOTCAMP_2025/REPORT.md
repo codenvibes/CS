@@ -330,8 +330,11 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 	Entered: `admin`
 	![[Pasted image 20250723211406.png]]
-	 Clicked 
-11. Tried to reproduce the token locally (unsuccessfully)
+	 Clicked `Generate Reset Link`
+	 
+11. 
+	
+12. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
 	
 ```
