@@ -69,7 +69,8 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 	![[{EF24814F-9414-4A9C-A292-F982E5C64B52}.png]]
 	
 6. **Inspected the page source** to locate the hidden flag
-	
+	![[Pasted image 20250723081739.png]]
+
 ### Flag Captured: `h4kit{broken_object_control_found_4bb42c8346d9}`
 
 ### Lessons Learned
