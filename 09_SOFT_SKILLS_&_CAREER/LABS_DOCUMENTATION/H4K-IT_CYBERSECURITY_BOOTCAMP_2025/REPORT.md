@@ -173,6 +173,9 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Tools Used
 
+- Web browser (Firefox/Chrome)
+- Developer Tools / View Page Source
+
 ### Methodology
 
 ### Flag Captured: 
