@@ -234,6 +234,7 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 ### Methodology
 
 1. Accessed the `/submit` page and identified a URL field used to fetch PDFs.
+    ![[Pasted image 20250723153711.png]]
     
 2. Confirmed SSRF by submitting a public PDF link and observing the reflected content.
     
