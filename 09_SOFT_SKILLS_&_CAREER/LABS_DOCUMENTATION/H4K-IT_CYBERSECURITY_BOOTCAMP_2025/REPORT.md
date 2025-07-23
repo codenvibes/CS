@@ -318,14 +318,16 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723200729.png]]
 	Observed the format of the reset token.
     
-8. Opened developer tools to inspect server time
+8. Opened developer tools to inspect server time.
+	![[Pasted image 20250723201009.png]]
+	
 9. Attempted manual reproduction using the server’s timestamp from response headers.
     
-9. When local token generation was inconsistent, requested a reset for `admin` directly.
+10. When local token generation was inconsistent, requested a reset for `admin` directly.
     
-10. Used the valid reset link to change the `admin` password.
+11. Used the valid reset link to change the `admin` password.
     
-11. Logged in as `admin` and found the flag in the HTML `<footer>`.
+12. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
