@@ -405,4 +405,6 @@ I click the register link and get to the page http://68.183.205.254:34696/regist
 username; attacker
 password; attacker
 
-and afp
+and after I get redirected to the login page http://68.183.205.254:34696/login
+and login successfully 
+the next page I get
