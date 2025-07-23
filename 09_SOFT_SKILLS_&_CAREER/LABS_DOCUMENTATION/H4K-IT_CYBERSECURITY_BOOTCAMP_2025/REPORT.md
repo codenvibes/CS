@@ -33,6 +33,9 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 ## AI Solutions Portal Profile Peek
 
+### Task
+
+
 ### Category: Web
 
 ### Description
