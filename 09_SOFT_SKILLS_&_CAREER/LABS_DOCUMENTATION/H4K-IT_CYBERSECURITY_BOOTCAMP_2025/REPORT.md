@@ -299,17 +299,18 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	- Password: `attacker
 	![[Pasted image 20250723174543.png]]
 	
--  (`attacker`) and triggered a password reset.
+3. Redirected to `http://68.183.205.254:34696/login`
+4. (`attacker`) and triggered a password reset.
     
-- Observed the format of the reset token (`md5(username + timestamp)`).
+4. Observed the format of the reset token (`md5(username + timestamp)`).
     
-- Attempted manual reproduction using the server’s timestamp from response headers.
+5. Attempted manual reproduction using the server’s timestamp from response headers.
     
-- When local token generation was inconsistent, requested a reset for `admin` directly.
+6. When local token generation was inconsistent, requested a reset for `admin` directly.
     
-- Used the valid reset link to change the `admin` password.
+7. Used the valid reset link to change the `admin` password.
     
-- Logged in as `admin` and found the flag in the HTML `<footer>`.
+8. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
