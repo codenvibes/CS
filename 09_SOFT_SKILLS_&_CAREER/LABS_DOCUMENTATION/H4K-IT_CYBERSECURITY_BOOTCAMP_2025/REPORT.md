@@ -345,7 +345,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 14. Logged in as 
 	- username: `admin`
 	- password: `admin`
-	- Wrote a Python script:
+	- Gained access to the admin account dashboard.
+	![[Pasted image 20250723212947.png]]
 	
 ```
 import hashlib
