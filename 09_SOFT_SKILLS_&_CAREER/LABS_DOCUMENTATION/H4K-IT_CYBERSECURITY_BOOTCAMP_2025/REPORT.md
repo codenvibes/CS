@@ -67,7 +67,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 6. **Inspected the page source** and found a hidden flag embedded in the HTML:
 	![[Pasted image 20250723081739.png]]
 
-### 🏁 Flag Captured: `h4kit{broken_object_control_found_4bb42c8346d9}`
+### 🚩 Flag Captured: `h4kit{broken_object_control_found_4bb42c8346d9}`
 
 ### Lessons Learned
 
@@ -146,7 +146,7 @@ Finished
 	Contents of the page:
 	![[Pasted image 20250723130931.png]]
 
-### 🏁 Flag Captured: `h4kit{admin_panel_not_restricted_0825a0215d83}`
+### 🚩 Flag Captured: `h4kit{admin_panel_not_restricted_0825a0215d83}`
 
 ### Lessons Learned
 
@@ -207,7 +207,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 6. Inspected the page source and discovered the flag in the `<footer>` tag.
 	![[Pasted image 20250723135520.png]]
 
-### 🏁 Flag Captured: `h4kit{email_override_success_e2359b737f00}`
+### 🚩 Flag Captured: `h4kit{email_override_success_e2359b737f00}`
 
 ### Lessons Learned
 
@@ -226,7 +226,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-### 🏁Flag Captured: 
+### 🚩Flag Captured: 
 
 ### Lessons Learned
 
@@ -242,7 +242,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-### 🏁Flag Captured: 
+### 🚩Flag Captured: 
 
 ### Lessons Learned
 
