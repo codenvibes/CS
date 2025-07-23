@@ -189,16 +189,13 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Password: `attacker
     ![[Pasted image 20250723134635.png]]
 
-3. Access Dashboard**
-	
+3. Access Dashboard
 	- **Redirected to Dashboard:** `http://68.183.205.254:34684/dashboard`
-	    
 	- Dashboard Links:
-	    
 	    - **Edit Profile:** `/settings?id=3`
-	        
 	    - **View Profile:** `/profile?id=3`
-	
+	![[Pasted image 20250723135120.png]]
+
 4. Viewed the attacker's profile at `/profile?id=3`.
     
 5. Modified the `id` parameter to `1` to access the admin profile.
