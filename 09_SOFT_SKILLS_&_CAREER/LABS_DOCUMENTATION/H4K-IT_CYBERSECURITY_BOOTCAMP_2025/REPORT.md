@@ -194,7 +194,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Dashboard Links:
 	    - **Edit Profile:** `/settings?id=3`
 	    - **View Profile:** `/profile?id=3`
-	![[Pasted image 20250723135120.png]]
+	![[Pasted image 20250723195128.png]]
 
 4. Viewed the created profile at `http://68.183.205.254:34684/profile?id=3`.
     ![[Pasted image 20250723135235.png]]
