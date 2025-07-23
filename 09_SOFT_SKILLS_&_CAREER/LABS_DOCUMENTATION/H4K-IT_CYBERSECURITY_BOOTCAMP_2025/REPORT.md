@@ -325,14 +325,17 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 9. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
+	
 ```
 import hashlib
 username = "attacker"
 timestamp = 1753277901
 token = hashlib.md5((username + str(timestamp)).encode()).hexdigest()
 print(token)
-
 ```
+	
+	Expected result: `d75cc1d792e7338a9d607f52606928c3`
+	
 4. Attempted manual reproduction using the server’s timestamp from response headers.
     
 5. When local token generation was inconsistent, requested a reset for `admin` directly.
