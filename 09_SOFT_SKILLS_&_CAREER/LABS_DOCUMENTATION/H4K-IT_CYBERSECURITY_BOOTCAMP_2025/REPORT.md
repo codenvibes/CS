@@ -291,11 +291,13 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723174342.png]]
 	
 2. Clicked the **"Register"** link.
-	**Landed on**: `http://68.183.205.254:34689/submit`
+	**Landed on**: `http://68.183.205.254:34696/register`
 	A simple form is displayed:
+	- Username: `attacker`
+	- Password: `attacker
 	![[Pasted image 20250723174543.png]]
 	
-- Registered a user (`attacker`) and triggered a password reset.
+-  (`attacker`) and triggered a password reset.
     
 - Observed the format of the reset token (`md5(username + timestamp)`).
     
