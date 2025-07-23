@@ -237,3 +237,14 @@ I click on view profile http://68.183.205.254:34684/profile?id=3 and get this;
 **Username:** attacker
 
 **Email:** attacker@mail.com
+
+
+I switch the profile id to 1 http://68.183.205.254:34684/profile?id=1 and get this;
+
+## Account Profile
+
+**Username:** admin
+
+**Email:** admin@dev.io
+
+then b
