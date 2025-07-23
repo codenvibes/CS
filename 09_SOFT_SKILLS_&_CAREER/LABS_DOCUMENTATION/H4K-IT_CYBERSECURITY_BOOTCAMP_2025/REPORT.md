@@ -40,7 +40,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 
 ### Tools Used
 
-- Web browser
+- Web browser (Chrome)
 - Developer Tools (View Page Source)
 
 ### Methodology
@@ -89,7 +89,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Tools Used
 
-- Web browser (Firefox/Chrome)
+- Web browser (Chrome)
 - Gobuster
 - SecLists wordlist (`common.txt`)
 
@@ -173,12 +173,22 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Tools Used
 
-- Web browser (Firefox/Chrome)
+- Web browser (Chrome)
 - Developer Tools / View Page Source
 
 ### Methodology
 
-### Flag Captured: 
+1. Registered a user (`attacker/attacker`) via `/register`.
+    
+2. Logged in and accessed the dashboard at `/dashboard`.
+    
+3. Viewed the attacker's profile at `/profile?id=3`.
+    
+4. Modified the `id` parameter to `1` to access the admin profile.
+    
+5. Inspected the page source and discovered the flag in the `<footer>` tag.
+
+### Flag Captured: `h4kit{email_override_success_e2359b737f00}`
 
 ### Lessons Learned
 
