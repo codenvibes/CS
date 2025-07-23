@@ -31,10 +31,14 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 # Challenge Summary
 
-## AI Solutions Portal Profile Peek
+## AI Solutions Portal Profile Peek (100 pts)
 
 ### Task
+CloudPatron, a growing SaaS company, just launched a customer feedback portal where users can rate services and leave reviews. Internally, reviews are stored in a database and summarized on an admin dashboard. The development team used lightweight templating and stored queries to improve performance.
 
+However, a last-minute deployment skipped the usual sanitization middleware due to “time constraints before demo day.” You're invited as a red team intern to test this feedback form for any unintended behavior or system exposure.
+
+Explore the form. Is there a way to to see if the app is exploitable?
 
 ### Category: Web
 
