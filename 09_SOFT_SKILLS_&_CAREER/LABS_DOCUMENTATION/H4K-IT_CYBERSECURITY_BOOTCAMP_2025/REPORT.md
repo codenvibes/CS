@@ -297,7 +297,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	Registered a user account:
 	- Username: `attacker`
 	- Password: `attacker
-	![[Pasted image 20250723182505.png]]
+	![[Pasted image 20250723195801.png]]
 	
 3. Redirected to `http://68.183.205.254:34696/login`
 	
