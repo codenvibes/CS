@@ -250,11 +250,16 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
     
 4. Probing Internal IPs and Ports
 	Tested common SSRF payloads to probe internal services:
+	
 ```
-
+http://127.0.0.1/
+http://127.0.0.1:3000/
+http://127.0.0.1:5000/
+http://169.254.169.254/latest/meta-data/
 ```
     
-5. Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
+5. **Successful hit**:
+	Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
 
 ### 🚩Flag Captured: `h4kit{ssrf_approved_metadata_149a4b9a7a89}`
 
