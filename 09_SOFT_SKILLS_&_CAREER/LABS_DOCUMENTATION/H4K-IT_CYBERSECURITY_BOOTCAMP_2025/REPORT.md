@@ -181,13 +181,13 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 1. Visited the login page `http://68.183.205.254:34684/login`
 	- Found standard login form.
 	- Discovered a link to the registration page.
-    ![[Pasted image 20250723134548.png]]
+    ![[Pasted image 20250723194757.png]]
 
 2. User Registration
 	Registered at `http://68.183.205.254:34684/register`
 	- Username: `attacker`
 	- Password: `attacker
-    ![[Pasted image 20250723134635.png]]
+    
 
 3. Access Dashboard
 	- **Redirected to Dashboard:** `http://68.183.205.254:34684/dashboard`
