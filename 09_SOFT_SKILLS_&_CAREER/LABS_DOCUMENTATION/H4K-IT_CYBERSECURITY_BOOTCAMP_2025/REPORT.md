@@ -454,8 +454,4 @@ print(token)
 
 
 
-so the first page on launch is the login page http://68.183.205.254:34684/login and there's a link on the page to the registration page http://68.183.205.254:34684/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard http://68.183.205.254:34684/dashboard and it looks like this;
 
-
-
- I pasted the token in the URL to and got 
