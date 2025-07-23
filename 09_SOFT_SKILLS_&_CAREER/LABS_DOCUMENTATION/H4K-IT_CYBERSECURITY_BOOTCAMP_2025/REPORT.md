@@ -306,7 +306,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	- Username: `attacker`
 	- Password: `attacker`
 	Redirected to `/dashboard` and here's the page displayed:
-	![[Pasted image 20250723175709.png]]
+	![[Pasted image 20250723200142.png]]
 	
 5. Visited the forgot password page. `http://68.183.205.254:34696/reset/forgot`
 	![[Pasted image 20250723181426.png]]
