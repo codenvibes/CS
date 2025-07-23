@@ -407,4 +407,19 @@ password; attacker
 
 and after I get redirected to the login page http://68.183.205.254:34696/login
 and login successfully 
-the next page I get
+the next page I get directed to http://68.183.205.254:34696/dashboard
+
+```
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard – ResetRealm</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Welcome to Your Dashboard</h2>
+    
+    <p>You are logged in.</p>
+    
+</div>
+</body>
+</html>
+```
