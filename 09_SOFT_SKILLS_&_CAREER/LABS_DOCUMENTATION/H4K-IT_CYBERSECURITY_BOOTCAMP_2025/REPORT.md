@@ -248,7 +248,11 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 	- **Response**:
 	![[Pasted image 20250723153956.png]]
     
-4. Probed internal services using URLs like `http://127.0.0.1:5000/` and `http://169.254.169.254/`.
+4. Probing Internal IPs and Ports
+	Tested common SSRF payloads to probe internal services:
+```
+
+```
     
 5. Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
 
