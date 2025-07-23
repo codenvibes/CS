@@ -474,8 +474,7 @@ the first page I land on is http://68.183.205.254:34715/
 I click on upload script link
  I get to a page http://68.183.205.254:34715/upload which look like this;
  
-```
- 
+```html
 <!DOCTYPE html>
 <html>
 <head><title>Upload Script – ScriptServe</title><link rel="stylesheet" href="/static/style.css"></head>
@@ -490,3 +489,5 @@ I click on upload script link
 </body>
 </html>
 ```
+
+so I click on choose file
