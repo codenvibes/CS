@@ -76,7 +76,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Viewing page source is essential when hunting for hidden content.
 
 
-## CorpDocs
+## CorpDocs (200 pts)
 
 ### Task
 CorpDocs is a lightweight internal document management system used by CloudNova Inc. Employees can register, upload files, and view personal dashboards. There’s also an /admin panel that was intended to be accessible only to internal staff during development.
@@ -160,7 +160,7 @@ Finished
     Access control logic must be enforced on the server, not just in the client.
 
 
-## Challenge
+## DevPortal Ownership Override (200 pts)
 
 ### Task
 
