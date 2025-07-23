@@ -244,9 +244,9 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
     ![[Pasted image 20250723153820.png]]
     
 3. Submitting a Valid External PDF
-	Entered the following URL in the **Document URL** field and clicked **"Validate"**: https://ontheline.trincoll.edu/images/bookdown/sample-local-pdf.pdf
-
-    ![[Pasted image 20250723153956.png]]
+	- Entered the following URL in the **Document URL** field and clicked **"Validate"**: https://ontheline.trincoll.edu/images/bookdown/sample-local-pdf.pdf
+	- **Response**:
+	![[Pasted image 20250723153956.png]]
     
 4. Probed internal services using URLs like `http://127.0.0.1:5000/` and `http://169.254.169.254/`.
     
