@@ -322,7 +322,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 	Captured server response headers
 	
-9. Converted The Date Header to UNIX timestamp: `1753277901` to confirm my suspicion about the 
+9. Converted The Date Header to UNIX timestamp: `1753277901` to confirm my suspicion about token generation `md5(username + timestamp)`
 	
 10. Then I tested:
 	
@@ -331,14 +331,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	└─$ echo -n "attacker1753277901" | md5sum
 	d75cc1d792e7338a9d607f52606928c3  -
 ```
-	
-assuming that **instead of using a secure random token**, the server generates a token like this:
-	
-```python
-	token = md5(username + timestamp)
-```
-	
-4. Tried to reproduce the token locally (unsuccessfully)
+	 
+11. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
 	
 ```
