@@ -316,9 +316,10 @@ Investigate how the tokens are generated. Can you predict a token for another us
     
 7. The system responded with:
 	![[Pasted image 20250723200729.png]]
-	Observed the format of the reset token (`md5(username + timestamp)`).
+	Observed the format of the reset token.
     
-8. Attempted manual reproduction using the server’s timestamp from response headers.
+8. Opened developer tools to inspect server time
+9. Attempted manual reproduction using the server’s timestamp from response headers.
     
 9. When local token generation was inconsistent, requested a reset for `admin` directly.
     
