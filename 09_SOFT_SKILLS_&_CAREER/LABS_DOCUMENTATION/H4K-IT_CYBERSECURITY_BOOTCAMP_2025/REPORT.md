@@ -228,3 +228,12 @@ so the first page on launch is the login page http://68.183.205.254:34684/login 
 ## Welcome to your Dashboard
 
 [Edit Profile](http://68.183.205.254:34684/settings?id=3) | [View Profile](http://68.183.205.254:34684/profile?id=3)
+
+
+I click on view profile http://68.183.205.254:34684/profile?id=3 and get this; 
+
+## Account Profile
+
+**Username:** attacker
+
+**Email:** attacker@mail.com
