@@ -189,8 +189,10 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Password: `attacker
     ![[Pasted image 20250723214137.png]]
 
-3. Login ad Access Dashboard
+3. Login and Dashboard Access 
+	![[Pasted image 20250723214346.png]]
 	- **Redirected to Dashboard:** `http://68.183.205.254:34684/dashboard`
+	
 	- Dashboard Links:
 	    - **Edit Profile:** `/settings?id=3`
 	    - **View Profile:** `/profile?id=3`
