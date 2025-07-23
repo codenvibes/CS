@@ -320,6 +320,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 8. Opened developer tools to inspect headers.
 	![[Pasted image 20250723201009.png]]
 	
+	Captured server response headers:
+	
 9. Attempted manual reproduction using the server’s timestamp from response headers.
     
 10. When local token generation was inconsistent, requested a reset for `admin` directly.
