@@ -424,9 +424,13 @@ Output:
 <pre>h4kit{insecure_pipeline_exec_4212f73ceac2}</pre>
 ```
 
-### 🚩Flag Captured: 
+### 🚩Flag Captured: `h4kit{insecure_pipeline_exec_4212f73ceac2}`
 
 ### Lessons Learned
+
+- When I'm stuck after a failed exploit attempt, try passive or blind techniques like directory or file fuzzing — they often reveal forgotten or unprotected endpoints.
+- Just because a system _intends_ to restrict uploads doesn’t mean it’s actually secure — here, the preview endpoint directly exposed sensitive data.
+- Always look for places where files may be stored or previewed after upload. File path access with no sanitization or access control is a **classic CTF win**.
 
 
 
