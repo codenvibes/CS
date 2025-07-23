@@ -240,6 +240,7 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 	
 2. Clicked the **"Submit a PDF"** link.
 	**Landed on**: `http://68.183.205.254:34689/submit`
+	A simple form is displayed:
     ![[Pasted image 20250723153820.png]]
     
 3. Confirmed SSRF by submitting a public PDF link and observing the reflected content.
