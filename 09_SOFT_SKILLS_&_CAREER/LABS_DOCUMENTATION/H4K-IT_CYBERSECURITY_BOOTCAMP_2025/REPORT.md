@@ -36,14 +36,12 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 ### Category: Web
 ### Description
 Exploiting an insecure direct object reference (IDOR) vulnerability in a feedback portal to access another user's profile and discover a hidden flag.
-    
-- **Tools Used**:
-    
-    - Web browser
-        
-    - Developer Tools (View Page Source)
-        
-- **Methodology**:
+### Tools Used
+
+- Web browser
+- Developer Tools (View Page Source)
+
+### Methodology
     
     1. **Visited login page** at `http://68.183.205.254:34658/login`
         
