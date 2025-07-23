@@ -312,7 +312,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723200301.png]]
 	
 6. Entered `attacker` and triggered a password reset.
-    ![[Pasted image 20250723181655.png]]
+    ![[Pasted image 20250723200425.png]]
     
 7. Observed the format of the reset token (`md5(username + timestamp)`).
     
