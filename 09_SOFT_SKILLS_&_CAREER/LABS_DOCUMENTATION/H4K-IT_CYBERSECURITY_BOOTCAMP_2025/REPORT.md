@@ -498,3 +498,5 @@ I click on the upload button and here's what I get;
 <pre>Script does not contain expected structure. </pre>
 ```
 
+I don't know where to go next so I run gobuster to see the directories
+
