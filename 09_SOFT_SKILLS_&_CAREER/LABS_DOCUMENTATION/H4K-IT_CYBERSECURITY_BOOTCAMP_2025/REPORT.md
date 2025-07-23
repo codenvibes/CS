@@ -178,9 +178,10 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-1. Visited the login page `http://68.183.205.254:34664/login`
+1. Visited the login page `http://68.183.205.254:34684/login`
 	- Found standard login form.
 	- Discovered a link to the registration page.
+    ![[Pasted image 20250723134548.png]]
     
 2. User Registration
 	Registered at `http://68.183.205.254:34664/register`
