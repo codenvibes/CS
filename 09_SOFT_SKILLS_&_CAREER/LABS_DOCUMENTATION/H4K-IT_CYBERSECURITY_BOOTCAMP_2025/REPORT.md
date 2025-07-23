@@ -316,8 +316,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
     
 7. The system responded with:
 	![[Pasted image 20250723200729.png]]
-	Observed the format of the reset token.
-    
+	   
 8. Opened developer tools to inspect headers.
 	![[Pasted image 20250723201009.png]]
 	
