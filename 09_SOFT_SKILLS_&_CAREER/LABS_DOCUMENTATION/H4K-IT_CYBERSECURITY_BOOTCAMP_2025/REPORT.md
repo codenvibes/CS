@@ -397,7 +397,7 @@ HTML revealed a basic welcome page with a link to `/upload`.
 2. Clicking on `Upload Script` revealed an upload form:
 	![[Pasted image 20250723233215.png]]
 
-3. Attempted to upload a benign `.txt` file (named `attacker.txt`) →  
+3. Attempted to upload a benign `.txt` file (named `attacker.txt`) by clicking on `Choose file` the `Uploa`
 Received this error:
 
 ```html
