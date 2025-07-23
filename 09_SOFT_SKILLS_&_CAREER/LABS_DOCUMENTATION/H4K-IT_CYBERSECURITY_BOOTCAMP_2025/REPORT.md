@@ -1,4 +1,3 @@
-# H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT
 
 <!--Cover Page-->
 
@@ -11,7 +10,10 @@
 </div>
 
 
-## Introduction
+
+---
+
+# Introduction
 
 The H4K-IT Bootcamp Capture the Flag (CTF) Challenge, held from **July 17 to July 19, 2025**, was a practical, hands-on cybersecurity competition tailored for participants of **Cohort 3** of the H4K-IT Cybersecurity Bootcamp. With **63 teams** participating, the event simulated real-world cyber threats, requiring players to apply offensive and defensive skills to solve a series of security-related challenges across various domains such as web exploitation, network forensics, cryptography, and reverse engineering.
 
