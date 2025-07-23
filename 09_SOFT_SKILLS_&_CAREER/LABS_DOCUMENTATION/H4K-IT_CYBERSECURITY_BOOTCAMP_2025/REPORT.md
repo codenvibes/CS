@@ -196,10 +196,12 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	    - **View Profile:** `/profile?id=3`
 	![[Pasted image 20250723135120.png]]
 
-4. Viewed the attacker's profile at `/profile?id=3`.
+4. Viewed the created profile at `http://68.183.205.254:34684/profile?id=3`.
     ![[Pasted image 20250723135235.png]]
 
-5. Modified the `id` parameter to `1` to access the admin profile.
+5. Test for IDOR Vulnerability
+	Changed profile URL to `id=1`: `http://68.183.205.254:34684/profile?id=1
+	`
     ![[Pasted image 20250723135335.png]]
 
 6. Inspected the page source and discovered the flag in the `<footer>` tag.
