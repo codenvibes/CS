@@ -334,7 +334,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 assuming that **instead of using a secure random token**, the server generates a token like this:
 	
-```
+```python
 	token = md5(username + timestamp)
 ```
 	
