@@ -405,10 +405,9 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 		- `/upload` (Upload form – already known)
 		- `/preview`
 
----
-
-#### 🔍 3. File Fuzzing with FFUF
-
+6. File Fuzzing with FFUF
+	I figured `/preview` might be used to view uploaded scripts, possibly by filename. Since I didn’t know any uploaded script names, I tried fuzzing it with common file names and extensions using FFUF:
+	
 ```bash
 ffuf -u "http://68.183.205.254:34715/preview?file=FUZZ" \
      -w ~/SecLists/Discovery/Web-Content/common.txt \
