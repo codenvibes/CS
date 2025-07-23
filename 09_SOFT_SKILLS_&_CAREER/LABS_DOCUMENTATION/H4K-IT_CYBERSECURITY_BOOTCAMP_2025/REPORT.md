@@ -292,7 +292,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 2. Clicked the **"Register"** link.
 	**Landed on**: `http://68.183.205.254:34696/register`
-	A simple form is displayed:
+	A simple form is displayed.
+	Registered a user account:
 	- Username: `attacker`
 	- Password: `attacker
 	![[Pasted image 20250723174543.png]]
