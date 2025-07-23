@@ -139,9 +139,11 @@ Progress: 4746 / 4747 (99.98%)
 Finished
 ===============================================================
 ```
+
 5. Discovered `/admin` endpoint via bruteforce.
     
-6. Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
+6. Accessed `http://68.183.205.254:34664/admin` directly.
+	Contents of the page:
 
 ### Flag Captured: 
 
