@@ -56,6 +56,7 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 	![[Pasted image 20250723081134.png]]
 	
 2. **Registered a new user** (attacker/attacker) at `/register`
+	![[Pasted image 20250723081340.png]]
 	
 3. **Logged in** and was redirected to the dashboard at `/dashboard`
 	
