@@ -351,12 +351,6 @@ Investigate how the tokens are generated. Can you predict a token for another us
 15. Inspected the page source.
 	Found the flag embedded in a hidden footer:
 	![[Pasted image 20250723213129.png]]
-    
-16. When local token generation was inconsistent, requested a reset for `admin` directly.
-    
-17. Used the valid reset link to change the `admin` password.
-    
-18. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
