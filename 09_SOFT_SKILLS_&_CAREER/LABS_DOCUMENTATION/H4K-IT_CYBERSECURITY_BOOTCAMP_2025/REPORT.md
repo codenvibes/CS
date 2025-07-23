@@ -381,4 +381,23 @@ so the first page on launch is the login page http://68.183.205.254:34684/login 
 
 Visititng the provided instance I get a login page http://68.183.205.254:34696/login
 
+```
 
+<!DOCTYPE html>
+<html>
+<head><title>Login – ResetRealm</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+    </form>
+    <p><a href="/register">Register</a> | <a href="/reset/forgot">Forgot Password?</a></p>
+</div>
+</body>
+</html>
+```
+
+I click the register link 
