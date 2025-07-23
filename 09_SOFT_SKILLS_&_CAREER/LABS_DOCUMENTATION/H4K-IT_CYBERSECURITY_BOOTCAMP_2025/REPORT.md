@@ -456,5 +456,19 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 # Conclusion
 
 
-the first page I land on is 
+the first page I land on is http://68.183.205.254:34715/
 
+```html
+<!DOCTYPE html>
+<html>
+<head><title>ScriptServe</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Welcome to ScriptServe</h2>
+    <p><a href="/upload">Upload Script</a></p>
+</div>
+</body>
+</html>
+```
+
+I click on upload script link
