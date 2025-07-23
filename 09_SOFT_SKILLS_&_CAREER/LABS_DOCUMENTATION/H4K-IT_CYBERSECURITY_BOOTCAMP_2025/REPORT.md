@@ -341,7 +341,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	The page rendered a password reset form for the `admin` account and I entered `admin` as username and click on `Reset`. 
 	![[Pasted image 20250723212439.png]]
 	
-13. Tried to reproduce the token locally (unsuccessfully)
+13. Redirected to the `/login` page.
+14. Logged in as `admin`
 	- Wrote a Python script:
 	
 ```
