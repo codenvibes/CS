@@ -500,3 +500,6 @@ I click on the upload button and here's what I get;
 
 I don't know where to go next so I run gobuster to see the directories
 
+```shell
+
+```
