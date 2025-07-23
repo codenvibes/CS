@@ -264,18 +264,5 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 
 so the first page on launch is the login page http://68.183.205.254:34684/login and there's a link on the page to the registration page http://68.183.205.254:34684/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard http://68.183.205.254:34684/dashboard and it looks like this;
-## 
 
-#### PDFVault Internal Peeker
 
-200 pts
-
-PDFVault is a document submission platform used by legal firms to store signed agreements. Each uploaded document is validated by a background service to ensure it’s not malicious. The service fetches metadata from a user-provided URL and confirms it returns a valid PDF.
-
-This architecture was meant to support integrations with external cloud storage. However, during a recent deployment, the dev team exposed the metadata URL endpoint without proper restrictions or filtering.
-
-You’ve been called in to investigate whether this endpoint can be misused. Can you access internal resources or sensitive data that were assumed unreachable?
-
-flag format: h4kit{}
-
-Instance Info
