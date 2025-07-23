@@ -76,9 +76,14 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Viewing page source is essential when hunting for hidden content.
 
 
-## Challenge
+## CorpDocs
 
 ### Task
+CorpDocs is a lightweight internal document management system used by CloudNova Inc. Employees can register, upload files, and view personal dashboards. There’s also an /admin panel that was intended to be accessible only to internal staff during development.
+
+The admin interface was deployed behind a simple "role check," but developers forgot to enforce authentication at the route level. Instead, visibility was handled on the frontend through link hiding, assuming no user would guess the admin URL.
+
+You’ve been invited to assess the system. Investigate whether it’s possible to reach privileged content without logging in as an admin.
 
 ### Category: Web
 
