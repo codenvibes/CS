@@ -405,14 +405,10 @@ HTML revealed a basic welcome page with a link to `/upload`.
 
 5. Got Stuck… So I Turned to Discovery
 	At this point, I wasn’t sure how the backend validated scripts, and I didn’t know what kind of structure it expected. Since I had no other leads, I decided to try **directory discovery** using Gobuster to look for hidden endpoints that might be useful.
-
-```bash
-gobuster dir -u http://68.183.205.254:34715/ -w ~/SecLists/Discovery/Web-Content/common.txt
-```
-
+	
 	This uncovered:
-	- `/upload` (Upload form – already known)
-	- `/preview` (New!)
+		- `/upload` (Upload form – already known)
+		- `/preview`
 
 ---
 
