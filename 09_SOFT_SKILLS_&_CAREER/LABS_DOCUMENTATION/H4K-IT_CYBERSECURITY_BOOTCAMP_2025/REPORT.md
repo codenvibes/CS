@@ -226,7 +226,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-### Flag Captured: 
+### 🏁Flag Captured: 
 
 ### Lessons Learned
 
@@ -242,7 +242,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Methodology
 
-### Flag Captured: 
+### 🏁Flag Captured: 
 
 ### Lessons Learned
 
