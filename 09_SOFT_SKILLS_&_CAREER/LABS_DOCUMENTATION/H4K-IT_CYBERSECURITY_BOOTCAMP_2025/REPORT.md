@@ -33,9 +33,9 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 ## AI Solutions Portal Profile Peek
 
-- **Category**: Web
-    
-- **Description**: Exploiting an insecure direct object reference (IDOR) vulnerability in a feedback portal to access another user's profile and discover a hidden flag.
+### Category: Web
+### Description
+Exploiting an insecure direct object reference (IDOR) vulnerability in a feedback portal to access another user's profile and discover a hidden flag.
     
 - **Tools Used**:
     
