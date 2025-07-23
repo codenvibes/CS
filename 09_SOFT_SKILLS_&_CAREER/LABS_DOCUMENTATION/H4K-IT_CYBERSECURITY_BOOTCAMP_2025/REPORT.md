@@ -38,9 +38,6 @@ Explore the form. Is there a way to to see if the app is exploitable?
 
 ### Category: Web
 
-### Description
-Exploiting an insecure direct object reference (IDOR) vulnerability in a feedback portal to access another user's profile and discover a hidden flag.
-
 ### Tools Used
 
 - Web browser
