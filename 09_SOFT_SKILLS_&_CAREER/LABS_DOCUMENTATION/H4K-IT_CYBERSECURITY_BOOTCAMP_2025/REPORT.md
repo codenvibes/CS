@@ -491,3 +491,4 @@ I click on upload script link
 ```
 
 so I click on choose file
+it opens up file e
