@@ -3,13 +3,11 @@
 <!--Cover Page-->
 
 <div align="center">
-<NAME: TERRENCE MACHOGU KEGENGO
+<h2>NAME: TERRENCE MACHOGU KEGENGO</h2>
+<h2>EMAIL: <a href="mailto:terrence.tech@proton.me">terrence.tech@proton.me</a></h2>
+<h2>WEDNESDAY 23RD JULY 2025</h2>
 <br>
-<EMAIL: <a href="mailto:terrence.tech@proton.me">terrence.tech@proton.me</a>
-<br>
-<WEDNESDAY 23RD JULY 2025
-<br>
-<b>H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT</b>
+<h1><b>H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT</b>
 </div>
 
 
