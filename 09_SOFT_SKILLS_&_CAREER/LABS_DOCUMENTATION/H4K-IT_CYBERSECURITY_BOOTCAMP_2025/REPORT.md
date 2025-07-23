@@ -309,7 +309,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723200142.png]]
 	
 5. Visited the forgot password page. `http://68.183.205.254:34696/reset/forgot`
-	![[Pasted image 20250723181426.png]]
+	![[Pasted image 20250723200301.png]]
 	
 6. Entered `attacker` and triggered a password reset.
     ![[Pasted image 20250723181655.png]]
