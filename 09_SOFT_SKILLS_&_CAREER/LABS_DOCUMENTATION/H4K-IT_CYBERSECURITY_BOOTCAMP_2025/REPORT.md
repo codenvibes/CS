@@ -458,3 +458,4 @@ so the first page on launch is the login page http://68.183.205.254:34684/login 
 
 
 
+ I pasted the token in the URL to and got 
