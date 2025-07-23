@@ -338,11 +338,13 @@ Investigate how the tokens are generated. Can you predict a token for another us
 12. Followed the reset link for `admin`.
 	Pasted the URL into the browser: 
 	`http://68.183.205.254:34696/reset/verify?user=admin&token=0884e8bb73c3673a8a48bfe33679d6a8`
-	The page rendered a password reset form for the `admin` account and I entered `admin` as username and click on `Reset`. 
+	The page rendered a password reset form for the `admin` account and I entered `admin` as the password and click on `Reset`. 
 	![[Pasted image 20250723212439.png]]
 	
 13. Redirected to the `/login` page.
-14. Logged in as `admin`
+14. Logged in as 
+	- username: `admin`
+	- password: `admin`
 	- Wrote a Python script:
 	
 ```
