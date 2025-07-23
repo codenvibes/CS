@@ -322,7 +322,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 	Captured server response headers
 	
-9. Converted The Date Header to UNIX timestamp: `1753277901` to confirm my suspicion about token generation `md5(username + timestamp)`
+9. Converted The Date Header to UNIX timestamp: `1753277901` to confirm my suspicion about token generation `md5(username + timestamp)` is equal to the token
 	
 10. Then I tested:
 	
