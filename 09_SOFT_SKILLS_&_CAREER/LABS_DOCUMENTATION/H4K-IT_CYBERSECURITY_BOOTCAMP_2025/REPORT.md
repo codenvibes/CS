@@ -380,4 +380,4 @@ so the first page on launch is the login page http://68.183.205.254:34684/login 
 
 
 
-next I follow the li
+next I follow the link and I manage to change the admin password to attacker then I'm redirected to the login page  and I login with username admin pass atta
