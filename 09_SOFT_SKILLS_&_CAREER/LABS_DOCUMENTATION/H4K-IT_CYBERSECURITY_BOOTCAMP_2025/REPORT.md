@@ -305,7 +305,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 4. Logged in successfully:
 	- Username: `attacker`
 	- Password: `attacker
-	
+	![[Pasted image 20250723175709.png]]
 	
 5. (`attacker`) and triggered a password reset.
     
