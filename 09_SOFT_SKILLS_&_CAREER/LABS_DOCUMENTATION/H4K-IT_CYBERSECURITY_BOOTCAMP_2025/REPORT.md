@@ -197,7 +197,8 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	![[Pasted image 20250723135120.png]]
 
 4. Viewed the attacker's profile at `/profile?id=3`.
-    
+    ![[Pasted image 20250723135235.png]]
+
 5. Modified the `id` parameter to `1` to access the admin profile.
     
 6. Inspected the page source and discovered the flag in the `<footer>` tag.
