@@ -326,14 +326,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	
 10. Decided to request a reset token for `admin`:
 	Returned to `/reset/forgot`
+	![[Pasted image 20250723211041.png]]
 	
-	
-```shell
-	┌──(mopsy㉿APHP)-[~]
-	└─$ echo -n "attacker1753277901" | md5sum
-	d75cc1d792e7338a9d607f52606928c3  -
-```
-	 
 11. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
 	
