@@ -348,23 +348,15 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	- Gained access to the admin account dashboard.
 	![[Pasted image 20250723212947.png]]
 	
-```
-import hashlib
-username = "attacker"
-timestamp = 1753277901
-token = hashlib.md5((username + str(timestamp)).encode()).hexdigest()
-print(token)
-```
-	
-	Expected result: `d75cc1d792e7338a9d607f52606928c3`
-	
-4. Attempted manual reproduction using the server’s timestamp from response headers.
+15. Inspected the page source.
+	Found the flag embedded in a hidden footer:
+	![[Pasted image 20250723213129.png]]
     
-5. When local token generation was inconsistent, requested a reset for `admin` directly.
+16. When local token generation was inconsistent, requested a reset for `admin` directly.
     
-6. Used the valid reset link to change the `admin` password.
+17. Used the valid reset link to change the `admin` password.
     
-7. Logged in as `admin` and found the flag in the HTML `<footer>`.
+18. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
