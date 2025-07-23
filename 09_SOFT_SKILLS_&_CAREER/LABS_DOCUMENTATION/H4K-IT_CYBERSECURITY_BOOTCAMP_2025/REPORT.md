@@ -181,7 +181,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 1. Visited the login page `http://68.183.205.254:34684/login`
 	- Found standard login form.
 	- Discovered a link to the registration page.
-    ![[Pasted image 20250723134548.png]]
+    
 
 2. User Registration
 	Registered at `http://68.183.205.254:34684/register`
@@ -267,7 +267,7 @@ http://169.254.169.254/latest/meta-data/
 
 
 
-## ResetRealm Predictable Recovery (100 pts)
+## ✅ ResetRealm Predictable Recovery (100 pts)
 
 ### Task
 ResetRealm is a prototype password recovery system designed for internal testing by SafeCloud Inc. The system issues password reset tokens via a "secure link" based on the user's username and current timestamp. Unfortunately, the dev team used a homegrown token generation method during development and never replaced it with a proper cryptographic library.
