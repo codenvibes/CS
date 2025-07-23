@@ -144,8 +144,9 @@ Finished
     
 6. Accessed `http://68.183.205.254:34664/admin` directly.
 	Contents of the page:
+	![[Pasted image 20250723130931.png]]
 
-### Flag Captured: 
+### Flag Captured: `h4kit{admin_panel_not_restricted_0825a0215d83}`
 
 ### Lessons Learned
 
