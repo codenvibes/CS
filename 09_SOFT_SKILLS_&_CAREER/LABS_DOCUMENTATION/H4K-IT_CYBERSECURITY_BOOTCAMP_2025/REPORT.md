@@ -83,19 +83,6 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 
 # Challenge Summary
 
----
-
-##### Name of the challenge
-
-- **Category**: Web, Forensics, Reverse Engineering, etc.
-- **Description**: Brief summary
-- **Tools Used**: List of tools
-- **Methodology**:
-    - Step-by-step approach
-    - Screenshots 
-    - Commands used
-- **Flag Captured**: `h4kit{flag_here}`
-- **Lessons Learned**:
 
 ---
 # Conclusion
