@@ -318,7 +318,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723200729.png]]
 	   
 8. Opened developer tools to inspect headers.
-	![[Pasted image 20250723201009.png]]
+	![[Pasted image 20250723202231.png]]
 	
 	Captured server response headers:
 	→ Converted to UNIX timestamp: `1753290821`
