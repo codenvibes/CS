@@ -394,7 +394,7 @@ HTML revealed a basic welcome page with a link to `/upload`.
 
 ![[Pasted image 20250723232901.png]]
 
-Navigated to `/upload`, revealed an upload form:
+Clicking on `Upload Script``, revealed an upload form:
 
 ```html
 <form method="POST" enctype="multipart/form-data">
