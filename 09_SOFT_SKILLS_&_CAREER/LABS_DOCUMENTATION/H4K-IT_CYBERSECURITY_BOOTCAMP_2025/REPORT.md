@@ -22,6 +22,6 @@ DATE; WEDNESDAY 23RD JULY 2025
 - **Flag Captured**: `h4kit{flag_here}`
 - **Lessons Learned**:
 
-#### 5. **Conslusion**
+#### 5. **Conclusion**
 
 
