@@ -286,9 +286,25 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 ### Methodology
 
-### 🚩Flag Captured: 
+- Registered a user (`attacker`) and triggered a password reset.
+    
+- Observed the format of the reset token (`md5(username + timestamp)`).
+    
+- Attempted manual reproduction using the server’s timestamp from response headers.
+    
+- When local token generation was inconsistent, requested a reset for `admin` directly.
+    
+- Used the valid reset link to change the `admin` password.
+    
+- Logged in as `admin` and found the flag in the HTML `<footer>`.
+
+### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
 ### Lessons Learned
+
+- Predictable token generation can compromise account recovery systems.
+- Time-based tokens should include randomness and be securely signed or hashed.
+- Endpoint-level access control is crucial — even valid tokens should be tied to the requesting user, not just the username.
 
 
 
