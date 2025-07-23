@@ -34,36 +34,36 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 ## AI Solutions Portal Profile Peek
 
 ### Category: Web
+
 ### Description
 Exploiting an insecure direct object reference (IDOR) vulnerability in a feedback portal to access another user's profile and discover a hidden flag.
+
 ### Tools Used
 
 - Web browser
 - Developer Tools (View Page Source)
 
 ### Methodology
-    
-    1. **Visited login page** at `http://68.183.205.254:34658/login`
-        
-    2. **Registered a new user** (attacker/attacker) at `/register`
-        
-    3. **Logged in** and was redirected to the dashboard at `/dashboard`
-        
-    4. **Clicked profile link** and noted the URL: `/profile?id=2`
-        
-    5. **Modified `id=2` to `id=1`** and accessed the admin’s profile
-        
-    6. **Inspected the page source** to locate the hidden flag
-        
-- **Flag Captured**: `h4kit{broken_object_control_found_4bb42c8346d9}`
-    
-- **Lessons Learned**:
-    
-    - Never trust client-side input; always validate access server-side.
-        
-    - IDOR vulnerabilities are often exploitable using sequential IDs.
-        
-    - Viewing page source is essential when hunting for hidden content.
+
+1. **Visited login page** at `http://68.183.205.254:34658/login`
+	
+2. **Registered a new user** (attacker/attacker) at `/register`
+	
+3. **Logged in** and was redirected to the dashboard at `/dashboard`
+	
+4. **Clicked profile link** and noted the URL: `/profile?id=2`
+	
+5. **Modified `id=2` to `id=1`** and accessed the admin’s profile
+	
+6. **Inspected the page source** to locate the hidden flag
+	
+### Flag Captured: `h4kit{broken_object_control_found_4bb42c8346d9}`
+
+### Lessons Learned
+
+- Never trust client-side input; always validate access server-side.
+- IDOR vulnerabilities are often exploitable using sequential IDs.
+- Viewing page source is essential when hunting for hidden content.
 
 ---
 
