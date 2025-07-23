@@ -247,4 +247,22 @@ I switch the profile id to 1 http://68.183.205.254:34684/profile?id=1 and get th
 
 **Email:** admin@dev.io
 
-then b
+then view  page source and get this; 
+
+```
+
+<!DOCTYPE html>
+<html>
+<head><title>Profile – DevPortal</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="container">
+    <h2>Account Profile</h2>
+    <p><strong>Username:</strong> admin</p>
+    <p><strong>Email:</strong> admin@dev.io</p>
+    
+    <footer><small style="font-size: 0.1px;">h4kit{email_override_success_e2359b737f00}</small></footer>
+    
+</div>
+</body>
+</html>
+```
