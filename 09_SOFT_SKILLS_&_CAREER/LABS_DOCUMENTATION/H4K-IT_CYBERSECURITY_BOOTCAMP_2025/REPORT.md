@@ -76,7 +76,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Viewing page source is essential when hunting for hidden content.
 
 
-## AI Solutions Portal Profile Peek (100 pts)
+## Challenge
 
 ### Task
 
@@ -86,9 +86,58 @@ Explore the form. Is there a way to to see if the app is exploitable?
 
 ### Methodology
 
-### Flag Captured: `h4kit{broken_object_control_found_4bb42c8346d9}`
+### Flag Captured: 
 
 ### Lessons Learned
+
+
+
+## Challenge
+
+### Task
+
+### Category: Web
+
+### Tools Used
+
+### Methodology
+
+### Flag Captured: 
+
+### Lessons Learned
+
+
+
+## Challenge
+
+### Task
+
+### Category: Web
+
+### Tools Used
+
+### Methodology
+
+### Flag Captured: 
+
+### Lessons Learned
+
+
+
+## Challenge
+
+### Task
+
+### Category: Web
+
+### Tools Used
+
+### Methodology
+
+### Flag Captured: 
+
+### Lessons Learned
+
 
 
 ---
