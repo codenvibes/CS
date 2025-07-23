@@ -112,8 +112,9 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
     
 4. Directory Bruteforce with Gobuster
 	Used Gobuster to enumerate directories:
-    ```
-		```
+	```
+		DDDDD
+	```
 5. Discovered `/admin` endpoint via bruteforce.
     
 6. Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
