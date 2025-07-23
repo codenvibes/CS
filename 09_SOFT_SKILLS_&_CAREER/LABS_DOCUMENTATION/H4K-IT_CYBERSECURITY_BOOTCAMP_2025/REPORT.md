@@ -2,13 +2,16 @@
 
 <!--Cover Page-->
 
+<div align="center">
 NAME: TERRENCE MACHOGU KEGENGO
-
+<br>
+<>
 EMAIL: [terrence.tech@proton.me](mailto:terrence.tech@proton.me)
-
+<br>
 WEDNESDAY 23RD JULY 2025
-
-<div align="center">**H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT**</div>
+<br>
+**H4K-IT CYBERSECURITY BOOTCAMP 2025 – CTF CHALLENGE REPORT**
+</div>
 
 
 ## Introduction
