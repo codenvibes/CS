@@ -323,13 +323,23 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	Captured server response headers:
 	→ Converted to UNIX timestamp: `1753277901`
 	
-9. Attempted manual reproduction using the server’s timestamp from response headers.
+9. Tried to reproduce the token locally (unsuccessfully)
+	- Wrote a Python script:
+```
+import hashlib
+username = "attacker"
+timestamp = 1753277901
+token = hashlib.md5((username + str(timestamp)).encode()).hexdigest()
+print(token)
+
+```
+4. Attempted manual reproduction using the server’s timestamp from response headers.
     
-10. When local token generation was inconsistent, requested a reset for `admin` directly.
+5. When local token generation was inconsistent, requested a reset for `admin` directly.
     
-11. Used the valid reset link to change the `admin` password.
+6. Used the valid reset link to change the `admin` password.
     
-12. Logged in as `admin` and found the flag in the HTML `<footer>`.
+7. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
