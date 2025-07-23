@@ -27,7 +27,7 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 # Detailed Walkthrough
 
-## AI Solutions Portal Profile Peek (100 pts)
+## ✅ AI Solutions Portal Profile Peek (100 pts)
 
 ### Task
 CloudPatron, a growing SaaS company, just launched a customer feedback portal where users can rate services and leave reviews. Internally, reviews are stored in a database and summarized on an admin dashboard. The development team used lightweight templating and stored queries to improve performance.
@@ -76,7 +76,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Viewing page source is essential when hunting for hidden content.
 
 
-## CorpDocs (200 pts)
+## ✅ CorpDocs (200 pts)
 
 ### Task
 CorpDocs is a lightweight internal document management system used by CloudNova Inc. Employees can register, upload files, and view personal dashboards. There’s also an /admin panel that was intended to be accessible only to internal staff during development.
@@ -267,7 +267,7 @@ http://169.254.169.254/latest/meta-data/
 
 
 
-## Challenge
+## Challenge ()
 
 ### Task
 
@@ -282,6 +282,36 @@ http://169.254.169.254/latest/meta-data/
 ### Lessons Learned
 
 
+
+## Challenge ()
+
+### Task
+
+### Category: Web
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: 
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: Web
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: 
+
+### Lessons Learned
 
 ---
 
