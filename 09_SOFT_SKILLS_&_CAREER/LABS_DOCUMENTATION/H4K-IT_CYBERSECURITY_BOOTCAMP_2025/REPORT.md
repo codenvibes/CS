@@ -387,10 +387,12 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 1. Visited the root page:
 	
 ```
-http://68.183.205.254:34715/
+	http://68.183.205.254:34715/
 ```
 
 HTML revealed a basic welcome page with a link to `/upload`.
+
+![[Pasted image 20250723232901.png]]
 
 Navigated to `/upload`, revealed an upload form:
 
