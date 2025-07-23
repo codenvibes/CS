@@ -59,6 +59,7 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 	![[Pasted image 20250723081340.png]]
 	
 3. **Logged in** and was redirected to the dashboard at `/dashboard`
+	![[Pasted image 20250723081528.png]]
 	
 4. **Clicked profile link** and noted the URL: `/profile?id=2`
 	
