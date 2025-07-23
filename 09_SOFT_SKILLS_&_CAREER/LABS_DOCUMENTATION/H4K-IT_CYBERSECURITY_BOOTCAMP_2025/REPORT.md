@@ -327,6 +327,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 10. Decided to request a reset token for `admin`:
 	Returned to `/reset/forgot`
 	
+	
 ```shell
 	┌──(mopsy㉿APHP)-[~]
 	└─$ echo -n "attacker1753277901" | md5sum
