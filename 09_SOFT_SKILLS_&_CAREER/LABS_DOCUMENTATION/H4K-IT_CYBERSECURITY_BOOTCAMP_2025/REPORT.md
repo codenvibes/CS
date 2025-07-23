@@ -308,17 +308,19 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	Redirected to `/dashboard` and here's the page displayed:
 	![[Pasted image 20250723175709.png]]
 	
-5. (`attacker`) and triggered a password reset.
+5. Visited the forgot password page.
+	
+6. (`attacker`) and triggered a password reset.
     
-6. Observed the format of the reset token (`md5(username + timestamp)`).
+7. Observed the format of the reset token (`md5(username + timestamp)`).
     
-7. Attempted manual reproduction using the server’s timestamp from response headers.
+8. Attempted manual reproduction using the server’s timestamp from response headers.
     
-8. When local token generation was inconsistent, requested a reset for `admin` directly.
+9. When local token generation was inconsistent, requested a reset for `admin` directly.
     
-9. Used the valid reset link to change the `admin` password.
+10. Used the valid reset link to change the `admin` password.
     
-10. Logged in as `admin` and found the flag in the HTML `<footer>`.
+11. Logged in as `admin` and found the flag in the HTML `<footer>`.
 
 ### 🚩Flag Captured: `h4kit{token_predictable_reset_211726c8129d}`
 
