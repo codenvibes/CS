@@ -89,7 +89,21 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Tools Used
 
+- Web browser (Firefox/Chrome)
+- Gobuster
+- SecLists wordlist (`common.txt`)
+
 ### Methodology
+
+- Visited the login and registration pages and created a user (`attacker`).
+    
+- Logged in and confirmed the user role was **user**, not **admin**.
+    
+- Used Gobuster to enumerate directories:
+       
+- Discovered `/admin` endpoint via bruteforce.
+    
+- Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
 
 ### Flag Captured: 
 
