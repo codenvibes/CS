@@ -280,10 +280,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 ### Tools Used
 
-- Web browser 
-    
-- Python (hashlib)
-    
+- Web browser (Chrome)
+- Python (hashlib — used but ultimately not effective)
 - Developer Tools (for headers and response timing)
 
 ### Methodology
