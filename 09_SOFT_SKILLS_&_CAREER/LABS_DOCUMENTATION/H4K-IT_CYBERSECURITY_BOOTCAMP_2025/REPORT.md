@@ -400,7 +400,8 @@ HTML revealed a basic welcome page with a link to `/upload`.
 3. Attempted to upload a benign `.txt` file (named `attacker.txt`) by clicking on `Choose file` then `Upload`.
 	![[Pasted image 20250723233614.png]]
 	
-Received this error:
+4. Received this error after uploading the file:
+	![[Pasted image 20250723233746.png]]
 
 ```html
 <pre>Script does not contain expected structure. </pre>
