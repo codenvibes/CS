@@ -331,7 +331,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 └─$ echo -n "attacker1753277901" | md5sum
 d75cc1d792e7338a9d607f52606928c3  -
 ```
-
+	assuming that **instead of using a secure random token**, the server generates a token like this:
 4. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
 	
