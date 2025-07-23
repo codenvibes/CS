@@ -300,7 +300,11 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723174543.png]]
 	
 3. Redirected to `http://68.183.205.254:34696/login`
-	Logged in successfully with the 
+	Logged in successfully:
+	- Username: `attacker`
+	- Password: `attacker
+	![[Pasted image 20250723175521.png]]
+	
 4. (`attacker`) and triggered a password reset.
     
 5. Observed the format of the reset token (`md5(username + timestamp)`).
