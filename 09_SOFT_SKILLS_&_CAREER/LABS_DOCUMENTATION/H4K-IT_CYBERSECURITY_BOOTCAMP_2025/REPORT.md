@@ -318,7 +318,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723200729.png]]
 	Observed the format of the reset token.
     
-8. Opened developer tools to inspect server time.
+8. Opened developer tools to inspect headers.
 	![[Pasted image 20250723201009.png]]
 	
 9. Attempted manual reproduction using the server’s timestamp from response headers.
