@@ -401,13 +401,7 @@ HTML revealed a basic welcome page with a link to `/upload`.
 	![[Pasted image 20250723233614.png]]
 	
 4. Received this error after uploading the file:
-	![[Pasted image 20250723233746.png]]
-
-```html
-<pre>Script does not contain expected structure. </pre>
-```
-
----
+	![[Pasted image 20250723233832.png]]
 
 #### 🧭 2. Directory Discovery with Gobuster
 
