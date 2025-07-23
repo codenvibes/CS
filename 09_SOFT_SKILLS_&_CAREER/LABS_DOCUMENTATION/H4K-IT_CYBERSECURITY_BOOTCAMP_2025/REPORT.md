@@ -233,17 +233,17 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 ### Methodology
 
-1. Visiting the provided instance:
-	Accessed the `/submit` page and identified a URL field used to fetch PDFs.
+1. Visiting the provided instance: `http://68.183.205.254:34689/`
     ![[Pasted image 20250723153711.png]]
+2. 
     ![[Pasted image 20250723153820.png]]
     
-2. Confirmed SSRF by submitting a public PDF link and observing the reflected content.
+3. Confirmed SSRF by submitting a public PDF link and observing the reflected content.
     ![[Pasted image 20250723153956.png]]
     
-3. Probed internal services using URLs like `http://127.0.0.1:5000/` and `http://169.254.169.254/`.
+4. Probed internal services using URLs like `http://127.0.0.1:5000/` and `http://169.254.169.254/`.
     
-4. Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
+5. Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
 
 ### 🚩Flag Captured: `h4kit{ssrf_approved_metadata_149a4b9a7a89}`
 
