@@ -380,4 +380,7 @@ so the first page on launch is the login page http://68.183.205.254:34684/login 
 
 
 
-next I follow the link and I manage to change the admin password to attacker then I'm redirected to the login page  and I login with username admin pass atta
+next I follow the link and I manage to change the admin password to attacker then I'm redirected to the login page http://68.183.205.254:34696/login  and I login with username admin pass attacker
+
+I'm taken to the dashboard 
+I view the page so
