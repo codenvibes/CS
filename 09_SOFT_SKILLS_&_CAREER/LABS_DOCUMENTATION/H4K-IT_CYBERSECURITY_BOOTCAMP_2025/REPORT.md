@@ -288,7 +288,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 1. Visiting the provided instance: `http://68.183.205.254:34689/`
 	A basic login page was presented `http://68.183.205.254:34696/login`
-2. Clicked the **"Submit a PDF"** link.
+	![[Pasted image 20250723174342.png]]
+	
+2. Clicked the **"Register"** link.
 	**Landed on**: `http://68.183.205.254:34689/submit`
 	A simple form is displayed:
 - Registered a user (`attacker`) and triggered a password reset.
