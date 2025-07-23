@@ -187,7 +187,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	Registered at `http://68.183.205.254:34684/register`
 	- Username: `attacker`
 	- Password: `attacker
-    
+    ![[Pasted image 20250723194929.png]]
 
 3. Access Dashboard
 	- **Redirected to Dashboard:** `http://68.183.205.254:34684/dashboard`
