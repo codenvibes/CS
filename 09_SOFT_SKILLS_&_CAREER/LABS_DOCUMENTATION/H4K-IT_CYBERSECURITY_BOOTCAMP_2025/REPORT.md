@@ -400,4 +400,9 @@ Visititng the provided instance I get a login page http://68.183.205.254:34696/l
 </html>
 ```
 
-I click the register link 
+I click the register link and get to the page http://68.183.205.254:34696/register
+
+username; attacker
+password; attacker
+
+and afp
