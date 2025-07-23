@@ -61,6 +61,7 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 	![[Pasted image 20250723081340.png]]
 	
 3. **Successfully Logged in** and was redirected to the dashboard at `/dashboard`
+	The dashboard displayed a welcome message and a hyperlink labeled **"View your profile here."**
 	![[Pasted image 20250723081528.png]]
 	
 4. **Clicked profile link** and noted the URL: `/profile?id=2`
