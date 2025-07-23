@@ -182,18 +182,28 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	- Found standard login form.
 	- Discovered a link to the registration page.
     ![[Pasted image 20250723134548.png]]
-    
+
 2. User Registration
 	Registered at `http://68.183.205.254:34684/register`
 	- Username: `attacker`
 	- Password: `attacker
     ![[Pasted image 20250723134635.png]]
+
+3. Access Dashboard**
+	
+	- **Redirected to Dashboard:** `http://68.183.205.254:34684/dashboard`
+	    
+	- Dashboard Links:
+	    
+	    - **Edit Profile:** `/settings?id=3`
+	        
+	    - **View Profile:** `/profile?id=3`
+	
+4. Viewed the attacker's profile at `/profile?id=3`.
     
-3. Viewed the attacker's profile at `/profile?id=3`.
+5. Modified the `id` parameter to `1` to access the admin profile.
     
-4. Modified the `id` parameter to `1` to access the admin profile.
-    
-5. Inspected the page source and discovered the flag in the `<footer>` tag.
+6. Inspected the page source and discovered the flag in the `<footer>` tag.
 
 ### Flag Captured: `h4kit{email_override_success_e2359b737f00}`
 
