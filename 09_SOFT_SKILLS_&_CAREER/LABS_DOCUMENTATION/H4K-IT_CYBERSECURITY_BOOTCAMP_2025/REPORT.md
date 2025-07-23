@@ -192,6 +192,9 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 
 ### Lessons Learned
 
+- IDOR vulnerabilities occur when access control is not enforced server-side.
+- Even non-visible HTML elements (e.g., `<small>` inside `<footer>`) may contain sensitive data.
+- Parameter tampering remains a common and dangerous flaw in web applications.
 
 
 ## Challenge
