@@ -110,8 +110,10 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 	Logged in successfully and confirmed the user role was **user**, not **admin**.
     ![[Pasted image 20250723130408.png]]
     
-4. Used Gobuster to enumerate directories:
-       
+4. Directory Bruteforce with Gobuster
+	Used Gobuster to enumerate directories:
+    ```
+		```
 5. Discovered `/admin` endpoint via bruteforce.
     
 6. Accessed `http://68.183.205.254:34664/admin` directly and retrieved the flag from the admin panel.
