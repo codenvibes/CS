@@ -384,12 +384,8 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 
 ### Methodology
 
-### ✅ Step-by-Step Exploitation
-
-#### 🔎 1. Initial Recon
-
-Visited the root page:
-
+1. Visited the root page:
+	
 ```
 http://68.183.205.254:34715/
 ```
