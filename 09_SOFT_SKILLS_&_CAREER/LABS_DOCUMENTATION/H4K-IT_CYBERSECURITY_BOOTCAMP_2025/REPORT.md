@@ -300,7 +300,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723182505.png]]
 	
 3. Redirected to `http://68.183.205.254:34696/login`
-	![[Pasted image 20250723175521.png]]
+	
 
 4. Logged in successfully:
 	- Username: `attacker`
