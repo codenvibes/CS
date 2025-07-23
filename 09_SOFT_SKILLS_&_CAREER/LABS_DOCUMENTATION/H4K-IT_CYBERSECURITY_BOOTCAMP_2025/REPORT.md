@@ -491,4 +491,6 @@ I click on upload script link
 ```
 
 so I click on choose file
-it opens up file e
+it opens up file explore and I select an empty file attacker.txt
+I click on the upload button and here's what I
+
