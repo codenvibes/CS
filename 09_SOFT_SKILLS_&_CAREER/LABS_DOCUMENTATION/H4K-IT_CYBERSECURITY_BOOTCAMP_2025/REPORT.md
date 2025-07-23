@@ -203,6 +203,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
     ![[Pasted image 20250723135335.png]]
 
 6. Inspected the page source and discovered the flag in the `<footer>` tag.
+	![[Pasted image 20250723135520.png]]
 
 ### Flag Captured: `h4kit{email_override_success_e2359b737f00}`
 
