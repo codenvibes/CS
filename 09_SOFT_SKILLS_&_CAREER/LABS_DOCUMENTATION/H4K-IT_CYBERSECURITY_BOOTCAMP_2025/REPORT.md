@@ -328,6 +328,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	Returned to `http://68.183.205.254:34713/reset/forgot`
 	![[Pasted image 20250723211041.png]]
 	
+	Entered: `admin`
+	![[Pasted image 20250723211406.png]]
+	 Clicked 
 11. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
 	
