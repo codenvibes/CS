@@ -267,9 +267,14 @@ http://169.254.169.254/latest/meta-data/
 
 
 
-## Challenge ()
+## ResetRealm Predictable Recovery (100 pts)
 
 ### Task
+ResetRealm is a prototype password recovery system designed for internal testing by SafeCloud Inc. The system issues password reset tokens via a "secure link" based on the user's username and current timestamp. Unfortunately, the dev team used a homegrown token generation method during development and never replaced it with a proper cryptographic library.
+
+You're conducting an external security audit and are asked to review the password reset flow. The developers claim tokens are secure because “only the user knows when they requested the link.”
+
+Investigate how the tokens are generated. Can you predict a token for another user and reset their password?
 
 ### Category: Web
 
@@ -373,4 +378,6 @@ http://169.254.169.254/latest/meta-data/
 
 so the first page on launch is the login page http://68.183.205.254:34684/login and there's a link on the page to the registration page http://68.183.205.254:34684/register and I register username; attacker pass; attacker and login. the next page I get access to is the dashboard http://68.183.205.254:34684/dashboard and it looks like this;
 
+
+## 
 
