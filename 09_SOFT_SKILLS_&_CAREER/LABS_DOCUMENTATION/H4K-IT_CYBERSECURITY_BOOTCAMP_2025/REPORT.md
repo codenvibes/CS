@@ -397,13 +397,10 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 4. Received this error after uploading the file:
 	![[Pasted image 20250723233832.png]]
 
-5. Got Stuck… So I Turned to Discovery
+5. Didn't know what to do next… So I Turned to Discovery
 	At this point, I wasn’t sure how the backend validated scripts, and I didn’t know what kind of structure it expected. Since I had no other leads, I decided to try **directory discovery** using Gobuster to look for hidden endpoints that might be useful.
 	
-	```
-┌──(mopsy㉿APHP)-[~/H4K-IT] └─$ gobuster dir -u http://68.183.205.254:34715/ -w ~/SecLists/Discovery/Web-Content/common.txt =============================================================== Gobuster v3.6 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart) =============================================================== [+] Url: http://68.183.205.254:34715/ [+] Method: GET [+] Threads: 10 [+] Wordlist: /home/mopsy/SecLists/Discovery/Web-Content/common.txt [+] Negative Status codes: 404 [+] User Agent: gobuster/3.6 [+] Timeout: 10s =============================================================== Starting gobuster in directory enumeration mode =============================================================== /preview (Status: 200) [Size: 29] /upload (Status: 200) [Size: 379] Progress: 4746 / 4747 (99.98%) =============================================================== Finished ===============================================================
-
-	```
+	
 	This uncovered:
 		- `/upload` (Upload form – already known)
 		- `/preview`
