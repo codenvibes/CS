@@ -501,5 +501,27 @@ I click on the upload button and here's what I get;
 I don't know where to go next so I run gobuster to see the directories
 
 ```shell
+┌──(mopsy㉿APHP)-[~/H4K-IT]
+└─$ gobuster dir -u http://68.183.205.254:34715/ -w ~/SecLists/Discovery/Web-Content/common.txt
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://68.183.205.254:34715/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/mopsy/SecLists/Discovery/Web-Content/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/preview              (Status: 200) [Size: 29]
+/upload               (Status: 200) [Size: 379]
+Progress: 4746 / 4747 (99.98%)
+===============================================================
+Finished
+===============================================================
 
 ```
