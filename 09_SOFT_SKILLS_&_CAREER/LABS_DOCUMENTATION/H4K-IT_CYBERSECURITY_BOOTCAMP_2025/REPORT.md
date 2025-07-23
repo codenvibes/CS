@@ -5,8 +5,7 @@
 <div align="center">
 NAME: TERRENCE MACHOGU KEGENGO
 <br>
-<>
-EMAIL: [terrence.tech@proton.me](mailto:terrence.tech@proton.me)
+EMAIL: <a href="mailto:terrence.tech@proton.me">terrence.tech@proton.me</a>
 <br>
 WEDNESDAY 23RD JULY 2025
 <br>
