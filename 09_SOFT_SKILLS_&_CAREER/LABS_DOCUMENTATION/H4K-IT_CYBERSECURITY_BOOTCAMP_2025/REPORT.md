@@ -332,7 +332,8 @@ Investigate how the tokens are generated. Can you predict a token for another us
 	![[Pasted image 20250723211406.png]]
 	 Clicked `Generate Reset Link`
 	 
-11. 
+11. The website responded with a reset link:
+	![[Pasted image 20250723211635.png]]
 	
 12. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
