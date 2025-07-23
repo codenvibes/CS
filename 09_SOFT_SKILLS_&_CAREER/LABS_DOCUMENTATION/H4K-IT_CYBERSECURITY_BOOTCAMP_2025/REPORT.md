@@ -150,6 +150,14 @@ Finished
 
 ### Lessons Learned
 
+- **Front-end-only access control is insecure.**  
+    Simply hiding admin links from the UI does not protect routes from direct access.
+    
+- **Always perform directory brute-forcing.**  
+    Gobuster (or similar tools) can uncover hidden or unlinked routes like `/admin`.
+    
+- **Backend route protection is essential.**  
+    Access control logic must be enforced on the server, not just in the client.
 
 
 ## Challenge
