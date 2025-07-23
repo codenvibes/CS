@@ -88,3 +88,7 @@ Exploiting an insecure direct object reference (IDOR) vulnerability in a feedbac
 # Conclusion
 
 
+
+so the first page displayed is the login page an
+
+
