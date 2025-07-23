@@ -320,8 +320,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 8. Opened developer tools to inspect headers.
 	![[Pasted image 20250723202231.png]]
 	
-	Captured server response headers:
-9. Converted to UNIX timestamp: `1753290821`
+	Captured server response headers
+	
+9. Converted The Date Header to UNIX timestamp: `1753277901`
 	
 10. Tried to reproduce the token locally (unsuccessfully)
 	- Wrote a Python script:
