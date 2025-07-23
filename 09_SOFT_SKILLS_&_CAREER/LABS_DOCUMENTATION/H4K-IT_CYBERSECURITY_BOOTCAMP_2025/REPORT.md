@@ -364,7 +364,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 
 
 
-## ScriptServe Unsigned Update (200 pts)
+## ✅ ScriptServe Unsigned Update (200 pts)
 
 ### Task
 ScriptServe is a lightweight internal tool that allows staff to upload and update automation scripts for use in backend jobs. The development team recently added a file-based update interface to simplify deployment, where authenticated users can push .py or .sh scripts via a web interface.
