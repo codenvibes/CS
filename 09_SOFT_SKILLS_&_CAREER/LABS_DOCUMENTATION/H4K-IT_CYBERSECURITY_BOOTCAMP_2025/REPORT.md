@@ -327,9 +327,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 10. Then I tested:
 	
 ```
-mopsy@APHP MINGW64 ~/ET/CS (master)
-$ echo -n "attacker1753277901" | md5sum
-d75cc1d792e7338a9d607f52606928c3 *-
+┌──(mopsy㉿APHP)-[~]
+└─$ echo -n "attacker1753277901" | md5sum
+d75cc1d792e7338a9d607f52606928c3  -
 ```
 
 4. Tried to reproduce the token locally (unsuccessfully)
