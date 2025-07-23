@@ -233,7 +233,8 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 ### Methodology
 
-1. Accessed the `/submit` page and identified a URL field used to fetch PDFs.
+1. Visiting the provided instance:
+	Accessed the `/submit` page and identified a URL field used to fetch PDFs.
     ![[Pasted image 20250723153711.png]]
     ![[Pasted image 20250723153820.png]]
     
