@@ -896,6 +896,18 @@ if __name__ == "__main__":
 
 #### What Does This Code Do?
 
+The `fake_api.py` script defines a minimal Flask API simulating the backend of a mobile banking app called _BankLite_. It implements basic login, profile, and logout functionality using a global `tokens` dictionary.
+
+Here's how each endpoint behaves:
+
+- **`/login`** (POST):  
+    Accepts form data with `username` and `password`. If the credentials match `admin` and `supersecret`, the app generates a token using the current Unix timestamp (`int(time.time())`) and stores it in a dictionary using the requestor's IP as the key. The token is returned in JSON format.
+    
+- **`/profile`** (GET):  
+    Expects a token in the `Authorization` header. If the token is present in the server's stored `tokens` values, it returns hardcoded admin profile details.
+    
+- **`/logout`** (GET):  
+    Deletes the token associated with the requestor's IP from the `tokens` dictionary and returns a confirmation message.
 
 #### What Is the Flaw?
 
