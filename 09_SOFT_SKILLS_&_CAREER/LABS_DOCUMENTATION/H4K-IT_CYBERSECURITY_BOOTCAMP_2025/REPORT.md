@@ -716,6 +716,20 @@ Challenge files can be found in /data directory
 
 ### Task
 
+## 
+
+#### Greek Gods
+
+100 pts
+
+ShopNode, a small online store run by a solo developer, recently went viral. With the sudden influx of traffic, the admin has received several reports of people accessing internal dashboards. The developer believes their login system is secure, but something seems off. You've been called in to conduct a quick security audit before media attention turns into a PR disaster. The source code for the login and admin logic has been provided.
+
+flag format: h4kit{xxxx.xxxxx("/xxxxx")}
+
+Download Attachment
+
+👉
+
 ### Category: 
 
 ### Tools Used
