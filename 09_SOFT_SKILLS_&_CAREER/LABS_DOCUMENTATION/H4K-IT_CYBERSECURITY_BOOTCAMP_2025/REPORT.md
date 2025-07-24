@@ -723,6 +723,32 @@ flag format: h4kit{xxxx.xxxxx("/xxxxx")}
 Download Attachment
 👉 Greek Gods code.zip
 
+```python
+# app.py
+
+from flask import Flask, request, redirect
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return "Welcome to our Store"
+
+@app.route("/login", methods=["POST"])
+def login():
+    if request.form.get("username") == "admin" and request.form.get("password") == "password123":
+        return redirect("/admin")
+    return "Invalid credentials"
+
+@app.route("/admin")
+def admin():
+    return "Admin Panel: Orders, Users, Logs"
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+```
+
 ### Category: PPC
 
 ### Tools Used
