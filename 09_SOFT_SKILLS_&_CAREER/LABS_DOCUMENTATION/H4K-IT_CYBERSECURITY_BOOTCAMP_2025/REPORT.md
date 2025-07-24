@@ -1142,7 +1142,6 @@ The flaw lies in the **lack of atomicity and synchronization** in the refund log
     
 4. **Rerun the script**  
     Observe if the final balance increases beyond the expected single refund, confirming a **race condition exploit** in a multi-threaded or real-world API environment.
-    
 
 ---
 
