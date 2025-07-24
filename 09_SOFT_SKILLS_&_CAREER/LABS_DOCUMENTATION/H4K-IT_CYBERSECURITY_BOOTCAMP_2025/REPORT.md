@@ -510,4 +510,6 @@ Challenge files can be found in /data directory
 ---
 # Conclusion
 
-client portal 
+![[Pasted image 20250724082108.png]]
+
+![[Pasted image 20250724082137.png]]
