@@ -481,207 +481,207 @@ Challenge files can be found in /data directory
 3. **Print contents of the history file:**
     
     ```bash
-ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
-2023-07-12 10:00:00 | VISIT | https://google.com
-2023-07-12 10:00:01 | VISIT | https://youtube.com
-2023-07-12 10:00:02 | VISIT | https://github.com
-2023-07-12 10:00:03 | VISIT | https://banksecure-login.com
-2023-07-12 10:01:04 | VISIT | https://webmail.outlook.com
-2023-07-12 10:01:05 | VISIT | https://facebook.com
-2023-07-12 10:01:06 | VISIT | https://news.example.com
-2023-07-12 10:01:07 | VISIT | https://google.com
-2023-07-12 10:02:08 | VISIT | https://youtube.com
-2023-07-12 10:02:09 | VISIT | https://github.com
-2023-07-12 10:02:10 | VISIT | https://banksecure-login.com
-2023-07-12 10:02:11 | VISIT | https://webmail.outlook.com
-2023-07-12 10:03:12 | VISIT | https://facebook.com
-2023-07-12 10:03:13 | VISIT | https://news.example.com
-2023-07-12 10:03:14 | VISIT | https://google.com
-2023-07-12 10:03:15 | VISIT | https://youtube.com
-2023-07-12 10:04:16 | VISIT | https://github.com
-2023-07-12 10:04:17 | VISIT | https://banksecure-login.com
-2023-07-12 10:04:18 | VISIT | https://webmail.outlook.com
-2023-07-12 10:04:19 | VISIT | https://facebook.com
-2023-07-12 10:05:20 | VISIT | https://news.example.com
-2023-07-12 10:05:21 | VISIT | https://google.com
-2023-07-12 10:05:22 | VISIT | https://youtube.com
-2023-07-12 10:05:23 | VISIT | https://github.com
-2023-07-12 10:06:24 | VISIT | https://banksecure-login.com
-2023-07-12 10:06:25 | VISIT | https://webmail.outlook.com
-2023-07-12 10:06:26 | VISIT | https://facebook.com
-2023-07-12 10:06:27 | VISIT | https://news.example.com
-2023-07-12 10:07:28 | VISIT | https://google.com
-2023-07-12 10:07:29 | VISIT | https://youtube.com
-2023-07-12 10:07:30 | VISIT | https://github.com
-2023-07-12 10:07:31 | VISIT | https://banksecure-login.com
-2023-07-12 10:08:32 | VISIT | https://webmail.outlook.com
-2023-07-12 10:08:33 | VISIT | https://facebook.com
-2023-07-12 10:08:34 | VISIT | https://news.example.com
-2023-07-12 10:08:35 | VISIT | https://google.com
-2023-07-12 10:09:36 | VISIT | https://youtube.com
-2023-07-12 10:09:37 | VISIT | https://github.com
-2023-07-12 10:09:38 | VISIT | https://banksecure-login.com
-2023-07-12 10:09:39 | VISIT | https://webmail.outlook.com
-2023-07-12 10:10:40 | VISIT | https://facebook.com
-2023-07-12 10:10:41 | VISIT | https://news.example.com
-2023-07-12 10:10:42 | VISIT | https://google.com
-2023-07-12 10:10:43 | VISIT | https://youtube.com
-2023-07-12 10:11:44 | VISIT | https://github.com
-2023-07-12 10:11:45 | VISIT | https://banksecure-login.com
-2023-07-12 10:11:46 | VISIT | https://webmail.outlook.com
-2023-07-12 10:11:47 | VISIT | https://facebook.com
-2023-07-12 10:12:48 | VISIT | https://news.example.com
-2023-07-12 10:12:49 | VISIT | https://google.com
-2023-07-12 10:12:50 | VISIT | https://youtube.com
-2023-07-12 10:12:51 | VISIT | https://github.com
-2023-07-12 10:13:52 | VISIT | https://banksecure-login.com
-2023-07-12 10:13:53 | VISIT | https://webmail.outlook.com
-2023-07-12 10:13:54 | VISIT | https://facebook.com
-2023-07-12 10:13:55 | VISIT | https://news.example.com
-2023-07-12 10:14:56 | VISIT | https://google.com
-2023-07-12 10:14:57 | VISIT | https://youtube.com
-2023-07-12 10:14:58 | VISIT | https://github.com
-2023-07-12 10:14:59 | VISIT | https://banksecure-login.com
-2023-07-12 10:15:00 | VISIT | https://webmail.outlook.com
-2023-07-12 10:15:01 | VISIT | https://facebook.com
-2023-07-12 10:15:02 | VISIT | https://news.example.com
-2023-07-12 10:15:03 | VISIT | https://google.com
-2023-07-12 10:16:04 | VISIT | https://youtube.com
-2023-07-12 10:16:05 | VISIT | https://github.com
-2023-07-12 10:16:06 | VISIT | https://banksecure-login.com
-2023-07-12 10:16:07 | VISIT | https://webmail.outlook.com
-2023-07-12 10:17:08 | VISIT | https://facebook.com
-2023-07-12 10:17:09 | VISIT | https://news.example.com
-2023-07-12 10:17:10 | VISIT | https://google.com
-2023-07-12 10:17:11 | VISIT | https://youtube.com
-2023-07-12 10:18:12 | VISIT | https://github.com
-2023-07-12 10:18:13 | VISIT | https://banksecure-login.com
-2023-07-12 10:18:14 | VISIT | https://webmail.outlook.com
-2023-07-12 10:18:15 | VISIT | https://facebook.com
-2023-07-12 10:19:16 | VISIT | https://news.example.com
-2023-07-12 10:19:17 | VISIT | https://google.com
-2023-07-12 10:19:18 | VISIT | https://youtube.com
-2023-07-12 10:19:19 | VISIT | https://github.com
-2023-07-12 10:20:20 | VISIT | https://banksecure-login.com
-2023-07-12 10:20:21 | VISIT | https://webmail.outlook.com
-2023-07-12 10:20:22 | VISIT | https://facebook.com
-2023-07-12 10:20:23 | VISIT | https://news.example.com
-2023-07-12 10:21:24 | VISIT | https://google.com
-2023-07-12 10:21:25 | VISIT | https://youtube.com
-2023-07-12 10:21:26 | VISIT | https://github.com
-2023-07-12 10:21:27 | VISIT | https://banksecure-login.com
-2023-07-12 10:22:28 | VISIT | https://webmail.outlook.com
-2023-07-12 10:22:29 | VISIT | https://facebook.com
-2023-07-12 10:22:30 | VISIT | https://news.example.com
-2023-07-12 10:22:31 | VISIT | https://google.com
-2023-07-12 10:23:32 | VISIT | https://youtube.com
-2023-07-12 10:23:33 | VISIT | https://github.com
-2023-07-12 10:23:34 | VISIT | https://banksecure-login.com
-2023-07-12 10:23:35 | VISIT | https://webmail.outlook.com
-2023-07-12 10:24:36 | VISIT | https://facebook.com
-2023-07-12 10:24:37 | VISIT | https://news.example.com
-2023-07-12 10:24:38 | VISIT | https://google.com
-2023-07-12 10:24:39 | VISIT | https://youtube.com
-2023-07-12 10:25:40 | VISIT | https://github.com
-2023-07-12 10:25:41 | VISIT | https://banksecure-login.com
-2023-07-12 10:25:42 | VISIT | https://webmail.outlook.com
-2023-07-12 10:25:43 | VISIT | https://facebook.com
-2023-07-12 10:26:44 | VISIT | https://news.example.com
-2023-07-12 10:26:45 | VISIT | https://google.com
-2023-07-12 10:26:46 | VISIT | https://youtube.com
-2023-07-12 10:26:47 | VISIT | https://github.com
-2023-07-12 10:27:48 | VISIT | https://banksecure-login.com
-2023-07-12 10:27:49 | VISIT | https://webmail.outlook.com
-2023-07-12 10:27:50 | VISIT | https://facebook.com
-2023-07-12 10:27:51 | VISIT | https://news.example.com
-2023-07-12 10:28:52 | VISIT | https://google.com
-2023-07-12 10:28:53 | VISIT | https://youtube.com
-2023-07-12 10:28:54 | VISIT | https://github.com
-2023-07-12 10:28:55 | VISIT | https://banksecure-login.com
-2023-07-12 10:29:56 | VISIT | https://webmail.outlook.com
-2023-07-12 10:29:57 | VISIT | https://facebook.com
-2023-07-12 10:29:58 | VISIT | https://news.example.com
-2023-07-12 10:29:59 | VISIT | https://google.com
-2023-07-12 10:30:00 | VISIT | https://youtube.com
-2023-07-12 10:30:01 | VISIT | https://github.com
-2023-07-12 10:30:02 | VISIT | https://banksecure-login.com
-2023-07-12 10:30:03 | VISIT | https://webmail.outlook.com
-2023-07-12 10:31:04 | VISIT | https://facebook.com
-2023-07-12 10:31:05 | VISIT | https://news.example.com
-2023-07-12 10:31:06 | VISIT | https://google.com
-2023-07-12 10:31:07 | VISIT | https://youtube.com
-2023-07-12 10:32:08 | VISIT | https://github.com
-2023-07-12 10:32:09 | VISIT | https://banksecure-login.com
-2023-07-12 10:32:10 | VISIT | https://webmail.outlook.com
-2023-07-12 10:32:11 | VISIT | https://facebook.com
-2023-07-12 10:33:12 | VISIT | https://news.example.com
-2023-07-12 10:33:13 | VISIT | https://google.com
-2023-07-12 10:33:14 | VISIT | https://youtube.com
-2023-07-12 10:33:15 | VISIT | https://github.com
-2023-07-12 10:34:16 | VISIT | https://banksecure-login.com
-2023-07-12 10:34:17 | VISIT | https://webmail.outlook.com
-2023-07-12 10:34:18 | VISIT | https://facebook.com
-2023-07-12 10:34:19 | VISIT | https://news.example.com
-2023-07-12 10:35:20 | VISIT | https://google.com
-2023-07-12 10:35:21 | VISIT | https://youtube.com
-2023-07-12 10:35:22 | VISIT | https://github.com
-2023-07-12 10:35:23 | VISIT | https://banksecure-login.com
-2023-07-12 10:36:24 | VISIT | https://webmail.outlook.com
-2023-07-12 10:36:25 | VISIT | https://facebook.com
-2023-07-12 10:36:26 | VISIT | https://news.example.com
-2023-07-12 10:36:27 | VISIT | https://google.com
-2023-07-12 10:37:28 | VISIT | https://youtube.com
-2023-07-12 10:37:29 | VISIT | https://github.com
-2023-07-12 10:37:30 | VISIT | https://banksecure-login.com
-2023-07-12 10:37:31 | VISIT | https://webmail.outlook.com
-2023-07-12 10:38:32 | VISIT | https://facebook.com
-2023-07-12 10:38:33 | VISIT | https://news.example.com
-2023-07-12 10:38:34 | VISIT | https://google.com
-2023-07-12 10:38:35 | VISIT | https://youtube.com
-2023-07-12 10:39:36 | VISIT | https://github.com
-2023-07-12 10:39:37 | VISIT | https://banksecure-login.com
-2023-07-12 10:39:38 | VISIT | https://webmail.outlook.com
-2023-07-12 10:39:39 | VISIT | https://facebook.com
-2023-07-12 10:40:40 | VISIT | https://news.example.com
-2023-07-12 10:40:41 | VISIT | https://google.com
-2023-07-12 10:40:42 | VISIT | https://youtube.com
-2023-07-12 10:40:43 | VISIT | https://github.com
-2023-07-12 10:41:44 | VISIT | https://banksecure-login.com
-2023-07-12 10:41:45 | VISIT | https://webmail.outlook.com
-2023-07-12 10:41:46 | VISIT | https://facebook.com
-2023-07-12 10:41:47 | VISIT | https://news.example.com
-2023-07-12 10:42:48 | VISIT | https://google.com
-2023-07-12 10:42:49 | VISIT | https://youtube.com
-2023-07-12 10:42:50 | VISIT | https://github.com
-2023-07-12 10:42:51 | VISIT | https://banksecure-login.com
-2023-07-12 10:51:29 | VISIT | http://malicious-update.win/launch?ver=2.0 # h4kit{browser_phish_flag}
-2023-07-12 10:43:53 | VISIT | https://facebook.com
-2023-07-12 10:43:54 | VISIT | https://news.example.com
-2023-07-12 10:43:55 | VISIT | https://google.com
-2023-07-12 10:44:56 | VISIT | https://youtube.com
-2023-07-12 10:44:57 | VISIT | https://github.com
-2023-07-12 10:44:58 | VISIT | https://banksecure-login.com
-2023-07-12 10:44:59 | VISIT | https://webmail.outlook.com
-2023-07-12 10:45:00 | VISIT | https://facebook.com
-2023-07-12 10:45:01 | VISIT | https://news.example.com
-2023-07-12 10:45:02 | VISIT | https://google.com
-2023-07-12 10:45:03 | VISIT | https://youtube.com
-2023-07-12 10:46:04 | VISIT | https://github.com
-2023-07-12 10:46:05 | VISIT | https://banksecure-login.com
-2023-07-12 10:46:06 | VISIT | https://webmail.outlook.com
-2023-07-12 10:46:07 | VISIT | https://facebook.com
-2023-07-12 10:47:08 | VISIT | https://news.example.com
-2023-07-12 10:47:09 | VISIT | https://google.com
-2023-07-12 10:47:10 | VISIT | https://youtube.com
-2023-07-12 10:47:11 | VISIT | https://github.com
-2023-07-12 10:48:12 | VISIT | https://banksecure-login.com
-2023-07-12 10:48:13 | VISIT | https://webmail.outlook.com
-2023-07-12 10:48:14 | VISIT | https://facebook.com
-2023-07-12 10:48:15 | VISIT | https://news.example.com
-2023-07-12 10:49:16 | VISIT | https://google.com
-2023-07-12 10:49:17 | VISIT | https://youtube.com
-2023-07-12 10:49:18 | VISIT | https://github.com
-2023-07-12 10:49:19 | VISIT | https://banksecure-login.com
+	ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
+	2023-07-12 10:00:00 | VISIT | https://google.com
+	2023-07-12 10:00:01 | VISIT | https://youtube.com
+	2023-07-12 10:00:02 | VISIT | https://github.com
+	2023-07-12 10:00:03 | VISIT | https://banksecure-login.com
+	2023-07-12 10:01:04 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:01:05 | VISIT | https://facebook.com
+	2023-07-12 10:01:06 | VISIT | https://news.example.com
+	2023-07-12 10:01:07 | VISIT | https://google.com
+	2023-07-12 10:02:08 | VISIT | https://youtube.com
+	2023-07-12 10:02:09 | VISIT | https://github.com
+	2023-07-12 10:02:10 | VISIT | https://banksecure-login.com
+	2023-07-12 10:02:11 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:03:12 | VISIT | https://facebook.com
+	2023-07-12 10:03:13 | VISIT | https://news.example.com
+	2023-07-12 10:03:14 | VISIT | https://google.com
+	2023-07-12 10:03:15 | VISIT | https://youtube.com
+	2023-07-12 10:04:16 | VISIT | https://github.com
+	2023-07-12 10:04:17 | VISIT | https://banksecure-login.com
+	2023-07-12 10:04:18 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:04:19 | VISIT | https://facebook.com
+	2023-07-12 10:05:20 | VISIT | https://news.example.com
+	2023-07-12 10:05:21 | VISIT | https://google.com
+	2023-07-12 10:05:22 | VISIT | https://youtube.com
+	2023-07-12 10:05:23 | VISIT | https://github.com
+	2023-07-12 10:06:24 | VISIT | https://banksecure-login.com
+	2023-07-12 10:06:25 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:06:26 | VISIT | https://facebook.com
+	2023-07-12 10:06:27 | VISIT | https://news.example.com
+	2023-07-12 10:07:28 | VISIT | https://google.com
+	2023-07-12 10:07:29 | VISIT | https://youtube.com
+	2023-07-12 10:07:30 | VISIT | https://github.com
+	2023-07-12 10:07:31 | VISIT | https://banksecure-login.com
+	2023-07-12 10:08:32 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:08:33 | VISIT | https://facebook.com
+	2023-07-12 10:08:34 | VISIT | https://news.example.com
+	2023-07-12 10:08:35 | VISIT | https://google.com
+	2023-07-12 10:09:36 | VISIT | https://youtube.com
+	2023-07-12 10:09:37 | VISIT | https://github.com
+	2023-07-12 10:09:38 | VISIT | https://banksecure-login.com
+	2023-07-12 10:09:39 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:10:40 | VISIT | https://facebook.com
+	2023-07-12 10:10:41 | VISIT | https://news.example.com
+	2023-07-12 10:10:42 | VISIT | https://google.com
+	2023-07-12 10:10:43 | VISIT | https://youtube.com
+	2023-07-12 10:11:44 | VISIT | https://github.com
+	2023-07-12 10:11:45 | VISIT | https://banksecure-login.com
+	2023-07-12 10:11:46 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:11:47 | VISIT | https://facebook.com
+	2023-07-12 10:12:48 | VISIT | https://news.example.com
+	2023-07-12 10:12:49 | VISIT | https://google.com
+	2023-07-12 10:12:50 | VISIT | https://youtube.com
+	2023-07-12 10:12:51 | VISIT | https://github.com
+	2023-07-12 10:13:52 | VISIT | https://banksecure-login.com
+	2023-07-12 10:13:53 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:13:54 | VISIT | https://facebook.com
+	2023-07-12 10:13:55 | VISIT | https://news.example.com
+	2023-07-12 10:14:56 | VISIT | https://google.com
+	2023-07-12 10:14:57 | VISIT | https://youtube.com
+	2023-07-12 10:14:58 | VISIT | https://github.com
+	2023-07-12 10:14:59 | VISIT | https://banksecure-login.com
+	2023-07-12 10:15:00 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:15:01 | VISIT | https://facebook.com
+	2023-07-12 10:15:02 | VISIT | https://news.example.com
+	2023-07-12 10:15:03 | VISIT | https://google.com
+	2023-07-12 10:16:04 | VISIT | https://youtube.com
+	2023-07-12 10:16:05 | VISIT | https://github.com
+	2023-07-12 10:16:06 | VISIT | https://banksecure-login.com
+	2023-07-12 10:16:07 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:17:08 | VISIT | https://facebook.com
+	2023-07-12 10:17:09 | VISIT | https://news.example.com
+	2023-07-12 10:17:10 | VISIT | https://google.com
+	2023-07-12 10:17:11 | VISIT | https://youtube.com
+	2023-07-12 10:18:12 | VISIT | https://github.com
+	2023-07-12 10:18:13 | VISIT | https://banksecure-login.com
+	2023-07-12 10:18:14 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:18:15 | VISIT | https://facebook.com
+	2023-07-12 10:19:16 | VISIT | https://news.example.com
+	2023-07-12 10:19:17 | VISIT | https://google.com
+	2023-07-12 10:19:18 | VISIT | https://youtube.com
+	2023-07-12 10:19:19 | VISIT | https://github.com
+	2023-07-12 10:20:20 | VISIT | https://banksecure-login.com
+	2023-07-12 10:20:21 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:20:22 | VISIT | https://facebook.com
+	2023-07-12 10:20:23 | VISIT | https://news.example.com
+	2023-07-12 10:21:24 | VISIT | https://google.com
+	2023-07-12 10:21:25 | VISIT | https://youtube.com
+	2023-07-12 10:21:26 | VISIT | https://github.com
+	2023-07-12 10:21:27 | VISIT | https://banksecure-login.com
+	2023-07-12 10:22:28 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:22:29 | VISIT | https://facebook.com
+	2023-07-12 10:22:30 | VISIT | https://news.example.com
+	2023-07-12 10:22:31 | VISIT | https://google.com
+	2023-07-12 10:23:32 | VISIT | https://youtube.com
+	2023-07-12 10:23:33 | VISIT | https://github.com
+	2023-07-12 10:23:34 | VISIT | https://banksecure-login.com
+	2023-07-12 10:23:35 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:24:36 | VISIT | https://facebook.com
+	2023-07-12 10:24:37 | VISIT | https://news.example.com
+	2023-07-12 10:24:38 | VISIT | https://google.com
+	2023-07-12 10:24:39 | VISIT | https://youtube.com
+	2023-07-12 10:25:40 | VISIT | https://github.com
+	2023-07-12 10:25:41 | VISIT | https://banksecure-login.com
+	2023-07-12 10:25:42 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:25:43 | VISIT | https://facebook.com
+	2023-07-12 10:26:44 | VISIT | https://news.example.com
+	2023-07-12 10:26:45 | VISIT | https://google.com
+	2023-07-12 10:26:46 | VISIT | https://youtube.com
+	2023-07-12 10:26:47 | VISIT | https://github.com
+	2023-07-12 10:27:48 | VISIT | https://banksecure-login.com
+	2023-07-12 10:27:49 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:27:50 | VISIT | https://facebook.com
+	2023-07-12 10:27:51 | VISIT | https://news.example.com
+	2023-07-12 10:28:52 | VISIT | https://google.com
+	2023-07-12 10:28:53 | VISIT | https://youtube.com
+	2023-07-12 10:28:54 | VISIT | https://github.com
+	2023-07-12 10:28:55 | VISIT | https://banksecure-login.com
+	2023-07-12 10:29:56 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:29:57 | VISIT | https://facebook.com
+	2023-07-12 10:29:58 | VISIT | https://news.example.com
+	2023-07-12 10:29:59 | VISIT | https://google.com
+	2023-07-12 10:30:00 | VISIT | https://youtube.com
+	2023-07-12 10:30:01 | VISIT | https://github.com
+	2023-07-12 10:30:02 | VISIT | https://banksecure-login.com
+	2023-07-12 10:30:03 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:31:04 | VISIT | https://facebook.com
+	2023-07-12 10:31:05 | VISIT | https://news.example.com
+	2023-07-12 10:31:06 | VISIT | https://google.com
+	2023-07-12 10:31:07 | VISIT | https://youtube.com
+	2023-07-12 10:32:08 | VISIT | https://github.com
+	2023-07-12 10:32:09 | VISIT | https://banksecure-login.com
+	2023-07-12 10:32:10 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:32:11 | VISIT | https://facebook.com
+	2023-07-12 10:33:12 | VISIT | https://news.example.com
+	2023-07-12 10:33:13 | VISIT | https://google.com
+	2023-07-12 10:33:14 | VISIT | https://youtube.com
+	2023-07-12 10:33:15 | VISIT | https://github.com
+	2023-07-12 10:34:16 | VISIT | https://banksecure-login.com
+	2023-07-12 10:34:17 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:34:18 | VISIT | https://facebook.com
+	2023-07-12 10:34:19 | VISIT | https://news.example.com
+	2023-07-12 10:35:20 | VISIT | https://google.com
+	2023-07-12 10:35:21 | VISIT | https://youtube.com
+	2023-07-12 10:35:22 | VISIT | https://github.com
+	2023-07-12 10:35:23 | VISIT | https://banksecure-login.com
+	2023-07-12 10:36:24 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:36:25 | VISIT | https://facebook.com
+	2023-07-12 10:36:26 | VISIT | https://news.example.com
+	2023-07-12 10:36:27 | VISIT | https://google.com
+	2023-07-12 10:37:28 | VISIT | https://youtube.com
+	2023-07-12 10:37:29 | VISIT | https://github.com
+	2023-07-12 10:37:30 | VISIT | https://banksecure-login.com
+	2023-07-12 10:37:31 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:38:32 | VISIT | https://facebook.com
+	2023-07-12 10:38:33 | VISIT | https://news.example.com
+	2023-07-12 10:38:34 | VISIT | https://google.com
+	2023-07-12 10:38:35 | VISIT | https://youtube.com
+	2023-07-12 10:39:36 | VISIT | https://github.com
+	2023-07-12 10:39:37 | VISIT | https://banksecure-login.com
+	2023-07-12 10:39:38 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:39:39 | VISIT | https://facebook.com
+	2023-07-12 10:40:40 | VISIT | https://news.example.com
+	2023-07-12 10:40:41 | VISIT | https://google.com
+	2023-07-12 10:40:42 | VISIT | https://youtube.com
+	2023-07-12 10:40:43 | VISIT | https://github.com
+	2023-07-12 10:41:44 | VISIT | https://banksecure-login.com
+	2023-07-12 10:41:45 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:41:46 | VISIT | https://facebook.com
+	2023-07-12 10:41:47 | VISIT | https://news.example.com
+	2023-07-12 10:42:48 | VISIT | https://google.com
+	2023-07-12 10:42:49 | VISIT | https://youtube.com
+	2023-07-12 10:42:50 | VISIT | https://github.com
+	2023-07-12 10:42:51 | VISIT | https://banksecure-login.com
+	2023-07-12 10:51:29 | VISIT | http://malicious-update.win/launch?ver=2.0 # h4kit{browser_phish_flag}
+	2023-07-12 10:43:53 | VISIT | https://facebook.com
+	2023-07-12 10:43:54 | VISIT | https://news.example.com
+	2023-07-12 10:43:55 | VISIT | https://google.com
+	2023-07-12 10:44:56 | VISIT | https://youtube.com
+	2023-07-12 10:44:57 | VISIT | https://github.com
+	2023-07-12 10:44:58 | VISIT | https://banksecure-login.com
+	2023-07-12 10:44:59 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:45:00 | VISIT | https://facebook.com
+	2023-07-12 10:45:01 | VISIT | https://news.example.com
+	2023-07-12 10:45:02 | VISIT | https://google.com
+	2023-07-12 10:45:03 | VISIT | https://youtube.com
+	2023-07-12 10:46:04 | VISIT | https://github.com
+	2023-07-12 10:46:05 | VISIT | https://banksecure-login.com
+	2023-07-12 10:46:06 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:46:07 | VISIT | https://facebook.com
+	2023-07-12 10:47:08 | VISIT | https://news.example.com
+	2023-07-12 10:47:09 | VISIT | https://google.com
+	2023-07-12 10:47:10 | VISIT | https://youtube.com
+	2023-07-12 10:47:11 | VISIT | https://github.com
+	2023-07-12 10:48:12 | VISIT | https://banksecure-login.com
+	2023-07-12 10:48:13 | VISIT | https://webmail.outlook.com
+	2023-07-12 10:48:14 | VISIT | https://facebook.com
+	2023-07-12 10:48:15 | VISIT | https://news.example.com
+	2023-07-12 10:49:16 | VISIT | https://google.com
+	2023-07-12 10:49:17 | VISIT | https://youtube.com
+	2023-07-12 10:49:18 | VISIT | https://github.com
+	2023-07-12 10:49:19 | VISIT | https://banksecure-login.com
     ```
     
 4. **Paste log into Obsidian** for better readability and pattern scanning.
@@ -691,13 +691,7 @@ ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
     ```
     2023-07-12 10:51:29 | VISIT | http://malicious-update.win/launch?ver=2.0 # h4kit{browser_phish_flag}
     ```
-    
 
-🏁 **Flag Identified:** `h4kit{browser_phish_flag}`
-
----
-
-If you're submitting your write-up or just keeping notes for future challenges, this step adds a great touch of methodology. Let me know when you’re ready to log the next one!
 
 ### 🚩Flag Captured: `h4kit{browser_phish_flag}`
 
