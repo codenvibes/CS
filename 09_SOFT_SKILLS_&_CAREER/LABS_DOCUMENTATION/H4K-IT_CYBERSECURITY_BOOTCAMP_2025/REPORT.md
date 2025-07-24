@@ -765,7 +765,6 @@ def index():
 
 ✅ Visiting `/` shows a welcome message.
 
-
 ```python
 @app.route("/login", methods=["POST"])
 def login():
@@ -776,8 +775,6 @@ def login():
 
 ✅ You’re **supposed** to enter a username and password through a form.  
 If correct (`admin` / `password123`), it redirects you to `/admin`.
-
-
 
 ```python
 @app.route("/admin")
@@ -790,7 +787,7 @@ def admin():
 It **doesn’t check** if the user actually logged in.  
 Anyone can go directly to `http://localhost:5000/admin` and see the admin content.
 
----
+
 
 ## 💥 3. What Is the Flaw?
 
