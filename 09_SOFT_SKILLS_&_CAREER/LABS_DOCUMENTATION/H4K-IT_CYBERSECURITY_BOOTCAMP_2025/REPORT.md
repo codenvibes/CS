@@ -581,6 +581,8 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
+first I SSH into the instabn
+
 ### 🚩Flag Captured: 
 
 ### Lessons Learned
