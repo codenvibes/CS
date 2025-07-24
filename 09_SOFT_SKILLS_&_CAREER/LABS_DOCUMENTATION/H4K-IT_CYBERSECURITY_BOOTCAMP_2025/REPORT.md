@@ -829,6 +829,11 @@ No need to log in.
 
 ### Lessons Learned
 
+1. Authentication isn't just about checking credentials — it's about maintaining state.
+2. Just hiding a page behind a redirect is not security.
+3. Code review is a powerful way to find security issues.
+4. Running and testing code locally is a great way to learn.
+
 
 
 ## Challenge ()
