@@ -508,11 +508,21 @@ Challenge files can be found in /data directory
 
 ### Task
 
-### Category: Web
+The cybersecurity team at Arusha TechLabs discovered irregularities on one of their developer machines. The system suddenly slowed down, and an unknown process appeared in the task manager just before the incident. They've extracted a memory dump and preprocessed it using Volatility's pslist plugin.
+
+Your task is to analyze the output and identify which process may be responsible for the compromise. The flag is hidden in the listing of a suspicious rogue process.
+
+After launching the instance, use the IP and PORT given to ssh into the server using the ctf_user:ctf_user username and password combinations! e.g ssh [ctf_user@68.183.205.254](mailto:ctf_user@68.183.205.254) -p33762
+
+Challenge files can be found in /data directory
+
+### Category: Forensics
 
 ### Tools Used
 
 ### Methodology
+
+
 
 ### 🚩Flag Captured: 
 
