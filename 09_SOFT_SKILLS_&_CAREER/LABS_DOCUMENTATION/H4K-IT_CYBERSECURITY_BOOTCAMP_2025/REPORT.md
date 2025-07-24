@@ -454,7 +454,14 @@ first thing I do is enter the ssh command  ssh ctf_user@68.183.205.254 -p 34742 
 then enter the password ctf_user
 then i get access to the instace because my terminal changes to ctf_user@82ba5cb83fb0:~$
 I cd into /data
-then ls t
+then ls to see the files inside
+
+```shell
+ctf_user@82ba5cb83fb0:/data$ ls
+artifacts
+```
+ I cd into artifacts the ls to ssee
+
 
 
 ### 🚩Flag Captured: 
