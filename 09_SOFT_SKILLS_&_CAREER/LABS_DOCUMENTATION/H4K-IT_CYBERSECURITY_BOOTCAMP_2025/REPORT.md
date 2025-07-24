@@ -1129,7 +1129,6 @@ if not self.refunded:
     ```
     
 3. **Exploit the race condition using threads**
-    
     - Launch two threads that call `order.request_refund()` at the same time:
     
     ```python
@@ -1147,18 +1146,14 @@ if not self.refunded:
     ```
     
 4. **Check the final balance**
-    
     - Print the final balance to see if the refund was issued more than once:
-        
     
     ```python
     print(f"Final balance: ${john.balance}")
     ```
     
 5. **Observe the output**
-    
     - If the exploit worked, the console will show:
-        
     
     ```
     [ORD123] Placed for $100
@@ -1166,20 +1161,6 @@ if not self.refunded:
     [ORD123] Refunded $100
     Final balance: $200
     ```
-    
-6. **Capture the flag**
-    
-    - The vulnerable method responsible for this flaw is:
-        
-        ```
-        h4kit{order.request_refund()}
-        ```
-        
-
----
-
-Let me know if you'd like me to insert this directly into the full write-up or export it!
-
 
 ### 🚩Flag Captured: `h4kit{order.request_refund()}`
 
