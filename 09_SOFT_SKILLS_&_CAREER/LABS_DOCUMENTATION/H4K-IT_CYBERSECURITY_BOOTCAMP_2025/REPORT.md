@@ -790,11 +790,13 @@ Anyone can go directly to `http://localhost:5000/admin` and see the admin conten
 #### What Is the Flaw?
 
 There is **no real login system**. The `/login` route just _redirects_ you — it doesn’t **remember** you’re logged in.  
-There's no:
-- session
-- cookie
-- token
-- user tracking
+
+| Issue                           | Description                                              |
+| ------------------------------- | -------------------------------------------------------- |
+| No session management           | Login does not persist any state using cookies or tokens |
+| No protection on `/admin` route | Anyone can access the admin page                         |
+| Hardcoded credentials           | Credentials are hardcoded in plaintext                   |
+| No input sanitization           | (Not exploited here, but present risk)                   |
 
 So visiting `/admin` directly always works.
 
@@ -822,67 +824,10 @@ You:
 
 ### Methodology
 
-Thanks for sharing the `app.py` file. Based on this code, let’s document our audit findings and identify the security issue that likely explains the internal dashboard exposure.
-
----
-
-## 🛡️ CTF Write-Up: ShopNode
-
-### 📂 Category: PPC
-
-### 🧠 Description:
-
-> ShopNode, a solo dev's online store, is experiencing a security issue where users are reportedly accessing internal admin dashboards. You are tasked with auditing the login and admin logic.
-
----
-
-### 📄 File Analyzed: `app.py` (Flask Web App)
-
-```python
-@app.route("/login", methods=["POST"])
-def login():
-    if request.form.get("username") == "admin" and request.form.get("password") == "password123":
-        return redirect("/admin")
-    return "Invalid credentials"
-
-@app.route("/admin")
-def admin():
-    return "Admin Panel: Orders, Users, Logs"
-```
-
----
-
-### 🔍 Vulnerability Analysis
-
-#### 🔓 **Authentication Bypass – No Session Handling**
-
-The app logic checks credentials in the `/login` route:
-
-```python
-if username == "admin" and password == "password123":
-    return redirect("/admin")
-```
-
-But **there’s no session or login state tracking**. The `/admin` route has **no authentication or protection**:
-
-```python
-@app.route("/admin")
-def admin():
-    return "Admin Panel: Orders, Users, Logs"
-```
-
-➡️ **Anyone can access `/admin` directly** just by visiting the URL, without logging in.
-
----
 
 ### ⚠️ Summary of Issues
 
-|Issue|Description|
-|---|---|
-|No session management|Login does not persist any state using cookies or tokens|
-|No protection on `/admin` route|Anyone can access the admin page|
-|Hardcoded credentials|Credentials are hardcoded in plaintext|
-|No input sanitization|(Not exploited here, but present risk)|
+
 
 ---
 
