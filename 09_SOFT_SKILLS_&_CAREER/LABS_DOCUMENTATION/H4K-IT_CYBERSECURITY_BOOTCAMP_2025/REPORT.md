@@ -1023,7 +1023,7 @@ Download Attachment
 
 ### Exploitation Steps
 
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{order.request_refund()}`
 
 ### Lessons Learned
 
