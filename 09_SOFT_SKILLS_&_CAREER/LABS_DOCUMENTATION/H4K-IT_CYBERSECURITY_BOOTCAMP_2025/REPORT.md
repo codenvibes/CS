@@ -941,17 +941,16 @@ This code suffers from multiple serious security flaws:
     ```bash
 	┌──(mopsy㉿APHP)-[~/H4K-IT]
 	└─$ python3 fake_api.py
-	 * Serving Flask app 'fake_api'
-	 * Debug mode: off
-	WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
-	 * Running on http://127.0.0.1:5000
-	Press CTRL+C to quit
     ```
     
     This starts the app at `http://127.0.0.1:5000`. You should see:
     
     ```
-    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+	 * Serving Flask app 'fake_api'
+	 * Debug mode: off
+	WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+	 * Running on http://127.0.0.1:5000
+	Press CTRL+C to quit
     ```
     
 2. **Login to Obtain a Token**  
