@@ -753,8 +753,115 @@ if __name__ == "__main__":
 
 ### Code Review
 
-You’re given a simple Python app using **Flask**, a popular web framework.
-Here's what each part does:
+#### What Does This Code Do?
+
+This is a simple Python app using **Flask**, a popular web framework. Here's what each part does:
+
+```python
+@app.route("/")
+def index():
+    return "Welcome to our Store"
+```
+
+✅ Visiting `/` shows a welcome message.
+
+
+```python
+@app.route("/login", methods=["POST"])
+def login():
+    if request.form.get("username") == "admin" and request.form.get("password") == "password123":
+        return redirect("/admin")
+    return "Invalid credentials"
+```
+
+✅ You’re **supposed** to enter a username and password through a form.  
+If correct (`admin` / `password123`), it redirects you to `/admin`.
+
+
+
+```python
+@app.route("/admin")
+def admin():
+    return "Admin Panel: Orders, Users, Logs"
+```
+
+⚠️ **This is the vulnerable part.**
+
+It **doesn’t check** if the user actually logged in.  
+Anyone can go directly to `http://localhost:5000/admin` and see the admin content.
+
+---
+
+## 💥 3. What Is the Flaw?
+
+There is **no real login system**. The `/login` route just _redirects_ you — it doesn’t **remember** you’re logged in.  
+There's no:
+
+- session
+    
+- cookie
+    
+- token
+    
+- user tracking
+    
+
+So visiting `/admin` directly always works.
+
+---
+
+## 🏁 4. What Was the Goal?
+
+To recognize this problem and say:
+
+> “Hey, anyone can just open `/admin`. This is a broken authentication system.”
+
+And then use that insight to form the flag:
+
+```
+h4kit{@app.route("/admin")}
+```
+
+This flag format is telling you:
+
+- “The `/admin` route is the problem”
+    
+- “There’s a vulnerability because it was left unprotected”
+    
+
+---
+
+## 💡 5. So What Did You Just Do?
+
+You:
+
+- Ran the Flask app ✅
+    
+- Visited a sensitive page ✅
+    
+- Saw it didn’t ask for a password ✅
+    
+- Identified a real-world security flaw ✅
+    
+
+**That’s exactly what a CTF is about.**
+
+You’re learning to think like a security researcher or ethical hacker.
+
+---
+
+## 🛠️ What's Next?
+
+If you’d like, I can walk you through:
+
+1. How to fix this bug (to learn secure coding)
+    
+2. How session-based login should be done
+    
+3. Another CTF challenge like this one
+    
+
+Just say the word. You're doing great — feeling confused is part of the process, and you're already way ahead by trying!
 
 
 
