@@ -1000,7 +1000,7 @@ This code suffers from multiple serious security flaws:
     Logged out
     ```
 
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{tokens[get_ip()]}`
 
 ### Lessons Learned
 
