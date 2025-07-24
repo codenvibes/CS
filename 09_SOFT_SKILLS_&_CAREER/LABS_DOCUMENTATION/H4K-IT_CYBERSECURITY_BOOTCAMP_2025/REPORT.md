@@ -721,6 +721,7 @@ ShopNode, a small online store run by a solo developer, recently went viral. Wit
 flag format: h4kit{xxxx.xxxxx("/xxxxx")}
 
 Download Attachment
+
 👉 `Greek Gods code.zip`
 
 ```python
@@ -845,6 +846,7 @@ BankLite, a fintech startup offering a mobile-only bank, is under pressure from 
 flag format: h4k-it{xxxxxx[xxx_xx()]}
 
 Download Attachment
+
 👉 `misunderstood code.zip`
 
 ### Category: PPC
