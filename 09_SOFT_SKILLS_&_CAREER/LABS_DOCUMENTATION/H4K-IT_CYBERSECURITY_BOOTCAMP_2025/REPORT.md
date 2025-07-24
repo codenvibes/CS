@@ -657,6 +657,13 @@ Challenge files can be found in /data directory
 1. **SSH into the challenge instance:**
     
     ```bash
+	┌──(mopsy㉿APHP)-[~/H4K-IT]
+	└─$ ssh ctf_user@68.183.205.254 -p 34745
+    ```
+    
+2. **Navigate to the logs directory:**
+    
+    ```bash
 	ctf_user@f57d4ae39800:~$ cd /data/
 	ctf_user@f57d4ae39800:/data$ ls
 	var
@@ -666,22 +673,18 @@ Challenge files can be found in /data directory
 	ctf_user@f57d4ae39800:/data/var$ cd log/
     ```
     
-2. **Navigate to the logs directory:**
-    
-    ```bash
-    cd /data/var/log
-    ```
-    
 3. **List the contents:**
     
     ```bash
-    ls
+	ctf_user@f57d4ae39800:/data/var/log$ ls
+	auth.log
     ```
     
 4. **Identify and search the `auth.log` file:**
     
     ```bash
-    cat auth.log | grep "h4kit"
+	ctf_user@f57d4ae39800:/data/var/log$ cat auth.log | grep "h4kit"
+	Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 # h4kit{ssh_breach_flag_45}
     ```
     
 5. **Flag Found:**
