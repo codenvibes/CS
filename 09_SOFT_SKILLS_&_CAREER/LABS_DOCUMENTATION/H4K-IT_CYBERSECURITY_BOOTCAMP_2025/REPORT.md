@@ -482,35 +482,6 @@ Challenge files can be found in /data directory
     
     ```bash
 	ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
-	...
-	2023-07-12 10:51:29 | VISIT | http://malicious-update.win/launch?ver=2.0 # h4kit{browser_phish_flag}
-	2023-07-12 10:43:53 | VISIT | https://facebook.com
-	2023-07-12 10:43:54 | VISIT | https://news.example.com
-	2023-07-12 10:43:55 | VISIT | https://google.com
-	2023-07-12 10:44:56 | VISIT | https://youtube.com
-	2023-07-12 10:44:57 | VISIT | https://github.com
-	2023-07-12 10:44:58 | VISIT | https://banksecure-login.com
-	2023-07-12 10:44:59 | VISIT | https://webmail.outlook.com
-	2023-07-12 10:45:00 | VISIT | https://facebook.com
-	2023-07-12 10:45:01 | VISIT | https://news.example.com
-	2023-07-12 10:45:02 | VISIT | https://google.com
-	2023-07-12 10:45:03 | VISIT | https://youtube.com
-	2023-07-12 10:46:04 | VISIT | https://github.com
-	2023-07-12 10:46:05 | VISIT | https://banksecure-login.com
-	2023-07-12 10:46:06 | VISIT | https://webmail.outlook.com
-	2023-07-12 10:46:07 | VISIT | https://facebook.com
-	2023-07-12 10:47:08 | VISIT | https://news.example.com
-	2023-07-12 10:47:09 | VISIT | https://google.com
-	2023-07-12 10:47:10 | VISIT | https://youtube.com
-	2023-07-12 10:47:11 | VISIT | https://github.com
-	2023-07-12 10:48:12 | VISIT | https://banksecure-login.com
-	2023-07-12 10:48:13 | VISIT | https://webmail.outlook.com
-	2023-07-12 10:48:14 | VISIT | https://facebook.com
-	2023-07-12 10:48:15 | VISIT | https://news.example.com
-	2023-07-12 10:49:16 | VISIT | https://google.com
-	2023-07-12 10:49:17 | VISIT | https://youtube.com
-	2023-07-12 10:49:18 | VISIT | https://github.com
-	2023-07-12 10:49:19 | VISIT | https://banksecure-login.com
     ```
     
 4. **Paste log into Obsidian** for better readability and pattern scanning.
