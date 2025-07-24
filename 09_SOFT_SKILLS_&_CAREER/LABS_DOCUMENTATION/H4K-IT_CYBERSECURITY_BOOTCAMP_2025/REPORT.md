@@ -1164,8 +1164,6 @@ if not self.refunded:
 
 ### 🚩Flag Captured: `h4kit{order.request_refund()}`
 
-### Lessons Learned
-
 
 
 ## Challenge ()
