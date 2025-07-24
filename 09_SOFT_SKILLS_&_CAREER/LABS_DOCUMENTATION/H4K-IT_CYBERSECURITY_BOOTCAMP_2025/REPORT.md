@@ -579,9 +579,72 @@ Challenge files can be found in /data directory
 
 ### Tools Used
 
+- SSH
+- `grep`
+- `cat`
+
 ### Methodology
 
+1. **SSH into the instance**
+    
+    ```bash
+┌──(mopsy㉿APHP)-[~]
+└─$ ssh ctf_user@68.183.205.254 -p 34744
+    # Password: ctf_user
+    ```
+    
+2. **Navigate to the data directory**
+    
+    ```bash
+    cd /data
+    ls
+    # Output: headers
+    ```
+    
+3. **Inspect the email headers**
+    
+    ```bash
+    cd headers
+    ls
+    # Output: email_headers.eml
+    ```
+    
+4. **Attempted to read the file with `cat`, but it was too large to manually scroll.**  
+    So instead used:
+    
+    ```bash
+    cat email_headers.eml | grep h4kit
+    ```
+    
+5. **Discovered the flag:**
+    
+    ```text
+    Reply-To: support@amazn-support.io # h4kit{phish_flag_easy}
+    ```
+    
 
+---
+
+### 🎯 Flag
+
+```
+h4kit{phish_flag_easy}
+```
+
+---
+
+### 🧠 Takeaways
+
+- Grepping for the CTF flag format (`h4kit{`) is a quick and smart way to scan large data dumps.
+    
+- Reply-To headers are a common red flag in phishing, especially when spoofing known brands.
+    
+- Even in Forensics challenges, command-line efficiency (e.g., using `grep`) is key.
+    
+
+---
+
+Want to save this in Markdown, PDF, or something else?
 ### 🚩Flag Captured: 
 
 ### Lessons Learned
