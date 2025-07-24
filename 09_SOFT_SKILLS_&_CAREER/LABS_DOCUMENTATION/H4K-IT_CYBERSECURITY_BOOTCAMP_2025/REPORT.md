@@ -542,14 +542,15 @@ Challenge files can be found in /data directory
 	ctf_user@ad10e9efd522:/data/mem$ ls
 	volatility_pslist.txt
 	```
+	
 3. Inspect the pslist Output
-
-```bash
-cat volatility_pslist.txt
-```
-
+	
+	```bash
+	cat volatility_pslist.txt
+	```
+	![[Pasted image 20250724170751.png]]
+	
 - Manually scrolled through the output.
-    
 - Found a long list of standard-looking `svchost.exe` processes.
     
 - One suspicious entry stands out:
