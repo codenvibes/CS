@@ -435,9 +435,14 @@ curl "http://68.183.205.254:34715/preview?file=flag.txt"
 
 
 
-## Challenge ()
+## Browser Trail (200 pts)
 
 ### Task
+An intern at SynergySoft reported that their browser auto-redirected to a suspicious download site. You have been provided with an exported browser history file from their user profile. Your goal is to examine the visit logs and identify which site likely hosted the malicious file. The attacker left a trace, and your job is to uncover it.
+
+After launching the instance, use the IP and PORT given to ssh into the server using the ctf_user:ctf_user username and password combinations! e.g ssh [ctf_user@68.183.205.254](mailto:ctf_user@68.183.205.254) -p33762
+
+Challenge files can be found in /data directory
 
 ### Category: Web
 
