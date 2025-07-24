@@ -470,9 +470,10 @@ Challenge files can be found in /data directory
 2. **Navigate to challenge directory:**
     
     ```bash
-    cd /data/artifacts
-    ls
-    # Output: browser_history.txt
+	ctf_user@82ba5cb83fb0:~$ cd /data
+	ctf_user@82ba5cb83fb0:/data$ ls
+	artifacts
+	
     ```
     
 3. **Print contents of the history file:**
