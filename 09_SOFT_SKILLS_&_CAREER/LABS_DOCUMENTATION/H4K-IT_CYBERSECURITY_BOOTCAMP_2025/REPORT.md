@@ -523,3 +523,5 @@ Challenge files can be found in /data directory
 ![[Pasted image 20250724083436.png]]
 ![[Pasted image 20250724083611.png]]
 ![[Pasted image 20250724083630.png]]
+![[Pasted image 20250724083658.png]]
+![[Pasted image 20250724083821.png]]
