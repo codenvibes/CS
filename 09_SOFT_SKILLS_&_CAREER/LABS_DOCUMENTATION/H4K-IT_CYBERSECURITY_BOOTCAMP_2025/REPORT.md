@@ -935,6 +935,85 @@ This code suffers from multiple serious security flaws:
 
 ### Methodology
 
+Got it — here’s your step-by-step write-up in a numbered list format, starting from running the script:
+
+---
+
+### ✅ Exploitation Steps for `fake_api.py`
+
+1. **Start the Flask Server**  
+    Run the Python script to launch the vulnerable backend:
+    
+    ```bash
+    python fake_api.py
+    ```
+    
+    This starts the app at `http://127.0.0.1:5000`. You should see:
+    
+    ```
+    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+    ```
+    
+2. **Login to Obtain a Token**  
+    Submit valid credentials using `curl` with a POST request:
+    
+    ```bash
+    curl -X POST http://127.0.0.1:5000/login -d "username=admin" -d "password=supersecret"
+    ```
+    
+    If successful, you’ll get a response like:
+    
+    ```json
+    {"token":"token_1721750512"}
+    ```
+    
+3. **Access the Profile Using the Token**  
+    Copy the token from the previous step and use it in the `Authorization` header:
+    
+    ```bash
+    curl http://127.0.0.1:5000/profile -H "Authorization: token_1721750512"
+    ```
+    
+    Expected output:
+    
+    ```json
+    {"user": "admin", "email": "admin@example.com"}
+    ```
+    
+4. **Logout to Invalidate the Token**  
+    Simply visit the `/logout` endpoint:
+    
+    ```bash
+    curl http://127.0.0.1:5000/logout
+    ```
+    
+    Output:
+    
+    ```
+    Logged out
+    ```
+    
+5. **Troubleshooting "Not Found" Errors**  
+    If you see this:
+    
+    ```
+    Not Found
+    The requested URL was not found on the server.
+    ```
+    
+    Then check the following:
+    
+    - You used the correct endpoint (`/login`, `/profile`, `/logout`)
+        
+    - `/login` was accessed via **POST**, not GET
+        
+    - The server is running at `http://127.0.0.1:5000`
+        
+
+---
+
+Let me know if you'd like to proceed with step 6: writing the token brute-force script.
+
 ### 🚩Flag Captured: ``
 
 ### Lessons Learned
