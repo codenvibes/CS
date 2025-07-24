@@ -974,7 +974,6 @@ This code suffers from multiple serious security flaws:
     ```bash
 	┌──(mopsy㉿APHP)-[~]
 	└─$ curl http://127.0.0.1:5000/profile -H "Authorization: token_1753375750"
-	{"email":"admin@example.com","user":"admin"}
     ```
     
     Output:
@@ -987,7 +986,8 @@ This code suffers from multiple serious security flaws:
     Simply visit the `/logout` endpoint:
     
     ```bash
-    curl http://127.0.0.1:5000/logout
+	┌──(mopsy㉿APHP)-[~]
+	└─$ curl http://127.0.0.1:5000/logout
     ```
     
     Output:
@@ -995,27 +995,6 @@ This code suffers from multiple serious security flaws:
     ```
     Logged out
     ```
-    
-5. **Troubleshooting "Not Found" Errors**  
-    If you see this:
-    
-    ```
-    Not Found
-    The requested URL was not found on the server.
-    ```
-    
-    Then check the following:
-    
-    - You used the correct endpoint (`/login`, `/profile`, `/logout`)
-        
-    - `/login` was accessed via **POST**, not GET
-        
-    - The server is running at `http://127.0.0.1:5000`
-        
-
----
-
-Let me know if you'd like to proceed with step 6: writing the token brute-force script.
 
 ### 🚩Flag Captured: ``
 
