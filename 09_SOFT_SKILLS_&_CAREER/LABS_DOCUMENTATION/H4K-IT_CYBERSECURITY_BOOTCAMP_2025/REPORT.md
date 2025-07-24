@@ -1101,17 +1101,18 @@ The flaw lies in the **lack of atomicity and synchronization** in the refund log
     Use this command:
     
     ```bash
-    python3 exploit.py
+	┌──(mopsy㉿APHP)-[~/H4K-IT]
+	└─$ python3 ecommerce_refund.py
     ```
     
 2. **Observe the output**  
     You should see:
     
     ```
-    [ORD123] Placed for $100
-    [ORD123] Refunded $100
-    [ORD123] Already refunded
-    Final balance: $200
+	[ORD123] Placed for $100
+	[ORD123] Refunded $100
+	[ORD123] Already refunded
+	Final balance: $100
     ```
     
     Despite the "Already refunded" message, the balance increases by **$200**, proving that **two refunds were issued** for the same order.
