@@ -802,21 +802,6 @@ So visiting `/admin` directly always works.
 
 > “anyone can just open `/admin`. This is a broken authentication system.”
 
-
-## 💡 5. So What Did You Just Do?
-
-You:
-
-- Ran the Flask app ✅
-    
-- Visited a sensitive page ✅
-    
-- Saw it didn’t ask for a password ✅
-    
-- Identified a real-world security flaw ✅
-
-
-
 ### Tools Used
 
 ### Methodology
@@ -825,9 +810,10 @@ You:
 	![[Pasted image 20250724184529.png]]
     
 2. Visit a sensitive page:
+	Saw it didn’t ask for a password
     ![[Pasted image 20250724184634.png]]
     
-3. Access granted to:
+4. Access granted to:
     
     ```
     Admin Panel: Orders, Users, Logs
