@@ -623,19 +623,12 @@ Challenge files can be found in /data directory
     h4kit{phish_flag_easy}
     ```
 
-### 🧠 Takeaways
 
-- Grepping for the CTF flag format (`h4kit{`) is a quick and smart way to scan large data dumps.
-- Reply-To headers are a common red flag in phishing, especially when spoofing known brands.
-- Even in Forensics challenges, command-line efficiency (e.g., using `grep`) is key.
-    
-
----
-
-Want to save this in Markdown, PDF, or something else?
 ### 🚩Flag Captured:  `h4kit{phish_flag_easy}`
 
 ### Lessons Learned
+
+- Grepping for the CTF flag format (`h4kit{`) is a quick and smart way to scan large data dumps. 
 
 
 
