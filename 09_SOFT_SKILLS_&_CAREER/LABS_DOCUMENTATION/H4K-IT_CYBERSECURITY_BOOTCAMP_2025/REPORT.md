@@ -935,6 +935,7 @@ This code suffers from multiple serious security flaws:
 
 - **Python 3**     
 - **Flask**
+- **curl**
 
 ### Methodology
 
