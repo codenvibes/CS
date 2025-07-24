@@ -634,7 +634,7 @@ Challenge files can be found in /data directory
 
 
 
-## SSH Credential Breach (200 pts)
+## ✅ SSH Credential Breach (200 pts)
 
 ### Task
 
