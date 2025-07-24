@@ -712,7 +712,7 @@ Challenge files can be found in /data directory
 
 
 
-## Greek Gods (100 pts)
+## ✅ Greek Gods (100 pts)
 
 ### Task
 
@@ -825,7 +825,7 @@ So visiting `/admin` directly always works.
 
 No need to log in.
 
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{@app.route("/admin")}`
 
 ### Lessons Learned
 
