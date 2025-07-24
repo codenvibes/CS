@@ -957,20 +957,24 @@ This code suffers from multiple serious security flaws:
     Submit valid credentials using `curl` with a POST request:
     
     ```bash
-    curl -X POST http://127.0.0.1:5000/login -d "username=admin" -d "password=supersecret"
+	┌──(mopsy㉿APHP)-[~]
+	└─$ curl -X POST http://127.0.0.1:5000/login -d "username=admin" -d "password=supersecret"
+	{"token":"token_1753375750"}
     ```
     
     If successful, you’ll get a response like:
     
     ```json
-    {"token":"token_1721750512"}
+	{"token":"token_1753375750"}
     ```
     
 3. **Access the Profile Using the Token**  
     Copy the token from the previous step and use it in the `Authorization` header:
     
     ```bash
-    curl http://127.0.0.1:5000/profile -H "Authorization: token_1721750512"
+	┌──(mopsy㉿APHP)-[~]
+	└─$ curl http://127.0.0.1:5000/profile -H "Authorization: token_1753375750"
+	{"email":"admin@example.com","user":"admin"}
     ```
     
     Expected output:
