@@ -444,7 +444,7 @@ After launching the instance, use the IP and PORT given to ssh into the server u
 
 Challenge files can be found in /data directory
 
-### Category: Web
+### Category: Forensics
 
 ### Tools Used
 
