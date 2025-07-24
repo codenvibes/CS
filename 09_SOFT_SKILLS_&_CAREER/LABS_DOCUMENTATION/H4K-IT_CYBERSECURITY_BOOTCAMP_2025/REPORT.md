@@ -803,9 +803,6 @@ So visiting `/admin` directly always works.
 > “anyone can just open `/admin`. This is a broken authentication system.”
 
 
-
----
-
 ## 💡 5. So What Did You Just Do?
 
 You:
@@ -824,26 +821,13 @@ You:
 
 ### Methodology
 
-
-### ⚠️ Summary of Issues
-
-
-
----
-
-### ✅ Exploitation Steps
-
 1. Run the server locally:
     
-    ```bash
-    python3 app.py
-    ```
+	![[Pasted image 20250724184350.png]]
     
-2. Visit:
+2. Visit a sensitive page:
     
-    ```
-    http://localhost:5000/admin
-    ```
+	
     
 3. 🎉 Access granted to:
     
