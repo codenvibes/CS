@@ -581,7 +581,15 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-first I SSH into the instabn
+first I SSH into the instance with ssh ctf_user@68.183.205.254 -p 34744
+
+then enter the password
+get access to instance 
+ctf_user@3788127125d9:~$
+cd into /data then ls 
+
+
+
 
 ### 🚩Flag Captured: 
 
