@@ -552,36 +552,14 @@ Challenge files can be found in /data directory
 	
 - Manually scrolled through the output.
 - Found a long list of standard-looking `svchost.exe` processes.
-    
 - One suspicious entry stands out:
-    
+	
+	```plaintext
+	0x1fa1 badproc.exe 6666 7777 2023-07-15 10:44:44 UTC+0000 # h4kit{memdump_easy_flag}
+	```
 
-```plaintext
-0x1fa1 badproc.exe 6666 7777 2023-07-15 10:44:44 UTC+0000 # h4kit{memdump_easy_flag}
-```
+### 🚩Flag Captured: `h4kit{memdump_easy_flag}`
 
----
-
-## 🚩 Flag
-
-```
-h4kit{memdump_easy_flag}
-```
-
----
-
-## ✅ Conclusion
-
-The rogue process (`badproc.exe`) with unusual PID `6666` and PPID `7777` was easily distinguishable in an otherwise normal sequence of `svchost.exe` entries. The flag was embedded directly in the comment on its line in the `pslist` output.
-
----
-
-Let me know if you want to save this as a Markdown file, export it, or keep logging more challenges the same way!
-
-
-### 🚩Flag Captured: 
-
-### Lessons Learned
 
 
 
