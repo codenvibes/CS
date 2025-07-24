@@ -512,3 +512,5 @@ Challenge files can be found in /data directory
 
 
 when doing freelance work in my case marketing and branding people have a process to follow after closing a client from onboarding to I don't knoe what the others are and there are documents and tool like the ones I will list below
+
+1. welcome doc 
