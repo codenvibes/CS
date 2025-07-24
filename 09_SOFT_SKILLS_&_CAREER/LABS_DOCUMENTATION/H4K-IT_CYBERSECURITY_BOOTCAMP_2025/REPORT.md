@@ -935,17 +935,17 @@ This code suffers from multiple serious security flaws:
 
 ### Methodology
 
-Got it — here’s your step-by-step write-up in a numbered list format, starting from running the script:
-
----
-
-### ✅ Exploitation Steps for `fake_api.py`
-
 1. **Start the Flask Server**  
     Run the Python script to launch the vulnerable backend:
     
     ```bash
-    python fake_api.py
+	┌──(mopsy㉿APHP)-[~/H4K-IT]
+	└─$ python3 fake_api.py
+	 * Serving Flask app 'fake_api'
+	 * Debug mode: off
+	WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+	 * Running on http://127.0.0.1:5000
+	Press CTRL+C to quit
     ```
     
     This starts the app at `http://127.0.0.1:5000`. You should see:
