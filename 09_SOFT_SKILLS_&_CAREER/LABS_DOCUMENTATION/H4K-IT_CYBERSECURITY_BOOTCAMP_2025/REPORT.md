@@ -460,8 +460,16 @@ then ls to see the files inside
 ctf_user@82ba5cb83fb0:/data$ ls
 artifacts
 ```
- I cd into artifacts the ls to ssee
+ I cd into artifacts the ls to see what's inside it
+```
+ctf_user@82ba5cb83fb0:/data/artifacts$ ls
+browser_history.txt
+```
+I print ou t text in the browser_history.txt file with cat
 
+```
+
+```
 
 
 ### 🚩Flag Captured: 
