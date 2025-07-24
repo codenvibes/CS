@@ -683,44 +683,21 @@ Challenge files can be found in /data directory
     ```
     Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 # h4kit{ssh_breach_flag_45}
     ```
-    
 
----
+### 🚩Flag Captured: ``
 
-### 🧠 Analysis
+###  Analysis
 
 - The attacker accessed the server on **October 16th at 17:17:39** using the **admin account**.
 - The IP address used was: `203.0.113.45`
 - The method was via **password-based authentication**, suggesting either brute-force or password reuse.
 - The log confirms unauthorized access, and the comment reveals the flag.
 
----
-
-### 🎯 Flag
-
-```
-h4kit{ssh_breach_flag_45}
-```
-
----
-
-### ✅ Lessons Learned
+### Lessons Learned
 
 - Password-based SSH access remains a major vector for attacks, especially if credentials are reused or weak.
-    
 - Timestamped logs are crucial for forensic analysis.
-    
 - Filtering with `grep` and focusing on context (e.g., date and user) is an efficient log analysis strategy.
-    
-
----
-
-Let me know if you want this exported to Markdown or PDF — or if you're ready to move to the next challenge!
-
-
-### 🚩Flag Captured: ``
-
-### Lessons Learned
 
 
 
