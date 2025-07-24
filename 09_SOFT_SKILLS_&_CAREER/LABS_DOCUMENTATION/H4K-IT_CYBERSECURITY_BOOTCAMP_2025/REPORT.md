@@ -43,7 +43,7 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Web browser (Chrome)
 - Developer Tools (View Page Source)
 
-### Methodology
+### Exploitation Steps
 
 1. **Initial Access: Visited login page** at `http://68.183.205.254:34658/login`
 	![[Pasted image 20250723081134.png]]
@@ -93,7 +93,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 - Gobuster
 - SecLists wordlist (`common.txt`)
 
-### Methodology
+### Exploitation Steps
 
 1. Visited the login page `http://68.183.205.254:34664/login`
 	- Found standard login form.
@@ -176,7 +176,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 - Web browser (Chrome)
 - Developer Tools / View Page Source
 
-### Methodology
+### Exploitation Steps
 
 1. Visited the login page `http://68.183.205.254:34684/login`
 	- Found standard login form.
@@ -233,7 +233,7 @@ You’ve been called in to investigate whether this endpoint can be misused. Can
 
 - Web browser (Chrome)
 
-### Methodology
+### Exploitation Steps
 
 1. Visiting the provided instance: `http://68.183.205.254:34689/`
 	A basic landing page was presented with a link:  
@@ -286,7 +286,7 @@ Investigate how the tokens are generated. Can you predict a token for another us
 - Python (hashlib — used but ultimately not effective)
 - Developer Tools (for headers and response timing)
 
-### Methodology
+### Exploitation Steps
 
 1. Visiting the provided instance: `http://68.183.205.254:34689/`
 	A basic login page was presented `http://68.183.205.254:34696/login` with a login form but first let's create an account.
@@ -382,7 +382,7 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 - FFUF – for file fuzzing
 - curl – for fetching file content
 
-### Methodology
+### Exploitation Steps
 
 1. Visited the root page: `http://68.183.205.254:34715/`
 	HTML revealed a basic welcome page with a link to `/upload`.
@@ -452,7 +452,7 @@ Challenge files can be found in /data directory
 - Linux CLI (`cat`, `ls`, `cd`)
 - Obsidian (for log visualization)
 
-### Methodology
+### Exploitation Steps
 
 1. **SSH into challenge instance:**
     
@@ -523,7 +523,7 @@ Challenge files can be found in /data directory
 - `ssh`
 - Basic shell commands (`cd`, `ls`, `cat`)
 
-### Methodology
+### Exploitation Steps
 
 1. Access the Challenge Server
 	
@@ -583,7 +583,7 @@ Challenge files can be found in /data directory
 - `grep`
 - `cat`
 
-### Methodology
+### Exploitation Steps
 
 1. **SSH into the instance**
     
@@ -652,7 +652,7 @@ Challenge files can be found in /data directory
 - `grep` (for log file filtering)
 - `cat` / shell navigation
 
-### Methodology
+### Exploitation Steps
 
 1. **SSH into the challenge instance:**
     
@@ -809,7 +809,7 @@ So visiting `/admin` directly always works.
 - Flask	
 - Chrome Web Browser
 
-### Methodology
+### Exploitation Steps
 
 1. Run the server locally:
 	![[Pasted image 20250724184529.png]]
@@ -937,7 +937,7 @@ This code suffers from multiple serious security flaws:
 - **Flask**
 - **curl**
 
-### Methodology
+### Exploitation Steps
 
 1. **Start the Flask Server**  
     Run the Python script to launch the vulnerable backend:
@@ -1014,7 +1014,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1030,7 +1030,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1046,7 +1046,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1062,7 +1062,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1078,7 +1078,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1094,7 +1094,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
@@ -1110,7 +1110,7 @@ This code suffers from multiple serious security flaws:
 
 ### Tools Used
 
-### Methodology
+### Exploitation Steps
 
 ### 🚩Flag Captured: ``
 
