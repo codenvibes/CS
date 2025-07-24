@@ -454,7 +454,47 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-1. SSH into challenge instance:
+1. **SSH into challenge instance:**
+    
+    ```bash
+    ssh ctf_user@68.183.205.254 -p 34742
+    # Password: ctf_user
+    ```
+    
+    ✅ Access confirmed:
+    
+    ```
+    ctf_user@82ba5cb83fb0:~$
+    ```
+    
+2. **Navigate to challenge directory:**
+    
+    ```bash
+    cd /data/artifacts
+    ls
+    # Output: browser_history.txt
+    ```
+    
+3. **Print contents of the history file:**
+    
+    ```bash
+    cat browser_history.txt
+    ```
+    
+4. **Paste log into Obsidian** for better readability and pattern scanning.
+    
+5. **Manually review timeline** and spot a suspicious entry:
+    
+    ```
+    2023-07-12 10:51:29 | VISIT | http://malicious-update.win/launch?ver=2.0 # h4kit{browser_phish_flag}
+    ```
+    
+
+🏁 **Flag Identified:** `h4kit{browser_phish_flag}`
+
+---
+
+If you're submitting your write-up or just keeping notes for future challenges, this step adds a great touch of methodology. Let me know when you’re ready to log the next one!
 
 ### 🚩Flag Captured: `h4kit{browser_phish_flag}`
 
