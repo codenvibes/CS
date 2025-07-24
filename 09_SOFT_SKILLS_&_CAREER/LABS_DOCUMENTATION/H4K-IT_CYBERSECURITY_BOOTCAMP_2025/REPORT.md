@@ -657,7 +657,13 @@ Challenge files can be found in /data directory
 1. **SSH into the challenge instance:**
     
     ```bash
-    ssh ctf_user@68.183.205.254 -p 34745
+	ctf_user@f57d4ae39800:~$ cd /data/
+	ctf_user@f57d4ae39800:/data$ ls
+	var
+	ctf_user@f57d4ae39800:/data$ cd var/
+	ctf_user@f57d4ae39800:/data/var$ la
+	log
+	ctf_user@f57d4ae39800:/data/var$ cd log/
     ```
     
 2. **Navigate to the logs directory:**
