@@ -1018,7 +1018,51 @@ Download Attachment
 👉 `pennies code.zip`
 
 ```python
+# ecommerce_refund.py
 
+import time
+
+class Order:
+    def __init__(self, order_id, user, amount):
+        self.order_id = order_id
+        self.user = user
+        self.amount = amount
+        self.refunded = False
+
+    def request_refund(self):
+        if not self.refunded:
+            self.refunded = True
+            self.user.balance += self.amount
+            print(f"[{self.order_id}] Refunded ${self.amount}")
+        else:
+            print(f"[{self.order_id}] Already refunded")
+
+class User:
+    def __init__(self, username):
+        self.username = username
+        self.orders = []
+        self.balance = 0
+
+    def place_order(self, order_id, amount):
+        order = Order(order_id, self, amount)
+        self.orders.append(order)
+        print(f"[{order_id}] Placed for ${amount}")
+        return order
+
+    def duplicate_refund(self, order_id):
+        for order in self.orders:
+            if order.order_id == order_id:
+                order.request_refund()
+                order.request_refund()  # logic flaw here
+                break
+
+# Simulate
+john = User("john")
+o1 = john.place_order("ORD123", 100)
+time.sleep(0.2)
+john.duplicate_refund("ORD123")
+
+print(f"Final balance: ${john.balance}")
 ```
 
 ### Category: PPC
