@@ -1083,16 +1083,6 @@ This Python code simulates a simplified e-commerce refund system:
         - Sets `refunded = True`
         - Adds the `amount` back to the user’s balance
     - Otherwise, it prints that the order has already been refunded.
-        
-- **Simulation:**
-    
-    ```python
-    john = User("john")
-    o1 = john.place_order("ORD123", 100)
-    john.duplicate_refund("ORD123")
-    ```
-    
-    The method `duplicate_refund()` calls `request_refund()` **twice in a row** on the same order.
 
 ### #### What Is the Flaw?
 
