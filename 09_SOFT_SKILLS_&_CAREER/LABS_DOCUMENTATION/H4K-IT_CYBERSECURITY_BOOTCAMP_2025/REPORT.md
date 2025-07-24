@@ -1017,34 +1017,27 @@ Download Attachment
 
 👉 `pennies code.zip`
 
+```python
+
+```
+
 ### Category: PPC
 
 ### Code Audit
-
-Absolutely. Here's the **code audit write-up** formatted under the requested titles:
-
----
 
 ### #### What Does This Code Do?
 
 This Python code simulates a simplified e-commerce refund system:
 
 - **Classes:**
-    
     - `Order`: Represents a customer order with an `order_id`, `amount`, `refunded` status, and a `request_refund()` method.
-        
     - `User`: Represents a user with a balance and list of `orders`. Can `place_order()` and call `duplicate_refund()`.
-        
-- **Refund Logic:**
     
+- **Refund Logic:**
     - When `request_refund()` is called, it checks if the order has **not been refunded**.
-        
     - If `refunded == False`, it:
-        
         - Sets `refunded = True`
-            
         - Adds the `amount` back to the user’s balance
-            
     - Otherwise, it prints that the order has already been refunded.
         
 - **Simulation:**
@@ -1056,9 +1049,6 @@ This Python code simulates a simplified e-commerce refund system:
     ```
     
     The method `duplicate_refund()` calls `request_refund()` **twice in a row** on the same order.
-    
-
----
 
 ### #### What Is the Flaw?
 
