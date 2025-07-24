@@ -520,6 +520,9 @@ Challenge files can be found in /data directory
 
 ### Tools Used
 
+- `ssh`
+- Basic shell commands (`cd`, `ls`, `cat`)
+
 ### Methodology
 
 
