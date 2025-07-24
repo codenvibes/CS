@@ -672,7 +672,7 @@ ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
 ctf_user@82ba5cb83fb0:/data/artifacts$
 ```
 
-i pasted the oup
+i pasted the ouput on obdisian for a better view and then spotted the flag
 
 ### 🚩Flag Captured: 
 
