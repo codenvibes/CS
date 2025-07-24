@@ -815,32 +815,111 @@ You:
 - Saw it didn’t ask for a password ✅
     
 - Identified a real-world security flaw ✅
-    
-
-**That’s exactly what a CTF is about.**
-
-You’re learning to think like a security researcher or ethical hacker.
-
----
-
-## 🛠️ What's Next?
-
-If you’d like, I can walk you through:
-
-1. How to fix this bug (to learn secure coding)
-    
-2. How session-based login should be done
-    
-3. Another CTF challenge like this one
-    
-
-Just say the word. You're doing great — feeling confused is part of the process, and you're already way ahead by trying!
 
 
 
 ### Tools Used
 
 ### Methodology
+
+Thanks for sharing the `app.py` file. Based on this code, let’s document our audit findings and identify the security issue that likely explains the internal dashboard exposure.
+
+---
+
+## 🛡️ CTF Write-Up: ShopNode
+
+### 📂 Category: PPC
+
+### 🧠 Description:
+
+> ShopNode, a solo dev's online store, is experiencing a security issue where users are reportedly accessing internal admin dashboards. You are tasked with auditing the login and admin logic.
+
+---
+
+### 📄 File Analyzed: `app.py` (Flask Web App)
+
+```python
+@app.route("/login", methods=["POST"])
+def login():
+    if request.form.get("username") == "admin" and request.form.get("password") == "password123":
+        return redirect("/admin")
+    return "Invalid credentials"
+
+@app.route("/admin")
+def admin():
+    return "Admin Panel: Orders, Users, Logs"
+```
+
+---
+
+### 🔍 Vulnerability Analysis
+
+#### 🔓 **Authentication Bypass – No Session Handling**
+
+The app logic checks credentials in the `/login` route:
+
+```python
+if username == "admin" and password == "password123":
+    return redirect("/admin")
+```
+
+But **there’s no session or login state tracking**. The `/admin` route has **no authentication or protection**:
+
+```python
+@app.route("/admin")
+def admin():
+    return "Admin Panel: Orders, Users, Logs"
+```
+
+➡️ **Anyone can access `/admin` directly** just by visiting the URL, without logging in.
+
+---
+
+### ⚠️ Summary of Issues
+
+|Issue|Description|
+|---|---|
+|No session management|Login does not persist any state using cookies or tokens|
+|No protection on `/admin` route|Anyone can access the admin page|
+|Hardcoded credentials|Credentials are hardcoded in plaintext|
+|No input sanitization|(Not exploited here, but present risk)|
+
+---
+
+### ✅ Exploitation Steps
+
+1. Run the server locally:
+    
+    ```bash
+    python3 app.py
+    ```
+    
+2. Visit:
+    
+    ```
+    http://localhost:5000/admin
+    ```
+    
+3. 🎉 Access granted to:
+    
+    ```
+    Admin Panel: Orders, Users, Logs
+    ```
+    
+
+No need to log in.
+
+---
+
+### 🏁 Flag Extraction
+
+Based on the format `h4kit{xxxx.xxxxx("/xxxxx")}`, and the exposed route being `/admin`, the flag is likely:
+
+```
+h4kit{shopnode.broken_auth("/admin")}
+```
+
+✅ Let me know if that was accepted or if there's more code to review (e.g., additional files in the zip). Otherwise, I’ll finalize this as a complete write-up.
 
 ### 🚩Flag Captured: ``
 
