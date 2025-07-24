@@ -454,31 +454,15 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-first thing I do is enter the ssh command  ssh ctf_user@68.183.205.254 -p 34742 into my terminal 
-then enter the password ctf_user
-then i get access to the instace because my terminal changes to ctf_user@82ba5cb83fb0:~$
-I cd into /data
-then ls to see the files inside
-
-```shell
-ctf_user@82ba5cb83fb0:/data$ ls
-artifacts
-```
- I cd into artifacts the ls to see what's inside it
-```
-ctf_user@82ba5cb83fb0:/data/artifacts$ ls
-browser_history.txt
-```
-I print ou t text in the browser_history.txt file with cat
-
-```
-
-```
-
+1. SSH into challenge instance:
 
 ### 🚩Flag Captured: `h4kit{browser_phish_flag}`
 
 ### Lessons Learned
+
+- Log inspection can be made easier with external visualization tools like Obsidian.
+- Outlier analysis is key when dealing with large, repetitive datasets.
+- Not all suspicious-looking entries are relevant — context matters.
 
 
 
