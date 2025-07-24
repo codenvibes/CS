@@ -525,7 +525,61 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
+1. Access the Challenge Server
+	
+	```bash
+	ssh ctf_user@68.183.205.254 -p 34743
+	# Password: ctf_user
+	```
+	
+2. Navigate to the Challenge Files
+	
+	```bash
+	cd /data
+	ls
+	# Output:
+	# mem
+	
+	cd mem
+	ls
+	# Output:
+	# volatility_pslist.txt
+	```
 
+### 3. Inspect the pslist Output
+
+```bash
+cat volatility_pslist.txt
+```
+
+- Manually scrolled through the output.
+    
+- Found a long list of standard-looking `svchost.exe` processes.
+    
+- One suspicious entry stands out:
+    
+
+```plaintext
+0x1fa1 badproc.exe 6666 7777 2023-07-15 10:44:44 UTC+0000 # h4kit{memdump_easy_flag}
+```
+
+---
+
+## 🚩 Flag
+
+```
+h4kit{memdump_easy_flag}
+```
+
+---
+
+## ✅ Conclusion
+
+The rogue process (`badproc.exe`) with unusual PID `6666` and PPID `7777` was easily distinguishable in an otherwise normal sequence of `svchost.exe` entries. The flag was embedded directly in the comment on its line in the `pslist` output.
+
+---
+
+Let me know if you want to save this as a Markdown file, export it, or keep logging more challenges the same way!
 
 
 ### 🚩Flag Captured: 
