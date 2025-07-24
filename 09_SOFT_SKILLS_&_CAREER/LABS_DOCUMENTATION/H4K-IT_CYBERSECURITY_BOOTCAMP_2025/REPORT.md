@@ -450,6 +450,8 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
+first thing I do is enter the ssh command into my terminal 
+
 ### 🚩Flag Captured: 
 
 ### Lessons Learned
