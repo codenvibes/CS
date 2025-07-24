@@ -609,8 +609,10 @@ Challenge files can be found in /data directory
 	email_headers.eml
     ```
     
-4. **Attempted to read the file with `cat`, but it was too large to manually scroll.**  
-    So instead used:
+4. **Attempted to read the file with `cat`, but it was too large to manually scroll.** 
+	![[Pasted image 20250724172817.png]]
+	
+    So instead I used:
     
     ```bash
 	ctf_user@3788127125d9:/data/headers$ cat email_headers.eml | grep "h4kit"
