@@ -634,9 +634,15 @@ Challenge files can be found in /data directory
 
 
 
-## Challenge ()
+## SSH Credential Breach (200 pts)
 
 ### Task
+
+A Tanzanian fintech startup noticed that one of its admin accounts initiated remote data pull requests from a dev server outside business hours. Your task is to analyze the SSH logs and find signs of brute-force or credential reuse. The incident occurred on October 16th, late in the evening. Dig through /var/log/auth.log to reconstruct what happened and identify when unauthorized access was granted.
+
+After launching the instance, use the IP and PORT given to ssh into the server using the ctf_user:ctf_user username and password combinations! e.g ssh [ctf_user@68.183.205.254](mailto:ctf_user@68.183.205.254) -p33762
+
+Challenge files can be found in /data directory
 
 ### Category: Web
 
