@@ -822,12 +822,10 @@ You:
 ### Methodology
 
 1. Run the server locally:
-    
-	![[Pasted image 20250724184350.png]]
+	![[Pasted image 20250724184529.png]]
     
 2. Visit a sensitive page:
-    
-	
+    ![[Pasted image 20250724184440.png]]
     
 3. 🎉 Access granted to:
     
