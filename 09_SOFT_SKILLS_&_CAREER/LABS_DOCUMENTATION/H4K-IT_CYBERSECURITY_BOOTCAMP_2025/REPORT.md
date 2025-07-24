@@ -804,6 +804,10 @@ So visiting `/admin` directly always works.
 
 ### Tools Used
 
+Python 3	To run the Flask web server locally (python3 app.py)
+🔥 Flask	The Python web framework used in the provided code
+🌐 Web Browser
+
 ### Methodology
 
 1. Run the server locally:
