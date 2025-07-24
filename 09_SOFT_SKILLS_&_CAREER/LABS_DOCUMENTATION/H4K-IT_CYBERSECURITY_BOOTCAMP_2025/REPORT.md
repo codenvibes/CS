@@ -414,13 +414,13 @@ You're part of a security audit. Can you craft an upload that causes unintended 
 
 7. Retrieved the Flag
 	
-```bash
+	```bash
 curl "http://68.183.205.254:34715/preview?file=flag.txt"
 ```
 	
-Output:
+	Output:
 	
-```html
+	```html
 <pre>h4kit{insecure_pipeline_exec_4212f73ceac2}</pre>
 ```
 
