@@ -1005,11 +1005,11 @@ This code suffers from multiple serious security flaws:
 
 
 
-## Challenge ()
+## ✅ Pennies (300 pts)
 
 ### Task
 
-### Category: 
+### Category: PPC
 
 ### Tools Used
 
