@@ -849,6 +849,47 @@ Download Attachment
 
 👉 `misunderstood code.zip`
 
+```python
+# fake_api.py
+
+from flask import Flask, request, jsonify
+import time
+
+app = Flask(__name__)
+tokens = {}
+
+def get_ip():
+    return request.remote_addr
+
+@app.route("/login", methods=["POST"])
+def login():
+    username = request.form.get("username")
+    password = request.form.get("password")
+
+    if username == "admin" and password == "supersecret":
+        tokens[get_ip()] = f"token_{int(time.time())}"
+        return jsonify({"token": tokens[get_ip()]})
+    return "Invalid"
+
+@app.route("/profile")
+def profile():
+    token = request.headers.get("Authorization")
+    if token in tokens.values():
+        return jsonify({"user": "admin", "email": "admin@example.com"})
+    return "Unauthorized"
+
+@app.route("/logout")
+def logout():
+    ip = get_ip()
+    if ip in tokens:
+        del tokens[ip]
+    return "Logged out"
+
+if __name__ == "__main__":
+    app.run()
+
+```
+
 ### Category: PPC
 
 ### Code Audit
