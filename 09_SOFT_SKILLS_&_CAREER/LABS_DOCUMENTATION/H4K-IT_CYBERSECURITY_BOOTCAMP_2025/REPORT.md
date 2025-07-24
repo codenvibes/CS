@@ -654,6 +654,22 @@ Challenge files can be found in /data directory
 
 ### Lessons Learned
 
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
 ---
 
 # Challenge Summary
