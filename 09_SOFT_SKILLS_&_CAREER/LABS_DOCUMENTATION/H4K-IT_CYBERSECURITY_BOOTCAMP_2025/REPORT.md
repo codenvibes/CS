@@ -588,8 +588,16 @@ get access to instance
 ctf_user@3788127125d9:~$
 cd into /data then ls 
 
-
-
+```
+ctf_user@3788127125d9:/data$ ls
+headers
+```
+cd into headers then ls
+```
+ctf_user@3788127125d9:/data/headers$ ls
+email_headers.eml
+```
+cat email_headers.eml and 
 
 ### 🚩Flag Captured: 
 
