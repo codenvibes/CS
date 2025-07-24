@@ -798,26 +798,9 @@ There's no:
 
 So visiting `/admin` directly always works.
 
----
+> “anyone can just open `/admin`. This is a broken authentication system.”
 
-## 🏁 4. What Was the Goal?
 
-To recognize this problem and say:
-
-> “Hey, anyone can just open `/admin`. This is a broken authentication system.”
-
-And then use that insight to form the flag:
-
-```
-h4kit{@app.route("/admin")}
-```
-
-This flag format is telling you:
-
-- “The `/admin` route is the problem”
-    
-- “There’s a vulnerability because it was left unprotected”
-    
 
 ---
 
