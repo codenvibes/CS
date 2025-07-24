@@ -484,6 +484,7 @@ Challenge files can be found in /data directory
 	ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
     ```
     
+    
 4. **Paste log into Obsidian** for better readability and pattern scanning.
     
 5. **Manually review timeline** and spot a suspicious entry:
