@@ -1166,9 +1166,17 @@ if not self.refunded:
 
 
 
-## Challenge ()
+## The Royalties (200 pts)
 
 ### Task
+
+PointMaster, a loyalty platform used by cafes and local vendors, awards users 100 points per purchase. Users can redeem 80 points for free items. Lately, some users have managed to redeem multiple rewards despite making just a single purchase. The developers suspect race conditions may be the culprit. Your role is to simulate and analyze the loyalty system's logic to identify how these users are getting away with extra redemptions.
+
+flag format:{xxxx.xxxxxx}
+
+Download Attachment
+
+👉 `The royalties code.zip`
 
 ### Category: 
 
