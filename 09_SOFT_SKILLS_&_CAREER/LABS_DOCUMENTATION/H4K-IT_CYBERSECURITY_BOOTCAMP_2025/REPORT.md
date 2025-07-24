@@ -721,7 +721,7 @@ ShopNode, a small online store run by a solo developer, recently went viral. Wit
 flag format: h4kit{xxxx.xxxxx("/xxxxx")}
 
 Download Attachment
-👉 Greek Gods code.zip
+👉 `Greek Gods code.zip`
 
 ```python
 # app.py
@@ -839,6 +839,13 @@ No need to log in.
 ## ✅ Misunderstood (200 pts)
 
 ### Task
+
+BankLite, a fintech startup offering a mobile-only bank, is under pressure from investors after researchers flagged potential brute-force and session hijack risks. You’ve been asked to audit their minimalistic backend. What makes this challenge realistic is that their microservice-based app is designed for speed and simplicity—security seems to have been an afterthought. Can you spot the misconfiguration that makes it easy for an attacker to abuse the login and token system?
+
+flag format: h4k-it{xxxxxx[xxx_xx()]}
+
+Download Attachment
+👉 `misunderstood code.zip`
 
 ### Category: PPC
 
