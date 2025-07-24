@@ -483,7 +483,7 @@ Challenge files can be found in /data directory
     ```bash
 	ctf_user@82ba5cb83fb0:/data/artifacts$ cat browser_history.txt
     ```
-    
+    ![[Pasted image 20250724163646.png]]
     
 4. **Paste log into Obsidian** for better readability and pattern scanning.
     
