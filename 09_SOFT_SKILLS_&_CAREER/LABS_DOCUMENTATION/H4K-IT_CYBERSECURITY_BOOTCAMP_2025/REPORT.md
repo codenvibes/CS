@@ -528,25 +528,21 @@ Challenge files can be found in /data directory
 1. Access the Challenge Server
 	
 	```bash
-	ssh ctf_user@68.183.205.254 -p 34743
-	# Password: ctf_user
+	┌──(mopsy㉿APHP)-[~]
+	└─$ ssh ctf_user@68.183.205.254 -p 34743
 	```
 	
 2. Navigate to the Challenge Files
 	
 	```bash
-	cd /data
-	ls
-	# Output:
-	# mem
-	
-	cd mem
-	ls
-	# Output:
-	# volatility_pslist.txt
+	ctf_user@ad10e9efd522:~$ cd /data
+	ctf_user@ad10e9efd522:/data$ ls
+	mem
+	ctf_user@ad10e9efd522:/data$ cd mem/
+	ctf_user@ad10e9efd522:/data/mem$ ls
+	volatility_pslist.txt
 	```
-
-### 3. Inspect the pslist Output
+3. Inspect the pslist Output
 
 ```bash
 cat volatility_pslist.txt
