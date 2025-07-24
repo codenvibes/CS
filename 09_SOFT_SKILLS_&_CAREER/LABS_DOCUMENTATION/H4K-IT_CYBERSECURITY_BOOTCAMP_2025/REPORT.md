@@ -588,32 +588,33 @@ Challenge files can be found in /data directory
 1. **SSH into the instance**
     
     ```bash
-┌──(mopsy㉿APHP)-[~]
-└─$ ssh ctf_user@68.183.205.254 -p 34744
+	┌──(mopsy㉿APHP)-[~]
+	└─$ ssh ctf_user@68.183.205.254 -p 34744
     # Password: ctf_user
     ```
     
 2. **Navigate to the data directory**
     
     ```bash
-    cd /data
-    ls
-    # Output: headers
+	ctf_user@3788127125d9:~$ cd /data/
+	ctf_user@3788127125d9:/data$ ls
+	headers
     ```
     
 3. **Inspect the email headers**
     
     ```bash
-    cd headers
-    ls
-    # Output: email_headers.eml
+	ctf_user@3788127125d9:/data$ cd headers/
+	ctf_user@3788127125d9:/data/headers$ ls
+	email_headers.eml
     ```
     
 4. **Attempted to read the file with `cat`, but it was too large to manually scroll.**  
     So instead used:
     
     ```bash
-    cat email_headers.eml | grep h4kit
+ctf_user@3788127125d9:/data/headers$ cat email_headers.eml | grep "h4kit"
+Reply-To: support@amazn-support.io # h4kit{phish_flag_easy}
     ```
     
 5. **Discovered the flag:**
