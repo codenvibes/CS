@@ -650,7 +650,8 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-first ssh into thfe instance with 
+
+
 
 ### 🚩Flag Captured: ``
 
