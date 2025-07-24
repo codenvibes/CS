@@ -1002,7 +1002,6 @@ This code suffers from multiple serious security flaws:
 
 ### 🚩Flag Captured: `h4kit{tokens[get_ip()]}`
 
-### Lessons Learned
 
 
 
