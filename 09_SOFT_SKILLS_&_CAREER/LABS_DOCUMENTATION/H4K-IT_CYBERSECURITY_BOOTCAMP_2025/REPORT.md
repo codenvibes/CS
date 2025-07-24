@@ -911,6 +911,26 @@ Here's how each endpoint behaves:
 
 #### What Is the Flaw?
 
+This code suffers from multiple serious security flaws:
+
+1. **Predictable Token Generation**  
+    The token is generated using the exact current time (`int(time.time())`), which makes it guessable if an attacker knows or estimates when a login occurred. Since it's just `token_<timestamp>`, an attacker can brute-force nearby values.
+    
+2. **No Token-User Association**  
+    Tokens are stored and validated globally without being tied to a specific user. Any valid token will authorize access to the admin account, regardless of who is making the request.
+    
+3. **IP-Based Token Storage**  
+    Using `request.remote_addr` as the key to store sessions is highly insecure. IP addresses can be:
+    - Spoofed (especially in internal or misconfigured networks),
+    - Shared (behind NAT or proxies),
+    - Unreliable for identifying unique users.
+    
+4. **Lack of Authentication Boundaries**  
+    The `/logout` endpoint allows any request from a matching IP to log out a session, without verifying ownership or token authenticity.
+    
+5. **No Rate Limiting or Brute-Force Protection**  
+    There’s nothing preventing an attacker from making rapid, repeated guesses for tokens, usernames, or passwords.
+
 ### Tools Used
 
 ### Methodology
