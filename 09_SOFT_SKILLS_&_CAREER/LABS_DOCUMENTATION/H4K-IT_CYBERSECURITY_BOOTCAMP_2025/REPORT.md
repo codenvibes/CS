@@ -977,10 +977,10 @@ This code suffers from multiple serious security flaws:
 	{"email":"admin@example.com","user":"admin"}
     ```
     
-    Expected output:
+    Output:
     
     ```json
-    {"user": "admin", "email": "admin@example.com"}
+	{"email":"admin@example.com","user":"admin"}
     ```
     
 4. **Logout to Invalidate the Token**  
