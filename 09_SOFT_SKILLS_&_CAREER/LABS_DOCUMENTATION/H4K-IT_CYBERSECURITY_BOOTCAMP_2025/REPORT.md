@@ -597,7 +597,7 @@ cd into headers then ls
 ctf_user@3788127125d9:/data/headers$ ls
 email_headers.eml
 ```
-cat email_headers.eml and 
+cat email_headers.eml and see that it is too long and crampy to scroll through manually so I use grep
 
 ### 🚩Flag Captured: 
 
