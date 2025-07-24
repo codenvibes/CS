@@ -504,7 +504,7 @@ Challenge files can be found in /data directory
 
 
 
-## Memory Leak (100 pts)
+## ✅ Memory Leak (100 pts)
 
 ### Task
 
