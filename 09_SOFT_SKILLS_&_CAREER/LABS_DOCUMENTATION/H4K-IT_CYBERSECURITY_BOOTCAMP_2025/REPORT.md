@@ -1009,6 +1009,14 @@ This code suffers from multiple serious security flaws:
 
 ### Task
 
+QuickCart, a mobile-first e-commerce app for flash sales, introduced a "one-tap refund" feature to improve customer satisfaction. Unfortunately, fraudsters are exploiting the feature to issue multiple refunds per order. The dev team believes their refunded = True flag is enough protection, but the abuse persists. You’ve been brought in as a security auditor to review their logic and identify the business flaw allowing repeated refunds.
+
+flag format:{xxxxx.xxxxxxx_xxxxxx()}
+
+Download Attachment
+
+👉 `pennies code.zip`
+
 ### Category: PPC
 
 ### Tools Used
