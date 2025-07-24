@@ -25,7 +25,7 @@ This report documents my approach, methodologies, tools used, and key takeaways 
 
 ---
 
-# Detailed Walkthrough
+# Detailed Walkthroughs
 
 ## ✅ AI Solutions Portal Profile Peek (100 pts)
 
