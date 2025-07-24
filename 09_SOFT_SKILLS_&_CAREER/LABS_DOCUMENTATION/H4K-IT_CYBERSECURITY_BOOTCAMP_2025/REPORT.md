@@ -1021,11 +1021,53 @@ Download Attachment
 
 ### Code Audit
 
-#### What Does This Code Do?
+Absolutely. Here's the **code audit write-up** formatted under the requested titles:
 
+---
 
+### #### What Does This Code Do?
 
-#### What Is the Flaw?
+This Python code simulates a simplified e-commerce refund system:
+
+- **Classes:**
+    
+    - `Order`: Represents a customer order with an `order_id`, `amount`, `refunded` status, and a `request_refund()` method.
+        
+    - `User`: Represents a user with a balance and list of `orders`. Can `place_order()` and call `duplicate_refund()`.
+        
+- **Refund Logic:**
+    
+    - When `request_refund()` is called, it checks if the order has **not been refunded**.
+        
+    - If `refunded == False`, it:
+        
+        - Sets `refunded = True`
+            
+        - Adds the `amount` back to the user’s balance
+            
+    - Otherwise, it prints that the order has already been refunded.
+        
+- **Simulation:**
+    
+    ```python
+    john = User("john")
+    o1 = john.place_order("ORD123", 100)
+    john.duplicate_refund("ORD123")
+    ```
+    
+    The method `duplicate_refund()` calls `request_refund()` **twice in a row** on the same order.
+    
+
+---
+
+### #### What Is the Flaw?
+
+The flaw lies in the **lack of atomicity and synchronization** in the refund logic:
+
+- The `refunded` flag is **checked** and then **set** inside `request_refund()`.
+- But the flag is only updated **after** the refund is already being processed.
+- If the function is called **twice in quick succession**, both calls can pass the `if not self.refunded:` check **before** the flag is updated.
+- This results in **multiple refunds** being issued for a single order, even though `refunded = True` was intended to prevent it.
 
 ### Tools Used
 
