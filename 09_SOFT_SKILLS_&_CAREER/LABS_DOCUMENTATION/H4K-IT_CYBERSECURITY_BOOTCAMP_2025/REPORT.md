@@ -825,28 +825,15 @@ You:
 	![[Pasted image 20250724184529.png]]
     
 2. Visit a sensitive page:
-    ![[Pasted image 20250724184440.png]]
+    ![[Pasted image 20250724184634.png]]
     
-3. 🎉 Access granted to:
+3. Access granted to:
     
     ```
     Admin Panel: Orders, Users, Logs
     ```
-    
 
 No need to log in.
-
----
-
-### 🏁 Flag Extraction
-
-Based on the format `h4kit{xxxx.xxxxx("/xxxxx")}`, and the exposed route being `/admin`, the flag is likely:
-
-```
-h4kit{shopnode.broken_auth("/admin")}
-```
-
-✅ Let me know if that was accepted or if there's more code to review (e.g., additional files in the zip). Otherwise, I’ll finalize this as a complete write-up.
 
 ### 🚩Flag Captured: ``
 
