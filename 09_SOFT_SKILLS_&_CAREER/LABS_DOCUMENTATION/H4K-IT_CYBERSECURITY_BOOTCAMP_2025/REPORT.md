@@ -448,6 +448,10 @@ Challenge files can be found in /data directory
 
 ### Tools Used
 
+- SSH
+- Linux CLI (`cat`, `ls`, `cd`)
+- Obsidian (for log visualization)
+
 ### Methodology
 
 first thing I do is enter the ssh command  ssh ctf_user@68.183.205.254 -p 34742 into my terminal 
@@ -472,7 +476,7 @@ I print ou t text in the browser_history.txt file with cat
 ```
 
 
-### 🚩Flag Captured: 
+### 🚩Flag Captured: `h4kit{browser_phish_flag}`
 
 ### Lessons Learned
 
