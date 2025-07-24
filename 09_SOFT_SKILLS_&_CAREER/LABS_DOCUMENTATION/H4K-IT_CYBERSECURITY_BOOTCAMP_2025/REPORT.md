@@ -787,21 +787,14 @@ def admin():
 It **doesn’t check** if the user actually logged in.  
 Anyone can go directly to `http://localhost:5000/admin` and see the admin content.
 
-
-
-## 💥 3. What Is the Flaw?
+#### What Is the Flaw?
 
 There is **no real login system**. The `/login` route just _redirects_ you — it doesn’t **remember** you’re logged in.  
 There's no:
-
 - session
-    
 - cookie
-    
 - token
-    
 - user tracking
-    
 
 So visiting `/admin` directly always works.
 
