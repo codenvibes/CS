@@ -453,6 +453,8 @@ Challenge files can be found in /data directory
 first thing I do is enter the ssh command  ssh ctf_user@68.183.205.254 -p 34742 into my terminal 
 then enter the password ctf_user
 then i get access to the instace because my terminal changes to ctf_user@82ba5cb83fb0:~$
+I cd into /data
+then ls t
 
 
 ### 🚩Flag Captured: 
