@@ -563,7 +563,7 @@ Challenge files can be found in /data directory
 
 
 
-## PhishCheck (100 pts)
+## ✅ PhishCheck (100 pts)
 
 ### Task
 
