@@ -650,7 +650,9 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-### 🚩Flag Captured: 
+first ssh into thfe instance with 
+
+### 🚩Flag Captured: ``
 
 ### Lessons Learned
 
@@ -669,6 +671,137 @@ Challenge files can be found in /data directory
 ### 🚩Flag Captured: ``
 
 ### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
+## Challenge ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Methodology
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
 
 ---
 
