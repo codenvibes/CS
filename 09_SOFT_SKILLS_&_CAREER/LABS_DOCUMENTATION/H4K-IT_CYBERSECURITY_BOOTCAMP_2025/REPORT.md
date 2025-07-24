@@ -684,16 +684,18 @@ Challenge files can be found in /data directory
     
     ```bash
 	ctf_user@f57d4ae39800:/data/var/log$ cat auth.log | grep "h4kit"
-	Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 # h4kit{ssh_breach_flag_45}
+	Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 
+	# h4kit{ssh_breach_flag_45}
     ```
     
 5. **Flag Found:**
     
     ```
-    Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 # h4kit{ssh_breach_flag_45}
+    Oct 16 17:17:39 localhost sshd[12399]: Accepted password for admin from 203.0.113.45 port 51523 ssh2 
+    # h4kit{ssh_breach_flag_45}
     ```
 
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{ssh_breach_flag_45}`
 
 ###  Analysis
 
