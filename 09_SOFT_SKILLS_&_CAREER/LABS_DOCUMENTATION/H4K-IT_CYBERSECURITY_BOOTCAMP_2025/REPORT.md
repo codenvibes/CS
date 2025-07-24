@@ -563,9 +563,17 @@ Challenge files can be found in /data directory
 
 
 
-## Challenge ()
+## PhishCheck (100 pts)
 
 ### Task
+
+A regional bank received several suspicious emails pretending to be from Amazon Billing, urging users to click on refund links. As a cybersecurity analyst, you're provided with a captured .eml header dump of 200+ email attempts for offline review.
+
+The IT team suspects these emails are spoofed and used custom reply-to addresses to bypass detection. Your job is to identify the malicious email among the list based on SPF/DKIM/DMARC failures and extract the flag hidden in the most suspicious header.
+
+After launching the instance, use the IP and PORT given to ssh into the server using the ctf_user:ctf_user username and password combinations! e.g ssh [ctf_user@68.183.205.254](mailto:ctf_user@68.183.205.254) -p33762
+
+Challenge files can be found in /data directory
 
 ### Category: Web
 
