@@ -522,22 +522,6 @@ Challenge files can be found in /data directory
 
 ### Methodology
 
-so first I ssh into the instance with 
-
-──(mopsy㉿APHP)-[~]
-└─$ ssh ctf_user@68.183.205.254 -p 34743
-
-next i enter the password 
-I access the instance 
-I cd into data then ls
-
-ctf_user@ad10e9efd522:/data$ ls
-mem
-
-thne cd into mem and ls
-ctf_user@ad10e9efd522:/data/mem$ ls
-volatility_pslist.txt
-
 
 
 
