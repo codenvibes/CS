@@ -435,7 +435,7 @@ curl "http://68.183.205.254:34715/preview?file=flag.txt"
 
 
 
-## Browser Trail (200 pts)
+## ✅Browser Trail (200 pts)
 
 ### Task
 An intern at SynergySoft reported that their browser auto-redirected to a suspicious download site. You have been provided with an exported browser history file from their user profile. Your goal is to examine the visit logs and identify which site likely hosted the malicious file. The attacker left a trace, and your job is to uncover it.
@@ -504,7 +504,7 @@ Challenge files can be found in /data directory
 
 
 
-## Challenge ()
+## Memory Leak (100 pts)
 
 ### Task
 
