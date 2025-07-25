@@ -1532,7 +1532,7 @@ print(f"Bob: ${bank.accounts['bob'].balance}")
 
 ### Exploitation Steps
 
-the flag is h4kit{self.discount_applied, apply_discount}
+the flag is h4kit{sender.withdraw(amount), receiver.deposit(amount)}
 
 generate the Code Audit section and use the following subsections #### What Does This Code Do? and #### What Is the Flaw?
 
