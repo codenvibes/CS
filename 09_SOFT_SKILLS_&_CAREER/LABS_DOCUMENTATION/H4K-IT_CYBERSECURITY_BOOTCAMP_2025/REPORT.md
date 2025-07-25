@@ -1550,10 +1550,11 @@ The core functionality of `bank_transfer.py` is to simulate a simple peer-to-pee
 
 Here is the **critical section** of the vulnerable code:
 
-```
-python
-
-`def transfer(self, sender_name, receiver_name, amount):     ...     if sender.withdraw(amount):         receiver.deposit(amount)`
+```python
+def transfer(self, sender_name, receiver_name, amount):
+    ...
+    if sender.withdraw(amount):
+        receiver.deposit(amount)
 ```
 
 This system suffers from a classic **race condition** due to the lack of concurrency control when accessing and modifying shared resources (`Account.balance`).
