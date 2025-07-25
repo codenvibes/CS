@@ -1243,8 +1243,6 @@ This Python script simulates a loyalty points system for a user named `john`. Us
     - One thread calls `simulate_purchase()` after a delay.
     - Two threads simultaneously attempt to redeem 80 points each using `simulate_redeem()`.
 
-The goal is to emulate a real-world scenario where multiple redemptions may occur concurrently after a purchase.
-
 #### What Is the Flaw?
 
 ### Tools Used
