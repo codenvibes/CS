@@ -1794,8 +1794,6 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### 🚩Flag Captured: `h4kit{root_login_still_alive_98afb5c58968}`
 
-### Lessons Learned
-
 
 
 ## Challenge ()
