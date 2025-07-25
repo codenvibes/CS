@@ -84,6 +84,9 @@ Explore the form. Is there a way to to see if the app is exploitable?
 - Never trust client-side input; always validate access server-side.
 - IDOR vulnerabilities are often exploitable using sequential IDs.
 - Viewing page source is essential when hunting for hidden content.
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ CorpDocs (200 pts)
@@ -168,6 +171,9 @@ Finished
     
 - **Backend route protection is essential.**  
     Access control logic must be enforced on the server, not just in the client.
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ DevPortal Ownership Override (200 pts)
@@ -226,6 +232,9 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 - IDOR vulnerabilities occur when access control is not enforced server-side.
 - Even non-visible HTML elements (e.g., `<small>` inside `<footer>`) may contain sensitive data.
 - Parameter tampering remains a common and dangerous flaw in web applications.
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ PDFVault Internal Peeker (200 pts)
@@ -274,6 +283,9 @@ http://169.254.169.254/latest/meta-data/
 	Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
 
 ### 🚩Flag Captured: `h4kit{ssrf_approved_metadata_149a4b9a7a89}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -369,6 +381,9 @@ Investigate how the tokens are generated. Can you predict a token for another us
 - Predictable token generation can compromise account recovery systems.
 - Time-based tokens should include randomness and be securely signed or hashed.
 - Endpoint-level access control is crucial — even valid tokens should be tied to the requesting user, not just the username.
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
