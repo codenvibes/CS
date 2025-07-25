@@ -1655,7 +1655,7 @@ print(f"Bob: ${bank.accounts['bob'].balance}")
 
 ### Code Audit
 
-### #### What Does This Code Do?
+### What Does This Code Do?
 
 The core functionality of `bank_transfer.py` is to simulate a simple peer-to-peer money transfer system between users in a digital banking environment.
 
@@ -1673,7 +1673,7 @@ The core functionality of `bank_transfer.py` is to simulate a simple peer-to-pee
     4. If successful, calls `receiver.deposit(amount)`.
 - `simulate_race_transfer()` creates two concurrent threads that execute the same transfer logic at the same time.
 
-### #### What Is the Flaw?
+### What Is the Flaw?
 
 Here is the **critical section** of the vulnerable code:
 
