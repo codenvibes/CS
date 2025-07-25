@@ -1280,7 +1280,6 @@ This is a classic example of a **race condition**, where concurrent access to sh
 6. This results in **two redemptions** with only **one purchase**, and potentially leaves the user with negative points.
     
 7. The script continues and prints the final state, where:
-    
     - `Redeemed item` is printed twice.
     - Final points may be negative.
 
@@ -1292,9 +1291,7 @@ This is a classic example of a **race condition**, where concurrent access to sh
     ```
     
 9. **Observe the output**:
-    
     - You should see two successful `Redeemed item` messages even though only 100 points were added.
-        
     - Example:
         
         ```
@@ -1304,25 +1301,16 @@ This is a classic example of a **race condition**, where concurrent access to sh
         [john] +100 points
         Final points: -60
         ```
-        
+    
 10. **Understand the cause**:
-    
     - Due to the race condition in `redeem()`, both threads check the condition `self.points >= cost` before either subtracts the 80 points, allowing **both redemptions to succeed**.
-        
 11. **Confirm exploitation success**:
-    
     - The program allows **2 redemptions (80 pts each)** after only a **single 100-point purchase**.
     - This violates the system logic and mimics how users in the real system could abuse the flaw.
     
 12. **Retrieve the flag**:
-    
     - The script prints the flag directly:  
         **`h4kit{self.points}`**
-        
-
----
-
-Let me know if you want the full report bundled or exported in a specific format (PDF, Markdown, etc.).
 
 ### 🚩Flag Captured: `h4kit{self.points}`
 
