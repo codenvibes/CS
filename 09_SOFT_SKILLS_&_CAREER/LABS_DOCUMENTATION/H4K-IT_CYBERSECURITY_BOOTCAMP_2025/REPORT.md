@@ -1789,7 +1789,7 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	```bash
 	┌──(mopsy㉿APHP)-[~/H4K-IT]
 	└─$ nmap -Pn 68.183.205.254 -p 34788
-```
+	```
 	
 	**Output:**
 	
