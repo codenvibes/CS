@@ -1299,7 +1299,7 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 
 
-## Challenge ()
+## The puppetior ()
 
 ### Task
 
