@@ -1444,11 +1444,9 @@ Output:
 
 ### 🚩Flag Captured: `h4kit{self.discount_applied, apply_discount}`
 
-### Lessons Learned
 
 
-
-## Challenge ()
+## ✅ Challenge ()
 
 ### Task
 
