@@ -1501,6 +1501,20 @@ Output:
 
 
 
+## The puppetior 2 (50 pts)
+
+### Task
+
+what is the name of the vulnerability?
+
+flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
+
+### Category: PPC
+
+### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+
+
 ## ✅ Transfer Us (200 pts)
 
 ### Task
