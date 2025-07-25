@@ -1526,17 +1526,62 @@ print(f"Bob: ${bank.accounts['bob'].balance}")
 
 ### Category: PPC
 
+### Code Audit
+
+### #### What Does This Code Do?
+
+The core functionality of `bank_transfer.py` is to simulate a simple peer-to-peer money transfer system between users in a digital banking environment.
+
+- `Account` class defines:
+    
+    - `balance` tracking
+        
+    - `deposit()` to add funds
+        
+    - `withdraw()` to subtract funds (with balance check)
+        
+- `BankSystem` class:
+    
+    - Holds all `Account` instances in a dictionary
+        
+    - Handles transfers using the `transfer()` method
+        
+- The `transfer()` method:
+    
+    1. Retrieves the sender and receiver accounts.
+        
+    2. Waits `0.5` seconds to simulate a delay.
+        
+    3. Calls `sender.withdraw(amount)`.
+        
+    4. If successful, calls `receiver.deposit(amount)`.
+        
+- `simulate_race_transfer()` creates two concurrent threads that execute the same transfer logic at the same time.
+    
+
+---
+
+### #### What Is the Flaw?
+
+This system suffers from a classic **race condition** due to the lack of concurrency control when accessing and modifying shared resources (`Account.balance`).
+
+- No `threading.Lock` or synchronization mechanism is in place.
+    
+- Both threads check `sender.balance >= amount` simultaneously before any deduction happens.
+    
+- As a result, both threads believe there's enough balance and proceed to withdraw $100.
+    
+- **Actual bug**: Two separate transfers of $100 succeed even though only $100 was available initially.
+    
+
+This violates fundamental financial logic, allowing users to **double-spend** their funds within milliseconds — a critical flaw in any banking system.
+
 ### Tools Used
 
 - Python3
 
 ### Exploitation Steps
 
-the flag is h4kit{sender.withdraw(amount), receiver.deposit(amount)}
-
-generate the Code Audit section and use the following subsections #### What Does This Code Do? and #### What Is the Flaw?
-
-then generate the exploitation steps to simulate the flaw in the code
 
 ### 🚩Flag Captured: ``
 
@@ -1553,6 +1598,13 @@ then generate the exploitation steps to simulate the flaw in the code
 ### Tools Used
 
 ### Exploitation Steps
+
+the flag is h4kit{sender.withdraw(amount), receiver.deposit(amount)}
+
+generate the Code Audit section and use the following subsections #### What Does This Code Do? and #### What Is the Flaw?
+
+then generate the exploitation steps to simulate the flaw in the code
+
 
 ### 🚩Flag Captured: ``
 
