@@ -1796,37 +1796,6 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 
 
-## Challenge ()
-
-### Task
-
-### Category: 
-
-### Tools Used
-
-### Exploitation Steps
-
-### 🚩Flag Captured: ``
-
-### Lessons Learned
-
-
-
-## Challenge ()
-
-### Task
-
-### Category: 
-
-### Tools Used
-
-### Exploitation Steps
-
-### 🚩Flag Captured: ``
-
-### Lessons Learned
-
-
 
 
 ---
