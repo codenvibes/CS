@@ -1720,11 +1720,12 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### Exploitation Steps
 
-the flag is h4kit{sender.withdraw(amount), receiver.deposit(amount)}
+┌──(mopsy㉿APHP)-[~/H4K-IT]
+└─$ ssh root@68.183.205.254 -p 34788
 
-generate the Code Audit section and use the following subsections #### What Does This Code Do? and #### What Is the Flaw?
+the pass is root too. I have access!
 
-then generate the exploitation steps to simulate the flaw in the code
+
 
 
 ### 🚩Flag Captured: ``
