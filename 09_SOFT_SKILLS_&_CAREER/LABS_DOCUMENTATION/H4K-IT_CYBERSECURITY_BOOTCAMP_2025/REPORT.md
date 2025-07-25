@@ -1806,7 +1806,10 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 
 
----
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+
 
 # Challenge Summary
 
@@ -1832,7 +1835,10 @@ Tools used included `Gobuster`, `FFUF`, `curl`, `Nmap`, browser DevTools, Python
 
 This CTF tested not only my technical skills but also sharpened my **methodical thinking**, **persistence**, and **real-world attack simulation** mindset.
 
----
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+
 # Conclusion
 
 Participating in the H4K-IT Bootcamp CTF was both an intellectually rigorous and highly rewarding experience. It offered a real-world playground to test theories, sharpen exploitation techniques, and debug flawed systems under pressure.
