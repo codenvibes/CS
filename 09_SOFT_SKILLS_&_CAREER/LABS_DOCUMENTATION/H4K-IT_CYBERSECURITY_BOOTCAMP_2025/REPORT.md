@@ -1232,6 +1232,12 @@ if __name__ == "__main__":
 
 ### Category: PPC
 
+### Code Audit
+
+#### What Does This Code Do?
+
+#### What Is the Flaw?
+
 ### Tools Used
 
 ### Exploitation Steps
