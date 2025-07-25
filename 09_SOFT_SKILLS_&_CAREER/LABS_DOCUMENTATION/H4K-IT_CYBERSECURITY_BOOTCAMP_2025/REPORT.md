@@ -1267,22 +1267,6 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 ### Exploitation Steps
 
-1. **Initialize user `john`** with 0 points.
-    
-2. **Start a thread** to simulate a purchase (`add_points(100)`) with a slight delay.
-    
-3. **Immediately launch two threads** that both attempt to redeem 80 points concurrently.
-    
-4. Since the purchase thread is slightly delayed, the redemption threads may execute after the points are added.
-    
-5. **Both threads may observe `points >= 80` before either subtracts the cost**, allowing both to redeem a reward.
-    
-6. This results in **two redemptions** with only **one purchase**, and potentially leaves the user with negative points.
-    
-7. The script continues and prints the final state, where:
-    - `Redeemed item` is printed twice.
-    - Final points may be negative.
-
 
 8. **Run the script** using Python 3:
     
@@ -1307,10 +1291,6 @@ This is a classic example of a **race condition**, where concurrent access to sh
 11. **Confirm exploitation success**:
     - The program allows **2 redemptions (80 pts each)** after only a **single 100-point purchase**.
     - This violates the system logic and mimics how users in the real system could abuse the flaw.
-    
-12. **Retrieve the flag**:
-    - The script prints the flag directly:  
-        **`h4kit{self.points}`**
 
 ### 🚩Flag Captured: `h4kit{self.points}`
 
