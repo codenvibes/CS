@@ -1340,6 +1340,20 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 
 
+## Pennies 2 (50 pts)
+
+### Task
+
+what is the name of the vulnerability?
+
+flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
+
+### Category: PPC
+
+### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+
+
 ## ✅ The puppetior (100 pts)
 
 ### Task
