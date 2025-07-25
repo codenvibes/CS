@@ -1166,7 +1166,7 @@ if not self.refunded:
 
 
 
-## The Royalties (200 pts)
+## ✅ The Royalties (200 pts)
 
 ### Task
 
