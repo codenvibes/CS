@@ -3,7 +3,7 @@
 
 ![[Pasted image 20250725174536.png]]
 
-<img src="/">
+<img width=""500 src="/ASSETS/Pasted image 20250725174536.png">
 
 <div align="center">
 <h2>NAME: TERRENCE MACHOGU KEGENGO</h2>
