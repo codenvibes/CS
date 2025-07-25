@@ -837,6 +837,22 @@ No need to log in.
 
 
 
+## #### Greek Gods 2 ()
+
+### Task
+
+### Category: 
+
+### Tools Used
+
+### Exploitation Steps
+
+### 🚩Flag Captured: ``
+
+### Lessons Learned
+
+
+
 ## ✅ Misunderstood (200 pts)
 
 ### Task
