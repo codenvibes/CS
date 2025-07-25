@@ -1178,7 +1178,7 @@ Download Attachment
 
 👉 `The royalties code.zip`
 
-```pyhton
+```python
 # loyalty_system.py
 
 import threading
