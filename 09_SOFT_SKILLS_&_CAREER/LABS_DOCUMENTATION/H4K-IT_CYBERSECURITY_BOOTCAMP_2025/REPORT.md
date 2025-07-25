@@ -1353,10 +1353,6 @@ print(cart.checkout())
 
 ### Category: PPC
 
-### Tools Used
-
-### Exploitation Steps
-
 ### Code Audit
 
 ### #### What Does This Code Do?
@@ -1388,7 +1384,7 @@ def apply_discount(self, code):
 
 This logic is meant to ensure the discount is only applied once per user.
 
----
+
 
 ### #### What Is the Flaw?
 
@@ -1415,15 +1411,9 @@ That means:
 
 The flaw lies in trusting a temporary, user-controlled client-side/cart object (`self.discount_applied`) to enforce a server-side business logic rule.
 
----
+### Tools Used
 
-## 💥 Exploitation Steps
-
-### 🎯 Goal
-
-Exploit the fact that each new cart instance allows reapplication of the "one-time use" discount.
-
-### 🧪 PoC Code (Proof of Concept)
+### Exploitation Steps
 
 ```python
 # Simulating discount abuse by re-instantiating the cart
@@ -1461,17 +1451,13 @@ for i in range(3):
     print(f"[Cart {i+1}] ->", cart.checkout())
 ```
 
-### 🖨️ Output:
+Output:
 
 ```
 [Cart 1] -> Total to pay: $240
 [Cart 2] -> Total to pay: $240
 [Cart 3] -> Total to pay: $240
 ```
-
----
-
-## 🏁 Flag
 
 ```
 h4kit{self.discount_applied, apply_discount}
