@@ -1195,6 +1195,20 @@ if not self.refunded:
 
 
 
+## Misunderstood 2 (50 pts)
+
+### Task
+
+what is the name of the vulnerability?
+
+flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
+
+### Category: PPC
+
+### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+
+
 ## ✅ The Royalties (200 pts)
 
 ### Task
