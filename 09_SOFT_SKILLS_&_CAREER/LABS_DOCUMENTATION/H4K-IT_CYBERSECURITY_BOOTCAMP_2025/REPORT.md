@@ -1236,6 +1236,15 @@ if __name__ == "__main__":
 
 #### What Does This Code Do?
 
+This Python script simulates a loyalty points system for a user named `john`. Users earn **100 points per purchase**, and can **redeem 80 points** for free items. The program includes:
+
+- A `User` class with `points`, `add_points()`, and `redeem()` methods.
+- Thread-based simulation:
+    - One thread calls `simulate_purchase()` after a delay.
+    - Two threads simultaneously attempt to redeem 80 points each using `simulate_redeem()`.
+
+The goal is to emulate a real-world scenario where multiple redemptions may occur concurrently after a purchase.
+
 #### What Is the Flaw?
 
 ### Tools Used
