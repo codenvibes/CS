@@ -1263,9 +1263,9 @@ This logic is **not thread-safe**. Specifically:
 
 This is a classic example of a **race condition**, where concurrent access to shared data without proper synchronization leads to inconsistent or exploitable behavior.
 
----
+### Tools Used
 
-## ⚙️ Exploitation Steps
+### Exploitation Steps
 
 1. **Initialize user `john`** with 0 points.
     
@@ -1282,22 +1282,7 @@ This is a classic example of a **race condition**, where concurrent access to sh
 7. The script continues and prints the final state, where:
     
     - `Redeemed item` is printed twice.
-        
     - Final points may be negative.
-        
-8. The flag is revealed as:  
-    **`h4kit{self.points}`**
-    
-
----
-
-Let me know if you want this exported in Markdown, or formatted for a specific CTF platform (e.g., HTB, CTFd, etc.)
-
-### Tools Used
-
-### Exploitation Steps
-
-
 
 ### 🚩Flag Captured: `h4kit{self.points}`
 
