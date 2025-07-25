@@ -847,13 +847,7 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 
 ### Category: PPC
 
-### Tools Used
-
-### Exploitation Steps
-
 ### 🚩Flag Captured: ``
-
-### Lessons Learned
 
 
 
