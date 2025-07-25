@@ -1726,14 +1726,21 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 1. Port Scan
 	
 	```bash
-	nmap -Pn 68.183.205.254 -p 34788
+	┌──(mopsy㉿APHP)-[~/H4K-IT]
+	└─$ nmap -Pn 68.183.205.254 -p 34788
 ```
-
-**Output:**
-
+	
+	**Output:**
+	
 ```
-PORT      STATE SERVICE
-34788/tcp open  unknown
+	Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-25 15:00 EAT
+	Nmap scan report for 68.183.205.254
+	Host is up (0.24s latency).
+	
+	PORT      STATE SERVICE
+	34788/tcp open  unknown
+	
+	Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
 ```
 
 **Observation:**  
