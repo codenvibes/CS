@@ -1018,7 +1018,7 @@ This code suffers from multiple serious security flaws:
 
 
 
-## #### Misunderstood 2 (50 pts)
+## Misunderstood 2 (50 pts)
 
 ### Task
 
