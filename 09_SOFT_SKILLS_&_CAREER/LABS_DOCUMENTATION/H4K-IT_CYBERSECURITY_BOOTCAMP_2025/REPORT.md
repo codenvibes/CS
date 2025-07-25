@@ -1236,6 +1236,10 @@ if __name__ == "__main__":
 
 ### Exploitation Steps
 
+the flag is h4kit{self.points}
+
+now generate the 
+
 ### 🚩Flag Captured: ``
 
 ### Lessons Learned
