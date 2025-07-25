@@ -1800,7 +1800,7 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 # Challenge Summary
 
-Over the course of the H4K-IT 2025 Cybersecurity Bootcamp CTF, I successfully tackled a wide array of challenges spanning across **Web Exploitation**, **Pentesting**, **Code Review (PPC)**, and **Forensics**. Each task simulated realistic vulnerabilities drawn from SaaS platforms, banking systems, e-commerce logic, file upload pipelines, password recovery systems, and more.
+Over the course of the H4K-IT 2025 Cybersecurity Bootcamp CTF, I successfully tackled a wide array of challenges spanning across **Web Exploitation**, **Pentesting**, **Code Review (PPC)**, OSINT and **Forensics**. The instance task simulated realistic vulnerabilities drawn from SaaS platforms, banking systems, e-commerce logic, file upload pipelines, password recovery systems, and more.
 
 I captured **30 unique flags**, totaling over **3000 points**, through diverse attack vectors such as:
 
