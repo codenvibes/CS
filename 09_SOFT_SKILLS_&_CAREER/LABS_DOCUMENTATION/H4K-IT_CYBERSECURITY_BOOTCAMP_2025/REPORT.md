@@ -1267,14 +1267,13 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 ### Exploitation Steps
 
-
-8. **Run the script** using Python 3:
+1. **Run the script** using Python 3:
     
     ```bash
     python3 loyalty_system.py
     ```
     
-9. **Observe the output**:
+2. **Observe the output**:
     - You should see two successful `Redeemed item` messages even though only 100 points were added.
     - Example:
         
@@ -1286,9 +1285,9 @@ This is a classic example of a **race condition**, where concurrent access to sh
         Final points: -60
         ```
     
-10. **Understand the cause**:
+3. **Understand the cause**:
     - Due to the race condition in `redeem()`, both threads check the condition `self.points >= cost` before either subtracts the 80 points, allowing **both redemptions to succeed**.
-11. **Confirm exploitation success**:
+4. **Confirm exploitation success**:
     - The program allows **2 redemptions (80 pts each)** after only a **single 100-point purchase**.
     - This violates the system logic and mimics how users in the real system could abuse the flaw.
 
