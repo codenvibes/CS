@@ -1723,7 +1723,7 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### Exploitation Steps
 
-1. Port Scan
+1. Reconnaissance; Port Scan
 	
 	```bash
 	┌──(mopsy㉿APHP)-[~/H4K-IT]
@@ -1732,7 +1732,7 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	
 	**Output:**
 	
-```
+	```
 	Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-25 15:00 EAT
 	Nmap scan report for 68.183.205.254
 	Host is up (0.24s latency).
@@ -1741,14 +1741,13 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	34788/tcp open  unknown
 	
 	Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
-```
+	```
+	
+	**Observation:**  
+	Port `34788` is open. Likely running SSH based on challenge hints.
 
-**Observation:**  
-Port `34788` is open. Likely running SSH based on challenge hints.
 
----
-
-## 🚪 Exploitation
+2. Exploitation
 
 ### ✅ Step 2: Attempt SSH with Default Credentials
 
