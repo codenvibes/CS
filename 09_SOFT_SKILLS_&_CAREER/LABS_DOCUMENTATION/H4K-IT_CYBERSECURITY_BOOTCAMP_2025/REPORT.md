@@ -1708,9 +1708,11 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 
 
 
-## ✅ Challenge ()
+## ✅ Root of All Trouble (100 pts)
 
 ### Task
+
+A misconfigured DevOps jump box used by a third-party contractor was left exposed with SSH enabled and root login permitted. It’s publicly accessible on a custom port, and rumor has it the admin left default credentials in place during testing. You’ve been asked to assess the server and retrieve any evidence of negligence.
 
 ### Category: 
 
