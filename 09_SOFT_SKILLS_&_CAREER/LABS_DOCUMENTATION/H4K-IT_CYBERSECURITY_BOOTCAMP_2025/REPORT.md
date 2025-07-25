@@ -1299,9 +1299,17 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 
 
-## The puppetior ()
+## ✅ The puppetior (100 pts)
 
 ### Task
+
+WelcomeMart, a fast-growing e-commerce platform, has just launched a "WELCOME10" promotional campaign, offering a $10 discount to first-time users. However, internal reports show some users getting more than $10 off by repeatedly applying the code. As a security consultant hired to evaluate the promotion engine, you’ve been given access to the discount code backend logic. Your task is to review the implementation and find out how customers are bypassing the one-time use restriction.
+
+flag format: h4kit{xxxx.xxxxxxxx_xxxxxxx, xxxxx_xxxxxxxx}
+
+Download Attachment
+
+👉 `the puppetior code.zip`
 
 ### Category: 
 
