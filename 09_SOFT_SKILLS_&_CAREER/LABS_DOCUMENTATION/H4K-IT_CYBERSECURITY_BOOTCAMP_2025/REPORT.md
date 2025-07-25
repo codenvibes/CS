@@ -528,6 +528,9 @@ Challenge files can be found in /data directory
 - Outlier analysis is key when dealing with large, repetitive datasets.
 - Not all suspicious-looking entries are relevant — context matters.
 
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ Memory Leak (100 pts)
@@ -585,6 +588,9 @@ Challenge files can be found in /data directory
 	```
 
 ### 🚩Flag Captured: `h4kit{memdump_easy_flag}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -657,6 +663,9 @@ Challenge files can be found in /data directory
 ### Lessons Learned
 
 - Grepping for the CTF flag format (`h4kit{`) is a quick and smart way to scan large data dumps. 
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -735,6 +744,9 @@ Challenge files can be found in /data directory
 - Password-based SSH access remains a major vector for attacks, especially if credentials are reused or weak.
 - Timestamped logs are crucial for forensic analysis.
 - Filtering with `grep` and focusing on context (e.g., date and user) is an efficient log analysis strategy.
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -874,6 +886,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 ### Category: PPC
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
