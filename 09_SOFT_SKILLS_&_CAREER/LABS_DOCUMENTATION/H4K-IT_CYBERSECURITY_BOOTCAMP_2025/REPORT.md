@@ -1097,7 +1097,7 @@ class Order:
 
 This appears safe **in a sequential execution context**.
 
-#### ### What Is the Flaw?
+#### What Is the Flaw?
 
 The flaw becomes visible **under concurrent execution** (e.g. multiple taps, API calls, threads):
 
@@ -1238,7 +1238,9 @@ if __name__ == "__main__":
 
 the flag is h4kit{self.points}
 
-now generate the code audit section and use the following sections 
+now generate the code audit section and use the following sections #### What Does This Code Do? #### What Is the Flaw?
+
+also generate the exploitation steps and list them using a number format no
 
 ### 🚩Flag Captured: ``
 
