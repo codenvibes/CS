@@ -1783,44 +1783,14 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	**Result:** Successfully logged in as root.
 	
 3. Post-Exploitation; Locate and Read Flag
-
-**Command:**
-
-```bash
-ls
-cat flag.txt
-```
-
-**Output:**
-
-```
-h4kit{root_login_still_alive_98afb5c58968}
-```
-
----
-
-## 📝 Summary
-
-- The SSH service was running on a custom port (`34788`).
-    
-- The root account allowed login with default credentials: `root:root`.
-    
-- This confirms poor security hygiene and supports the negligence claim.
-    
-- You successfully accessed the server and retrieved the flag.
-    
-
----
-
-## 🏁 Flag
-
-```
-h4kit{root_login_still_alive_98afb5c58968}
-```
-
----
-
-Let me know if you want this exported to a `.md`, `.txt`, or PDF for submission or recordkeeping. Ready to log your next challenge when you are!
+	
+	```bash
+	root@34421a342df6:~# ls
+	flag.txt
+	root@34421a342df6:~# cat flag.txt
+	h4kit{root_login_still_alive_98afb5c58968}
+	root@34421a342df6:~#
+	```
 
 ### 🚩Flag Captured: `h4kit{root_login_still_alive_98afb5c58968}`
 
