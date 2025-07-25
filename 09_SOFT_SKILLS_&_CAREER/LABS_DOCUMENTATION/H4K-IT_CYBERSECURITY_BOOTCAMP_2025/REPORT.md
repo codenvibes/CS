@@ -1297,8 +1297,6 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 ### 🚩Flag Captured: `h4kit{self.points}`
 
-### Lessons Learned
-
 
 
 ## Challenge ()
