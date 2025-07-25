@@ -1610,17 +1610,7 @@ Alice: $-100
 Bob: $250
 ```
 
----
-
-### 🏁 Flag:
-
-```text
-h4kit{sender.withdraw(amount), receiver.deposit(amount)}
-```
-
-Let me know if you’d like this write-up turned into a downloadable Markdown or PDF format!
-
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{sender.withdraw(amount), receiver.deposit(amount)}`
 
 ### Lessons Learned
 
