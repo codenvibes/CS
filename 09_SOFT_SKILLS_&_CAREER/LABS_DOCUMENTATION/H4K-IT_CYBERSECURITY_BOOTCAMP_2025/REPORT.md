@@ -1179,7 +1179,55 @@ Download Attachment
 👉 `The royalties code.zip`
 
 ```pyhton
+# loyalty_system.py
 
+import threading
+import time
+
+class User:
+    def __init__(self, username):
+        self.username = username
+        self.points = 0
+
+    def add_points(self, pts):
+        self.points += pts
+
+    def redeem(self, cost):
+        if self.points >= cost:
+            self.points -= cost
+            return True
+        return False
+
+users = {"john": User("john")}
+
+def simulate_purchase(user):
+    print(f"[{user.username}] Purchasing...")
+    time.sleep(0.5)  # simulate delay
+    user.add_points(100)
+    print(f"[{user.username}] +100 points")
+
+def simulate_redeem(user):
+    if user.redeem(80):
+        print(f"[{user.username}] Redeemed item")
+    else:
+        print(f"[{user.username}] Not enough points")
+
+if __name__ == "__main__":
+    u = users["john"]
+    # Simulate two purchases in parallel
+    t1 = threading.Thread(target=simulate_purchase, args=(u,))
+    t2 = threading.Thread(target=simulate_redeem, args=(u,))
+    t3 = threading.Thread(target=simulate_redeem, args=(u,))
+    
+    t1.start()
+    t2.start()
+    t3.start()
+
+    t1.join()
+    t2.join()
+    t3.join()
+
+    print(f"Final points: {u.points}")
 ```
 
 ### Category: PPC
