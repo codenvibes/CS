@@ -1612,6 +1612,8 @@ Bob: $250
 
 ### 🚩Flag Captured: `h4kit{sender.withdraw(amount), receiver.deposit(amount)}`
 
+The flag `h4kit{sender.withdraw(amount), receiver.deposit(amount)}` directly reflects the **core flawed logic** inside the `transfer()` method that allows the race condition exploit to happen.
+
 
 
 ## Challenge ()
