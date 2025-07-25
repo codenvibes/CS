@@ -837,7 +837,7 @@ No need to log in.
 
 
 
-## Greek Gods 2 (50 pts)
+## ✅ Greek Gods 2 (50 pts)
 
 ### Task
 
@@ -1018,7 +1018,7 @@ This code suffers from multiple serious security flaws:
 
 
 
-## Misunderstood 2 (50 pts)
+## ✅ Misunderstood 2 (50 pts)
 
 ### Task
 
@@ -1195,7 +1195,7 @@ if not self.refunded:
 
 
 
-## Pennies 2 (50 pts)
+## ✅ Pennies 2 (50 pts)
 
 ### Task
 
@@ -1340,7 +1340,7 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 
 
-## The Royalties 2 (50 pts)
+## ✅ The Royalties 2 (50 pts)
 
 ### Task
 
@@ -1501,7 +1501,7 @@ Output:
 
 
 
-## The puppetior 2 (50 pts)
+## ✅ The puppetior 2 (50 pts)
 
 ### Task
 
@@ -1694,7 +1694,7 @@ The flag `h4kit{sender.withdraw(amount), receiver.deposit(amount)}` directly ref
 
 
 
-## Transfer Us 2 (50 pts)
+## ✅ Transfer Us 2 (50 pts)
 
 ### Task
 
