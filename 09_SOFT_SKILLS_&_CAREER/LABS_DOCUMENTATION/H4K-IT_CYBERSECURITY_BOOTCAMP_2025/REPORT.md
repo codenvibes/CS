@@ -14,7 +14,7 @@
 <div style="page-break-after: always;"></div>
 
 
----
+
 
 # Introduction
 
@@ -22,11 +22,18 @@ The H4K-IT Bootcamp Capture the Flag (CTF) Challenge, held from **July 17 to Jul
 
 This report documents my approach, methodologies, tools used, and key takeaways from the CTF. It aims to provide both a reflection of my problem-solving techniques and a technical breakdown of the challenges I tackled. Additionally, the report highlights how this CTF contributed to my growth as a cybersecurity practitioner, aligning with the bootcamp’s objective to produce industry-ready talent through immersive learning.
 
----
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+
 
 <!--Table of Contents-->
 
----
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+
 
 # Detailed Walkthroughs
 
