@@ -1178,6 +1178,10 @@ Download Attachment
 
 👉 `The royalties code.zip`
 
+```pyhton
+
+```
+
 ### Category: PPC
 
 ### Tools Used
