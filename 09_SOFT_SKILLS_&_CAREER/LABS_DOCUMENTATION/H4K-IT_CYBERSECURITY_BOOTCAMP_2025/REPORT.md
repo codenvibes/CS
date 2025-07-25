@@ -1357,6 +1357,10 @@ print(cart.checkout())
 
 ### Exploitation Steps
 
+the flag is h4kit{self.discount_applied, apply_discount}
+
+generate the Code Audit
+
 ### 🚩Flag Captured: ``
 
 ### Lessons Learned
