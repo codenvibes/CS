@@ -1311,6 +1311,46 @@ Download Attachment
 
 👉 `the puppetior code.zip`
 
+```python
+# discount_handler.py
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+
+class Cart:
+    def __init__(self):
+        self.items = []
+        self.total = 0
+        self.discount_applied = False
+
+    def add_product(self, product):
+        self.items.append(product)
+        self.total += product.price
+
+    def apply_discount(self, code):
+        if code == "WELCOME10":
+            if not self.discount_applied:
+                self.total -= 10
+                self.discount_applied = True
+            else:
+                print("Discount already applied")
+        else:
+            print("Invalid code")
+
+    def checkout(self):
+        return f"Total to pay: ${self.total}"
+
+# Simulate user session
+cart = Cart()
+cart.add_product(Product("Phone", 250))
+cart.apply_discount("WELCOME10")
+cart.apply_discount("WELCOME10")  # <--- This line shouldn't apply again
+print(cart.checkout())
+```
+
 ### Category: PPC
 
 ### Tools Used
