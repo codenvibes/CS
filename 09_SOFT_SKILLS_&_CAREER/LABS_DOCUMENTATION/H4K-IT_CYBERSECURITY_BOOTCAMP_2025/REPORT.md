@@ -1069,7 +1069,7 @@ print(f"Final balance: ${john.balance}")
 
 ### Code Audit
 
-#### ### What Does This Code Do?
+#### What Does This Code Do?
 
 ```python
 class Order:
@@ -1238,7 +1238,7 @@ if __name__ == "__main__":
 
 the flag is h4kit{self.points}
 
-now generate the 
+now generate the code audit section and use the following sections 
 
 ### 🚩Flag Captured: ``
 
