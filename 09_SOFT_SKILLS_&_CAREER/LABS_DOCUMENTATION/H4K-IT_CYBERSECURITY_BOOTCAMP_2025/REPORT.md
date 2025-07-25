@@ -1178,7 +1178,7 @@ Download Attachment
 
 👉 `The royalties code.zip`
 
-### Category: 
+### Category: PPC
 
 ### Tools Used
 
