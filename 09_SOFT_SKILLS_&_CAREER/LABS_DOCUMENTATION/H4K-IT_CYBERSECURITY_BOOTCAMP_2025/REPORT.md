@@ -456,6 +456,9 @@ curl "http://68.183.205.254:34715/preview?file=flag.txt"
 - Just because a system _intends_ to restrict uploads doesn’t mean it’s actually secure — here, the preview endpoint directly exposed sensitive data.
 - Always look for places where files may be stored or previewed after upload. File path access with no sanitization or access control is a **classic CTF win**.
 
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅Browser Trail (200 pts)
