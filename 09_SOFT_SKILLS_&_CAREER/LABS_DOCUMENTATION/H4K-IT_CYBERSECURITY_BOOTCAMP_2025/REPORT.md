@@ -1800,6 +1800,45 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 # Challenge Summary
 
+Over the course of the H4K-IT 2025 Cybersecurity Bootcamp CTF, I successfully tackled a wide array of challenges spanning across **Web Exploitation**, **Pentesting**, **Code Review (PPC)**, and **Forensics**. Each task simulated realistic vulnerabilities drawn from SaaS platforms, banking systems, e-commerce logic, file upload pipelines, password recovery systems, and more.
+
+I captured **30 unique flags**, totaling over **3000 points**, through diverse attack vectors such as:
+
+- **IDOR & Broken Access Control** (e.g., _AI Solutions Portal_, _DevPortal_, _CorpDocs_)
+    
+- **Business Logic Flaws & Race Conditions** (e.g., _Pennies_, _The Royalties_, _Transfer Us_)
+    
+- **Code Injection & Upload Vulnerabilities** (_ScriptServe_)
+    
+- **Predictable Token Generation & Insecure Authentication** (_ResetRealm_, _Misunderstood_)
+    
+- **Server-Side Request Forgery (SSRF)** (_PDFVault_)
+    
+- **Weak Client-side Validation** (_Greek Gods_)
+    
+- **Log Analysis & Email Forensics** (_Memory Leak_, _PhishCheck_, _SSH Breach_, _Browser Trail_)
+    
+
+Tools used included `Gobuster`, `FFUF`, `curl`, `Nmap`, browser DevTools, Python, and manual log/file inspection over SSH. I also simulated exploits using multithreading and local testing environments to recreate logic bugs.
+
+This CTF tested not only my technical skills but also sharpened my **methodical thinking**, **persistence**, and **real-world attack simulation** mindset.
 
 ---
 # Conclusion
+
+Participating in the H4K-IT Bootcamp CTF was both an intellectually rigorous and highly rewarding experience. It offered a real-world playground to test theories, sharpen exploitation techniques, and debug flawed systems under pressure.
+
+Key takeaways include:
+
+- **Client-side validation is not security.**
+    
+- **Business logic flaws are often subtle but powerful.**
+    
+- **Predictable tokens, misconfigured routes, and poor session management are major attack vectors.**
+    
+- **Directory brute-forcing, parameter tampering, and log inspection remain essential baseline skills.**
+    
+- **Always assume user input is hostile—and test systems accordingly.**
+    
+
+This experience reinforced my commitment to ethical hacking, secure coding practices, and the continuous pursuit of excellence in cybersecurity. As I move forward, I plan to deepen my expertise in exploit development, automation, and red teaming methodologies.
