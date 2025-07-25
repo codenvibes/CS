@@ -1839,6 +1839,5 @@ Key takeaways include:
 - **Directory brute-forcing, parameter tampering, and log inspection remain essential baseline skills.**
     
 - **Always assume user input is hostile—and test systems accordingly.**
-    
 
 This experience reinforced my commitment to ethical hacking, secure coding practices, and the continuous pursuit of excellence in cybersecurity. As I move forward, I plan to deepen my expertise in exploit development, automation, and red teaming methodologies.
