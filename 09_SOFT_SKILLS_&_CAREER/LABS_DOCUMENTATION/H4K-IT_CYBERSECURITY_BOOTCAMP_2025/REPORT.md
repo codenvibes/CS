@@ -218,7 +218,7 @@ You’ve been invited to assess the system. Investigate whether it’s possible 
 - Parameter tampering remains a common and dangerous flaw in web applications.
 
 
-## PDFVault Internal Peeker (200 pts)
+## ✅ PDFVault Internal Peeker (200 pts)
 
 ### Task
 PDFVault is a document submission platform used by legal firms to store signed agreements. Each uploaded document is validated by a background service to ensure it’s not malicious. The service fetches metadata from a user-provided URL and confirms it returns a valid PDF.
@@ -264,8 +264,6 @@ http://169.254.169.254/latest/meta-data/
 	Discovered that `http://127.0.0.1:5000/internal` was accessible and returned the flag.
 
 ### 🚩Flag Captured: `h4kit{ssrf_approved_metadata_149a4b9a7a89}`
-
-### Lessons Learned
 
 
 
