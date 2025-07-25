@@ -1359,7 +1359,7 @@ print(cart.checkout())
 
 the flag is h4kit{self.discount_applied, apply_discount}
 
-generate the Code Audit
+generate the Code Audit section and use the following subsections 
 
 ### 🚩Flag Captured: ``
 
