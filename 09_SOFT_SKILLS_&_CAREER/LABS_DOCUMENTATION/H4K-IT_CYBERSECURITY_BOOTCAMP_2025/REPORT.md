@@ -1465,7 +1465,7 @@ print(cart.checkout())
 
 ### Code Audit
 
-### #### What Does This Code Do?
+### What Does This Code Do?
 
 The code implements a basic shopping cart system for an e-commerce platform. It consists of:
 
@@ -1489,7 +1489,7 @@ def apply_discount(self, code):
 This logic is meant to ensure the discount is only applied once per user.
 
 
-### #### What Is the Flaw?
+### What Is the Flaw?
 
 The restriction on discount reuse is enforced **only in memory**, using the `self.discount_applied` attribute inside the `Cart` object.
 
