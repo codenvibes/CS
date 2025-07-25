@@ -1340,7 +1340,7 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 
 
-## Pennies 2 (50 pts)
+## The Royalties 2 (50 pts)
 
 ### Task
 
