@@ -1236,13 +1236,9 @@ if __name__ == "__main__":
 
 ### Exploitation Steps
 
-the flag is h4kit{self.points}
 
-now generate the code audit section and use the following sections #### What Does This Code Do? #### What Is the Flaw?
 
-also generate the exploitation steps and list them using a number format no
-
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{self.points}`
 
 ### Lessons Learned
 
