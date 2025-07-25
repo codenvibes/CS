@@ -1456,11 +1456,79 @@ flag format: h4kit{xxxxxx.xxxxxxxx(xxxxxx), xxxxxxxx.xxxxxxx(xxxxxx)}
 
 Download Attachment
 
-👉 ``
+👉 `transfer us code.zip`
+
+```python
+# bank_transfer.py
+
+import time
+from threading import Thread
+
+class Account:
+    def __init__(self, owner, balance):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"[{self.owner}] Deposited ${amount} → New Balance: ${self.balance}")
+
+    def withdraw(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+            print(f"[{self.owner}] Withdrew ${amount} → New Balance: ${self.balance}")
+            return True
+        else:
+            print(f"[{self.owner}] Withdrawal failed: Insufficient funds")
+            return False
+
+class BankSystem:
+    def __init__(self):
+        self.accounts = {}
+
+    def add_account(self, acc):
+        self.accounts[acc.owner] = acc
+
+    def transfer(self, sender_name, receiver_name, amount):
+        sender = self.accounts.get(sender_name)
+        receiver = self.accounts.get(receiver_name)
+
+        print(f"\nInitiating transfer of ${amount} from {sender_name} to {receiver_name}...")
+        time.sleep(0.5)  # Simulate processing delay
+
+        if sender.withdraw(amount):
+            receiver.deposit(amount)
+            print(f"Transfer successful!")
+        else:
+            print("Transfer failed due to insufficient funds.")
+
+def simulate_race_transfer(bank, sender, receiver, amount):
+    t1 = Thread(target=bank.transfer, args=(sender, receiver, amount))
+    t2 = Thread(target=bank.transfer, args=(sender, receiver, amount))
+
+    t1.start()
+    t2.start()
+
+    t1.join()
+    t2.join()
+
+# Setup
+bank = BankSystem()
+bank.add_account(Account("alice", 100))
+bank.add_account(Account("bob", 50))
+
+simulate_race_transfer(bank, "alice", "bob", 100)
+
+print("\nFinal Balances:")
+print(f"Alice: ${bank.accounts['alice'].balance}")
+print(f"Bob: ${bank.accounts['bob'].balance}")
+```
 
 ### Category: PPC
 
 ### Tools Used
+
+- Python3
 
 ### Exploitation Steps
 
