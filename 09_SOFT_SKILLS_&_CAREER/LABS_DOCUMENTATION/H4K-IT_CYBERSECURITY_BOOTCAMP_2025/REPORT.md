@@ -1781,12 +1781,8 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 	
 	**Password Used:** `root`  
 	**Result:** Successfully logged in as root.
-
----
-
-## 📁 Post-Exploitation
-
-### ✅ Step 3: Locate and Read Flag
+	
+3. Post-Exploitation; Locate and Read Flag
 
 **Command:**
 
