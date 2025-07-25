@@ -837,11 +837,15 @@ No need to log in.
 
 
 
-## #### Greek Gods 2 ()
+## Greek Gods 2 (50 pts)
 
 ### Task
 
-### Category: 
+what is the name of the vulnerability?
+
+flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
+
+### Category: PPC
 
 ### Tools Used
 
