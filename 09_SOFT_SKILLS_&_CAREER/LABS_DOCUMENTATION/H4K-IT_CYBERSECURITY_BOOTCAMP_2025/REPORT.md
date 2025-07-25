@@ -1,11 +1,12 @@
 
 <!--Cover Page-->
 
-![[Pasted image 20250725174536.png]]
 
-<img width=""500 src="/ASSETS/Pasted image 20250725174536.png">
 
 <div align="center">
+<img width="300" src="/ASSETS/Pasted image 20250725174536.png">
+<br>
+<br>
 <h2>NAME: TERRENCE MACHOGU KEGENGO</h2>
 <h2>EMAIL: <a href="mailto:terrence.tech@proton.me">terrence.tech@proton.me</a></h2>
 <h2>WEDNESDAY 23RD JULY 2025</h2>
