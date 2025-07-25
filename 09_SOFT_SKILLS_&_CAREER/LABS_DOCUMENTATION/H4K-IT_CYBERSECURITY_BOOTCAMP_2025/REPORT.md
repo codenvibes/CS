@@ -1694,6 +1694,20 @@ The flag `h4kit{sender.withdraw(amount), receiver.deposit(amount)}` directly ref
 
 
 
+## Transfer Us 2 (50 pts)
+
+### Task
+
+what is the name of the vulnerability?
+
+flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
+
+### Category: PPC
+
+### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+
+
 ## ✅ Challenge ()
 
 ### Task
