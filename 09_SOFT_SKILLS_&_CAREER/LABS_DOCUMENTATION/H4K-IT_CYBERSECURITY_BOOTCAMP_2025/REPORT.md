@@ -1071,6 +1071,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
 
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ Pennies (300 pts)
@@ -1248,6 +1251,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
 
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 
 ## ✅ The Royalties (200 pts)
@@ -1392,6 +1398,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 ### Category: PPC
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -1553,6 +1562,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 ### Category: PPC
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
@@ -1746,6 +1758,9 @@ flag format: h4kit{xxxxxxx xxxxxxxxxxxxxxx}
 ### Category: PPC
 
 ### 🚩Flag Captured: `h4kit{business logic flaw}`
+
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 
 
