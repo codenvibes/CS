@@ -1360,17 +1360,11 @@ print(cart.checkout())
 The code implements a basic shopping cart system for an e-commerce platform. It consists of:
 
 - A `Product` class with `name` and `price`.
-    
 - A `Cart` class that:
-    
     - Manages added products.
-        
     - Tracks the total cart value.
-        
     - Allows applying a discount code (`WELCOME10`) **once** via a boolean flag `self.discount_applied`.
-        
     - Outputs the final payable amount via `checkout()`.
-        
 
 Key logic:
 
@@ -1385,29 +1379,18 @@ def apply_discount(self, code):
 This logic is meant to ensure the discount is only applied once per user.
 
 
-
 ### #### What Is the Flaw?
 
 The restriction on discount reuse is enforced **only in memory**, using the `self.discount_applied` attribute inside the `Cart` object.
 
 That means:
-
 - The "one-time use" check applies **per cart session**, not per user account or backend record.
-    
 - Users can simply:
-    
     - Refresh their session.
-        
     - Use a new browser/incognito tab.
-        
     - Reinstantiate a new cart object.
-        
     - Re-register or spoof being a new user.
-        
 - There is no user validation, server-side token, database record, or unique tracking for discount code usage.
-    
-
-### ✅ Conclusion:
 
 The flaw lies in trusting a temporary, user-controlled client-side/cart object (`self.discount_applied`) to enforce a server-side business logic rule.
 
@@ -1459,13 +1442,7 @@ Output:
 [Cart 3] -> Total to pay: $240
 ```
 
-```
-h4kit{self.discount_applied, apply_discount}
-```
-
-Let me know if you want the full write-up exported in Markdown or PDF format, or if you'd like to build an exploit for a live service version of this code.
-
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{self.discount_applied, apply_discount}`
 
 ### Lessons Learned
 
