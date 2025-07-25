@@ -1267,6 +1267,8 @@ This is a classic example of a **race condition**, where concurrent access to sh
 
 ### Tools Used
 
+- **Python3**  
+
 ### Exploitation Steps
 
 1. **Run the script** using Python 3:
