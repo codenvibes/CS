@@ -1195,7 +1195,7 @@ if not self.refunded:
 
 
 
-## Misunderstood 2 (50 pts)
+## Pennies 2 (50 pts)
 
 ### Task
 
