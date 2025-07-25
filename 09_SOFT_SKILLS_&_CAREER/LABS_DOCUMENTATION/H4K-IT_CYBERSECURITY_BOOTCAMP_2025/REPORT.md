@@ -1817,7 +1817,6 @@ I solved **51 questions**, totaling **7475 points**, through diverse attack vect
 - **Weak Client-side Validation** (_Greek Gods_)
     
 - **Log Analysis & Email Forensics** (_Memory Leak_, _PhishCheck_, _SSH Breach_, _Browser Trail_)
-    
 
 Tools used included `Gobuster`, `FFUF`, `curl`, `Nmap`, browser DevTools, Python, and manual log/file inspection over SSH. I also simulated exploits using multithreading and local testing environments to recreate logic bugs.
 
