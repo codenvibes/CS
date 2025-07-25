@@ -1718,17 +1718,14 @@ A misconfigured DevOps jump box used by a third-party contractor was left expose
 
 ### Tools Used
 
+- `nmap`
+- `ssh`
+
 ### Exploitation Steps
 
-┌──(mopsy㉿APHP)-[~/H4K-IT]
-└─$ ssh root@68.183.205.254 -p 34788
-
-the pass is root too. I have access!
 
 
-
-
-### 🚩Flag Captured: ``
+### 🚩Flag Captured: `h4kit{root_login_still_alive_98afb5c58968}`
 
 ### Lessons Learned
 
