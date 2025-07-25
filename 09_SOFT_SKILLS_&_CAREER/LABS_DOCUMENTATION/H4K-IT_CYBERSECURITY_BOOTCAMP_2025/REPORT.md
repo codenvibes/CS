@@ -1245,6 +1245,54 @@ This Python script simulates a loyalty points system for a user named `john`. Us
 
 #### What Is the Flaw?
 
+The core vulnerability lies in the `redeem()` method:
+
+```python
+def redeem(self, cost):
+    if self.points >= cost:
+        self.points -= cost
+        return True
+    return False
+```
+
+This logic is **not thread-safe**. Specifically:
+
+- The `if` check and the subtraction are **not atomic operations**.
+- When multiple threads call `redeem()` in parallel, they may both pass the check `self.points >= cost` before either has updated the `points` value.
+- As a result, **multiple redemptions can succeed even if the user's balance should only allow one**.
+
+This is a classic example of a **race condition**, where concurrent access to shared data without proper synchronization leads to inconsistent or exploitable behavior.
+
+---
+
+## ⚙️ Exploitation Steps
+
+1. **Initialize user `john`** with 0 points.
+    
+2. **Start a thread** to simulate a purchase (`add_points(100)`) with a slight delay.
+    
+3. **Immediately launch two threads** that both attempt to redeem 80 points concurrently.
+    
+4. Since the purchase thread is slightly delayed, the redemption threads may execute after the points are added.
+    
+5. **Both threads may observe `points >= 80` before either subtracts the cost**, allowing both to redeem a reward.
+    
+6. This results in **two redemptions** with only **one purchase**, and potentially leaves the user with negative points.
+    
+7. The script continues and prints the final state, where:
+    
+    - `Redeemed item` is printed twice.
+        
+    - Final points may be negative.
+        
+8. The flag is revealed as:  
+    **`h4kit{self.points}`**
+    
+
+---
+
+Let me know if you want this exported in Markdown, or formatted for a specific CTF platform (e.g., HTB, CTFd, etc.)
+
 ### Tools Used
 
 ### Exploitation Steps
