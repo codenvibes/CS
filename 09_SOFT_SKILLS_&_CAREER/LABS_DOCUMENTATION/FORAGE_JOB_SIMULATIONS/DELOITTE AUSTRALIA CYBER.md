@@ -1,3 +1,5 @@
+#JOBSIM
+
 ## Task 1: Cyber security
 
 ### What you'll learn
@@ -24,7 +26,7 @@ In this task you will be joining our cyber security team. Your job is to:
         - **Hint:** In the Resources section, you can find a diagram example of how to read the logs file
         - **Hint:** Look for longer sequences of user requests
         - **Hint:** Notice the order of requests from Login → to requests for the dashboard page's resources (styles, scripts, images, etc.) → to API requests for the actual statuses of the machines
-        - **Hint:** How would you recognise if an automated request to the API happens at an exact interval of time (assume no such functionality is available in the dashboard)?
+        - **Hint:** How would you recognize if an automated request to the API happens at an exact interval of time (assume no such functionality is available in the dashboard)?
     - If you've identified such requests make sure to write down the ID of the user (it's part of the requests)
 
 Here is how the _web_requests.log_ file is structured:
