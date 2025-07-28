@@ -130,7 +130,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 
 #### Questions
 
-
+![[Pasted image 20250728192904.png]]
 <div align="center">
 <br>
 <br>
