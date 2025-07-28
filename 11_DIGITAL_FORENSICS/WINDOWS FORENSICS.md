@@ -112,11 +112,11 @@ The NTUSER.DAT hive is located in the directory `C:\Users\<username>\`.
 
 Remember that NTUSER.DAT and USRCLASS.DAT are hidden files.
 
-##### The Amcache Hive:
+#### The Amcache Hive:
 
 Apart from these files, there is another very important hive called the AmCache hive. This hive is located in `C:\Windows\AppCompat\Programs\Amcache.hve`. Windows creates this hive to save information on programs that were recently run on the system.
 
-**Transaction Logs and Backups:**
+#### Transaction Logs and Backups:
 
 Some other very vital sources of forensic data are the registry transaction logs and backups. The transaction logs can be considered as the journal of the changelog of the registry hive. Windows often uses transaction logs when writing data to registry hives. This means that the transaction logs can often have the latest changes in the registry that haven't made their way to the registry hives themselves. The transaction log for each hive is stored as a .LOG file in the same directory as the hive itself. It has the same name as the registry hive, but the extension is .LOG. For example, the transaction log for the SAM hive will be located in `C:\Windows\System32\Config` in the filename SAM.LOG. Sometimes there can be multiple transaction logs as well. In that case, they will have .LOG1, .LOG2 etc., as their extension. It is prudent to look at the transaction logs as well when performing registry forensics.
 
