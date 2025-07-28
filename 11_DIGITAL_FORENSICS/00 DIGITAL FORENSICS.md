@@ -1,6 +1,6 @@
-**DEF-Digital forensics** is the process of identifying, preserving, analyzing, and presenting digital evidence in a way that is legally admissible.
+==**DEF-Digital forensics** is the process of identifying, preserving, analyzing, and presenting digital evidence in a way that is legally admissible.==
 
-
+> Something that is **Legally admissible** —like digital evidence—can be accepted and used in a court of law during a legal case.
 
 It is used in investigations involving cybercrime, data breaches, fraud, or any incident where digital devices like computers, phones, or servers might contain relevant evidence.
 
