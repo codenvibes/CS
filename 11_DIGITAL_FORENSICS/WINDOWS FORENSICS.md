@@ -9,10 +9,9 @@ A perfect example of Digital Forensics solving a criminal case is the [BTK seri
 
 Because **Windows dominates the desktop OS market**, it’s vital for forensic analysts to understand how to extract evidence from it—especially using data from the **Windows Registry**.
 
-#### Forensic Artifacts:
+#### DEF-Forensic Artifacts:
 
-An **artifact** is any piece of data or evidence left behind on a digital device that can help investigators understand what happened on that system. Just like fingerprints at a physical crime scene, digital artifacts are clues that help reconstruct the actions of a user or attacker on a computer or network.
-
+==An **artifact** is any piece of data or evidence left behind on a digital device that can help investigators understand what happened on that system. Just like fingerprints at a physical crime scene, digital artifacts are clues that help reconstruct the actions of a user or attacker on a computer or network.==
 
 Artifacts can include:
 - Browser history
