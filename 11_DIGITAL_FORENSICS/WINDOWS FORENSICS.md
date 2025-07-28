@@ -355,6 +355,80 @@ The information contained here includes the relative identifier (RID) of the use
 
 ### 7. Usage or knowledge of files/folders
 
+#### Recent Files
+
+Windows maintains a list of recently opened files for each user. As we might have seen when using Windows Explorer, it shows us a list of recently used files.  This information is stored in the NTUSER hive and can be found on the following location:
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs`
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/aff5ea8e993f2989f5f8caf94798a3c7.png)
+
+Registry Explorer allows us to sort data contained in registry keys quickly. For example, the Recent documents tab arranges the Most Recently Used (MRU) file at the top of the list. Registry Explorer also arranges them so that the Most Recently Used (MRU) file is shown at the top of the list and the older ones later.
+
+Another interesting piece of information in this registry key is that there are different keys with file extensions, such as  `.pdf` , `.jpg` , `.docx`  etc. These keys provide us with information about the last used files of a specific file extension. So if we are looking specifically for the last used PDF files, we can look at the following registry key:
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.pdf`
+
+Registry Explorer also lists the Last Opened time of the files. Answer Question # 1 by looking at the above screenshot.
+
+#### Office Recent Files
+
+Similar to the Recent Docs maintained by Windows Explorer, Microsoft Office also maintains a list of recently opened documents. This list is also located in the NTUSER hive. It can be found in the following location:
+
+`NTUSER.DAT\Software\Microsoft\Office\VERSION`
+
+The version number for each Microsoft Office release is different. An example registry key will look like this:
+
+`NTUSER.DAT\Software\Microsoft\Office\15.0\Word`
+
+Here, the 15.0 refers to Office 2013. A list of different Office releases and their version numbers can be found on [this link](https://docs.microsoft.com/en-us/deployoffice/install-different-office-visio-and-project-versions-on-the-same-computer#office-releases-and-their-version-number) .
+
+Starting from Office 365, Microsoft now ties the location to the user's [live ID](https://www.microsoft.com/security/blog/2008/05/07/what-is-a-windows-live-id/) . In such a scenario, the recent files can be found at the following location. 
+
+`NTUSER.DAT\Software\Microsoft\Office\VERSION\UserMRU\LiveID_####\FileMRU`
+
+In such a scenario, the recent files can be found at the following location. This location also saves the complete path of the most recently used files.
+
+## **ShellBags:**
+
+When any user opens a folder, it opens in a specific layout. Users can change this layout according to their preferences. These layouts can be different for different folders. This information about the Windows _'shell'_  is stored and can identify the Most Recently Used files and folders. Since this setting is different for each user, it is located in the user hives. We can find this information on the following locations:
+
+`USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\Bags`
+
+`USRCLASS.DAT\Local Settings\Software\Microsoft\Windows\Shell\BagMRU`
+
+`NTUSER.DAT\Software\Microsoft\Windows\Shell\BagMRU`
+
+`NTUSER.DAT\Software\Microsoft\Windows\Shell\Bags`
+
+Registry Explorer doesn't give us much information about ShellBags. However, another tool from Eric Zimmerman's tools called the ShellBag Explorer shows us the information in an easy-to-use format. We just have to point to the hive file we have extracted, and it parses the data and shows us the results. An example is shown below. Take a look and answer Question # 2.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/666bd5bd3db41b4b6e3f09311f25666a.png)
+
+## **Open/Save and LastVisited Dialog MRUs:**
+
+When we open or save a file, a dialog box appears asking us where to save or open that file from. It might be noticed that once we open/save a file at a specific location, Windows remembers that location. This implies that we can find out recently used files if we get our hands on this information. We can do so by examining the following registry keys
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSavePIDlMRU`
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedPidlMRU`
+
+This is how Registry Explorer shows this registry key. Take a look to answer Question # 3 and 4.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/e996b8939895b4b5e55e780baa4335e9.png)
+
+## **Windows Explorer Address/Search Bars:**
+
+Another way to identify a user's recent activity is by looking at the paths typed in the Windows Explorer address bar or searches performed using the following registry keys, respectively.
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths`
+
+`NTUSER.DAT\Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery`
+
+Here is how the TypedPaths key looks like in Registry Explorer:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/782204163443e8f21ddd14297ba756dd.png)
+
 #### Questions
 
 <div align="center">
