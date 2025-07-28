@@ -27,12 +27,10 @@ In computer forensics, forensic artifacts can be small footprints of activity le
 #### Questions
 
 ![[Pasted image 20250728184827.png]]
-
 <div align="center">
 <br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 <br>
 </div>
@@ -85,7 +83,6 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 3. Accessing registry hives offline
@@ -134,7 +131,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 4. Data Acquisition
@@ -144,7 +140,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 5. Exploring Windows Registry
@@ -152,7 +147,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 <br>
 </div>
