@@ -389,7 +389,7 @@ Starting from Office 365, Microsoft now ties the location to the user's [live I
 
 In such a scenario, the recent files can be found at the following location. This location also saves the complete path of the most recently used files.
 
-## **ShellBags:**
+#### ShellBags
 
 When any user opens a folder, it opens in a specific layout. Users can change this layout according to their preferences. These layouts can be different for different folders. This information about the Windows _'shell'_  is stored and can identify the Most Recently Used files and folders. Since this setting is different for each user, it is located in the user hives. We can find this information on the following locations:
 
@@ -405,7 +405,7 @@ Registry Explorer doesn't give us much information about ShellBags. However, ano
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/666bd5bd3db41b4b6e3f09311f25666a.png)
 
-## **Open/Save and LastVisited Dialog MRUs:**
+#### Open/Save and LastVisited Dialog MRUs
 
 When we open or save a file, a dialog box appears asking us where to save or open that file from. It might be noticed that once we open/save a file at a specific location, Windows remembers that location. This implies that we can find out recently used files if we get our hands on this information. We can do so by examining the following registry keys
 
@@ -417,7 +417,7 @@ This is how Registry Explorer shows this registry key. Take a look to answer Que
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/e996b8939895b4b5e55e780baa4335e9.png)
 
-## **Windows Explorer Address/Search Bars:**
+#### Windows Explorer Address/Search Bars
 
 Another way to identify a user's recent activity is by looking at the paths typed in the Windows Explorer address bar or searches performed using the following registry keys, respectively.
 
