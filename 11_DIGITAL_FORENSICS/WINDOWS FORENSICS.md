@@ -500,6 +500,7 @@ Below you can see how Registry Explorer parses data from BAM:
 
 #### Questions
 
+![[Pasted image 20250728232851.png]]
 <div align="center">
 <br>
 <br>
