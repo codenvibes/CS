@@ -26,7 +26,7 @@ In computer forensics, forensic artifacts can be small footprints of activity le
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 <br>
@@ -72,12 +72,14 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 #### Questions
 
 ###### What is the short form for HKEY_LOCAL_MACHINE?
-
-
-<div align="center">※※※※※※※※※※※※</div>
-
-
-
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+<br>
+</div>
 ### 3. Accessing registry hives offline
 
 ### 4. Data Acquisition
