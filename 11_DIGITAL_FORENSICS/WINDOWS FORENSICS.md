@@ -87,7 +87,9 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 
 ### 3. Accessing registry hives offline
 
-If you are accessing a live system, you will be able to access the registry using regedit.exe, and you will be greeted with all of the standard root keys we learned about in the previous task. However, if you only have access to a disk image, you must know where the registry hives are located on the disk. The majority of these hives are located in the `C:\Windows\System32\Config` directory and are:
+If you are accessing a live system, you will be able to access the registry using regedit.exe, and you will be greeted with all of the standard root keys we learned about in the previous task. 
+
+However, if you only have access to a disk image, you must know where the registry hives are located on the disk. The majority of these hives are located in the `C:\Windows\System32\Config` directory and are:
 
 | Hive Name    | Mounted On                    | Description                                                                                |
 | ------------ | ----------------------------- | ------------------------------------------------------------------------------------------ |
