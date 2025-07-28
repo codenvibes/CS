@@ -17,7 +17,7 @@ In computer forensics, forensic artifacts can be small footprints of activity le
 
 **So is my computer spying on me?**
 
-What do you think?![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/720842074f8b1f89e0eeae132a55424a.png)
+What do you think?!
 
 A Windows system keeps track of a lot of activity performed by a user. But is all that tracking for malicious purposes, or is there another reason for that? As we'll see in this room, the filesystem components that forensic experts deem artifacts primarily originated from Microsoft's efforts to improve the user's experience.
 
