@@ -513,7 +513,7 @@ Below you can see how Registry Explorer parses data from BAM:
 
 When performing forensics on a machine, often the need arises to identify if any USB or removable drives were attached to the machine. If so, any information related to those devices is important for a forensic investigator. In this task, we will go through the different ways to find information on connected devices and the drives on a system using the registry.
 
-Device identification:
+#### Device identification
 
 The following locations keep track of USB keys plugged into a system. These locations store the vendor id, product id, and version of the USB device plugged in and can be used to identify unique devices. These locations also store the time the devices were plugged into the system.
 
@@ -525,7 +525,7 @@ Registry Explorer shows this information in a nice and easy-to-understand way. T
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/03c87eaaf8458db97ffbddd30a6463e8.png)
 
-First/Last Times:
+#### First/Last Times
 
 Similarly, the following registry key tracks the first time the device was connected, the last time it was connected and the last time the device was removed from the system.
 
@@ -542,7 +542,7 @@ In this key, the #### sign can be replaced by the following digits to get the re
 
 Although we can check this value manually, as we have seen above, Registry Explorer already parses this data and shows us if we select the USBSTOR key.
 
-**USB device Volume Name:**
+**USB device Volume Name
 
 The device name of the connected drive can be found at the following location:
 
