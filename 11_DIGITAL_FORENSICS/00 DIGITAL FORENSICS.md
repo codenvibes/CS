@@ -1,6 +1,6 @@
 ==**DEF-Digital forensics** is the process of identifying, preserving, analyzing, and presenting digital evidence in a way that is legally admissible.==
 
-> Something that is **Legally admissible** —like digital evidence—can be accepted and used in a court of law during a legal case.
+> In the context of law, "admissible" refers to evidence that a court deems acceptable for consideration in a trial. It means the evidence is relevant to the case, reliable, and legally obtained. Inadmissible evidence, on the other hand, is excluded because it's deemed unreliable, unfairly prejudicial, or illegally obtained, and therefore not allowed to be presented to the judge or jury.
 
 It is used in investigations involving cybercrime, data breaches, fraud, or any incident where digital devices like computers, phones, or servers might contain relevant evidence.
 
