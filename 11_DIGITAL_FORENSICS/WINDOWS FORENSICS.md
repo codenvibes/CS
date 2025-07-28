@@ -227,7 +227,7 @@ Now that we have learned how to read registry data, let's find out where to look
 
 When we start performing forensic analysis, the first step is to find out about the system information. This task will cover gathering information related to a machine's System and Account information.
 
-**OS Version:**
+#### OS Version
 
 If we only have triage data to perform forensics, we can determine the OS version from which this data was pulled through the registry. To find the OS version, we can use the following registry key:
 
