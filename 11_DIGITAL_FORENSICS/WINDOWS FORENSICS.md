@@ -158,7 +158,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 7. Usage or knowledge of files/folders
@@ -166,7 +165,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 <br>
 </div>
@@ -178,7 +176,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 9. External Devices/USB device forensics
@@ -188,7 +185,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
-<br>
 </div>
 
 ### 10. Hands-on Challenge
@@ -196,7 +192,6 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
 <br>
 <br>
 </div>
