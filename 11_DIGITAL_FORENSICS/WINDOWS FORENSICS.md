@@ -431,6 +431,7 @@ Here is how the TypedPaths key looks like in Registry Explorer:
 
 #### Questions
 
+![[Pasted image 20250728232132.png]]
 <div align="center">
 <br>
 <br>
