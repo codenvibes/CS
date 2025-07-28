@@ -198,7 +198,7 @@ Eric Zimmerman has developed a handful of [tools](https://ericzimmerman.github.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/414dee2639b9456334c9580aacdc2be1.png)  
   
-  **RegRipper:**
+#### RegRipper
 
 [RegRipper](https://github.com/keydet89/RegRipper3.0) is a utility that takes a registry hive as input and outputs a report that extracts data from some of the forensically important keys and values in that hive. The output report is in a text file and shows all the results in sequential order. 
 
