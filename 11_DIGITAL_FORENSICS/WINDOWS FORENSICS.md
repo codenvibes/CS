@@ -554,6 +554,7 @@ Combining all of this information, we can create a fair picture of any USB devic
 
 #### Questions
 
+![[Pasted image 20250728234818.png]]
 <div align="center">
 <br>
 <br>
@@ -563,6 +564,32 @@ Combining all of this information, we can create a fair picture of any USB devic
 </div>
 
 ### 10. Hands-on Challenge
+
+So, now that we have learned something, let's put it into practice. 
+
+Launch the VM attached with the task. A Windows VM should show up in the right half of your browser window. Please allow a few minutes for the machine to boot. If you don’t see a Desktop, click the Show Split Screen button at the top right of the page.
+
+#### The Setup:
+
+If preferred, use the following credentials to log into the machine:
+
+**Username:** THM-4n6
+
+**Password:** 123
+
+Once we log in, we will see two folders on the Desktop named `triage` and `EZtools`. The `triage` folder contains a triage collection collected through KAPE, which has the same directory structure as the parent. This is where our artifacts will be located. The `EZtools` folder contains Eric Zimmerman's tools, which we will be using to perform our analysis. You will also find RegistryExplorer, EZViewer, and AppCompatCacheParser.exe in the same folder.
+
+**Note:** Although the Autopsy tool on the Desktop can be used to solve this case, it is recommended that you use the `EZtools`, as demonstrated in this room.
+
+#### The Challenge:
+
+﻿Now that we know where the required toolset is, we can start our investigation. We will have to use our knowledge to identify where the different files for the relevant registry hives are located and load them into the tools of our choice. Let's answer the questions below using our knowledge of registry forensics.
+
+**Scenario:**
+
+One of the Desktops in the research lab at Organization X is suspected to have been accessed by someone unauthorized. Although they generally have only one user account per Desktop, there were multiple user accounts observed on this system. It is also suspected that the system was connected to some network drive, and a USB device was connected to the system. The triage data from the system was collected and placed on the attached VM. Can you help Organization X with finding answers to the below questions?
+
+**Note:** When loading registry hives in RegistryExplorer, it will caution us that the hives are dirty. This is nothing to be afraid of. We just need to remember the little lesson about transaction logs and point RegistryExplorer to the .LOG1 and .LOG2 files with the same filename as the registry hive. It will automatically integrate the transaction logs and create a 'clean' hive. Once we tell RegistryExplorer where to save the clean hive, we can use that for our analysis and we won't need to load the dirty hives anymore. RegistryExplorer will guide you through this process.
 
 #### Questions
 
