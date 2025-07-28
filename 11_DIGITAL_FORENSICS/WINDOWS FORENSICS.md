@@ -11,6 +11,18 @@ Because **Windows dominates the desktop OS market**, it’s vital for forensic a
 
 #### Forensic Artifacts:
 
+An **artifact** is any piece of data or evidence left behind on a digital device that can help investigators understand what happened on that system. Just like fingerprints at a physical crime scene, digital artifacts are clues that help reconstruct the actions of a user or attacker on a computer or network.
+
+
+Artifacts can include:
+- Browser history
+- Log files
+- Installed applications
+- Deleted files
+- Timestamps (like last login time)
+- Registry entries (on Windows)
+- System event logs
+
 When performing forensic analysis, you will often hear the word 'artifact'. Forensic artifacts are essential pieces of information that provide evidence of human activity. For example, during the investigation of a crime scene, fingerprints, a broken button of a shirt or coat, the tools used to perform the crime are all considered forensic artifacts. All of these artifacts are combined to recreate the story of how the crime was committed. 
 
 In computer forensics, forensic artifacts can be small footprints of activity left on the computer system. On a Windows system, a person's actions can be traced back quite accurately using computer forensics because of the various artifacts a Windows system creates for a given activity. These artifacts often reside in locations 'normal' users won't typically venture to. For our purposes, these artifacts can be analyzed to provide the trial of activity for an investigation.
