@@ -67,7 +67,7 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 ###### What is the short form for HKEY_LOCAL_MACHINE?
 
 
-<div align="center">※※※※※※※※※※※※<</div>
+<div align="center">※※※※※※※※※※※※</div>
 
 
 
