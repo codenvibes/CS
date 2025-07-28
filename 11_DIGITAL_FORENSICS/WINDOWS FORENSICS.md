@@ -87,6 +87,7 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 <br>
 <br>
 </div>
+
 ### 3. Accessing registry hives offline
 
 If you are accessing a live system, you will be able to access the registry using regedit.exe, and you will be greeted with all of the standard root keys we learned about in the previous task. However, if you only have access to a disk image, you must know where the registry hives are located on the disk. The majority of these hives are located in the `C:\Windows\System32\Config` directory and are:
@@ -135,6 +136,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 4. Data Acquisition
 <div align="center">
 <br>
@@ -144,6 +146,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 5. Exploring Windows Registry
 <div align="center">
 <br>
@@ -153,6 +156,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 6. System Information and System Accounts
 <div align="center">
 <br>
@@ -162,6 +166,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 7. Usage or knowledge of files/folders
 <div align="center">
 <br>
@@ -171,6 +176,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 8. Evidence of Execution
 <div align="center">
 <br>
@@ -180,6 +186,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 9. External Devices/USB device forensics
 <div align="center">
 <br>
@@ -189,6 +196,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 10. Hands-on Challenge
 <div align="center">
 <br>
@@ -198,6 +206,7 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 <br>
 <br>
 </div>
+
 ### 11. Conclusion
 
 ---
