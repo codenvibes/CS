@@ -442,7 +442,7 @@ Here is how the TypedPaths key looks like in Registry Explorer:
 
 ### 8. Evidence of Execution
 
-**UserAssist** :
+#### UserAssist
 
 Windows keeps track of applications launched by the user using Windows Explorer for statistical purposes in the User Assist registry keys. These keys contain information about the programs launched, the time of their launch, and the number of times they were executed. However, programs that were run using the command line can't be found in the User Assist keys. The User Assist key is present in the NTUSER hive, mapped to each user's GUID. We can find it at the following location:
 
@@ -452,7 +452,7 @@ Take a look at the below screenshot from Registry Explorer and answer Question #
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/9bd8461865865ac3ff774c8a88d1afd5.png)
 
-**ShimCache:**
+#### ShimCache
 
 ShimCache is a mechanism used to keep track of application compatibility with the OS and tracks all applications launched on the machine. Its main purpose in Windows is to ensure backward compatibility of applications. It is also called Application Compatibility Cache (AppCompatCache). It is located in the following location in the SYSTEM hive:
 
@@ -470,7 +470,7 @@ We can use the following command to run the AppCompatCache Parser Utility:
 
 The output can be viewed using EZviewer, another one of Eric Zimmerman's tools.
 
-**AmCache:**
+#### AmCache
 
 The AmCache hive is an artifact related to ShimCache. This performs a similar function to ShimCache, and stores additional data related to program executions. This data includes execution path, installation, execution and deletion times, and SHA1 hashes of the executed programs. This hive is located in the file system at:
 
@@ -484,7 +484,7 @@ This is how Registry Explorer parses the AmCache hive:
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/a569dfdf155c1a26fe3a693c388a44c7.png)
 
-BAM/DAM
+#### BAM/DAM
 
 Background Activity Monitor or BAM keeps a tab on the activity of background applications. Similar Desktop Activity Moderator or DAM is a part of Microsoft Windows that optimizes the power consumption of the device. Both of these are a part of the Modern Standby system in Microsoft Windows.
 
