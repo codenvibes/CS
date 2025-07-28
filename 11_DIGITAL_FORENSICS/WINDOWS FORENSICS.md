@@ -66,7 +66,7 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 
 ###### What is the short form for HKEY_LOCAL_MACHINE?
 
-
+<div></div>
 
 ### 3. Accessing registry hives offline
 
