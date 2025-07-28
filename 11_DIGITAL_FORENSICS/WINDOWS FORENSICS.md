@@ -140,6 +140,39 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 4. Data Acquisition
+
+When performing forensics, we will either encounter a live system or an image taken of the system. For the sake of accuracy, it is recommended practice to image the system or make a copy of the required data and perform forensics on it. This process is called data acquisition. Below we discuss different ways to acquire registry data from a live system or a disk image:
+
+Though we can view the registry through the registry editor, the forensically correct method is to acquire a copy of this data and perform analysis on that. However, when we go to copy the registry hives from `%WINDIR%\System32\Config` , we cannot because it is a restricted file. So, what to do now?
+
+For acquiring these files, we can use one of the following tools:
+
+**KAPE:**
+
+[KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape) is a live data acquisition and analysis tool which can be used to acquire registry data. It is primarily a command-line tool but also comes with a GUI. The below screenshot shows what the KAPE GUI looks like. We have already selected all the settings to extract the registry data using KAPE in this screenshot. We will learn more about collecting forensic artifacts using KAPE in a dedicated KAPE room.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/48b9656c4037d0537bf517d6084517a8.png)
+
+**Autopsy:**
+
+[Autopsy](https://www.autopsy.com/)  gives you the option to acquire data from both live systems or from a disk image. After adding your data source, navigate to the location of the files you want to extract, then right-click and select the Extract File(s) option. It will look similar to what you see in the screenshot below.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/5faf350078f7e7e1d1400f46e11e74a9.png)
+
+**FTK Imager:**
+
+[FTK Imager](https://www.exterro.com/ftk-imager)  is similar to Autopsy and allows you to extract files from a disk image or a live system by mounting the said disk image or drive in FTK Imager. Below you can see the option to Export files as highlighted in the screenshot.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/08b1f97dd47b33c4261fb362d49ac929.png)
+
+Another way you can extract Registry files from FTK Imager is through the Obtain Protected Files option. This option is only available for live systems and is highlighted in the screenshot below. This option allows you to extract all the registry hives to a location of your choosing. However, it will not copy the `Amcache.hve` file, which is often necessary to investigate evidence of programs that were last executed.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/6aa5e6825bb003dc803106d5f70e155c.png)
+
+For the purpose of this room, we will not be acquiring data ourselves, but instead, we will work with the attached VM that already has data.
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -149,6 +182,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 5. Exploring Windows Registry
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -158,6 +194,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 6. System Information and System Accounts
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -167,6 +206,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 7. Usage or knowledge of files/folders
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -176,6 +218,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 8. Evidence of Execution
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -185,6 +230,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 9. External Devices/USB device forensics
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
@@ -194,6 +242,9 @@ Registry backups are the opposite of Transaction logs. These are the backups of 
 </div>
 
 ### 10. Hands-on Challenge
+
+#### Questions
+
 <div align="center">
 <br>
 <br>
