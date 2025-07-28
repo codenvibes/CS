@@ -542,7 +542,7 @@ In this key, the #### sign can be replaced by the following digits to get the re
 
 Although we can check this value manually, as we have seen above, Registry Explorer already parses this data and shows us if we select the USBSTOR key.
 
-**USB device Volume Name
+#### USB device Volume Name
 
 The device name of the connected drive can be found at the following location:
 
