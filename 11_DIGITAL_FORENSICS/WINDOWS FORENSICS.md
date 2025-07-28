@@ -259,7 +259,7 @@ This is how it looks like in Registry Explorer. Take a look and answer Question 
 
 It is vital to establish this information before moving forward with the analysis. As we will see, many forensic artifacts we collect will be collected from the Control Sets.
 
-**Computer Name:**
+#### Computer Name:
 
 It is crucial to establish the Computer Name while performing forensic analysis to ensure that we are working on the machine we are supposed to work on. We can find the Computer Name from the following location:
 
@@ -269,7 +269,7 @@ Registry Explorer shows it like this. Take a look and answer Question # 3:
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/bb73d7942a6e30cb96e78926ad36fddb.png)
 
-**Time Zone Information:**
+#### Time Zone Information
 
 For accuracy, it is important to establish what time zone the computer is located in. This will help us understand the chronology of the events as they happened. For finding the Time Zone Information, we can look at the following location:
 
@@ -281,7 +281,7 @@ Here's how it looks in Registry Explorer. Take a look and answer Question # 4.
 
 Time Zone Information is important because some data in the computer will have their timestamps in UTC/GMT and others in the local time zone. Knowledge of the local time zone helps in establishing a timeline when merging data from all the sources.
 
-**Network Interfaces and Past Networks:**
+#### Network Interfaces and Past Networks:
 
 The following registry key will give a list of network interfaces on the machine we are investigating:
 
@@ -304,7 +304,7 @@ The past networks a given machine was connected to can be found in the following
 
 These registry keys contain past networks as well as the last time they were connected. The last write time of the registry key points to the last time these networks were connected.
 
-**Autostart Programs (Autoruns):**
+#### Autostart Programs (Autoruns)
 
 The following registry keys include information about programs or commands that run when a user logs on. 
 
@@ -330,7 +330,7 @@ Notice the Value of the Start key in the screenshot below.
 
 In this registry key, if the `start`   key is set to 0x02, this means that this service will start at boot.
 
-**SAM hive and user information:**
+#### SAM hive and user information:
 
 The SAM hive contains user account information, login information, and group information. This information is mainly located in the following location:
 
