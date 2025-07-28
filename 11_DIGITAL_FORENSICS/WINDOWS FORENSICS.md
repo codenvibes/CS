@@ -89,13 +89,15 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 
 If you are accessing a live system, you will be able to access the registry using regedit.exe, and you will be greeted with all of the standard root keys we learned about in the previous task. However, if you only have access to a disk image, you must know where the registry hives are located on the disk. The majority of these hives are located in the `C:\Windows\System32\Config` directory and are:
 
-1. **DEFAULT** (mounted on `HKEY_USERS\DEFAULT`)
-2. **SAM** (mounted on `HKEY_LOCAL_MACHINE\SAM`)
-3. **SECURITY** (mounted on `HKEY_LOCAL_MACHINE\Security`)
-4. **SOFTWARE** (mounted on `HKEY_LOCAL_MACHINE\Software`)
-5. **SYSTEM** (mounted on `HKEY_LOCAL_MACHINE\System`)
+|Hive Name|Mounted On|Description|
+|---|---|---|
+|**DEFAULT**|`HKEY_USERS\DEFAULT`|Default profile settings used when no user is logged in.|
+|**SAM**|`HKEY_LOCAL_MACHINE\SAM`|Stores user account info and credentials.|
+|**SECURITY**|`HKEY_LOCAL_MACHINE\SECURITY`|Holds local security policies and settings.|
+|**SOFTWARE**|`HKEY_LOCAL_MACHINE\SOFTWARE`|Installed software and configuration data.|
+|**SYSTEM**|`HKEY_LOCAL_MACHINE\SYSTEM`|System settings, drivers, services, and startup info.|
 
-**Hives containing user information:**
+#### Hives containing user information:
 
 Apart from these hives, two other hives containing user information can be found in the User profile directory. For Windows 7 and above, a user’s profile directory is located in `C:\Users\<username>\` where the hives are:
 
