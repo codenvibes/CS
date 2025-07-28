@@ -103,8 +103,10 @@ However, if you only have access to a disk image, you must know where the regist
 
 Apart from these hives, two other hives containing user information can be found in the User profile directory. For Windows 7 and above, a user’s profile directory is located in `C:\Users\<username>\` where the hives are:
 
-1. **NTUSER.DAT** (mounted on HKEY_CURRENT_USER when a user logs in)
-2. **USRCLASS.DAT** (mounted on HKEY_CURRENT_USER\Software\CLASSES)
+| Hive Name        | Mounted On                           | Location                                               | Description                                                  |
+| ---------------- | ------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+| **NTUSER.DAT**   | `HKEY_CURRENT_USER`                  | `C:\Users\<username>\`                                 | User profile settings and preferences.                       |
+| **USRCLASS.DAT** | `HKEY_CURRENT_USER\Software\Classes` | `C:\Users\<username>\AppData\Local\Microsoft\Windows\` | User-specific file associations and COM class registrations. |
 
 The USRCLASS.DAT hive is located in the directory `C:\Users\<username>\AppData\Local\Microsoft\Windows`. 
 
