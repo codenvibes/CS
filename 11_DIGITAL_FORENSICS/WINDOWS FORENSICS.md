@@ -23,6 +23,8 @@ Artifacts can include:
 - System event logs
 
 In computer forensics, forensic artifacts can be small footprints of activity left on the computer system. On a Windows system, a person's actions can be traced back quite accurately using computer forensics because of the various artifacts a Windows system creates for a given activity. These artifacts often reside in locations 'normal' users won't typically venture to. For our purposes, these artifacts can be analyzed to provide the trial of activity for an investigation.
+
+#####
 <div align="center">
 <br>
 <br>
@@ -79,6 +81,41 @@ Here is how Microsoft defines each of these root keys. For more detail and infor
 <br>
 </div>
 ### 3. Accessing registry hives offline
+
+If you are accessing a live system, you will be able to access the registry using regedit.exe, and you will be greeted with all of the standard root keys we learned about in the previous task. However, if you only have access to a disk image, you must know where the registry hives are located on the disk. The majority of these hives are located in the `C:\Windows\System32\Config` directory and are:
+
+1. **DEFAULT** (mounted on `HKEY_USERS\DEFAULT`)
+2. **SAM** (mounted on `HKEY_LOCAL_MACHINE\SAM`)
+3. **SECURITY** (mounted on `HKEY_LOCAL_MACHINE\Security`)
+4. **SOFTWARE** (mounted on `HKEY_LOCAL_MACHINE\Software`)
+5. **SYSTEM** (mounted on `HKEY_LOCAL_MACHINE\System`)
+
+**Hives containing user information:**
+
+Apart from these hives, two other hives containing user information can be found in the User profile directory. For Windows 7 and above, a user’s profile directory is located in `C:\Users\<username>\` where the hives are:
+
+1. **NTUSER.DAT** (mounted on HKEY_CURRENT_USER when a user logs in)
+2. **USRCLASS.DAT** (mounted on HKEY_CURRENT_USER\Software\CLASSES)
+
+The USRCLASS.DAT hive is located in the directory `C:\Users\<username>\AppData\Local\Microsoft\Windows`. 
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/3ffadf20ebe241040d659958db115c2f.png)  
+
+The NTUSER.DAT hive is located in the directory `C:\Users\<username>\`.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/f3091f38f680b418f89cf79128d1933c.png)
+
+Remember that NTUSER.DAT and USRCLASS.DAT are hidden files.
+
+**The Amcache Hive:**
+
+Apart from these files, there is another very important hive called the AmCache hive. This hive is located in `C:\Windows\AppCompat\Programs\Amcache.hve`. Windows creates this hive to save information on programs that were recently run on the system.
+
+**Transaction Logs and Backups:**
+
+Some other very vital sources of forensic data are the registry transaction logs and backups. The transaction logs can be considered as the journal of the changelog of the registry hive. Windows often uses transaction logs when writing data to registry hives. This means that the transaction logs can often have the latest changes in the registry that haven't made their way to the registry hives themselves. The transaction log for each hive is stored as a .LOG file in the same directory as the hive itself. It has the same name as the registry hive, but the extension is .LOG. For example, the transaction log for the SAM hive will be located in `C:\Windows\System32\Config` in the filename SAM.LOG. Sometimes there can be multiple transaction logs as well. In that case, they will have .LOG1, .LOG2 etc., as their extension. It is prudent to look at the transaction logs as well when performing registry forensics.
+
+Registry backups are the opposite of Transaction logs. These are the backups of the registry hives located in the `C:\Windows\System32\Config` directory. These hives are copied to the `C:\Windows\System32\Config\RegBack` directory every ten days. It might be an excellent place to look if you suspect that some registry keys might have been deleted/modified recently.
 <div align="center">
 <br>
 <br>
