@@ -23,12 +23,14 @@ Artifacts can include:
 - System event logs
 
 In computer forensics, forensic artifacts can be small footprints of activity left on the computer system. On a Windows system, a person's actions can be traced back quite accurately using computer forensics because of the various artifacts a Windows system creates for a given activity. These artifacts often reside in locations 'normal' users won't typically venture to. For our purposes, these artifacts can be analyzed to provide the trial of activity for an investigation.
-
 <div align="center">
-
+<br>
+<br>
 ※※※※※※※※※※※※
+<br>
+<br>
+<br>
 </div>
-
 ### 2. Windows Registry and Forensics
 
 #### Windows Registry:
