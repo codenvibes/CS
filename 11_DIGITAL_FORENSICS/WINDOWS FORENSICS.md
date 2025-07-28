@@ -25,10 +25,6 @@ Assuming the same build of Windows is installed on a system, excluding the actio
 
 Windows saves these preferences to make your computer more personalized. However, forensic investigators use these preferences as artifacts to identify the activity performed on a system. So while your computer might be spying on you, it is not for the explicit reason of spying, instead to make it more pleasant to use the computer according to your taste. But that same information is used by forensic investigators to perform forensic analysis. As we move through this room, we'll see that Windows stores these artifacts in different locations throughout the file system such as in the registry, a user's profile directory, in application-specific files, etc. 
 
-In the next task, we will learn about the Windows Registry and how it can help us in forensic analysis of a Windows system.
-
-**Note:** Except for Task #10, which has a VM attached, the questions for all the upcoming tasks can be answered using the concepts and evidence presented in the text and images.
-
 ### 2. Windows Registry and Forensics
 
 ### 3. Accessing registry hives offline
