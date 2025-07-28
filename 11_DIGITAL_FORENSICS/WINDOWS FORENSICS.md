@@ -27,6 +27,7 @@ In computer forensics, forensic artifacts can be small footprints of activity le
 #### Questions
 
 ![[Pasted image 20250728184827.png]]
+
 <div align="center">
 <br>
 <br>
@@ -35,6 +36,7 @@ In computer forensics, forensic artifacts can be small footprints of activity le
 <br>
 <br>
 </div>
+
 ### 2. Windows Registry and Forensics
 
 #### Windows Registry:
