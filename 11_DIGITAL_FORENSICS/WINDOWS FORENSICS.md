@@ -442,6 +442,62 @@ Here is how the TypedPaths key looks like in Registry Explorer:
 
 ### 8. Evidence of Execution
 
+**UserAssist** :
+
+Windows keeps track of applications launched by the user using Windows Explorer for statistical purposes in the User Assist registry keys. These keys contain information about the programs launched, the time of their launch, and the number of times they were executed. However, programs that were run using the command line can't be found in the User Assist keys. The User Assist key is present in the NTUSER hive, mapped to each user's GUID. We can find it at the following location:
+
+`NTUSER.DAT\Software\Microsoft\Windows\Currentversion\Explorer\UserAssist\{GUID}\Count`
+
+Take a look at the below screenshot from Registry Explorer and answer Question #1.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/9bd8461865865ac3ff774c8a88d1afd5.png)
+
+**ShimCache:**
+
+ShimCache is a mechanism used to keep track of application compatibility with the OS and tracks all applications launched on the machine. Its main purpose in Windows is to ensure backward compatibility of applications. It is also called Application Compatibility Cache (AppCompatCache). It is located in the following location in the SYSTEM hive:
+
+`SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache`
+
+ShimCache stores file name, file size, and last modified time of the executables.
+
+Our goto tool, the Registry Explorer, doesn't parse ShimCache data in a human-readable format, so we go to another tool called AppCompatCache Parser, also a part of Eric Zimmerman's tools. It takes the SYSTEM hive as input, parses the data, and outputs a CSV file that looks like this:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/aad7dc918dbf3b1ab207dd71d03e8c0c.png)
+
+We can use the following command to run the AppCompatCache Parser Utility:
+
+`AppCompatCacheParser.exe --csv <path to save output> -f <path to SYSTEM hive for data parsing> -c <control set to parse>`
+
+The output can be viewed using EZviewer, another one of Eric Zimmerman's tools.
+
+**AmCache:**
+
+The AmCache hive is an artifact related to ShimCache. This performs a similar function to ShimCache, and stores additional data related to program executions. This data includes execution path, installation, execution and deletion times, and SHA1 hashes of the executed programs. This hive is located in the file system at:
+
+`C:\Windows\appcompat\Programs\Amcache.hve`
+
+Information about the last executed programs can be found at the following location in the hive:
+
+`Amcache.hve\Root\File\{Volume GUID}\`
+
+This is how Registry Explorer parses the AmCache hive:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/a569dfdf155c1a26fe3a693c388a44c7.png)
+
+BAM/DAM
+
+Background Activity Monitor or BAM keeps a tab on the activity of background applications. Similar Desktop Activity Moderator or DAM is a part of Microsoft Windows that optimizes the power consumption of the device. Both of these are a part of the Modern Standby system in Microsoft Windows.
+
+In the Windows registry, the following locations contain information related to BAM and DAM. This location contains information about last run programs, their full paths, and last execution time.
+
+`SYSTEM\CurrentControlSet\Services\bam\UserSettings\{SID}`
+
+`SYSTEM\CurrentControlSet\Services\dam\UserSettings\{SID}`
+
+Below you can see how Registry Explorer parses data from BAM:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/61306d87a330ed00419e22e7/room-content/8a672c6580ab63d757ee5c08c09c924a.png)
+
 #### Questions
 
 <div align="center">
