@@ -599,6 +599,7 @@ One of the Desktops in the research lab at Organization X is suspected to have b
 
 ![[Pasted image 20250729102658.png]]
 ![[Pasted image 20250729104738.png]]
+![[Pasted image 20250729104915.png]]
 
 ![[Pasted image 20250729102923.png]]
 
