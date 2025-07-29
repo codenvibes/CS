@@ -601,13 +601,33 @@ One of the Desktops in the research lab at Organization X is suspected to have b
 ![[Pasted image 20250729104738.png]]
 ![[Pasted image 20250729104915.png]]
 ![[Pasted image 20250729102923.png]]
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 ![[Pasted image 20250729103228.png]]
 ![[Pasted image 20250729103549.png]]
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 ![[Pasted image 20250729103919.png]]
 ![[Pasted image 20250729104143.png]]
-
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 ![[Pasted image 20250729110835.png]]
 ![[Pasted image 20250729105300.png]]
