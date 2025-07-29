@@ -669,6 +669,14 @@ One of the Desktops in the research lab at Organization X is suspected to have b
 
 ### 11. Conclusion
 
+Phew! Wasn't that interesting! 
+
+We have learned how to gather basic information about a computer and its users, identify which files they used, which programs they ran, and any external devices connected to the system.
+
+If it was a little harder for you to keep track of all the artifacts, download the cheatsheet on this task.
+
+
+
 ---
 
 ## References
