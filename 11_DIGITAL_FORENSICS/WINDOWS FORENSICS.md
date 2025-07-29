@@ -677,6 +677,10 @@ If it was a little harder for you to keep track of all the artifacts, download t
 
 ![[Windows Forensics Cheatsheet.pdf]]
 
+You can use the links provided within Task 3 to explore more about the tools we introduced. Furthermore, if you like, you can play around with KAPE, regripper, and EZtools in the VM attached with the room.
+
+You can learn more about Windows Forensics in our [Windows Forensics 2](http://tryhackme.com/room/windowsforensics2) room, where we cover even more exciting ways to perform forensics on a Windows machine, and the [KAPE room](https://tryhackme.com/room/kape) to understand how to perform forensics in a quick and efficient manner.
+
 ---
 
 ## References
