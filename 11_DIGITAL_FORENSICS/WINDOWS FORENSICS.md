@@ -658,7 +658,7 @@ One of the Desktops in the research lab at Organization X is suspected to have b
 </div>
 
 ![[Pasted image 20250729115609.png]]
-
+![[Pasted image 20250729115719.png]]
 <div align="center">
 <br>
 <br>
