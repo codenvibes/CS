@@ -675,7 +675,7 @@ We have learned how to gather basic information about a computer and its users, 
 
 If it was a little harder for you to keep track of all the artifacts, download the cheatsheet on this task.
 
-
+![[Windows Forensics Cheatsheet.pdf]]
 
 ---
 
