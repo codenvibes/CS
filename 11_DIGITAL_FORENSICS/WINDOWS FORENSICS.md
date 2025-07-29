@@ -577,7 +577,11 @@ If preferred, use the following credentials to log into the machine:
 
 **Password:** 123
 
-Once we log in, we will see two folders on the Desktop named `triage` and `EZtools`. The `triage` folder contains a triage collection collected through KAPE, which has the same directory structure as the parent. This is where our artifacts will be located. The `EZtools` folder contains Eric Zimmerman's tools, which we will be using to perform our analysis. You will also find RegistryExplorer, EZViewer, and AppCompatCacheParser.exe in the same folder.
+Once we log in, we will see two folders on the Desktop named `triage` and `EZtools`. 
+
+The `triage` folder contains a triage collection collected through KAPE, which has the same directory structure as the parent. This is where our artifacts will be located. 
+
+The `EZtools` folder contains Eric Zimmerman's tools, which we will be using to perform our analysis. You will also find RegistryExplorer, EZViewer, and AppCompatCacheParser.exe in the same folder.
 
 **Note:** Although the Autopsy tool on the Desktop can be used to solve this case, it is recommended that you use the `EZtools`, as demonstrated in this room.
 
