@@ -81,7 +81,7 @@ Each log type presents a unique perspective on the activities within an environm
 
 Several methodologies, best practices, and essential techniques are employed to create a coherent timeline and conduct effective log analysis investigations.
 
-Timeline
+### Timeline
 
 When conducting log analysis, creating a timeline is a fundamental aspect of understanding the sequence of events within systems, devices, and applications. At a high level, a timeline is a chronological representation of the logged events, ordered based on their occurrence. The ability to visualize a timeline is a powerful tool for contextualizing and comprehending the events that occurred over a specific period.
 
