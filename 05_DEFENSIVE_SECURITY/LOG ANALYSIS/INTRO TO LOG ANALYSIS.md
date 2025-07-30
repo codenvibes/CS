@@ -129,7 +129,7 @@ For a hands-on walkthrough on dashboards and alerting within #Splunk, it is rec
 
 Identifying what may be of interest to us in log analysis is essential. It is challenging to analyze a log if we're not entirely sure what we are looking for.
 
-First, let's understand what [[THREAT INTELLIGENCE#^a34113|threat intelligence]] threat intelligence is. In summary, threat intelligence are pieces of information that can be attributed to a malicious actor. Examples of threat intelligence include:
+First, let's understand what [[THREAT INTELLIGENCE#^a34113|threat intelligence]] is. In summary, threat intelligence are pieces of information that can be attributed to a malicious actor. Examples of threat intelligence include:
 
 - IP Addresses
 - File Hashes
@@ -137,7 +137,7 @@ First, let's understand what [[THREAT INTELLIGENCE#^a34113|threat intelligence]]
 
 When analyzing a log file, we can search for the presence of threat intelligence. For example, take this Apache2 web server entry below. We can see that an IP address has tried to access our site's admin panel.
 
-Outputting an Apache2 Access Log
+Outputting an Apache2 Access Log:
 
 ```shell-session
 cmnatic@thm cat access.log
