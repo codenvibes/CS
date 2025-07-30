@@ -774,6 +774,103 @@ While command-line log analysis offers powerful capabilities, it might only suit
 
 ## 7. Log Analysis Tools: Regular Expressions
 
+Regular expressions, abbreviated as _regex_, are an invaluable way to define patterns for searching, matching, and manipulating text data. Regular expression patterns are constructed using a combination of special characters that represent matching rules and are supported in many programming languages, text editors, and software.
+
+This room won't cover the in-depth use of constructing regular expression patterns. However, the [Regular expressions](https://tryhackme.com/room/catregex) room is a fantastic resource for learning and practicing regex.
+
+Regular expressions are widely used in log analysis to extract relevant information, filter data, identify patterns, and process logs before they are forwarded to a centralized SIEM system. It's even possible to use regex with the `grep` command, as it is an extremely powerful way to search for patterns in log files.
+
+Regular Expressions for grep
+
+As a simple example, refer to the `apache-ex2.log` file within the ZIP file attached to this task. You can locate the task files on the AttackBox under `/root/Rooms/introloganalysis/task7`. Ensure to `unzip` the file first by running `unzip regex.zip` and then `cd regex`.
+
+This log file contains log entries from a blog site. The site is structured so that each blog post has its unique ID, fetched from the database dynamically through the `post` URL parameter. If we are only interested in the specific blog posts with an ID between 10-19, we can run the following `grep` regular expression pattern on the log file:
+
+grep Regex Example
+
+```shell-session
+user@tryhackme$ grep -E 'post=1[0-9]' apache-ex2.log
+203.0.113.1 - - [02/Aug/2023:10:15:23 +0000] "GET /blog.php?post=12 HTTP/1.1" 200 - "Mozilla/5.0"
+100.22.189.54 - - [03/Aug/2023:12:48:43 +0000] "GET /blog.php?post=14 HTTP/1.1" 200 - "Mozilla/5.0"
+34.210.98.12 - - [03/Aug/2023:15:30:56 +0000] "GET /blog.php?post=11 HTTP/1.1" 200 - "Mozilla/5.0"
+102.210.76.44 - - [04/Aug/2023:19:26:29 +0000] "GET /blog.php?post=16 HTTP/1.1" 200 - "Mozilla/5.0"
+98.88.76.103 - - [05/Aug/2023:17:56:33 +0000] "GET /blog.php?post=13 HTTP/1.1" 200 - "Mozilla/5.0"
+76.88.44.90 - - [06/Aug/2023:12:58:22 +0000] "GET /blog.php?post=17 HTTP/1.1" 200 - "Mozilla/5.0"
+98.76.102.33 - - [07/Aug/2023:15:24:30 +0000] "GET /blog.php?post=19 HTTP/1.1" 200 - "Mozilla/5.0"
+...
+...
+```
+
+Notice that we added the `-E` option to signify that we are searching on a pattern rather than just a string, which is what allows us to use regex. For the pattern itself, we match the literal characters `post=`. After which, we include the number `1` followed by the dynamic insertion of characters 0-9 using `[0-9]`. Putting this together, `1[0-9]` will match any two-digit number that starts with "1", such as 10, 11, 12, and onward.
+
+Regular Expressions for Log Parsing
+
+Regular expressions also play a crucial role in log parsing, which is the process of breaking down log entries into structured components and extracting relevant information from them. Log files from different sources can have diverse formats and fields, sometimes requiring additional processing to transform raw log data into structured, actionable information.
+
+Additionally, engineers can create custom regex patterns tailored to specific logs to map specific parts of a log entry to named fields for an SIEM system. Overall, this process makes it much easier to query and analyze the extracted data later.
+
+Consider the following raw, unstructured log entry:
+
+Log Entry Example
+
+```shell-session
+126.47.40.189 - - [28/Jul/2023:15:30:45 +0000] "GET /admin.php HTTP/1.1" 200 1275 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.9999.999 Safari/537.36"
+```
+
+From a security standpoint, several fields here would be beneficial to extract into an SIEM for visualization. Some of these include:
+
+- The IP address
+- The timestamp
+- The HTTP method (POST, GET, or PUT, for example)
+- The URL
+- The user-agent
+
+[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool.
+
+![The Regexr.com GUI after pasting in the unstructured log entry](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/740e3dbe4c3670c6d0deeb879709afd9.png)
+
+As a basic example, if we want to extract just the remote IP address from this log, we can think about the structure of the IP address logically. The IP address is the log entry's first part, consisting of four octets separated by periods. We can use the following pattern:
+
+`\b([0-9]{1,3}\.){3}[0-9]{1,3}\b`
+
+Paste this pattern into the "**Expression**" field in RegExr, and you will notice that the IP address from the log is successfully extracted and highlighted.
+
+![The Regexr.com GUI after pasting in the Regex pattern](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/bb98e758d1811b18fe940019aa07a6b5.png)
+
+Breaking this pattern down, it begins and ends with a word boundary anchor `\b` to ensure we match complete IP addresses. In between, we define the following:
+
+- `[0-9]{1,3}` - Matches one to three digits to match numbers from 0 to 999. While IPv4 addresses octets cannot exceed 255, this simplified pattern works for our use case.
+- `\.` - Escapes and matches a literal `.` character in the IP address.
+- `{3}` - Specifies that the previous capturing group `([0-9]{1,3}\.)` should be repeated three times.
+- `[0-9]{1,3}` - Again, this matches numbers from 0 to 999, completing the fourth octet of the IP address.
+
+Example: Logstash and Grok
+
+Grok is a powerful Logstash plugin that enables you to parse unstructured log data into something structured and searchable. It's commonly used for any log format written for humans to read rather than for computer consumption. It works by combining text patterns with the `%{SYNTAX:SEMANTIC}` pattern syntax. However, sometimes, Logstash lacks the built-in pattern we need. In these cases, we can define custom patterns using the **Oniguruma syntax** and take advantage of regular expressions. More info on Grok and its use within the Elastic Stack can be found in the Elastic documentation [here](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html).
+
+We can use the pattern we previously created to successfully extract IPv4 addresses from our log file and process them into a custom field before they are sent to an SIEM. In an Elastic Stack scenario, we can add a filter using the `Grok` plugin within our Logstash configuration file to achieve this.
+
+logstash.conf
+
+```yaml
+input {
+  ...
+}
+
+filter {
+  grok {
+    match => { "message" => "(?<ipv4_address>\b([0-9]{1,3}\.){3}[0-9]{1,3}\b)" }
+  }
+}
+
+output {
+  ...
+}
+```
+
+In the configuration above, we use our previously defined regular expression pattern to extract IPv4 addresses from the "message" field of incoming log events. The extracted values will be added under the custom "ipv4_addresses" field name we defined. Typically, IP addresses are extracted automatically by default configurations. But this simple example shows the power of regular expression patterns when dealing with complex log files and custom field requirements.
+
+The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Grok documentation](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html) are fantastic resources for further exploring Logstash input and filter configurations!
 <div align="center">
 <br>
 <br>
