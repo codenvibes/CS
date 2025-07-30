@@ -236,6 +236,13 @@ The specific indicators can vary greatly depending on the source, but some examp
     - For example, by default, the [Nmap scanner](https://tryhackme.com/room/furthernmap) will log a user agent containing "Nmap Scripting Engine." The [Hydra brute-forcing tool](https://tryhackme.com/room/hydra), by default, will include "(Hydra)" in its user-agent. These indicators can be useful in log files to detect potential malicious activity. #Nmap #Hydra
 
 The significance of these anomalies can vary greatly depending on the specific context and the systems in place, so it is essential to fine-tune any automated anomaly detection mechanisms to minimize false positives.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 ### Common Attack Signatures
 
@@ -280,6 +287,13 @@ path-traversal.log
 ```plaintext
 10.10.113.45 - - [2023-08-05 18:17:25] "GET /../../../../../etc/passwd HTTP/1.1" 200 505
 ```
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 ### Questions
 
