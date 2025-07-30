@@ -123,7 +123,7 @@ Many SIEM solutions (like #Splunk and the #Elastic_Stack) allow the creation
 
 Roles and responsibilities should be defined for escalation and notification procedures during various stages of the incident response process. Escalation procedures ensure that incidents are addressed promptly and that the right personnel are informed at each severity level.
 
-For a hands-on walkthrough on dashboards and alerting within Splunk, it is recommended to check out the [Splunk: Dashboards and Reports](https://tryhackme.com/jr/splunkdashboardsandreports) room!
+For a hands-on walkthrough on dashboards and alerting within #Splunk, it is recommended to check out the [Splunk: Dashboards and Reports](https://tryhackme.com/jr/splunkdashboardsandreports) room!
 
 External Research and Threat Intel
 
