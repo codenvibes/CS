@@ -751,6 +751,8 @@ While command-line log analysis offers powerful capabilities, it might only suit
 
 
 ![[Pasted image 20250730172655.png]]
+![[Pasted image 20250730173422.png]]
+
 
 <div align="center">
 <br>
