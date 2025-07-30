@@ -280,6 +280,10 @@ path-traversal.log
 ```plaintext
 10.10.113.45 - - [2023-08-05 18:17:25] "GET /../../../../../etc/passwd HTTP/1.1" 200 505
 ```
+
+### Questions
+
+
 <div align="center">
 <br>
 <br>
