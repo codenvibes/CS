@@ -733,6 +733,16 @@ Like with `awk` and `sed`, `grep` is an extremely powerful tool that cannot
 While command-line log analysis offers powerful capabilities, it might only suit some scenarios, especially when dealing with vast and complex log datasets. A dedicated log analysis solution, like the Elastic (ELK) Stack or Splunk, can be more efficient and offer additional log analysis and visualization features. However, the command line remains essential for quick and straightforward log analysis tasks.
 
 ### Questions
+
+![[Pasted image 20250730170450.png]]
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ cut -d ' ' -f 7 apache-1691435735822.log | grep 'flag'
+/index.php?flag=c701d43cc5a3acb9b5b04db7f1be94f6
+```
+
+
+
 <div align="center">
 <br>
 <br>
