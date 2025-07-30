@@ -670,8 +670,6 @@ Note that the backslash character `\` is required to "escape" the forward slas
 
 For the `awk` command, a common use case, is conditional actions based on specific field values. For example, to print log entries where the HTTP response code is greater than or equal to `400` (which would indicate HTTP error statuses), we can use the following command:
 
-awk Example
-
 ```shell-session
 user@tryhackme$ awk '$9 >= 400' apache.log
 120.54.86.23 - - [31/Jul/2023:12:34:57 +0000] "GET /contact.php HTTP/1.1" 404 5678 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
