@@ -425,8 +425,15 @@ user@tryhackme$ cat apache.log
 ```
 
 Due to its large output, it is typically not the best approach for dealing with long log files.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-less
+### #less
 
 The `less` command is an improvement over `cat` when dealing with larger files. It allows you to view the file's data page by page, providing a more convenient way to read through lengthy logs. When using `less` to open a file, it displays the first page by default, and you can scroll down using the arrow keys or with _Page Up_ and _Page Down_.
 
@@ -453,8 +460,15 @@ TP/1.1" 200 5678 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (
 ```
 
 You can exit the command's output via the `q` key.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-tail
+### #tail
 
 The `tail` command is specifically designed for viewing the end of files and is very useful for seeing a summary of recently generated events in the case of log files. The most common use of `tail` is coupled with the `-f` option, which allows you to "follow" the log file in real-time, as it continuously updates the terminal with new log entries as they are generated and written. This is extremely useful when monitoring logs for live events or real-time system behavior.
 
