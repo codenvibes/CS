@@ -1,4 +1,4 @@
-==^DEF-Threat Intelligence is the analysis of data and information using tools and techniques to generate meaningful patterns on how to mitigate against potential risks associated with existing or emerging threats targeting organizations, industries, sectors or governments.==
+==DEF-Threat Intelligence is the analysis of data and information using tools and techniques to generate meaningful patterns on how to mitigate against potential risks associated with existing or emerging threats targeting organizations, industries, sectors or governments.== ^a34113
 
 To mitigate against risks, we can start by trying to answer a few simple questions:
 - Who's attacking you?
