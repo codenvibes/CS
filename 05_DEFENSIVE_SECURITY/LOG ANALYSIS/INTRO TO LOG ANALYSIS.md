@@ -731,6 +731,12 @@ Notice that in the above command, we filtered out the `index.php` page and pip
 Like with `awk` and `sed`, `grep` is an extremely powerful tool that cannot be fully covered in a single task. It is highly encouraged to read more about it on the official GNU manual page [here](https://www.gnu.org/software/grep/manual/grep.html).
 
 While command-line log analysis offers powerful capabilities, it might only suit some scenarios, especially when dealing with vast and complex log datasets. A dedicated log analysis solution, like the Elastic (ELK) Stack or Splunk, can be more efficient and offer additional log analysis and visualization features. However, the command line remains essential for quick and straightforward log analysis tasks.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
 
 ### Questions
 
@@ -767,6 +773,8 @@ While command-line log analysis offers powerful capabilities, it might only suit
 
 
 ## 7. Log Analysis Tools: Regular Expressions
+
+
 <div align="center">
 <br>
 <br>
