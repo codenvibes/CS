@@ -743,9 +743,14 @@ While command-line log analysis offers powerful capabilities, it might only suit
 
 
 ![[Pasted image 20250730171700.png]]
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ grep "200" apache-1691435735822.log | wc -l
+52
 ```
 
-```
+
+
 <div align="center">
 <br>
 <br>
