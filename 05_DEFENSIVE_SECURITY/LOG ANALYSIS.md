@@ -42,7 +42,7 @@ In the above example, this log entry signifies an event detected by a firewall�
 
 The remaining fields give us specific information related to the logged event. Specifically, that unusual network activity was detected _from_ IP 10.10.0.15 _to_ IP 203.0.113.25. Based on the `Source Zone` field, the traffic appears destined for the Internet (**External**), and the **Application** was categorized as **web-browsing**.
 
-Why Are Logs Important?
+### Why Are Logs Important?
 
 There are several reasons why collecting logs and adopting an effective log analysis strategy is vital for an organization's ongoing operations. Some of the most common activities include:
 
