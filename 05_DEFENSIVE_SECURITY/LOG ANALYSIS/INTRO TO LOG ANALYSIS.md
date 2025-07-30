@@ -743,6 +743,9 @@ While command-line log analysis offers powerful capabilities, it might only suit
 
 
 ![[Pasted image 20250730171700.png]]
+```
+
+```
 <div align="center">
 <br>
 <br>
