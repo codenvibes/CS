@@ -119,7 +119,7 @@ For example, suppose the objective is to monitor and detect patterns of increase
 
 In addition to visualization, implementing effective log monitoring and alerting allows security teams to _proactively_ identify threats and immediately respond when an alert is generated.
 
-Many SIEM solutions (like Splunk and the Elastic Stack) allow the creation of custom alerts based on metrics obtained in log events. Events worth creating alerts for may include multiple failed login attempts, privilege escalation, access to sensitive files, or other indicators of potential security breaches. Alerts ensure that security teams are promptly notified of suspicious activities that require immediate attention.
+Many SIEM solutions (like #Splunk and the #Elastic_Stack) allow the creation of custom alerts based on metrics obtained in log events. Events worth creating alerts for may include multiple failed login attempts, privilege escalation, access to sensitive files, or other indicators of potential security breaches. Alerts ensure that security teams are promptly notified of suspicious activities that require immediate attention.
 
 Roles and responsibilities should be defined for escalation and notification procedures during various stages of the incident response process. Escalation procedures ensure that incidents are addressed promptly and that the right personnel are informed at each severity level.
 
