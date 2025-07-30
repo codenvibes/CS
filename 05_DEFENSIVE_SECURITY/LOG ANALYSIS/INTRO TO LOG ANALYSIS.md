@@ -406,7 +406,7 @@ Many built-in Linux commands allow us to parse and filter relevant information
 
 You can locate the `apache.log` file on the AttackBox under `/root/Rooms/introloganalysis/task6` to follow along with this task. However, it is also attached to this task and available for download.
 
-cat
+### #cat
 
 The `cat` command (short for "concatenate") is a simple utility that reads one or more files and displays its content in the terminal. When used for log files, it prints the entire log content to the screen.
 
