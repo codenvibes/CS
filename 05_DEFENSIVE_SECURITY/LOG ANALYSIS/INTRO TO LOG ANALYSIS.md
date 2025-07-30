@@ -503,14 +503,18 @@ user@tryhackme$ wc apache.log
 ```
 
 After running `wc` on `apache.log`, we can determine that the file contains **70** lines, **1562** individual words (separated by whitespace), and **14305** individual characters.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
 
 ### #cut
 
 The `cut` command extracts specific columns (fields) from files based on specified delimiters. This is a handy command for working with log files that have structured or tab-separated data.
 
 If we want to extract all of the IP addresses in the file, we can use the `cut` command to specify a delimiter of a `space` character and only select the first field returned.
-
-cut Example
 
 ```shell-session
 user@tryhackme$ cut -d ' ' -f 1 apache.log
