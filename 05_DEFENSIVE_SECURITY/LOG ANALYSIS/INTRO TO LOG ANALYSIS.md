@@ -107,7 +107,7 @@ To learn more about Plaso and its capabilities, visit the [official documentati
 
 ### Data Visualization
 
-Data visualization tools, such as #TOOLS Kibana (of the Elastic Stack) and Splunk, help to convert raw log data into interactive and insightful visual representations through a user interface. Tools like these enable security analysts to understand the indexed data by visualizing patterns and anomalies, often in a graphical view. Multiple visualizations, metrics, and graphic elements can be constructed into a tailored dashboard view, allowing for a comprehensive "single pane of glass" view for log analysis operations.
+Data visualization tools, such as #Kibana (of the Elastic Stack) and #Splunk, help to convert raw log data into interactive and insightful visual representations through a user interface. Tools like these enable security analysts to understand the indexed data by visualizing patterns and anomalies, often in a graphical view. Multiple visualizations, metrics, and graphic elements can be constructed into a tailored dashboard view, allowing for a comprehensive "single pane of glass" view for log analysis operations.
 
 ![An example of a tailored Splunk dashboard for monitoring and performance](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/caeace06b70e4c6920d32ae0bf22e8f4.png)  
 
