@@ -573,8 +573,6 @@ In the above command, we piped the output from `cut` into the `sort` command
 
 If we want to reverse the order, we can add the `-r` option:
 
-sort Example (Reversed)
-
 ```shell-session
 user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r
 221.90.64.76
@@ -593,8 +591,14 @@ user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r
 ...
 ...
 ```
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
 
-uniq
+### #uniq
 
 The `uniq` command identifies and removes adjacent duplicate lines from sorted input. In the context of log analysis, this can be a useful tool for simplifying data lists (like collected IP addresses), especially when log entries may contain repeated or redundant information. The `uniq` command is often combined with the `sort` command to **sort** the data before removing the duplicate entries.
 
