@@ -22,9 +22,9 @@ It is recommended to have a general understanding of logs and how they are colle
 
 ==DEF-Logs are recorded events or transactions within a system, device, or application.== Specifically, these events can be related to application errors, system faults, audited user actions, resource uses, network connections, and more. Each log entry contains relevant details to contextualize the event, such as its timestamp (the date and time it occurred), the source (the system that generated the log), and additional information about the specific log event.
 
-Log analysis is the process of **systematically examining log data** to detect patterns, identify anomalies, understand system behavior, and uncover potential security incidents.
+==DEF-Log analysis is the process of **systematically examining log data** to detect patterns, identify anomalies, understand system behavior, and uncover potential security incidents.==
 
-sample.log
+sample.log:
 
 ```plaintext
 Jul 28 17:45:02 10.10.0.4 FW-1: %WARNING% general: Unusual network activity detected from IP 10.10.0.15 to IP 203.0.113.25. Source Zone: Internal, Destination Zone: External, Application: web-browsing, Action: Alert.
