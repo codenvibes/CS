@@ -91,7 +91,7 @@ Within incident response scenarios, timelines play a crucial role in reconstruct
 
 In most cases, logs will typically include timestamps that record when an event occurred. With the potential of many distributed devices, applications, and systems generating individual log events across various regions, it's crucial to consider each log's time zone and format. Converting timestamps to a consistent time zone is necessary for accurate log analysis and correlation across different log sources.
 
-Many log monitoring solutions solve this issue through timezone detection and automatic configuration. [Splunk](https://docs.splunk.com/Documentation/Splunk/9.1.0/Search/Abouttimezones), for example, automatically detects and processes time zones when data is indexed and searched. Regardless of how time is specified in individual log events, timestamps are converted to UNIX time and stored in the `_time` field when indexed.
+Many log monitoring solutions solve this issue through timezone detection and automatic configuration. #TOOLS  [Splunk](https://docs.splunk.com/Documentation/Splunk/9.1.0/Search/Abouttimezones), for example, automatically detects and processes time zones when data is indexed and searched. Regardless of how time is specified in individual log events, timestamps are converted to UNIX time and stored in the `_time` field when indexed.
 
 This consistent timestamp can then be converted to a local timezone during visualization, which makes reporting and analysis more efficient. This strategy ensures that analysts can conduct accurate investigations and gain valuable insights from their log data without manual intervention.
 
@@ -101,11 +101,11 @@ A super timeline, also known as a consolidated timeline, is a powerful concept i
 
 Super timelines often include data from previously discussed log sources, such as system logs, application logs, network traffic logs, firewall logs, and more. By combining these disparate sources into a single timeline, analysts can identify correlations and patterns that need to be apparent when analyzing logs individually.
 
-Creating a consolidated timeline with all this information manually would take time and effort. Not only would you have to record timestamps for every file on the system, but you would also need to understand the data storage methods of every application. Fortunately, [Plaso (Python Log2Timeline)](https://github.com/log2timeline/plaso) is an open-source tool created by Kristinn Gudjonsson and many contributors that automates the creation of timelines from various log sources. It's specifically designed for digital forensics and log analysis and can parse and process log data from a wide range of sources to create a unified, chronological timeline.
+Creating a consolidated timeline with all this information manually would take time and effort. Not only would you have to record timestamps for every file on the system, but you would also need to understand the data storage methods of every application. Fortunately, #TOOLS [Plaso (Python Log2Timeline)](https://github.com/log2timeline/plaso) is an open-source tool created by Kristinn Gudjonsson and many contributors that automates the creation of timelines from various log sources. It's specifically designed for digital forensics and log analysis and can parse and process log data from a wide range of sources to create a unified, chronological timeline.
 
 To learn more about Plaso and its capabilities, visit the [official documentation page here](https://plaso.readthedocs.io/en/latest/).
 
-Data Visualization
+### Data Visualization
 
 Data visualization tools, such as Kibana (of the Elastic Stack) and Splunk, help to convert raw log data into interactive and insightful visual representations through a user interface. Tools like these enable security analysts to understand the indexed data by visualizing patterns and anomalies, often in a graphical view. Multiple visualizations, metrics, and graphic elements can be constructed into a tailored dashboard view, allowing for a comprehensive "single pane of glass" view for log analysis operations.
 
