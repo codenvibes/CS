@@ -115,7 +115,7 @@ To create effective log visualizations, it's essential first to understand the d
 
 For example, suppose the objective is to monitor and detect patterns of increased failed login attempts. In that case, we should look to visualize logs that audit login attempts from an authentication server or user device. A good solution would be to create a line chart that displays the trend of failed login attempts over time. To manage the density of captured data, we can filter the visualization to show the past seven days. That would give us a good starting point to visualize increased failed attempts and spot anomalies.
 
-Log Monitoring and Alerting
+### Log Monitoring and Alerting
 
 In addition to visualization, implementing effective log monitoring and alerting allows security teams to _proactively_ identify threats and immediately respond when an alert is generated.
 
