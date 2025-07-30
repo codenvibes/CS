@@ -487,7 +487,7 @@ user@tryhackme$ tail -f -n 5 apache.log
 
 Being able to sort, filter, and manipulate log files from the command line is a crucial aspect of performing effective log analysis. Analysts often need to extract specific information, filter out relevant data, aggregate results, and transform logs to uncover insights and identify anomalies.
 
-**Note:** The opposite of the `tail` command is `head`, which allows you to view the _first_ ten lines of a file by default and takes in the same arguments. Feel free to experiment with this as well!
+**Note:** The opposite of the `tail` command is #head, which allows you to view the _first_ ten lines of a file by default and takes in the same arguments. Feel free to experiment with this as well!
 
 wc
 
