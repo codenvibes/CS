@@ -18,11 +18,11 @@ It is recommended to have a general understanding of logs and how they are colle
 
 ## 2. Log Analysis Basics
 
-Among the various data sources collected and utilized by infrastructure systems, logs are pivotal in offering valuable insights into these systems' inner workings and interactions across the network. A log is a stream of time-sequenced messages that record occurring events. Log analysis is the process of making sense of the events captured in the logs to paint a clear picture of what has happened across the infrastructure.
-
 ### What Are Logs?
 
 ==DEF-Logs are recorded events or transactions within a system, device, or application.== Specifically, these events can be related to application errors, system faults, audited user actions, resource uses, network connections, and more. Each log entry contains relevant details to contextualize the event, such as its timestamp (the date and time it occurred), the source (the system that generated the log), and additional information about the specific log event.
+
+Log analysis is the process of **systematically examining log data** to detect patterns, identify anomalies, understand system behavior, and uncover potential security incidents.
 
 sample.log
 
