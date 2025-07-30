@@ -536,8 +536,14 @@ user@tryhackme$ cut -d ' ' -f 1 apache.log
 ```
 
 The above command will return a list of every IP address in the log file. Expanding on this, we can change the field number to `-f 7` to extract the URLs and `-f 9` to extract the HTTP status codes.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
 
-sort
+### #sort
 
 Sometimes, it's helpful to sort the returned entries chronologically or alphabetically. The `sort` command arranges the data in files in ascending or descending order based on specific criteria. This can be crucial for identifying patterns, trends, or outliers in our log data. It is also common to combine the _output_ of another command (cut, for example) and use it as the _input_ of the sort command using the pipe `|` redirection character.
 
