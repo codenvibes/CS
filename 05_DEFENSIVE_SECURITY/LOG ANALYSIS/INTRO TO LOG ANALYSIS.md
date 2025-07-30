@@ -549,8 +549,6 @@ Sometimes, it's helpful to sort the returned entries chronologically or alphabet
 
 For example, to sort the list of returned IP addresses from the above `cut` command, we can run:
 
-sort Example
-
 ```shell-session
 user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n
 76.89.54.221
