@@ -237,11 +237,11 @@ The specific indicators can vary greatly depending on the source, but some examp
 
 The significance of these anomalies can vary greatly depending on the specific context and the systems in place, so it is essential to fine-tune any automated anomaly detection mechanisms to minimize false positives.
 
-###Common Attack Signatures
+### Common Attack Signatures
 
 Identifying common attack signatures in log data is an effective way to detect and quickly respond to threats. Attack signatures contain specific patterns or characteristics left behind by threat actors. They can include malware infections, web-based attacks (SQL injection, cross-site scripting, directory traversal), and more. As this is entirely dependent on the attack surface, some high-level examples include:
 
-SQL Injection
+#### SQL Injection
 
 SQL injection attempts to exploit vulnerabilities in web applications that interact with databases. Look for unusual or malformed SQL queries in the application or database logs to identify common SQL injection attack patterns.
 
