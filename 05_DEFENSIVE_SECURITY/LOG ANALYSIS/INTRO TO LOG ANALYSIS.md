@@ -214,7 +214,7 @@ While these are common log file paths, it's important to note that actual paths 
 
 In a security context, recognizing common patterns and trends in log data is crucial for identifying potential security threats. These "patterns" refer to the identifiable artifacts left behind in logs by threat actors or cyber security incidents. Fortunately, there are some common patterns that, if learned, will improve your detection abilities and allow you to respond efficiently to incidents.
 
-**Abnormal User Behavior**
+#### Abnormal User Behavior
 
 One of the primary patterns that can be identified is related to unusual or anomalous user behavior. This refers to any actions or activities conducted by users that deviate from their typical or expected behavior.
 
