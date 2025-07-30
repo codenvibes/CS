@@ -283,7 +283,7 @@ path-traversal.log
 
 ### Questions
 
-
+![[Pasted image 20250730153048.png]]
 <div align="center">
 <br>
 <br>
@@ -295,6 +295,28 @@ path-traversal.log
 
 
 ## 5. Automated vs. Manual Analysis
+
+### Automated Analysis
+
+Automated analysis involves the use of tools. For example, these often include commercial tools such as #XPLG or SolarWinds Loggly. Automated analysis tools allow for processing and data analysis of logs. These tools often utilize Artificial Intelligence / Machine Learning to analyze patterns and trends. As the AI landscape evolves, we expect to see more effective automated analysis solutions.
+
+|   |   |
+|---|---|
+|**Advantages**|**Disadvantages**|
+|Saves time by performing a lot of the manual work required in manual analysis|Automated analysis tools are usually commercial-only and, therefore, expensive.|
+|The use of artificial intelligence is effective at recognizing patterns and trends.|The effectiveness of artificial intelligence depends on how capable the model is. For example, the risk of false positives increases, or newer or never-seen-before events can be missed as the AI is not trained to recognize these.|
+
+### Manual Analysis
+
+Manual analysis is the process of examining data and artifacts without using automation tools. For example, an analyst scrolling through a web server log would be considered manual analysis. Manual analysis is essential for an analyst because automation tools cannot be relied upon.
+
+|                                                                                                                           |                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Advantages**                                                                                                            | **Disadvantages**                                                                                |
+| It is cheap and does not require expensive tooling. For example, simple Linux commands can do the trick.                  | It is time-consuming as the analyst has to do all of the work, including reformatting log files. |
+| Allows for a thorough investigation.                                                                                      | N/A                                                                                              |
+| Reduces the risk of overfitting or false positives on alerts from automated tools.                                        | Events or alerts can be missed! Especially if there is a lot of data to comb through.            |
+| Allows for contextual analysis. The analyst has a broader understanding of the organization and cyber security landscape. | N/A                                                                                              |
 <div align="center">
 <br>
 <br>
