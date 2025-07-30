@@ -147,7 +147,7 @@ cmnatic@thm cat access.log
 66.249.66.68 - - [25/Aug/2023:00:35:53 +0000] "GET /TryHackMe%20Designs/ HTTP/1.1" 200 5973 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) 200 19594 "https://tryhackme.com/" "Mozi>
 ```
 
-Using a threat intelligence feed like [ThreatFox](https://threatfox.abuse.ch/), we can search our log files for known malicious actors' presence.
+Using a threat intelligence feed like [ThreatFox](https://threatfox.abuse.ch/), we can search our log files for known malicious actors' presence. #ThreatFox
 
 ![Threatfox output, highlighting several indicators of compromise in our log file](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/c3ad6571c689577d907026d8a75d73c7.png)
 
