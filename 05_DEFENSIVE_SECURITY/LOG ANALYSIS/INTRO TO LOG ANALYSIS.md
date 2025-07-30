@@ -635,8 +635,15 @@ user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r | uniq -c
 ...
 ...
 ```
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-sed
+### #sed
 
 Both `sed` and `awk` are powerful text-processing tools commonly used for log analysis. They are sometimes used interchangeably, but both commands have their use cases and can allow security analysts to manipulate, extract, and transform log data efficiently.
 
