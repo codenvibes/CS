@@ -694,8 +694,6 @@ The `grep` command is a powerful text search tool widely used on UNIX systems 
 
 The most basic usage of `grep` is to search for specific strings within log files. For example, if we are suspicious about any log entries that hit the `/admin.php` webpage on the server, we can `grep` for "admin" to return any relevant results:
 
-grep Example
-
 ```shell-session
 user@tryhackme$ grep "admin" apache.log
 145.76.33.201 - - [31/Jul/2023:12:34:54 +0000] "GET /admin.php HTTP/1.1" 200 4321 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.330 Safari/537.36"
@@ -703,16 +701,12 @@ user@tryhackme$ grep "admin" apache.log
 
 Like the `uniq -c` command, we can append the `-c` option to `grep` to count the entries matching the search criteria. For example, because only a single line was returned in the above command, appending `-c` will return "1".
 
-grep Example (with count)
-
 ```shell-session
 user@tryhackme$ grep -c "admin" apache.log
 1
 ```
 
 If we wanted to know which **line number** in the log file relates to the matched entries, we could add the `-n` option to help quickly locate specific occurrences:
-
-grep Example (line number)
 
 ```shell-session
 user@tryhackme$ grep -n "admin" apache.log                           
@@ -722,8 +716,6 @@ user@tryhackme$ grep -n "admin" apache.log
 In this case, the line number **"37"** is prepended to the log entry output.
 
 Lastly, we can **invert** our command using the `-v` option only to select lines that **do not** contain the specified pattern or keyword(s). This can be useful for quickly filtering out unwanted or irrelevant lines from log files. For example, if we're not interested in any log entries that hit the `/index.php` page, we can run the following command to filter it out:
-
-grep Example (inverted)
 
 ```shell-session
 user@tryhackme$ grep -v "/index.php" apache.log | grep "203.64.78.90"
