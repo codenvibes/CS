@@ -476,8 +476,6 @@ By default, `tail` will only display the last ten lines of the file. However, 
 
 For example, if we only wanted to print the last five lines of the `apache.log` file and "follow" the logs in real-time, we can use the command:
 
-tail Example
-
 ```shell-session
 user@tryhackme$ tail -f -n 5 apache.log
 176.145.201.99 - - [31/Jul/2023:12:34:24 +0000] "GET /login.php HTTP/1.1" 200 1234 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.90 Safari/537.36"
