@@ -640,7 +640,6 @@ user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r | uniq -c
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
-<br>
 </div>
 
 ### #sed
@@ -659,9 +658,15 @@ user@tryhackme$ sed 's/31\/Jul\/2023/July 31, 2023/g' apache.log
 
 Note that the backslash character `\` is required to "escape" the forward slash in our pattern and tell `sed` to treat the forward slash as a literal character. Also, note that the `sed` command _does not_ change the `apache.log` file directly; instead, it only outputs the modified version of the file to the standard output in the command line. If you want to overwrite the file, you can add the `-i` option to edit the file in place or use a redirect operator `>` to save the output to the original or another file.
 
-**Caution:** If you use the `-i` option with `sed`, you risk overwriting the original file and losing valuable data. Ensure to keep a backup copy!
+**Caution:** If you use the `-i` option with `sed`, you risk overwriting the original file and losing valuable data. Ensure to keep a backup copy
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
 
-awk
+### #awk
 
 For the `awk` command, a common use case, is conditional actions based on specific field values. For example, to print log entries where the HTTP response code is greater than or equal to `400` (which would indicate HTTP error statuses), we can use the following command:
 
