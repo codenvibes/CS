@@ -125,7 +125,7 @@ Roles and responsibilities should be defined for escalation and notification pro
 
 For a hands-on walkthrough on dashboards and alerting within #Splunk, it is recommended to check out the [Splunk: Dashboards and Reports](https://tryhackme.com/jr/splunkdashboardsandreports) room!
 
-External Research and Threat Intel
+### External Research and Threat Intel
 
 Identifying what may be of interest to us in log analysis is essential. It is challenging to analyze a log if we're not entirely sure what we are looking for.
 
