@@ -101,9 +101,9 @@ A super timeline, also known as a consolidated timeline, is a powerful concept i
 
 Super timelines often include data from previously discussed log sources, such as system logs, application logs, network traffic logs, firewall logs, and more. By combining these disparate sources into a single timeline, analysts can identify correlations and patterns that need to be apparent when analyzing logs individually.
 
-Creating a consolidated timeline with all this information manually would take time and effort. Not only would you have to record timestamps for every file on the system, but you would also need to understand the data storage methods of every application. Fortunately, #TOOLS [Plaso (Python Log2Timeline)](https://github.com/log2timeline/plaso) is an open-source tool created by Kristinn Gudjonsson and many contributors that automates the creation of timelines from various log sources. It's specifically designed for digital forensics and log analysis and can parse and process log data from a wide range of sources to create a unified, chronological timeline.
+Creating a consolidated timeline with all this information manually would take time and effort. Not only would you have to record timestamps for every file on the system, but you would also need to understand the data storage methods of every application. Fortunately, #Plaso [Plaso (Python Log2Timeline)](https://github.com/log2timeline/plaso) is an open-source tool created by Kristinn Gudjonsson and many contributors that automates the creation of timelines from various log sources. It's specifically designed for digital forensics and log analysis and can parse and process log data from a wide range of sources to create a unified, chronological timeline.
 
-To learn more about Plaso and its capabilities, visit the [official documentation page here](https://plaso.readthedocs.io/en/latest/).
+To learn more about #Plaso and its capabilities, visit the [official documentation page here](https://plaso.readthedocs.io/en/latest/).
 
 ### Data Visualization
 
