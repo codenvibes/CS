@@ -649,8 +649,6 @@ Both `sed` and `awk` are powerful text-processing tools commonly used for lo
 
 Using the substitute syntax, `sed` can replace specific patterns or strings into log entries. For example, to replace all occurrences of "**31/Jul/2023**" with "**July 31, 2023**" in the `apache.log` file, we can use:
 
-sed Example
-
 ```shell-session
 user@tryhackme$ sed 's/31\/Jul\/2023/July 31, 2023/g' apache.log
 203.0.113.42 - - [July 31, 2023:12:34:56 +0000] "GET /index.php HTTP/1.1" 200 1234 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"
