@@ -604,8 +604,6 @@ The `uniq` command identifies and removes adjacent duplicate lines from sorted
 
 For example, the output of the `sort` command we ran above contains a few duplicate IP addresses, which is easier to spot when the data is sorted numerically. To remove these repeatedly extracted IPs from the list, we can run:
 
-uniq Example
-
 ```shell-session
 user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r | uniq
 221.90.64.76
@@ -622,8 +620,6 @@ user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r | uniq
 ```
 
 We can also append the `-c` option to output unique lines and prepend the count of occurrences for each line. This can be very useful for quickly determining IP addresses with unusually high traffic.
-
-uniq Example (with count)
 
 ```shell-session
 user@tryhackme$ cut -d ' ' -f 1 apache.log | sort -n -r | uniq -c
