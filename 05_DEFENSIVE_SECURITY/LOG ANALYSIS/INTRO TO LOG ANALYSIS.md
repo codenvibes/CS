@@ -315,6 +315,8 @@ Manual analysis is the process of examining data and artifacts without using aut
 | Allows for a thorough investigation.                                                                                      | N/A                                                                                              |
 | Reduces the risk of overfitting or false positives on alerts from automated tools.                                        | Events or alerts can be missed! Especially if there is a lot of data to comb through.            |
 | Allows for contextual analysis. The analyst has a broader understanding of the organization and cyber security landscape. | N/A                                                                                              |
+
+
 <div align="center">
 <br>
 <br>
