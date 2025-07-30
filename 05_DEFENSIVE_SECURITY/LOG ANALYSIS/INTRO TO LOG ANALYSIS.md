@@ -489,7 +489,7 @@ Being able to sort, filter, and manipulate log files from the command line is a 
 
 **Note:** The opposite of the `tail` command is #head, which allows you to view the _first_ ten lines of a file by default and takes in the same arguments. Feel free to experiment with this as well!
 
-wc
+### #wc
 
 The `wc` (word count) command is a simple but powerful utility that can be quite useful for quick analysis and statistics gathering. The output of `wc` provides information about the number of lines, words, and characters in a log file. This can help security analysts understand the size and volume of log data they are dealing with before diving into a more detailed analysis.
 
