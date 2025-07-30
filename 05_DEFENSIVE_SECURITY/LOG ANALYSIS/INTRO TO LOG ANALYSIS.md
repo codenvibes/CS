@@ -159,6 +159,10 @@ Using GREP to search a logfile for an IP address
 cmnatic@thm grep "54.36.149.64" logfile.txt
 54.36.149.64
 ```
+
+### Questions
+
+
 <div align="center">
 <br>
 <br>
