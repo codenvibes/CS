@@ -682,8 +682,13 @@ user@tryhackme$ awk '$9 >= 400' apache.log
 In this case, we're using the `$9` field (which in this log example refers to the HTTP status codes), requiring it to be greater than or equal to `400`.
 
 This only scratches the surface of the power of these commands, and it is highly encouraged to read more about their options and use cases [here](https://www.theunixschool.com/p/awk-sed.html).
-
-grep
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+### #grep
 
 The `grep` command is a powerful text search tool widely used on UNIX systems and provides exceptional use cases in log analysis. It allows you to search for specific patterns or regular expressions within files or streams of text. Using `grep` can help analysts quickly identify relevant log entries that match specific criteria, particular resources or keywords, or patterns associated with security incidents.
 
