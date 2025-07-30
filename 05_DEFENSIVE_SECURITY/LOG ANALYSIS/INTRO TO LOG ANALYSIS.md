@@ -91,7 +91,7 @@ Within incident response scenarios, timelines play a crucial role in reconstruct
 
 In most cases, logs will typically include timestamps that record when an event occurred. With the potential of many distributed devices, applications, and systems generating individual log events across various regions, it's crucial to consider each log's time zone and format. Converting timestamps to a consistent time zone is necessary for accurate log analysis and correlation across different log sources.
 
-Many log monitoring solutions solve this issue through timezone detection and automatic configuration. #TOOLS  [Splunk](https://docs.splunk.com/Documentation/Splunk/9.1.0/Search/Abouttimezones), for example, automatically detects and processes time zones when data is indexed and searched. Regardless of how time is specified in individual log events, timestamps are converted to UNIX time and stored in the `_time` field when indexed.
+Many log monitoring solutions solve this issue through timezone detection and automatic configuration.  [Splunk](https://docs.splunk.com/Documentation/Splunk/9.1.0/Search/Abouttimezones), for example, automatically detects and processes time zones when data is indexed and searched. Regardless of how time is specified in individual log events, timestamps are converted to UNIX time and stored in the `_time` field when indexed.
 
 This consistent timestamp can then be converted to a local timezone during visualization, which makes reporting and analysis more efficient. This strategy ensures that analysts can conduct accurate investigations and gain valuable insights from their log data without manual intervention.
 
