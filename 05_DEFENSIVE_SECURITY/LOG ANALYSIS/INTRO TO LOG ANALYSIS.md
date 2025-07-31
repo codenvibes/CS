@@ -780,7 +780,7 @@ This room won't cover the in-depth use of constructing regular expression patter
 
 Regular expressions are widely used in log analysis to extract relevant information, filter data, identify patterns, and process logs before they are forwarded to a centralized SIEM system. It's even possible to use regex with the `grep` command, as it is an extremely powerful way to search for patterns in log files.
 
-Regular Expressions for grep
+### Regular Expressions for grep
 
 As a simple example, refer to the `apache-ex2.log` file within the ZIP file attached to this task. You can locate the task files on the AttackBox under `/root/Rooms/introloganalysis/task7`. Ensure to `unzip` the file first by running `unzip regex.zip` and then `cd regex`.
 
