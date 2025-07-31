@@ -1,4 +1,4 @@
-### 1. A career as a Junior (Associate) Security Analyst
+## 1. A career as a Junior (Associate) Security Analyst
 
 In the Junior Security Analyst role, you will be a Triage Specialist. You will spend a lot of time triaging or monitoring the event logs and alerts.  
 
@@ -44,7 +44,7 @@ An overview of the Security Operations Center (SOC) Three-Tier Model:
 
 
 
-### 2. Security Operations Center (SOC)
+## 2. Security Operations Center (SOC)
 
 **So, what exactly is a SOC?**
 
@@ -64,13 +64,13 @@ Prevention methods include gathering intelligence data on the latest threats, th
 
 To better understand the TTPs, you should look into one of the CISA's (Cybersecurity & Infrastructure Security Agency) alerts on APT40 (Chinese Advanced Persistent Threat). Refer to the following link for more information, [https://us-cert.cisa.gov/ncas/alerts/aa21-200a](https://us-cert.cisa.gov/ncas/alerts/aa21-200a).
 
-Monitoring and Investigation 
+### Monitoring and Investigation 
 
 A SOC team proactively uses [SIEM (Security information and event management)](https://www.fireeye.com/products/helix/what-is-siem-and-how-does-it-work.html) and [EDR (Endpoint Detection and Response)](https://www.mcafee.com/enterprise/en-us/security-awareness/endpoint/what-is-endpoint-detection-and-response.html) tools to monitor suspicious and malicious network activities. Imagine being a firefighter and having a multi-alarm fire - one-alarm fires, two-alarm fires, three-alarm fires; the categories classify the seriousness of the fire, which is a threat in our case. As a Security Analyst, you will learn how to prioritise the alerts based on their level: Low, Medium, High, and Critical. Of course, it is an easy guess that you will need to start from the highest level (Critical) and work towards the bottom - Low-level alert. Having properly configured security monitoring tools in place will give you the best chance to mitigate the threat. 
 
 Junior Security Analysts play a crucial role in the investigation procedure. They perform triaging on the ongoing alerts by exploring and understanding how a certain attack works and preventing bad things from happening if they can. During the investigation, it's important to raise the question "How? When, and why?". Security Analysts find the answers by drilling down on the data logs and alerts in combination with using open-source tools, which we will have a chance to explore later in this path. 
 
-Response 
+### Response 
 
 After the investigation, the SOC team coordinates and takes action on the compromised hosts, which involves isolating the hosts from the network, terminating the malicious processes, deleting files, and more.
 <div align="center">
@@ -84,7 +84,7 @@ After the investigation, the SOC team coordinates and takes action on the comp
 
 
 
-### 3. A day In the life of a Junior (Associate) Security Analyst
+## 3. A day In the life of a Junior (Associate) Security Analyst
 <div align="center">
 <br>
 <br>
