@@ -892,7 +892,7 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 ```
 
 
-
+![[Pasted image 20250731140946.png]]
 <div align="center">
 <br>
 <br>
