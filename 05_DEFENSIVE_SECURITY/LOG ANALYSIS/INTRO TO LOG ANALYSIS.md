@@ -1076,6 +1076,8 @@ If you want to learn more about Yara, check out the [Yara](https://tryhackme.co
 <br>
 </div>
 ### Questions
+
+![[Pasted image 20250731153422.png]]
 <div align="center">
 <br>
 <br>
