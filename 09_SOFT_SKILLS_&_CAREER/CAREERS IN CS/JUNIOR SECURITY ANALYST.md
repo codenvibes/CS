@@ -100,7 +100,7 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 
 ### Questions
 
-
+![[Pasted image 20250731174924.png]]
 <div align="center">
 <br>
 <br>
