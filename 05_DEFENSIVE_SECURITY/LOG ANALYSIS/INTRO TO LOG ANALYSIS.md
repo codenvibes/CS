@@ -1089,6 +1089,12 @@ If you want to learn more about Yara, check out the [Yara](https://tryhackme.co
 
 
 ## 10. Conclusion
+
+In this room, we covered the basic methodology behind adopting an effective log analysis strategy. We explored the importance of log data collection, common attack patterns, and useful tools for the investigation and response processes.
+
+### Next Steps
+
+To expand your SIEM and centralized logging solution capabilities, visit the **[Advanced Splunk](https://tryhackme.com/module/advanced-splunk)** and **[Advanced ELK](https://tryhackme.com/module/advanced-elk)** modules.
 <div align="center">
 <br>
 <br>
