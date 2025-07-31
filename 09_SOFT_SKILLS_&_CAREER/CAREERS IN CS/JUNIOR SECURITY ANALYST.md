@@ -56,7 +56,7 @@ The core function of a SOC (Security Operations Center) is to investigate, mon
 
 ![SOC responsibilities that security analysts will be exposed to.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5fc2847e1bbebc03aa89fbf2/room-content/e2b97e6d9224da98764e21085190e54e.png)
 
-**Preparation and Prevention**
+### Preparation and Prevention
 
 As a Junior Security Analyst, you should stay informed of the current cyber security threats (Twitter and [Feedly](https://feedly.com/i/welcome) can be great resources to keep up with the news related to Cybersecurity). It's crucial to detect and hunt threats, work on a [security roadmap](https://www.mcafee.com/enterprise/en-us/security-awareness/cybersecurity/creating-cybersecurity-strategy.html) to protect the organisation, and be ready for the worst-case scenario.
 
