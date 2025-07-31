@@ -821,7 +821,7 @@ From a security standpoint, several fields here would be beneficial to extract i
 - The URL
 - The user-agent
 
-[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool.
+[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool. #
 
 ![The Regexr.com GUI after pasting in the unstructured log entry](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/740e3dbe4c3670c6d0deeb879709afd9.png)
 
@@ -845,8 +845,6 @@ Breaking this pattern down, it begins and ends with a word boundary anchor `\b`
 Grok is a powerful Logstash plugin that enables you to parse unstructured log data into something structured and searchable. It's commonly used for any log format written for humans to read rather than for computer consumption. It works by combining text patterns with the `%{SYNTAX:SEMANTIC}` pattern syntax. However, sometimes, Logstash lacks the built-in pattern we need. In these cases, we can define custom patterns using the **Oniguruma syntax** and take advantage of regular expressions. More info on Grok and its use within the Elastic Stack can be found in the Elastic documentation [here](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html).
 
 We can use the pattern we previously created to successfully extract IPv4 addresses from our log file and process them into a custom field before they are sent to an SIEM. In an Elastic Stack scenario, we can add a filter using the `Grok` plugin within our Logstash configuration file to achieve this.
-
-logstash.conf
 
 ```yaml
 input {
