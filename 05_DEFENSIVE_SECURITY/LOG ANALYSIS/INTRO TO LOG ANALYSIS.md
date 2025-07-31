@@ -1028,9 +1028,9 @@ This rule can now be used in SIEM platforms to identify events in the processe
 
 ### Yara
 
-[Yara](https://github.com/VirusTotal/yara) is another pattern-matching tool that holds its place in an analyst's arsenal. Yara is a YAML-formatted tool that identifies information based on binary and textual patterns (such as hexadecimal and strings). While it is usually used in malware analysis, Yara is extremely effective in log analysis.
+[Yara](https://github.com/VirusTotal/yara) is another pattern-matching tool that holds its place in an analyst's arsenal. #Yara is a YAML-formatted tool that identifies information based on binary and textual patterns (such as hexadecimal and strings). While it is usually used in malware analysis, Yara is extremely effective in log analysis.
 
-Let's look at this example Yara rule called "IPFinder". This YARA rule uses regex to search for any IPV4 addresses. If the log file we are analyzing contains an IP address, YARA will flag it:
+Let's look at this example #Yara rule called "IPFinder". This YARA rule uses regex to search for any IPV4 addresses. If the log file we are analyzing contains an IP address, YARA will flag it:
 
 ```yaml
 rule IPFinder {
