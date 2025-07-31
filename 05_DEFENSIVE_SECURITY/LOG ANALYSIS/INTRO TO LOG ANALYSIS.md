@@ -786,8 +786,6 @@ As a simple example, refer to the `apache-ex2.log` file within the ZIP file at
 
 This log file contains log entries from a blog site. The site is structured so that each blog post has its unique ID, fetched from the database dynamically through the `post` URL parameter. If we are only interested in the specific blog posts with an ID between 10-19, we can run the following `grep` regular expression pattern on the log file:
 
-grep Regex Example
-
 ```shell-session
 user@tryhackme$ grep -E 'post=1[0-9]' apache-ex2.log
 203.0.113.1 - - [02/Aug/2023:10:15:23 +0000] "GET /blog.php?post=12 HTTP/1.1" 200 - "Mozilla/5.0"
