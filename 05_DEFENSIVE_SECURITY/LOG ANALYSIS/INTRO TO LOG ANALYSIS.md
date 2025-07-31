@@ -905,7 +905,7 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 
 ## 8. Log Analysis Tools: #CyberChef
 
-#CyberChef is a powerful tool in an analyst's toolkit. Created by [GCHQ](https://github.com/gchq/CyberChef), CyberChef has long been regarded as the "Cyber Swiss Army Knife." The application boasts over 300 operations, which combine to make a recipe that makes handling data a piece of cake. Some key features include:
+#CyberChef is a powerful tool in an analyst's toolkit. Created by [GCHQ](https://github.com/gchq/CyberChef), #CyberChef has long been regarded as the "Cyber Swiss Army Knife." The application boasts over 300 operations, which combine to make a recipe that makes handling data a piece of cake. Some key features include:
 
 - Encoding and decoding data
 - Encryption and hashing algorithms
@@ -914,7 +914,7 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 
 This task is going to demonstrate how CyberChef can be used to parse a log file alongside the use of recipes for analysis. Before we begin, let's become familiar with the CyberChef interface. First, let's launch CyberChef in our browser by visiting [CyberChef](https://gchq.github.io/CyberChef/). Note, if you are a free user on the AttackBox, a local copy of CyberChef is installed and can be accessed by clicking the "Offline CyberChef" bookmark in Firefox.
 
-Understanding CyberChef
+### Understanding CyberChef
 
 Let's break down the interface:
 
