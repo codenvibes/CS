@@ -966,6 +966,7 @@ Files and folders can be uploaded to CyberChef. This provides a convenient way o
 ![[Pasted image 20250731151330.png]]
 
 
+![[Pasted image 20250731151659.png]]
 
 <div align="center">
 <br>
