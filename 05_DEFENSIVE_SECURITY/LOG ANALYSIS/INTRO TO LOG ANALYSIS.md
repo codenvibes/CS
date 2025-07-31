@@ -840,7 +840,7 @@ Breaking this pattern down, it begins and ends with a word boundary anchor `\b`
 - `{3}` - Specifies that the previous capturing group `([0-9]{1,3}\.)` should be repeated three times.
 - `[0-9]{1,3}` - Again, this matches numbers from 0 to 999, completing the fourth octet of the IP address.
 
-### Example: Logstash and Grok
+### Example: #Logstash and Grok
 
 Grok is a powerful Logstash plugin that enables you to parse unstructured log data into something structured and searchable. It's commonly used for any log format written for humans to read rather than for computer consumption. It works by combining text patterns with the `%{SYNTAX:SEMANTIC}` pattern syntax. However, sometimes, Logstash lacks the built-in pattern we need. In these cases, we can define custom patterns using the **Oniguruma syntax** and take advantage of regular expressions. More info on Grok and its use within the Elastic Stack can be found in the Elastic documentation [here](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html).
 
