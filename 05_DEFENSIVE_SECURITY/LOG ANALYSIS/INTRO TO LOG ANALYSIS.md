@@ -1012,18 +1012,17 @@ level: medium
 
 In this Sigma rule:
 
-|   |   |   |
-|---|---|---|
-|**Key**|**Value**|**Description**|
-|title|Failed SSH Logins|This title outlines the purpose of the Sigma rule.|
-|description|Searches sshd logs for failed SSH login attempts|This key provides a description that expands on the title.|
-|status|experimental|This key explains the status of the rule. For example, "experimental" means that further testing or improvements must be done.|
-|author|CMNatic|The person who wrote the rule.|
-|logsource|product: linux  <br>service: sshd|Where can the log files that contain the data that we're looking for be found?|
-|detection|sshd|This key lists what the Sigma rule is looking to find.|
-|a0\|contains|a0\|contains: 'Failed'|In this case, look for all entries with "Failed".|
-|a1\|contains|a1\|contains: 'Illegal'|In this case, look for all entries with "Illegal".|
-|falsepositives|Users forgetting or mistyping their credentials|List cases where this entry may be present but doesn't necessarily indicate malicious behavior.|
+| **Key**        | **Value**                                        | **Description**                                                                                                                |
+| -------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| title          | Failed SSH Logins                                | This title outlines the purpose of the Sigma rule.                                                                             |
+| description    | Searches sshd logs for failed SSH login attempts | This key provides a description that expands on the title.                                                                     |
+| status         | experimental                                     | This key explains the status of the rule. For example, "experimental" means that further testing or improvements must be done. |
+| author         | CMNatic                                          | The person who wrote the rule.                                                                                                 |
+| logsource      | product: linux  <br>service: sshd                | Where can the log files that contain the data that we're looking for be found?                                                 |
+| detection      | sshd                                             | This key lists what the Sigma rule is looking to find.                                                                         |
+| a0\|contains   | a0\|contains: 'Failed'                           | In this case, look for all entries with "Failed".                                                                              |
+| a1\|contains   | a1\|contains: 'Illegal'                          | In this case, look for all entries with "Illegal".                                                                             |
+| falsepositives | Users forgetting or mistyping their credentials  | List cases where this entry may be present but doesn't necessarily indicate malicious behavior.                                |
 
 This rule can now be used in SIEM platforms to identify events in the processed logs. If you want to learn more about Sigma, I recommend checking out the [Sigma](https://tryhackme.com/room/sigma) room on TryHackMe.
 
