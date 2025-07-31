@@ -801,15 +801,13 @@ user@tryhackme$ grep -E 'post=1[0-9]' apache-ex2.log
 
 Notice that we added the `-E` option to signify that we are searching on a pattern rather than just a string, which is what allows us to use regex. For the pattern itself, we match the literal characters `post=`. After which, we include the number `1` followed by the dynamic insertion of characters 0-9 using `[0-9]`. Putting this together, `1[0-9]` will match any two-digit number that starts with "1", such as 10, 11, 12, and onward.
 
-Regular Expressions for Log Parsing
+### Regular Expressions for Log Parsing
 
 Regular expressions also play a crucial role in log parsing, which is the process of breaking down log entries into structured components and extracting relevant information from them. Log files from different sources can have diverse formats and fields, sometimes requiring additional processing to transform raw log data into structured, actionable information.
 
 Additionally, engineers can create custom regex patterns tailored to specific logs to map specific parts of a log entry to named fields for an SIEM system. Overall, this process makes it much easier to query and analyze the extracted data later.
 
 Consider the following raw, unstructured log entry:
-
-Log Entry Example
 
 ```shell-session
 126.47.40.189 - - [28/Jul/2023:15:30:45 +0000] "GET /admin.php HTTP/1.1" 200 1275 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.9999.999 Safari/537.36"
