@@ -96,6 +96,14 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 <div align="center">
 <br>
 <br>
+</div>
+
+### Questions
+
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
