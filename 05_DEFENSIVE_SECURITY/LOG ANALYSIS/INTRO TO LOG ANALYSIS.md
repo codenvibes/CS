@@ -903,7 +903,53 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 <div style="page-break-after: always;"></div>
 
 
-## 8. Log Analysis Tools: CyberChef
+## 8. Log Analysis Tools: #CyberChef
+
+#CyberChef is a powerful tool in an analyst's toolkit. Created by [GCHQ](https://github.com/gchq/CyberChef), CyberChef has long been regarded as the "Cyber Swiss Army Knife." The application boasts over 300 operations, which combine to make a recipe that makes handling data a piece of cake. Some key features include:
+
+- Encoding and decoding data
+- Encryption and hashing algorithms
+- Data analysis, such as parsing log files and extracting data
+- And many more!
+
+This task is going to demonstrate how CyberChef can be used to parse a log file alongside the use of recipes for analysis. Before we begin, let's become familiar with the CyberChef interface. First, let's launch CyberChef in our browser by visiting [CyberChef](https://gchq.github.io/CyberChef/). Note, if you are a free user on the AttackBox, a local copy of CyberChef is installed and can be accessed by clicking the "Offline CyberChef" bookmark in Firefox.
+
+Understanding CyberChef
+
+Let's break down the interface:
+
+1. **The "Operations"** tab - This tab allows us to select what we wish to do with the input
+2. **Recipe** - This tab is a collection of operations
+3. **Input** - This tab is where we input the data or source that we want to analyze
+4. **Output** - This tab is the final output of the input after the operations have been applied
+
+![CyberChef default interface](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/41d51880de56feac2881a18b416cdf2b.png)  
+
+Let's demonstrate CyberChef in use. In this example, I provide an input **"dHJ5aGFja21l"**, which is **"tryhackme"** in base64. After selecting the **"To Base64"** operation, we can see the output of **"tryhackme"**:
+
+![The tryhackme base-64 decoded output](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/1756db1f18824fbe9a641502d0853f3a.png)  
+
+Note, if you are unsure what encoding an input is, you can use CyberChef's **"Magic"** operation to take its best guess at what the input is and what operations may be of use here.
+
+![CyberChef's magic operation](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/11ddc8ccdca739d2bfc2dba6bade8b6c.png)
+
+Regex with CyberChef
+
+Recall from this room that regular expressions are a great way of searching and matching data. In this example, we are taking a log file that has captured SSH authentication attempts, and we are using regex to output all of the IP addresses that have attempted to authenticate.
+
+Additionally, we are using the regex pattern `\b([0-9]{1,3}\.){3}[0-9]{1,3}\b` to search for values that are IP addresses:
+
+![Using regular expressions with CyberChef](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/37c9f3211c4f40a7f92fc7aeee4e852b.png)  
+
+By selecting the **"List matches"** filter on the **"Output format"** of the operation, we can remove all of the noise from the log and output solely the IP addresses. Of course, this is a small example. Log files can often be hundreds of lines long.
+
+Uploading Files in CyberChef
+
+Files and folders can be uploaded to CyberChef. This provides a convenient way of uploading log files to CyberChef. To do so, click on the box with an arrow pointing inside it. Additionally, CyberChef has operators that allow you to unzip compressed files, such as _.tar.gz_ or _.zip_.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/8f854c952a4c03580e93476214edea9f.png)  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/6a7ab19da19fe2d63dc138800edec8d2.png)
 <div align="center">
 <br>
 <br>
