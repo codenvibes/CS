@@ -821,7 +821,7 @@ From a security standpoint, several fields here would be beneficial to extract i
 - The URL
 - The user-agent
 
-[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool. #
+[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool. #rRegExr
 
 ![The Regexr.com GUI after pasting in the unstructured log entry](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/740e3dbe4c3670c6d0deeb879709afd9.png)
 
