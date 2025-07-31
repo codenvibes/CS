@@ -933,7 +933,7 @@ Note, if you are unsure what encoding an input is, you can use CyberChef's **"M
 
 ![CyberChef's magic operation](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/11ddc8ccdca739d2bfc2dba6bade8b6c.png)
 
-Regex with CyberChef
+### Regex with CyberChef
 
 Recall from this room that regular expressions are a great way of searching and matching data. In this example, we are taking a log file that has captured SSH authentication attempts, and we are using regex to output all of the IP addresses that have attempted to authenticate.
 
@@ -943,7 +943,7 @@ Additionally, we are using the regex pattern `\b([0-9]{1,3}\.){3}[0-9]{1,3}\b`�
 
 By selecting the **"List matches"** filter on the **"Output format"** of the operation, we can remove all of the noise from the log and output solely the IP addresses. Of course, this is a small example. Log files can often be hundreds of lines long.
 
-Uploading Files in CyberChef
+### Uploading Files in CyberChef
 
 Files and folders can be uploaded to CyberChef. This provides a convenient way of uploading log files to CyberChef. To do so, click on the box with an arrow pointing inside it. Additionally, CyberChef has operators that allow you to unzip compressed files, such as _.tar.gz_ or _.zip_.
 
