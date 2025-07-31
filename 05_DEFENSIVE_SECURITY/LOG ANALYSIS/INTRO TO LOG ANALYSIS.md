@@ -874,7 +874,22 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 
 ### Questions
 
-
+![[Pasted image 20250731140742.png]]
+```shell
+┌──(mopsy㉿APHP)-[~/THM/regex]
+└─$ grep -E 'post=2[0-9]' apache-ex2.log
+66.78.92.112 - - [03/Aug/2023:05:21:55 +0000] "GET /blog.php?post=26 HTTP/1.1" 200 - "Mozilla/5.0"
+187.22.99.57 - - [04/Aug/2023:23:40:10 +0000] "GET /blog.php?post=29 HTTP/1.1" 200 - "Mozilla/5.0"
+202.67.54.90 - - [06/Aug/2023:23:38:25 +0000] "GET /blog.php?post=28 HTTP/1.1" 200 - "Mozilla/5.0"
+75.102.56.44 - - [08/Aug/2023:15:23:59 +0000] "GET /blog.php?post=22 HTTP/1.1" 200 - "Mozilla/5.0"
+109.54.87.56 - - [08/Aug/2023:21:49:39 +0000] "GET /blog.php?post=24 HTTP/1.1" 200 - "Mozilla/5.0"
+45.98.99.54 - - [09/Aug/2023:15:23:04 +0000] "GET /blog.php?post=23 HTTP/1.1" 200 - "Mozilla/5.0"
+102.210.56.99 - - [12/Aug/2023:05:18:46 +0000] "GET /blog.php?post=27 HTTP/1.1" 200 - "Mozilla/5.0"
+210.56.102.76 - - [13/Aug/2023:05:18:18 +0000] "GET /blog.php?post=20 HTTP/1.1" 200 - "Mozilla/5.0"
+76.44.78.210 - - [15/Aug/2023:15:20:16 +0000] "GET /blog.php?post=28 HTTP/1.1" 200 - "Mozilla/5.0"
+76.56.102.210 - - [16/Aug/2023:05:16:18 +0000] "GET /blog.php?post=25 HTTP/1.1" 200 - "Mozilla/5.0"
+76.210.56.102 - - [17/Aug/2023:05:15:43 +0000] "GET /blog.php?post=23 HTTP/1.1" 200 - "Mozilla/5.0"
+```
 
 <div align="center">
 <br>
