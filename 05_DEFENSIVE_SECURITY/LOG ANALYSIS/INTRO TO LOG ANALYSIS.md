@@ -982,7 +982,7 @@ Files and folders can be uploaded to CyberChef. This provides a convenient way o
 
 ### Sigma
 
-[Sigma](https://github.com/SigmaHQ/sigma) is a highly flexible open-source tool that describes log events in a structured format. Sigma can be used to find entries in log files using pattern matching. Sigma is used to:
+[Sigma](https://github.com/SigmaHQ/sigma) is a highly flexible open-source tool that describes log events in a structured format. #Sigma can be used to find entries in log files using pattern matching. Sigma is used to:
 
 1. Detect events in log files
 2. Create SIEM searches
