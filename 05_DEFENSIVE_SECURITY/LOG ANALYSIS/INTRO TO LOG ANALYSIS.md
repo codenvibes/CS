@@ -821,7 +821,7 @@ From a security standpoint, several fields here would be beneficial to extract i
 - The URL
 - The user-agent
 
-[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool. #rRegExr
+[RegExr](https://regexr.com/) is an online tool to help teach, build, and test regular expression patterns. To follow along, copy the above log entry and paste it into the "**Text**" section of the tool. #RegExr
 
 ![The Regexr.com GUI after pasting in the unstructured log entry](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/740e3dbe4c3670c6d0deeb879709afd9.png)
 
@@ -829,7 +829,7 @@ As a basic example, if we want to extract just the remote IP address from this l
 
 `\b([0-9]{1,3}\.){3}[0-9]{1,3}\b`
 
-Paste this pattern into the "**Expression**" field in RegExr, and you will notice that the IP address from the log is successfully extracted and highlighted.
+Paste this pattern into the "**Expression**" field in #RegExr, and you will notice that the IP address from the log is successfully extracted and highlighted.
 
 ![The Regexr.com GUI after pasting in the Regex pattern](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/bb98e758d1811b18fe940019aa07a6b5.png)
 
