@@ -1046,13 +1046,12 @@ rule IPFinder {
 
 Let's look at the keys that make up this Yara rule:
 
-|   |   |   |
-|---|---|---|
-|**Key**|**Example**|**Description**|
-|rule|IPFinder|This key names the rule.|
-|meta|author|This key contains metadata. For example, in this case, it is the name of the rule's author.|
-|strings|$ip = /([0-9]{1,3}\.){3}[0-9]{1,3}/ wide ascii|This key contains the values that YARA should look for. In this case, it is using REGEX to look for IPV4 addresses.|
-|condition|$ip|If the variable $ip is detected, then the rule should trigger.|
+| **Key**   | **Example**                                    | **Description**                                                                                                     |
+| --------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| rule      | IPFinder                                       | This key names the rule.                                                                                            |
+| meta      | author                                         | This key contains metadata. For example, in this case, it is the name of the rule's author.                         |
+| strings   | $ip = /([0-9]{1,3}\.){3}[0-9]{1,3}/ wide ascii | This key contains the values that YARA should look for. In this case, it is using REGEX to look for IPV4 addresses. |
+| condition | $ip                                            | If the variable $ip is detected, then the rule should trigger.                                                      |
 
 Using YARA to detect a specific IP address
 
