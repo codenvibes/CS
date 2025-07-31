@@ -950,6 +950,9 @@ Files and folders can be uploaded to CyberChef. This provides a convenient way o
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/8f854c952a4c03580e93476214edea9f.png)  
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6490641ea027b100564fe00a/room-content/6a7ab19da19fe2d63dc138800edec8d2.png)
+
+### Questions
+
 <div align="center">
 <br>
 <br>
