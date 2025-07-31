@@ -46,9 +46,7 @@ An overview of the Security Operations Center (SOC) Three-Tier Model:
 
 ## 2. Security Operations Center (SOC)
 
-**So, what exactly is a SOC?**
-
-![Security analysts working at a SOC.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5fc2847e1bbebc03aa89fbf2/room-content/922d3c3d957aeec2cf2b868ebd6ba7cc.png)
+### So, what exactly is a SOC?
 
 The core function of a SOC (Security Operations Center) is to investigate, monitor, prevent, and respond to threats in the cyber realm 24/7 or around the clock. Per [Trellix's definition of a SOC](https://www.trellix.com/security-awareness/operations/what-is-soc/),  "Security operations teams are charged with monitoring and protecting many assets. These include intellectual property, personnel data, business systems, and brand integrity". As the implementation component of an organisation's overall cyber security framework, security operations teams act as the central point of collaboration in coordinated efforts to monitor, assess, and defend against cyberattacks". The number of people working in the SOC can vary depending on the organisation's size. 
 
@@ -85,6 +83,16 @@ After the investigation, the SOC team coordinates and takes action on the comp
 
 
 ## 3. A day In the life of a Junior (Associate) Security Analyst
+
+To understand the job responsibilities for a Junior (Associate) Security Analyst, let us first show you what a day in the life of the Junior Security Analyst looks like and why this is an exciting career journey.
+
+To be in the frontline is not always easy and can be very challenging as you will be working with various log sources from different tools that we will walk you through in this path. You will get a chance to monitor the network traffic, including IPS (Intrusion Prevention System) and IDS (Intrusion Detection System) alerts, suspicious emails, extract the forensics data to analyze and detect the potential attacks, use open-source intelligence to help you make the appropriate decisions on the alerts.
+
+One of the most exciting and rewarding things is when you are finished working on an incident and have managed to remediate the threat. Incident Response might take hours, days, or weeks; it all depends on the scale of the attack: did the attacker manage to exfiltrate the data? How much data does the attacker manage to exfiltrate? Did the attacker attempt to pivot into other hosts? There are many questions to ask and a lot of detection, containment, and remediation to do. We will walk you through some fundamental knowledge that every Junior (Associate) Security Analyst needs to know to become a successful Network Defender. 
+
+The first thing almost every Junior (Associate) Security Analyst does on their shift is to look at the tickets to see if any alerts got generated.
+
+Are you ready to immerse yourself into the role of a Junior Security Analyst for a little bit?
 <div align="center">
 <br>
 <br>
