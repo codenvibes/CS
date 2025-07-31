@@ -979,6 +979,105 @@ Files and folders can be uploaded to CyberChef. This provides a convenient way o
 
 
 ## 9. Log Analysis Tools: Yara and Sigma
+
+### Sigma
+
+[Sigma](https://github.com/SigmaHQ/sigma) is a highly flexible open-source tool that describes log events in a structured format. Sigma can be used to find entries in log files using pattern matching. Sigma is used to:
+
+1. Detect events in log files
+2. Create SIEM searches
+3. Identify threats
+
+Sigma uses the YAML syntax for its rules. This task will demonstrate Sigma being used to detect failed login events in SSH. Please note that writing a Sigma rule is out-of-scope for this room. However, let's break down an example Sigma rule for the scenario listed above:
+
+```yaml
+title: Failed SSH Logins
+description: Searches sshd logs for failed SSH login attempts
+status: experimental
+author: CMNatic
+logsource: 
+    product: linux
+    service: sshd
+
+detection:
+    selection:
+        type: 'sshd'
+        a0|contains: 'Failed'
+        a1|contains: 'Illegal'
+    condition: selection
+falsepositives:
+    - Users forgetting or mistyping their credentials
+level: medium
+```
+
+In this Sigma rule:
+
+|   |   |   |
+|---|---|---|
+|**Key**|**Value**|**Description**|
+|title|Failed SSH Logins|This title outlines the purpose of the Sigma rule.|
+|description|Searches sshd logs for failed SSH login attempts|This key provides a description that expands on the title.|
+|status|experimental|This key explains the status of the rule. For example, "experimental" means that further testing or improvements must be done.|
+|author|CMNatic|The person who wrote the rule.|
+|logsource|product: linux  <br>service: sshd|Where can the log files that contain the data that we're looking for be found?|
+|detection|sshd|This key lists what the Sigma rule is looking to find.|
+|a0\|contains|a0\|contains: 'Failed'|In this case, look for all entries with "Failed".|
+|a1\|contains|a1\|contains: 'Illegal'|In this case, look for all entries with "Illegal".|
+|falsepositives|Users forgetting or mistyping their credentials|List cases where this entry may be present but doesn't necessarily indicate malicious behavior.|
+
+This rule can now be used in SIEM platforms to identify events in the processed logs. If you want to learn more about Sigma, I recommend checking out the [Sigma](https://tryhackme.com/room/sigma) room on TryHackMe.
+
+### Yara
+
+[Yara](https://github.com/VirusTotal/yara) is another pattern-matching tool that holds its place in an analyst's arsenal. Yara is a YAML-formatted tool that identifies information based on binary and textual patterns (such as hexadecimal and strings). While it is usually used in malware analysis, Yara is extremely effective in log analysis.
+
+Let's look at this example Yara rule called "IPFinder". This YARA rule uses regex to search for any IPV4 addresses. If the log file we are analyzing contains an IP address, YARA will flag it:
+
+```yaml
+rule IPFinder {
+    meta:
+        author = "CMNatic"
+    strings:
+        $ip = /([0-9]{1,3}\.){3}[0-9]{1,3}/ wide ascii
+ 
+    condition:
+        $ip
+}
+```
+
+Let's look at the keys that make up this Yara rule:
+
+|   |   |   |
+|---|---|---|
+|**Key**|**Example**|**Description**|
+|rule|IPFinder|This key names the rule.|
+|meta|author|This key contains metadata. For example, in this case, it is the name of the rule's author.|
+|strings|$ip = /([0-9]{1,3}\.){3}[0-9]{1,3}/ wide ascii|This key contains the values that YARA should look for. In this case, it is using REGEX to look for IPV4 addresses.|
+|condition|$ip|If the variable $ip is detected, then the rule should trigger.|
+
+Using YARA to detect a specific IP address
+
+```shell-session
+cmnatic@thm:~$ yara ipfinder.yar apache2.txt
+IPFinder apache2
+```
+
+This YARA rule can be expanded to look for:
+
+- Multiple IP addresses
+- IP Addresses based on a range (for example, an ASN or a subnet)
+- IP addresses in HEX
+- If an IP address lists more than a certain amount (I.e., alert if an IP address is found five times)
+- And combined with other rules. For example, if an IP address visits a specific page or does a certain action
+
+If you want to learn more about Yara, check out the [Yara](https://tryhackme.com/room/yara) room on TryHackMe.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+### Questions
 <div align="center">
 <br>
 <br>
