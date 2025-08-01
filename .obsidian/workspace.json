@@ -266,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -314,8 +314,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "542fa074395932eb",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250801170745.png",
     "Pasted image 20250801170627.png",
     "Pasted image 20250801170500.png",
@@ -324,7 +325,6 @@
     "Pasted image 20250801165751.png",
     "ASSETS/Pasted image 20250801122337.png",
     "Pasted image 20250801122337.png",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
@@ -335,7 +335,6 @@
     "Pasted image 20250731165315.png",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
-    "Pasted image 20250731153422.png",
     "08_TOOLS/00 TOOLS.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
     "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
