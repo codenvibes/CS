@@ -266,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08_TOOLS/00 TOOLS.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 TOOLS"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -314,8 +314,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f8659b2b0049a1d4",
+  "active": "542fa074395932eb",
   "lastOpenFiles": [
+    "08_TOOLS/00 TOOLS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "WHITE-BOARD/TODO.md",
     "Pasted image 20250801170745.png",
@@ -335,7 +336,6 @@
     "Pasted image 20250731165315.png",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
-    "08_TOOLS/00 TOOLS.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
     "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
     "05_DEFENSIVE_SECURITY/MALWARE DETECTION & ANALYSIS.md",
