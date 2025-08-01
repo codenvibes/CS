@@ -296,7 +296,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -314,7 +314,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d9c91c7059beddd0",
+  "active": "f8659b2b0049a1d4",
   "lastOpenFiles": [
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "WHITE-BOARD/TODO.md",
