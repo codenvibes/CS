@@ -83,3 +83,11 @@ this is the end of my presentation
 **“ I hope this inspired someone to dive deeper into the world of hacking—where curiosity is a skill and persistence is your superpower.”**
 
 Thank you for listening.
+
+---
+
+6 WORDS
+6 SENTENCES
+INCORPORATE GRAPHICS
+STORY TELLING
+BUSINESS CASE
