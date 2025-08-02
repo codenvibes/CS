@@ -50,7 +50,7 @@ I will give a quick rundown of the challenges I managed to solve and highlights 
 
 - **AI Solutions Portal**: I noticed the profile URL of the website contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR. Flag captured.
 - **CorpDocs**:  This was a Broken Access Control exploit challenge. To be more specific Insecure Direct Access to Admin Interface. I discovered an `/admin` endpoint via a gobsuter brute force. Accessed it directly via my browser and there was the flag. 
-- **“In the ResetRealm challenge, I discovered that the password reset tokens were based on predictable values—likely using timestamps.**  
+- **“In the ResetRealm challenge, I discovered that the password reset tokens were based on predictable values—likely using timestamps.**  so I tried to prove my th
 	**I registered a test user, triggered a password reset, then inspected the server’s response headers. The `Date` header looked suspicious, so I converted it to a UNIX timestamp and tried combining it with the username using MD5—but the hash didn’t match.**
 	**So instead, I requested a reset for the `admin` user and the system actually returned a full reset link! I used it to reset the admin password, logged in successfully, and found the flag hidden in the dashboard source code.”**
 - **ScriptServe**: I started with basic uploads, but when they failed, I moved to discovery. I fuzzed the /preview endpoint using FFUF and eventually retrieved a file named `flag.txt` directly from the server. It taught me that even secure-looking upload systems can leak if endpoints aren’t protected properly.”
