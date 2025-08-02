@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 27.901614142966945,
+            "dimension": 63.10530361260569,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -60,14 +60,12 @@
                 "id": "542fa074395932eb",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "OWASP TOP 10 - 2021"
+                  "icon": "lucide-file-text",
+                  "title": "TERRENCE MK REPORT FINAL"
                 }
               }
             ],
@@ -76,7 +74,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 72.09838585703305,
+            "dimension": 36.89469638739431,
             "children": [
               {
                 "id": "d20dec0485e25052",
@@ -280,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/SCRIPT.md",
+                "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SCRIPT"
+              "title": "Outline of TERRENCE MK REPORT FINAL"
             }
           },
           {
@@ -328,11 +326,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e48326a9faf64384",
+  "active": "542fa074395932eb",
   "lastOpenFiles": [
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/REPORT DRAFT.md",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/SCRIPT.md",
+    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/REPORT DRAFT.md",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
     "ASSETS/Pasted image 20250801201355.png",
