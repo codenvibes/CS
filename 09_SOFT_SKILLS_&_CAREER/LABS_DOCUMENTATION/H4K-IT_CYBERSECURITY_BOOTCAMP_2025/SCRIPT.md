@@ -15,13 +15,13 @@
 
 ### 🔹 Slide 3: My Profile
 
-**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security, cloud security and hacking. I’m the guy people call when turning it off and on again doesn’t work anymore! But seriously, I enjoy solving complex technical problems, especially when it comes to breaking and securing systems.”**
+**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security, cloud security and hacking. I enjoy solving complex technical problems, especially when it comes to breaking and securing systems.”**
 
 ---
 
 ### 🔹 Slide 4: Categories & Tools Used – Domains
 
-**“The challenges spanned four key domains. First, Web Exploitation, which involved IDOR, SSRF, and broken auth. Then Forensics—log analysis and memory inspection. Code Review tasks exposed flaws like race conditions and business logic bugs. And finally, Pentest—where we dealt with misconfigured SSH services and weak credentials.”**
+**“Next up I will discuss the The challenges spanned four key domains. First, Web Exploitation, which involved IDOR, SSRF, and broken auth. Then Forensics—log analysis and memory inspection. Code Review tasks exposed flaws like race conditions and business logic bugs. And finally, Pentest—where we dealt with misconfigured SSH services and weak credentials.”**
 
 ---
 
