@@ -34,7 +34,8 @@ And finally, Pentest—where I dealt with misconfigured SSH services and weak cr
 
 ### 🔹 Slide 5: Categories & Tools Used – Tools
 
-**“To tackle these, I relied on some essential tools: Chrome DevTools for web analysis, Gobuster and FFUF for fuzzing, SSH and Kali CLI for remote access, and scripting tools like Python, curl, and Nmap for automation and enumeration.”**
+**“To tackle these challenges in their respective domains, I relied on some essential tools: 
+1st is the Chrome DevTools for web analysis, Gobuster and FFUF for fuzzing, SSH and Kali CLI for remote access, and scripting tools like Python, curl, and Nmap for automation and enumeration.”**
 
 ---
 
