@@ -38,7 +38,8 @@ And finally, Pentest—where I dealt with misconfigured SSH services and weak cr
 1st is the Chrome browser and Chrome DevTools for web analysis, 
 2nd Gobuster and FFUF for fuzzing, 
 3rd SSH and the Kali CLI for remote access, and 
-finally scripting tools like Python, curl, and Nmap for automation and enumeration.”**
+finally Python3 for running code from the code review tasks
+then curl, and Nmap for enumeration.”**
 
 ---
 
