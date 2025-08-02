@@ -1,10 +1,9 @@
-Thanks for uploading your final slides, Terrence. Here's a professionally timed **5-minute speaking script** to go alongside your presentation. Each section corresponds to a slide and is written for confident delivery:
 
 ---
 
 ### 🔹 Slide 1: Title Slide
 
-**“Good [morning/afternoon] everyone. My name is Terrence M.K., and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as an aspiring cybersecurity analyst.”**
+**“Good afternoon everyone. My name is Terrence M.K., and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as an aspiring cybersecurity analyst.”**
 
 ---
 
