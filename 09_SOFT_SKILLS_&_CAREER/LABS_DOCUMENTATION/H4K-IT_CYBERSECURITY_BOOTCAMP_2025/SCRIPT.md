@@ -15,7 +15,7 @@
 
 ### 🔹 Slide 3: My Profile
 
-**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security and ethical hacking. I’m the guy people call when turning it off and on again doesn’t work anymore! But seriously, I enjoy solving complex technical problems, especially when it comes to breaking and securing systems.”**
+**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security, cloud security and hacking. I’m the guy people call when turning it off and on again doesn’t work anymore! But seriously, I enjoy solving complex technical problems, especially when it comes to breaking and securing systems.”**
 
 ---
 
