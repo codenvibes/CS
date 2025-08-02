@@ -54,7 +54,11 @@ I will give a quick rundown of the challenges I managed to solve and highlights 
 	**I registered a test user, triggered a password reset, then inspected the server’s response headers. The `Date` header looked suspicious, so I converted it to a UNIX timestamp and tried combining it with the username using MD5—but the hash didn’t match. sadly**
 	**So instead, I requested a reset for the `admin` user and the system actually returned a full reset link! I used it to reset the admin password, logged in successfully as the admin, and found the flag hidden in the admin dashboard source code.”**
 - next ...**ScriptServe**: The website gave me a file upload form. I started with basic uploads, but when they failed, I switched gears to discovery. I used Gobuster to discover an endpoint called `/preview` then fuzzed filenames with FUFF and eventually retrieved a file named `flag.txt` directly from the server. insecure file handling”.
-- **PDFVaul
+- **PDFVault was particularly interesting: **It was a web app designed for submitting signed PDFs through a metadata validation form. When I landed on the homepage, it presented a clean interface with a simple 'Submit a PDF' button.”**
+	**“Clicking that took me to a form asking for a document URL. Initially, I tested the system with a legitimate public PDF from a university site. It worked—it fetched the file and displayed metadata like title and page count.”**
+	**“That gave me a hint. Since the system was fetching and processing URLs server-side, I suspected it might be vulnerable to SSRF.”**
+	**“So I submitted a series of internal IP-based URLs—like `127.0.0.1`, ports 3000 and 5000, even the AWS metadata service. Eventually, when I tested `http://127.0.0.1:5000/internal`, I hit jackpot. The system connected internally and returned the flag directly in the response.”**
+	**“This confirmed that the backend was blindly following user-provided URLs without any filtering or validation—an SSRF vulnerability**
 
 **Others like Pennies, Royalties, and The Puppetior showed how weak business logic can be just as dangerous as technical flaws.”**
 
