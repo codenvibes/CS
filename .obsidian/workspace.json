@@ -55,21 +55,9 @@
                   "icon": "lucide-file",
                   "title": "L2 MAC FLOODING & ARP SPOOFING"
                 }
-              },
-              {
-                "id": "542fa074395932eb",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "TERRENCE MK REPORT FINAL"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
