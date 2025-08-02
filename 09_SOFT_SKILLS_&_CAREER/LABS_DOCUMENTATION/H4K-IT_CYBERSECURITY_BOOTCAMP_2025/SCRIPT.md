@@ -46,19 +46,13 @@ then curl, and Nmap for enumeration.”**
 ### 🔹 Slide 6–8: Challenge Summary
 
 **“Now Let’s talk results.
-I will give a quick rundown of the challenges I managed to solve.
-I solved 24 major challenges. A few highlights:**
+I will give a quick rundown of the challenges I managed to solve and highlights of how I solved them:**
 
 - **AI Solutions Portal**: IDOR via URL tampering.
-    
 - **CorpDocs**: Exposed admin panel via directory brute-forcing.
-    
 - **ResetRealm**: Predicted password reset tokens due to poor entropy.
-    
 - **ScriptServe**: Insecure file preview leaked sensitive data.
-    
 - **Transfer Us**: A critical race condition allowed double transfer of funds.
-    
 
 **Others like Pennies, Royalties, and The Puppetior showed how weak business logic can be just as dangerous as technical flaws.”**
 
