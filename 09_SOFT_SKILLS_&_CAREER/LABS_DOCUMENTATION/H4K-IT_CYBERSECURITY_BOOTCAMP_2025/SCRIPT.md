@@ -64,7 +64,7 @@ I will give a quick rundown of some of the challenges I managed to solve and hig
 	**“So I submitted a series of internal IP-based URLs—like `127.0.0.1`, ports 3000 and 5000, even the AWS metadata service. Eventually, when I tested `http://127.0.0.1:5000/internal`, I hit jackpot. The system connected internally and returned the flag directly in the response.”**
 	**“This confirmed that the backend was blindly following user-provided URLs without any filtering or validation—an SSRF vulnerability**
 
-to adhere with the time I'VE  been give for this presentation those arae walkthrouThe detailed walkthroughs of these tasks are in my report.
+
 
 ---
 
