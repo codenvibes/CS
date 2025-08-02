@@ -64,7 +64,7 @@ I will give a quick rundown of the challenges I managed to solve and highlights 
 	**“So I submitted a series of internal IP-based URLs—like `127.0.0.1`, ports 3000 and 5000, even the AWS metadata service. Eventually, when I tested `http://127.0.0.1:5000/internal`, I hit jackpot. The system connected internally and returned the flag directly in the response.”**
 	**“This confirmed that the backend was blindly following user-provided URLs without any filtering or validation—an SSRF vulnerability**
 
-**Others like Pennies, Royalties, and The Puppetior showed how weak business logic can be just as dangerous as technical flaws.”**
+I have the detailed walkthroughs in the full repot
 
 ---
 
