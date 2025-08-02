@@ -78,7 +78,7 @@ I will give a quick rundown of some of the challenges I managed to solve and hig
 
 **“The challenge was fun but more than just a game. It gave me an environment to test ideas, break things, and improve. It deepened my passion for hacking, looking for things where most people don't and taught me to approach every system like a puzzle.**
 
-**I’m incredibly grateful to the H4K-IT team for organizing the bootcamp, to all the mentors and to the friends I've met in the process. I’m proud to be part of Cohort 3.”**
+**I’m incredibly grateful to the H4K-IT team for organizing the bootcamp, to all the mentors and to the friends I've made in the process. I’m grateful and proud to be part of Cohort 3.”**
 
 ---
 
