@@ -24,10 +24,6 @@
 **“Next up I will discuss the Categories & Tools I used in the mentioned domains of the CTF challenges. 
 there were 5 key domains. 
 Web Exploitation, Pentesting, Code Review (PPC), OSINT and Forensics.
-Web Exploitation, involved IDOR, SSRF, and broken authentication exploits. 
-Forensics had log analysis and memory inspection.
-The Code Review tasks exposed flaws like race conditions and business logic bugs. 
-And finally, Pentest—where I dealt with misconfigured SSH services and weak credentials.”**
 
 ---
 
