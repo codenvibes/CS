@@ -63,13 +63,13 @@ I will give a quick rundown of 4 of the challenges I managed to solve and highli
 	**“So I submitted a series of internal IP-based URLs—like `127.0.0.1`, ports 3000 and 5000, . Eventually, when I tested `http://127.0.0.1:5000/internal`, I hit the jackpot. The system connected internally and returned the flag directly in the response.”**
 	**“This confirmed that the backend was blindly following user-provided URLs without any filtering or validation—an SSRF vulnerability**
 
-**“To stay within the time I’ve been given, I’ve only highlighted a few key challenges. However, detailed walkthroughs for all the tasks I completed are fully documented in my report, which I’m happy to share.”**
+**“To stay within the time I’ve been given, I’ve only highlighted a few key challenges. However, detailed walkthroughs for all these tasks on your screen are fully documented in my report, which I’m happy to share.”**
 
 ---
 
 ### 🔹 Slide 9: Lessons Learned and Interests Ignited
 
-**“This CTF sharpened my eyes for hidden flaws. The hands-on experience helped me connect the dots between theory and practice.”**
+**“This CTF sharpened my eyes for hidden flaws and The hands-on experience helped me connect the dots between theory and practice.”**
 
 ---
 
