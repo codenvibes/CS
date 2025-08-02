@@ -3,7 +3,7 @@
 
 ### 🔹 Slide 1: Title Slide
 
-**“Good afternoon everyone. My name is Terrence M.K., and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as an aspiring cybersecurity analyst.”**
+**“Good afternoon everyone. My name is Terrence M.K., and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as an aspiring cybersecurity analyst and cybersecurity enthusiast in general.”**
 
 ---
 
