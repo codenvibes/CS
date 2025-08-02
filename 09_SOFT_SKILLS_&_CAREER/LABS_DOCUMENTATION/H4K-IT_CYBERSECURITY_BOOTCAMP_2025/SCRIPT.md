@@ -54,7 +54,7 @@ I will give a quick rundown of the challenges I managed to solve and highlights 
 	**I registered a test user, triggered a password reset, then inspected the server’s response headers. The `Date` header looked suspicious, so I converted it to a UNIX timestamp and tried combining it with the username using MD5—but the hash didn’t match. sadly**
 	**So instead, I requested a reset for the `admin` user and the system actually returned a full reset link! I used it to reset the admin password, logged in successfully as the admin, and found the flag hidden in the admin dashboard source code.”**
 - next ...**ScriptServe**: The website gave me a file upload form. I started with basic uploads, but when they failed, I switched gears to discovery. I used Gobuster to discover an endpoint called `/preview` then fuzzed filenames with FUFF and eventually retrieved a file named `flag.txt` directly from the server. insecure file handling”.
-- **Transfer Us**: A critical race condition allowed double transfer of funds.
+- **PDFVaul
 
 **Others like Pennies, Royalties, and The Puppetior showed how weak business logic can be just as dangerous as technical flaws.”**
 
