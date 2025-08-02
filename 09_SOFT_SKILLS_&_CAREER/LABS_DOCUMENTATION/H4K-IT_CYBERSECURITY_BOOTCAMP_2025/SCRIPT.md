@@ -86,7 +86,3 @@ I will give a quick rundown of 4 of the challenges I managed to solve and highli
 **“Thank you for listening. I hope this inspired someone to dive deeper into the world of hacking—where curiosity is a skill and persistence is your superpower.”**
 
 thankyou
-
----
-
-Would you like me to turn this into a printable script or presenter notes PDF?
