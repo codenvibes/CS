@@ -60,6 +60,20 @@
                 "id": "542fa074395932eb",
                 "type": "leaf",
                 "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "OWASP TOP 10 - 2021"
+                }
+              },
+              {
+                "id": "e48326a9faf64384",
+                "type": "leaf",
+                "state": {
                   "type": "pdf",
                   "state": {
                     "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf"
@@ -69,7 +83,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "4cae9467a36be2f0",
@@ -312,9 +326,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "542fa074395932eb",
+  "active": "e48326a9faf64384",
   "lastOpenFiles": [
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
     "ASSETS/Pasted image 20250801201355.png",
     "ASSETS/Pasted image 20250801201324.png",
     "ASSETS/Pasted image 20250801200747.png",
@@ -348,7 +363,6 @@
     "11_DIGITAL_FORENSICS/STEGANOGRAPHY.md",
     "11_DIGITAL_FORENSICS/WINDOWS_FORENSICS",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/REPORT DRAFT.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/00 LABS.md",
