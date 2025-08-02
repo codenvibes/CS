@@ -21,7 +21,7 @@
 
 ### 🔹 Slide 4: Categories & Tools Used – Domains
 
-**“Next up I will discuss the The challenges spanned four key domains. First, Web Exploitation, which involved IDOR, SSRF, and broken auth. Then Forensics—log analysis and memory inspection. Code Review tasks exposed flaws like race conditions and business logic bugs. And finally, Pentest—where we dealt with misconfigured SSH services and weak credentials.”**
+**“Next up I will discuss the the Categories & Tools I used in the mentioned domains of the CTF challenges. First there wer four key domains. First, Web Exploitation, which involved IDOR, SSRF, and broken auth. Then Forensics—log analysis and memory inspection. Code Review tasks exposed flaws like race conditions and business logic bugs. And finally, Pentest—where we dealt with misconfigured SSH services and weak credentials.”**
 
 ---
 
