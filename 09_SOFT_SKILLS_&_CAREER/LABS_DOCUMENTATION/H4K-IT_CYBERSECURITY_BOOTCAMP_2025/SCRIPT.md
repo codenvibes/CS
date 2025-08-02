@@ -86,6 +86,8 @@ Thank you for listening.
 
 ---
 
+
+FEEDBACK FROM THE PANEL:
 6 WORDS
 6 SENTENCES
 INCORPORATE GRAPHICS
