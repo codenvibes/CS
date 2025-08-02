@@ -50,7 +50,9 @@ I will give a quick rundown of the challenges I managed to solve and highlights 
 
 - **AI Solutions Portal**: I noticed the profile URL contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR.
 - **CorpDocs**:  This was a Broken Access Control exploit challenge. To be more specific Insecure Direct Access to Admin Interface. I discovered an `/admin` endpoint via a gobsuter brute force. Accessed it directly via my browser and there was the flag. 
-- **ResetRealm**: Predicted password reset tokens due to poor entropy.
+- **“In the ResetRealm challenge, I discovered that the password reset tokens were based on predictable values—likely using timestamps.**  
+	**I registered a test user, triggered a password reset, then inspected the server’s response headers. The `Date` header looked suspicious, so I converted it to a UNIX timestamp and tried combining it with the username using MD5—but the hash didn’t match.**  
+	**So instead, I requested a reset for the `admin` user and the system actually returned a full reset link! I used it to reset the admin password, logged in successfully, and found the flag hidden in the dashboard source code.”**
 - **ScriptServe**: Insecure file preview leaked sensitive data.
 - **Transfer Us**: A critical race condition allowed double transfer of funds.
 
