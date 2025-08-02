@@ -3,13 +3,13 @@
 
 ### 🔹 Slide 1: Title Slide
 
-**“Good afternoon everyone. My name is Terrence, and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as an aspiring cybersecurity analyst and cybersecurity enthusiast in general.”**
+**“Good afternoon everyone. My name is Terrence, and this is my CTF Challenge Report from the 2025 H4K-IT Cybersecurity Bootcamp. Over the next few minutes, I’ll walk you through my experience, key challenges I tackled, lessons learned, and how this has shaped my journey as a cybersecurity analyst slash enthusiast in general.”**
 
 ---
 
 ### 🔹 Slide 2: Introduction
 
-**“The CTF ran from July 17th to 19th and It simulated attacks in web exploitation, pentesting, PPC code audits, OSINT, and forensics. My personal goal was to test everything I’ve learned in the bootcamp—to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
+**“The CTF simulated attacks in web exploitation, pentesting, code audits, OSINT, and forensics. My personal goal was to test everything I’ve learned in the bootcamp—to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
 
 ---
 
