@@ -46,7 +46,7 @@ then curl, and Nmap for enumeration.”**
 ### 🔹 Slide 6–8: Challenge Summary
 
 **“Now Let’s talk results.
-I will give a quick rundown of some of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
+I will give a quick rundown of 5 of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
 
 - **AI Solutions Portal**: I noticed the profile URL of the website contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR. Flag captured.
 
