@@ -45,7 +45,9 @@ then curl, and Nmap for enumeration.”**
 
 ### 🔹 Slide 6–8: Challenge Summary
 
-**“I will now give a brief rundown of the major challenges I managed to solveLet’s talk results. I solved 24 major challenges. A few highlights:**
+**“Now Let’s talk results.
+I will give a quick rundown of the challenges I managed to solve.
+I solved 24 major challenges. A few highlights:**
 
 - **AI Solutions Portal**: IDOR via URL tampering.
     
