@@ -21,7 +21,7 @@
 
 ### 🔹 Slide 4: Categories & Tools Used – Domains
 
-**“Next up I will discuss the the Categories & Tools I used in the mentioned domains of the CTF challenges. 
+**“Next up I will discuss the Categories & Tools I used in the mentioned domains of the CTF challenges. 
 First the categories;
 there were 5 key domains. 
 Web Exploitation, Pentesting, Code Review (PPC), OSINT and Forensics.
