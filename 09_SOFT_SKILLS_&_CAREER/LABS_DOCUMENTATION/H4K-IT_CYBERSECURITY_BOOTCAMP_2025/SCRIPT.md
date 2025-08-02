@@ -46,7 +46,7 @@ then curl, and Nmap for enumeration.”**
 ### 🔹 Slide 6–8: Challenge Summary
 
 **“Now Let’s talk results.
-I will give a quick rundown of the challenges I managed to solve and highlights of how I solved them:**
+I will give a quick rundown of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
 
 - **AI Solutions Portal**: IDOR via URL tampering.
 - **CorpDocs**: Exposed admin panel via directory brute-forcing.
