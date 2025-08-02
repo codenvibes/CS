@@ -49,7 +49,7 @@ then curl, and Nmap for enumeration.”**
 I will give a quick rundown of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
 
 - **AI Solutions Portal**: I noticed the profile URL contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR.
-- **CorpDocs**:  This was a Broken Access Control exploit challenge.Here I discovered an `/admin` endpoint via a gobsuter brute force. Accessed it directly via my browser and there was the flag. 
+- **CorpDocs**:  This was a Broken Access Control exploit challenge. To be more specific Insecure Direct Access to Admin Interface. I discovered an `/admin` endpoint via a gobsuter brute force. Accessed it directly via my browser and there was the flag. 
 - **ResetRealm**: Predicted password reset tokens due to poor entropy.
 - **ScriptServe**: Insecure file preview leaked sensitive data.
 - **Transfer Us**: A critical race condition allowed double transfer of funds.
