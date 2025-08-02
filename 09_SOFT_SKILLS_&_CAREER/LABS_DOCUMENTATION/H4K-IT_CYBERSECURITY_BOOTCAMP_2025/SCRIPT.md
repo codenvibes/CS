@@ -48,7 +48,7 @@ then curl, and Nmap for enumeration.”**
 **“Now Let’s talk results.
 I will give a quick rundown of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
 
-- **AI Solutions Portal**: I noticed the profile URL contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR.
+- **AI Solutions Portal**: I noticed the profile URL of the website contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR. Flag captured.
 - **CorpDocs**:  This was a Broken Access Control exploit challenge. To be more specific Insecure Direct Access to Admin Interface. I discovered an `/admin` endpoint via a gobsuter brute force. Accessed it directly via my browser and there was the flag. 
 - **“In the ResetRealm challenge, I discovered that the password reset tokens were based on predictable values—likely using timestamps.**  
 	**I registered a test user, triggered a password reset, then inspected the server’s response headers. The `Date` header looked suspicious, so I converted it to a UNIX timestamp and tried combining it with the username using MD5—but the hash didn’t match.**
