@@ -69,7 +69,7 @@ I will give a quick rundown of 4 of the challenges I managed to solve and highli
 
 ### 🔹 Slide 9: Lessons Learned and Interests Ignited
 
-**“This CTF sharpened my eyes for hidden flaws. The hands-on experience helped me connect the dots between theory and practic.”**
+**“This CTF sharpened my eyes for hidden flaws. The hands-on experience helped me connect the dots between theory and practice.”**
 
 ---
 
