@@ -9,20 +9,19 @@
 
 ### 🔹 Slide 2: Introduction
 
-**“The CTF simulated attacks in web exploitation, pentesting, code audits, OSINT, and forensics. My personal goal was to test everything I’ve learned in the bootcamp—to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
+**“The CTF simulated attacks in web exploitation, pentesting, code audits, OSINT, and forensics. My personal goal was to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
 
 ---
 
 ### 🔹 Slide 3: My Profile
 
-**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security, cloud security and hacking. I enjoy solving complex technical problems, especially when it comes to breaking and securing systems.”**
+**“A little about me—as mentioned earlier I’m Terrence, a junior cybersecurity analyst deeply interested in offensive security, cloud security and hacking.
 
 ---
 
 ### 🔹 Slide 4: Categories & Tools Used – Domains
 
 **“Next up I will discuss the Categories & Tools I used in the mentioned domains of the CTF challenges. 
-First the categories;
 there were 5 key domains. 
 Web Exploitation, Pentesting, Code Review (PPC), OSINT and Forensics.
 Web Exploitation, involved IDOR, SSRF, and broken authentication exploits. 
