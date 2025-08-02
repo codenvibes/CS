@@ -9,7 +9,7 @@
 
 ### 🔹 Slide 2: Introduction
 
-**“The Capture The Flag challenge ran from July 17th to 19th and brought together 63 teams. It simulated real-world attacks in web exploitation, pentesting, PPC code audits, OSINT, and forensics. My personal goal was to test everything I’ve learned in the bootcamp—to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
+**“The CTF ran from July 17th to 19th and It simulated attacks in web exploitation, pentesting, PPC code audits, OSINT, and forensics. My personal goal was to test everything I’ve learned in the bootcamp—to not only capture as many flags as possible, but also learn from every challenge, fail fast, and improve even faster.”**
 
 ---
 
