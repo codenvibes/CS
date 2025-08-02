@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 71.40661029976941,
+            "dimension": 79.40046118370483,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -60,14 +60,12 @@
                 "id": "542fa074395932eb",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "OWASP TOP 10 - 2021"
+                  "icon": "lucide-file-text",
+                  "title": "PRESENTATION"
                 }
               }
             ],
@@ -76,7 +74,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 28.593389700230592,
+            "dimension": 20.59953881629516,
             "children": [
               {
                 "id": "d20dec0485e25052",
@@ -266,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of PRESENTATION"
             }
           },
           {
@@ -316,6 +314,7 @@
   },
   "active": "542fa074395932eb",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "ASSETS/Pasted image 20250801201355.png",
     "ASSETS/Pasted image 20250801201324.png",
     "ASSETS/Pasted image 20250801200747.png",
@@ -326,8 +325,6 @@
     "ASSETS/Pasted image 20250801194829.png",
     "ASSETS/Pasted image 20250801194733.png",
     "ASSETS/Pasted image 20250801194344.png",
-    "ASSETS/Pasted image 20250801194241.png",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "08_TOOLS/00 TOOLS.md",
     "WHITE-BOARD/TODO.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
