@@ -48,7 +48,7 @@ then curl, and Nmap for enumeration.”**
 **“Now Let’s talk results.
 I will give a quick rundown of the challenges I managed to solve and highlights of the exploits and techniques I used to solved them:**
 
-- **AI Solutions Portal**: IDOR via URL tampering.
+- **AI Solutions Portal**: I noticed the profile URL contained an ID parameter. I changed the value manually in the browser and gained unauthorized access to the admin profile—classic IDOR.
 - **CorpDocs**: Exposed admin panel via directory brute-forcing.
 - **ResetRealm**: Predicted password reset tokens due to poor entropy.
 - **ScriptServe**: Insecure file preview leaked sensitive data.
