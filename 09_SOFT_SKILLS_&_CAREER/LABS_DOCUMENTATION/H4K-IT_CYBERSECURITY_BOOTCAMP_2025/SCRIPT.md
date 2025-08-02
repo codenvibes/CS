@@ -64,7 +64,7 @@ I will give a quick rundown of some of the challenges I managed to solve and hig
 	**“So I submitted a series of internal IP-based URLs—like `127.0.0.1`, ports 3000 and 5000, even the AWS metadata service. Eventually, when I tested `http://127.0.0.1:5000/internal`, I hit jackpot. The system connected internally and returned the flag directly in the response.”**
 	**“This confirmed that the backend was blindly following user-provided URLs without any filtering or validation—an SSRF vulnerability**
 
-
+**“To stay within the time I’ve been given, I’ve only highlighted a few key challenges here. However, detailed walkthroughs for all the tasks I completed are fully documented in my report, which I’m happy to share.”**
 
 ---
 
@@ -76,7 +76,7 @@ I will give a quick rundown of some of the challenges I managed to solve and hig
 
 ### 🔹 Slide 10: Conclusion
 
-**“This challenge was more than just a game. It gave me a real-world environment to test ideas, break things, and improve. It deepened my passion for ethical hacking and taught me to approach every system like a puzzle.**
+**“The challenge was more than just a game. It gave me a real-world environment to test ideas, break things, and improve. It deepened my passion for ethical hacking and taught me to approach every system like a puzzle.**
 
 **I’m incredibly grateful to the H4K-IT team for organizing such a transformative bootcamp, and to all the mentors whose feedback pushed me forward. I’m proud to be part of Cohort 3.”**
 
