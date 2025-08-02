@@ -25,7 +25,9 @@
 First there were 5 key domains. 
 Web Exploitation, Pentesting, Code Review (PPC), OSINT and Forensics.
 Web Exploitation, which involved IDOR, SSRF, and broken authentication exploits. 
-Forensics—log analysis and memory inspection. Code Review tasks exposed flaws like race conditions and business logic bugs. And finally, Pentest—where we dealt with misconfigured SSH services and weak credentials.”**
+Forensics had log analysis and memory inspection.
+The Code Review tasks exposed flaws like race conditions and business logic bugs. 
+And finally, Pentest—where I dealt with misconfigured SSH services and weak credentials.”**
 
 ---
 
