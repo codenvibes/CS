@@ -19,3 +19,10 @@
 | **Recommendations Slide**  | Solutions to prevent such issues in real environments                                                                                                                            |
 | **Lessons Learned**        | A few bullets on soft/hard skills gained                                                                                                                                         |
 | **Thank You / Q&A**        | End strong and invite questions                                                                                                                                                  |
+For each major challenge:  
+🔹 6-word summary  
+🔹 Graphic  
+🔹 1-sentence problem  
+🔹 1-sentence discovery  
+🔹 1-sentence business risk  
+🔹 1-sentence fix
