@@ -20,7 +20,7 @@
 | **Lessons Learned**        | A few bullets on soft/hard skills gained                                                                                                                                         |
 | **Thank You / Q&A**        | End strong and invite questions                                                                                                                                                  |
 For each major challenge:  
-🔹 Six-Sentence Executive Explanation
+🔹 6 words 6-Sentence Executive Explanation
 	Keep language simple — management-focused:
 	- Sentence 1: What the system was supposed to do.
 	- Sentence 2: What went wrong.
