@@ -1,7 +1,7 @@
 
 Creating a strong cybersecurity report is not just about technical detail — it’s about **communicating impact clearly to all stakeholders**. This guide helps you write reports that are clear, credible, and management-friendly, while still preserving technical rigor.
 
-
+---
 ## Structure Overview
 
 Each report should include the following main sections:
@@ -14,38 +14,28 @@ Each report should include the following main sections:
 
 ---
 
-## 📌 1. Executive Summary _(for non-technical stakeholders)_
+## 1. Executive Summary _(for non-technical stakeholders)_
 
 > **Goal:** Give a high-level, decision-ready summary.
 
 - **Audience:** C-suite, managers, stakeholders.
-    
 - **What to include:**
-    
     - What was tested (systems/applications).
-        
     - Total vulnerabilities found, categorized by severity.
-        
     - Most urgent issues to fix.
-        
     - Business risk.
-        
     - Optional: a bar chart showing severity distribution  
         ![Vulnerability Severity Chart](https://academy.hackthebox.com/storage/modules/108/graph.png)
-        
 
 ---
 
-## 📌 2. Overview of the Assessment
+## 2. Overview of the Assessment
 
 > **Goal:** Briefly describe how the testing was performed.
 
 - Summarize the methodology used (manual testing, tools like Nessus, Nmap, Burp Suite, etc.).
-    
 - State if it was black box, gray box, or white box testing.
-    
 - Highlight types of vulnerabilities targeted (e.g., IDOR, SSRF, race conditions, OSINT).
-    
 
 ---
 
