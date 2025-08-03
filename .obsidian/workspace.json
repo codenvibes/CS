@@ -71,7 +71,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of AUTHENTICATION BYPASS"
             }
           },
           {
@@ -282,8 +282,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "cd0a691950be86b5",
+  "active": "8d55f3bdd7991a7d",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250803225636.png",
     "Pasted image 20250803225557.png",
     "Pasted image 20250803225222.png",
@@ -294,9 +295,7 @@
     "ASSETS/Pasted image 20250803222244.png",
     "ASSETS/Pasted image 20250803222128.png",
     "ASSETS/Pasted image 20250803222030.png",
-    "ASSETS/Pasted image 20250803221941.png",
     "WHITE-BOARD/TODO.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "README.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
