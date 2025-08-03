@@ -1,3 +1,12 @@
+## Delivery Tips
+
+- Speak, don’t read. Use slides only as cues.
+- Use analogies for tech terms (e.g., "IDOR is like opening someone else's locker by guessing the number").
+- Smile. Stand confidently. Pause after major points.
+- Practice in front of a mirror or record yourself.
+
+---
+## Presentation Guide
 
 | Slide Type                 | Content Notes                                                                                                                                                                    |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
