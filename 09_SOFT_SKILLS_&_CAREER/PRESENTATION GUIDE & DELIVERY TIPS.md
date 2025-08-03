@@ -8,6 +8,12 @@
 ---
 ## Presentation Guide
 
+### Title Slide
+### Intro Slide
+### Story Slide
+### Challenge Slides (x3-5)
+### Lessons Learned
+### Thank You / Q&A
 
 
 | Slide Type                  | Content Notes                                                                                                                                                                                                                                                                                                                                                                                                                          |
