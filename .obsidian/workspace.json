@@ -134,12 +134,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "09_SOFT_SKILLS_&_CAREER/REPORT WRITING GUIDE.md",
+                    "file": "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "REPORT WRITING GUIDE"
+                  "title": "17 REPORTING"
                 }
               }
             ],
@@ -266,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09_SOFT_SKILLS_&_CAREER/REPORT WRITING GUIDE.md",
+                "file": "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of REPORT WRITING GUIDE"
+              "title": "Outline of 17 REPORTING"
             }
           },
           {
@@ -316,8 +316,8 @@
   },
   "active": "e48326a9faf64384",
   "lastOpenFiles": [
-    "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "09_SOFT_SKILLS_&_CAREER/REPORT WRITING GUIDE.md",
+    "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "09_SOFT_SKILLS_&_CAREER/PRESENTATION GUIDE & DELIVERY TIPS.md",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/SCRIPT.md",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
