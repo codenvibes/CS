@@ -23,9 +23,9 @@ For each major challenge:
 🔹 Executive Explanation
 	Keep language simple — management-focused:
 	- Sentence 1: What the system was supposed to do.
-	- Sentence 2: What went wrong.
+	- Sentence 2: Problem: What went wrong.
 	- Sentence 3: How it was discovered.
-	- Sentence 4: What this means for the business.
+	- Sentence 4: Business RiskWhat this means for the business.
 	- Sentence 5: What it could have cost the company.
 	- Sentence 6: What should be done to fix it.
 🔹 Graphic  
