@@ -113,19 +113,10 @@ OWASP IDOR: https://owasp.org/www-community/attacks/Insecure_Direct_Object_Refer
 Soft skills in cybersecurity reporting are **critical**:
 
 - Write clearly for mixed audiences (technical & non-technical)
-    
 - Prioritize readability and structure
-    
 - Translate complex issues into business impact
-    
 - Use visuals to aid storytelling
-    
 - Avoid dense jargon unless needed — then explain it simply
-    
-
----
-
-Would you like this turned into a PDF or DOCX report template you can reuse? Or shall I generate a sample write-up for one of your CTF challenges using this exact format?
 
 ---
 
