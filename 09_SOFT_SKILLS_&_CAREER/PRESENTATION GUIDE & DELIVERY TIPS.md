@@ -20,7 +20,14 @@
 | **Lessons Learned**        | A few bullets on soft/hard skills gained                                                                                                                                         |
 | **Thank You / Q&A**        | End strong and invite questions                                                                                                                                                  |
 For each major challenge:  
-🔹 6-word summary  
+🔹 Six-Sentence Executive Explanation
+	Keep language simple — management-focused:
+	- Sentence 1: What the system was supposed to do.
+	- Sentence 2: What went wrong.
+	- Sentence 3: How it was discovered.
+	- Sentence 4: What this means for the business.
+	- Sentence 5: What it could have cost the company.
+	- Sentence 6: What should be done to fix it.
 🔹 Graphic  
 🔹 1-sentence problem  
 🔹 1-sentence discovery  
