@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -282,8 +282,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "cd0a691950be86b5",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "README.md",
     "WHITE-BOARD/TODO.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
@@ -302,7 +303,6 @@
     "09_SOFT_SKILLS_&_CAREER/PRESENTATION GUIDE & DELIVERY TIPS.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/SCRIPT.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/TERRENCE MK REPORT FINAL.pdf",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/PRESENTATION.pdf",
     "ASSETS/Pasted image 20250801201355.png",
