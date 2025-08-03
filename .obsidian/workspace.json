@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -282,8 +282,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "ASSETS/Pasted image 20250803195654.png",
     "ASSETS/Pasted image 20250803195603.png",
     "ASSETS/Pasted image 20250803194825.png",
@@ -295,8 +296,6 @@
     "ASSETS/Pasted image 20250803185834.png",
     "ASSETS/Pasted image 20250803185710.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-    "WHITE-BOARD/TODO.md",
-    "Pasted image 20250803195654.png",
     "README.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
