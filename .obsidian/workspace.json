@@ -60,10 +60,14 @@
                 "id": "cd0a691950be86b5",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "README"
                 }
               }
             ],
@@ -230,12 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
