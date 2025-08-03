@@ -39,43 +39,32 @@ Each report should include the following main sections:
 
 ---
 
-## 📌 3. Scope and Duration
+## 3. Scope and Duration
 
 > **Goal:** Document authorization and testing boundaries.
 
 - Systems/IPs/web apps tested
-    
 - Timeframe of the assessment
-    
 - Any exclusions or limitations
-    
 
 ---
 
-## 📌 4. Vulnerabilities and Recommendations _(Main Body)_
+## 4. Vulnerabilities and Recommendations _(Main Body)_
 
 > **Goal:** Present findings in a structured, digestible way.
 
 ### For Each Vulnerability:
 
 - ✅ **6-word summary** (e.g., _Token tied to IP address_)
-    
 - ✅ **6-sentence non-technical explanation**:
-    
     1. What was expected
-        
     2. What actually happened
-        
     3. How it was discovered
-        
     4. Business impact
-        
     5. Cost or risk level
-        
     6. How to fix/prevent it
-        
-- 🔍 **Technical Breakdown** _(for technical readers)_:
     
+- 🔍 **Technical Breakdown** _(for technical readers)_:
     - Vulnerability Name
         
     - CVE (if applicable)
