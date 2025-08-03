@@ -112,7 +112,8 @@
                   "title": "00 COMMANDS"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -235,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
+                "file": "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of L2 MAC FLOODING & ARP SPOOFING"
+              "title": "Outline of 00 COMMANDS"
             }
           },
           {
@@ -283,10 +284,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "20e4f15d488e7364",
   "lastOpenFiles": [
-    "13_CTFS_&_LABS/LABS_DOCUMENTATION/00 LABS.md",
+    "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
+    "13_CTFS_&_LABS/LABS_DOCUMENTATION/00 LABS.md",
     "13_CTFS_&_LABS/CTFS",
     "13_CTFS_&_LABS/Untitled.md",
     "12_AI_SECURITY_FUNDAMENTALS/03 INTRODUCTION TO AI SECURITY TESTING.md",
@@ -314,7 +316,6 @@
     "ASSETS/Pasted image 20250801194733.png",
     "ASSETS/Pasted image 20250801194344.png",
     "08_TOOLS/00 TOOLS.md",
-    "WHITE-BOARD/TODO.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
