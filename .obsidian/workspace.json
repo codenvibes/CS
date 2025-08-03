@@ -69,15 +69,11 @@
                 "type": "leaf",
                 "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/00 LABS.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "00 LABS"
+                  "title": "New tab"
                 }
               },
               {
@@ -128,8 +124,7 @@
                   "title": "00 COMMANDS"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "horizontal"
@@ -252,13 +247,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of L2 MAC FLOODING & ARP SPOOFING"
+              "title": "Outline"
             }
           },
           {
@@ -300,8 +294,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d20dec0485e25052",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
+    "13_CTFS_&_LABS/CTFS",
+    "13_CTFS_&_LABS/Untitled.md",
     "12_AI_SECURITY_FUNDAMENTALS/03 INTRODUCTION TO AI SECURITY TESTING.md",
     "12_AI_SECURITY_FUNDAMENTALS/02 AI SECURITY CONTROLS.md",
     "12_AI_SECURITY_FUNDAMENTALS/01 FUNDAMENTALS OF AI SECURITY.md",
@@ -311,11 +308,11 @@
     "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "09_SOFT_SKILLS_&_CAREER/REPORT WRITING GUIDE.md",
     "09_SOFT_SKILLS_&_CAREER/PRESENTATION GUIDE & DELIVERY TIPS.md",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/SCRIPT.md",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
+    "13_CTFS_&_LABS/CTFS/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/SCRIPT.md",
+    "13_CTFS_&_LABS/CTFS/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/TERRENCE MK REPORT FINAL.pdf",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/REPORT DRAFT.md",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
+    "13_CTFS_&_LABS/CTFS/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/REPORT DRAFT.md",
+    "13_CTFS_&_LABS/CTFS/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/PRESENTATION.pdf",
     "ASSETS/Pasted image 20250801201355.png",
     "ASSETS/Pasted image 20250801201324.png",
     "ASSETS/Pasted image 20250801200747.png",
@@ -329,7 +326,6 @@
     "08_TOOLS/00 TOOLS.md",
     "WHITE-BOARD/TODO.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Section Break.md",
@@ -342,12 +338,9 @@
     "TEMPLATES/Page Break.md",
     "05_DEFENSIVE_SECURITY/REMOTE ACCESS CONCEPTS.md",
     "05_DEFENSIVE_SECURITY/FIREWALLS.md",
-    "11_DIGITAL_FORENSICS/WINDOWS FORENSICS.md",
     "ASSETS/Windows Forensics Cheatsheet.pdf",
-    "11_DIGITAL_FORENSICS/00 DIGITAL FORENSICS.md",
     "11_DIGITAL_FORENSICS/WINDOWS_FORENSICS",
     "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/~$mplate.docx",
-    "09_SOFT_SKILLS_&_CAREER/LABS_DOCUMENTATION/H4K-IT_CYBERSECURITY_BOOTCAMP_2025/~WRL0005.tmp",
     "Untitled.canvas"
   ]
 }
