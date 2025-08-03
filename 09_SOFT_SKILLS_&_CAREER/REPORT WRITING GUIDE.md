@@ -66,57 +66,38 @@ Each report should include the following main sections:
     
 - 🔍 **Technical Breakdown** _(for technical readers)_:
     - Vulnerability Name
-        
     - CVE (if applicable)
-        
     - CVSS Score
-        
     - Description
-        
     - Tools/methods used to exploit
-        
     - Proof of Concept (PoC)
-        
     - Affected Systems
-        
     - References
-        
     - Remediation Steps
-        
-- 📊 **Graphic or screenshot** per vulnerability:
     
+- 📊 **Graphic or screenshot** per vulnerability:
     - URL or form being tampered with
-        
     - Before/after of a successful exploit
-        
     - Visual attack flow
-        
 
 ---
 
-## 📌 5. Closing
+## 5. Closing
 
 > **Goal:** Reinforce value and credibility.
 
 - Recap key takeaways
-    
 - Emphasize lessons learned and how this strengthens security posture
-    
 - State intent to support remediation or follow-up
-    
 
 ---
 
-## 📌 6. References
+## 6. References
 
 Include any materials referenced:
-
 - CVE details
-    
 - OWASP documentation
-    
 - Hack The Box or TryHackMe learning material
-    
 
 Example:
 
