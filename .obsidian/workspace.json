@@ -70,7 +70,8 @@
                   "title": "OWASP TOP 10 - 2021"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -232,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -280,8 +281,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250804163202.png",
     "Pasted image 20250804162530.png",
@@ -294,7 +296,6 @@
     "ASSETS/login-logs_1595366583422.txt",
     "ASSETS/Pasted image 20250804151711.png",
     "ASSETS/Pasted image 20250804151558.png",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Questions Section.md",
     "08_TOOLS/00 TOOLS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
