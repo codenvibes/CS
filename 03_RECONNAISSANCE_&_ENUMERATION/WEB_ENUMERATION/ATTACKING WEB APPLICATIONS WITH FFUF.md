@@ -11,7 +11,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Web Fuzzing
 <div align="center">
 <br>
@@ -21,7 +20,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 ## Directory Fuzzing
@@ -35,7 +33,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Page Fuzzing
 <div align="center">
 <br>
@@ -45,7 +42,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 ## Recursive Fuzzing
@@ -59,7 +55,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## DNS Records
 <div align="center">
 <br>
@@ -69,7 +64,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 ## Sub-domain Fuzzing
@@ -83,7 +77,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Vhost Fuzzing
 <div align="center">
 <br>
@@ -93,7 +86,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 ## Filtering Results
@@ -107,7 +99,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Parameter Fuzzing - GET
 <div align="center">
 <br>
@@ -117,7 +108,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 ## Parameter Fuzzing - POST
@@ -131,7 +121,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Value Fuzzing
 <div align="center">
 <br>
@@ -143,7 +132,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 <div style="page-break-after: always;"></div>
 
 
-
 ## Skills Assessment - Web Fuzzing
 <div align="center">
 <br>
@@ -153,7 +141,6 @@ This module covers the fundamental enumeration skills of web fuzzing and directo
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
 
 
 
