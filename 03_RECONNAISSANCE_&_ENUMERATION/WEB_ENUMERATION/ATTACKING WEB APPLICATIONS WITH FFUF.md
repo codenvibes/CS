@@ -12,7 +12,7 @@ The following topics will be discussed:
 - Fuzzing for PHP parameters
 - Fuzzing for parameter values
 
-Tools such as `ffuf` provide us with a handy automated way to fuzz the web application's individual components or a web page. This means, for example, that we use a list that is used to send requests to the webserver if the page with the name from our list exists on the webserver. If we get a response code 200, then we know that this page exists on the webserver, and we can look at it manually.
+Tools like `ffuf` help us automatically test parts of a website to see what exists. For example, we can give it a list of possible page names, and it will try each one by sending a request to the website. If the website responds with a code 200 (which means "OK"), that tells us the page exists, and we can then check it out ourselves.
 <div align="center">
 <br>
 <br>
