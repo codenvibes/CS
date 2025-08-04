@@ -62,12 +62,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03_RECONNAISSANCE_&_ENUMERATION/00 ENUMERATION.md",
+                    "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "00 ENUMERATION"
+                  "title": "ATTACKING WEB APPLICATIONS WITH FFUF"
                 }
               }
             ],
@@ -233,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_RECONNAISSANCE_&_ENUMERATION/00 ENUMERATION.md",
+                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 ENUMERATION"
+              "title": "Outline of ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -281,8 +281,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "03_RECONNAISSANCE_&_ENUMERATION/00 ENUMERATION.md",
+    "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "ASSETS/Pasted image 20250804163202.png",
     "ASSETS/Pasted image 20250804162530.png",
@@ -324,7 +326,6 @@
     "TEMPLATES/Section Break.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
-    "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS",
     "ASSETS/Windows Forensics Cheatsheet.pdf",
     "11_DIGITAL_FORENSICS/WINDOWS_FORENSICS",
