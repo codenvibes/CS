@@ -110,8 +110,7 @@
                   "title": "TODO"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -234,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "08_TOOLS/00 TOOLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of 00 TOOLS"
             }
           },
           {
@@ -264,7 +263,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -282,11 +281,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "cd0a691950be86b5",
+  "active": "d9c91c7059beddd0",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250803225636.png",
     "Pasted image 20250803225557.png",
     "Pasted image 20250803225222.png",
