@@ -70,7 +70,8 @@
                   "title": "OWASP TOP 10 - 2021"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -233,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of OWASP TOP 10 - 2021"
             }
           },
           {
@@ -281,8 +282,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250803225636.png",
@@ -318,7 +320,6 @@
     "08_TOOLS/00 TOOLS.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/JUNIOR SECURITY ANALYST.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Section Break.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
