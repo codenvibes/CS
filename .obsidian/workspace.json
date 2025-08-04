@@ -70,8 +70,7 @@
                   "title": "OWASP TOP 10 - 2021"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -233,13 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of OWASP TOP 10 - 2021"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -281,13 +280,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f8659b2b0049a1d4",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "Pasted image 20250804100938.png",
     "Pasted image 20250804095248.png",
     "Pasted image 20250804094133.png",
     "TEMPLATES/Questions Section.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "08_TOOLS/00 TOOLS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
@@ -298,7 +297,6 @@
     "Pasted image 20250803225027.png",
     "Pasted image 20250803224907.png",
     "Pasted image 20250803224818.png",
-    "ASSETS/Pasted image 20250803222244.png",
     "WHITE-BOARD/TODO.md",
     "README.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
