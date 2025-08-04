@@ -26,8 +26,6 @@ Tools like `ffuf` help us automatically test parts of a website to see what exis
 
 We will start by learning the basics of using `ffuf` to fuzz websites for directories. We run the exercise in the question below, and visit the URL it gives us, and we see the following website:
 
-   
-
 ![Welcome to HTB Academy text on dark background.](https://academy.hackthebox.com/storage/modules/54/web_fnb_main_site.jpg)
 
 The website has no links to anything else, nor does it give us any information that can lead us to more pages. So, it looks like our only option is to '`fuzz`' the website.
@@ -53,7 +51,10 @@ However, if we visit a page that exists, like `/login`, we would get the login 
 ![Hack The Box logo with 'Login' text on dark background.](https://academy.hackthebox.com/storage/modules/54/web_fnb_HTB_login.jpg)
 
 This is the basic idea behind web fuzzing for pages and directories. Still, we cannot do this manually, as it will take forever. This is why we have tools that do this automatically, efficiently, and very quickly. Such tools send hundreds of requests every second, study the response HTTP code, and determine whether the page exists or not. Thus, we can quickly determine what pages exist and then manually examine them to see their content.
-
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Wordlists
 
