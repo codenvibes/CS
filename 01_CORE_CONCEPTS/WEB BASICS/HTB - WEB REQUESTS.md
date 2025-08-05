@@ -336,6 +336,7 @@ GET
 </div>
 
 ##### Send a GET request to the above server, and read the response headers to find the version of Apache running on the server, then submit it as the answer. (answer format: X.Y.ZZ)
+2.4.41
 <div align="center">
 <br>
 <br>
