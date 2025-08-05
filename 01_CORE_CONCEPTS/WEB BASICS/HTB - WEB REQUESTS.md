@@ -25,8 +25,10 @@ Here is what each component stands for:
 |`Fragments`|`#status`|Fragments are processed by the browsers on the client-side to locate sections within the primary resource (e.g. a header or section on the page).|
 
 Not all components are required to access a resource. The main mandatory fields are the scheme and the host, without which the request would have no resource to request.
-
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ## HTTP Flow
 
@@ -42,7 +44,6 @@ In this case, the contents of `index.html` are read and returned by the web se
 
 **Note:** This module is mainly focused on HTTP web requests. For more on HTML and web applications, you may refer to the [Introduction to Web Applications](https://academy.hackthebox.com/module/details/75) module.
 
----
 
 ## cURL
 
