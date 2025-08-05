@@ -141,7 +141,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
 ```
 
 
-<details
+
 ## 💡 First: What is `ffuf` trying to do?
 
 Imagine you're trying to find **hidden folders** on a website like:
@@ -156,20 +156,17 @@ You don’t know these folder names ahead of time. So you give `ffuf` a **wordli
 
 > “Hey ffuf, try each of these words in the URL and tell me which ones work.”
 
----
 
 ## 🤔 So where do keywords come in?
 
 To make that work, `ffuf` needs:
 
 1. The **list of words to try**
-    
 2. The **place in the request to put those words**
-    
 
 That’s what `-w` and `FUZZ` are for:
 
----
+
 
 ## 🧱 Breaking down the command
 
@@ -194,7 +191,7 @@ backup
 Then `FUZZ` now means:  
 👉 Try "admin", then "images", then "backup".
 
----
+
 
 ### 🔹 `-u http://example.com/FUZZ`
 
@@ -212,18 +209,16 @@ http://example.com/backup
 
 It checks if those pages exist. If one does, you’ve found a hidden folder.
 
----
+
 
 ## 🔁 Why is the path being "assigned"?
 
 You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
 - What words to try (`-w ...`)
-    
 - Where to try them (`-u ...FUZZ...`)
-    
 
----
+
 
 ## ✅ Example without the keyword (FUZZ is the default)
 
@@ -241,19 +236,7 @@ But once you want to use **multiple wordlists in different parts** (like for fil
 -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
 ```
 
----
 
-## 🔚 TL;DR
-
-- You’re telling ffuf:  
-    “Try these words (via `-w`) wherever you see `FUZZ` (in the URL or request).”
-    
-- You “assign” a path (wordlist) to a keyword (`FUZZ`) so ffuf knows what list to use and where.
-    
-
----
-
-Let me know if you want a visual diagram or to try this in a real example.
 
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
