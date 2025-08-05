@@ -251,13 +251,6 @@ Because if you don’t name the keyword (`:FUZZ`), ffuf assumes it's called `FUZ
 ```bash
 -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
 ```
-
-
-Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
-
-```shell-session
-codenvibes@htb[/htb]$ ffuf -w <SNIP> -u http://SERVER_IP:PORT/FUZZ
-```
 <div align="center">
 <br>
 <br>
@@ -266,6 +259,13 @@ codenvibes@htb[/htb]$ ffuf -w <SNIP> -u http://SERVER_IP:PORT/FUZZ
 <br>
 <br>
 </div>
+
+Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
+
+```shell-session
+codenvibes@htb[/htb]$ ffuf -w <SNIP> -u http://SERVER_IP:PORT/FUZZ
+```
+
 
 Now, let's start our target in the question below and run our final command on it:
 
