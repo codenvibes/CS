@@ -788,7 +788,14 @@ We can also repeat the exact request right within the browser devtools, by selec
 ![Console showing a fetch request to 'http://127.0.0.1/search.php?search=lel' with headers including user-agent and authorization. Network tab displays a successful GET request with status 200.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_search.jpg)
 
 As we see, the browser sent our request, and we can see the response returned after it. We can click on the response to view its details, expand various details, and read them.
+<div align="center">
+<br>
+<br>
+</div>
 
+### Questions
+
+##### The exercise above seems to be broken, as it returns incorrect results. Use the browser devtools to see what is the request it is sending when we search, and use cURL to search for 'flag' and obtain the flag.
 <div align="center">
 <br>
 <br>
