@@ -30,9 +30,9 @@ The notes are organized into the following domains:
 <br>
 </div>
 
-# 🧩 CTFS COMPLETED
+## 🚩 CTFS COMPLETED
 
-A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up (if available in the `13 CTFS/` folder).
+A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up in the `13 CTFS/` folder).
 
 | Platform       | Challenge Name           | Category        | Status    | Write-Up |
 |----------------|---------------------------|------------------|-----------|----------|
