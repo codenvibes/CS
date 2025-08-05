@@ -159,6 +159,7 @@ In the upcoming sections, we will cover most of the above flags and see where we
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+# HTTP Methods
 ## HTTP Methods and Codes
 <div align="center">
 <br>
