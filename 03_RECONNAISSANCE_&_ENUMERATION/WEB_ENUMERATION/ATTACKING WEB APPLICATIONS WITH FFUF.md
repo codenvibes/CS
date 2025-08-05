@@ -169,12 +169,14 @@ You don’t know these folder names ahead of time. So you give `ffuf` a **wordli
 
 To make that work, `ffuf` needs:
 
-1. The **list of words to try**
-2. The **place in the request to put those words**
+1. ==The **list of words to try**==
+2. ==The **place in the request to put those words**==
 
 That’s what `-w` and `FUZZ` are for:
-
-
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Breaking down the command
 
@@ -198,7 +200,6 @@ backup
 
 Then `FUZZ` now means:  
 👉 Try "admin", then "images", then "backup".
-
 
 
 ##### `-u http://example.com/FUZZ`
