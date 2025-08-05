@@ -84,6 +84,7 @@ Now that we understand the concept of Web Fuzzing and know our wordlist, we shou
 <br>
 </div>
 
+
 ## Ffuf
 
 `Ffuf` is pre-installed on your PwnBox instance. If you want to use it on your own machine, you can either use "`apt install ffuf -y`" or download it and use it from its [GitHub Repo](https://github.com/ffuf/ffuf.git). As a new user of this tool, we will start by issuing the `ffuf -h` command to see how the tools can be used:
