@@ -961,19 +961,17 @@ So, let's see some examples of how POST requests work, and how we can utilize to
 
 The exercise at the end of this section is similar to the example we saw in the GET section. However, once we visit the web application, we see that it utilizes a PHP login form instead of HTTP basic auth:
 
-
+![[Pasted image 20250805225935.png]]
 
 If we try to login with `admin`:`admin`, we get in and see a similar search function to the one we saw earlier in the GET section:
 
-   
+![[Pasted image 20250805230022.png]]
 
-![Search icon with instruction: 'Type a city name and hit Enter'.](https://academy.hackthebox.com/storage/modules/35/web_requests_login_search.jpg)
+If we clear the Network tab in our browser devtools and try to log in again, we will see many requests being sent. We can filter the requests by our server IP, so it would only show requests going to the web application's web server (i.e. filter out external requests), and we will notice the following POST request being sent: 
 
-If we clear the Network tab in our browser devtools and try to log in again, we will see many requests being sent. We can filter the requests by our server IP, so it would only show requests going to the web application's web server (i.e. filter out external requests), and we will notice the following POST request being sent: ![Search interface with a search icon and text 'Type a city name and hit Enter'. Network tab shows three successful requests to 'server_ip', including a POST request with username and password 'admin'.](https://academy.hackthebox.com/storage/modules/35/web_requests_login_request.jpg)
+![Search interface with a search icon and text 'Type a city name and hit Enter'. Network tab shows three successful requests to 'server_ip', including a POST request with username and password 'admin'.](https://academy.hackthebox.com/storage/modules/35/web_requests_login_request.jpg)
 
 We can click on the request, click on the `Request` tab (which shows the request body), and then click on the `Raw` button to show the raw request data. We see the following data is being sent as the POST request data:
-
-Code: bash
 
 ```bash
 username=admin&password=admin
