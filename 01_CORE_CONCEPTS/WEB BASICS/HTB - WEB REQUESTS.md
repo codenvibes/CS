@@ -325,6 +325,20 @@ As we can see, the devtools show us at a glance the response status (i.e. respon
 <div align="center">
 <br>
 <br>
+</div>
+
+### Questions
+
+##### 
+<div align="center">
+<br>
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
