@@ -141,7 +141,124 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
 ```
 
 <div>
+<p>
+Perfect — let’s go **even simpler** and more visual.
 
+---
+
+## 💡 First: What is `ffuf` trying to do?
+
+Imagine you're trying to find **hidden folders** on a website like:
+
+```
+http://example.com/admin
+http://example.com/images
+http://example.com/backup
+```
+
+You don’t know these folder names ahead of time. So you give `ffuf` a **wordlist** — a list of guesses — and tell it:
+
+> “Hey ffuf, try each of these words in the URL and tell me which ones work.”
+
+---
+
+## 🤔 So where do keywords come in?
+
+To make that work, `ffuf` needs:
+
+1. The **list of words to try**
+    
+2. The **place in the request to put those words**
+    
+
+That’s what `-w` and `FUZZ` are for:
+
+---
+
+## 🧱 Breaking down the command
+
+```bash
+ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ
+```
+
+### 🔹 `-w wordlist.txt:FUZZ`
+
+This tells `ffuf`:
+
+> “Use this file (`wordlist.txt`) as the source of words. I’m calling this list `FUZZ`.”
+
+If your wordlist looks like this:
+
+```
+admin
+images
+backup
+```
+
+Then `FUZZ` now means:  
+👉 Try "admin", then "images", then "backup".
+
+---
+
+### 🔹 `-u http://example.com/FUZZ`
+
+This tells `ffuf`:
+
+> “Put each word from `FUZZ` **right here in the URL**.”
+
+So ffuf makes requests like:
+
+```
+http://example.com/admin
+http://example.com/images
+http://example.com/backup
+```
+
+It checks if those pages exist. If one does, you’ve found a hidden folder.
+
+---
+
+## 🔁 Why is the path being "assigned"?
+
+You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
+
+- What words to try (`-w ...`)
+    
+- Where to try them (`-u ...FUZZ...`)
+    
+
+---
+
+## ✅ Example without the keyword (FUZZ is the default)
+
+This is also valid:
+
+```bash
+ffuf -w wordlist.txt -u http://example.com/FUZZ
+```
+
+Because if you don’t name the keyword (`:FUZZ`), ffuf assumes it's called `FUZZ`.
+
+But once you want to use **multiple wordlists in different parts** (like for file extensions or parameters), you'll need to name them:
+
+```bash
+-w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
+```
+
+---
+
+## 🔚 TL;DR
+
+- You’re telling ffuf:  
+    “Try these words (via `-w`) wherever you see `FUZZ` (in the URL or request).”
+    
+- You “assign” a path (wordlist) to a keyword (`FUZZ`) so ffuf knows what list to use and where.
+    
+
+---
+
+Let me know if you want a visual diagram or to try this in a real example.
+</p>
 </div>
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
