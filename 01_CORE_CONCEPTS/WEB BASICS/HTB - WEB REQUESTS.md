@@ -1256,6 +1256,9 @@ Content-Type: text/html; charset=UTF-8
 
 </html>
 ```
+![[Pasted image 20250805232445.png]]
+
+
 
 <div align="center">
 <br>
