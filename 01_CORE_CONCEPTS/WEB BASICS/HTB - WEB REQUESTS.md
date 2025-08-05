@@ -555,6 +555,8 @@ In the first `Headers` tab, we see both the HTTP request and HTTP response hea
 
 ##### The server above loads the flag after the page is loaded. Use the Network tab in the browser devtools to see what requests are made by the page, and find the request to the flag.
 HTB{p493_r3qu3$t$_m0n!t0r}
+
+![[Pasted image 20250805223343.png]]
 <div align="center">
 <br>
 <br>
