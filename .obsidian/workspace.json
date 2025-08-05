@@ -123,23 +123,9 @@
                   "icon": "lucide-file",
                   "title": "HTB - SQL INJECTION FUNDAMENTALS"
                 }
-              },
-              {
-                "id": "84111271dd65f75f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -262,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -310,8 +296,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f8659b2b0049a1d4",
+  "active": "e85e5fc0c64d6b28",
   "lastOpenFiles": [
+    "README.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
@@ -345,7 +332,6 @@
     "ASSETS/login-logs_1595366583422.txt",
     "TEMPLATES/Questions Section.md",
     "08_TOOLS/00 TOOLS.md",
-    "README.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
     "13_CTFS_&_LABS/LABS_DOCUMENTATION/00 LABS.md",
