@@ -330,6 +330,7 @@ As we can see, the devtools show us at a glance the response status (i.e. respon
 ### Questions
 
 ##### What is the HTTP method used while intercepting the request? (case-sensitive)
+GET
 <div align="center">
 <br>
 </div>
