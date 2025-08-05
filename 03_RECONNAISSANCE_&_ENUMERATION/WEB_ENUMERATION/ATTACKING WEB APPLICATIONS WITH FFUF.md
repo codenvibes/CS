@@ -148,7 +148,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
   <title>Understanding FUZZ and Wordlists in ffuf</title>
 </head>
 <body>
-  <h4>💡 What is ffuf trying to do?</h4>
+  <h4>What is ffuf trying to do?</h4>
   <p>
     Imagine you're trying to find <strong>hidden folders</strong> on a website like:
   </p>
@@ -163,7 +163,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
     <em>“Hey ffuf, try each of these words in the URL and tell me which ones work.”</em>
   </p>
 
-  <h5>🤔 Where do keywords come in?</h5>
+  <h5>Where do keywords come in?</h5>
   <p>
     To make that work, ffuf needs two things:
   </p>
@@ -175,7 +175,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
     That’s what <code>-w</code> and <code>FUZZ</code> are for.
   </p>
 
-  <h5>🧱 Breaking down the command</h5>
+  <h5>Breaking down the command</h5>
   <pre><code>ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ</code></pre>
 
   <h6>🔹 <code>-w wordlist.txt:FUZZ</code></h6>
@@ -203,7 +203,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
     <li>http://example.com/backup</li>
   </ul>
 
-  <h5>🔁 Why is the path being "assigned"?</h5>
+  <h5>Why is the path being "assigned"?</h5>
   <p>
     You’re <strong>assigning a wordlist to a keyword</strong> (<code>FUZZ</code>) so ffuf knows:
   </p>
@@ -212,7 +212,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
     <li>Where to try them (<code>-u ...FUZZ...</code>)</li>
   </ul>
 
-  <h5>✅ Example without the keyword</h5>
+  <h5>Example without the keyword</h5>
   <p>This is also valid:</p>
   <pre><code>ffuf -w wordlist.txt -u http://example.com/FUZZ</code></pre>
   <p>
@@ -222,20 +222,9 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
   <p>But with multiple wordlists, you'll need to use named keywords:</p>
   <pre><code>ffuf -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT</code></pre>
 
-  <h5>🔚 TL;DR</h5>
-  <ul>
-    <li><strong>FUZZ</strong> = placeholder keyword</li>
-    <li><code>-w</code> = which wordlist to use</li>
-    <li><code>-u</code> = where to insert the words</li>
-    <li>ffuf replaces <code>FUZZ</code> in the URL with each word in the wordlist</li>
-  </ul>
-
-  <p>Let me know if you want a visual diagram or a live example!</p>
 </body>
 </html>
 
-</p>
-</div>
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
 
