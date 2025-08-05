@@ -981,8 +981,6 @@ With the request data at hand, we can try to send a similar request with cURL, t
 
 We will use the `-X POST` flag to send a `POST` request. Then, to add our POST data, we can use the `-d` flag and add the above data after it, as follows:
 
-  POST
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -X POST -d 'username=admin&password=admin' http://<SERVER_IP>:<PORT>/
 
@@ -994,14 +992,14 @@ codenvibes@htb[/htb]$ curl -X POST -d 'username=admin&password=admin' http://<SE
 If we examine the HTML code, we will not see the login form code, but will see the search function code, which indicates that we did indeed get authenticated.
 
 **Tip:** Many login forms would redirect us to a different page once authenticated (e.g. /dashboard.php). If we want to follow the redirection with cURL, we can use the `-L` flag.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Authenticated Cookies
+### Authenticated Cookies
 
 If we were successfully authenticated, we should have received a cookie so our browsers can persist our authentication, and we don't need to login every time we visit the page. We can use the `-v` or `-i` flags to view the response, which should contain the `Set-Cookie` header with our authenticated cookie:
-
-  POST
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -X POST -d 'username=admin&password=admin' http://<SERVER_IP>:<PORT>/ -i
@@ -1018,8 +1016,6 @@ Set-Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1; path=/
 
 With our authenticated cookie, we should now be able to interact with the web application without needing to provide our credentials every time. To test this, we can set the above cookie with the `-b` flag in cURL, as follows:
 
-  POST
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/
 
@@ -1030,15 +1026,17 @@ codenvibes@htb[/htb]$ curl -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SER
 
 As we can see, we were indeed authenticated and got to the search function. It is also possible to specify the cookie as a header, as follows:
 
-Code: bash
-
 ```bash
 curl -H 'Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' http://<SERVER_IP>:<PORT>/
 ```
 
-We may also try the same thing with our browsers. Let's first logout, and then we should get back to the login page. Then, we can go to the `Storage` tab in the devtools with [`SHIFT+F9`]. In the `Storage` tab, we can click on `Cookies` in the left pane and select our website to view our current cookies. We may or may not have existing cookies, but if we were logged out, then our PHP cookie should not be authenticated, which is why we get the login form and not the search function: ![Login screen with fields for 'Username' and 'Password', a 'Login' button, and cookie information showing PHPSESSID for 'server_ip'.](https://academy.hackthebox.com/storage/modules/35/web_requests_cookies.jpg)
+We may also try the same thing with our browsers. Let's first logout, and then we should get back to the login page. Then, we can go to the `Storage` tab in the devtools with [`SHIFT+F9`]. In the `Storage` tab, we can click on `Cookies` in the left pane and select our website to view our current cookies. We may or may not have existing cookies, but if we were logged out, then our PHP cookie should not be authenticated, which is why we get the login form and not the search function: 
 
-Now, let's try to use our earlier authenticated cookie, and see if we do get in without needing to provide our credentials. To do so, we can simply replace the cookie value with our own. Otherwise, we can right-click on the cookie and select `Delete All`, and the click on the `+` icon to add a new cookie. After that, we need to enter the cookie name, which is the part before the `=` (`PHPSESSID`), and then the cookie value, which is the part after the `=` (`c1nsa6op7vtk7kdis7bcnbadf1`). Then, once our cookie is set, we can refresh the page, and we will see that we do indeed get authenticated without needing to login, simply by using an authenticated cookie: ![Search interface with a search icon and text 'Type a city name and hit Enter'. Storage tab shows PHPSESSID cookie for 'server_ip'.](https://academy.hackthebox.com/storage/modules/35/web_requests_auth_cookie.jpg)
+![Login screen with fields for 'Username' and 'Password', a 'Login' button, and cookie information showing PHPSESSID for 'server_ip'.](https://academy.hackthebox.com/storage/modules/35/web_requests_cookies.jpg)
+
+Now, let's try to use our earlier authenticated cookie, and see if we do get in without needing to provide our credentials. To do so, we can simply replace the cookie value with our own. Otherwise, we can right-click on the cookie and select `Delete All`, and the click on the `+` icon to add a new cookie. After that, we need to enter the cookie name, which is the part before the `=` (`PHPSESSID`), and then the cookie value, which is the part after the `=` (`c1nsa6op7vtk7kdis7bcnbadf1`). Then, once our cookie is set, we can refresh the page, and we will see that we do indeed get authenticated without needing to login, simply by using an authenticated cookie: 
+
+![Search interface with a search icon and text 'Type a city name and hit Enter'. Storage tab shows PHPSESSID cookie for 'server_ip'.](https://academy.hackthebox.com/storage/modules/35/web_requests_auth_cookie.jpg)
 
 As we can see, having a valid cookie may be enough to get authenticated into many web applications. This can be an essential part of some web attacks, like Cross-Site Scripting.
 
