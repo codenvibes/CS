@@ -30,7 +30,7 @@ Not all components are required to access a resource. The main mandatory fields 
 <br>
 </div>
 
-## HTTP Flow
+### HTTP Flow
 
 ![Diagram showing a user accessing inlanefreight.com. The browser sends a DNS query to find the IP address, receives 152.153.81.14, and makes an HTTP request to the web server, which responds with 'HTTP/1.1 200 OK'.](https://academy.hackthebox.com/storage/modules/35/HTTP_Flow.png)
 
@@ -48,7 +48,7 @@ In this case, the contents of `index.html` are read and returned by the web se
 <br>
 </div>
 
-## cURL
+### cURL
 
 In this module, we will be sending web requests through two of the most important tools for any web penetration tester, a Web Browser, like Chrome or Firefox, and the `cURL` command line tool.
 
@@ -118,7 +118,7 @@ In the upcoming sections, we will cover most of the above flags and see where we
 
 ### Questions
 
-
+#####  To get the flag, start the above exercise, then use cURL to download the file returned by '/download.php' in the server shown above.
 <div align="center">
 <br>
 <br>
