@@ -145,7 +145,7 @@ To counter this issue, the [HTTPS (HTTP Secure) protocol](https://tools.ietf.or
 <br>
 </div>
 
-## HTTPS Overview
+### HTTPS Overview
 
 If we examine an HTTP request, we can see the effect of not enforcing secure communications between a web browser and a web application. For example, the following is the content of an HTTP login request: ![Wireshark capture showing an HTTP POST request to /login.php with username 'admin' and password 'password' in plain text.](https://academy.hackthebox.com/storage/modules/35/https_clear.png)
 
@@ -165,7 +165,7 @@ So, if we visit a website that utilizes HTTPS, like Google, all traffic would be
 <br>
 </div>
 
-## HTTPS Flow
+### HTTPS Flow
 
 Let's look at how HTTPS operates at a high level: ![Diagram of HTTP to HTTPS communication: User requests inlanefreight.com, receives HTTP 301 redirect to HTTPS, followed by TLS handshake and encrypted communication.](https://academy.hackthebox.com/storage/modules/35/HTTPS_Flow.png)
 
@@ -181,7 +181,7 @@ Once the handshake completes successfully, normal HTTP communication is continue
 <br>
 </div>
 
-## cURL for HTTPS
+### cURL for HTTPS
 
 cURL should automatically handle all HTTPS communication standards and perform a secure handshake and then encrypt and decrypt data automatically. However, if we ever contact a website with an invalid SSL certificate or an outdated one, then cURL by default would not proceed with the communication to protect against the earlier mentioned MITM attacks:
 
