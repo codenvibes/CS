@@ -160,7 +160,10 @@ http://example.com/backup
 You don’t know these folder names ahead of time. So you give `ffuf` a **wordlist** — a list of guesses — and tell it:
 
 > “Hey ffuf, try each of these words in the URL and tell me which ones work.”
-
+<div align="center">
+<br>
+<br>
+</div>
 
 #### So where do keywords come in?
 
