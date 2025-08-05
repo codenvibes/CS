@@ -116,12 +116,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
+                    "file": "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "INTRO TO LOG ANALYSIS"
+                  "title": "THREAT INTELLIGENCE"
                 }
               }
             ],
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
+                "file": "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTRO TO LOG ANALYSIS"
+              "title": "Outline of THREAT INTELLIGENCE"
             }
           },
           {
@@ -298,6 +298,10 @@
   },
   "active": "e85e5fc0c64d6b28",
   "lastOpenFiles": [
+    "05_DEFENSIVE_SECURITY/REMOTE ACCESS CONCEPTS.md",
+    "05_DEFENSIVE_SECURITY/SIEM TOOLS.md",
+    "05_DEFENSIVE_SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
+    "05_DEFENSIVE_SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/HTB - METASPLOIT FRAMEWORK.md",
@@ -334,11 +338,7 @@
     "12_AI_SECURITY_FUNDAMENTALS",
     "13_CTFS",
     "02_SECURITY_FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
-    "09_SOFT_SKILLS_&_CAREER/REPORT WRITING GUIDE.md",
-    "09_SOFT_SKILLS_&_CAREER/PRESENTATION GUIDE & DELIVERY TIPS.md",
-    "13_CTFS/2025_H4K-IT_CYBERSECURITY/SCRIPT.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/TERRENCE MK REPORT FINAL.pdf",
-    "13_CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/PRESENTATION.pdf",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS",
