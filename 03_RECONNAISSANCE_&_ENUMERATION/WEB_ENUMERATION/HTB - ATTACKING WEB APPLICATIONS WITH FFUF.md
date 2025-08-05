@@ -266,7 +266,6 @@ Next, as we want to be fuzzing for web directories, we can place the `FUZZ` ke
 codenvibes@htb[/htb]$ ffuf -w <SNIP> -u http://SERVER_IP:PORT/FUZZ
 ```
 
-
 Now, let's start our target in the question below and run our final command on it:
 
 ```shell-session
