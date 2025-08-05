@@ -1342,8 +1342,6 @@ codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/london | jq
 
 As we can see, we got the output in a nicely formatted output. We can also provide a search term and get all matching results:
 
-  CRUD API
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/le | jq
 
@@ -1366,8 +1364,6 @@ codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/le | jq
 
 Finally, we can pass an empty string to retrieve all entries in the table:
 
-  CRUD API
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/ | jq
 
@@ -1389,22 +1385,20 @@ codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/ | jq
 ```
 
 `Try visiting any of the above links using your browser, to see how the result is rendered.`
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Create
+### Create
 
 To add a new entry, we can use an HTTP POST request, which is quite similar to what we have performed in the previous section. We can simply POST our JSON data, and it will be added to the table. As this API is using JSON data, we will also set the `Content-Type` header to JSON, as follows:
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -X POST http://<SERVER_IP>:<PORT>/api.php/city/ -d '{"city_name":"HTB_City", "country_name":"HTB"}' -H 'Content-Type: application/json'
 ```
 
 Now, we can read the content of the city we added (`HTB_City`), to see if it was successfully added:
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/HTB_City | jq
@@ -1421,7 +1415,6 @@ As we can see, a new city was created, which did not exist before.
 
 **Exercise:** Try adding a new city through the browser devtools, by using one of the Fetch POST requests you used in the previous section.
 
----
 
 ## Update
 
