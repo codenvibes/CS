@@ -1482,6 +1482,7 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
 ### Questions
 
 ##### First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
+HTB{crud_4p!_m4n!pul4t0r}
 
 ![[Pasted image 20250805234640.png]]
 ```shell
