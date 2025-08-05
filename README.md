@@ -2,23 +2,36 @@
 
 This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources.
 
-## 📚 Structure
+## 📚 STRUCTURE
 
 The notes are organized into the following domains:
 
 ├── [01 CORE CONCEPTS]()
+
 ├── [02 SECURITY FOUNDATIONS]()
+
 ├── [03 RECONNAISSANCE & ENUMERATION]()
+
 ├── [04 EXPLOITATION]()
+
 ├── [05 DEFENSIVE SECURITY]()
+
 ├── [06 POST-EXPLOITATION & LATERAL MOVEMENT]()
+
 ├── [07 CRYPTOGRAPHY]()
+
 ├── [08 TOOLS]()
+
 ├── [09 SOFT SKILLS & CAREER]()
+
 ├── [10 ANONYMITY & PRIVACY]()
+
 ├── [11 DIGITAL FORENSICS]()
+
 ├── [12 AI SECURITY FUNDAMENTALS]()
+
 ├── [13 CTFS]()
+
 
 
 > Notes are updated daily based on my learning progress.
