@@ -138,7 +138,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WIFI HACKING 101"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -309,10 +309,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
-    "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
     "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+    "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
     "Pasted image 20250805161239.png",
     "Pasted image 20250805161218.png",
     "Pasted image 20250805161148.png",
