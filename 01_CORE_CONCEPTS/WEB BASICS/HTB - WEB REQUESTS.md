@@ -536,14 +536,24 @@ codenvibes@htb[/htb]$ curl https://www.inlanefreight.com -A 'Mozilla/5.0'
 ```
 
 **Exercise:** Try to use the `-I` or the `-v` flags with the above example, to ensure that we did change our User-Agent with the `-A` flag.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Browser DevTools
+### Browser DevTools
 
 Finally, let's see how we can preview the HTTP headers using the browser devtools. Just as we did in the previous section, we can go to the `Network` tab to view the different requests made by the page. We can click on any of the requests to view its details: ![Network tab showing two GET requests to 188.166.146.97:31122. Status 304 for '/' with headers displayed, and 404 for 'favicon.ico'.](https://academy.hackthebox.com/storage/modules/35/devtools_network_requests_details.jpg)
 
 In the first `Headers` tab, we see both the HTTP request and HTTP response headers. The devtools automatically arrange the headers into sections, but we can click on the `Raw` button to view their details in their raw format. Furthermore, we can check the `Cookies` tab to see any cookies used by the request, as discussed in an upcoming section.
+<div align="center">
+<br>
+<br>
+</div>
+
+### Questions
+
+##### The server above loads the flag after the page is loaded. Use the Network tab in the browser devtools to see what requests are made by the page, and find the request to the flag.
 <div align="center">
 <br>
 <br>
