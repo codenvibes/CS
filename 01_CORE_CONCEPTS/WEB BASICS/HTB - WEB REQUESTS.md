@@ -1098,6 +1098,9 @@ Our request successfully returns the same data we got with cURL. `Try to search
 ##### Obtain a session cookie through a valid login, and then use the cookie with cURL to search for the flag through a JSON POST request to '/search.php'
 
 ![[Pasted image 20250805230425.png]]
+![[Pasted image 20250805230838.png]]
+
+
 <div align="center">
 <br>
 <br>
