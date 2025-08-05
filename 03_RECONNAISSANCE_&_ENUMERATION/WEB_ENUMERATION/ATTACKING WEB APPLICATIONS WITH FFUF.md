@@ -142,7 +142,7 @@ codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directo
 
 
 
-## 💡 First: What is `ffuf` trying to do?
+#### First: What is `ffuf` trying to do?
 
 Imagine you're trying to find **hidden folders** on a website like:
 
@@ -157,7 +157,7 @@ You don’t know these folder names ahead of time. So you give `ffuf` a **wordli
 > “Hey ffuf, try each of these words in the URL and tell me which ones work.”
 
 
-## 🤔 So where do keywords come in?
+#### So where do keywords come in?
 
 To make that work, `ffuf` needs:
 
@@ -168,13 +168,13 @@ That’s what `-w` and `FUZZ` are for:
 
 
 
-## 🧱 Breaking down the command
+#### Breaking down the command
 
 ```bash
 ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ
 ```
 
-### 🔹 `-w wordlist.txt:FUZZ`
+##### `-w wordlist.txt:FUZZ`
 
 This tells `ffuf`:
 
@@ -193,7 +193,7 @@ Then `FUZZ` now means:
 
 
 
-### 🔹 `-u http://example.com/FUZZ`
+##### `-u http://example.com/FUZZ`
 
 This tells `ffuf`:
 
@@ -211,7 +211,7 @@ It checks if those pages exist. If one does, you’ve found a hidden folder.
 
 
 
-## 🔁 Why is the path being "assigned"?
+#### Why is the path being "assigned"?
 
 You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
@@ -220,7 +220,7 @@ You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
 
 
-## ✅ Example without the keyword (FUZZ is the default)
+#### Example without the keyword (FUZZ is the default)
 
 This is also valid:
 
@@ -234,9 +234,7 @@ But once you want to use **multiple wordlists in different parts** (like for fil
 
 ```bash
 -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
-```
-
-
+```##
 
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
