@@ -160,8 +160,10 @@ Websites that enforce HTTPS can be identified through `https://` in their URL 
 So, if we visit a website that utilizes HTTPS, like Google, all traffic would be encrypted.
 
 **Note:** Although the data transferred through the HTTPS protocol may be encrypted, the request may still reveal the visited URL if it contacted a clear-text DNS server. For this reason, it is recommended to utilize encrypted DNS servers (e.g. 8.8.8.8 or 1.1.1.1), or utilize a VPN service to ensure all traffic is properly encrypted.
-
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ## HTTPS Flow
 
@@ -174,8 +176,10 @@ Next, the client (web browser) sends a "client hello" packet, giving information
 Once the handshake completes successfully, normal HTTP communication is continued, which is encrypted after that. This is a very high-level overview of the key exchange, which is beyond this module's scope.
 
 **Note:** Depending on the circumstances, an attacker may be able to perform an HTTP downgrade attack, which downgrades HTTPS communication to HTTP, making the data transferred in clear-text. This is done by setting up a Man-In-The-Middle (MITM) proxy to transfer all traffic through the attacker's host without the user's knowledge. However, most modern browsers, servers, and web applications protect against this attack.
-
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ## cURL for HTTPS
 
@@ -216,6 +220,8 @@ As we can see, the request went through this time, and we received the response 
 <div style="page-break-after: always;"></div>
 
 ## HTTP Requests and Responses
+
+
 <div align="center">
 <br>
 <br>
