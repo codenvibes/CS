@@ -765,6 +765,7 @@ As the page returns our results, it may be contacting a remote resource to obtai
 ![Network tab with instructions: 'Perform a request or reload the page to see detailed information about network activity. Click on the stopwatch button to start performance analysis.](https://academy.hackthebox.com/storage/modules/35/network_clear_requests.jpg)
 
 After that, we can enter any search term and hit enter, and we will immediately notice a new request being sent to the backend: 
+
 ![Search results for 'le' showing Leeds (UK) and Leicester (UK). Network tab displays a successful GET request to 127.0.0.1 for search.php.](https://academy.hackthebox.com/storage/modules/35/web_requests_get_search.jpg)
 
 When we click on the request, it gets sent to `search.php` with the GET parameter `search=le` used in the URL. This helps us understand that the search function requests another page for the results.
@@ -772,8 +773,6 @@ When we click on the request, it gets sent to `search.php` with the GET parame
 Now, we can send the same request directly to `search.php` to get the full search results, though it will probably return them in a specific format (e.g. JSON) without having the HTML layout shown in the above screenshot.
 
 To send a GET request with cURL, we can use the exact same URL seen in the above screenshots since GET requests place their parameters in the URL. However, browser devtools provide a more convenient method of obtaining the cURL command. We can right-click on the request and select `Copy>Copy as cURL`. Then, we can paste the copied command in our terminal and execute it, and we should get the exact same response:
-
-  GET
 
 ```shell-session
 codenvibes@htb[/htb]$ curl 'http://<SERVER_IP>:<PORT>/search.php?search=le' -H 'Authorization: Basic YWRtaW46YWRtaW4='
@@ -784,9 +783,12 @@ Leicester (UK)
 
 **Note:** The copied command will contain all headers used in the HTTP request. However, we can remove most of them and only keep necessary authentication headers, like the `Authorization` header.
 
-We can also repeat the exact request right within the browser devtools, by selecting `Copy>Copy as Fetch`. This will copy the same HTTP request using the JavaScript Fetch library. Then, we can go to the JavaScript console tab by clicking [`CTRL+SHIFT+K`], paste our Fetch command and hit enter to send the request: ![Console showing a fetch request to 'http://127.0.0.1/search.php?search=lel' with headers including user-agent and authorization. Network tab displays a successful GET request with status 200.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_search.jpg)
+We can also repeat the exact request right within the browser devtools, by selecting `Copy>Copy as Fetch`. This will copy the same HTTP request using the JavaScript Fetch library. Then, we can go to the JavaScript console tab by clicking [`CTRL+SHIFT+K`], paste our Fetch command and hit enter to send the request: 
+
+![Console showing a fetch request to 'http://127.0.0.1/search.php?search=lel' with headers including user-agent and authorization. Network tab displays a successful GET request with status 200.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_search.jpg)
 
 As we see, the browser sent our request, and we can see the response returned after it. We can click on the response to view its details, expand various details, and read them.
+
 <div align="center">
 <br>
 <br>
