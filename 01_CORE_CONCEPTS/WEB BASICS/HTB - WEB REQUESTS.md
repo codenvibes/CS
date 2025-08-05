@@ -1148,6 +1148,65 @@ Our request successfully returns the same data we got with cURL. `Try to search
 </html>
 ```
 
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X POST -d 'username=admin&password=admin' http://83.136.253.59:42306/ -i
+HTTP/1.1 200 OK
+Date: Tue, 05 Aug 2025 20:20:14 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Set-Cookie: PHPSESSID=crv76vhr9i4goot78ami87ec9m; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1554
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>City Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+    <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+    <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.2.0/css/all.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+            <div class="icon" style="position: absolute; top: 50px; left: 50px;">
+        <a href="/?logout" class="btn btn-success"><i class="fab fas fa-sign-out-alt fa-2x"></i></a>
+    </div>
+    <div>
+        <div class="search">
+            <div class="bar">
+                <div class="icon">
+                    <i></i>
+                </div>
+            </div>
+            <form>
+                <input type="text">
+            </form>
+            <div class="close"></div>
+            <ul id="results_list">
+
+            </ul>
+        </div>
+        <em>Type a city name and hit <strong>Enter</strong></em>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+```
 <div align="center">
 <br>
 <br>
