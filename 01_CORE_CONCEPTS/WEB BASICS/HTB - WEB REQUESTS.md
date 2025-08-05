@@ -1414,9 +1414,12 @@ codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/HTB_City | 
 As we can see, a new city was created, which did not exist before.
 
 **Exercise:** Try adding a new city through the browser devtools, by using one of the Fetch POST requests you used in the previous section.
+<div align="center">
+<br>
+<br>
+</div>
 
-
-## Update
+### Update
 
 Now that we know how to read and write entries through APIs, let's start discussing two other HTTP methods we have not used so far: `PUT` and `DELETE`. As mentioned at the beginning of the section, `PUT` is used to update API entries and modify their details, while `DELETE` is used to remove a specific entity.
 
@@ -1424,21 +1427,15 @@ Now that we know how to read and write entries through APIs, let's start discuss
 
 Using `PUT` is quite similar to `POST` in this case, with the only difference being that we have to specify the name of the entity we want to edit in the URL, otherwise the API will not know which entity to edit. So, all we have to do is specify the `city` name in the URL, change the request method to `PUT`, and provide the JSON data like we did with POST, as follows:
 
-  CRUD API
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -X PUT http://<SERVER_IP>:<PORT>/api.php/city/london -d '{"city_name":"New_HTB_City", "country_name":"HTB"}' -H 'Content-Type: application/json'
 ```
 
 We see in the example above that we first specified `/city/london` as our city, and passed a JSON string that contained `"city_name":"New_HTB_City"` in the request data. So, the london city should no longer exist, and a new city with the name `New_HTB_City` should exist. Let's try reading both to confirm:
 
-  CRUD API
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/london | jq
 ```
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/New_HTB_City | jq
@@ -1454,20 +1451,18 @@ codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/New_HTB_Cit
 Indeed, we successfully replaced the old city name with the new city.
 
 **Note:** In some APIs, the `Update` operation may be used to create new entries as well. Basically, we would send our data, and if it does not exist, it would create it. For example, in the above example, even if an entry with a `london` city did not exist, it would create a new entry with the details we passed. In our example, however, this is not the case. Try to update a non-existing city and see what you would get.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## DELETE
+### DELETE
 
 Finally, let's try to delete a city, which is as easy as reading a city. We simply specify the city name for the API and use the HTTP `DELETE` method, and it would delete the entry, as follows:
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -X DELETE http://<SERVER_IP>:<PORT>/api.php/city/New_HTB_City
 ```
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/New_HTB_City | jq
