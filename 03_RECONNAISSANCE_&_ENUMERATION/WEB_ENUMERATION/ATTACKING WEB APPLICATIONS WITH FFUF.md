@@ -140,9 +140,9 @@ As we can see from the example above, the main two options are `-w` for wordli
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ
 ```
 
-`FUZZ` is **a placeholder in the URL (or headers, etc.)** that tells `ffuf`:
+<div>
 
-> “Insert each word from the wordlist **right here** and make a request with it.”
+</div>
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
 
