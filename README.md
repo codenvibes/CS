@@ -1,10 +1,10 @@
 # 🛡️ CYBERSECURITY LEARNING NOTES
 
-This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources. The goal is to consolidate and organize all concepts, tools, techniques, and learning paths in one place.
+This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources.
 
 ## 📚 Structure
 
-The notes are organized into categories that reflect real-world cybersecurity domains:
+The notes are organized into the following domains:
 
 - **Core Concepts** – Networking, OS fundamentals, scripting
 - **Security Foundations** – Risk, threats, CIA triad, compliance
