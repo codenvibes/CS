@@ -1288,17 +1288,19 @@ We saw examples of a `City Search` web application that uses PHP parameters to
 <br>
 </div>
 
-## APIs
+### APIs
 
 There are several types of APIs. Many APIs are used to interact with a database, such that we would be able to specify the requested table and the requested row within our API query, and then use an HTTP method to perform the operation needed. For example, for the `api.php` endpoint in our example, if we wanted to update the `city` table in the database, and the row we will be updating has a city name of `london`, then the URL would look something like this:
-
-Code: bash
 
 ```bash
 curl -X PUT http://<SERVER_IP>:<PORT>/api.php/city/london ...SNIP...
 ```
+<div align="center">
+<br>
+<br>
+</div>
 
-## CRUD
+### CRUD
 
 As we can see, we can easily specify the table and the row we want to perform an operation on through such APIs. Then we may utilize different HTTP methods to perform different operations on that row. In general, APIs perform 4 main operations on the requested database entity:
 
@@ -1310,14 +1312,14 @@ As we can see, we can easily specify the table and the row we want to perform an
 |`Delete`|`DELETE`|Removes the specified row from the database table|
 
 These four operations are mainly linked to the commonly known CRUD APIs, but the same principle is also used in REST APIs and several other types of APIs. Of course, not all APIs work in the same way, and the user access control will limit what actions we can perform and what results we can see. The [Introduction to Web Applications](https://academy.hackthebox.com/module/details/75) module further explains these concepts, so you may refer to it for more details about APIs and their usage.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## Read
+### Read
 
 The first thing we will do when interacting with an API is reading data. As mentioned earlier, we can simply specify the table name after the API (e.g. `/city`) and then specify our search term (e.g. `/london`), as follows:
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl http://<SERVER_IP>:<PORT>/api.php/city/london
@@ -1326,8 +1328,6 @@ codenvibes@htb[/htb]$ curl http://<SERVER_IP>:<PORT>/api.php/city/london
 ```
 
 We see that the result is sent as a JSON string. To have it properly formatted in JSON format, we can pipe the output to the `jq` utility, which will format it properly. We will also silent any unneeded cURL output with `-s`, as follows:
-
-  CRUD API
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -s http://<SERVER_IP>:<PORT>/api.php/city/london | jq
