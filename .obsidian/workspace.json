@@ -138,7 +138,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -309,8 +309,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "01_CORE_CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "ASSETS/Pasted image 20250805234640.png",
     "ASSETS/Pasted image 20250805232445.png",
@@ -323,7 +324,6 @@
     "ASSETS/Pasted image 20250805223817.png",
     "ASSETS/Pasted image 20250805223724.png",
     "WHITE-BOARD/TODO.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
