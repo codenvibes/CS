@@ -1257,7 +1257,11 @@ Content-Type: text/html; charset=UTF-8
 </html>
 ```
 ![[Pasted image 20250805232445.png]]
-
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X POST -d '{"search":"le"}' -b 'PHPSESSID=crv76vhr9i4goot78ami87ec9m' http://83.136.253.59:42306/search.php
+Content type must be: application/json
+```
 
 
 <div align="center">
