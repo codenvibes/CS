@@ -43,7 +43,10 @@ Once the browser gets the IP address linked to the requested domain, it sends a 
 In this case, the contents of `index.html` are read and returned by the web server as an HTTP response. The response also contains the status code (e.g. `200 OK`), which indicates that the request was successfully processed. The web browser then renders the `index.html` contents and presents it to the user.
 
 **Note:** This module is mainly focused on HTTP web requests. For more on HTML and web applications, you may refer to the [Introduction to Web Applications](https://academy.hackthebox.com/module/details/75) module.
-
+<div align="center">
+<br>
+<br>
+</div>
 
 ## cURL
 
@@ -108,6 +111,14 @@ Use the user manual `man curl` or the "--help all" flag for all options.
 As the above message mentions, we may use `--help all` to print a more detailed help menu, or `--help category` (e.g. `-h http`) to print the detailed help of a specific flag. If we ever need to read more detailed documentation, we can use `man curl` to view the full cURL manual page.
 
 In the upcoming sections, we will cover most of the above flags and see where we should use each of them.
+<div align="center">
+<br>
+<br>
+</div>
+
+### Questions
+
+
 <div align="center">
 <br>
 <br>
