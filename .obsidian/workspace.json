@@ -129,12 +129,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+                    "file": "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - WIFI HACKING 101"
+                  "title": "tar (TAR & TAR.GZ FILES)"
                 }
               }
             ],
@@ -198,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -262,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+                "file": "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WIFI HACKING 101"
+              "title": "Outline of tar (TAR & TAR.GZ FILES)"
             }
           },
           {
@@ -312,6 +311,7 @@
   },
   "active": "b041d4b3303df347",
   "lastOpenFiles": [
+    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "Pasted image 20250805161239.png",
     "Pasted image 20250805161218.png",
     "Pasted image 20250805161148.png",
@@ -322,9 +322,7 @@
     "ASSETS/Pasted image 20250805143848.png",
     "ASSETS/Pasted image 20250805143820.png",
     "ASSETS/Pasted image 20250805143757.png",
-    "ASSETS/Pasted image 20250805142945.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "README.md",
