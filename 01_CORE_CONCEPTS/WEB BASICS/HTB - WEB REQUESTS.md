@@ -120,6 +120,12 @@ In the upcoming sections, we will cover most of the above flags and see where we
 ### Questions
 
 #####  To get the flag, start the above exercise, then use cURL to download the file returned by '/download.php' in the server shown above.
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl 94.237.61.249:55055/download.php
+HTB{64$!c_cURL_u$3r}
+```
 <div align="center">
 <br>
 <br>
