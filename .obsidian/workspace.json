@@ -71,7 +71,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -116,12 +116,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "11_DIGITAL_FORENSICS/WINDOWS FORENSICS.md",
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WINDOWS FORENSICS"
+                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
                 }
               }
             ],
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11_DIGITAL_FORENSICS/WINDOWS FORENSICS.md",
+                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WINDOWS FORENSICS"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -296,17 +296,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e85e5fc0c64d6b28",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
-    "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
-    "08_TOOLS/FFUF.md",
-    "07_CRYPTOGRAPHY/CRYPTOGRAPHY.md",
-    "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
-    "05_DEFENSIVE_SECURITY/REMOTE ACCESS CONCEPTS.md",
-    "05_DEFENSIVE_SECURITY/SIEM TOOLS.md",
-    "05_DEFENSIVE_SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
-    "05_DEFENSIVE_SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "05_DEFENSIVE_SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
+    "05_DEFENSIVE_SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
+    "05_DEFENSIVE_SECURITY/SIEM TOOLS.md",
+    "05_DEFENSIVE_SECURITY/REMOTE ACCESS CONCEPTS.md",
+    "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
+    "07_CRYPTOGRAPHY/CRYPTOGRAPHY.md",
+    "08_TOOLS/FFUF.md",
+    "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
+    "11_DIGITAL_FORENSICS/THM - WINDOWS FORENSICS.md",
     "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/HTB - METASPLOIT FRAMEWORK.md",
     "01_CORE_CONCEPTS/HTB - NETWORKING FUNDAMENTALS.md",
@@ -335,7 +336,6 @@
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
     "13_CTFS_&_LABS/LABS_DOCUMENTATION/00 LABS.md",
     "13_CTFS_&_LABS/CTFS",
-    "13_CTFS_&_LABS/Untitled.md",
     "12_AI_SECURITY_FUNDAMENTALS",
     "13_CTFS",
     "13_CTFS/2025_H4K-IT_CYBERSECURITY/TERRENCE MK REPORT FINAL.pdf",
