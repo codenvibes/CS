@@ -247,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -295,8 +295,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "e85e5fc0c64d6b28",
   "lastOpenFiles": [
+    "04_EXPLOITATION/Untitled.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "README.md",
@@ -327,13 +329,11 @@
     "ASSETS/Pasted image 20250804160749.png",
     "ASSETS/Pasted image 20250804160438.png",
     "ASSETS/Pasted image 20250804160402.png",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/login-logs_1595366583422.txt",
     "TEMPLATES/Questions Section.md",
     "08_TOOLS/00 TOOLS.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/00 COMMANDS.md",
-    "13_CTFS_&_LABS/LABS_DOCUMENTATION/00 LABS.md",
     "13_CTFS_&_LABS/CTFS",
     "12_AI_SECURITY_FUNDAMENTALS",
     "13_CTFS",
