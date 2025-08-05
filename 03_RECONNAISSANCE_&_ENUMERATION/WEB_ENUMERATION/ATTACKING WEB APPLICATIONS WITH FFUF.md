@@ -140,124 +140,100 @@ As we can see from the example above, the main two options are `-w` for wordli
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ
 ```
 
-<div>
-<p>
-Perfect — let’s go **even simpler** and more visual.
 
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding FUZZ and Wordlists in ffuf</title>
+</head>
+<body>
+  <h4>💡 What is ffuf trying to do?</h4>
+  <p>
+    Imagine you're trying to find <strong>hidden folders</strong> on a website like:
+  </p>
+  <ul>
+    <li>http://example.com/admin</li>
+    <li>http://example.com/images</li>
+    <li>http://example.com/backup</li>
+  </ul>
+  <p>
+    You don’t know these folder names ahead of time. So you give <code>ffuf</code> a
+    <strong>wordlist</strong> — a list of guesses — and tell it:<br>
+    <em>“Hey ffuf, try each of these words in the URL and tell me which ones work.”</em>
+  </p>
 
-First: What is `ffuf` trying to do?
+  <h5>🤔 Where do keywords come in?</h5>
+  <p>
+    To make that work, ffuf needs two things:
+  </p>
+  <ol>
+    <li>The <strong>list of words to try</strong></li>
+    <li>The <strong>place in the request</strong> to put those words</li>
+  </ol>
+  <p>
+    That’s what <code>-w</code> and <code>FUZZ</code> are for.
+  </p>
 
-Imagine you're trying to find **hidden folders** on a website like:
+  <h5>🧱 Breaking down the command</h5>
+  <pre><code>ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ</code></pre>
 
-```
-http://example.com/admin
-http://example.com/images
-http://example.com/backup
-```
+  <h6>🔹 <code>-w wordlist.txt:FUZZ</code></h6>
+  <p>
+    This tells ffuf:<br>
+    <em>“Use this file (<code>wordlist.txt</code>) as the source of words. I’m calling this list <code>FUZZ</code>.”</em>
+  </p>
+  <p>If your wordlist looks like this:</p>
+  <ul>
+    <li>admin</li>
+    <li>images</li>
+    <li>backup</li>
+  </ul>
+  <p>Then <code>FUZZ</code> means: try "admin", then "images", then "backup".</p>
 
-You don’t know these folder names ahead of time. So you give `ffuf` a **wordlist** — a list of guesses — and tell it:
+  <h6>🔹 <code>-u http://example.com/FUZZ</code></h6>
+  <p>
+    This tells ffuf:<br>
+    <em>“Put each word from <code>FUZZ</code> <strong>right here in the URL</strong>.”</em>
+  </p>
+  <p>So ffuf makes requests like:</p>
+  <ul>
+    <li>http://example.com/admin</li>
+    <li>http://example.com/images</li>
+    <li>http://example.com/backup</li>
+  </ul>
 
-> “Hey ffuf, try each of these words in the URL and tell me which ones work.”
+  <h5>🔁 Why is the path being "assigned"?</h5>
+  <p>
+    You’re <strong>assigning a wordlist to a keyword</strong> (<code>FUZZ</code>) so ffuf knows:
+  </p>
+  <ul>
+    <li>What words to try (<code>-w ...</code>)</li>
+    <li>Where to try them (<code>-u ...FUZZ...</code>)</li>
+  </ul>
 
----
+  <h5>✅ Example without the keyword</h5>
+  <p>This is also valid:</p>
+  <pre><code>ffuf -w wordlist.txt -u http://example.com/FUZZ</code></pre>
+  <p>
+    If you don’t name the keyword (<code>:FUZZ</code>), ffuf assumes it's called <code>FUZZ</code>.
+  </p>
 
-So where do keywords come in?
+  <p>But with multiple wordlists, you'll need to use named keywords:</p>
+  <pre><code>ffuf -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT</code></pre>
 
-To make that work, `ffuf` needs:
+  <h5>🔚 TL;DR</h5>
+  <ul>
+    <li><strong>FUZZ</strong> = placeholder keyword</li>
+    <li><code>-w</code> = which wordlist to use</li>
+    <li><code>-u</code> = where to insert the words</li>
+    <li>ffuf replaces <code>FUZZ</code> in the URL with each word in the wordlist</li>
+  </ul>
 
-1. The **list of words to try**
-    
-2. The **place in the request to put those words**
-    
+  <p>Let me know if you want a visual diagram or a live example!</p>
+</body>
+</html>
 
-That’s what `-w` and `FUZZ` are for:
-
----
-
-Breaking down the command
-
-```bash
-ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ
-```
-
-### 🔹 `-w wordlist.txt:FUZZ`
-
-This tells `ffuf`:
-
-> “Use this file (`wordlist.txt`) as the source of words. I’m calling this list `FUZZ`.”
-
-If your wordlist looks like this:
-
-```
-admin
-images
-backup
-```
-
-Then `FUZZ` now means:  
-👉 Try "admin", then "images", then "backup".
-
----
-
-### 🔹 `-u http://example.com/FUZZ`
-
-This tells `ffuf`:
-
-> “Put each word from `FUZZ` **right here in the URL**.”
-
-So ffuf makes requests like:
-
-```
-http://example.com/admin
-http://example.com/images
-http://example.com/backup
-```
-
-It checks if those pages exist. If one does, you’ve found a hidden folder.
-
----
-
-Why is the path being "assigned"?
-
-You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
-
-- What words to try (`-w ...`)
-    
-- Where to try them (`-u ...FUZZ...`)
-    
-
----
-
-Example without the keyword (FUZZ is the default)
-
-This is also valid:
-
-```bash
-ffuf -w wordlist.txt -u http://example.com/FUZZ
-```
-
-Because if you don’t name the keyword (`:FUZZ`), ffuf assumes it's called `FUZZ`.
-
-But once you want to use **multiple wordlists in different parts** (like for file extensions or parameters), you'll need to name them:
-
-```bash
--w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
-```
-
----
-
-## 🔚 TL;DR
-
-- You’re telling ffuf:  
-    “Try these words (via `-w`) wherever you see `FUZZ` (in the URL or request).”
-    
-- You “assign” a path (wordlist) to a keyword (`FUZZ`) so ffuf knows what list to use and where.
-    
-
----
-
-Let me know if you want a visual diagram or to try this in a real example.
 </p>
 </div>
 
