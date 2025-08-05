@@ -803,7 +803,77 @@ As we see, the browser sent our request, and we can see the response returned af
 
 ![[Pasted image 20250805224055.png]]
 ![[Pasted image 20250805224125.png]]
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -v http://admin:admin@94.237.54.192:32937/
+*   Trying 94.237.54.192:32937...
+* Connected to 94.237.54.192 (94.237.54.192) port 32937
+* using HTTP/1.x
+* Server auth using Basic with user 'admin'
+> GET / HTTP/1.1
+> Host: 94.237.54.192:32937
+> Authorization: Basic YWRtaW46YWRtaW4=
+> User-Agent: curl/8.13.0
+> Accept: */*
+>
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Date: Tue, 05 Aug 2025 19:44:55 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Cache-Control: no-cache, must-revalidate, max-age=0
+< Vary: Accept-Encoding
+< Content-Length: 1156
+< Content-Type: text/html; charset=UTF-8
+<
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>City Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div>
+        <div class="search">
+            <div class="bar">
+                <div class="icon">
+                    <i></i>
+                </div>
+            </div>
+            <form>
+                <input type="text">
+            </form>
+            <div class="close"></div>
+            <ul>
+                <li>
+                    <p>Leeds (UK)</p>
+                </li>
+                <li>
+                    <p>Leicester (UK)</p>
+                </li>
+            </ul>
+        </div>
+
+        <em>Type a city name and hit <strong>Enter</strong></em>
+
+    </div>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+* Connection #0 to host 94.237.54.192 left intact
+</html>
+```
 
 <div align="center">
 <br>
