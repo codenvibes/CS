@@ -650,13 +650,9 @@ To access the page, we have to enter a valid pair of credentials, which are `ad
 
 Once we enter the credentials, we would get access to the page:
 
-   
-
-![Search icon with text 'Type a city name and hit Enter'.](https://academy.hackthebox.com/storage/modules/35/http_auth_index.jpg)
+![[Pasted image 20250805221430.png]]
 
 Let's try to access the page with cURL, and we'll add `-i` to view the response headers:
-
-  GET
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -i http://<SERVER_IP>:<PORT>/
@@ -673,8 +669,6 @@ Access denied
 
 As we can see, we get `Access denied` in the response body, and we also get `Basic realm="Access denied"` in the `WWW-Authenticate` header, which confirms that this page indeed uses `basic HTTP auth`, as discussed in the Headers section. To provide the credentials through cURL, we can use the `-u` flag, as follows:
 
-  GET
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -u admin:admin http://<SERVER_IP>:<PORT>/
 
@@ -686,8 +680,6 @@ codenvibes@htb[/htb]$ curl -u admin:admin http://<SERVER_IP>:<PORT>/
 ```
 
 This time we do get the page in the response. There is another method we can provide the `basic HTTP auth` credentials, which is directly through the URL as (`username:password@URL`), as we discussed in the first section. If we try the same with cURL or our browser, we do get access to the page as well:
-
-  GET
 
 ```shell-session
 codenvibes@htb[/htb]$ curl http://admin:admin@<SERVER_IP>:<PORT>/
@@ -703,7 +695,6 @@ We may also try visiting the same URL on a browser, and we should get authentica
 
 **Exercise:** Try to view the response headers by adding -i to the above request, and see how an authenticated response differs from an unauthenticated one.
 
----
 
 ## HTTP Authorization Header
 
