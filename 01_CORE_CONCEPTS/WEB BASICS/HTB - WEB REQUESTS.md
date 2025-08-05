@@ -1495,3 +1495,4 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
 
 ## References
 
+https://academy.hackthebox.com/module/details/35
