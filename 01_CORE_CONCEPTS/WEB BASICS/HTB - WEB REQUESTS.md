@@ -640,15 +640,13 @@ Whenever we visit any URL, our browsers default to a GET request to obtain the r
 <br>
 </div>
 
-## HTTP Basic Auth
+### HTTP Basic Auth
 
 When we visit the exercise found at the end of this section, it prompts us to enter a username and a password. Unlike the usual login forms, which utilize HTTP parameters to validate the user credentials (e.g. POST request), this type of authentication utilizes a `basic HTTP authentication`, which is handled directly by the webserver to protect a specific page/directory, without directly interacting with the web application.
 
 To access the page, we have to enter a valid pair of credentials, which are `admin`:`admin` in this case:
 
-   
-
-![Login form with fields for username 'admin' and password, warning: 'Your password will be sent unencrypted'.](https://academy.hackthebox.com/storage/modules/35/http_auth_login.jpg)
+![[Pasted image 20250805221340.png]]
 
 Once we enter the credentials, we would get access to the page:
 
