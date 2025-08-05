@@ -875,6 +875,57 @@ As we see, the browser sent our request, and we can see the response returned af
 </html>
 ```
 
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://94.237.54.192:32937/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>City Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div>
+        <div class="search">
+            <div class="bar">
+                <div class="icon">
+                    <i></i>
+                </div>
+            </div>
+            <form>
+                <input type="text">
+            </form>
+            <div class="close"></div>
+            <ul>
+                <li>
+                    <p>Leeds (UK)</p>
+                </li>
+                <li>
+                    <p>Leicester (UK)</p>
+                </li>
+            </ul>
+        </div>
+
+        <em>Type a city name and hit <strong>Enter</strong></em>
+
+    </div>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+```
 <div align="center">
 <br>
 <br>
