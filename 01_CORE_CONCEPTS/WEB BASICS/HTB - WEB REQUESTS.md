@@ -1484,6 +1484,21 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
 ##### First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
 
 ![[Pasted image 20250805234640.png]]
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X PUT http://94.237.49.23:56849/api.php/city/Portland -d '{"city_name":"flag","country_name":"(US)"}' -H 'Content-Type: application/json'
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -s http://94.237.49.23:56849/api.php/city/flag | jq
+[
+  {
+    "city_name": "flag",
+    "country_name": "(US)"
+  }
+]
+
+```
+
 <div align="center">
 <br>
 <br>
