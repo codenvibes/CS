@@ -331,12 +331,60 @@ As we can see, the devtools show us at a glance the response status (i.e. respon
 
 ##### What is the HTTP method used while intercepting the request? (case-sensitive)
 GET
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl 94.237.61.249:55055 -v
+*   Trying 94.237.61.249:55055...
+* Connected to 94.237.61.249 (94.237.61.249) port 55055
+* using HTTP/1.x
+> GET / HTTP/1.1
+> Host: 94.237.61.249:55055
+> User-Agent: curl/8.13.0
+> Accept: */*
+>
+* Request completely sent off
+< HTTP/1.1 200 OK
+< Date: Tue, 05 Aug 2025 18:41:36 GMT
+< Server: Apache/2.4.41 (Ubuntu)
+< Vary: Accept-Encoding
+< Content-Length: 348
+< Content-Type: text/html; charset=UTF-8
+<
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Page</title>
+</head>
+
+<body>
+    This page is intentionally left blank.
+    <br>
+    Using cURL should be enough.
+</body>
+
+* Connection #0 to host 94.237.61.249 left intact
+</html>
+```
 <div align="center">
 <br>
 </div>
 
 ##### Send a GET request to the above server, and read the response headers to find the version of Apache running on the server, then submit it as the answer. (answer format: X.Y.ZZ)
 2.4.41
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl 94.237.61.249:55055 -I
+HTTP/1.1 200 OK
+Date: Tue, 05 Aug 2025 18:42:22 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Type: text/html; charset=UTF-8
+```
 <div align="center">
 <br>
 <br>
