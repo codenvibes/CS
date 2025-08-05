@@ -926,6 +926,12 @@ As we see, the browser sent our request, and we can see the response returned af
 
 </html>
 ```
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl http://94.237.54.192:32937/search.php?search=flag -H 'Authorization: Basic YWRtaW46YWRtaW4='
+flag: HTB{curl_g3773r}
+```
 <div align="center">
 <br>
 <br>
