@@ -200,7 +200,10 @@ backup
 
 Then `FUZZ` now means:  
 👉 Try "admin", then "images", then "backup".
-
+<div align="center">
+<br>
+<br>
+</div>
 
 ##### `-u http://example.com/FUZZ`
 
@@ -217,8 +220,10 @@ http://example.com/backup
 ```
 
 It checks if those pages exist. If one does, you’ve found a hidden folder.
-
-
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Why is the path being "assigned"?
 
@@ -226,8 +231,10 @@ You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
 - What words to try (`-w ...`)
 - Where to try them (`-u ...FUZZ...`)
-
-
+<div align="center">
+<br>
+<br>
+</div>
 
 #### Example without the keyword (FUZZ is the default)
 
