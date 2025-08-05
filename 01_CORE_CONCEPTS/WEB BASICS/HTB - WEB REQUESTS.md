@@ -1483,7 +1483,7 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
 
 ##### First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
 
-
+![[Pasted image 20250805234640.png]]
 <div align="center">
 <br>
 <br>
