@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 76.86395080707148,
+            "dimension": 52.805534204458105,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -75,7 +75,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 23.136049192928517,
+            "dimension": 47.19446579554189,
             "children": [
               {
                 "id": "d9c91c7059beddd0",
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - WIFI HACKING 101"
             }
           },
           {
@@ -309,10 +309,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "b041d4b3303df347",
   "lastOpenFiles": [
-    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "ASSETS/Pasted image 20250805165056.png",
     "ASSETS/Pasted image 20250805165026.png",
     "ASSETS/Pasted image 20250805165005.png",
