@@ -1,4 +1,4 @@
-<div align="center"><h1>CYBERSECURITY LEARNING NOTES</h1></div>
+<div align="center"><h1>CYBERSECURITY NOTES</h1></div>
 
 This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources.
 <div align="center">
