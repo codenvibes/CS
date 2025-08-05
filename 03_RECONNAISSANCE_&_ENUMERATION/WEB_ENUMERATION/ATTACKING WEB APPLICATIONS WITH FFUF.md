@@ -146,7 +146,7 @@ Perfect — let’s go **even simpler** and more visual.
 
 ---
 
-<First: What is `ffuf` trying to do?
+First: What is `ffuf` trying to do?
 
 Imagine you're trying to find **hidden folders** on a website like:
 
@@ -162,7 +162,7 @@ You don’t know these folder names ahead of time. So you give `ffuf` a **wordli
 
 ---
 
-<So where do keywords come in?
+So where do keywords come in?
 
 To make that work, `ffuf` needs:
 
@@ -175,7 +175,7 @@ That’s what `-w` and `FUZZ` are for:
 
 ---
 
-<Breaking down the command
+Breaking down the command
 
 ```bash
 ffuf -w wordlist.txt:FUZZ -u http://example.com/FUZZ
@@ -218,7 +218,7 @@ It checks if those pages exist. If one does, you’ve found a hidden folder.
 
 ---
 
-<Why is the path being "assigned"?
+Why is the path being "assigned"?
 
 You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
@@ -229,7 +229,7 @@ You’re **assigning a wordlist to a keyword** (`FUZZ`) so that `ffuf` knows:
 
 ---
 
-<Example without the keyword (FUZZ is the default)
+Example without the keyword (FUZZ is the default)
 
 This is also valid:
 
