@@ -60,8 +60,6 @@ We will not have to reinvent the wheel by manually creating these wordlists, as 
 
 Within our PwnBox, we can find the entire `SecLists` repo available under `/opt/useful/SecLists`. The specific wordlist we will be utilizing for pages and directory fuzzing is another commonly used wordlist called `directory-list-2.3`, and it is available in various forms and sizes. We can find the one we will be using under:
 
-  Web Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ locate directory-list-2.3-small.txt
 
