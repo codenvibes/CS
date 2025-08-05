@@ -138,7 +138,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of THM - WIFI HACKING 101"
             }
           },
           {
@@ -309,8 +309,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "b041d4b3303df347",
   "lastOpenFiles": [
+    "Pasted image 20250805164938.png",
+    "Pasted image 20250805164858.png",
+    "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
     "Pasted image 20250805161239.png",
@@ -322,7 +325,6 @@
     "Pasted image 20250805160551.png",
     "ASSETS/Pasted image 20250805143848.png",
     "ASSETS/Pasted image 20250805143820.png",
-    "ASSETS/Pasted image 20250805143757.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
@@ -336,7 +338,6 @@
     "08_TOOLS/FFUF.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
     "11_DIGITAL_FORENSICS/THM - WINDOWS FORENSICS.md",
-    "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/HTB - METASPLOIT FRAMEWORK.md",
     "01_CORE_CONCEPTS/HTB - NETWORKING FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
@@ -347,7 +348,6 @@
     "ASSETS/login-logs_1595366583422.txt",
     "TEMPLATES/Questions Section.md",
     "08_TOOLS/00 TOOLS.md",
-    "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/curl.md",
     "13_CTFS_&_LABS/CTFS",
     "12_AI_SECURITY_FUNDAMENTALS",
     "13_CTFS",
