@@ -62,12 +62,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "ATTACKING WEB APPLICATIONS WITH FFUF"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -233,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ATTACKING WEB APPLICATIONS WITH FFUF"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -283,12 +283,13 @@
   },
   "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
     "ASSETS/Pasted image 20250805060116.png",
     "ASSETS/Pasted image 20250804191939.png",
     "Pasted image 20250805060116.png",
     "Pasted image 20250804191939.png",
     "TEMPLATES/Page Break.md",
-    "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "03_RECONNAISSANCE_&_ENUMERATION/00 ENUMERATION.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/OWASP TOP 10 - 2021.md",
     "ASSETS/Pasted image 20250804163202.png",
@@ -297,7 +298,6 @@
     "ASSETS/Pasted image 20250804160749.png",
     "ASSETS/Pasted image 20250804160438.png",
     "ASSETS/Pasted image 20250804160402.png",
-    "ASSETS/Pasted image 20250804154300.png",
     "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/login-logs_1595366583422.txt",
     "TEMPLATES/Questions Section.md",
