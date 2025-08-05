@@ -1,6 +1,10 @@
 # 🛡️ CYBERSECURITY LEARNING NOTES
 
 This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources.
+<div align="center">
+<br>
+<br>
+</div>
 
 ## 📚 STRUCTURE
 
