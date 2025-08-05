@@ -1,4 +1,4 @@
-# 🛡️ CYBERSECURITY LEARNING NOTES
+ CYBERSECURITY LEARNING NOTES
 
 This repository contains my structured notes from studying cybersecurity through platforms like **TryHackMe**, **Hack The Box (HTB)**, and other relevant resources.
 <div align="center">
@@ -16,13 +16,13 @@ The notes are organized into the following domains:
 ├── [04 EXPLOITATION](https://github.com/codenvibes/CS/tree/master/04_EXPLOITATION)<br>
 ├── [05 DEFENSIVE SECURITY](https://github.com/codenvibes/CS/tree/master/05_DEFENSIVE_SECURITY)<br>
 ├── [06 POST-EXPLOITATION & LATERAL MOVEMENT](https://github.com/codenvibes/CS/tree/master/06_POST-EXPLOITATION_%26_LATERAL_MOVEMENT)<br>
-├── [07 CRYPTOGRAPHY]()<br>
-├── [08 TOOLS]()<br>
-├── [09 SOFT SKILLS & CAREER]()<br>
-├── [10 ANONYMITY & PRIVACY]()<br>
-├── [11 DIGITAL FORENSICS]()<br>
-├── [12 AI SECURITY FUNDAMENTALS]()<br>
-├── [13 CTFS]()
+├── [07 CRYPTOGRAPHY](https://github.com/codenvibes/CS/tree/master/07_CRYPTOGRAPHY)<br>
+├── [08 TOOLS](https://github.com/codenvibes/CS/tree/master/08_TOOLS)<br>
+├── [09 SOFT SKILLS & CAREER](https://github.com/codenvibes/CS/tree/master/09_SOFT_SKILLS_%26_CAREER)<br>
+├── [10 ANONYMITY & PRIVACY](https://github.com/codenvibes/CS/tree/master/10_ANONYMITY_%26_PRIVACY)<br>
+├── [11 DIGITAL FORENSICS](https://github.com/codenvibes/CS/tree/master/11_DIGITAL_FORENSICS)<br>
+├── [12 AI SECURITY FUNDAMENTALS](https://github.com/codenvibes/CS/tree/master/12_AI_SECURITY_FUNDAMENTALS)<br>
+├── [13 CTFS](https://github.com/codenvibes/CS/tree/master/13_CTFS/2025_H4K-IT_CYBERSECURITY)
 <div align="center">
 <br>
 <br>
