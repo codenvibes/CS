@@ -1497,6 +1497,16 @@ With this, we are able to perform all 4 `CRUD` operations through cURL. In a r
   }
 ]
 
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X DELETE http://94.237.49.23:56849/api.php/city/Birminham | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -s http://94.237.49.23:56849/api.php/city/Birmigham | jq
+[]
+
 ```
 
 <div align="center">
