@@ -129,12 +129,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
+                    "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "tar (TAR & TAR.GZ FILES)"
+                  "title": "THM - WIFI HACKING 101"
                 }
               }
             ],
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
+                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tar (TAR & TAR.GZ FILES)"
+              "title": "Outline of THM - WIFI HACKING 101"
             }
           },
           {
@@ -309,8 +309,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b041d4b3303df347",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
     "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "Pasted image 20250805161239.png",
     "Pasted image 20250805161218.png",
