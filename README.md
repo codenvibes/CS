@@ -10,12 +10,12 @@ This repository contains my structured notes from studying cybersecurity through
 
 The notes are organized into the following domains:
 
-├── [01 CORE CONCEPTS]()<br>
-├── [02 SECURITY FOUNDATIONS]()<br>
-├── [03 RECONNAISSANCE & ENUMERATION]()<br>
-├── [04 EXPLOITATION]()<br>
-├── [05 DEFENSIVE SECURITY]()<br>
-├── [06 POST-EXPLOITATION & LATERAL MOVEMENT]()<br>
+├── [01 CORE CONCEPTS](https://github.com/codenvibes/CS/tree/master/01_CORE_CONCEPTS)<br>
+├── [02 SECURITY FOUNDATIONS](https://github.com/codenvibes/CS/tree/master/02_SECURITY_FOUNDATIONS)<br>
+├── [03 RECONNAISSANCE & ENUMERATION](https://github.com/codenvibes/CS/tree/master/03_RECONNAISSANCE_%26_ENUMERATION)<br>
+├── [04 EXPLOITATION](https://github.com/codenvibes/CS/tree/master/04_EXPLOITATION)<br>
+├── [05 DEFENSIVE SECURITY](https://github.com/codenvibes/CS/tree/master/05_DEFENSIVE_SECURITY)<br>
+├── [06 POST-EXPLOITATION & LATERAL MOVEMENT](https://github.com/codenvibes/CS/tree/master/06_POST-EXPLOITATION_%26_LATERAL_MOVEMENT)<br>
 ├── [07 CRYPTOGRAPHY]()<br>
 ├── [08 TOOLS]()<br>
 ├── [09 SOFT SKILLS & CAREER]()<br>
