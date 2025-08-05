@@ -292,7 +292,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -310,7 +310,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "84111271dd65f75f",
+  "active": "f8659b2b0049a1d4",
   "lastOpenFiles": [
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",

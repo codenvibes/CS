@@ -23,8 +23,10 @@ The notes are organized into the following domains:
 ├── [11 DIGITAL FORENSICS]()<br>
 ├── [12 AI SECURITY FUNDAMENTALS]()<br>
 ├── [13 CTFS]()
-
-
+<div align="center">
+<br>
+<br>
+</div>
 
 > Notes are updated daily based on my learning progress.
 <div align="center">
@@ -43,9 +45,10 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 | ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
 |                                                  |                     |          |        |                                           |
 | [H4K-IT](https://simulations.h4k-it.com/games/9) | H4K-IT Bootcamp CTF | Beginner | ✅ Done | [View](13_CTFS/2025_H4K-IT_CYBERSECURITY) |
-
-
-
+<div align="center">
+<br>
+<br>
+</div>
 
 ## 🚀 GOALS
 
