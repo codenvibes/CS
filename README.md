@@ -34,9 +34,9 @@ The notes are organized into the following domains:
 
 A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up in the `13 CTFS/` folder.
 
-| PLATFORM  | CHALLENGE NAME | CATEGORY | STATUS | WRITEUPS                                  |
-| --------- | -------------- | -------- | ------ | ----------------------------------------- |
-| TryHackMe | Simple CTF     | Beginner | ✅ Done | [View](13%20CTFS/TryHackMe_Simple_CTF.md) |
+| PLATFORM                                         | CHALLENGE NAME      | CATEGORY | STATUS | WRITEUPS                                  |
+| ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
+| [H4K-IT](https://simulations.h4k-it.com/games/9) | H4K-IT Bootcamp CTF | Beginner | ✅ Done | [View](13%20CTFS/TryHackMe_Simple_CTF.md) |
 
 
 
