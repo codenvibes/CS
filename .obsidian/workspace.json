@@ -129,12 +129,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04_EXPLOITATION/Untitled.md",
+                    "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "THM - WIFI HACKING 101"
                 }
               }
             ],
@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/Untitled.md",
+                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of THM - WIFI HACKING 101"
             }
           },
           {
@@ -312,7 +312,7 @@
   "active": "b041d4b3303df347",
   "lastOpenFiles": [
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04_EXPLOITATION/Untitled.md",
+    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "README.md",
