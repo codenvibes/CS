@@ -6,30 +6,18 @@ This repository contains my structured notes from studying cybersecurity through
 
 The notes are organized into the following domains:
 
-├── [01 CORE CONCEPTS]()
-
-├── [02 SECURITY FOUNDATIONS]()
-
-├── [03 RECONNAISSANCE & ENUMERATION]()
-
-├── [04 EXPLOITATION]()
-
-├── [05 DEFENSIVE SECURITY]()
-
-├── [06 POST-EXPLOITATION & LATERAL MOVEMENT]()
-
-├── [07 CRYPTOGRAPHY]()
-
-├── [08 TOOLS]()
-
-├── [09 SOFT SKILLS & CAREER]()
-
-├── [10 ANONYMITY & PRIVACY]()
-
-├── [11 DIGITAL FORENSICS]()
-
-├── [12 AI SECURITY FUNDAMENTALS]()
-
+├── [01 CORE CONCEPTS]()<br>
+├── [02 SECURITY FOUNDATIONS]()<br>
+├── [03 RECONNAISSANCE & ENUMERATION]()<br>
+├── [04 EXPLOITATION]()<br>
+├── [05 DEFENSIVE SECURITY]()<br>
+├── [06 POST-EXPLOITATION & LATERAL MOVEMENT]()<br>
+├── [07 CRYPTOGRAPHY]()<br>
+├── [08 TOOLS]()<br>
+├── [09 SOFT SKILLS & CAREER]()<br>
+├── [10 ANONYMITY & PRIVACY]()<br>
+├── [11 DIGITAL FORENSICS]()<br>
+├── [12 AI SECURITY FUNDAMENTALS]()<br>
 ├── [13 CTFS]()
 
 
