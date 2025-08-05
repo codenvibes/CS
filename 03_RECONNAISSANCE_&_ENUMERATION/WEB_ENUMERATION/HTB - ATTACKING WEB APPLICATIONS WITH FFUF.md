@@ -84,8 +84,7 @@ Now that we understand the concept of Web Fuzzing and know our wordlist, we shou
 <br>
 </div>
 
-
-## Ffuf
+### Ffuf
 
 `Ffuf` is pre-installed on your PwnBox instance. If you want to use it on your own machine, you can either use "`apt install ffuf -y`" or download it and use it from its [GitHub Repo](https://github.com/ffuf/ffuf.git). As a new user of this tool, we will start by issuing the `ffuf -h` command to see how the tools can be used:
 
@@ -133,7 +132,7 @@ As we can see, the `help` output is quite large, so we only kept the options t
 <br>
 </div>
 
-## Directory Fuzzing
+### Directory Fuzzing
 
 As we can see from the example above, the main two options are `-w` for wordlists and `-u` for the URL. We can assign a wordlist to a keyword to refer to it where we want to fuzz. For example, we can pick our wordlist and assign the keyword `FUZZ` to it by adding `:FUZZ` after it:
 
