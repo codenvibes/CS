@@ -34,22 +34,26 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "AUTHENTICATION BYPASS"
+                  "title": "THM - AUTHENTICATION BYPASS"
                 }
               },
               {
                 "id": "7c64c3ae66d01558",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "THM - L2 MAC FLOODING & ARP SPOOFING"
                 }
               },
               {
@@ -67,7 +71,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -244,12 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -291,13 +296,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7c64c3ae66d01558",
+  "active": "e85e5fc0c64d6b28",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "ASSETS/Pasted image 20250805060116.png",
     "ASSETS/Pasted image 20250804191939.png",
     "Pasted image 20250805060116.png",
