@@ -694,13 +694,14 @@ codenvibes@htb[/htb]$ curl http://admin:admin@<SERVER_IP>:<PORT>/
 We may also try visiting the same URL on a browser, and we should get authenticated as well.
 
 **Exercise:** Try to view the response headers by adding -i to the above request, and see how an authenticated response differs from an unauthenticated one.
+<div align="center">
+<br>
+<br>
+</div>
 
-
-## HTTP Authorization Header
+### HTTP Authorization Header
 
 If we add the `-v` flag to either of our earlier cURL commands:
-
-  GET
 
 ```shell-session
 codenvibes@htb[/htb]$ curl -v http://admin:admin@<SERVER_IP>:<PORT>/
@@ -737,8 +738,6 @@ As we are using `basic HTTP auth`, we see that our HTTP request sets the `Auth
 
 Let's try to manually set the `Authorization`, without supplying the credentials, to see if it does allow us access to the page. We can set the header with the `-H` flag, and will use the same value from the above HTTP request. We can add the `-H` flag multiple times to specify multiple headers:
 
-  GET
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SERVER_IP>:<PORT>/
 
@@ -751,7 +750,6 @@ codenvibes@htb[/htb]$ curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SE
 
 As we see, this also gave us access to the page. These are a few methods we can use to authenticate to the page. Most modern web applications use login forms built with the back-end scripting language (e.g. PHP), which utilize HTTP POST requests to authenticate the users and then return a cookie to maintain their authentication.
 
----
 
 ## GET Parameters
 
