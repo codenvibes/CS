@@ -570,9 +570,6 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-
----
-
 ## References
 
 https://academy.hackthebox.com/module/details/54
