@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WIFI HACKING 101"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -309,8 +309,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b041d4b3303df347",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "ASSETS/Pasted image 20250805165056.png",
     "ASSETS/Pasted image 20250805165026.png",
     "ASSETS/Pasted image 20250805165005.png",
@@ -321,9 +322,7 @@
     "ASSETS/Pasted image 20250805161148.png",
     "ASSETS/Pasted image 20250805161106.png",
     "ASSETS/Pasted image 20250805160845.png",
-    "ASSETS/Pasted image 20250805160653.png",
     "WHITE-BOARD/TODO.md",
-    "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
