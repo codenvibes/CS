@@ -1039,24 +1039,22 @@ Now, let's try to use our earlier authenticated cookie, and see if we do get in 
 ![Search interface with a search icon and text 'Type a city name and hit Enter'. Storage tab shows PHPSESSID cookie for 'server_ip'.](https://academy.hackthebox.com/storage/modules/35/web_requests_auth_cookie.jpg)
 
 As we can see, having a valid cookie may be enough to get authenticated into many web applications. This can be an essential part of some web attacks, like Cross-Site Scripting.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## JSON Data
+### JSON Data
 
 Finally, let's see what requests get sent when we interact with the `City Search` function. To do so, we will go to the Network tab in the browser devtools, and then click on the trash icon to clear all requests. Then, we can make any search query to see what requests get sent: ![Search interface showing result for 'London (UK)'. Network tab displays a successful POST request to 'server_ip' for search.php with payload {'search':'London'}.](https://academy.hackthebox.com/storage/modules/35/web_requests_search_request.jpg)
 
 As we can see, the search form sends a POST request to `search.php`, with the following data:
-
-Code: json
 
 ```json
 {"search":"london"}
 ```
 
 The POST data appear to be in JSON format, so our request must have specified the `Content-Type` header to be `application/json`. We can confirm this by right-clicking on the request, and selecting `Copy>Copy Request Headers`:
-
-Code: bash
 
 ```bash
 POST /search.php HTTP/1.1
@@ -1076,8 +1074,6 @@ Cookie: PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1
 
 Indeed, we do have `Content-Type: application/json`. Let's try to replicate this request as we did earlier, but include both the cookie and content-type headers, and send our request to `search.php`:
 
-  POST
-
 ```shell-session
 codenvibes@htb[/htb]$ curl -X POST -d '{"search":"london"}' -b 'PHPSESSID=c1nsa6op7vtk7kdis7bcnbadf1' -H 'Content-Type: application/json' http://<SERVER_IP>:<PORT>/search.php
 ["London (UK)"]
@@ -1087,9 +1083,19 @@ As we can see, we were able to interact with the search function directly withou
 
 **Exercise:** Try to repeat the above request without adding the cookie or content-type headers, and see how the web app would act differently.
 
-Finally, let's try to repeat the same above request by using `Fetch`, as we did in the previous section. We can right-click on the request and select `Copy>Copy as Fetch`, and then go to the `Console` tab and execute our code there: ![Console showing a fetch request to 'http://server_ip/search.php' with credentials included. Headers specify user-agent and accept-language. JSON response contains 'London (UK)'.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_post.jpg)
+Finally, let's try to repeat the same above request by using `Fetch`, as we did in the previous section. We can right-click on the request and select `Copy>Copy as Fetch`, and then go to the `Console` tab and execute our code there: 
+
+![Console showing a fetch request to 'http://server_ip/search.php' with credentials included. Headers specify user-agent and accept-language. JSON response contains 'London (UK)'.](https://academy.hackthebox.com/storage/modules/35/web_requests_fetch_post.jpg)
 
 Our request successfully returns the same data we got with cURL. `Try to search for different cities by directly interacting with the search.php through Fetch or cURL.`
+<div align="center">
+<br>
+<br>
+</div>
+
+### Questions
+
+
 <div align="center">
 <br>
 <br>
