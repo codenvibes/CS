@@ -557,6 +557,8 @@ In the first `Headers` tab, we see both the HTTP request and HTTP response hea
 HTB{p493_r3qu3$t$_m0n!t0r}
 
 ![[Pasted image 20250805223343.png]]
+![[Pasted image 20250805223724.png]]
+![[Pasted image 20250805223817.png]]
 <div align="center">
 <br>
 <br>
