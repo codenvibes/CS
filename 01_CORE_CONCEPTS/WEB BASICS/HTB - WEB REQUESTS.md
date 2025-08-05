@@ -749,19 +749,23 @@ codenvibes@htb[/htb]$ curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SE
 ```
 
 As we see, this also gave us access to the page. These are a few methods we can use to authenticate to the page. Most modern web applications use login forms built with the back-end scripting language (e.g. PHP), which utilize HTTP POST requests to authenticate the users and then return a cookie to maintain their authentication.
+<div align="center">
+<br>
+<br>
+</div>
 
-
-## GET Parameters
+### GET Parameters
 
 Once we are authenticated, we get access to a `City Search` function, in which we can enter a search term and get a list of matching cities:
 
-   
+![[Pasted image 20250805221707.png]]
 
-![Search icon with instruction: 'Type a city name and hit Enter'.](https://academy.hackthebox.com/storage/modules/35/http_auth_index.jpg)
+As the page returns our results, it may be contacting a remote resource to obtain the information, and then display them on the page. To verify this, we can open the browser devtools and go to the Network tab, or use the shortcut [`CTRL+SHIFT+E`] to get to the same tab. Before we enter our search term and view the requests, we may need to click on the `trash` icon on the top left, to ensure we clear any previous requests and only monitor newer requests: 
 
-As the page returns our results, it may be contacting a remote resource to obtain the information, and then display them on the page. To verify this, we can open the browser devtools and go to the Network tab, or use the shortcut [`CTRL+SHIFT+E`] to get to the same tab. Before we enter our search term and view the requests, we may need to click on the `trash` icon on the top left, to ensure we clear any previous requests and only monitor newer requests: ![Network tab with instructions: 'Perform a request or reload the page to see detailed information about network activity. Click on the stopwatch button to start performance analysis.](https://academy.hackthebox.com/storage/modules/35/network_clear_requests.jpg)
+![Network tab with instructions: 'Perform a request or reload the page to see detailed information about network activity. Click on the stopwatch button to start performance analysis.](https://academy.hackthebox.com/storage/modules/35/network_clear_requests.jpg)
 
-After that, we can enter any search term and hit enter, and we will immediately notice a new request being sent to the backend: ![Search results for 'le' showing Leeds (UK) and Leicester (UK). Network tab displays a successful GET request to 127.0.0.1 for search.php.](https://academy.hackthebox.com/storage/modules/35/web_requests_get_search.jpg)
+After that, we can enter any search term and hit enter, and we will immediately notice a new request being sent to the backend: 
+![Search results for 'le' showing Leeds (UK) and Leicester (UK). Network tab displays a successful GET request to 127.0.0.1 for search.php.](https://academy.hackthebox.com/storage/modules/35/web_requests_get_search.jpg)
 
 When we click on the request, it gets sent to `search.php` with the GET parameter `search=le` used in the URL. This helps us understand that the search function requests another page for the results.
 
