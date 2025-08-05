@@ -24,6 +24,21 @@ The notes are organized into the following domains:
 > Notes are updated daily based on my learning progress.
 
 
+## 🧩 CTFS COM
+
+A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up (if available in the `13 CTFS/` folder).
+
+| Platform       | Challenge Name           | Category        | Status    | Write-Up |
+|----------------|---------------------------|------------------|-----------|----------|
+| TryHackMe      | Simple CTF                | Beginner         | ✅ Done   | [View](13%20CTFS/TryHackMe_Simple_CTF.md) |
+| Hack The Box   | Lame                      | Linux, Exploitation | ✅ Done   | [View](13%20CTFS/HTB_Lame.md) |
+| TryHackMe      | OWASP Top 10              | Web              | ✅ Done   | [View](13%20CTFS/THM_OWASP_Top_10.md) |
+| Hack The Box   | Blue                      | Windows, SMB     | 🔄 In Progress | - |
+| TryHackMe      | Ice                       | Priv Esc         | 🕒 Pending | - |
+
+> 📝 This table is updated regularly as I complete more CTFs. You can find detailed walkthroughs in the [`13 CTFS/`](13%20CTFS/) folder.
+
+
 ## 📦 Platforms Used
 
 - [TryHackMe](https://tryhackme.com/)
