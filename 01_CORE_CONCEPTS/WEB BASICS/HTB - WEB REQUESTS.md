@@ -801,6 +801,9 @@ As we see, the browser sent our request, and we can see the response returned af
 
 ##### The exercise above seems to be broken, as it returns incorrect results. Use the browser devtools to see what is the request it is sending when we search, and use cURL to search for 'flag' and obtain the flag.
 
+![[Pasted image 20250805224055.png]]
+![[Pasted image 20250805224125.png]]
+
 
 <div align="center">
 <br>
