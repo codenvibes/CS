@@ -22,9 +22,15 @@ The notes are organized into the following domains:
 
 
 > Notes are updated daily based on my learning progress.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-
-## 🧩 CTFS COM
+# 🧩 CTFS COMPLETED
 
 A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up (if available in the `13 CTFS/` folder).
 
