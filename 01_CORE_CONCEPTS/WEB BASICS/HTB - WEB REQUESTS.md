@@ -1261,6 +1261,12 @@ Content-Type: text/html; charset=UTF-8
 ┌──(mopsy㉿APHP)-[~/HTB]
 └─$ curl -X POST -d '{"search":"le"}' -b 'PHPSESSID=crv76vhr9i4goot78ami87ec9m' http://83.136.253.59:42306/search.php
 Content type must be: application/json
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X POST -d '{"search":"le"}' -b 'PHPSESSID=crv76vhr9i4goot78ami87ec9m' -H 'Content-Type: application/json' http://83.136.253.59:42306/search.php
+["Leeds (UK)","Dudley (UK)","Leicester (UK)","Newcastle (UK)","Los Angeles (US)","Jacksonville (US)","Seattle (US)","Nashville-Davidson (US)"]
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl -X POST -d '{"search":"flag"}' -b 'PHPSESSID=crv76vhr9i4goot78ami87ec9m' -H 'Content-Type: application/json' http://83.136.253.59:42306/search.php
+["flag: HTB{p0$t_r3p34t3r}"]
 ```
 
 
