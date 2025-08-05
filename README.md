@@ -20,13 +20,10 @@ The notes are organized into the following domains:
 ├── [12 AI SECURITY FUNDAMENTALS]()
 ├── [13 CTFS]()
 
-> 🧠 Notes are updated daily/weekly based on my learning progress.
+
+> Notes are updated daily based on my learning progress.
 
 
-01_CORE_CONCEPTS/                   05_DEFENSIVE_SECURITY/                     '09_SOFT_SKILLS_&_CAREER'/      13_CTFS/    
- 02_SECURITY_FOUNDATIONS/           '06_POST-EXPLOITATION_&_LATERAL_MOVEMENT'/  '10_ANONYMITY_&_PRIVACY'/     
-'03_RECONNAISSANCE_&_ENUMERATION'/   07_CRYPTOGRAPHY/                            11_DIGITAL_FORENSICS/          README.md
- 04_EXPLOITATION/                    08_TOOLS/                                   12_AI_SECURITY_FUNDAMENTALS/   TEMPLATES/
 ## 📦 Platforms Used
 
 - [TryHackMe](https://tryhackme.com/)
@@ -40,9 +37,7 @@ The notes are organized into the following domains:
 - Prepare for certifications and real-world challenges
 - Share knowledge with the community
 
-## 🧾 License
 
-MIT License
 
 ---
 
