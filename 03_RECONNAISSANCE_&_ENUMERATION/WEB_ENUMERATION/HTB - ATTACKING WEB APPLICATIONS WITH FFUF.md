@@ -250,7 +250,7 @@ Because if you don’t name the keyword (`:FUZZ`), ffuf assumes it's called `FUZ
 
 ```bash
 -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
-```##
+```
 
 
 Next, as we want to be fuzzing for web directories, we can place the `FUZZ` keyword where the directory would be within our URL, with:
