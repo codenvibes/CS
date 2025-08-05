@@ -261,13 +261,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WIFI HACKING 101"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -309,10 +309,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b041d4b3303df347",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/THM - WIFI HACKING 101.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20250805165056.png",
     "ASSETS/Pasted image 20250805165026.png",
     "ASSETS/Pasted image 20250805165005.png",
