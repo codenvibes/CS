@@ -139,8 +139,13 @@ As we can see from the example above, the main two options are `-w` for wordli
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ
 ```
-
-
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 #### First: What is `ffuf` trying to do?
 
@@ -246,6 +251,8 @@ codenvibes@htb[/htb]$ ffuf -w <SNIP> -u http://SERVER_IP:PORT/FUZZ
 <br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
 <br>
 </div>
 
