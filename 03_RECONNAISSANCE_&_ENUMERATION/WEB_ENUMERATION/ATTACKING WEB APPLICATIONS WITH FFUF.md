@@ -246,7 +246,7 @@ ffuf -w wordlist.txt -u http://example.com/FUZZ
 
 Because if you don’t name the keyword (`:FUZZ`), ffuf assumes it's called `FUZZ`.
 
-But once you want to use **multiple wordlists in different parts** (like for file extensions or parameters), you'll need to name them:
+==But once you want to use **multiple wordlists in different parts** (like for file extensions or parameters), you'll need to name them:==
 
 ```bash
 -w dirs.txt:DIR -w extensions.txt:EXT -u http://example.com/DIR.EXT
