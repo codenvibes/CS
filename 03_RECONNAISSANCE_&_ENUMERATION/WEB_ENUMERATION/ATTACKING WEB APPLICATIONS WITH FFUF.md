@@ -312,6 +312,7 @@ We get an empty page, indicating that the directory does not have a dedicated pa
 
 ### Questions
 
+##### In addition to the directory we found above, there is another directory that can be found. What is it?
 
 <div align="center">
 <br>
