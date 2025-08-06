@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 51.575710991544966,
+            "dimension": 84.6272098385857,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -76,7 +76,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 48.424289008455034,
+            "dimension": 15.372790161414295,
             "children": [
               {
                 "id": "d9c91c7059beddd0",
@@ -125,7 +125,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -298,9 +298,10 @@
   },
   "active": "7c64c3ae66d01558",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "TEMPLATES/Page Break.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
     "01_CORE_CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
@@ -314,7 +315,6 @@
     "ASSETS/Pasted image 20250805224055.png",
     "ASSETS/Pasted image 20250805223817.png",
     "ASSETS/Pasted image 20250805223724.png",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/THM - WIFI HACKING 101.md",
     "TEMPLATES/References.md",
     "01_CORE_CONCEPTS/WEB BASICS/04 PUTTING IT ALL TOGETHER.md",
