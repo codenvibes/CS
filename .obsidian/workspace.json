@@ -70,7 +70,8 @@
                   "title": "HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
@@ -247,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - L2 MAC FLOODING & ARP SPOOFING"
             }
           },
           {
@@ -295,10 +296,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "7c64c3ae66d01558",
   "lastOpenFiles": [
-    "WHITE-BOARD/TODO.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "WHITE-BOARD/TODO.md",
     "01_CORE_CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "ASSETS/Pasted image 20250805234640.png",
     "ASSETS/Pasted image 20250805232445.png",
