@@ -433,8 +433,6 @@ We do get a couple of hits, but only `.php` gives us a response with code `20
 
 We will now use the same concept of keywords we've been using with `ffuf`, use `.php` as the extension, place our `FUZZ` keyword where the filename should be, and use the same wordlist we used for fuzzing directories:
 
-  Page Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/blog/FUZZ.php
 
@@ -466,9 +464,7 @@ REDACTED                [Status: 200, Size: 465, Words: 42, Lines: 15]
 
 We get a couple of hits; both have an HTTP code 200, meaning we can access them. index.php has a size of 0, indicating that it is an empty page, while the other does not, which means that it has content. We can visit any of these pages to verify this:
 
-   
-
-![Admin panel moved text on orange background.](https://academy.hackthebox.com/storage/modules/54/web_fnb_login.jpg)
+![[Pasted image 20250806195912.png]]
 <div align="center">
 <br>
 <br>
