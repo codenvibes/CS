@@ -394,8 +394,6 @@ Note: The wordlist we chose already contains a dot (.), so we will not have to a
 
 Now, we can rerun our command, carefully placing our `FUZZ` keyword where the extension would be after `index`:
 
-  Page Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://SERVER_IP:PORT/blog/indexFUZZ
 
