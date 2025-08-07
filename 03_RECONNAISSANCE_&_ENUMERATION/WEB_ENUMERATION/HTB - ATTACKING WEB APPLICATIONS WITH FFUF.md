@@ -1721,6 +1721,61 @@ index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 156
 ##### In the page from the previous question, you should be able to find multiple parameters that are accepted by the page. What are they?
 
 ```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://faculty.academy.htb:47590/courses/linux-security.php7/FUZZ -c -ic -H 'Content-Type: application/x-www-form-urlencoded' -d 'FUZZ-key' -X POST
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : POST
+ :: URL              : http://faculty.academy.htb:47590/courses/linux-security.php7/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt
+ :: Header           : Content-Type: application/x-www-form-urlencoded
+ :: Data             : FUZZ-key
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+14                      [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+AVSCV2                  [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 146ms]
+21                      [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+3DSecureStatus          [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+AddAuthItemForm         [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+22                      [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 148ms]
+4                       [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+Address                 [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 147ms]
+AUTH                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 150ms]
+23                      [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+AuthItem                [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+AuthChildForm           [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+AuthItemChild           [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 142ms]
+AudioPlayerSubmit       [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+AuthItemForm            [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+BackURL                 [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 146ms]
+B                       [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+Block                   [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+Beverages               [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+BIGGER                  [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 145ms]
+Blog                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+CALN                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+C                       [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 146ms]
+Body                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 147ms]
+CAPTCHA                 [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 148ms]
+CAVV                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 143ms]
+CHIL                    [Status: 200, Size: 774, Words: 223, Lines: 53, Duration: 144ms]
+```
+
+```shell
 
 ```
 <div align="center">
