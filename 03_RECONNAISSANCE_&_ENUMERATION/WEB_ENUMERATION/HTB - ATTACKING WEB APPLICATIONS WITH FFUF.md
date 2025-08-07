@@ -607,7 +607,58 @@ As we can see this time, the scan took much longer, sent almost six times the nu
 HTB{fuzz1n6_7h3_w3b!}
 
 ```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -ic -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://94.237.48.12:52971/FUZZ -recursion -recursion-depth 1 -e .php
 
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://94.237.48.12:52971/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt
+ :: Extensions       : .php
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 146ms]
+                        [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 149ms]
+index.php               [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 152ms]
+blog                    [Status: 301, Size: 320, Words: 20, Lines: 10, Duration: 153ms]
+[INFO] Adding a new job to the queue: http://94.237.48.12:52971/blog/FUZZ
+
+forum                   [Status: 301, Size: 321, Words: 20, Lines: 10, Duration: 148ms]
+[INFO] Adding a new job to the queue: http://94.237.48.12:52971/forum/FUZZ
+
+                        [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 144ms]
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 146ms]
+[INFO] Starting queued job on target: http://94.237.48.12:52971/blog/FUZZ
+
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 148ms]
+index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 149ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 149ms]
+home.php                [Status: 200, Size: 1046, Words: 438, Lines: 58, Duration: 192ms]
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 142ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 144ms]
+[INFO] Starting queued job on target: http://94.237.48.12:52971/forum/FUZZ
+
+index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 146ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 148ms]
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 148ms]
+flag.php                [Status: 200, Size: 21, Words: 1, Lines: 1, Duration: 150ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 142ms]
+.php                    [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 145ms]
+:: Progress: [175302/175302] :: Job [3/3] :: 273 req/sec :: Duration: [0:10:59] :: Errors: 0 ::
 ```
 
 ![[Pasted image 20250807134621.png]]
@@ -638,7 +689,7 @@ codenvibes@htb[/htb]$ sudo sh -c 'echo "SERVER_IP  academy.htb" >> /etc/hosts'
 
 Now we can visit the website (don't forget to add the PORT in the URL) and see that we can reach the website:
 
-
+![[Pasted image 20250807135404.png]]
 
 However, we get the same website we got when we visit the IP directly, so `academy.htb` is the same domain we have been testing so far. We can verify that by visiting `/blog/index.php`, and see that we can access the page.
 

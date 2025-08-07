@@ -171,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -284,6 +285,7 @@
   },
   "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "Pasted image 20250807135404.png",
     "Pasted image 20250807135019.png",
     "Pasted image 20250807134621.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
@@ -295,7 +297,6 @@
     "ASSETS/Pasted image 20250807125648.png",
     "ASSETS/Pasted image 20250807125536.png",
     "ASSETS/Pasted image 20250807125256.png",
-    "ASSETS/Pasted image 20250807125145.png",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
