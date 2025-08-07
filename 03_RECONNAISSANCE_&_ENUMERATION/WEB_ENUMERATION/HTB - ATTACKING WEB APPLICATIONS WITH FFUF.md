@@ -1401,6 +1401,43 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://academy.htb:41682/ -H 'HOST: FUZZ.academy.htb' -c -ic
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://academy.htb:41682/
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.academy.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+ns                      [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 151ms]
+pop                     [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 151ms]
+mobile                  [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 152ms]
+whm                     [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 151ms]
+dns2                    [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 152ms]
+dns1                    [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 142ms]
+lists                   [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 143ms]
+www1                    [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 149ms]
+static                  [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 143ms]
+web                     [Status: 200, Size: 985, Words: 423, Lines: 55, Duration: 143ms]
+```
 <div align="center">
 <br>
 </div>
