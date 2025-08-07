@@ -1629,6 +1629,8 @@ index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 153
 ```shell
 
 ```
+
+![[Pasted image 20250807215024.png]]
 <div align="center">
 <br>
 </div>
