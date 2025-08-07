@@ -1003,6 +1003,7 @@ Try running a recursive scan on `admin.academy.htb`, and see what pages you can
 ### Questions
 
 ##### Try running a VHost fuzzing scan on 'academy.htb', and see what other VHosts you get. What other VHosts did you get?
+test.academy.htb
 
 ```shell
 ┌──(mopsy㉿APHP)-[~/THM]
