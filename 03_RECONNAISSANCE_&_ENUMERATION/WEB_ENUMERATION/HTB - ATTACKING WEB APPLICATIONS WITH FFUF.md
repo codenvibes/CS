@@ -1380,6 +1380,7 @@ Finally, you should do some fuzzing on pages you identify to see if any of them 
 ### Questions
 
 ##### Run a sub-domain/vhost fuzzing scan on '\*.academy.htb' for the IP shown above. What are all the sub-domains you can identify? (Only write the sub-domain name)
+archive test faculty
 
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
