@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 84.6272098385857,
+            "dimension": 36.049192928516526,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -76,7 +76,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 15.372790161414295,
+            "dimension": 63.950807071483474,
             "children": [
               {
                 "id": "d9c91c7059beddd0",
@@ -109,9 +109,23 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
+              },
+              {
+                "id": "d5b9c868dbf92b06",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -234,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of README"
             }
           },
           {
@@ -282,13 +296,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e85e5fc0c64d6b28",
+  "active": "d5b9c868dbf92b06",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "README.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "ASSETS/Pasted image 20250807102010.png",
     "ASSETS/Pasted image 20250806195912.png",
     "Pasted image 20250807102010.png",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "Pasted image 20250806195912.png",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
@@ -308,7 +323,6 @@
     "01_CORE_CONCEPTS/WEB BASICS/02 HTTP.md",
     "01_CORE_CONCEPTS/WEB BASICS/01 DNS.md",
     "01_CORE_CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
-    "README.md",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "05_DEFENSIVE_SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "05_DEFENSIVE_SECURITY/SIEM TOOLS.md",
