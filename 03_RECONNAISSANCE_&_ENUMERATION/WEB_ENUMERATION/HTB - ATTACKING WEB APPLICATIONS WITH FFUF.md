@@ -1389,17 +1389,17 @@ Finally, you should do some fuzzing on pages you identify to see if any of them 
 <br>
 </div>
 
-##### 
+##### One of the pages you will identify should say 'You don't have access!'. What is the full page URL?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### In the page from the previous question, you should be able to find multiple parameters that are accepted by the page. What are they?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### Try fuzzing the parameters you identified for working values. One of them should return a flag. What is the content of the flag?
 <div align="center">
 <br>
 <br>
