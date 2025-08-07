@@ -807,7 +807,7 @@ This means that there are no `public` sub-domains under `academy.htb`, as it 
 customer.inlanefreight.com
 
 ```shell
-┌──(mopsy㉿APHP)-[~/THM]
+┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/
 
         /'___\  /'___\           /'___\
@@ -1006,7 +1006,7 @@ Try running a recursive scan on `admin.academy.htb`, and see what pages you can
 test.academy.htb
 
 ```shell
-┌──(mopsy㉿APHP)-[~/THM]
+┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://94.237.55.43:43306/ -H "Host: FUZZ.academy.htb" -fs 986
 
         /'___\  /'___\           /'___\
@@ -1264,12 +1264,12 @@ We see that we get a hit right away. We can finally send another `POST` reques
 ##### Try to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag?
 
 ```shell
-┌──(mopsy㉿APHP)-[~/THM]
+┌──(mopsy㉿APHP)-[~/HTB]
 └─$ for i in $(seq 1 1000); do echo $i >> ids.txt; done
 ```
 
 ```shell
-┌──(mopsy㉿APHP)-[~/THM]
+┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:35280/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -c -ic
 -fs 768
 
@@ -1285,7 +1285,7 @@ ________________________________________________
 
  :: Method           : POST
  :: URL              : http://admin.academy.htb:35280/admin/admin.php
- :: Wordlist         : FUZZ: /home/mopsy/THM/ids.txt
+ :: Wordlist         : FUZZ: /home/mopsy/HTB/ids.txt
  :: Header           : Content-Type: application/x-www-form-urlencoded
  :: Data             : id=FUZZ
  :: Follow redirects : false
@@ -1302,7 +1302,7 @@ ________________________________________________
 ```
 
 ```shell
-┌──(mopsy㉿APHP)-[~/THM]
+┌──(mopsy㉿APHP)-[~/HTB]
 └─$ curl http://admin.academy.htb:35280/admin/admin.php -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d 'id=73'
 <div class='center'><p>HTB{p4r4m373r_fuzz1n6_15_k3y!}</p></div>
 <html>
