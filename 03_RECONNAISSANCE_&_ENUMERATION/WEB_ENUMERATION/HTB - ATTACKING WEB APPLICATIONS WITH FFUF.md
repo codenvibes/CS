@@ -1048,17 +1048,17 @@ admin                   [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 404
 
 If we run a recursive `ffuf` scan on `admin.academy.htb`, we should find `http://admin.academy.htb:PORT/admin/admin.php`. If we try accessing this page, we see the following:
 
-   
-
-![You don't have access to read the flag text on dark background.](https://academy.hackthebox.com/storage/modules/54/web_fnb_admin.jpg)
+![[Pasted image 20250807160217.png]]
 
 That indicates that there must be something that identifies users to verify whether they have access to read the `flag`. We did not login, nor do we have any cookie that can be verified at the backend. So, perhaps there is a key that we can pass to the page to read the `flag`. Such keys would usually be passed as a `parameter`, using either a `GET` or a `POST` HTTP request. This section will discuss how to fuzz for such parameters until we identify a parameter that can be accepted by the page.
 
 **Tip:** Fuzzing parameters may expose unpublished parameters that are publicly accessible. Such parameters tend to be less tested and less secured, so it is important to test such parameters for the web vulnerabilities we discuss in other modules.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-## GET Request Fuzzing
+### GET Request Fuzzing
 
 Similarly to how we have been fuzzing various parts of a website, we will use `ffuf` to enumerate parameters. Let us first start with fuzzing for `GET` requests, which are usually passed right after the URL, with a `?` symbol, like:
 
@@ -1067,8 +1067,6 @@ Similarly to how we have been fuzzing various parts of a website, we will use `
 So, all we have to do is replace `param1` in the example above with `FUZZ` and rerun our scan. Before we can start, however, we must pick an appropriate wordlist. Once again, `SecLists` has just that in `/opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt`. With that, we can run our scan.
 
 Once again, we will get many results back, so we will filter out the default response size we are getting.
-
-  Parameter Fuzzing - GET
 
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php?FUZZ=key -fs xxx
