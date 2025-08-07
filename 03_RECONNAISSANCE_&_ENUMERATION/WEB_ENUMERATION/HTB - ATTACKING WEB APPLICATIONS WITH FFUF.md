@@ -1475,6 +1475,7 @@ faculty                 [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 143
 </div>
 
 ##### Before you run your page fuzzing scan, you should first run an extension fuzzing scan. What are the different extensions accepted by the domains?
+phps php php7
 
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
