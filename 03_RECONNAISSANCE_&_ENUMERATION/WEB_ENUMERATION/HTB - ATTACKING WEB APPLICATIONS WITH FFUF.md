@@ -474,6 +474,7 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 
 ##### Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 
+
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -ic -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://94.237.57.115:31140/blog/FUZZ -e .php,.html,.txt,.bak,
@@ -510,6 +511,8 @@ home.php                [Status: 200, Size: 1046, Words: 438, Lines: 58, Duratio
 .html                   [Status: 403, Size: 281, Words: 20, Lines: 10, Duration: 142ms]
 :: Progress: [613557/613557] :: Job [1/1] :: 281 req/sec :: Duration: [0:38:03] :: Errors: 0 ::
 ```
+
+![[Pasted image 20250807102010.png]]
 
 
 <div align="center">
