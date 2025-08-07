@@ -1110,7 +1110,7 @@ As we can see, the only hit we got back has been `deprecated` and appears to b
 
 ##### Using what you learned in this section, run a parameter fuzzing scan on this page. What is the parameter accepted by this webpage?
 
-ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u http://83.136.252.122:30341/admin/admin.php?FUZZ=key
+
 <div align="center">
 <br>
 <br>
