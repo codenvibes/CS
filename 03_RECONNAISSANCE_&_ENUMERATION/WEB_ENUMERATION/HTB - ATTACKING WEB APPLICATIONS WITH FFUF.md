@@ -806,7 +806,38 @@ This means that there are no `public` sub-domains under `academy.htb`, as it 
 ##### Try running a sub-domain fuzzing test on 'inlanefreight.com' to find a customer sub-domain portal. What is the full domain of it?
 customer.inlanefreight.com
 
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/
 
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : https://FUZZ.inlanefreight.com/
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+ns3                     [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 338ms]
+blog                    [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 341ms]
+support                 [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 352ms]
+my                      [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 232ms]
+www                     [Status: 200, Size: 22266, Words: 2903, Lines: 316, Duration: 338ms]
+customer                [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 235ms]
+:: Progress: [4989/4989] :: Job [1/1] :: 35 req/sec :: Duration: [0:00:41] :: Errors: 4983 ::
+```
 <div align="center">
 <br>
 <br>
