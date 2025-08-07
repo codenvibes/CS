@@ -709,7 +709,7 @@ In this section, we will learn how to use `ffuf` to identify sub-domains (i.e.
 <br>
 </div>
 
-## Sub-domains
+### Sub-domains
 
 A sub-domain is any website underlying another domain. For example, `https://photos.google.com` is the `photos` sub-domain of `google.com`.
 
@@ -721,8 +721,6 @@ In this case, we are simply checking different websites to see if they exist by 
 Luckily for us, in the `SecLists` repo, there is a specific section for sub-domain wordlists, consisting of common words usually used for sub-domains. We can find it in `/opt/useful/seclists/Discovery/DNS/`. In our case, we would be using a shorter wordlist, which is `subdomains-top1million-5000.txt`. If we want to extend our scan, we can pick a larger list.
 
 As for our target, we will use `inlanefreight.com` as our target and run our scan on it. Let us use `ffuf` and place the `FUZZ` keyword in the place of sub-domains, and see if we get any hits:
-
-  Sub-domain Fuzzing
 
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.inlanefreight.com/
@@ -768,8 +766,6 @@ ________________________________________________
 
 We see that we do get a few hits back. Now, we can try running the same thing on `academy.htb` and see if we get any hits back:
 
-  Sub-domain Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://FUZZ.academy.htb/
 
@@ -807,7 +803,9 @@ This means that there are no `public` sub-domains under `academy.htb`, as it 
 
 ### Questions
 
-##### 
+##### Try running a sub-domain fuzzing test on 'inlanefreight.com' to find a customer sub-domain portal. What is the full domain of it?
+
+
 <div align="center">
 <br>
 <br>
