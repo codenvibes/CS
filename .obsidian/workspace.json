@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 33.74327440430438,
+            "dimension": 84.6272098385857,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -76,7 +76,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 66.25672559569563,
+            "dimension": 15.372790161414295,
             "children": [
               {
                 "id": "d9c91c7059beddd0",
@@ -109,23 +109,9 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
-              },
-              {
-                "id": "dde211b12cc6f49f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - L2 MAC FLOODING & ARP SPOOFING"
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -248,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
+                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - L2 MAC FLOODING & ARP SPOOFING"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -296,9 +282,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "dde211b12cc6f49f",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
     "WHITE-BOARD/TODO.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "TEMPLATES/Questions Section.md",
@@ -308,7 +295,6 @@
     "Pasted image 20250807102010.png",
     "Pasted image 20250806195912.png",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "ASSETS/Pasted image 20250806083351.png",
     "ASSETS/Pasted image 20250806082715.png",
     "Pasted image 20250806083351.png",
