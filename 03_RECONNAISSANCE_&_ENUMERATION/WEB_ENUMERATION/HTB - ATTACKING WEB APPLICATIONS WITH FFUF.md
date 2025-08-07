@@ -472,7 +472,7 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 
 ### Questions
 
-$$$
+##### Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 <div align="center">
 <br>
 <br>
