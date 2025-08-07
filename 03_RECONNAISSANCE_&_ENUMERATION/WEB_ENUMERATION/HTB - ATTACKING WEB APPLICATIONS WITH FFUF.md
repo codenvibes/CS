@@ -1590,6 +1590,8 @@ ________________________________________________
 </div>
 
 ##### One of the pages you will identify should say 'You don't have access!'. What is the full page URL?
+http://faculty.academy.htb:PORT/courses/linux-security.php7
+
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://test.academy.htb:46083/FUZZ -e .php,.phps,php7 -recursion -recursion-depth 1 -c -ic -fs 284
