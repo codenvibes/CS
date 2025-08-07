@@ -1719,6 +1719,7 @@ index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 156
 </div>
 
 ##### In the page from the previous question, you should be able to find multiple parameters that are accepted by the page. What are they?
+user username
 
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
