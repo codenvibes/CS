@@ -804,8 +804,9 @@ This means that there are no `public` sub-domains under `academy.htb`, as it 
 ### Questions
 
 ##### Try running a sub-domain fuzzing test on 'inlanefreight.com' to find a customer sub-domain portal. What is the full domain of it?
+customer.inlanefreight.com
 
-https://customer.inlanefreight.com/
+
 <div align="center">
 <br>
 <br>
