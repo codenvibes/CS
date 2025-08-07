@@ -39,7 +39,7 @@ The notes are organized into the following domains:
 
 ## 🚩 CTFS COMPLETED
 
-A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up in the `13 CTFS/` folder.
+A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up in the [13 CTFS/](https://github.com/codenvibes/CS/tree/master/13_CTFS/2025_H4K-IT_CYBERSECURITY) folder.
 
 | YEAR | PLATFORM                                         | CHALLENGE NAME      | CATEGORY | STATUS | WRITEUPS                                  |
 | ---- | ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
