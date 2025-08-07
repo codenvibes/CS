@@ -1224,8 +1224,6 @@ Now we can move on to fuzzing for values.
 
 Our command should be fairly similar to the `POST` command we used to fuzz for parameters, but our `FUZZ` keyword should be put where the parameter value would be, and we will use the `ids.txt` wordlist we just created, as follows:
 
-  Value Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
 
@@ -1263,7 +1261,7 @@ We see that we get a hit right away. We can finally send another `POST` reques
 
 ### Questions
 
-##### 
+##### Try to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag?
 <div align="center">
 <br>
 <br>
