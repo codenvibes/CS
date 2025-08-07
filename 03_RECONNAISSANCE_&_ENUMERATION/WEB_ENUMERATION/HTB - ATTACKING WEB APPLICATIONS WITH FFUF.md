@@ -605,6 +605,8 @@ As we can see this time, the scan took much longer, sent almost six times the nu
 
 ##### Try to repeat what you learned so far to find more files/directories. One of them should give you a flag. What is the content of the flag?
 
+![[Pasted image 20250807134621.png]]
+
 
 <div align="center">
 <br>

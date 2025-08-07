@@ -71,7 +71,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -282,8 +282,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e85e5fc0c64d6b28",
+  "active": "cd0a691950be86b5",
   "lastOpenFiles": [
+    "Pasted image 20250807134621.png",
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "ASSETS/Pasted image 20250807130427.png",
     "ASSETS/Pasted image 20250807130242.png",
     "ASSETS/Pasted image 20250807130122.png",
@@ -294,11 +296,9 @@
     "ASSETS/Pasted image 20250807125256.png",
     "ASSETS/Pasted image 20250807125145.png",
     "Pasted image 20250807130427.png",
-    "Pasted image 20250807130242.png",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "TEMPLATES/Questions Section.md",
     "README.md",
     "WHITE-BOARD/WHITE-BOARD.md",
