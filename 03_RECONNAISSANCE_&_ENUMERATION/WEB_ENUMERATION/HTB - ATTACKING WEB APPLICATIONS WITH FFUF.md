@@ -1497,6 +1497,93 @@ faculty                 [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 143
 ┌──(mopsy㉿APHP)-[~/HTB]
 └─$
 ```
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://test.academy.htb:46083/indexFUZZ -c -ic
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://test.academy.htb:46083/indexFUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/web-extensions.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.phps                   [Status: 403, Size: 284, Words: 20, Lines: 10, Duration: 2496ms]
+.php                    [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 4491ms]
+:: Progress: [43/43] :: Job [1/1] :: 9 req/sec :: Duration: [0:00:04] :: Errors: 0 ::
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://archive.academy.htb:46083/indexFUZZ -c -ic
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://archive.academy.htb:46083/indexFUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/web-extensions.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.php                    [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 2691ms]
+.phps                   [Status: 403, Size: 287, Words: 20, Lines: 10, Duration: 2692ms]
+:: Progress: [43/43] :: Job [1/1] :: 9 req/sec :: Duration: [0:00:04] :: Errors: 0 ::
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/web-extensions.txt:FUZZ -u http://faculty.academy.htb:46083/indexFUZZ -c -ic
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://faculty.academy.htb:46083/indexFUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/web-extensions.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.phps                   [Status: 403, Size: 287, Words: 20, Lines: 10, Duration: 141ms]
+.php                    [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 143ms]
+.php7                   [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 147ms]
+:: Progress: [43/43] :: Job [1/1] :: 20 req/sec :: Duration: [0:00:02] :: Errors: 0 ::
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$
+```
 <div align="center">
 <br>
 </div>
