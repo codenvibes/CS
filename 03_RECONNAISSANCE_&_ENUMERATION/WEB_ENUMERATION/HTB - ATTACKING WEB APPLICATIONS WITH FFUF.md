@@ -1815,6 +1815,106 @@ username                [Status: 200, Size: 781, Words: 223, Lines: 53, Duration
 </div>
 
 ##### Try fuzzing the parameters you identified for working values. One of them should return a flag. What is the content of the flag?
+HTB{w3b_fuzz1n6_m4573r}
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt:FUZZ -u http://faculty.academy.htb:47590/courses/linux-security.php7/FUZZ -c -ic
+ -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=FUZZ' -X POST -fs 781
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : POST
+ :: URL              : http://faculty.academy.htb:47590/courses/linux-security.php7/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt
+ :: Header           : Content-Type: application/x-www-form-urlencoded
+ :: Data             : username=FUZZ
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 781
+________________________________________________
+
+harry                   [Status: 200, Size: 773, Words: 218, Lines: 53, Duration: 144ms]
+Harry                   [Status: 200, Size: 773, Words: 218, Lines: 53, Duration: 145ms]
+HARRY                   [Status: 200, Size: 773, Words: 218, Lines: 53, Duration: 150ms]
+[WARN] Caught keyboard interrupt (Ctrl-C)
+
+
+
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$
+```
+
+```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ curl http://faculty.academy.htb:47590/courses/linux-security.php7 -X POST -H 'Content-Type: application/x-www-form-urlencoded' -d 'username=harry'
+<div class='center'><p>HTB{w3b_fuzz1n6_m4573r}</p></div>
+<html>
+<!DOCTYPE html>
+
+<head>
+  <title>HTB Academy</title>
+  <style>
+    *,
+    html {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-color: #151D2B;
+    }
+
+    .center {
+      width: 100%;
+      height: 50%;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: "Helvetica", Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 144px;
+    }
+
+    p {
+      font-size: 64px;
+    }
+  </style>
+</head>
+
+<body>
+</body>
+
+</html>
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$
+```
 <div align="center">
 <br>
 <br>
