@@ -1262,6 +1262,44 @@ We see that we get a hit right away. We can finally send another `POST` reques
 ### Questions
 
 ##### Try to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag?
+
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ for i in $(seq 1 1000); do echo $i >> ids.txt; done
+```
+
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:35280/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -c -ic
+-fs 768
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : POST
+ :: URL              : http://admin.academy.htb:35280/admin/admin.php
+ :: Wordlist         : FUZZ: /home/mopsy/THM/ids.txt
+ :: Header           : Content-Type: application/x-www-form-urlencoded
+ :: Data             : id=FUZZ
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 768
+________________________________________________
+
+73                      [Status: 200, Size: 787, Words: 218, Lines: 54, Duration: 151ms]
+73                      [Status: 200, Size: 787, Words: 218, Lines: 54, Duration: 142ms]
+:: Progress: [2000/2000] :: Job [1/1] :: 277 req/sec :: Duration: [0:00:10] :: Errors: 0 ::
+```
 <div align="center">
 <br>
 <br>
