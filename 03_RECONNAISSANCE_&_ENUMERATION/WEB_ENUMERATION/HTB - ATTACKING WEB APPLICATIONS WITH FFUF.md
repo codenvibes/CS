@@ -986,9 +986,7 @@ admin                   [Status: 200, Size: 0, Words: 1, Lines: 1]
 
 We can verify that by visiting the page, and seeing if we can connect to it:
 
-   
-
-![Navigating to the found from ffuf directory.](https://academy.hackthebox.com/storage/modules/54/web_fnb_blog.jpg)
+![[Pasted image 20250807153501.png]]
 
 Note 1: Don't forget to add "admin.academy.htb" to "/etc/hosts".
 
@@ -1004,7 +1002,7 @@ Try running a recursive scan on `admin.academy.htb`, and see what pages you can
 
 ### Questions
 
-##### 
+##### Try running a VHost fuzzing scan on 'academy.htb', and see what other VHosts you get. What other VHosts did you get?
 <div align="center">
 <br>
 <br>
