@@ -475,7 +475,40 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 ##### Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 
 ```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -ic -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://94.237.57.115:31140/blog/FUZZ -e .php,.html,.txt,.bak,
+.old,.zip
 
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://94.237.57.115:31140/blog/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt
+ :: Extensions       : .php .html .txt .bak .old .zip
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.php                    [Status: 403, Size: 281, Words: 20, Lines: 10, Duration: 151ms]
+.html                   [Status: 403, Size: 281, Words: 20, Lines: 10, Duration: 150ms]
+index.php               [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 154ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 154ms]
+home.php                [Status: 200, Size: 1046, Words: 438, Lines: 58, Duration: 151ms]
+.php                    [Status: 403, Size: 281, Words: 20, Lines: 10, Duration: 144ms]
+                        [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 146ms]
+.html                   [Status: 403, Size: 281, Words: 20, Lines: 10, Duration: 142ms]
+:: Progress: [613557/613557] :: Job [1/1] :: 281 req/sec :: Duration: [0:38:03] :: Errors: 0 ::
 ```
 <div align="center">
 <br>
