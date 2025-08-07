@@ -1098,9 +1098,7 @@ ________________________________________________
 
 We do get a hit back. Let us try to visit the page and add this `GET` parameter, and see whether we can read the flag now:
 
-   
-
-![This method is deprecated text on dark background.](https://academy.hackthebox.com/storage/modules/54/web_fnb_admin_param1.jpg)
+![[Pasted image 20250807160404.png]]
 
 As we can see, the only hit we got back has been `deprecated` and appears to be no longer in use.
 <div align="center">
@@ -1110,7 +1108,7 @@ As we can see, the only hit we got back has been `deprecated` and appears to b
 
 ### Questions
 
-##### 
+##### Using what you learned in this section, run a parameter fuzzing scan on this page. What is the parameter accepted by this webpage?
 <div align="center">
 <br>
 <br>
