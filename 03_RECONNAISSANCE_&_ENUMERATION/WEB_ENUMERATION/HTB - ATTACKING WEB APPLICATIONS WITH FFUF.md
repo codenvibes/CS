@@ -662,8 +662,6 @@ flag.php                [Status: 200, Size: 21, Words: 1, Lines: 1, Duration: 15
 ```
 
 ![[Pasted image 20250807134621.png]]
-
-
 <div align="center">
 <br>
 <br>
