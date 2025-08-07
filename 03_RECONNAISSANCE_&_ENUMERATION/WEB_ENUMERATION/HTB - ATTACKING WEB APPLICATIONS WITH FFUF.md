@@ -1003,6 +1003,37 @@ Try running a recursive scan on `admin.academy.htb`, and see what pages you can
 ### Questions
 
 ##### Try running a VHost fuzzing scan on 'academy.htb', and see what other VHosts you get. What other VHosts did you get?
+
+```shell
+┌──(mopsy㉿APHP)-[~/THM]
+└─$ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://94.237.55.43:43306/ -H "Host: FUZZ.academy.htb" -fs 986
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://94.237.55.43:43306/
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+ :: Header           : Host: FUZZ.academy.htb
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 986
+________________________________________________
+
+test                    [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 142ms]
+admin                   [Status: 200, Size: 0, Words: 1, Lines: 1, Duration: 4047ms]
+:: Progress: [4989/4989] :: Job [1/1] :: 266 req/sec :: Duration: [0:00:21] :: Errors: 0 ::
+```
 <div align="center">
 <br>
 <br>
