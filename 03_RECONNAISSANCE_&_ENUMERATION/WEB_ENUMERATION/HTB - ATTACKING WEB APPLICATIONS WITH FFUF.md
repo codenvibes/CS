@@ -551,8 +551,6 @@ Finally, we will also add the flag `-v` to output the full URLs. Otherwise, it
 
 Let us repeat the first command we used, add the recursion flags to it while specifying `.php` as our extension, and see what results we get:
 
-  Recursive Fuzzing
-
 ```shell-session
 codenvibes@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://SERVER_IP:PORT/FUZZ -recursion -recursion-depth 1 -e .php -v
 
@@ -599,6 +597,16 @@ ________________________________________________
 ```
 
 As we can see this time, the scan took much longer, sent almost six times the number of requests, and the wordlist doubled in size (once with `.php` and once without). Still, we got a large number of results, including all the results we previously identified, all with a single line of command.
+<div align="center">
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Try to repeat what you learned so far to find more files/directories. One of them should give you a flag. What is the content of the flag?
+
+
 <div align="center">
 <br>
 <br>
