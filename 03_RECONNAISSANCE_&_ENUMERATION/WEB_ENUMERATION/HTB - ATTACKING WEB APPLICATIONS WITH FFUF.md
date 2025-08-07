@@ -474,7 +474,6 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 
 ##### Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 
-
 ```shell
 ┌──(mopsy㉿APHP)-[~/HTB]
 └─$ ffuf -ic -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://94.237.57.115:31140/blog/FUZZ -e .php,.html,.txt,.bak,
