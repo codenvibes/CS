@@ -475,8 +475,50 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 ##### Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 
 ```shell
+┌──(mopsy㉿APHP)-[~/HTB]
+└─$ ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://94.237.57.115:31140/FUZZ
 
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://94.237.57.115:31140/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-small.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+# This work is licensed under the Creative Commons [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 147ms]
+# Suite 300, San Francisco, California, 94105, USA. [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 148ms]
+#                       [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 146ms]
+# directory-list-2.3-small.txt [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 147ms]
+#                       [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 152ms]
+# Attribution-Share Alike 3.0 License. To view a copy of this [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 442ms]
+forum                   [Status: 301, Size: 323, Words: 20, Lines: 10, Duration: 142ms]
+# license, visit http://creativecommons.org/licenses/by-sa/3.0/ [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 1445ms]
+#                       [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 2440ms]
+# or send a letter to Creative Commons, 171 Second Street, [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 3444ms]
+# Priority-ordered case-sensitive list, where entries were found [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 3445ms]
+# on at least 3 different hosts [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 3444ms]
+# Copyright 2007 James Fisher [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 4448ms]
+blog                    [Status: 301, Size: 322, Words: 20, Lines: 10, Duration: 4451ms]
+#                       [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 4454ms]
+                        [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 4456ms]
+                        [Status: 200, Size: 986, Words: 423, Lines: 56, Duration: 145ms]
+:: Progress: [87664/87664] :: Job [1/1] :: 274 req/sec :: Duration: [0:05:29] :: Errors: 0 ::
 ```
+
+
 <div align="center">
 <br>
 <br>
