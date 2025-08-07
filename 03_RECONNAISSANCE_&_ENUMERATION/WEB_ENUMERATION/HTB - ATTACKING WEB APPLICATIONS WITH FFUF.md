@@ -465,8 +465,14 @@ REDACTED                [Status: 200, Size: 465, Words: 42, Lines: 15]
 We get a couple of hits; both have an HTTP code 200, meaning we can access them. index.php has a size of 0, indicating that it is an empty page, while the other does not, which means that it has content. We can visit any of these pages to verify this:
 
 ![[Pasted image 20250806195912.png]]
+<div align="center">
+<br>
+<br>
+</div>
 
+### Questions
 
+$$$
 <div align="center">
 <br>
 <br>
