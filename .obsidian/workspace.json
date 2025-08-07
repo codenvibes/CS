@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -272,8 +272,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "f99447f6baaa3d6a",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "README.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "ASSETS/Pasted image 20250807135404.png",
@@ -288,7 +289,6 @@
     "ASSETS/Pasted image 20250807130242.png",
     "ASSETS/Pasted image 20250807130122.png",
     "ASSETS/Pasted image 20250807125957.png",
-    "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "TEMPLATES/Questions Section.md",
     "WHITE-BOARD/WHITE-BOARD.md",
