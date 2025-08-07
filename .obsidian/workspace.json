@@ -272,8 +272,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f99447f6baaa3d6a",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20250807135404.png",
+    "ASSETS/Pasted image 20250807135019.png",
+    "ASSETS/Pasted image 20250807134621.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "Pasted image 20250807135404.png",
@@ -285,8 +288,6 @@
     "ASSETS/Pasted image 20250807130122.png",
     "ASSETS/Pasted image 20250807125957.png",
     "ASSETS/Pasted image 20250807125733.png",
-    "ASSETS/Pasted image 20250807125648.png",
-    "ASSETS/Pasted image 20250807125536.png",
     "WHITE-BOARD/TODO.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "TEMPLATES/Questions Section.md",
@@ -309,7 +310,6 @@
     "07_CRYPTOGRAPHY/CRYPTOGRAPHY.md",
     "08_TOOLS/FFUF.md",
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
-    "11_DIGITAL_FORENSICS/THM - WINDOWS FORENSICS.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12_AI_SECURITY_FUNDAMENTALS",
