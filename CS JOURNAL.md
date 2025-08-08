@@ -35,44 +35,16 @@ Windows Defender scans all files, including text files, for **code signatures** 
 - Go to **Windows Security > Virus & threat protection > Manage settings**
 - Under **Exclusions**, add your Obsidian notes folder
 - Only do this if you trust your files and are working in a controlled learning environment
+<div align="center">
+<br>
+<br>
+</div>
 
-#### Option 2: Fence Code Snippets Clearly
-
-Use triple backticks with language tags:  
-` markdown ```php <?php system($_GET['cmd']); ?> ``` `  
-May not prevent detection, but keeps things structured.
-
-#### Option 3: Store Exploit Code in Separate Files
-
-- Save dangerous snippets in `.txt` or `.zip` files
-    
-- Store them in excluded folders or outside of synced vaults
-    
-
----
-
-### 🔐 **Bonus Tip: Re-enable PUA Protection**
-
-If Defender warns that _"Settings to block potentially unwanted apps are turned off"_:
-
-- Go to **Windows Security > App & browser control > Reputation-based protection**
-    
-- Turn **PUA Protection** back on
-    
-
----
-
-### 🧪 Takeaway
+### Takeaway
 
 Even notes can trigger antivirus if they contain exploit code. This is a great example of:
-
 - How antivirus software works
-    
 - Why cybersecurity environments need proper exclusions
-    
 - The importance of controlled, secure learning setups
-    
 
 ---
-
-Let me know if you want this as a downloadable file too (Markdown, PDF, etc.) — happy to help!
