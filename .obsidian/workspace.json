@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 84.6272098385857,
+            "dimension": 55.342044581091464,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -76,7 +76,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 15.372790161414295,
+            "dimension": 44.65795541890853,
             "children": [
               {
                 "id": "d9c91c7059beddd0",
@@ -234,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -272,12 +272,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "f99447f6baaa3d6a",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "Pasted image 20250807215122.png",
     "Pasted image 20250807215024.png",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "ASSETS/Pasted image 20250807160404.png",
     "ASSETS/Pasted image 20250807160217.png",
     "ASSETS/Pasted image 20250807153501.png",
@@ -288,7 +288,6 @@
     "README.md",
     "ASSETS/Pasted image 20250807135404.png",
     "ASSETS/Pasted image 20250807135019.png",
-    "ASSETS/Pasted image 20250807134621.png",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
