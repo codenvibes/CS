@@ -55,9 +55,23 @@
                   "icon": "lucide-file",
                   "title": "HTB - SQL INJECTION FUNDAMENTALS"
                 }
+              },
+              {
+                "id": "68283aec2ce6118a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CS JOURNAL.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CS JOURNAL"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "CS JOURNAL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of CS JOURNAL"
             }
           },
           {
@@ -258,15 +272,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1c30acbeb8e6aec2",
+  "active": "68283aec2ce6118a",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "CS JOURNAL.md",
+    "Untitled",
     "Pasted image 20250808175217.png",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "ASSETS/Pasted image 20250808173426.png",
     "ASSETS/Pasted image 20250808172636.png",
     "ASSETS/Pasted image 20250808172148.png",
@@ -305,7 +318,6 @@
     "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS",
     "05_DEFENSIVE_SECURITY/LOG ANALYSIS",
     "ASSETS/Windows Forensics Cheatsheet.pdf",
-    "11_DIGITAL_FORENSICS/WINDOWS_FORENSICS",
     "Untitled.canvas"
   ]
 }
