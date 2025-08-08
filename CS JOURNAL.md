@@ -4,7 +4,10 @@
 ### Context
 
 While writing notes in Obsidian (on SQL injection fundamentals from Hack The Box), my Markdown file was suddenly deleted without warning. I hadn't deleted it manually, so I investigated.
-
+<div align="center">
+<br>
+<br>
+</div>
 ### What I Found
 
 Windows Security had flagged and **quarantined the note** as a threat:
@@ -13,15 +16,19 @@ Windows Security had flagged and **quarantined the note** as a threat:
 - **Severity:** Severe
 - **File Type:** `.md` (Markdown)
 - **Action:** Quarantined (auto-deleted from my Obsidian vault)
-- **Reason:** The note likely included a PHP code snippet resembling a backdoor payload, which triggered Windows Defender's malware detection.
+- **Reason:** The note included a PHP code snippets resembling a backdoor payload, which triggered Windows Defender's malware detection.
+<div align="center">
+<br>
+<br>
+</div>
 
----
-
-### ⚠️ **Why It Happened**
+### Why It Happened
 
 Windows Defender scans all files, including text files, for **code signatures** that match known malware. Educational notes that include **exploit code** or **webshells** (even in code blocks) can be misidentified as active threats.
-
----
+<div align="center">
+<br>
+<br>
+</div>
 
 ### ✅ **How to Prevent It (Safely)**
 
