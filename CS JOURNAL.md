@@ -30,9 +30,7 @@ Windows Defender scans all files, including text files, for **code signatures** 
 <br>
 </div>
 
-### How I Prevent It (Safely)
-
-#### Option 1: Exclude Your Notes Folder from Windows Defender
+### How I Prevent It (Safely)<br>I Excluded my Obsidian Vault from Windows Defender
 
 - Go to **Windows Security > Virus & threat protection > Manage settings**
 - Under **Exclusions**, add your Obsidian notes folder
