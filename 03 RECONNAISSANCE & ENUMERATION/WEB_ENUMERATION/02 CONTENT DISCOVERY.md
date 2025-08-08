@@ -162,7 +162,7 @@ THM{CHANGE_DEFAULT_CREDENTIALS}
 ### [[WAPPALYZER|Wappalyzer]]
 ### [[WAYBACK MACHINE|Wayback Machine]]
 ### [[GITHUB|GitHub]]
-### [[S3 Buckets|S3 Buckets]]
+### [[S3 BUCKETS|S3 BUCKETS]]
 
 ---
 
