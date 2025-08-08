@@ -43,20 +43,6 @@
                 }
               },
               {
-                "id": "f99447f6baaa3d6a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
-                }
-              },
-              {
                 "id": "e85e5fc0c64d6b28",
                 "type": "leaf",
                 "state": {
@@ -234,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -272,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "e85e5fc0c64d6b28",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "03_RECONNAISSANCE_&_ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "Pasted image 20250807215122.png",
     "Pasted image 20250807215024.png",
@@ -284,7 +271,6 @@
     "Pasted image 20250807160404.png",
     "Pasted image 20250807160217.png",
     "Pasted image 20250807153501.png",
-    "WHITE-BOARD/TODO.md",
     "README.md",
     "ASSETS/Pasted image 20250807135404.png",
     "ASSETS/Pasted image 20250807135019.png",
