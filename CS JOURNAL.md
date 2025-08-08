@@ -1,24 +1,19 @@
 # FRI 8TH AUG 2025
 ## Windows Defender Flagged My Obsidian Note as Malware – What Happened?
 
-### 🧠 **Context**
+### Context
 
 While writing notes in Obsidian (on SQL injection fundamentals from Hack The Box), my Markdown file was suddenly deleted without warning. I hadn't deleted it manually, so I investigated.
 
-### 🔍 **What I Found**
+### What I Found
 
 Windows Security had flagged and **quarantined the note** as a threat:
 
 - **Threat:** `Backdoor:PHP/Remoteshell.F`
-    
 - **Severity:** Severe
-    
 - **File Type:** `.md` (Markdown)
-    
 - **Action:** Quarantined (auto-deleted from my Obsidian vault)
-    
-- **Reason:** The note likely included a PHP code snippet resembling a backdoor payload (e.g., `<?php system($_GET['cmd']); ?>`), which triggered Windows Defender's malware detection.
-    
+- **Reason:** The note likely included a PHP code snippet resembling a backdoor payload, which triggered Windows Defender's malware detection.
 
 ---
 
