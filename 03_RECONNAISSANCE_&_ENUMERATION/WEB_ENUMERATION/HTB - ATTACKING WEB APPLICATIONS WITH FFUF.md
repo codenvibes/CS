@@ -1927,3 +1927,6 @@ HARRY                   [Status: 200, Size: 773, Words: 218, Lines: 53, Duration
 ## References
 
 https://academy.hackthebox.com/module/details/54
+https://medium.com/@sumayasomow/attacking-web-applications-with-ffuf-378df7ba72ff
+https://medium.com/@sumayasomow/attacking-web-applications-with-ffuf-part-2-1334ef22e70d
+https://www.youtube.com/watch?v=EfdWJSR30pg&list=PLaJ0Gio8SoUYtn7yC7gdDEkCmwzFmsBVx&index=9
