@@ -41,9 +41,23 @@
                   "icon": "lucide-file",
                   "title": "THM - AUTHENTICATION BYPASS"
                 }
+              },
+              {
+                "id": "1c30acbeb8e6aec2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Untitled"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
@@ -206,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - AUTHENTICATION BYPASS"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -244,10 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8d55f3bdd7991a7d",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "Pasted image 20250808175217.png",
@@ -281,7 +296,6 @@
     "05_DEFENSIVE_SECURITY/REMOTE ACCESS CONCEPTS.md",
     "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
     "07_CRYPTOGRAPHY/CRYPTOGRAPHY.md",
-    "08_TOOLS/FFUF.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12_AI_SECURITY_FUNDAMENTALS",
