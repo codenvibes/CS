@@ -46,10 +46,14 @@
                 "id": "c28faed711f103d0",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
                 }
               }
             ],
@@ -216,12 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -255,8 +260,9 @@
   },
   "active": "c28faed711f103d0",
   "lastOpenFiles": [
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "04_EXPLOITATION/WEB_EXPLOITATION/Untitled.md",
+    "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04_EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "Pasted image 20250808175217.png",
     "ASSETS/Pasted image 20250808173426.png",
@@ -290,7 +296,6 @@
     "05_DEFENSIVE_SECURITY/THREAT INTELLIGENCE & REPORTING/THREAT INTELLIGENCE.md",
     "07_CRYPTOGRAPHY/CRYPTOGRAPHY.md",
     "08_TOOLS/FFUF.md",
-    "09_SOFT_SKILLS_&_CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12_AI_SECURITY_FUNDAMENTALS",
