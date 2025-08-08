@@ -112,7 +112,8 @@
                   "title": "TODO"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -235,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -273,8 +274,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "ASSETS/Pasted image 20250808205752.png",
     "ASSETS/Pasted image 20250808205637.png",
     "ASSETS/Pasted image 20250808205536.png",
@@ -285,9 +287,7 @@
     "ASSETS/Pasted image 20250808203231.png",
     "ASSETS/Pasted image 20250808203137.png",
     "ASSETS/Pasted image 20250808202743.png",
-    "ASSETS/Pasted image 20250808202612.png",
     "CS JOURNAL.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "Untitled",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
