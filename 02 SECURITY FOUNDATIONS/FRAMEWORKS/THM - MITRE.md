@@ -128,7 +128,7 @@ The questions below will help you become more familiar with the ATT&CK®.  It i
 
 ### Questions
 
-##### Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?)
+##### Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purple Teamers, SOC Managers?)
 Red Teamers
 <div align="center">
 <br>
@@ -137,7 +137,7 @@ Red Teamers
 ##### What is the ID for this technique?
 T1566
 
-
+![[Pasted image 20250809113621.png]]
 <div align="center">
 <br>
 </div>
