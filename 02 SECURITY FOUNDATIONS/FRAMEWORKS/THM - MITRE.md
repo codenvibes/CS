@@ -255,20 +255,23 @@ To summarize, CAR is a great place for finding analytics that takes us further t
 
 ### Questions
 
-##### 
+##### What tactic has an ID of TA0003?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### What is the name of the library that is a collection of Zeek (BRO) scripts?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### What is the name of the **technique** for running executables with the same hash and different names?
 <div align="center">
 <br>
 </div>
+
+##### Examine CAR-2013-05-004, besides Implementations, what additional information is provided to analysts to ensure coverage for this technique?
+
 <div align="center">
 <br>
 <br>
