@@ -151,6 +151,7 @@ User Training
 </div>
 
 ##### What are the data sources for Detection? (format: source1,source2,source3 with no spaces after commas)
+Application Log,File,Network Traffic
 <div align="center">
 <br>
 </div>
