@@ -28,7 +28,7 @@ Let's dive in, shall we...
 
 Before diving in, let's briefly discuss a few terms that you will often hear when dealing with the framework, threat intelligence, etc.
 
-APT   is an acronym for  Advanced Persistent Threat .  This can be considered a team/group ( **_threat group_** ), or even country ( **_nation-state group_** ), that engages in long-term attacks against organizations and/or countries. The term 'advanced' can be misleading as it will tend to cause us to believe that each APT group all have some super-weapon, e.i. a zero-day exploit, that they use. That is not the case. As we will see a bit later, the techniques these APT groups use are quite common and can be detected with the right implementations in place. You can view FireEye's current list of APT groups [**here**](https://www.fireeye.com/current-threats/apt-groups.html) .  
+APT is an acronym for  Advanced Persistent Threat .  This can be considered a team/group ( **_threat group_** ), or even country ( **_nation-state group_** ), that engages in long-term attacks against organizations and/or countries. The term 'advanced' can be misleading as it will tend to cause us to believe that each APT group all have some super-weapon, e.i. a zero-day exploit, that they use. That is not the case. As we will see a bit later, the techniques these APT groups use are quite common and can be detected with the right implementations in place. You can view FireEye's current list of APT groups [**here**](https://www.fireeye.com/current-threats/apt-groups.html) .  
 
 TTP is an acronym for  Tactics, Techniques, and Procedures,  but what does each of these terms mean?
 
