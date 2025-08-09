@@ -128,27 +128,28 @@ The questions below will help you become more familiar with the ATT&CK®.  It i
 
 ### Questions
 
-##### 
+##### Besides Blue teamers, who else will use the ATT&CK Matrix? (Red Teamers, Purpe Teamers, SOC Managers?)
+Red Teamers
 <div align="center">
 <br>
 </div>
 
-##### 
+##### What is the ID for this technique?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### Based on this technique, what mitigation covers identifying social engineering techniques?
 <div align="center">
 <br>
 </div>
 
-##### 
+##### What are the data sources for Detection? **(**format: source1,source2,source3 with no spaces after commas)
 <div align="center">
 <br>
 </div>
 
-##### Based on the information for the first group, what are their associated groups?
+##### Which are the first two groups to have used spear-phishing in their campaigns? (format: group1,group2)
 <div align="center">
 <br>
 </div>
