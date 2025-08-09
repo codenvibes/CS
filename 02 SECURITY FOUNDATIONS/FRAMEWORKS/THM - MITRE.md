@@ -48,6 +48,24 @@ APT – Advanced Persistent Threat
     - **APT28** (Fancy Bear) – Linked to Russian military intelligence.
     - **APT29** (Cozy Bear) – Also linked to Russian state-sponsored hacking.
     - **APT41** – Linked to Chinese cyber-espionage and financial crime.
+
+TTP – Tactics, Techniques, and Procedures
+
+- **Definition**: A structured way to describe _how_ an adversary operates during an attack.
+    
+- It breaks down their behavior into **three levels of detail**:
+    
+
+1. **Tactics** – _The “why”_ (high-level goal)
+    
+    - Example: _Credential Access_, _Privilege Escalation_, _Lateral Movement_.
+    - This is the strategic objective they’re trying to achieve.
+2. **Techniques** – _The “how”_ (general method)
+    
+    - Example (under Credential Access): _Brute-force passwords_, _Keylogging_, _Dumping hashes_.
+3. **Procedures** – _The “exact steps”_ (specific implementation)
+    
+    - Example: Using **Mimikatz** to dump credentials from memory on a Windows server.
 <div align="center">
 <br>
 <br>
