@@ -173,7 +173,7 @@ Group 72
 </div>
 
 ##### What software is associated with this group that lists phishing as a technique?
-
+Hikit
 
 ![[Pasted image 20250809120945.png]]
 <div align="center">
@@ -181,6 +181,9 @@ Group 72
 </div>
 
 ##### What is the description for this software?
+Hikit is malware that has been used by Axiom for late-stage persistence and exfiltration after the initial compromise.
+
+![[Pasted image 20250809121058.png]]
 <div align="center">
 <br>
 </div>
