@@ -165,6 +165,9 @@ Axiom,Gold SOUTHFIELD
 </div>
 
 ##### Based on the information for the first group, what are their associated groups?
+Group 72
+
+![[Pasted image 20250809120258.png]]
 <div align="center">
 <br>
 </div>
