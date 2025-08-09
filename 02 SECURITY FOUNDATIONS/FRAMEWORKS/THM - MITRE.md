@@ -131,6 +131,14 @@ The questions below will help you become more familiar with the ATT&CK®.  It i
 ##### 
 <div align="center">
 <br>
+</div>
+
+##### 
+<div align="center">
+<br>
+</div>
+<div align="center">
+<br>
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
