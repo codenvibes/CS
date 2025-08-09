@@ -143,6 +143,9 @@ T1566
 </div>
 
 ##### Based on this technique, what mitigation covers identifying social engineering techniques?
+User Training
+
+![[Pasted image 20250809113903.png]]
 <div align="center">
 <br>
 </div>
