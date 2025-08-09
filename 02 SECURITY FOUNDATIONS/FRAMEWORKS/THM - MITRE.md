@@ -150,7 +150,7 @@ User Training
 <br>
 </div>
 
-##### What are the data sources for Detection? **(**format: source1,source2,source3 with no spaces after commas)
+##### What are the data sources for Detection? (format: source1,source2,source3 with no spaces after commas)
 <div align="center">
 <br>
 </div>
