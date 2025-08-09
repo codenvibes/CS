@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 49.42352036894697,
+            "dimension": 78.93927747886241,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -76,7 +76,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 50.57647963105304,
+            "dimension": 21.06072252113759,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of THM - MITRE"
             }
           },
           {
@@ -288,8 +288,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "e15b5ab2c0927913",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "ASSETS/Pasted image 20250809121238.png",
     "ASSETS/Pasted image 20250809121058.png",
@@ -304,7 +305,6 @@
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
-    "WHITE-BOARD/TODO.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "CS JOURNAL.md",
     "Untitled",
