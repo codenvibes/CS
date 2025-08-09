@@ -251,6 +251,27 @@ To summarize, CAR is a great place for finding analytics that takes us further t
 <div align="center">
 <br>
 <br>
+</div>
+
+### Questions
+
+##### 
+<div align="center">
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+</div>
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
