@@ -173,6 +173,9 @@ Group 72
 </div>
 
 ##### What software is associated with this group that lists phishing as a technique?
+
+
+![[Pasted image 20250809120945.png]]
 <div align="center">
 <br>
 </div>
