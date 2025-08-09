@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of THM - MITRE"
             }
           },
           {
@@ -288,10 +288,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "e15b5ab2c0927913",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "WHITE-BOARD/TODO.md",
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "ASSETS/Pasted image 20250809121238.png",
     "ASSETS/Pasted image 20250809121058.png",
     "ASSETS/Pasted image 20250809120945.png",
