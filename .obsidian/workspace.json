@@ -70,8 +70,7 @@
                   "title": "THM - MITRE"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -250,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - MITRE"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -288,11 +287,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e15b5ab2c0927913",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "Pasted image 20250809173535.png",
     "WHITE-BOARD/TODO.md",
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "ASSETS/Pasted image 20250809121238.png",
     "ASSETS/Pasted image 20250809121058.png",
     "ASSETS/Pasted image 20250809120945.png",
@@ -302,7 +301,6 @@
     "ASSETS/Pasted image 20250809113621.png",
     "Pasted image 20250809121238.png",
     "Pasted image 20250809121058.png",
-    "Pasted image 20250809120945.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
