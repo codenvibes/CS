@@ -1,4 +1,4 @@
-In cybersecurity, **frameworks** are structured sets of guidelines, best practices, and standardized processes that help you **understand, prevent, detect, and respond** to security threats in an organized way.
+==In cybersecurity, **DEF-frameworks** are structured sets of guidelines, best practices, and standardized processes that help you **understand, prevent, detect, and respond** to security threats in an organized way.==
 
 > If cybersecurity was like cooking:
 > - A **framework** is the _recipe book_.
