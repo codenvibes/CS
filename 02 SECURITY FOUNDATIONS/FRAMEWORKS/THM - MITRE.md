@@ -256,6 +256,13 @@ To summarize, CAR is a great place for finding analytics that takes us further t
 ### Questions
 
 ##### What tactic has an ID of TA0003?
+
+To respond to this question, we should enter the ATT&CK Powered Suit.
+First, we should download the extension in our browser.
+
+Link: [https://chrome.google.com/webstore/detail/attck-powered-suit/gfhomppaadldngjnmbefmmiokgefjddd](https://chrome.google.com/webstore/detail/attck-powered-suit/gfhomppaadldngjnmbefmmiokgefjddd)
+
+
 <div align="center">
 <br>
 </div>
