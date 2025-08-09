@@ -48,12 +48,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
+                  "title": "THM - OWASP TOP 10 - 2021"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of THM - OWASP TOP 10 - 2021"
             }
           },
           {
@@ -274,8 +274,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "1c30acbeb8e6aec2",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "ASSETS/Pasted image 20250808205752.png",
     "ASSETS/Pasted image 20250808205637.png",
@@ -291,7 +292,6 @@
     "Untitled",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "WHITE-BOARD/TODO.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "README.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
