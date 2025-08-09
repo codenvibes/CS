@@ -189,6 +189,9 @@ Hikit is malware that has been used by Axiom for late-stage persistence and exfi
 </div>
 
 ##### This group overlaps (slightly) with which other group?
+Winnti Group
+
+![[Pasted image 20250809121238.png]]
 <div align="center">
 <br>
 </div>
