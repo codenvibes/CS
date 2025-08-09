@@ -5,13 +5,18 @@ Think of them as **maps or playbooks**:
 - They **standardize language** so everyone—analysts, engineers, managers—can talk about security in the same terms.
 - They **guide actions** so you don’t reinvent the wheel every time you face a threat.
 
-**Frameo**
+**Framework Types;**
 1. **Knowledge-based frameworks** – They describe _what exists_.
     - Example: **MITRE ATT&CK** catalogs the tactics and techniques attackers use.
     - You use them for threat intelligence, analysis, and training.
 2. **Process-based frameworks** – They describe _what to do_.
     - Example: **NIST Cybersecurity Framework** gives a lifecycle (Identify → Protect → Detect → Respond → Recover).
     - You use them to structure security programs and incident response.
+
+If cybersecurity was like cooking:
+- A **framework** is the _recipe book_.
+- The **tools** are your pots, pans, knives (nmap, Wireshark, etc.).
+- The **ingredients** are your raw data, logs, vulnerabilities, and incidents.
 
 | **CATEGORY**                            | **FRAMEWORK**                                 | **PURPOSE / FOCUS**                                                               |
 | --------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------- |
