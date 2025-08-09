@@ -1,5 +1,10 @@
 In cybersecurity, **frameworks** are structured sets of guidelines, best practices, and standardized processes that help you **understand, prevent, detect, and respond** to security threats in an organized way.
 
+> If cybersecurity was like cooking:
+> - A **framework** is the _recipe book_.
+> - The **tools** are your pots, pans, knives (nmap, Wireshark, etc.).
+> - The **ingredients** are your raw data, logs, vulnerabilities, and incidents.
+
 Think of them as **maps or playbooks**:
 - They **organize knowledge** (e.g., lists of attack techniques, defense methods, policies).
 - They **standardize language** so everyone—analysts, engineers, managers—can talk about security in the same terms.
@@ -12,11 +17,6 @@ Think of them as **maps or playbooks**:
 2. **Process-based frameworks** – They describe _what to do_.
     - Example: **NIST Cybersecurity Framework** gives a lifecycle (Identify → Protect → Detect → Respond → Recover).
     - You use them to structure security programs and incident response.
-
-If cybersecurity was like cooking:
-- A **framework** is the _recipe book_.
-- The **tools** are your pots, pans, knives (nmap, Wireshark, etc.).
-- The **ingredients** are your raw data, logs, vulnerabilities, and incidents.
 
 | **CATEGORY**                            | **FRAMEWORK**                                 | **PURPOSE / FOCUS**                                                               |
 | --------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------- |
