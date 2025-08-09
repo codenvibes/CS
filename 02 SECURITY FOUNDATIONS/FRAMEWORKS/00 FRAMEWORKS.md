@@ -1,7 +1,7 @@
 
 | **CATEGORY**                                    | **FRAMEWORK**                                 | **PURPOSE / FOCUS**                                                               |
 | ----------------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------- |
-| **🔍 Threat Modeling & Adversary Behavior**     | MITRE ATT&CK                                  | Maps attacker tactics, techniques, and procedures (TTPs).                         |
+| THREAT MODELING & ADVERSARY BEHAVIOR            | MITRE ATT&CK                                  | Maps attacker tactics, techniques, and procedures (TTPs).                         |
 |                                                 | MITRE D3FEND                                  | Defensive countermeasures mapped to ATT&CK techniques.                            |
 |                                                 | MITRE Engage                                  | Strategies for adversary engagement and deception.                                |
 |                                                 | Lockheed Martin Cyber Kill Chain              | Sequential stages of a cyberattack from recon to action.                          |
