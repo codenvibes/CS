@@ -137,6 +137,43 @@ The questions below will help you become more familiar with the ATT&CK®.  It i
 <div align="center">
 <br>
 </div>
+
+##### 
+<div align="center">
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+</div>
+
+##### Based on the information for the first group, what are their associated groups?
+<div align="center">
+<br>
+</div>
+
+##### Based on the information for the first group, what are their associated groups?
+<div align="center">
+<br>
+</div>
+
+##### What software is associated with this group that lists phishing as a technique?
+<div align="center">
+<br>
+</div>
+
+##### What is the description for this software?
+<div align="center">
+<br>
+</div>
+
+##### This group overlaps (slightly) with which other group?
+<div align="center">
+<br>
+</div>
+
+##### How many techniques are attributed to this group?
 <div align="center">
 <br>
 <br>
