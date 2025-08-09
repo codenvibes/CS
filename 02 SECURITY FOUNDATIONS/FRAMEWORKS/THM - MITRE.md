@@ -37,6 +37,17 @@ TTP is an acronym for  Tactics, Techniques, and Procedures,  but what does 
 - The  Procedure  is how the technique is executed.
 
 If that is not that clear now, don't worry. Hopefully, as you progress through each section, TTPs will make more sense.
+
+APT – Advanced Persistent Threat
+- **Definition**: A highly skilled, well-resourced group (often state-sponsored or organized crime) that conducts **long-term, targeted attacks** against specific organizations, usually for espionage or sabotage.
+- **Key traits**
+    - **Advanced** → They use sophisticated tools, zero-day exploits, and custom malware.
+    - **Persistent** → They maintain access over weeks, months, or even years without detection.
+    - **Threat** → They have clear objectives (e.g., stealing sensitive data, disrupting operations).
+- **Examples**
+    - **APT28** (Fancy Bear) – Linked to Russian military intelligence.
+    - **APT29** (Cozy Bear) – Also linked to Russian state-sponsored hacking.
+    - **APT41** – Linked to Chinese cyber-espionage and financial crime.
 <div align="center">
 <br>
 <br>
