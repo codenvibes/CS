@@ -1,3 +1,9 @@
+In cybersecurity, **frameworks** are structured sets of guidelines, best practices, and standardized processes that help you **understand, prevent, detect, and respond** to security threats in an organized way.
+
+Think of them as **maps or playbooks**:
+- They **organize knowledge** (e.g., lists of attack techniques, defense methods, policies).
+- They **standardize language** so everyone—analysts, engineers, managers—can talk about security in the same terms.
+- They **guide actions** so you don’t reinvent the wheel every time you face a threat.
 
 | **CATEGORY**                            | **FRAMEWORK**                                 | **PURPOSE / FOCUS**                                                               |
 | --------------------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------- |
