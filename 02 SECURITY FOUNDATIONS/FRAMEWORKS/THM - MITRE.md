@@ -38,34 +38,27 @@ TTP is an acronym for  Tactics, Techniques, and Procedures,  but what does 
 
 If that is not that clear now, don't worry. Hopefully, as you progress through each section, TTPs will make more sense.
 
-APT – Advanced Persistent Threat
-- **Definition**: A highly skilled, well-resourced group (often state-sponsored or organized crime) that conducts **long-term, targeted attacks** against specific organizations, usually for espionage or sabotage.
-- **Key traits**
-    - **Advanced** → They use sophisticated tools, zero-day exploits, and custom malware.
-    - **Persistent** → They maintain access over weeks, months, or even years without detection.
-    - **Threat** → They have clear objectives (e.g., stealing sensitive data, disrupting operations).
-- **Examples**
-    - **APT28** (Fancy Bear) – Linked to Russian military intelligence.
-    - **APT29** (Cozy Bear) – Also linked to Russian state-sponsored hacking.
-    - **APT41** – Linked to Chinese cyber-espionage and financial crime.
-
-TTP – Tactics, Techniques, and Procedures
-
-- **Definition**: A structured way to describe _how_ an adversary operates during an attack.
-    
-- It breaks down their behavior into **three levels of detail**:
-    
-
-1. **Tactics** – _The “why”_ (high-level goal)
-    
-    - Example: _Credential Access_, _Privilege Escalation_, _Lateral Movement_.
-    - This is the strategic objective they’re trying to achieve.
-2. **Techniques** – _The “how”_ (general method)
-    
-    - Example (under Credential Access): _Brute-force passwords_, _Keylogging_, _Dumping hashes_.
-3. **Procedures** – _The “exact steps”_ (specific implementation)
-    
-    - Example: Using **Mimikatz** to dump credentials from memory on a Windows server.
+> APT – Advanced Persistent Threat
+> - **Definition**: A highly skilled, well-resourced group (often state-sponsored or organized crime) that conducts **long-term, targeted attacks** against specific organizations, usually for espionage or sabotage.
+> - **Key traits**
+>     - **Advanced** → They use sophisticated tools, zero-day exploits, and custom malware.
+>     - **Persistent** → They maintain access over weeks, months, or even years without detection.
+>     - **Threat** → They have clear objectives (e.g., stealing sensitive data, disrupting operations).
+> - **Examples**
+>     - **APT28** (Fancy Bear) – Linked to Russian military intelligence.
+>     - **APT29** (Cozy Bear) – Also linked to Russian state-sponsored hacking.
+>     - **APT41** – Linked to Chinese cyber-espionage and financial crime.
+> 
+> TTP – Tactics, Techniques, and Procedure
+> - **Definition**: A structured way to describe _how_ an adversary operates during an attack
+> - It breaks down their behavior into **three levels of detail**
+> 1. **Tactics** – _The “why”_ (high-level goal
+>     - Example: _Credential Access_, _Privilege Escalation_, _Lateral Movement_.
+>     - This is the strategic objective they’re trying to achieve.
+> 2. **Techniques** – _The “how”_ (general method
+>     - Example (under Credential Access): _Brute-force passwords_, _Keylogging_, _Dumping hashes_.
+> 3. **Procedures** – _The “exact steps”_ (specific implementation
+>     - Example: Using **Mimikatz** to dump credentials from memory on a Windows server.
 <div align="center">
 <br>
 <br>
@@ -76,6 +69,58 @@ TTP – Tactics, Techniques, and Procedures
 <div style="page-break-after: always;"></div>
 
 ## 3. ATT&CK® Framework
+
+![](https://assets.tryhackme.com/additional/mitre/attack0.png)
+
+What is the ATT&CK® framework? According to the  [website](https://attack.mitre.org/) , "MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations." In 2013, MITRE began to address the need to record and document common TTPs ( Tactics, Techniques, and Procedures ) that APT ( Advanced Persistent Threat ) groups used against enterprise Windows networks. This started with an internal project known as FMX ( Fort Meade Experiment ). Within this project, selected security professionals were tasked to emulated adversarial TTPs against a network, and data was collected from the attacks on this network. The gathered data helped construct the beginning pieces of what we know today as the ATT&CK® framework.
+
+The ATT&CK® framework has grown and expanded throughout the years. One notable expansion was that the framework focused solely on the Windows platform but has expanded to cover other platforms, such as macOS and Linux. The framework is heavily contributed to by many sources, such as security researchers and threat intelligence reports. Note this is not only a tool for blue teamers. The tool is also useful for **red teamers** .
+
+If you haven't done so, navigate to the ATT&CK®  [website](https://attack.mitre.org/) .
+
+Direct your attention to the bottom of the page to view the  ATT&CK® Matrix for Enterprise . Across the top of the matrix, there are 14 categories. Each category contains the techniques an adversary could use to perform the tactic. The categories cover the seven-stage Cyber Attack Lifecycle (credit Lockheed Martin for the Cyber Kill Chain).
+
+![](https://assets.tryhackme.com/additional/mitrev2/t3-attackv11.png)
+
+(ATT&CK Matrix v11.2)
+
+Under  Initial Access , there are 9 techniques. Some of the techniques have sub-techniques, such as Phishing. 
+
+![](https://assets.tryhackme.com/additional/mitre/attack2.png)
+
+If we click on the gray bar to the right, a new layer appears listing the sub-techniques. 
+
+![](https://assets.tryhackme.com/additional/mitre/attack3.png)
+
+To get a better understanding of this technique and it's associated sub-techniques, click on Phishing.
+
+We have been directed to a page dedicated to the technique known as Phishing and all related information regarding the technique, such as a brief description,  Procedure Examples , and  Mitigations . 
+
+![](https://assets.tryhackme.com/additional/mitre/attack4.png)
+
+You can alternatively resort to using the Search feature to retrieve all associated information regarding a given technique, sub-technique, and/or group. 
+
+![](https://assets.tryhackme.com/additional/mitre/attack5.png)
+
+Lastly, the same data can be viewed via the  MITRE ATT&CK® Navigator : " _The ATT&CK® Navigator is designed to provide basic navigation and annotation of ATT&CK® matrices, something that people are already doing today in tools like Excel. We've designed it to be simple and generic - you can use the Navigator to visualize your defensive coverage, your red/blue team planning, the frequency of detected techniques, or anything else you want to do_ ."
+
+You can access the Navigator view when visiting a group or tool page. The ATT&CK® Navigator Layers button will be available.
+
+![](https://assets.tryhackme.com/additional/mitre/attack8.png)
+
+In the sub-menu select  view .
+
+![](https://assets.tryhackme.com/additional/mitrev2/t3-attack-navigator.png)
+
+Let's get acquainted with this tool. Click  [here](https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0008%2FG0008-enterprise-layer.json)  to view the ATT&CK® Navigator for Carbanak. 
+
+At the top left, there are 3 sets of controls:  selection controls ,  layer controls , and  technique controls . I encourage you to inspect each of the options under each control to get familiar with them. The question mark at the far right will provide additional information regarding the navigator. 
+
+![](https://assets.tryhackme.com/additional/mitrev2/t3-attack-navigator2.png)
+
+To summarize, we can use the ATT&CK Matrix to map a threat group to their tactics and techniques.  There are various methods the search can be initiated. 
+
+The questions below will help you become more familiar with the ATT&CK®.  It is recommended to start answering the questions from the  [Phishing page](https://attack.mitre.org/techniques/T1566/) . Note, that this link is for version 8 of the  ATT&CK Matrix.
 <div align="center">
 <br>
 <br>
