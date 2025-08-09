@@ -262,6 +262,8 @@ First, we should download the extension in our browser.
 
 Link: [https://chrome.google.com/webstore/detail/attck-powered-suit/gfhomppaadldngjnmbefmmiokgefjddd](https://chrome.google.com/webstore/detail/attck-powered-suit/gfhomppaadldngjnmbefmmiokgefjddd)
 
+![[Pasted image 20250809173535.png]]
+
 
 <div align="center">
 <br>
