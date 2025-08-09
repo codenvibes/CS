@@ -7,6 +7,7 @@
 |                                         | Lockheed Martin Cyber Kill Chain              | Sequential stages of a cyberattack from recon to action.                          |
 |                                         | Diamond Model of Intrusion Analysis           | Relationship between adversary, infrastructure, capabilities, and victims.        |
 |                                         | CAR (Cyber Analytics Repository)              | Analytics for detecting malicious behavior.                                       |
+|                                         |                                               |                                                                                   |
 | INCIDENT RESPONSE & SECURITY OPERATIONS | NIST Cybersecurity Framework (CSF)            | Identify, Protect, Detect, Respond, Recover functions.                            |
 |                                         | SANS Incident Handling Process                | Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned. |
 |                                         | FIRST CSIRT Services Framework                | Best practices for CSIRT operations.                                              |
