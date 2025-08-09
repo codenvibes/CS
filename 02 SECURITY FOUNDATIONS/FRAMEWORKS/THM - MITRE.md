@@ -159,7 +159,7 @@ Application Log,File,Network Traffic
 ##### Which are the first two groups to have used spear-phishing in their campaigns? (format: group1,group2)
 Axiom,Gold SOUTHFIELD
 
-
+![[Pasted image 20250809120132.png]]
 <div align="center">
 <br>
 </div>
