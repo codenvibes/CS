@@ -231,8 +231,6 @@ Note the reference to Sysmon. If you're not familiar with Sysmon, check out th
 
 To take full advantage of CAR, we can view the  [Full Analytic List](https://car.mitre.org/analytics)  or the  [CAR ATT&CK® Navigator layer](https://mitre-attack.github.io/attack-navigator/#layerURL=https://raw.githubusercontent.com/mitre-attack/car/master/docs/coverage/car_analytic_coverage_04_05_2022.json)  to view all the analytics.
 
-Full Analytic List
-
 ![](https://assets.tryhackme.com/additional/mitre/car4.png)
 
 In the Full Analytic List view, we can see what implementations are available for any given analytic at a single glance, along with what OS platform it applies to.
