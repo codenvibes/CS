@@ -70,7 +70,8 @@
                   "title": "THM - MITRE"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
@@ -249,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - OWASP TOP 10 - 2021"
             }
           },
           {
@@ -287,10 +288,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "1c30acbeb8e6aec2",
   "lastOpenFiles": [
-    "ASSETS/Pasted image 20250809173535.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "ASSETS/Pasted image 20250809173535.png",
     "Pasted image 20250809173535.png",
     "WHITE-BOARD/TODO.md",
     "ASSETS/Pasted image 20250809121238.png",
@@ -301,14 +303,12 @@
     "ASSETS/Pasted image 20250809113903.png",
     "ASSETS/Pasted image 20250809113621.png",
     "Pasted image 20250809121238.png",
-    "Pasted image 20250809121058.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "CS JOURNAL.md",
     "Untitled",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "README.md",
