@@ -71,7 +71,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OWASP TOP 10 - 2021"
+              "title": "Outline of THM - MITRE"
             }
           },
           {
@@ -288,8 +288,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "1c30acbeb8e6aec2",
+  "active": "e15b5ab2c0927913",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20250809173535.png",
@@ -304,7 +305,6 @@
     "ASSETS/Pasted image 20250809113621.png",
     "Pasted image 20250809121238.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "CS JOURNAL.md",
