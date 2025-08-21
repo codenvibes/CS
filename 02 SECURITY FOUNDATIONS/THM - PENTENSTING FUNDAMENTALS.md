@@ -131,10 +131,7 @@ The foundation regularly [writes reports](https://owasp.org/www-project-top-ten
 | It covers all stages of an engagement: from testing to reporting and remediation. | The framework doesn't hold any accreditation such as CHECK.                                    |
 | Specialises in web applications and services.                                     | _Intentionally left blank._                                                                    |
 
-  
-  
-
-**NIST Cybersecurity Framework 1.1**
+### NIST Cybersecurity Framework 1.1
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/8e11f5fcfc8fc6429fe35682797e2a24.jpg)
 
