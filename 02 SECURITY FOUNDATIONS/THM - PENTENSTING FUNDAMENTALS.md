@@ -45,7 +45,6 @@ Hackers are sorted into three hats, where their ethics and motivations behind th
 
 The ROE is a document that is created at the initial stages of a penetration testing engagement. This document consists of three main sections (explained in the table below), which are ultimately responsible for deciding how the engagement is carried out. The SANS institute has a great example of this document which you can view online [here](https://sansorg.egnyte.com/dl/bF4I3yCcnt/?).
 
-
 | **Section** | **Description**                                                                                                                                                                                                                                      |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Permission  | This section of the document gives explicit permission for the engagement to be carried out. This permission is essential to legally protect individuals and organisations for the activities they carry out.                                        |
@@ -57,6 +56,10 @@ The ROE is a document that is created at the initial stages of a penetration t
 </div>
 
 ### Questions
+
+##### 
+
+##### 
 
 ##### 
 <div align="center">
