@@ -147,15 +147,11 @@ The framework provides guidelines on security controls & benchmarks for success 
 | NIST provides accreditation for organisations that use this framework.                                                     | _Intentionally left blank.  <br>_                                                                                  |
 | The NIST framework is designed to be implemented alongside other frameworks.                                               | _Intentionally left blank.  <br>_                                                                                  |
 
-  
-
-**NCSC CAF**
+### NCSC CAF
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6e10e0fd0b6020d42873c218e1d37044.png)
 
 The [Cyber Assessment Framework](https://www.ncsc.gov.uk/collection/caf/caf-principles-and-guidance) (CAF) is an extensive framework of fourteen principles used to assess the risk of various cyber threats and an organisation's defences against these.
-
-  
 
 The framework applies to organisations considered to perform "vitally important services and activities" such as critical infrastructure, banking, and the likes. The framework mainly focuses on and assesses the following topics:
 
