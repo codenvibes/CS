@@ -102,8 +102,6 @@ Before discussing some different industry-standard methodologies, we should note
 
 [The Open Source Security Testing Methodology Manual](https://github.com/mtesauro/owasp-wte/blob/master/temp-projects/wte-docs/contents/usr/share/doc/WTE-Documentation/OSSTMM/OSSTMM.3.pdf) provides a detailed framework of testing strategies for systems, software, applications, communications and the human aspect of cybersecurity.
 
-  
-
 The methodology focuses primarily on how these systems, applications communicate, so it includes a methodology for:
 
 1. Telecommunications (phones, VoIP, etc.)
