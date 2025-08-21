@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - PENTENSTING FUNDAMENTALS"
+                  "title": "01 SECURITY ASSESSTMENT TYPES"
                 }
               }
             ],
@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pentesting",
+                "query": "simulated attack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -223,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - PENTENSTING FUNDAMENTALS"
+              "title": "Outline of 01 SECURITY ASSESSTMENT TYPES"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "8089db5984bed9f9",
   "lastOpenFiles": [
-    "TEMPLATES/Page Break.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+    "TEMPLATES/Page Break.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/Untitled.md",
     "WHITE-BOARD/WHITE-BOARD.md",
