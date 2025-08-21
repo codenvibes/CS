@@ -25,8 +25,6 @@ The battle of legality and ethics in cybersecurity, let alone penetration testin
 
 Recall that a penetration test is an **authorised audit** of a computer system's security and defences as agreed by the owners of the systems. The legality of penetration is pretty clear-cut in this sense; anything that falls outside of this agreement is deemed unauthorised.
 
-  
-
 Before a penetration test starts, a formal discussion occurs between the penetration tester and the system owner. Various tools, techniques, and systems to be tested are agreed on. This discussion **forms the scope of the penetration testing agreement** and will determine the course the penetration test takes.  
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/328c737271331437ec240add0b8ee13a.svg)  
@@ -118,3 +116,4 @@ The ROE is a document that is created at the initial stages of a penetration t
 
 ## References
 
+https://tryhackme.com/room/pentestingfundamentals
