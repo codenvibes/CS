@@ -40,22 +40,17 @@ Hackers are sorted into three hats, where their ethics and motivations behind th
 | White Hat        | These hackers are considered the "good people". They remain within the law and use their skills to benefit others.                    | For example, a penetration tester performing an authorised engagement on a company.          |
 | Grey Hat         | These people use their skills to benefit others often; however, they do not respect/follow the law or ethical standards at all times. | For example, someone taking down a scamming site.                                            |
 | Black Hat        | These people are criminals and often seek to damage organisations or gain some form of financial benefit at the cost of others.       | For example, ransomware authors infect devices with malicious code and hold data for ransom. |
+ 
+### Rules of Engagement (ROE) 
 
-**  
-Rules of Engagement (ROE)**
+The ROE is a document that is created at the initial stages of a penetration testing engagement. This document consists of three main sections (explained in the table below), which are ultimately responsible for deciding how the engagement is carried out. The SANS institute has a great example of this document which you can view online [here](https://sansorg.egnyte.com/dl/bF4I3yCcnt/?).
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/60c8baae098f1b1bbd9e0c440ea21a11.svg)  
 
-The ROE is a document that is created at the initial stages of a penetration testing engagement. This document consists of three main sections (explained in the table below), which are ultimately responsible for deciding how the engagement is carried out. The SANS institute has a great example of this document which you can view online [here](https://sansorg.egnyte.com/dl/bF4I3yCcnt/?).  
-
-  
-
-|   |   |
-|---|---|
-|**Section**|**Description**|
-|Permission|This section of the document gives explicit permission for the engagement to be carried out. This permission is essential to legally protect individuals and organisations for the activities they carry out.|
-|Test Scope|This section of the document will annotate specific targets to which the engagement should apply. For example, the penetration test may only apply to certain servers or applications but not the entire network.|
-|Rules|The rules section will define exactly the techniques that are permitted during the engagement. For example, the rules may specifically state that techniques such as phishing attacks are prohibited, but MITM (Man-in-the-Middle) attacks are okay.|
+| **Section** | **Description**                                                                                                                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Permission  | This section of the document gives explicit permission for the engagement to be carried out. This permission is essential to legally protect individuals and organisations for the activities they carry out.                                        |
+| Test Scope  | This section of the document will annotate specific targets to which the engagement should apply. For example, the penetration test may only apply to certain servers or applications but not the entire network.                                    |
+| Rules       | The rules section will define exactly the techniques that are permitted during the engagement. For example, the rules may specifically state that techniques such as phishing attacks are prohibited, but MITM (Man-in-the-Middle) attacks are okay. |
 <div align="center">
 <br>
 <br>

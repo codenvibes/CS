@@ -243,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -262,7 +262,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c81f332ac7d36977",
+  "active": "f8659b2b0049a1d4",
   "lastOpenFiles": [
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
