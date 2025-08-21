@@ -27,15 +27,9 @@ Recall that a penetration test is an **authorised audit** of a computer system
 
 Before a penetration test starts, a formal discussion occurs between the penetration tester and the system owner. Various tools, techniques, and systems to be tested are agreed on. This discussion **forms the scope of the penetration testing agreement** and will determine the course the penetration test takes.  
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/328c737271331437ec240add0b8ee13a.svg)  
-
 Companies that provide penetration testing services are held against legal frameworks and industry accreditation. For example, the National Cyber Security Centre (NCSC) has the CHECK accreditation scheme in the UK. This check means that only _"[CHECK] approved companies can conduct authorised penetration tests of public sector and CNI systems and networks." (NCSC)._
 
-  
-
 Ethics is the moral debate between right and wrong; where an action may be legal, it may go against an individual's belief system of right and wrong.
-
-  
 
 Penetration testers will often be faced with potentially morally questionable decisions during a penetration test. For example, they are gaining access to a database and being presented with potentially sensitive data. Or they are, perhaps, performing a phishing attack on an employee to test an organisation's human security. If that action has been agreed upon during the initial stages, it is legal -- however ethically questionable.
 
