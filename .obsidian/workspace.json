@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "log analysis",
+                "query": "pentesting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,7 +155,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,7 +262,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d2366e8900bfd08e",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "TEMPLATES/Page Break.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
