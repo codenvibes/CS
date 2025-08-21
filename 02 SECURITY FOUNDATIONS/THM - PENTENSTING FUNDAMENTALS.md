@@ -115,17 +115,12 @@ The methodology focuses primarily on how these systems, applications communicate
 | The framework is flexible depending upon the organisation's needs.                                                                                         | _Intentionally left blank._                                                                   |
 | The framework is meant to set a standard for systems and applications, meaning that a universal methodology can be used in a penetration testing scenario. | _Intentionally left blank._                                                                   |
 
-  
-
-**OWASP**
+### OWASP
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/497e56c5522ca4932d720ae5fae32845.png)
-
   
 
 The "[Open Web Application Security Project](https://owasp.org/)" framework is a community-driven and frequently updated framework used solely to test the security of web applications and services.
-
-  
 
 The foundation regularly [writes reports](https://owasp.org/www-project-top-ten/2017/) stating the top ten security vulnerabilities a web application may have, the testing approach, and remediation.
 
