@@ -57,11 +57,20 @@ The ROE is a document that is created at the initial stages of a penetration t
 
 ### Questions
 
-##### 
-
-##### 
-
-##### 
+##### You are given permission to perform a security audit on an organisation; what type of hacker would you be?
+White Hat
+<div align="center">
+<br>
+<br>
+</div>
+##### You attack an organisation and steal their data, what type of hacker would you be?
+Black Hat
+<div align="center">
+<br>
+<br>
+</div>
+##### What document defines how a penetration testing engagement should be carried out?
+Rules of Engagement
 <div align="center">
 <br>
 <br>
