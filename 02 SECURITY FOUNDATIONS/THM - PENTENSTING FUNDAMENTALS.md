@@ -175,16 +175,19 @@ The framework applies to organisations considered to perform "vitally important 
 ### Questions
 
 ##### What stage of penetration testing involves using publicly available information?
+Information Gathering
 <div align="center">
 <br>
 <br>
 </div>
 ##### If you wanted to use a framework for pentesting telecommunications, what framework would you use? Note: We're looking for the acronym here and not the full name.
+OSSTMM
 <div align="center">
 <br>
 <br>
 </div>
 ##### What framework focuses on the testing of web applications?
+OWASP
 <div align="center">
 <br>
 <br>
