@@ -94,12 +94,9 @@ Before discussing some different industry-standard methodologies, we should note
 | Enumeration/Scanning  | This stage involves discovering applications and services running on the systems. For example, finding a web server that may be potentially vulnerable.                                                                                                                                                                                                                          |
 | Exploitation          | This stage involves leveraging vulnerabilities discovered on a system or application. This stage can involve the use of public exploits or exploiting application logic.                                                                                                                                                                                                         |
 | Privilege Escalation  | Once you have successfully exploited a system or application (known as a foothold), this stage is the attempt to expand your access to a system. You can escalate horizontally and vertically, where horizontally is accessing another account of the same permission group (i.e. another user), whereas vertically is that of another permission group (i.e. an administrator). |
-| Post-exploitation     | This stage involves a few sub-stages:  <br><br>**1.** What other hosts can be targeted (pivoting)<br><br>**2.** What additional information can we gather from the host now that we are a privileged user<br><br>**3.**  Covering your tracks<br><br>**4.** Reporting                                                                                                            |
+| Post-exploitation     | This stage involves a few sub-stages:  <br><br>**1.** What other hosts can be targeted (pivoting)<br>**2.** What additional information can we gather from the host now that we are a privileged user<br>**3.** Covering your tracks<br>**4.** Reporting                                                                                                                         |
 
-  
-  
-
-**OSSTMM**
+### OSSTMM
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/72a3a5b98b737f422f58b78e11e82646.png)
 
