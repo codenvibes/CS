@@ -162,14 +162,11 @@ The framework applies to organisations considered to perform "vitally important 
 - Monitoring
 - Response and recovery planning
 
-  
-
-|   |   |
-|---|---|
-|Advantages|Disadvantages|
-|This framework is backed by a government cybersecurity agency.|The framework is still new in the industry, meaning that organisations haven't had much time to make the necessary changes to be suitable for it.|
-|This framework provides accreditation.|The framework is based on principles and ideas and isn't as direct as having rules like some other frameworks.|
-|This framework covers fourteen principles which range from security to response.|Intentionally left blank.|
+| Advantages                                                                       | Disadvantages                                                                                                                                     |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| This framework is backed by a government cybersecurity agency.                   | The framework is still new in the industry, meaning that organisations haven't had much time to make the necessary changes to be suitable for it. |
+| This framework provides accreditation.                                           | The framework is based on principles and ideas and isn't as direct as having rules like some other frameworks.                                    |
+| This framework covers fourteen principles which range from security to response. | Intentionally left blank.                                                                                                                         |
 <div align="center">
 <br>
 <br>
