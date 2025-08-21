@@ -33,18 +33,13 @@ Ethics is the moral debate between right and wrong; where an action may be legal
 
 Penetration testers will often be faced with potentially morally questionable decisions during a penetration test. For example, they are gaining access to a database and being presented with potentially sensitive data. Or they are, perhaps, performing a phishing attack on an employee to test an organisation's human security. If that action has been agreed upon during the initial stages, it is legal -- however ethically questionable.
 
-  
-
 Hackers are sorted into three hats, where their ethics and motivations behind their actions determine what hat category they are placed into. Let's cover these three in the table below:
 
-  
-
-|   |   |   |
-|---|---|---|
-|**Hat Category**|**Description**|**Example**|
-|White Hat|These hackers are considered the "good people". They remain within the law and use their skills to benefit others.|For example, a penetration tester performing an authorised engagement on a company.|
-|Grey Hat|These people use their skills to benefit others often; however, they do not respect/follow the law or ethical standards at all times.|For example, someone taking down a scamming site.|
-|Black Hat|These people are criminals and often seek to damage organisations or gain some form of financial benefit at the cost of others.|For example, ransomware authors infect devices with malicious code and hold data for ransom.|
+| **Hat Category** | **Description**                                                                                                                       | **Example**                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| White Hat        | These hackers are considered the "good people". They remain within the law and use their skills to benefit others.                    | For example, a penetration tester performing an authorised engagement on a company.          |
+| Grey Hat         | These people use their skills to benefit others often; however, they do not respect/follow the law or ethical standards at all times. | For example, someone taking down a scamming site.                                            |
+| Black Hat        | These people are criminals and often seek to damage organisations or gain some form of financial benefit at the cost of others.       | For example, ransomware authors infect devices with malicious code and hold data for ransom. |
 
 **  
 Rules of Engagement (ROE)**
