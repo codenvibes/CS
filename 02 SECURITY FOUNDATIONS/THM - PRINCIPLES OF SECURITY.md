@@ -113,12 +113,11 @@ Two key concepts are used to assign and manage the access rights of individuals:
 
 DEF-PIM is used to translate a user's role within an organisation into an access role on a system. Whereas DEF-PAM is the management of the privileges a system's access role has, amongst other things.
 
-What is essential when discussing privilege and access controls is the principle of least privilege. The DEF-Principle of Least Privilege (PoLP)** is a fundamental security concept that states Users, applications, systems, and processes should be granted the **minimum level of access or permissions** necessary to perform their required tasks—**and no more**.
+What is essential when discussing privilege and access controls is the principle of least privilege. ==The DEF-Principle of Least Privilege (PoLP)** is a security concept that states Users, applications, systems, and processes should be granted the **minimum level of access or permissions** necessary to perform their required tasks—**and no more**.==
 
 This reduces the attack surface and limits potential damage if an account or system is compromised.
 - **Example (User):** An employee in HR only gets access to personnel records, not financial systems.
-- **Example (System):** A web application service account can read from a database but cannot delete or modify tables.
-  
+- **Example (System):** A web application service account can read from a database but cannot delete or modify tables.  
 
 As we previously mentioned, PAM incorporates more than assigning access. It also encompasses enforcing security policies such as password management, auditing policies and reducing the attack surface a system faces.
 <div align="center">
