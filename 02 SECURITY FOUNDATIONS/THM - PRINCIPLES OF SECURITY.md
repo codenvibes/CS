@@ -167,7 +167,7 @@ According to a security model, any system or piece of technology storing informa
 
 Let's explore some popular and effective security models used to achieve the three elements of the CIA triad.
 
-**The Bell-La Padula M****odel**
+**The Bell-La Padula Model
 
 The Bell-La Padula Model is used to achieve confidentiality. This model has a few assumptions, such as an organisation's hierarchical structure it is used in, where everyone's responsibilities/roles are well-defined.
 
