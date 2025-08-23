@@ -38,7 +38,7 @@ Whilst the three elements to the CIA triad are arguably self-explanatory, let'
 
 ### Confidentiality
 
-Confidentialit
+Confidentiality is the effort of keeping data private and ensuring only those with a need to know have access
 
 This element is the protection of data from unauthorized access and misuse. Organisations will always have some form of sensitive data stored on their systems. To provide confidentiality is to protect this data from parties that it is not intended for.
 
