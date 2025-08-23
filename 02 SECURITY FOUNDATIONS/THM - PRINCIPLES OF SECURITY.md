@@ -113,8 +113,6 @@ Two key concepts are used to assign and manage the access rights of individuals:
 
 DEF-PIM is used to translate a user's role within an organisation into an access role on a system. Whereas DEF-PAM is the management of the privileges a system's access role has, amongst other things.
 
-  
-
 What is essential when discussing privilege and access controls is the principle of least privilege. Simply, users should be given the minimum amount of privileges, and only those that are absolutely necessary for them to perform their duties. Other people should be able to trust what people write to.
 
   
