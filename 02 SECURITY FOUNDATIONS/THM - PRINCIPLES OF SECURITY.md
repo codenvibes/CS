@@ -16,7 +16,9 @@ The measures, frameworks and protocols discussed throughout this room all play a
 
 ## 2. The CIA Triad
 
-The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.
+The DECIA Triad is a foundational model in information security that represents the three core principles used to guide policies, practices, and controls for protecting information and systems
+
+This model has an extensive background, ranging from being used in 1998.
 
 This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.
 
