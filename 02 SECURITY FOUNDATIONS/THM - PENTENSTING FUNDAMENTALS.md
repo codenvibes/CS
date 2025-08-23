@@ -63,12 +63,14 @@ White Hat
 <br>
 <br>
 </div>
+
 ##### You attack an organisation and steal their data, what type of hacker would you be?
 Black Hat
 <div align="center">
 <br>
 <br>
 </div>
+
 ##### What document defines how a penetration testing engagement should be carried out?
 Rules of Engagement
 <div align="center">
