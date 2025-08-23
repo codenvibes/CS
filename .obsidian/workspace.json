@@ -42,8 +42,7 @@
                   "title": "THM - PENTENSTING FUNDAMENTALS"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -222,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - PENTENSTING FUNDAMENTALS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -261,10 +260,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "TEMPLATES/Section Break.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+    "TEMPLATES/Section Break.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "TEMPLATES/Page Break.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
