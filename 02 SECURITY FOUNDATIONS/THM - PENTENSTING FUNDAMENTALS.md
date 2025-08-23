@@ -246,12 +246,14 @@ The tester will have **full** knowledge of the application and its expected be
 ### Questions
 
 ##### You are asked to test an application but are not given access to its source code - what testing process is this?
+Black Box
 <div align="center">
 <br>
 <br>
 </div>
 
 ##### You are asked to test an application but are not given access to its source code - what testing process is this?
+White Box
 <div align="center">
 <br>
 <br>
@@ -262,6 +264,17 @@ The tester will have **full** knowledge of the application and its expected be
 <div style="page-break-after: always;"></div>
 
 ## 5. Practical: ACME Penetration Test
+
+ACME has approached you for an assignment. They want you to carry out the stages of a penetration test on their infrastructure. View the site (by clicking the green button on this task) and follow the guided instructions to complete this exercise.
+<div align="center">
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Complete the penetration test engagement against ACME's infrastructure.
+
 <div align="center">
 <br>
 <br>
