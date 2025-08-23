@@ -58,6 +58,8 @@ Many defenses to ensure integrity can be put in place. Access control and rigoro
 
 ### Availability
 
+Availability is ensuring resources are available when needed.
+
 In order for data to be useful, it must be available and accessible by the user.
 
 The main concern in the CIA triad is that the information should be available when authorised users need to access it.
