@@ -60,7 +60,7 @@ Many defenses to ensure integrity can be put in place. Access control and rigoro
 
 ==DEF-Availability is the guarantee that information and resources are accessible and usable when needed by authorized users, without undue delay or disruption.==
 
-Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and loss of finances. Availability is achieved through a combination of many elements, including:
+Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and financial. Availability is achieved through a combination of many elements, including:
 
 - Having reliable and well-tested hardware for their information technology servers (i.e. reputable servers)
 - Having redundant technology and services in the case of failure of the primary
