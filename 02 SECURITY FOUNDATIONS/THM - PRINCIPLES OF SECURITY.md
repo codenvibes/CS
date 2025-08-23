@@ -36,7 +36,7 @@ Whilst the three elements to the CIA triad are arguably self-explanatory, let'
 
 ### Confidentiality
 
-==DEF-Confidentiality is the effort of keeping data private and ensuring only those with a need to know have access and data is protected from unauthorized access and misuse.==
+==DEF-Confidentiality is the effort of keeping resources private and ensuring only those with a need to know have access and data is protected from unauthorized access and misuse through access control.==
 
 There are many real-world examples for this, for example, employee records and accounting documents will be considered sensitive. Confidentiality will be provided in the sense that only HR administrators will access employee records, where vetting and tight access controls are in place. Accounting records are less valuable (and therefore less sensitive), so not as stringent access controls would be in place for these documents. Or, for example, governments using a sensitivity classification rating system (top-secret, classified, unclassified)
 <div align="center">
@@ -46,7 +46,7 @@ There are many real-world examples for this, for example, employee records and a
 
 ### Integrity
 
-==DEF-Integrity is the assurance that data is kept accurate, consistent, complete, authentic and protected from unauthorized modification.==
+==DEF-Integrity is the assurance that resources is kept accurate, consistent, complete, authentic and protected from unauthorized modification.==
 
 It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).
 
