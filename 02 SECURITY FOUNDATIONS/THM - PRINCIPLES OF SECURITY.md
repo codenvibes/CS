@@ -46,7 +46,7 @@ There are many real-world examples for this, for example, employee records and a
 
 ### Integrity
 
-==DEF-Integrity is the assurance that resources are kept accurate, consistent, complete, authentic and protected from unauthorized modification.==
+==DEF-Integrity is the assurance that information remains accurate, consistent, complete, and authentic, safeguarded against unauthorized modification or tampering.==
 
 It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).
 
@@ -58,7 +58,7 @@ Many defenses to ensure integrity can be put in place. Access control and rigoro
 
 ### Availability
 
-Availability is ensuring resources are available when needed.
+**Availability** is the guarantee that information and resources are accessible and usable when needed by authorized users, without undue delay or disruption.
 
 In order for data to be useful, it must be available and accessible by the user.
 
