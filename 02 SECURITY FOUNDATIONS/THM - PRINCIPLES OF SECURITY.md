@@ -127,6 +127,24 @@ As we previously mentioned, PAM incorporates more than assigning access. It also
 
 ### Questions
 
+##### What does the acronym "PIM" stand for?
+<div align="center">
+<br>
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+<br>
+</div>
+
 ##### 
 <div align="center">
 <br>
