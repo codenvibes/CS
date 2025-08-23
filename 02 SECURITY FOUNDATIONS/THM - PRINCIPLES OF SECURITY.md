@@ -166,22 +166,21 @@ Before discussing security models further, let's recall the three elements of th
 According to a security model, any system or piece of technology storing information is called an information system, which is how we will reference systems and devices in this task.
 
 Let's explore some popular and effective security models used to achieve the three elements of the CIA triad.
+<div align="center">
+<br>
+<br>
+</div>
 
-**The Bell-La Padula Model
+### The Bell-La Padula Model
 
 The Bell-La Padula Model is used to achieve confidentiality. This model has a few assumptions, such as an organisation's hierarchical structure it is used in, where everyone's responsibilities/roles are well-defined.
 
-  
-
 The model works by granting access to pieces of data (called objects) on a strictly need to know basis. This model uses the rule "no write down, no read up".
 
-  
-
-|   |   |
-|---|---|
-|**Advantages**|**Disadvantages**|
-|Policies in this model can be replicated to real-life organisations hierarchies (and vice versa)|Even though a user may not have access to an object, they will know about its existence -- so it's not confidential in that aspect.|
-|Simple to implement and understand, and has been proven to be successful.|The model relies on a large amount of trust within the organisation.|
+| **Advantages**                                                                                   | **Disadvantages**                                                                                                                   |
+| ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Policies in this model can be replicated to real-life organisations hierarchies (and vice versa) | Even though a user may not have access to an object, they will know about its existence -- so it's not confidential in that aspect. |
+| Simple to implement and understand, and has been proven to be successful.                        | The model relies on a large amount of trust within the organisation.                                                                |
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/0e6e5d9d80785fc287b4a67e1453b295.png)
 
