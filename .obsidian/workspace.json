@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/Image.md",
+                    "file": "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Image"
+                  "title": "THM - PRINCIPLES OF SECURITY"
                 }
               }
             ],
@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/Image.md",
+                "file": "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Image"
+              "title": "Outline of THM - PRINCIPLES OF SECURITY"
             }
           },
           {
@@ -263,8 +263,8 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "TEMPLATES/Image.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "TEMPLATES/Questions.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
