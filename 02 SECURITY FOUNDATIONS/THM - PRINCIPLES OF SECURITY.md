@@ -58,13 +58,7 @@ Many defenses to ensure integrity can be put in place. Access control and rigoro
 
 ### Availability
 
-**Availability** is the guarantee that information and resources are accessible and usable when needed by authorized users, without undue delay or disruption.
-
-In order for data to be useful, it must be available and accessible by the user.
-
-The main concern in the CIA triad is that the information should be available when authorised users need to access it.
-
-![CIA Triad: Confidentiality ensures data privacy through access control. Integrity assures data is complete and unaltered. Availability ensures resources are accessible when needed.](https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png)
+==DEF-Availability is the guarantee that information and resources are accessible and usable when needed by authorized users, without undue delay or disruption.==
 
 Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and loss of finances. Availability is achieved through a combination of many elements, including:
 
