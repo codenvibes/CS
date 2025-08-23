@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/Untitled.md",
+                    "file": "TEMPLATES/Page Break.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "Page Break"
                 }
               }
             ],
@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/Untitled.md",
+                "file": "TEMPLATES/Page Break.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Page Break"
             }
           },
           {
@@ -263,10 +263,10 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
-    "TEMPLATES/Untitled.md",
-    "TEMPLATES/Image.md",
     "TEMPLATES/Questions.md",
+    "TEMPLATES/Short Question Break.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+    "TEMPLATES/Image.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
