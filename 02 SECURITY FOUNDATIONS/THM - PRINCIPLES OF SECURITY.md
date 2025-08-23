@@ -216,6 +216,14 @@ The Biba model is used in organisations or situations where integrity is more im
 ### Questions
 
 ##### What is the name of the model that uses the rule "**can't** read up, **can** read down"?
+The Bell-LaPadula Model
+<div align="center">
+<br>
+<br>
+</div>
+
+##### What is the name of the model that uses the rule "**can** read up, **can't** read down"?
+The Biba Model
 <div align="center">
 <br>
 <br>
@@ -227,13 +235,7 @@ The Biba model is used in organisations or situations where integrity is more im
 <br>
 </div>
 
-##### 
-<div align="center">
-<br>
-<br>
-</div>
-
-##### 
+##### If you were a software developer, what security model would the company perhaps use?
 <div align="center">
 <br>
 <br>
