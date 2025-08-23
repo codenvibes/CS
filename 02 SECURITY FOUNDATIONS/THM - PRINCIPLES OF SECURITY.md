@@ -1,12 +1,13 @@
-Task 1Introduction
+## 1. Introduction
 
-Task 2The CIA Triad
+## 2. The CIA Triad
 
-Task 3Principles of Privileges
+## 3. Principles of Privileges
 
-Task 4Security Models Continued
+## 4. Security Models Continued
 
-Task 5Threat Modelling & Incident Response
+## 5. Threat Modelling & Incident Response
+
 ## References
 
 https://tryhackme.com/room/principlesofsecurity
