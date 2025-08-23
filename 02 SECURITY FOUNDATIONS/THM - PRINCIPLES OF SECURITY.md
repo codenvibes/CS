@@ -50,8 +50,6 @@ There are many real-world examples for this, for example, employee records and a
 
 It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).
 
-
-
 Many defenses to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.
 <div align="center">
 <br>
@@ -62,11 +60,9 @@ Many defenses to ensure integrity can be put in place. Access control and rigoro
 
 In order for data to be useful, it must be available and accessible by the user.
 
-  
-
 The main concern in the CIA triad is that the information should be available when authorised users need to access it.
 
-  
+![CIA Triad: Confidentiality ensures data privacy through access control. Integrity assures data is complete and unaltered. Availability ensures resources are accessible when needed.](https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png)
 
 Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and loss of finances. Availability is achieved through a combination of many elements, including:
 
