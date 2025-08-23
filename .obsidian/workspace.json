@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/Page Break.md",
+                    "file": "TEMPLATES/Short Question Break.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Page Break"
+                  "title": "Short Question Break"
                 }
               }
             ],
@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/Page Break.md",
+                "file": "TEMPLATES/Short Question Break.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Page Break"
+              "title": "Outline of Short Question Break"
             }
           },
           {
@@ -263,9 +263,12 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
-    "TEMPLATES/Questions.md",
+    "TEMPLATES/Section Break.md",
     "TEMPLATES/Short Question Break.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+    "TEMPLATES/Questions.md",
+    "TEMPLATES/Page Break.md",
+    "TEMPLATES/References.md",
     "TEMPLATES/Image.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
@@ -273,8 +276,6 @@
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/PHISHING.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "TEMPLATES/Section Break.md",
-    "TEMPLATES/Page Break.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/Untitled.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
@@ -300,7 +301,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
-    "TEMPLATES/References.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
