@@ -203,10 +203,9 @@ Let's compare some advantages and disadvantages of this model in the table below
 | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | This model is simple to implement.                                                                          | There will be many levels of access and objects. Things can be easily overlooked when applying security controls.                                   |
 | Resolves the limitations of the Bell-La Padula model by addressing both confidentiality and data integrity. | Often results in delays within a business. For example, a doctor would not be able to read the notes made by a nurse in a hospital with this model. |
-<div align="center"><br><img src=""></div>
 
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/895ba351ef24ef6495d290222e49470e.png"></div>
 
-![]()
 
 The Biba model is used in organisations or situations where integrity is more important than confidentiality. For example, in software development, developers may only have access to the code that is necessary for their job. They may not need access to critical pieces of information such as databases, etc.
 <div align="center">
@@ -215,6 +214,24 @@ The Biba model is used in organisations or situations where integrity is more im
 </div>
 
 ### Questions
+
+##### What is the name of the model that uses the rule "**can't** read up, **can** read down"?
+<div align="center">
+<br>
+<br>
+</div>
+
+##### What is the name of the model that uses the rule "**can** read up, **can't** read down"?
+<div align="center">
+<br>
+<br>
+</div>
+
+##### 
+<div align="center">
+<br>
+<br>
+</div>
 
 ##### 
 <div align="center">
