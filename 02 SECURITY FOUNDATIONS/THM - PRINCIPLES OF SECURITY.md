@@ -30,7 +30,7 @@ The CIA triad is unlike a traditional model where you have individual sections
 
 Whilst the three elements to the CIA triad are arguably self-explanatory, let's explore these and contextualize them into cybersecurity.
 
-**Confidentiality**
+### Confidentiality
 
 This element is the protection of data from unauthorized access and misuse. Organisations will always have some form of sensitive data stored on their systems. To provide confidentiality is to protect this data from parties that it is not intended for.
 
