@@ -244,8 +244,9 @@ The Biba Model
 ==DEF-Threat modelling is the process of reviewing, improving, and testing the security protocols in place in an organisation's information technology infrastructure and services.==
 
 A critical stage of the threat modelling process is identifying likely threats that an application or system may face, the vulnerabilities a system or application may be vulnerable to.
+<div align="center"><br><img src=""></div>
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/aabdd83977336fd44b3645a86e5ba20e.png)  
+![]()  
 
 The threat modelling process is very similar to a risk assessment made in workplaces for employees and customers. The principles all return to:
 
