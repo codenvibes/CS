@@ -72,6 +72,19 @@ Availability is very often a key benchmark for an organisation. For example, hav
 
 ### Questions
 
+##### What element of the CIA triad ensures that data cannot be altered by **unauthorised** people?
+integrity
+<div align="center">
+<br>
+<br>
+</div>
+
+##### What element of the CIA triad ensures that data is available?
+<div align="center">
+<br>
+<br>
+</div>
+
 ##### 
 <div align="center">
 <br>
