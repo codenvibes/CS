@@ -80,12 +80,14 @@ integrity
 </div>
 
 ##### What element of the CIA triad ensures that data is available?
+availability
 <div align="center">
 <br>
 <br>
 </div>
 
-##### 
+##### What element of the CIA triad ensures that data is only accessed by **authorised** people?
+confidentiality
 <div align="center">
 <br>
 <br>
