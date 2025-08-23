@@ -42,8 +42,7 @@
                   "title": "THM - PRINCIPLES OF SECURITY"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -221,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS JOURNAL.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CS JOURNAL"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -260,10 +259,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "68283aec2ce6118a",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "CS JOURNAL.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Page Break.md",
     "TEMPLATES/Short Question Break.md",
