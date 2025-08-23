@@ -1,1 +1,1 @@
-<div align="center"><br><img width= src=""></div>
+<div align="center"><br><img src=""></div>
