@@ -245,13 +245,13 @@ The tester will have **full** knowledge of the application and its expected be
 
 ### Questions
 
-##### 
+##### You are asked to test an application but are not given access to its source code - what testing process is this?
 <div align="center">
 <br>
 <br>
 </div>
 
-##### 
+##### You are asked to test an application but are not given access to its source code - what testing process is this?
 <div align="center">
 <br>
 <br>
