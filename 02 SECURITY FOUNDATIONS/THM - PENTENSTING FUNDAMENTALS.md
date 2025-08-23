@@ -214,11 +214,12 @@ This testing process is a high-level process where the tester is not given any i
 The tester acts as a regular user testing the functionality and interaction of the application or piece of software. This testing can involve interacting with the interface, i.e. buttons, and testing to see whether the intended result is returned. No knowledge of programming or understanding of the programme is necessary for this type of testing.
 
 Black-Box testing significantly increases the amount of time spent during the information gathering and enumeration phase to understand the attack surface of the target.
+<div align="center">
+<br>
+<br>
+</div>
 
-  
-
-  
-**Grey-Box Testing**
+### Grey-Box Testing
 
 This testing process is the most popular for things such as penetration testing. It is a combination of both black-box and white-box testing processes. The tester will have some **limited** knowledge of the internal components of the application or piece of software. Still, it will be interacting with the application as if it were a black-box scenario and then using their knowledge of the application to try and resolve issues as they find them.
 
