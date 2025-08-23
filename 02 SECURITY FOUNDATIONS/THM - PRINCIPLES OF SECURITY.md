@@ -128,12 +128,14 @@ As we previously mentioned, PAM incorporates more than assigning access. It also
 ### Questions
 
 ##### What does the acronym "PIM" stand for?
+Privileged Identity Management
 <div align="center">
 <br>
 <br>
 </div>
 
-##### 
+##### What does the acronym "PAM" stand for?
+Privileged Access Management
 <div align="center">
 <br>
 <br>
