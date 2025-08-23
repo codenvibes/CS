@@ -141,13 +141,15 @@ Privileged Access Management
 <br>
 </div>
 
-##### 
+##### If you wanted to manage the privileges a system access role had, what methodology would you use?
+PAM
 <div align="center">
 <br>
 <br>
 </div>
 
-##### 
+##### If you wanted to create a system role that is based on a users role/responsibilities with an organisation, what methodology is this?
+PIM
 <div align="center">
 <br>
 <br>
