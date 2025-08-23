@@ -4,7 +4,7 @@ The following room is going to outline some of the fundamental principles of inf
 
 The measures, frameworks and protocols discussed throughout this room all play a small part in "Defence in Depth."
 
-Defence in Depth is the use of multiple varied layers of security to an organisation's systems and data in the hopes that multiple layers will provide redundancy in an organisation's security perimeter.
+Defence in Depth is a security strategy that uses multiple layers of defensive mechanisms to protect systems, networks, and data. The idea is that if one security control fails or is bypassed, additional layers continue to provide protection.
 <div align="center">
 <br>
 <br>
