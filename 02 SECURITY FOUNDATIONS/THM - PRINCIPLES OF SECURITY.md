@@ -314,6 +314,7 @@ Tampering
 </div>
 
 ##### An attacker has penetrated your organisation's security and stolen data. It is your task to return the organisation to business as usual. What incident response stage is this?
+Recovery
 <div align="center">
 <br>
 <br>
