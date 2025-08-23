@@ -26,17 +26,9 @@ Consisting of three sections: **C**onfidentiality, **I**ntegrity and **A**vai
 
 [[Nist.gov](https://www.nccoe.nist.gov/)]
 
-  
-
 The CIA triad is unlike a traditional model where you have individual sections; instead, it is a continuous cycle. Whilst the three elements to the CIA triad can arguably overlap, if even just one element is not met, then the other two are rendered useless (similar to the fire triangle). If a security policy does not answer these three sections, it is seldom an effective security policy.
 
-  
-
-Whilst the three elements to the CIA triad are arguably self-explanatory, let's explore these and contextualise them into cybersecurity.
-
-  
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/2092d19d7d7e9eaecead2baca007a406.png)
+Whilst the three elements to the CIA triad are arguably self-explanatory, let's explore these and contextualize them into cybersecurity.
 
 **Confidentiality**
 
