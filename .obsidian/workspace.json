@@ -155,8 +155,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -262,7 +261,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d2366e8900bfd08e",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "TEMPLATES/Section Break.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",

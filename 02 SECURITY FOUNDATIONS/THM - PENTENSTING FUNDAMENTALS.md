@@ -274,7 +274,7 @@ ACME has approached you for an assignment. They want you to carry out the stages
 ### Questions
 
 ##### Complete the penetration test engagement against ACME's infrastructure.
-
+THM{PENTEST_COMPLETE}
 <div align="center">
 <br>
 <br>
