@@ -101,7 +101,7 @@ confidentiality
 
 ## 3. Principles of Privileges
 
-<img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/b89ffd2bbfbdd7c3837508619ff7027f.png">
+<div<img width=400 src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/b89ffd2bbfbdd7c3837508619ff7027f.png">
 
 It is vital to administrate and correctly define the various levels of access to an information technology system individuals require. 
 
