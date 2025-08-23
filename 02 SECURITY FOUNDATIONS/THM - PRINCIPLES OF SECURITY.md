@@ -244,27 +244,21 @@ The Biba Model
 ==DEF-Threat modelling is the process of reviewing, improving, and testing the security protocols in place in an organisation's information technology infrastructure and services.==
 
 A critical stage of the threat modelling process is identifying likely threats that an application or system may face, the vulnerabilities a system or application may be vulnerable to.
-<div align="center"><br><img src=""></div>
 
-![]()  
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/aabdd83977336fd44b3645a86e5ba20e.png"></div>
+
 
 The threat modelling process is very similar to a risk assessment made in workplaces for employees and customers. The principles all return to:
-
 - Preparation
 - Identification
 - Mitigations
 - Review
 
-  
-
 It is, however, a complex process that needs constant review and discussion with a dedicated team. An effective threat model includes:
-
 - Threat intelligence
 - Asset identification
 - Mitigation capabilities
 - Risk assessment
-
-  
 
 To help with this, there are frameworks such as **STRIDE** (**S**poofing identity, **T**ampering with data, **R**epudiation threats, **I**nformation disclosure, **D**enial of Service and **E**levation of privileges) and **PASTA** (**P**rocess for **A**ttack **S**imulation and **T**hreat **A**nalysis) infosec never tasted so good!. Let's detail STRIDE below. STRIDE, authored by two Microsoft security researchers in 1999 is still very relevant today. STRIDE includes six main principles, which I have detailed in the table below:
 
