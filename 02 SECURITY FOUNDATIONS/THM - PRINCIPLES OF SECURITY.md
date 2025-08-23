@@ -46,19 +46,19 @@ There are many real-world examples for this, for example, employee records and a
 
 ### Integrity
 
-==DEF-Integrity is the assurance that data is kept accurate, consistent and protected for.==
+==DEF-Integrity is the assurance that data is kept accurate, consistent and protected from unauthorized modification.==
 
 It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).
 
-![CIA Triad: Confidentiality ensures data privacy through access control. Integrity assures data is complete and unaltered. Availability ensures resources are accessible when needed.](https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png)
 
-Many defences to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.
 
-  
+Many defenses to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.
+<div align="center">
+<br>
+<br>
+</div>
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/d194e35fc5fd158b20e64a3c8c5123d1.png)  
-
-**Availability**
+### Availability
 
 In order for data to be useful, it must be available and accessible by the user.
 
