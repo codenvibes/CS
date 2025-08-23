@@ -296,16 +296,19 @@ An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R*
 ### Questions
 
 ##### What model outlines "Spoofing"?
+STRIDE
 <div>
 <br>
 </div>
 
 ##### What does the acronym "IR" stand for?
+Incident Response
 <div>
 <br>
 </div>
 
 ##### You are tasked with adding some measures to an application to improve the integrity of data, what STRIDE principle is this?
+Tampering
 <div>
 <br>
 </div>
