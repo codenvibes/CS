@@ -78,13 +78,11 @@ Availability is very often a key benchmark for an organisation. For example, hav
 integrity
 <div align="center">
 <br>
-<br>
 </div>
 
 ##### What element of the CIA triad ensures that data is available?
 availability
 <div align="center">
-<br>
 <br>
 </div>
 
@@ -131,20 +129,17 @@ As we previously mentioned, PAM incorporates more than assigning access. It also
 Privileged Identity Management
 <div align="center">
 <br>
-<br>
 </div>
 
 ##### What does the acronym "PAM" stand for?
 Privileged Access Management
 <div align="center">
 <br>
-<br>
 </div>
 
 ##### If you wanted to manage the privileges a system access role had, what methodology would you use?
 PAM
 <div align="center">
-<br>
 <br>
 </div>
 
@@ -230,7 +225,6 @@ The Biba Model
 ##### If you were a military, what security model would you use?
 The Bell-LaPadula Model
 <div align="center">
-<br>
 <br>
 </div>
 
