@@ -186,14 +186,14 @@ The model works by granting access to pieces of data (called objects) on a stric
 
 
 The Bell LaPadula Model is popular within organisations such as governmental and military. This is because members of the organisations are presumed to have already gone through a process called vetting. Vetting is a screening process where applicant's backgrounds are examined to establish the risk they pose to the organisation. Therefore, applicants who are successfully vetted are assumed to be trustworthy - which is where this model fits in.
+<div align="center">
+<br>
+<br>
+</div>
 
-  
-
-**Biba Model**
+### Biba Model
 
 The Biba model is arguably the equivalent of the Bell-La Padula model but for the integrity of the CIA triad.
-
-  
 
 This model applies the rule to objects (data) and subjects (users) that can be summarised as "no write up, no read down". This rule means that subjects **can** create or write content to objects at or below their level but **can only** read the contents of objects above the subject's level.
 
