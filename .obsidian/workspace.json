@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DEF-PEN",
+                "query": "Confidentiality",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,7 +155,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -263,10 +264,11 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/PHISHING.md",
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Section Break.md",
@@ -300,7 +302,6 @@
     "TEMPLATES/References.md",
     "01 CORE CONCEPTS/WEB BASICS/04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/03 HOW WEBSITES WORK.md",
-    "01 CORE CONCEPTS/WEB BASICS/02 HTTP.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
