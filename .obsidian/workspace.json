@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+                    "file": "TEMPLATES/Image.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - PRINCIPLES OF SECURITY"
+                  "title": "Image"
                 }
               }
             ],
@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+                "file": "TEMPLATES/Image.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - PRINCIPLES OF SECURITY"
+              "title": "Outline of Image"
             }
           },
           {
@@ -261,10 +261,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+    "TEMPLATES/Image.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/PHISHING.md",
@@ -300,7 +301,6 @@
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "TEMPLATES/References.md",
     "01 CORE CONCEPTS/WEB BASICS/04 PUTTING IT ALL TOGETHER.md",
-    "01 CORE CONCEPTS/WEB BASICS/03 HOW WEBSITES WORK.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
