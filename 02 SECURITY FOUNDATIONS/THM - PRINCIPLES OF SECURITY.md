@@ -280,9 +280,6 @@ Incidents are classified using a rating of urgency and impact. Urgency will be d
 
 An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R**esponse **T**eam (**CSIRT**) which is prearranged group of employees with technical knowledge about the systems and/or current incident. To successfully solve an incident, these steps are often referred to as the six phases of Incident Response that takes place, listed in the table below:
 
-  
-
-
 | **Action**      | **Description**                                                                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preparation     | Do we have the resources and plans in place to deal with the security incident?                                                             |
@@ -298,6 +295,9 @@ An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R*
 
 ### Questions
 
+##### 
+##### 
+##### 
 ##### 
 <div align="center">
 <br>
