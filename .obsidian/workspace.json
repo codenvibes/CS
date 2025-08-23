@@ -48,12 +48,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
+                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CIA TRIAD"
+                  "title": "01 SECURITY ASSESSTMENT TYPES"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CIA TRIAD"
+              "title": "Outline of 01 SECURITY ASSESSTMENT TYPES"
             }
           },
           {
@@ -277,13 +277,14 @@
   },
   "active": "1c24df463dd828e2",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
+    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/PHISHING.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/Section Break.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "TEMPLATES/Page Break.md",
-    "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/Untitled.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - MITRE.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
@@ -314,7 +315,6 @@
     "01 CORE CONCEPTS/WEB BASICS/04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/03 HOW WEBSITES WORK.md",
     "01 CORE CONCEPTS/WEB BASICS/02 HTTP.md",
-    "01 CORE CONCEPTS/WEB BASICS/01 DNS.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
