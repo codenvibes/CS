@@ -202,10 +202,12 @@ OWASP
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/f151a3f248f18f0ef61111c601efdac1.svg)
 
 There are three primary scopes when testing an application or service. Your understanding of your target will determine the level of testing that you perform in your penetration testing engagement. In this task, we'll cover these three different scopes of testing.
+<div align="center">
+<br>
+<br>
+</div>
 
-  
-
-**Black-Box Testing**![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6c2f888c43adca666a5850516b67bad6.svg)
+### Black-Box Testing
 
 This testing process is a high-level process where the tester is not given any information about the inner workings of the application or service.
 
