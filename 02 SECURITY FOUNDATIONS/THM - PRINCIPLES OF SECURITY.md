@@ -295,10 +295,22 @@ An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R*
 
 ### Questions
 
-##### 
-##### 
-##### 
-##### 
+##### What model outlines "Spoofing"?
+<div>
+<br>
+</div>
+
+##### What does the acronym "IR" stand for?
+<div>
+<br>
+</div>
+
+##### You are tasked with adding some measures to an application to improve the integrity of data, what STRIDE principle is this?
+<div>
+<br>
+</div>
+
+##### An attacker has penetrated your organisation's security and stolen data. It is your task to return the organisation to business as usual. What incident response stage is this?
 <div align="center">
 <br>
 <br>
