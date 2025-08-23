@@ -217,7 +217,7 @@ Black-Box testing significantly increases the amount of time spent during the in
 
   
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/1b42f69b00cfb7f24f1e99337c271078.svg)  
+  
 **Grey-Box Testing**
 
 This testing process is the most popular for things such as penetration testing. It is a combination of both black-box and white-box testing processes. The tester will have some **limited** knowledge of the internal components of the application or piece of software. Still, it will be interacting with the application as if it were a black-box scenario and then using their knowledge of the application to try and resolve issues as they find them.

@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/Section Break.md",
+                    "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Section Break"
+                  "title": "THM - PENTENSTING FUNDAMENTALS"
                 }
               }
             ],
@@ -223,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/Section Break.md",
+                "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Section Break"
+              "title": "Outline of THM - PENTENSTING FUNDAMENTALS"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
+    "TEMPLATES/Section Break.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "TEMPLATES/Page Break.md",
@@ -301,7 +302,6 @@
     "01 CORE CONCEPTS/WEB BASICS/02 HTTP.md",
     "01 CORE CONCEPTS/WEB BASICS/01 DNS.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/UNZIPPING & EXTRACTING FILES IN LINUX/tar (TAR & TAR.GZ FILES).md",
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
