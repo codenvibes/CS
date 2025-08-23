@@ -241,7 +241,7 @@ The Biba Model
 
 ## 5. Threat Modelling & Incident Response
 
-Threat modelling is the process of reviewing, improving, and testing the security protocols in place in an organisation's information technology infrastructure and services.
+==DEF-Threat modelling is the process of reviewing, improving, and testing the security protocols in place in an organisation's information technology infrastructure and services.==
 
 A critical stage of the threat modelling process is identifying likely threats that an application or system may face, the vulnerabilities a system or application may be vulnerable to.
 
