@@ -29,8 +29,6 @@ Consisting of three sections: **C**onfidentiality, **I**ntegrity and **A**vai
 The CIA triad is unlike a traditional model where you have individual sections; instead, it is a continuous cycle. Whilst the three elements to the CIA triad can arguably overlap, if even just one element is not met, then the other two are rendered useless (similar to the fire triangle). If a security policy does not answer these three sections, it is seldom an effective security policy.
 
 Whilst the three elements to the CIA triad are arguably self-explanatory, let's explore these and contextualize them into cybersecurity.
-
-![CIA Triad: Confidentiality ensures data privacy through access control. Integrity assures data is complete and unaltered. Availability ensures resources are accessible when needed.](https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png)
 <div align="center">
 <br>
 <br>
@@ -50,7 +48,7 @@ There are many real-world examples for this, for example, employee records and a
 
 The CIA triad element of integrity is the condition where information is kept accurate and consistent unless authorized changes are made. It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).
 
-  
+![CIA Triad: Confidentiality ensures data privacy through access control. Integrity assures data is complete and unaltered. Availability ensures resources are accessible when needed.](https://academy.hackthebox.com/storage/modules/108/graphics/cia_triad.png)
 
 Many defences to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.
 
