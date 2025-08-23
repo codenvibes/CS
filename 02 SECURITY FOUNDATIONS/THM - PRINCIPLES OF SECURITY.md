@@ -271,16 +271,14 @@ To help with this, there are frameworks such as **STRIDE** (**S**poofing ident
 | Denial of Service      | Applications and services use up system resources, these two things should have measures in place so that abuse of the application/service won't result in bringing the whole system down.                                                                    |
 | Elevation of Privilege | This is the worst-case scenario for an application or service. It means that a user was able to escalate their authorization to that of a higher level i.e. an administrator. This scenario often leads to further exploitation or information disclosure.    |
 
-==A breach of security is known as an DEF-incident.== And despite all rigorous threat models and secure system designs, incidents do happen. Actions taken to resolve and remediate the threat that caused th are known as Incident Response (IR) and are a whole career path in cybersecurity.
+==A breach of security is known as an DEF-incident.== And despite all rigorous threat models and secure system designs, incidents do happen. ==Actions taken to resolve and remediate the threat that caused an incident are known as DEF-Incident Response (IR)== and are a whole career path in cybersecurity.
 
 Incidents are classified using a rating of urgency and impact. Urgency will be determined by the type of attack faced, where the impact will be determined by the affected system and what impact that has on business operations.
 
   
-
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/ab0cc8478b0bce9a400187f559d36dd6.png)  
 
   
-
 An incident is responded to by a **C**omputer **S**ecurity **I**ncident **R**esponse **T**eam (**CSIRT**) which is prearranged group of employees with technical knowledge about the systems and/or current incident. To successfully solve an incident, these steps are often referred to as the six phases of Incident Response that takes place, listed in the table below:
 
   
