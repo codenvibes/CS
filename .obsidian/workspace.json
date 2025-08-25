@@ -66,22 +66,6 @@
                 }
               },
               {
-                "id": "d9c91c7059beddd0",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08_TOOLS/00 TOOLS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "00 TOOLS"
-                }
-              },
-              {
                 "id": "10dd2c9178155b52",
                 "type": "leaf",
                 "pinned": true,
@@ -249,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 11. FILE INCLUSION"
+              "title": "Outline of THM - 12. INTRO TO SSRF"
             }
           },
           {
@@ -288,17 +272,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "df0bb8a13a8f12d3",
+  "active": "4e1536fa8413ee3d",
   "lastOpenFiles": [
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
+    "WHITE-BOARD/TODO.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
+    "CS JOURNAL.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "Untitled.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
-    "WHITE-BOARD/TODO.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "TEMPLATES/REFERENCES.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "TEMPLATES/IMAGE.md",
     "TEMPLATES/QUESTIONS.md",
     "TEMPLATES/SECTION BREAK.md",
@@ -308,7 +293,6 @@
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
     "02 SECURITY FOUNDATIONS/THM - 05. PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
-    "CS JOURNAL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
