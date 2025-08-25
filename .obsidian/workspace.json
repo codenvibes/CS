@@ -18,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 06. WALKING AN APPLICATION"
+                  "title": "THM - 09. AUTHENTICATION BYPASS"
                 }
               }
             ]
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 06. WALKING AN APPLICATION"
+              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
             }
           },
           {
@@ -261,9 +261,9 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "TEMPLATES/REFERENCES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "TEMPLATES/IMAGE.md",
     "TEMPLATES/QUESTIONS.md",
