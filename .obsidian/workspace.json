@@ -103,12 +103,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 10. IDOR"
+                  "title": "THM - 11. FILE INCLUSION"
                 }
               }
             ],
@@ -235,13 +235,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 10. IDOR"
+              "title": "Outline of THM - 11. FILE INCLUSION"
             }
           },
           {
@@ -277,6 +277,7 @@
   "active": "df0bb8a13a8f12d3",
   "lastOpenFiles": [
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
     "WHITE-BOARD/TODO.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
@@ -313,7 +314,6 @@
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "Untitled",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
