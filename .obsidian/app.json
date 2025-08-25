@@ -11,5 +11,6 @@
   },
   "trashOption": "none",
   "showUnsupportedFiles": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newFileLocation": "current"
 }
