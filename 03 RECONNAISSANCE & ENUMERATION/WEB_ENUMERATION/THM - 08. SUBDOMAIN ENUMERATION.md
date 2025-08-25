@@ -1,4 +1,4 @@
-#THM_JR_PENETRATION_TESTER #INTRO
+#THM_JR_PENETRATION_TESTER #INTRODUCTION_TO_WEB_HACKING 
 
 **Subdomain enumeration** is the process of identifying valid subdomains for a given domain.
 
