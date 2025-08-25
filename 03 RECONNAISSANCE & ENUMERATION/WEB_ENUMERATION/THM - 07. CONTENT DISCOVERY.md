@@ -1,4 +1,4 @@
-#THM_JR_PENETRATION_TESTER #THM
+#THM_JR_PENETRATION_TESTER #INTRODUCTION_TO_WEB_HACKING 
 
 Various ways of discovering hidden or private content on a webserver that could lead to new vulnerabilities.
 
