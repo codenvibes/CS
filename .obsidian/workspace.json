@@ -101,12 +101,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14..md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14. RACE CONDITIONS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 14."
+                  "title": "THM - 14. RACE CONDITIONS"
                 }
               }
             ],
@@ -233,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14..md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14. RACE CONDITIONS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 14."
+              "title": "Outline of THM - 14. RACE CONDITIONS"
             }
           },
           {
@@ -275,7 +275,7 @@
   "active": "c0200c892a33c241",
   "lastOpenFiles": [
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14..md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14. RACE CONDITIONS.md",
     "WHITE-BOARD/TODO.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
