@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/Page Break.md",
+                    "file": "TEMPLATES/References.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Page Break"
+                  "title": "References"
                 }
               }
             ],
@@ -221,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/Page Break.md",
+                "file": "TEMPLATES/References.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Page Break"
+              "title": "Outline of References"
             }
           },
           {
@@ -262,7 +262,10 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
+    "TEMPLATES/QUESTIONS.md",
+    "TEMPLATES/IMAGE.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
+    "TEMPLATES/PAGE BREAK.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
@@ -270,12 +273,9 @@
     "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
-    "TEMPLATES/Page Break.md",
     "TEMPLATES/Short Question Break.md",
     "TEMPLATES/Section Break.md",
-    "TEMPLATES/Questions.md",
     "TEMPLATES/References.md",
-    "TEMPLATES/Image.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/15 WIRELESS NETWORKS.md",
     "02 SECURITY FOUNDATIONS/CIA TRIAD.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
