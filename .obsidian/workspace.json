@@ -96,8 +96,19 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
+              },
+              {
+                "id": "df0bb8a13a8f12d3",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -220,13 +231,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
+              "title": "Outline"
             }
           },
           {
@@ -259,12 +269,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d2366e8900bfd08e",
+  "active": "df0bb8a13a8f12d3",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
+    "WHITE-BOARD/TODO.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "TEMPLATES/REFERENCES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "TEMPLATES/IMAGE.md",
     "TEMPLATES/QUESTIONS.md",
     "TEMPLATES/SECTION BREAK.md",
@@ -284,7 +295,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "ASSETS/Pasted image 20250809173535.png",
     "Pasted image 20250809173535.png",
-    "WHITE-BOARD/TODO.md",
     "ASSETS/Pasted image 20250809121238.png",
     "ASSETS/Pasted image 20250809121058.png",
     "ASSETS/Pasted image 20250809120945.png",
