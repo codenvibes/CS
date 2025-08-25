@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/01 WALKING AN APPLICATION.md",
+                    "file": "02 SECURITY FOUNDATIONS/THM - 05. PRINCIPLES OF SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "01 WALKING AN APPLICATION"
+                  "title": "THM - 05. PRINCIPLES OF SECURITY"
                 }
               }
             ],
@@ -154,8 +154,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/01 WALKING AN APPLICATION.md",
+                "file": "02 SECURITY FOUNDATIONS/THM - 05. PRINCIPLES OF SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 WALKING AN APPLICATION"
+              "title": "Outline of THM - 05. PRINCIPLES OF SECURITY"
             }
           },
           {
@@ -263,6 +262,7 @@
   },
   "active": "d2366e8900bfd08e",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/01 WALKING AN APPLICATION.md",
     "02 SECURITY FOUNDATIONS/THM - 05. PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -300,7 +300,6 @@
     "README.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
-    "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
     "12 AI SECURITY FUNDAMENTALS",
