@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - 06. WALKING AN APPLICATION"
             }
           },
           {
@@ -244,10 +244,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "Pasted image 20250826083718.png",
     "ASSETS/Pasted image 20250826071846.png",
     "ASSETS/Pasted image 20250826071824.png",
