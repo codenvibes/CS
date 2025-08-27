@@ -227,8 +227,6 @@ We can return some of the formattings by using the "Pretty Print" option, which 
 This little bit of JavaScript is what is removing the red popup from the page. We can utilise another feature of debugger called **breakpoints**. These are points in the code that we can force the browser to stop processing the JavaScript and pause the current execution.
 
 If you click the line number that contains the above code, you'll notice it turns blue; you've now inserted a breakpoint on this line. Now try refreshing the page, and you'll notice the red box stays on the page instead of disappearing, and it contains a flag.
-
-![[Pasted image 20250703094959.png]]
 <div>
 <br>
 <br>
@@ -237,6 +235,9 @@ If you click the line number that contains the above code, you'll notice it turn
 ### Questions
 
 ##### What is the flag in the red box?
+THM{CATCH_ME_IF_YOU_CAN}
+
+![[Pasted image 20250827171136.png]]
 <div align="center">
 <br>
 <br>
