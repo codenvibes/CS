@@ -1,6 +1,14 @@
 #THM_JR_PENETRATION_TESTER #INTRODUCTION_TO_WEB_HACKING 
 
 ## 1. What Is Content Discovery?
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
