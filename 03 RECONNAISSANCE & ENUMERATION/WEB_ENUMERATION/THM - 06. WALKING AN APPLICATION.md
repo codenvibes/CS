@@ -270,6 +270,8 @@ Examine the new entry on the network tab that the contact form created and view 
 
 ##### What is the flag shown on the contact-msg network request?
 THM{GOT_AJAX_FLAG}
+
+![[Pasted image 20250829140234.png]]
 <div align="center">
 <br>
 <br>
