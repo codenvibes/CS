@@ -73,12 +73,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 06. WALKING AN APPLICATION"
+                  "title": "THM - 07. CONTENT DISCOVERY"
                 }
               }
             ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 06. WALKING AN APPLICATION"
+              "title": "Outline of THM - 07. CONTENT DISCOVERY"
             }
           },
           {
@@ -246,6 +246,7 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "ASSETS/Pasted image 20250829140351.png",
     "ASSETS/Pasted image 20250829140234.png",
     "ASSETS/Pasted image 20250827171136.png",
@@ -254,11 +255,9 @@
     "Pasted image 20250829140234.png",
     "Pasted image 20250827171136.png",
     "Pasted image 20250826083718.png",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20250826071846.png",
     "ASSETS/Pasted image 20250826071824.png",
-    "ASSETS/Pasted image 20250826070543.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
