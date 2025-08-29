@@ -73,12 +73,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 06. WALKING AN APPLICATION"
+                  "title": "THM - 07. CONTENT DISCOVERY"
                 }
               }
             ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 06. WALKING AN APPLICATION"
+              "title": "Outline of THM - 07. CONTENT DISCOVERY"
             }
           },
           {
