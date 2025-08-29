@@ -16,7 +16,19 @@ Start the AttackBox (by clicking the blue "Start AttackBox" button), and the mac
 
 ### Questions
 
-##### 
+##### What is the Content Discovery method that begins with M?
+Manually
+<div>
+<br>
+</div>
+
+##### What is the Content Discovery method that begins with A?
+Automated
+<div>
+<br>
+</div>
+
+##### What is the Content Discovery method that begins with O?
 <div align="center">
 <br>
 <br>
