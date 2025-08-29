@@ -29,6 +29,7 @@ Automated
 </div>
 
 ##### What is the Content Discovery method that begins with O?
+OSINT
 <div align="center">
 <br>
 <br>
