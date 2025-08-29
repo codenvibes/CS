@@ -269,6 +269,7 @@ Examine the new entry on the network tab that the contact form created and view 
 ### Questions
 
 ##### What is the flag shown on the contact-msg network request?
+THM{GOT_AJAX_FLAG}
 <div align="center">
 <br>
 <br>
