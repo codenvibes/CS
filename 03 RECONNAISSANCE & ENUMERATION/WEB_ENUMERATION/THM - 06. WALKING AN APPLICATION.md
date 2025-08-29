@@ -272,6 +272,8 @@ Examine the new entry on the network tab that the contact form created and view 
 THM{GOT_AJAX_FLAG}
 
 ![[Pasted image 20250829140234.png]]
+
+![[Pasted image 20250829140351.png]]
 <div align="center">
 <br>
 <br>
