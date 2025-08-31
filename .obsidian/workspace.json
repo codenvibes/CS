@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - 08. SUBDOMAIN ENUMERATION"
             }
           },
           {
@@ -244,11 +244,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "ASSETS/Pasted image 20250704133716.png",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/GOOGLE DORKING.md",
     "TEMPLATES/ADDED NOTES.md",
     "TEMPLATES/PAGE BREAK.md",

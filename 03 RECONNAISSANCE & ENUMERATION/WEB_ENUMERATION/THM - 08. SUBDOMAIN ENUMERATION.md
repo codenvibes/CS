@@ -302,6 +302,38 @@ The above command should have revealed two positive results that we haven't come
 
 ##### What is the first subdomain discovered?
 delta
+
+```shell
+┌──(mopsy㉿APHP)-[~]
+└─$ ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://10.10.159.142 -fs 2395
+
+        /'___\  /'___\           /'___\
+       /\ \__/ /\ \__/  __  __  /\ \__/
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
+         \ \_\   \ \_\  \ \____/  \ \_\
+          \/_/    \/_/   \/___/    \/_/
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://10.10.159.142
+ :: Wordlist         : FUZZ: /usr/share/wordlists/seclists/Discovery/DNS/namelist.txt
+ :: Header           : Host: FUZZ.acmeitsupport.thm
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 2395
+________________________________________________
+
+api                     [Status: 200, Size: 31, Words: 4, Lines: 1, Duration: 158ms]
+delta                   [Status: 200, Size: 51, Words: 7, Lines: 1, Duration: 194ms]
+yellow                  [Status: 200, Size: 56, Words: 8, Lines: 1, Duration: 158ms]
+:: Progress: [151265/151265] :: Job [1/1] :: 137 req/sec :: Duration: [0:14:00] :: Errors: 0 ::
+```
 <div>
 <br>
 </div>
