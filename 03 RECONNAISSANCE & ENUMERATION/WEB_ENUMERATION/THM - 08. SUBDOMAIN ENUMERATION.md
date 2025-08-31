@@ -142,6 +142,15 @@ store.tryhackme.com
 
 ## 3. OSINT - Search Engines
 
+> 
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the TryHackMe subdomain beginning with **S** discovered using the above Google search?
 <div align="center">
 <br>
 <br>
