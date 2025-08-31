@@ -71,12 +71,14 @@
                 "id": "182f4d1725c9749f",
                 "type": "leaf",
                 "state": {
-                  "type": "image",
+                  "type": "markdown",
                   "state": {
-                    "file": "ASSETS/Pasted image 20250704133716.png"
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-image",
-                  "title": "Pasted image 20250704133716"
+                  "icon": "lucide-file",
+                  "title": "THM - 08. SUBDOMAIN ENUMERATION"
                 }
               }
             ],
@@ -203,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ASSETS/Pasted image 20250704133716.png",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250704133716"
+              "title": "Outline of THM - 08. SUBDOMAIN ENUMERATION"
             }
           },
           {
@@ -244,6 +246,7 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20250704133716.png",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/GOOGLE DORKING.md",
@@ -279,7 +282,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14. RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
