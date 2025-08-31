@@ -195,6 +195,10 @@ store.tryhackme.com
 <div style="page-break-after: always;"></div>
 
 ## 4. DNS Bruteforce
+
+==**DEF-Bruteforce DNS Enumeration** is the process of automatically generating and testing large numbers of possible subdomain names for a given domain to identify which ones resolve to valid IP addresses.== Bruteforce DNS is an **active enumeration** method.
+
+Because this method requires many requests, we automate it with tools to make the process quicker. In this instance, we are using a tool called dnsrecon to perform this. Click the "View Site" button to open the static site, press the "Run DNSrecon Request" button to start the simulation, and then answer the question below.
 <div align="center">
 <br>
 <br>
