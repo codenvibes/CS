@@ -83,11 +83,7 @@ Take a look at the robots.txt file on the Acme IT Support website to see if they
 ##### What is the directory in the robots.txt that isn't allowed to be viewed by web crawlers?
 /staff-portal
 
-```txt
-User-agent: *
-Allow: /
-Disallow: /staff-portal
-```
+![[Pasted image 20250703122229.png]]
 <div align="center">
 <br>
 <br>
