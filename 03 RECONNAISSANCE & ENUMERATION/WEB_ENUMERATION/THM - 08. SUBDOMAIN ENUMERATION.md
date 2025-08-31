@@ -300,7 +300,12 @@ The above command should have revealed two positive results that we haven't come
 
 ### Questions
 
-##### 
+##### What is the first subdomain discovered?
+<div>
+<br>
+</div>
+
+##### What is the second subdomain discovered?
 <div align="center">
 <br>
 <br>
