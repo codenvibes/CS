@@ -425,9 +425,9 @@ When you visit a website with Wappalyzer:
 
 If you’re interested in other tools like Wappalyzer, here are some:
 
-- **BuiltWith:** [builtwith.com](https://www.builtwith.com/) — more detailed reports.
-- **WhatRuns:** Another lightweight browser extension.
-- **Netcraft:** For deep server info and hosting history.
+- ** #BuiltWith:** [builtwith.com](https://www.builtwith.com/) — more detailed reports.
+- **#WhatRuns:** Another lightweight browser extension.
+- **#Netcraft:** For deep server info and hosting history.
 <div>
 <br>
 <br>
