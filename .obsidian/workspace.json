@@ -27,8 +27,19 @@
                   "icon": "lucide-file",
                   "title": "WHITE-BOARD"
                 }
+              },
+              {
+                "id": "91327b859d4678da",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -73,12 +84,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "00 OSINT"
+                  "title": "THM - 07. CONTENT DISCOVERY"
                 }
               }
             ],
@@ -205,13 +216,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 OSINT"
+              "title": "Outline"
             }
           },
           {
@@ -244,11 +254,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "91327b859d4678da",
   "lastOpenFiles": [
-    "03 RECONNAISSANCE & ENUMERATION/OSINT/GOOGLE DORKING.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/GOOGLE DORKING.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/GITHUB.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/S3 BUCKETS.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/SSL TLS CERTIFICATES.md",
     "Pasted image 20250831111227.png",
     "Pasted image 20250831104154.png",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
@@ -278,10 +292,6 @@
     "Untitled.md",
     "TEMPLATES/REFERENCES.md",
     "TEMPLATES/IMAGE.md",
-    "TEMPLATES/QUESTIONS.md",
-    "TEMPLATES/SECTION BREAK.md",
-    "TEMPLATES/SHORT QUESTION BREAK.md",
-    "TEMPLATES/PAGE BREAK.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
