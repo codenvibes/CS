@@ -21,11 +21,13 @@ Brute Force
 </div>
 
 ##### What is a subdomain enumeration method beginning with O?
+OSINT
 <div>
 <br>
 </div>
 
 ##### What is a subdomain enumeration method beginning with V?
+Virtual Host
 <div align="center">
 <br>
 <br>
@@ -36,6 +38,18 @@ Brute Force
 <div style="page-break-after: always;"></div>
 
 ## 2. OSINT - SSL/TLS Certificates
+
+When an SSL/TLS (Secure Sockets Layer/Transport Layer Security) certificate is created for a domain by a CA (Certificate Authority), CA's take part in what's called "Certificate Transparency (CT) logs". These are publicly accessible logs of every SSL/TLS certificate created for a domain name. The purpose of Certificate Transparency logs is to stop malicious and accidentally made certificates from being used. We can use this service to our advantage to discover subdomains belonging to a domain, sites like [https://crt.sh](https://crt.sh/) offer a searchable database of certificates that shows current and historical results.
+
+Go to [crt.sh](https://crt.sh/) and search for the domain name **tryhackme.com**, find the entry that was logged at **2020-12-26** and enter the domain below to answer the question.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What domain was logged on crt.sh at 2020-12-26?
 <div align="center">
 <br>
 <br>
