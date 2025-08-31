@@ -141,6 +141,7 @@ store.tryhackme.com
 <div style="page-break-after: always;"></div>
 
 ## 3. OSINT - Search Engines
+
 <div align="center">
 <br>
 <br>
