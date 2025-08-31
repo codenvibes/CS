@@ -568,6 +568,10 @@ Using the results from the commands above, please answer the below questions:
 ### Questions
 
 ##### What is the name of the directory beginning "/mo...." that was discovered?
+
+```shell
+
+```
 <div>
 <br>
 </div>
