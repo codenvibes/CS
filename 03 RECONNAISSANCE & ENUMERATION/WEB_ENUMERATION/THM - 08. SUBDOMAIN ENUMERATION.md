@@ -50,6 +50,9 @@ Go to [crt.sh](https://crt.sh/) and search for the domain name **tryhackme.co
 ### Questions
 
 ##### What domain was logged on crt.sh at 2020-12-26?
+store.tryhackme.com
+
+![[Pasted image 20250704111225.png]]
 <div align="center">
 <br>
 <br>
