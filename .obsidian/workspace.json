@@ -73,12 +73,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
+                    "file": "TEMPLATES/ADDED NOTES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 08. SUBDOMAIN ENUMERATION"
+                  "title": "ADDED NOTES"
                 }
               }
             ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
+                "file": "TEMPLATES/ADDED NOTES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 08. SUBDOMAIN ENUMERATION"
+              "title": "Outline of ADDED NOTES"
             }
           },
           {
@@ -246,8 +246,8 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "TEMPLATES/ADDED NOTES.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
+    "TEMPLATES/ADDED NOTES.md",
     "TEMPLATES/PAGE BREAK.md",
     "TEMPLATES/IMAGE.md",
     "WHITE-BOARD/WHITE-BOARD.md",
