@@ -14,9 +14,18 @@ Start the machine and then move onto the next task.
 
 ### Questions
 
-##### 
-##### 
-##### 
+##### What is a subdomain enumeration method beginning with B?
+Brute Force
+<div>
+<br>
+</div>
+
+##### What is a subdomain enumeration method beginning with O?
+<div>
+<br>
+</div>
+
+##### What is a subdomain enumeration method beginning with V?
 <div align="center">
 <br>
 <br>
