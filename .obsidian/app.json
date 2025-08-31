@@ -1,6 +1,6 @@
 {
   "promptDelete": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": false,
