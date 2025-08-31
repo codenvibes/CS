@@ -105,7 +105,9 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 - **crt.sh** — searches Certificate Transparency logs.
 - **Google Certificate Transparency** — logs issued certs.
 - **OpenSSL** — to manually inspect certs.
-
+<div>
+<br>
+</div>
 
 ### Example scenario
 
