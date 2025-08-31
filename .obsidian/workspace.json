@@ -225,12 +225,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,9 +246,9 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "Pasted image 20250831104154.png",
     "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
+    "Pasted image 20250831104154.png",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "ASSETS/Pasted image 20250829140351.png",
     "ASSETS/Pasted image 20250829140234.png",
@@ -260,7 +259,6 @@
     "Pasted image 20250827171136.png",
     "Pasted image 20250826083718.png",
     "ASSETS/Pasted image 20250826071846.png",
-    "ASSETS/Pasted image 20250826071824.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
