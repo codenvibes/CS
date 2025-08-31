@@ -142,7 +142,25 @@ store.tryhackme.com
 
 ## 3. OSINT - Search Engines
 
-> 
+Search engines contain trillions of links to more than a billion websites, which can be an excellent resource for finding new subdomains. Using advanced search methods on websites like Google, such as the `site: filter`, can narrow the search results. For example, `site:*.domain.com -site:www.domain.com` would only contain results leading to the domain name domain.com but exclude any links to www.domain.com; therefore, it shows us only subdomain names belonging to domain.com.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+INSERT NOTES HERE
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+Go to [Google](https://tryhackme.com/room/google.com) and use the search term `site:*.tryhackme.com -site:www.tryhackme.com`, which should reveal a subdomain for tryhackme.com; use that subdomain to answer the question below.
 <div>
 <br>
 <br>
