@@ -568,41 +568,19 @@ Using the results from the commands above, please answer the below questions:
 ### Questions
 
 ##### What is the name of the directory beginning "/mo...." that was discovered?
+/monthly
 
 ```shell
-root@ip-10-10-149-158:~# ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://10.10.204.3/FUZZ
-
-        /'___\  /'___\           /'___\       
-       /\ \__/ /\ \__/  __  __  /\ \__/       
-       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
-        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
-         \ \_\   \ \_\  \ \____/  \ \_\       
-          \/_/    \/_/   \/___/    \/_/       
-
-       v1.3.1
-________________________________________________
-
- :: Method           : GET
- :: URL              : http://10.10.204.3/FUZZ
- :: Wordlist         : FUZZ: /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
- :: Follow redirects : false
- :: Calibration      : false
- :: Timeout          : 10
- :: Threads          : 40
- :: Matcher          : Response status: 200,204,301,302,307,401,403,405
-________________________________________________
-
-:: Progress: [40/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Error:: Progress: [268/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Erro:: Progress: [523/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Erroassets                  [Status: 301, Size: 178, Words: 6, Lines: 8]
-:: Progress: [700/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Erro:: Progress: [746/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Erro:: Progress: [984/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errocontact                 [Status: 200, Size: 3108, Words: 747, Lines: 65]
-:: Progress: [1211/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Err:: Progress: [1256/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errcustomers               [Status: 302, Size: 0, Words: 1, Lines: 1]
-:: Progress: [1347/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Err:: Progress: [1456/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Errdevelopment.log         [Status: 200, Size: 27, Words: 5, Lines: 1]
-:: Progress: [1457/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Err:: Progress: [1716/4655] :: Job [1/1] :: 0 req/sec :: Duration: [0:00:00] :: Err:: Progress: [1911/4655] :: Job [1/1] :: 1513 req/sec :: Duration: [0:00:01] :: :: Progress: [2097/4655] :: Job [1/1] :: 1383 req/sec :: Duration: [0:00:01] :: :: Progress: [2311/4655] :: Job [1/1] :: 1495 req/sec :: Duration: [0:00:01] :: :: Progress: [2505/4655] :: Job [1/1] :: 1442 req/sec :: Duration: [0:00:01] :: :: Progress: [2716/4655] :: Job [1/1] :: 1649 req/sec :: Duration: [0:00:01] :: monthly                 [Status: 200, Size: 28, Words: 4, Lines: 1]
-:: Progress: [2723/4655] :: Job [1/1] :: 1649 req/sec :: Duration: [0:00:01] :: news                    [Status: 200, Size: 2538, Words: 518, Lines: 51]
-:: Progress: [2822/4655] :: Job [1/1] :: 1646 req/sec :: Duration: [0:00:01] :: :: Progress: [2934/4655] :: Job [1/1] :: 1472 req/sec :: Duration: [0:00:01] :: :: Progress: [3136/4655] :: Job [1/1] :: 1421 req/sec :: Duration: [0:00:01] :: private                 [Status: 301, Size: 178, Words: 6, Lines: 8]
-:: Progress: [3215/4655] :: Job [1/1] :: 1405 req/sec :: Duration: [0:00:01] :: :: Progress: [3318/4655] :: Job [1/1] :: 1773 req/sec :: Duration: [0:00:01] :: robots.txt              [Status: 200, Size: 46, Words: 4, Lines: 3]
-:: Progress: [3520/4655] :: Job [1/1] :: 1470 req/sec :: Duration: [0:00:02] :: :: Progress: [3524/4655] :: Job [1/1] :: 1462 req/sec :: Duration: [0:00:02] :: :: Progress: [3685/4655] :: Job [1/1] :: 1699 req/sec :: Duration: [0:00:02] :: sitemap.xml             [Status: 200, Size: 1375, Words: 260, Lines: 43]
-:: Progress: [3798/4655] :: Job [1/1] :: 1720 req/sec :: Duration: [0:00:02] :: :: Progress: [3884/4655] :: Job [1/1] :: 1465 req/sec :: Duration: [0:00:02] :: :: Progress: [3956/4655] :: Job [1/1] :: 716 req/sec :: Duration: [0:00:02] :: E:: Progress: [4187/4655] :: Job [1/1] :: 1769 req/sec :: Duration: [0:00:02] :: :: Progress: [4364/4655] :: Job [1/1] :: 1257 req/sec :: Duration: [0:00:02] :: :: Progress: [4551/4655] :: Job [1/1] :: 1433 req/sec :: Duration: [0:00:02] :: :: Progress: [4655/4655] :: Job [1/1] :: 1637 req/sec :: Duration: [0:00:02] :: :: Progress: [4655/4655] :: Job [1/1] :: 1637 req/sec :: Duration: [0:00:02] :: Errors: 0 ::
-
+root@ip-10-10-149-158:~# ffuf -s -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://10.10.204.3/FUZZ
+assets
+contact
+customers
+development.log
+monthly
+news
+private
+robots.txt
+sitemap.xml
 ```
 <div>
 <br>
