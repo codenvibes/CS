@@ -425,9 +425,9 @@ When you visit a website with Wappalyzer:
 
 If you’re interested in other tools like Wappalyzer, here are some:
 
-- ** #BuiltWith:** [builtwith.com](https://www.builtwith.com/) — more detailed reports.
-- **#WhatRuns:** Another lightweight browser extension.
-- **#Netcraft:** For deep server info and hosting history.
+- #BuiltWith: [builtwith.com](https://www.builtwith.com/) — more detailed reports.
+- #WhatRuns: Another lightweight browser extension.
+- #Netcraft: For deep server info and hosting history.
 <div>
 <br>
 <br>
@@ -447,6 +447,20 @@ Wappalyzer
 <div style="page-break-after: always;"></div>
 
 ## 9. OSINT - Wayback Machine
+
+The **Wayback Machine** is an incredibly useful tool for exploring the history of websites — it’s basically an internet time machine!
+
+- It is a digital archive of the World Wide Web, run by the **Internet Archive** (a non-profit).
+- URL: https://archive.org/web/
+- It lets you **view snapshots of websites as they looked at different points in time** — sometimes going back to the 1990s.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
