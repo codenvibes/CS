@@ -1,6 +1,4 @@
-**OSINT** stands for **Open Source Intelligence**.
-
-==It refers to the practice of collecting and analyzing information from publicly available sources to produce actionable intelligence.== The information is “open source” because it’s accessible without needing special or clandestine access.
+**DEF-OSINT** stands for **Open Source Intelligence** and ==It refers to the practice of collecting and analyzing information from publicly available sources to produce actionable intelligence.== The information is “open source” because it’s accessible without needing special or clandestine access.
 
 **Common sources for OSINT include:**
 - Websites and blogs
