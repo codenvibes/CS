@@ -293,7 +293,6 @@ user@machine$ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -
 This command has a similar syntax to the first apart from the **-fs** switch, which tells **ffuf** to ignore any results that are of the specified size.
 
 The above command should have revealed two positive results that we haven't come across before.
-
 <div>
 <br>
 <br>
