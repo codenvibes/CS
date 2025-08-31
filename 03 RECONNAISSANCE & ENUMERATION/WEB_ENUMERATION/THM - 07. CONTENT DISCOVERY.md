@@ -181,6 +181,37 @@ Take a look at the sitemap.xml file on the Acme IT Support website to see if th
 <div style="page-break-after: always;"></div>
 
 ## 5. Manual Discovery - HTTP Headers
+
+When we make requests to the web server, the server returns various HTTP headers. These headers can sometimes contain useful information such as the webserver software and possibly the programming/scripting language in use. In the below example, we can see the webserver is NGINX version 1.18.0 and runs PHP version 7.4.3. Using this information, we could find vulnerable versions of software being used. Try running the below curl command against the web server, where the **-v** switch enables verbose mode, which will output the headers (there might be something interesting!).
+
+```shell-session
+user@machine$ curl http://10.10.127.158 -v
+*   Trying 10.10.127.158:80...
+* TCP_NODELAY set
+* Connected to 10.10.127.158 (10.10.127.158) port 80 (#0)
+> GET / HTTP/1.1
+> Host: 10.10.127.158
+> User-Agent: curl/7.68.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: nginx/1.18.0 (Ubuntu)
+< X-Powered-By: PHP/7.4.3
+< Date: Mon, 19 Jul 2021 14:39:09 GMT
+< Content-Type: text/html; charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+```
+
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
