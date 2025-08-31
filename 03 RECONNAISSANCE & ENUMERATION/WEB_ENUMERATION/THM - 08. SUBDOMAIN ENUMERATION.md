@@ -244,32 +244,19 @@ user@thm:~$ ./sublist3r.py -d acmeitsupport.thm
          # Coded By Ahmed Aboul-Ela - @aboul3la  
   
 [-] Enumerating subdomains now for acmeitsupport.thm  
-
 [-] Searching now in Baidu..  
-
 [-] Searching now in Yahoo..  
-
 [-] Searching now in Google..  
-
 [-] Searching now in Bing..  
-
 [-] Searching now in Ask..  
-
 [-] Searching now in Netcraft..  
-
 [-] Searching now in Virustotal..  
-
 [-] Searching now in ThreatCrowd..  
-
 [-] Searching now in SSL Certificates..  
-
 [-] Searching now in PassiveDNS..  
-
 [-] Searching now in Virustotal..  
 [-] Total Unique Subdomains Found: 2  
-
 web55.acmeitsupport.thm  
-
 www.acmeitsupport.thm
 ```
 <div align="center">
