@@ -64,6 +64,7 @@ When an SSL/TLS certificate is issued for a website by a Certificate Authority (
 ==These logs are public lists of all SSL/TLS certificates created for websites. The main reason for CT logs is to help catch fake or mistakenly issued certificates before they can be used for bad purposes.==
 <div>
 <br>
+<br>
 </div>
 
 ### How are SSL/TLS certificates used in OSINT (Open Source Intelligence)?
@@ -93,8 +94,10 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 #### 5. Bypass privacy shields
 
 - Even if WHOIS data is hidden with privacy services, certificates might still expose real organizational info.
-
-
+<div>
+<br>
+<br>
+</div>
 
 ### Common tools and sites for SSL/TLS OSINT
 
@@ -102,7 +105,6 @@ In OSINT investigations, SSL/TLS certificates can reveal valuable information. H
 - **crt.sh** — searches Certificate Transparency logs.
 - **Google Certificate Transparency** — logs issued certs.
 - **OpenSSL** — to manually inspect certs.
-
 
 
 ### Example scenario
