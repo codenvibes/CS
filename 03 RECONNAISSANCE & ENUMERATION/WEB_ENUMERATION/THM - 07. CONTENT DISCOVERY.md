@@ -284,7 +284,6 @@ This page is temporary while we work on the new homepage @ /new-home-beta
 <!--
 Page Generated in 0.03477 Seconds using the THM Framework v1.2 ( https://static-labs.tryhackme.cloud/sites/thm-web-framework )
 * Connection #0 to host 10.10.204.3 left intact
-
 ```
 <div align="center">
 <br>
@@ -296,6 +295,20 @@ Page Generated in 0.03477 Seconds using the THM Framework v1.2 ( https://static-
 <div style="page-break-after: always;"></div>
 
 ## 6. Manual Discovery - Framework Stack
+
+### Framework Stack
+
+Once you've established the framework of a website, either from the above favicon example or by looking for clues in the page source such as comments, copyright notices or credits, you can then locate the framework's website. From there, we can learn more about the software and other information, possibly leading to more content we can discover.
+
+Looking at the page source of our Acme IT Support website ([http://MACHINE_IP](http://machine_ip/)), you'll see a comment at the end of every page with a page load time and also a link to the framework's website, which is [https://static-labs.tryhackme.cloud/sites/thm-web-framework](https://static-labs.tryhackme.cloud/sites/thm-web-framework). Let's take a look at that website. Viewing the documentation page gives us the path of the framework's administration portal, which gives us a flag if viewed on the Acme IT Support website.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
