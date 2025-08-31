@@ -54,8 +54,7 @@ Go to [crt.sh](https://crt.sh/) and search for the domain name **tryhackme.co
 
 **SSL** (Secure Sockets Layer) and its successor **TLS** (Transport Layer Security) are cryptographic protocols that secure communication over a network (mainly the internet).
 
-- ==**DEF-SSL/TLS certificates** are digital certificates issued by a Certificate Authority (CA).==
-- They verify that a website (or server) is who it claims to be and enable **HTTPS**, which encrypts data between your browser and the server.
+- ==**DEF-SSL/TLS certificates** are digital certificates issued by a Certificate Authority (CA) to verify that a website (or server) is who it claims to be and enable **HTTPS**, which encrypts data between your browser and the server.==
 - Technically, the certificate contains the website’s public key, the domain name it’s issued for, the CA’s signature, and metadata like expiry dates.
 
 When you see `https://` and the 🔒 lock icon in your browser — that’s SSL/TLS at work.
