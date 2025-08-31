@@ -203,7 +203,6 @@ user@machine$ curl http://10.10.127.158 -v
 < Transfer-Encoding: chunked
 < Connection: keep-alive
 ```
-
 <div>
 <br>
 <br>
@@ -211,7 +210,7 @@ user@machine$ curl http://10.10.127.158 -v
 
 ### Questions
 
-##### 
+##### What is the flag value from the X-FLAG header?
 <div align="center">
 <br>
 <br>
