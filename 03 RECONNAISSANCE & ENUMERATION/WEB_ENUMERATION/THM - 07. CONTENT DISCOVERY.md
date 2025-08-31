@@ -168,6 +168,9 @@ Take a look at the sitemap.xml file on the Acme IT Support website to see if th
 ### Questions
 
 ##### What is the path of the secret area that can be found in the sitemap.xml file?
+/s3cr3t-area
+
+
 <div align="center">
 <br>
 <br>
