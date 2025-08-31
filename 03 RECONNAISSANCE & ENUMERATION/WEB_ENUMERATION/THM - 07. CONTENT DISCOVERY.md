@@ -338,11 +338,14 @@ You can, for instance, pick out results from a certain domain name using the **
 | `allintext:`         | Keywords in page body                                                                 | `allintext:password` |
 | `cache:`             | Google’s cached version                                                               | `cache:example.com`  |
 | `OR`                 | Combine terms                                                                         | `"login" OR "admin"` |
+<div>
+<br>
+<br>
+</div>
 
+### Google Dorking & Search Operators — Quick Reference
 
-## Google Dorking & Search Operators — Quick Reference
-
-### Official Google Search Operator Resources
+#### Official Google Search Operator Resources
 
 - **Google Advanced Search Page:**  
     [https://www.google.com/advanced_search](https://www.google.com/advanced_search)
@@ -350,14 +353,12 @@ You can, for instance, pick out results from a certain domain name using the **
 - **Google Search Help — Refine Web Searches:**  
     [https://support.google.com/websearch/answer/2466433?hl=en](https://support.google.com/websearch/answer/2466433?hl=en)
    
-
-### Comprehensive Google Dork Database
+#### Comprehensive Google Dork Database
 
 - **Exploit-DB Google Hacking Database (GHDB):**  
     [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database)
 
-
-### Community Cheat Sheets & Collections
+#### Community Cheat Sheets & Collections
 
 - **GitHub:** Search _“Google Dork Cheat Sheet GitHub”_ for user-maintained lists.  
     Example:  
