@@ -45,7 +45,7 @@ Go to [crt.sh](https://crt.sh/) and search for the domain name **tryhackme.co
 <div align="center">
 <br>
 <br>
-※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
 
