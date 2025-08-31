@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 44.321766561514195,
+            "dimension": 84.2890809112333,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -33,7 +33,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 55.678233438485805,
+            "dimension": 15.710919088766692,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -244,7 +244,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c81f332ac7d36977",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
     "WHITE-BOARD/WHITE-BOARD.md",
