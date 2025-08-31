@@ -1,6 +1,22 @@
 #THM_JR_PENETRATION_TESTER #INTRODUCTION_TO_WEB_HACKING 
 
 ## 1. Brief
+
+Subdomain enumeration is the process of finding valid subdomains for a domain, but why do we do this? We do this to expand our attack surface to try and discover more potential points of vulnerability.  
+  
+We will explore three different subdomain enumeration methods: Brute Force, OSINT (Open-Source Intelligence) and Virtual Host.  
+  
+Start the machine and then move onto the next task.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+##### 
+##### 
 <div align="center">
 <br>
 <br>
