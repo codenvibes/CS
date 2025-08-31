@@ -1,8 +1,7 @@
 {
   "enabledCssSnippets": [
     "zoom",
-    "font",
-    "custom-line-width"
+    "font"
   ],
   "cssTheme": "GitHub Theme"
 }
