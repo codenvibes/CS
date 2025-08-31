@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -229,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,7 +246,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c81f332ac7d36977",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
