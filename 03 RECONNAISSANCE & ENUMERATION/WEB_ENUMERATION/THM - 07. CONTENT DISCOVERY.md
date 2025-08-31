@@ -587,6 +587,7 @@ sitemap.xml
 </div>
 
 ##### What is the name of the log file that was discovered?
+/development.log
 <div align="center">
 <br>
 <br>

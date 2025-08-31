@@ -114,7 +114,3 @@ This filters out responses with size `1234`.
 ✅ Always check the response codes/sizes manually.  
 ✅ Combine `ffuf` with Burp or `proxychains` to inspect traffic.  
 ✅ Respect scope & always have permission!
-
----
-
-If you’d like, I can help you craft a specific `ffuf` command for your scenario. Want to try one? 🚀
