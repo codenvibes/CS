@@ -27,23 +27,8 @@
                   "icon": "lucide-file",
                   "title": "WHITE-BOARD"
                 }
-              },
-              {
-                "id": "91327b859d4678da",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/OSINT/SSL TLS CERTIFICATES.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "SSL TLS CERTIFICATES"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 07. CONTENT DISCOVERY"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,11 +244,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
+    "ASSETS/Pasted image 20250831111227.png",
+    "ASSETS/Pasted image 20250831104154.png",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/SSL TLS CERTIFICATES.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
     "08 TOOLS/GOBUSTER.md",
     "08 TOOLS/DIRB.md",
     "08 TOOLS/FFUF.md",
@@ -283,8 +270,6 @@
     "ASSETS/Pasted image 20250826083718.png",
     "Pasted image 20250829140351.png",
     "Pasted image 20250829140234.png",
-    "Pasted image 20250827171136.png",
-    "Pasted image 20250826083718.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
@@ -296,7 +281,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
-    "02 SECURITY FOUNDATIONS/THM - 05. PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
