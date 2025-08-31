@@ -199,6 +199,17 @@ store.tryhackme.com
 ==**DEF-Bruteforce DNS Enumeration** is the process of automatically generating and testing large numbers of possible subdomain names for a given domain to identify which ones resolve to valid IP addresses.== Bruteforce DNS is an **active enumeration** method.
 
 Because this method requires many requests, we automate it with tools to make the process quicker. In this instance, we are using a tool called dnsrecon to perform this. Click the "View Site" button to open the static site, press the "Run DNSrecon Request" button to start the simulation, and then answer the question below.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the first subdomain found with the dnsrecon tool?
+api.acmeitsupport.thm
+
+![[Pasted image 20250704114254.png]]
 <div align="center">
 <br>
 <br>
@@ -209,6 +220,16 @@ Because this method requires many requests, we automate it with tools to make th
 <div style="page-break-after: always;"></div>
 
 ## 5. OSINT - Sublist3r
+
+To speed up the process of OSINT subdomain discovery, we can automate the above methods with the help of tools like [Sublist3r](https://www.kali.org/tools/sublist3r/), click the "View Site" button to open up the static site and run the sublist3r simulation to discover a new subdomain that will help answer the question below.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the first subdomain discovered by sublist3r?
 <div align="center">
 <br>
 <br>
