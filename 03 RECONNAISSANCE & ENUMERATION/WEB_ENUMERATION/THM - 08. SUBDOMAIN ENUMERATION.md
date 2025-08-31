@@ -301,11 +301,13 @@ The above command should have revealed two positive results that we haven't come
 ### Questions
 
 ##### What is the first subdomain discovered?
+delta
 <div>
 <br>
 </div>
 
 ##### What is the second subdomain discovered?
+yellow
 <div align="center">
 <br>
 <br>
