@@ -368,6 +368,15 @@ You can, for instance, pick out results from a certain domain name using the **
     [https://book.hacktricks.xyz](https://book.hacktricks.xyz/)
 
 - **Offensive Security:** Resources often mention advanced dorking for pentesting.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What Google dork operator can be used to only show results from a particular site?
+site:
 <div align="center">
 <br>
 <br>
