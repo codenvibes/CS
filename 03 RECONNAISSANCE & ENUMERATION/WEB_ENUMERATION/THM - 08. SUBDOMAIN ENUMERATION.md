@@ -43,7 +43,6 @@ When an SSL/TLS (Secure Sockets Layer/Transport Layer Security) certificate is c
 
 Go to [crt.sh](https://crt.sh/) and search for the domain name **tryhackme.com**, find the entry that was logged at **2020-12-26** and enter the domain below to answer the question.
 
-※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※
 ### What are SSL/TLS certificates?
 
 **SSL** (Secure Sockets Layer) and its successor **TLS** (Transport Layer Security) are cryptographic protocols that secure communication over a network (mainly the internet).
