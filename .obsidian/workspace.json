@@ -42,8 +42,7 @@
                   "title": "00 OSINT"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -234,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 OSINT"
+              "title": "Outline of THM - 07. CONTENT DISCOVERY"
             }
           },
           {
@@ -273,17 +272,17 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "91327b859d4678da",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 07. CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/S3 BUCKETS.md",
-    "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/GITHUB.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/WAYBACK MACHINE.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/GOOGLE DORKING.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/WAPPALYZER.md",
     "08 TOOLS/00 TOOLS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/SSL TLS CERTIFICATES.md",
     "Pasted image 20250831111227.png",
     "Pasted image 20250831104154.png",

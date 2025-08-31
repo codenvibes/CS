@@ -506,7 +506,8 @@ S3 Buckets are a storage service provided by Amazon AWS, allowing people to sa
 
 ### Questions
 
-##### 
+##### What URL format do Amazon S3 buckets end in?
+.s3.amazonaws.com
 <div align="center">
 <br>
 <br>
@@ -517,6 +518,14 @@ S3 Buckets are a storage service provided by Amazon AWS, allowing people to sa
 <div style="page-break-after: always;"></div>
 
 ## 12. Automated Discovery
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
