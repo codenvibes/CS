@@ -446,7 +446,7 @@ Wappalyzer
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 9. OSINT - Wayback Machine
+## 9. OSINT - #Wayback_Machine
 
 The **Wayback Machine** is an incredibly useful tool for exploring the history of websites — it’s basically an internet time machine!
 
@@ -460,7 +460,8 @@ The **Wayback Machine** is an incredibly useful tool for exploring the history o
 
 ### Questions
 
-##### 
+##### What is the website address for the Wayback Machine?
+https://archive.org/web/
 <div align="center">
 <br>
 <br>
