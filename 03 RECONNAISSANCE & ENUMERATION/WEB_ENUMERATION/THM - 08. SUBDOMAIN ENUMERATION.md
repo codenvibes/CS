@@ -219,7 +219,7 @@ api.acmeitsupport.thm
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. OSINT - Sublist3r
+## 5. OSINT - #Sublist3r
 
 To speed up the process of OSINT subdomain discovery, we can automate the above methods with the help of tools like [Sublist3r](https://www.kali.org/tools/sublist3r/), click the "View Site" button to open up the static site and run the sublist3r simulation to discover a new subdomain that will help answer the question below.
 <div>
