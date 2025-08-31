@@ -133,6 +133,7 @@ PS C:\> Get-FileHash .\favicon.ico -Algorithm MD5
 ### Questions
 
 ##### What framework did the favicon belong to?
+cgiirc
 
 ```shell
 root@ip-10-10-86-179:~# curl https://static-labs.tryhackme.cloud/sites/favicon/images/favicon.ico | md5sum
@@ -141,6 +142,8 @@ root@ip-10-10-86-179:~# curl https://static-labs.tryhackme.cloud/sites/favicon/i
 100  1406  100  1406    0     0  28120      0 --:--:-- --:--:-- --:--:-- 28120
 f276b19aabcb4ae8cda4d22625c6735f  -
 ```
+
+![[Pasted image 20250831104154.png]]
 <div align="center">
 <br>
 <br>
