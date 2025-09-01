@@ -71,12 +71,14 @@
                 "id": "182f4d1725c9749f",
                 "type": "leaf",
                 "state": {
-                  "type": "image",
+                  "type": "markdown",
                   "state": {
-                    "file": "Pasted image 20250901153040.png"
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-image",
-                  "title": "Pasted image 20250901153040"
+                  "icon": "lucide-file",
+                  "title": "THM - 09. AUTHENTICATION BYPASS"
                 }
               }
             ],
@@ -203,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20250901153040.png",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250901153040"
+              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
             }
           },
           {
@@ -244,8 +246,8 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "Pasted image 20250901152955.png",
     "Pasted image 20250901153040.png",
+    "Pasted image 20250901152955.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "Pasted image 20250901111824.png",
     "Pasted image 20250901152715.png",
