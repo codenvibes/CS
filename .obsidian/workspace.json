@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -244,14 +244,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "Pasted image 20250901113204.png",
     "Pasted image 20250901112939.png",
     "Pasted image 20250901112608.png",
     "Pasted image 20250901111824.png",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "ASSETS/Pasted image 20250704133716.png",
@@ -277,7 +277,6 @@
     "Pasted image 20250831104154.png",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 06. WALKING AN APPLICATION.md",
     "ASSETS/Pasted image 20250829140351.png",
-    "ASSETS/Pasted image 20250829140234.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 16. COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
