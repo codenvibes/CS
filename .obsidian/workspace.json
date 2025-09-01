@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
             }
           },
           {
@@ -244,8 +244,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "ASSETS/Pasted image 20250901153040.png",
     "ASSETS/Pasted image 20250901152715.png",
@@ -257,7 +258,6 @@
     "Pasted image 20250901153040.png",
     "Pasted image 20250901152955.png",
     "Pasted image 20250901111824.png",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - 08. SUBDOMAIN ENUMERATION.md",
     "WHITE-BOARD/GOOGLE DORKING.md",
