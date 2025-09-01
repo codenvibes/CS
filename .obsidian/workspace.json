@@ -117,7 +117,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"HTTP In Detail\"",
+                "query": "encodin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -138,7 +138,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -244,7 +245,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "Pasted image 20250901151148.png",
     "WHITE-BOARD/WHITE-BOARD.md",
