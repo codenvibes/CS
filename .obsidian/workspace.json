@@ -138,8 +138,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -245,7 +244,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "Pasted image 20250901152715.png",
     "Pasted image 20250901151148.png",
