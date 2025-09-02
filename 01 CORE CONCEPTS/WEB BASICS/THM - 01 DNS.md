@@ -76,11 +76,13 @@ Domain Name System
 </div>
 
 ##### Which of the following characters cannot be used in a subdomain ( 3 b _ - )?
+_
 <div>
 <br>
 </div>
 
 ##### What is the maximum length of a domain name?
+253
 <div>
 <br>
 </div>
