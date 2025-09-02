@@ -71,9 +71,6 @@ Domain Name System
 
 ##### What is the maximum length of a subdomain?
 63
-<div>
-<br>
-</div>
 
 ##### Which of the following characters cannot be used in a subdomain ( 3 b _ - )?
 _
@@ -108,6 +105,8 @@ DNS isn't just for websites though, and multiple types of DNS record exist. W
 <br>
 <br>
 </div>
+==DEF-DNS records are entries in the **Domain Name System (DNS)** that tell the internet how to handle requests for a domain.==
+
 ### Scenario: You type **`www.example.com`** into your browser
 
 1. **Your browser asks the DNS system: “Where is `www.example.com`?”**
