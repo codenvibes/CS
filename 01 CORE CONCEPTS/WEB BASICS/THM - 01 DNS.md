@@ -74,15 +74,9 @@ Domain Name System
 
 ##### Which of the following characters cannot be used in a subdomain ( 3 b _ - )?
 _
-<div>
-<br>
-</div>
 
 ##### What is the maximum length of a domain name?
 253
-<div>
-<br>
-</div>
 
 ##### What type of TLD is .co.uk?
 ccTLD
@@ -161,9 +155,6 @@ DNS isn't just for websites though, and multiple types of DNS record exist. W
 
 ##### What type of record would be used to advise where to send email?
 MX
-<div>
-<br>
-</div>
 
 ##### What type of record handles IPv6 addresses?
 AAAA
@@ -196,15 +187,9 @@ AAAA
 
 ##### What field specifies how long a DNS record should be cached for?
 TTL
-<div>
-<br>
-</div>
 
 ##### What type of DNS Server is usually provided by your ISP?
 recursive
-<div>
-<br>
-</div>
 
 ##### What type of server holds all the records for a domain?
 authoritative
@@ -218,6 +203,18 @@ authoritative
 <div style="page-break-after: always;"></div>
 
 ## 5. Practical
+
+Using the website on the right, we can build requests to make DNS queries and view the results. The website will also show you the command you'd need to run on your own computer if you wished to make the requests yourself.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+##### 
+##### 
 <div align="center">
 <br>
 <br>
