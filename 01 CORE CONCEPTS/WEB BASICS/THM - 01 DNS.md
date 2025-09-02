@@ -31,6 +31,10 @@ Think of DNS like your phone's contacts list:
 <br>
 </div>
 
+### Questions
+
+##### What does DNS stand for?
+Domain Name System
 <div align="center">
 <br>
 <br>
@@ -41,6 +45,14 @@ Think of DNS like your phone's contacts list:
 <div style="page-break-after: always;"></div>
 
 ## 2. Domain Hierarchy
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
