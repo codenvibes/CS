@@ -304,8 +304,10 @@ Here, `8.8.8.8` is Google’s public DNS.
 ### Questions
 
 ##### What is the CNAME of shop.website.thm?
+shops.myshopify.com
 
 ##### What is the value of the TXT record of website.thm?
+THM{7012BBA60997F35A9516C2E16D2944FF}
 
 ##### What is the numerical priority value for the MX record?
 
