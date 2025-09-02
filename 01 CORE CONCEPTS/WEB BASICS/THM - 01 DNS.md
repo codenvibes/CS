@@ -1,3 +1,6 @@
+#HOW_THE_WEB_WORKS
+
+
 **DNS** stands for **Domain Name System**. It's like the internet's phonebook.
 
 DNS translates **domain names** (like `www.google.com`) into **IP addresses** (like `142.250.190.68`) that computers use to identify each other on the network.
