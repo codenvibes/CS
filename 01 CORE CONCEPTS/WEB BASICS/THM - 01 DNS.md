@@ -218,17 +218,21 @@ Using the website on the right, we can build requests to make DNS queries and 
 
 ##### Run a basic lookup
 
-`nslookup example.com`
+```
+nslookup example.com
+```
 
-🔎 This shows the **IP address** of the domain (`A` record).  
+This shows the **IP address** of the domain (`A` record).  
 You’ll see output like:
-
+````
 `Server:  dns.google Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 93.184.216.34`
 
 - `Server` → The DNS server you’re asking.
 - `Address` → Its IP.
 - `Non-authoritative answer` → Means it’s from cache, not the official owner’s server.
 - `Name / Address` → The actual mapping for the domain.
+`
+```
 <div>
 <br>
 </div>
@@ -258,14 +262,16 @@ Then you’ll get a prompt like:
 
 Now you can type commands inside it:
 
-```
+```shell
 > set type=MX 
 > example.com
 ```
 
 To exit, just type:
 
-`> exit`
+```shell
+> exit
+```
 
 ---
 
