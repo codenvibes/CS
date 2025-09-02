@@ -310,8 +310,10 @@ shops.myshopify.com
 THM{7012BBA60997F35A9516C2E16D2944FF}
 
 ##### What is the numerical priority value for the MX record?
+30
 
 ##### What is the IP address for the A record of www.website.thm?
+10.10.10.10
 <div align="center">
 <br>
 <br>
