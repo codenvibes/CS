@@ -246,7 +246,11 @@ Address: 3.184.216.34
 
 You can tell `nslookup` what kind of record you want:
 ```
-`nslookup -type=A example.com     # IPv4 address nslookup -type=AAAA example.com  # IPv6 address nslookup -type=MX example.com    # Mail servers nslookup -type=NS example.com    # Name servers nslookup -type=TXT example.com   # Text records (SPF, DKIM, etc.)`
+nslookup -type=A example.com     # IPv4 address 
+nslookup -type=AAAA example.com  # IPv6 address 
+nslookup -type=MX example.com    # Mail servers 
+nslookup -type=NS example.com    # Name servers 
+nslookup -type=TXT example.com   # Text records (SPF, DKIM, etc.)
 ```
 <div>
 <br>
@@ -278,12 +282,15 @@ To exit, just type:
 ```shell
 > exit
 ```
-
----
+<div>
+<br>
+</div>
 
 ⚡ Pro tip: If you want to use a **different DNS server** (instead of your computer’s default), you can specify it:
 
-`nslookup example.com 8.8.8.8`
+```
+nslookup example.com 8.8.8.8
+```
 
 Here, `8.8.8.8` is Google’s public DNS.
 <div align="center">
