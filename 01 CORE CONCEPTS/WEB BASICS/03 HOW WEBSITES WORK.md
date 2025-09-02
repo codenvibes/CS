@@ -1,3 +1,5 @@
+#HOW_THE_WEB_WORKS
+
 ## How websites work
 
 When you visit a website, your browser (_like Safari or Google Chrome_) makes a request to a web server asking for information about the page you're visiting. It will respond with data that your browser uses to show you the page; a web server is just a dedicated computer somewhere else in the world that handles your requests.
