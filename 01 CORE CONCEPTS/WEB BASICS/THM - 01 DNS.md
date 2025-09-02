@@ -246,15 +246,22 @@ You can tell `nslookup` what kind of record you want:
 
 You can run `nslookup` by itself:
 
-`nslookup`
+```bash
+nslookup
+```
 
 Then you’ll get a prompt like:
 
-`>`
+```shell
+>
+```
 
 Now you can type commands inside it:
 
-`> set type=MX > example.com`
+```
+> set type=MX 
+> example.com
+```
 
 To exit, just type:
 
