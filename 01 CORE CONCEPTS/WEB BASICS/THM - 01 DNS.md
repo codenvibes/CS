@@ -111,38 +111,27 @@ DNS isn't just for websites though, and multiple types of DNS record exist. W
 ### Scenario: You type **`www.example.com`** into your browser
 
 1. **Your browser asks the DNS system: “Where is `www.example.com`?”**
-    
     - It starts by checking DNS records.
-        
+
 2. **DNS checks the domain’s records (in the authoritative name server):**
-    
     - `NS record`: Says “These servers know everything about `example.com`.”
-        
     - `A record`: Says “`example.com` = 93.184.216.34 (the server’s IP address).”
-        
     - `CNAME record` (if used): Might say “`www.example.com` is really just `example.com`.”
-        
+
 3. **The browser gets an answer:**
-    
     - “`www.example.com` → 93.184.216.34”
-        
+
 4. **Browser connects to that IP address**
-    
     - Now it knows which server to contact to load the website.
-        
 
----
-
-### 🔹 Same domain, different request: sending an email to `user@example.com`
+### Same domain, different request: sending an email to `user@example.com`
 
 1. **Your email server asks DNS: “Where should I send mail for `example.com`?”**
     
 2. **DNS checks for `MX records`:**
-    
     - Example: “Mail for `example.com` should go to `mail.example.com`.”
-        
     - And the `A record` of `mail.example.com` gives the IP.
-        
+
 3. **Your email server delivers the message** to the correct mail server.
 
 |Record Type|Full Name|Purpose / What It Does|
