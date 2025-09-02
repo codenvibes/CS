@@ -69,7 +69,23 @@ Domain Name System
 
 ### Questions
 
-##### 
+##### What is the maximum length of a subdomain?
+63
+<div>
+<br>
+</div>
+
+##### Which of the following characters cannot be used in a subdomain ( 3 b _ - )?
+<div>
+<br>
+</div>
+
+##### What is the maximum length of a domain name?
+<div>
+<br>
+</div>
+
+##### What type of TLD is .co.uk?
 <div align="center">
 <br>
 <br>
