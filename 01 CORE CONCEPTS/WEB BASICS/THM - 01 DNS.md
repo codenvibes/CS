@@ -67,11 +67,6 @@ Domain Name System
 <br>
 </div>
 
-<div>
-<br>
-<br>
-</div>
-
 ### Questions
 
 ##### 
