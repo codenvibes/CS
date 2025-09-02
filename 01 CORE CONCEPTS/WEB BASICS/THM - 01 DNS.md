@@ -212,9 +212,13 @@ Using the website on the right, we can build requests to make DNS queries and 
 
 ### Questions
 
-##### 
-##### 
-##### 
+##### What is the CNAME of shop.website.thm?
+
+##### What is the value of the TXT record of website.thm?
+
+##### What is the numerical priority value for the MX record?
+
+##### What is the IP address for the A record of www.website.thm?
 <div align="center">
 <br>
 <br>
