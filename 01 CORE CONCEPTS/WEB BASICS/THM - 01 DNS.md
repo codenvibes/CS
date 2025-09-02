@@ -205,7 +205,71 @@ authoritative
 ## 5. Practical
 
 Using the website on the right, we can build requests to make DNS queries and view the results. The website will also show you the command you'd need to run on your own computer if you wished to make the requests yourself.
-<div>
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+### #nslookup
+### 2. Run a basic lookup
+
+`nslookup example.com`
+
+🔎 This shows the **IP address** of the domain (`A` record).  
+You’ll see output like:
+
+`Server:  dns.google Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 93.184.216.34`
+
+- `Server` → The DNS server you’re asking.
+    
+- `Address` → Its IP.
+    
+- `Non-authoritative answer` → Means it’s from cache, not the official owner’s server.
+    
+- `Name / Address` → The actual mapping for the domain.
+    
+
+---
+
+### 3. Query specific record types
+
+You can tell `nslookup` what kind of record you want:
+
+`nslookup -type=A example.com     # IPv4 address nslookup -type=AAAA example.com  # IPv6 address nslookup -type=MX example.com    # Mail servers nslookup -type=NS example.com    # Name servers nslookup -type=TXT example.com   # Text records (SPF, DKIM, etc.)`
+
+---
+
+### 4. Interactive mode (optional)
+
+You can run `nslookup` by itself:
+
+`nslookup`
+
+Then you’ll get a prompt like:
+
+`>`
+
+Now you can type commands inside it:
+
+`> set type=MX > example.com`
+
+To exit, just type:
+
+`> exit`
+
+---
+
+⚡ Pro tip: If you want to use a **different DNS server** (instead of your computer’s default), you can specify it:
+
+`nslookup example.com 8.8.8.8`
+
+Here, `8.8.8.8` is Google’s public DNS.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 </div>
