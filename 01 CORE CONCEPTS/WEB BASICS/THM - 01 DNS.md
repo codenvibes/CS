@@ -135,7 +135,12 @@ DNS isn't just for websites though, and multiple types of DNS record exist. W
 
 ### Questions
 
-##### 
+##### What type of record would be used to advise where to send email?
+<div>
+<br>
+</div>
+
+##### What type of record handles IPv6 addresses?
 <div align="center">
 <br>
 <br>
