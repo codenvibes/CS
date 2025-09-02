@@ -171,16 +171,19 @@ AAAA
 ### Questions
 
 ##### What field specifies how long a DNS record should be cached for?
+TTL
 <div>
 <br>
 </div>
 
 ##### What type of DNS Server is usually provided by your ISP?
+recursive
 <div>
 <br>
 </div>
 
 ##### What type of server holds all the records for a domain?
+authoritative
 <div align="center">
 <br>
 <br>
