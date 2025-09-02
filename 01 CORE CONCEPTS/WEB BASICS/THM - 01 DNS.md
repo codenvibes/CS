@@ -224,14 +224,16 @@ nslookup example.com
 
 This shows the **IP address** of the domain (`A` record).  
 You’ll see output like:
-````
-`Server:  dns.google Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 93.184.216.34`
+
+```shell
+Server:  dns.google 
+Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 3.184.216.34
 
 - `Server` → The DNS server you’re asking.
 - `Address` → Its IP.
 - `Non-authoritative answer` → Means it’s from cache, not the official owner’s server.
 - `Name / Address` → The actual mapping for the domain.
-`
+
 ```
 <div>
 <br>
