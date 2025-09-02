@@ -227,14 +227,17 @@ You’ll see output like:
 
 ```shell
 Server:  dns.google 
-Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 3.184.216.34
+Address: 8.8.8.8  
+
+Non-authoritative answer: 
+Name:    example.com 
+Address: 3.184.216.34
+```
 
 - `Server` → The DNS server you’re asking.
 - `Address` → Its IP.
 - `Non-authoritative answer` → Means it’s from cache, not the official owner’s server.
 - `Name / Address` → The actual mapping for the domain.
-
-```
 <div>
 <br>
 </div>
@@ -242,8 +245,9 @@ Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 3.184.
 ##### Query specific record types
 
 You can tell `nslookup` what kind of record you want:
-
+```
 `nslookup -type=A example.com     # IPv4 address nslookup -type=AAAA example.com  # IPv6 address nslookup -type=MX example.com    # Mail servers nslookup -type=NS example.com    # Name servers nslookup -type=TXT example.com   # Text records (SPF, DKIM, etc.)`
+```
 <div>
 <br>
 </div>
