@@ -45,6 +45,8 @@ Domain Name System
 <div style="page-break-after: always;"></div>
 
 ## 2. Domain Hierarchy
+<div width="600" align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5c549500924ec576f953d9fc/room-content/a168c8511887fff98a6944619c4b5259.png"></div>
+
 <div>
 <br>
 <br>
