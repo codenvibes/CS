@@ -216,7 +216,7 @@ Using the website on the right, we can build requests to make DNS queries and 
 
 ### #nslookup
 
-#### Run a basic lookup
+##### Run a basic lookup
 
 `nslookup example.com`
 
@@ -226,25 +226,23 @@ You’ll see output like:
 `Server:  dns.google Address: 8.8.8.8  Non-authoritative answer: Name:    example.com Address: 93.184.216.34`
 
 - `Server` → The DNS server you’re asking.
-    
 - `Address` → Its IP.
-    
 - `Non-authoritative answer` → Means it’s from cache, not the official owner’s server.
-    
 - `Name / Address` → The actual mapping for the domain.
-    
+<div>
+<br>
+</div>
 
----
-
-#### Query specific record types
+##### Query specific record types
 
 You can tell `nslookup` what kind of record you want:
 
 `nslookup -type=A example.com     # IPv4 address nslookup -type=AAAA example.com  # IPv6 address nslookup -type=MX example.com    # Mail servers nslookup -type=NS example.com    # Name servers nslookup -type=TXT example.com   # Text records (SPF, DKIM, etc.)`
+<div>
+<br>
+</div>
 
----
-
-#### Interactive mode (optional)
+##### Interactive mode (optional)
 
 You can run `nslookup` by itself:
 
