@@ -99,6 +99,7 @@ DNS isn't just for websites though, and multiple types of DNS record exist. W
 <br>
 <br>
 </div>
+
 ==DEF-DNS records are entries in the **Domain Name System (DNS)** that tell the internet how to handle requests for a domain.==
 
 ### Scenario: You type **`www.example.com`** into your browser
@@ -212,8 +213,10 @@ Using the website on the right, we can build requests to make DNS queries and 
 <br>
 <br>
 </div>
+
 ### #nslookup
-### 2. Run a basic lookup
+
+#### Run a basic lookup
 
 `nslookup example.com`
 
@@ -233,7 +236,7 @@ You’ll see output like:
 
 ---
 
-### 3. Query specific record types
+#### Query specific record types
 
 You can tell `nslookup` what kind of record you want:
 
@@ -241,7 +244,7 @@ You can tell `nslookup` what kind of record you want:
 
 ---
 
-### 4. Interactive mode (optional)
+#### Interactive mode (optional)
 
 You can run `nslookup` by itself:
 
