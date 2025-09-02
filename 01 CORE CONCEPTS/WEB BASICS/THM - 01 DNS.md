@@ -6,6 +6,34 @@ DNS (Domain Name System) provides a simple way for us to communicate with devic
 <div align="center">
 <br>
 <br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+==**DEF-DNS** stands for **Domain Name System**. It's like the internet's phonebook. DNS translates **domain names** (like `www.google.com`) into **IP addresses** (like `142.250.190.68`) that computers use to identify each other on the network.
+Humans remember names like `example.com`, but computers talk using numbers (IP addresses). DNS makes it easier for us to browse the web without needing to memorize those numbers.==
+
+**How DNS works (basic steps):**
+1. **You type a website URL** in your browser (`www.example.com`).
+2. **Your computer asks a DNS server** to find the IP address of that domain.
+3. **The DNS server responds** with the IP address.
+4. **Your browser connects** to that IP address and loads the website.
+
+Think of DNS like your phone's contacts list:
+- You search for “Mom” (domain name).
+- Your phone finds her number (IP address) and calls her.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+<div align="center">
+<br>
+<br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
