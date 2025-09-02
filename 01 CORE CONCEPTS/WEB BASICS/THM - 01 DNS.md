@@ -153,7 +153,24 @@ AAAA
 <div style="page-break-after: always;"></div>
 
 ## 4. Making A Request
+<div>
+<br>
+<br>
+</div>
 
+### Questions
+
+##### What field specifies how long a DNS record should be cached for?
+<div>
+<br>
+</div>
+
+##### What type of DNS Server is usually provided by your ISP?
+<div>
+<br>
+</div>
+
+##### What type of server holds all the records for a domain?
 <div align="center">
 <br>
 <br>
