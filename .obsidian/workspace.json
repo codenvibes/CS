@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - 01 DNS"
             }
           },
           {
@@ -244,10 +244,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 03 HOW WEBSITES WORK.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
