@@ -1,10 +1,8 @@
 #HOW_THE_WEB_WORKS
 
 
-**DNS** stands for **Domain Name System**. It's like the internet's phonebook.
-
-DNS translates **domain names** (like `www.google.com`) into **IP addresses** (like `142.250.190.68`) that computers use to identify each other on the network.
-Humans remember names like `example.com`, but computers talk using numbers (IP addresses). DNS makes it easier for us to browse the web without needing to memorize those numbers.
+==**DEF-DNS** stands for **Domain Name System**. It's like the internet's phonebook. DNS translates **domain names** (like `www.google.com`) into **IP addresses** (like `142.250.190.68`) that computers use to identify each other on the network.
+Humans remember names like `example.com`, but computers talk using numbers (IP addresses). DNS makes it easier for us to browse the web without needing to memorize those numbers.==
 
 **How DNS works (basic steps):**
 1. **You type a website URL** in your browser (`www.example.com`).
