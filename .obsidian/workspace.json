@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 70.94753328112765,
+            "dimension": 36.05655930871956,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -33,7 +33,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 29.05246671887236,
+            "dimension": 63.94344069128044,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -245,8 +245,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
     "Pasted image 20250902170548.png",
     "Pasted image 20250902165147.png",
@@ -255,7 +256,6 @@
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 03 HOW WEBSITES WORK.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
     "Pasted image 20250901164752.png",
