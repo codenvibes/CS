@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 11. FILE INCLUSION"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -244,11 +244,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
     "08 TOOLS/PYTHON/PYTHON HTTP SERVER.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
     "Pasted image 20250908110807.png",
     "Pasted image 20250908105440.png",
     "Pasted image 20250908104034.png",
