@@ -73,12 +73,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 12. INTRO TO SSRF"
+                  "title": "THM - 13. INTRO TO CROSS-SITE SCRIPTING"
                 }
               }
             ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 12. INTRO TO SSRF"
+              "title": "Outline of THM - 13. INTRO TO CROSS-SITE SCRIPTING"
             }
           },
           {
@@ -246,9 +246,9 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
     "Pasted image 20250908213335.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
     "ASSETS/Pasted image 20250908195638.png",
     "ASSETS/Pasted image 20250908195428.png",
     "ASSETS/Pasted image 20250908195229.png",
@@ -258,7 +258,6 @@
     "ASSETS/Pasted image 20250908104034.png",
     "ASSETS/Pasted image 20250908103725.png",
     "Pasted image 20250908195638.png",
-    "Pasted image 20250908195428.png",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/PYTHON/PYTHON HTTP SERVER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
