@@ -97,7 +97,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,11 +259,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "COURSES.md",
-    "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
     "README.md",
+    "COURSES.md",
+    "WHITE-BOARD/TODO.md",
+    "02 SECURITY FOUNDATIONS/THM - 04. PENTENSTING FUNDAMENTALS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 14. RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
@@ -296,7 +297,6 @@
     "03 RECONNAISSANCE & ENUMERATION/OSINT/SSL TLS CERTIFICATES.md",
     "03 RECONNAISSANCE & ENUMERATION/OSINT/00 OSINT.md",
     "08 TOOLS/GOBUSTER.md",
-    "08 TOOLS/DIRB.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
