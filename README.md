@@ -48,10 +48,8 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 
 ## COURSES
 
-<details>
-	<summary><h3>THM JR PENETRATION TESTER</h3></summary>
-	<p>text</p>
-</details>
+
+### THM JR PENETRATION TESTER
 <div>
 <br>
 <br>
