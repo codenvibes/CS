@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#THMLP-JR_PENETRATION_TESTER",
+                "query": "#THM_JR_PENETRATION_TESTER",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -153,7 +153,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM - 09. AUTHENTICATION BYPASS"
             }
           },
           {
@@ -259,11 +260,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
+    "COURSES.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
-    "COURSES.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
     "WHITE-BOARD/WHITE-BOARD.md",
