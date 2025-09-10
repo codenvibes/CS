@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - SUBDOMAIN ENUMERATION"
+                  "title": "THM - 09. AUTHENTICATION BYPASS"
                 }
               }
             ],
@@ -261,6 +261,7 @@
   },
   "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
     "COURSES.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
@@ -290,7 +291,6 @@
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 03 HOW WEBSITES WORK.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 10. IDOR.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 09. AUTHENTICATION BYPASS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
     "WHITE-BOARD/GOOGLE DORKING.md",
     "TEMPLATES/ADDED NOTES.md",
