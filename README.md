@@ -47,6 +47,8 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 </div>
 
 ## COURSES
+
+<details
 <div>
 <br>
 <br>
