@@ -42,8 +42,7 @@
                   "title": "THM - WALKING AN APPLICATION"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,11 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "COURSES.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "README.md",
     "WHITE-BOARD/TODO.md",
