@@ -37,7 +37,7 @@ The notes are organized into the following domains:
 <br>
 </div>
 
-## 🚩 CTFS COMPLETED
+## 🚩 CTFS
 
 A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge includes a brief summary and a link to the full write-up in the [13 CTFS/](https://github.com/codenvibes/CS/tree/master/13_CTFS/2025_H4K-IT_CYBERSECURITY) folder.
 
@@ -45,10 +45,7 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 | ---- | ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
 |      |                                                  |                     |          |        |                                           |
 | 2025 | [H4K-IT](https://simulations.h4k-it.com/games/9) | H4K-IT Bootcamp CTF | Beginner | ✅ Done | [View](13_CTFS/2025_H4K-IT_CYBERSECURITY) |
-<div align="center">
-<br>
-<br>
-</div>
+## COURSES
 
 ## 🚀 GOALS
 
