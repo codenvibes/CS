@@ -45,6 +45,7 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 | ---- | ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
 |      |                                                  |                     |          |        |                                           |
 | 2025 | [H4K-IT](https://simulations.h4k-it.com/games/9) | H4K-IT Bootcamp CTF | Beginner | ✅ Done | [View](13_CTFS/2025_H4K-IT_CYBERSECURITY) |
+
 ## COURSES
 
 ## 🚀 GOALS
