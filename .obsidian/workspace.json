@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 15. RACE CONDITIONS"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,12 +259,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 15. RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
