@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - COMMAND INJECTION"
             }
           },
           {
@@ -258,14 +258,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
     "Pasted image 20250910172321.png",
     "Pasted image 20250910172042.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "COURSES.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
