@@ -29,10 +29,7 @@ The notes are organized into the following domains:
 </div>
 
 > Notes are updated daily based on my learning progress.
-<div align="center">
-<br>
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+<div>
 <br>
 <br>
 </div>
@@ -45,19 +42,13 @@ A list of Capture The Flag (CTF) challenges I’ve worked on. Each challenge inc
 | ---- | ------------------------------------------------ | ------------------- | -------- | ------ | ----------------------------------------- |
 |      |                                                  |                     |          |        |                                           |
 | 2025 | [H4K-IT](https://simulations.h4k-it.com/games/9) | H4K-IT Bootcamp CTF | Beginner | ✅ Done | [View](13_CTFS/2025_H4K-IT_CYBERSECURITY) |
-<div align="center">
-<br>
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+<div>
 <br>
 <br>
 </div>
 
 ## COURSES
-<div align="center">
-<br>
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
+<div>
 <br>
 <br>
 </div>
