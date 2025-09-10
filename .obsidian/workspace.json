@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 13. INTRO TO CROSS-SITE SCRIPTING"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -244,11 +244,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
     "Pasted image 20250910114247.png",
     "Pasted image 20250910114202.png",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
     "Pasted image 20250910103434.png",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
@@ -260,7 +260,6 @@
     "ASSETS/Pasted image 20250908195033.png",
     "ASSETS/Pasted image 20250908194811.png",
     "ASSETS/Pasted image 20250908110807.png",
-    "ASSETS/Pasted image 20250908104034.png",
     "08 TOOLS/PYTHON/PYTHON HTTP SERVER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
