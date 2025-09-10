@@ -25,7 +25,6 @@ The notes are organized into the following domains:
 ├── [13 CTFS](https://github.com/codenvibes/CS/tree/master/13_CTFS/2025_H4K-IT_CYBERSECURITY)
 <div align="center">
 <br>
-<br>
 </div>
 
 > Notes are updated daily based on my learning progress.
