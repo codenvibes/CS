@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 13. INTRO TO CROSS-SITE SCRIPTING"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -244,8 +244,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - 13. INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 12. INTRO TO SSRF.md",
     "Pasted image 20250908213335.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - 11. FILE INCLUSION.md",
