@@ -259,8 +259,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20250910172321.png",
+    "ASSETS/Pasted image 20250910172042.png",
+    "ASSETS/Pasted image 20250910114247.png",
+    "ASSETS/Pasted image 20250910103434.png",
+    "ASSETS/Pasted image 20250908213335.png",
     "08 TOOLS/BURP SUITE",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
@@ -288,10 +293,6 @@
     "Pasted image 20250910114202.png",
     "Pasted image 20250910103434.png",
     "Pasted image 20250908213335.png",
-    "ASSETS/Pasted image 20250908195638.png",
-    "ASSETS/Pasted image 20250908195428.png",
-    "ASSETS/Pasted image 20250908195229.png",
-    "ASSETS/Pasted image 20250908195033.png",
     "08 TOOLS/PYTHON/PYTHON HTTP SERVER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
@@ -306,7 +307,6 @@
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/TERRENCE MK REPORT FINAL.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/PRESENTATION.pdf",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS",
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS",
     "Untitled.canvas"
   ]
 }
