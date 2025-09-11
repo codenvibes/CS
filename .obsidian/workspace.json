@@ -42,7 +42,8 @@
                   "title": "COURSES"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -260,15 +261,15 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "TEMPLATES/REFERENCES & TAGS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES.md",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
     "ASSETS/Pasted image 20250910114247.png",
