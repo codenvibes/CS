@@ -88,12 +88,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
+                    "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - BURP SUITE INTRUDER"
+                  "title": "THM - BURP SUITE THE BASICS"
                 }
               }
             ],
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
+                "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - BURP SUITE INTRUDER"
+              "title": "Outline of THM - BURP SUITE THE BASICS"
             }
           },
           {
@@ -261,12 +261,12 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "COURSES.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "TEMPLATES/REFERENCES & TAGS.md",
