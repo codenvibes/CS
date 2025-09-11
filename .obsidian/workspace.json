@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - SQL INJECTION"
             }
           },
           {
@@ -258,8 +258,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS",
     "COURSES.md",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
@@ -270,7 +276,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "Pasted image 20250910172321.png",
     "Pasted image 20250910172042.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
@@ -300,11 +305,6 @@
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
     "13_CTFS_&_LABS/CTFS",
-    "12 AI SECURITY FUNDAMENTALS",
-    "13 CTFS",
-    "13 CTFS/2025_H4K-IT_CYBERSECURITY/TERRENCE MK REPORT FINAL.pdf",
-    "13 CTFS/2025_H4K-IT_CYBERSECURITY/PRESENTATION.pdf",
-    "09 SOFT SKILLS & CAREER/CAREERS IN CS",
     "Untitled.canvas"
   ]
 }
