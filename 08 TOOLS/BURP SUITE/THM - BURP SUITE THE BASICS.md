@@ -129,14 +129,6 @@ Install Burp Suite using the appropriate method for your operating system. On 
 The installation wizard provides clear instructions, and it is generally safe to accept the default settings. However, it is always recommended to review the installer carefully.
 
 With Burp Suite successfully installed, you can now launch the application. In the next task, we will explore the initial setup and configuration.
-<div>
-<br>
-<br>
-</div>
-
-### Questions
-
-##### 
 <div align="center">
 <br>
 <br>
