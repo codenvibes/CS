@@ -86,7 +86,11 @@ Beyond the built-in features, the Java codebase of Burp Suite facilitates the 
 
 ### Questions
 
-##### 
+##### Which Burp Suite feature allows us to intercept requests between ourselves and the target?
+Proxy
+
+##### Which Burp tool would we use to brute-force a login form?
+Intruder
 <div align="center">
 <br>
 <br>
