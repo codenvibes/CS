@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - BURP SUITE EXTENSIONS"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,12 +259,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
