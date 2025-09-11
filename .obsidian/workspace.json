@@ -42,8 +42,7 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES.md",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
     "ASSETS/Pasted image 20250910114247.png",
@@ -273,7 +273,6 @@
     "WHITE-BOARD/WHITE-BOARD.md",
     "Pasted image 20250910172321.png",
     "Pasted image 20250910172042.png",
-    "COURSES.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
@@ -292,7 +291,6 @@
     "Pasted image 20250910114247.png",
     "Pasted image 20250910114202.png",
     "Pasted image 20250910103434.png",
-    "Pasted image 20250908213335.png",
     "08 TOOLS/PYTHON/PYTHON HTTP SERVER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 04 PUTTING IT ALL TOGETHER.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
