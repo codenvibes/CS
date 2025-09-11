@@ -53,7 +53,11 @@ Due to requiring a license for the Professional and Enterprise editions, we will
 
 ### Questions
 
-##### 
+##### Which edition of Burp Suite runs on a server and provides constant scanning for target web apps?
+Burp Suite Enterprise
+
+##### Burp Suite is frequently used when attacking web applications and ______ applications.
+Mobile
 <div align="center">
 <br>
 <br>
