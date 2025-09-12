@@ -42,7 +42,8 @@
                   "title": "COURSES"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -219,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -258,12 +259,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
+    "COURSES.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
@@ -273,9 +276,7 @@
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/NMAP/THM - NMAP BASIC PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/NMAP",
-    "COURSES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "08 TOOLS/METASPLOIT",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
