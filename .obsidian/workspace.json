@@ -34,15 +34,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRET.md",
+                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - METASPLOIT METERPRET"
+                  "title": "THM - METASPLOIT METERPRETER"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -219,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - METASPLOIT METERPRETER"
             }
           },
           {
@@ -258,11 +259,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRET.md",
-    "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
+    "COURSES.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
