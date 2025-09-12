@@ -34,16 +34,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES.md",
+                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRET.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "COURSES"
+                  "title": "THM - METASPLOIT METERPRET"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,17 +258,17 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRET.md",
+    "COURSES.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "08 TOOLS/METASPLOIT",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
-    "COURSES.md",
     "TEMPLATES/REFERENCES & TAGS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
