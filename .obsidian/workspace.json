@@ -131,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Nmap",
+                "query": "escalation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -152,7 +152,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -260,9 +261,10 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/00 TOOLS.md",
     "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
