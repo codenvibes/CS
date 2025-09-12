@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/METASPLOIT/HTB - METASPLOIT FRAMEWORK.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - METASPLOIT FRAMEWORK"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "08 TOOLS/METASPLOIT/HTB - METASPLOIT FRAMEWORK.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES.md",
@@ -290,7 +291,6 @@
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
     "ASSETS/Pasted image 20250910114247.png",
