@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - METASPLOIT EXPLOITATION"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,11 +258,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/00 TOOLS.md",
@@ -288,8 +291,6 @@
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
     "ASSETS/Pasted image 20250910114247.png",
