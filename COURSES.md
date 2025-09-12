@@ -44,11 +44,14 @@
 
 ### #THMMOD-VULNERABILITY_RESEARCH
 
-
+28. [[]]
+29. [[]]
+30. [[]]
 
 ### #THMMOD-METASPLOIT
 
-
+[[]]
 
 ### #THMMOD-PRIVILEGE_ESCALATION
 
+[[]]
