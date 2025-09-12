@@ -51,6 +51,8 @@
 ### #THMMOD-METASPLOIT
 
 [[]]
+[[]]
+[[]]
 
 ### #THMMOD-PRIVILEGE_ESCALATION
 

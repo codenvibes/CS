@@ -42,7 +42,8 @@
                   "title": "COURSES"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -219,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -258,15 +259,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRET.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "08 TOOLS/METASPLOIT",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "COURSES.md",
     "TEMPLATES/REFERENCES & TAGS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
@@ -292,8 +296,6 @@
     "ASSETS/Pasted image 20250910103434.png",
     "ASSETS/Pasted image 20250908213335.png",
     "08 TOOLS/BURP SUITE",
-    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
     "Pasted image 20250910172321.png",
     "Pasted image 20250910172042.png",
     "Pasted image 20250910114247.png",
