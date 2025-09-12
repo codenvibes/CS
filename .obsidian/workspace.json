@@ -87,7 +87,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/HTB - METASPLOIT FRAMEWORK.md",
+                    "file": "08 TOOLS/METASPLOIT/HTB - METASPLOIT FRAMEWORK.md",
                     "mode": "source",
                     "source": false
                   },
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/HTB - METASPLOIT FRAMEWORK.md",
+                "file": "08 TOOLS/METASPLOIT/HTB - METASPLOIT FRAMEWORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -258,7 +258,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "WHITE-BOARD/WHITE-BOARD.md",
