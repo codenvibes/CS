@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#BURP_SUITE",
+                "query": "passive",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -153,7 +153,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -259,7 +260,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
