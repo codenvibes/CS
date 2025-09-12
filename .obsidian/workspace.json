@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - CAREERS IN CYBER"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,11 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
-    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES.md",
     "08 TOOLS/METASPLOIT/HTB - METASPLOIT FRAMEWORK.md",
