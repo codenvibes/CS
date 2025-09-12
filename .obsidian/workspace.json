@@ -42,8 +42,7 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,13 +258,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
-    "COURSES.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
