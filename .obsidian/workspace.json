@@ -131,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#THMMOD-NETWORK_SECURITY",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - NET SEC CHALLENGE"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,8 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PROTOCOLS AND SERVERS 2.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PROTOCOLS AND SERVERS.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NMAP POST PORT SCANS.md",
@@ -269,8 +272,6 @@
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
@@ -279,7 +280,6 @@
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/00 TOOLS.md",
-    "COURSES.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "TEMPLATES/REFERENCES & TAGS.md",
     "ASSETS/Pasted image 20250910172321.png",
