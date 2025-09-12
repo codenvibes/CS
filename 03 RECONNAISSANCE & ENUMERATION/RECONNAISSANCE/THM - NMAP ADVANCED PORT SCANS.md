@@ -1,132 +1,95 @@
 #THMLP-JR_PENETRATION_TESTER #THMMOD-NETWORK_SECURITY
 
-Task 1
-Introduction
+## 1. Introduction
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 2. TCP Null Scan, FIN Scan, and Xmas Scan
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 3. TCP Maimon Scan
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 4. TCP ACK, Window, and Custom Scan
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 5. Spoofing and Decoys
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 6. Fragmented Packets
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 7. Idle/Zombie Scan
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 8. Getting More Details
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## 9. Summary
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-
-
-
-
-
-
-
-Task 2
-TCP Null Scan, FIN Scan, and Xmas Scan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Task 3
-TCP Maimon Scan
-
-
-
-
-
-Task 4
-TCP ACK, Window, and Custom Scan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Task 5
-Spoofing and Decoys
-
-
-
-
-
-
-
-
-
-
-
-Task 6
-Fragmented Packets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Task 7
-Idle/Zombie Scan
-
-
-
-
-
-
-
-
-
-
-
-
-Task 8
-Getting More Details
-
-
-
-
-
-Task 9
-Summary
 ## References
 
 https://tryhackme.com/room/nmap03
