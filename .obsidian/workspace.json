@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "passive",
+                "query": "Reconnaissance",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
