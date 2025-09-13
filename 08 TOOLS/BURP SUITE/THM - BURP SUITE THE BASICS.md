@@ -243,7 +243,6 @@ Before diving into the Burp Proxy, let's explore the available options for conf
     
     Below is the image showing the separate settings window.
     ![Separate settings window](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/8a6df0ac968a5c33e91903b350253b6b.png)
-    
 
 In the Settings window, you will find a menu on the left-hand side. This menu allows you to switch between different types of settings, including:
 
