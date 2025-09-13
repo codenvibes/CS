@@ -411,6 +411,7 @@ Visit this in your browser (or use the "Response" section of the site map entry 
 ### Questions
 
 ##### What is the flag you receive after visiting the unusual endpoint?
+THM{NmNlZTliNGE1MWU1ZTQzMzgzNmFiNWVk}
 <div align="center">
 <br>
 <br>
