@@ -271,8 +271,8 @@ Take some time to familiarize yourself with the range of configurable options in
 ##### In which category can you find a reference to a "Cookie jar"?
 **Sessions**
 
-##### In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour?
-
+##### In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behavior?
+**Sessions**
 
 ##### What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite?
 
