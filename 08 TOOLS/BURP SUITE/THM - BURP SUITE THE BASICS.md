@@ -202,7 +202,6 @@ Here's how the navigation works:
 3. **Detaching Tabs**: If you prefer to view multiple tabs separately, you can detach them into separate windows. To do this, go to the **Window** option in the application menu above the **Module Selection** bar. From there, choose the "Detach" option, and the selected tab will open in a separate window. The detached tabs can be reattached using the same method.
     
     ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/87c7b704d11abbed8e059a0d33672613.png)
-    
 
 Burp Suite also provides keyboard shortcuts for quick navigation to key tabs. By default, the following shortcuts are available:
 
