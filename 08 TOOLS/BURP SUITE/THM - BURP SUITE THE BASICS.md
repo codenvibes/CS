@@ -275,7 +275,7 @@ Take some time to familiarize yourself with the range of configurable options in
 **Sessions**
 
 ##### What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite?
-
+Hotkeys
 
 ##### If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)?
 <div align="center">
