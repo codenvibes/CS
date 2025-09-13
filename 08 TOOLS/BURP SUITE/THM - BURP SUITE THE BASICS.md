@@ -239,11 +239,9 @@ Before diving into the Burp Proxy, let's explore the available options for conf
 - **Project Settings**: These settings are specific to the current project and apply only during the session. However, please note that Burp Suite Community Edition does not support saving projects, so any project-specific options will be lost when you close Burp.
 	
 	To access the settings, click on the **Settings** button in the top navigation bar. This will open a separate settings window.
-    
     ![Settings button to open the separate settings window](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/40a3ea01d6eadc91d98499c3f921c90f.png)
     
     Below is the image showing the separate settings window.
-    
     ![Separate settings window](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/8a6df0ac968a5c33e91903b350253b6b.png)
     
 
