@@ -235,10 +235,10 @@ Proxy tab
 Before diving into the Burp Proxy, let's explore the available options for configuring Burp Suite. There are two types of settings: Global settings (also known as User settings) and Project settings.
 
 - **Global Settings**: These settings affect the entire Burp Suite installation and are applied every time you start the application. They provide a baseline configuration for your Burp Suite environment.
-    
+
 - **Project Settings**: These settings are specific to the current project and apply only during the session. However, please note that Burp Suite Community Edition does not support saving projects, so any project-specific options will be lost when you close Burp.
-    
-    To access the settings, click on the **Settings** button in the top navigation bar. This will open a separate settings window.
+	
+	To access the settings, click on the **Settings** button in the top navigation bar. This will open a separate settings window.
     
     ![Settings button to open the separate settings window](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/40a3ea01d6eadc91d98499c3f921c90f.png)
     
