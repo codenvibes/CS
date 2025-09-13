@@ -410,8 +410,7 @@ Visit this in your browser (or use the "Response" section of the site map entry 
 <br>
 <br>
 </div>
-
-INSERT NOTES HERE
+<div align="center"><br><img src="Pasted image 20250913165044.png"></div>
 <div align="center">
 <br>
 <br>
