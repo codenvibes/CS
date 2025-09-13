@@ -268,7 +268,10 @@ Take some time to familiarize yourself with the range of configurable options in
 
 ### Questions
 
-##### 
+##### In which category can you find a reference to a "Cookie jar"?
+##### In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour?
+##### What is the name of the sub-category which allows you to change the keybindings for shortcuts in Burp Suite?
+##### If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)?
 <div align="center">
 <br>
 <br>
