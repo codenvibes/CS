@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 20,
+            "dimension": 54.21591804570528,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -42,13 +42,12 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 80,
+            "dimension": 45.78408195429472,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - INTRO TO SSRF"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,11 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
     "Pasted image 20250913100139.png",
     "08 TOOLS/00 TOOLS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
     "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -301,7 +300,6 @@
     "Pasted image 20250910172321.png",
     "Pasted image 20250910172042.png",
     "Pasted image 20250910114247.png",
-    "Pasted image 20250910114202.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
