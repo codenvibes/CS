@@ -256,12 +256,11 @@ In the Settings window, you will find a menu on the left-hand side. This menu al
 
 It's worth noting that many tools within Burp Suite provide shortcuts to specific categories of settings. For example, the **Proxy** module includes a **Proxy settings** button that opens the settings window directly to the relevant proxy section.
 
-![Proxy settings button that opens the settings window directly to the
-relevant proxy section](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/09211709d4034aa42ce403780ca12ba0.png)
+![[Pasted image 20250913110133.png]]
 
 The search feature on the settings page is a valuable addition, allowing you to quickly search for settings using keywords.
 
-Take some time to familiarise yourself with the range of configurable options in Burp Suite. Once you are comfortable, you can proceed with the exercises related to configuring Burp Suite settings.
+Take some time to familiarize yourself with the range of configurable options in Burp Suite. Once you are comfortable, you can proceed with the exercises related to configuring Burp Suite settings.
 <div>
 <br>
 <br>
