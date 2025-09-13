@@ -25,6 +25,7 @@ _**Important Notice**: Please note that if you're not subscribed, the AttackBox 
 <div style="page-break-after: always;"></div>
 
 ## 2. Web Browser
+
 <div align="center">
 <br>
 <br>
