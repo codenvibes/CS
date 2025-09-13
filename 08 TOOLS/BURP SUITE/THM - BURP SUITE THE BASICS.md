@@ -485,7 +485,8 @@ Enabling this option ensures that the proxy completely ignores any traffic tha
 
 ### Questions
 
-##### 
+##### Add `http://10.10.42.160/` to your scope and change the proxy settings to only intercept traffic to in-scope targets.<br>See the difference between the amount of traffic getting caught by the proxy before and after limiting the scope.
+
 <div align="center">
 <br>
 <br>
