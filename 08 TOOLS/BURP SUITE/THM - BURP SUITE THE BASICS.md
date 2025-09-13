@@ -278,6 +278,7 @@ Take some time to familiarize yourself with the range of configurable options in
 Hotkeys
 
 ##### If we have uploaded Client-Side TLS certificates, can we override these on a per-project basis (yea/nay)?
+yea
 <div align="center">
 <br>
 <br>
