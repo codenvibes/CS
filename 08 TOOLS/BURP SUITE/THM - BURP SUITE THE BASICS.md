@@ -394,6 +394,9 @@ The **Target** tab in Burp Suite provides more than just control over the sc
 3. **Scope settings**: This setting allows us to control the target scope in Burp Suite. It enables us to include or exclude specific domains/IPs to define the scope of our testing. By managing the scope, we can focus on the web applications we are specifically targeting and avoid capturing unnecessary traffic.
 
 Overall, the **Target** tab offers features beyond scoping, allowing us to map out web applications, fine-tune our target scope, and access a comprehensive list of web vulnerabilities for reference purposes.
+<div>
+<br>
+</div>
 
 #### Challenge
 
