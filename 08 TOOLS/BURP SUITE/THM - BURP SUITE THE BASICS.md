@@ -269,7 +269,7 @@ Take some time to familiarize yourself with the range of configurable options in
 ### Questions
 
 ##### In which category can you find a reference to a "Cookie jar"?
-
+**Sessions**
 
 ##### In which base category can you find the "Updates" sub-category, which controls the Burp Suite update behaviour?
 
