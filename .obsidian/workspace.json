@@ -42,8 +42,7 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - BURP SUITE THE BASICS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "Pasted image 20250913165044.png",
     "Pasted image 20250913110133.png",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
@@ -290,7 +290,6 @@
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "TEMPLATES/REFERENCES & TAGS.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
@@ -301,7 +300,6 @@
     "ASSETS/Pasted image 20250908213335.png",
     "08 TOOLS/BURP SUITE",
     "Pasted image 20250910172321.png",
-    "Pasted image 20250910172042.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
     "ASSETS/login-logs_1595366583422.txt",
