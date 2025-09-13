@@ -403,7 +403,19 @@ Overall, the **Target** tab offers features beyond scoping, allowing us to map
 Take a look around the site on `http://10.10.42.160/` — we will be using this a lot throughout the module. Visit every other page that is linked on the homepage, then check your sitemap — one endpoint should stand out as being very unusual!
 
 Visit this in your browser (or use the "Response" section of the site map entry for that endpoint)
-<div>
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+INSERT NOTES HERE
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
 <br>
 <br>
 </div>
