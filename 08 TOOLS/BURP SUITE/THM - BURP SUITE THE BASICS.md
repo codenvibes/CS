@@ -177,7 +177,8 @@ By exploring the different tabs and functionalities of Burp Suite, you will gra
 
 ### Questions
 
-##### 
+##### What menu provides information about the actions performed by Burp Suite, such as starting the proxy, and details about connections made through Burp?
+Event log
 <div align="center">
 <br>
 <br>
