@@ -595,10 +595,10 @@ Password: Password1
 ##### What is the name of the share likely created by the user?
 ##### What is the NTLM hash of the jchambers user?
 ##### What is the cleartext password of the jchambers user?
-##### 
-##### 
-##### 
-##### 
+##### Where is the "secrets.txt"  file located? (Full path of the file)
+##### What is the Twitter password revealed in the "secrets.txt" file?
+##### Where is the "realsecret.txt" file located? (Full path of the file)
+##### What is the real secret?
 <div align="center">
 <br>
 <br>
