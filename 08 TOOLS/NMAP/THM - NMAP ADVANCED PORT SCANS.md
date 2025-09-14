@@ -133,8 +133,6 @@ The following two figures show the case when the TCP port is open and the case
 
 The console output below shows an example of a Xmas scan against a Linux server. The obtained results are pretty similar to that of the null scan and the FIN scan.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sX MACHINE_IP
 
@@ -162,7 +160,11 @@ One scenario where these three scan types can be efficient is when scanning a ta
 
 ### Questions
 
-##### 
+##### In a null scan, how many flags are set to 1?
+##### In a FIN scan, how many flags are set to 1?
+##### In a Xmas scan, how many flags are set to 1?
+##### Start the VM and load the AttackBox. Once both are ready, open the terminal on the AttackBox and use nmap to launch a FIN scan against the target VM. How many ports appear as open|filtered?
+##### Repeat your scan launching a null scan against the target VM. How many ports appear as open|filtered?
 <div align="center">
 <br>
 <br>
