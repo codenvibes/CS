@@ -390,20 +390,20 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 17.38 seconds
 
 Let’s take a closer look at what happened behind the scenes by looking at the network traffic on Wireshark in the figure below. Technically speaking, since we didn’t specify any TCP ports to use in the TCP ping scan, Nmap used common ports; in this case, it is TCP port 80. Any service listening on port 80 is expected to reply, indirectly indicating that the host is online.
 <div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/e580a3279be3798ddb78f61a9ee21587.png"></div>
+<div>
+<br>
+</div>
 
-**TCP ACK Ping**
+### TCP ACK Ping
 
 As you have guessed, this sends a packet with an ACK flag set. You must be running Nmap as a privileged user to be able to accomplish this. If you try it as an unprivileged user, Nmap will attempt a 3-way handshake.
 
 By default, port 80 is used. The syntax is similar to TCP SYN ping. `-PA` should be followed by a port number, range, list, or a combination of them. For example, consider `-PA21`, `-PA21-25` and `-PA80,443,8080`. If no port is specified, port 80 will be used.
 
 The following figure shows that any TCP packet with an ACK flag should get a TCP packet back with an RST flag set. The target responds with the RST flag set because the TCP packet with the ACK flag is not part of any ongoing connection. The expected response is used to detect if the target host is up.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/db5ab44a8c700c4ab0603e85e456040d.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/db5ab44a8c700c4ab0603e85e456040d.png"></div>
 
 In this example, we run `sudo nmap -PA -sn MACHINE_IP/24` to discover the online hosts on the target’s subnet. We can see that the TCP ACK ping scan detected five hosts as up.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ sudo nmap -PA -sn 10.10.68.220/24
@@ -423,7 +423,7 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 29.89 seconds
 
 If we peek at the network traffic as shown in the figure below, we will discover many packets with the ACK flag set and sent to port 80 of the target systems. Nmap sends each packet twice. The systems that don’t respond are offline or inaccessible.
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/6ccdba7337684b8e8f532a23c5259ffc.png)
+![]()
 
 **UDP Ping**
 
