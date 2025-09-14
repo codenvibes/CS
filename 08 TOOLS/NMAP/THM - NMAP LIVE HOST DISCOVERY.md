@@ -454,10 +454,12 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 9.20 seconds
 ```
 
 Let’s inspect the UDP packets generated. In the following Wireshark screenshot, we notice Nmap sending UDP packets to UDP ports that are most likely closed. The image below shows that Nmap uses an uncommon UDP port to trigger an ICMP destination unreachable (port unreachable) error.
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/2417b8b03f00fe5f589a08d9e6e62209.png"></div>
+<div>
+<br>
+</div>
 
-![]()
-
-**Masscan**
+### Masscan
 
 On a side note, Masscan uses a similar approach to discover the available systems. However, to finish its network scan quickly, Masscan is quite aggressive with the rate of packets it generates. The syntax is quite similar: `-p` can be followed by a port number, list, or range. Consider the following examples:
 
@@ -465,7 +467,6 @@ On a side note, Masscan uses a similar approach to discover the available system
 - `masscan MACHINE_IP/24 -p80,443`
 - `masscan MACHINE_IP/24 -p22-25`
 - `masscan MACHINE_IP/24 ‐‐top-ports 100`
-    
 
 Masscan is not installed on the AttackBox; however, it can be installed using `apt install masscan`.
 <div>
@@ -475,6 +476,8 @@ Masscan is not installed on the AttackBox; however, it can be installed using `
 
 ### Questions
 
+##### 
+##### 
 ##### 
 <div align="center">
 <br>
