@@ -133,10 +133,10 @@ If you have closed the network simulator, click on the “View Site” button in
 
 ### Questions
 
-##### Send a packet with the following:<br>- From computer1<br>- To computer3<br>- Packet Type: “Ping Request”<br>What is the type of packet that computer1 sent before the ping?
+##### Send a packet with the following:<br> - From computer1<br> - To computer3<br> - Packet Type: “Ping Request”<br>What is the type of packet that computer1 sent before the ping?
 ##### What is the type of packet that computer1 received before being able to send the ping?
 ##### How many computers responded to the ping request?
-##### Send a packet with the following:<br>- From computer2<br>- To computer5<br>- Packet Type: “Ping Request”<br>What is the name of the first device that responded to the first ARP Request?
+##### Send a packet with the following:<br> - From computer2<br> - To computer5<br> - Packet Type: “Ping Request”<br>What is the name of the first device that responded to the first ARP Request?
 ##### What is the name of the first device that responded to the second ARP Request?
 ##### Send another Ping Request. Did it require new ARP Requests? (Y/N)
 <div align="center">
@@ -214,14 +214,7 @@ If you have closed the network simulator, click on the “Visit Site” button i
 
 ### Questions
 
-##### We will be sending broadcast ARP Requests packets with the following options:
-
-- From computer1
-- To computer1 (to indicate it is broadcast)
-- Packet Type: “ARP Request”
-- Data: try all the possible eight devices (other than computer1) in the network: computer2, computer3, computer4, computer5, computer6, switch1, switch2, and router.
-
-How many devices are you able to discover using ARP requests?
+##### We will be sending broadcast ARP Requests packets with the following options:<br>- From computer1<br>- To computer1 (to indicate it is broadcast)<br>- Packet Type: “ARP Request”<br>- Data: try all the possible eight devices (other than computer1) in the network: computer2, computer3, computer4, computer5, computer6, switch1, switch2, and router.<br>How many devices are you able to discover using ARP requests?
 <div align="center">
 <br>
 <br>
