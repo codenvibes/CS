@@ -170,8 +170,6 @@ exploits/
 
 NOPs (No OPeration) do nothing, literally. They are represented in the Intel x86 CPU family with 0x90, following which the CPU will do nothing for one cycle. They are often used as a buffer to achieve consistent payload sizes.
 
-Terminal
-
 ```markup
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 1 nops/
 nops/
@@ -188,16 +186,17 @@ nops/
 
 10 directories, 0 files
 ```
+<div>
+<br>
+</div>
 
-Payloads
+### Payloads
 
 Payloads are codes that will run on the target system.
 
 Exploits will leverage a vulnerability on the target system, but to achieve the desired result, we will need a payload. Examples could be; getting a shell, loading a malware or backdoor to the target system, running a command, or launching calc.exe as a proof of concept to add to the penetration test report. Starting the calculator on the target system remotely by launching the calc.exe application is a benign way to show that we can run commands on the target system.
 
 Running command on the target system is already an important step but having an interactive connection that allows you to type commands that will be executed on the target system is better. Such an interactive command line is called a "shell". Metasploit offers the ability to send different payloads that can open shells on the target system.
-
-Terminal
 
 ```markup
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 1 payloads/
@@ -213,9 +212,11 @@ payloads/
 You will see four different directories under payloads: adapters, singles, stagers and stages.
 
 - **Adapters:** An adapter wraps single payloads to convert them into different formats. For example, a normal single payload can be wrapped inside a Powershell adapter, which will make a single powershell command that will execute the payload.  
-    
+
 - **Singles:** Self-contained payloads (add user, launch notepad.exe, etc.) that do not need to download an additional component to run.
+
 - **Stagers:** Responsible for setting up a connection channel between Metasploit and the target system. Useful when working with staged payloads. “Staged payloads” will first upload a stager on the target system then download the rest of the payload (stage). This provides some advantages as the initial size of the payload will be relatively small compared to the full payload sent at once.
+
 - **Stages:** Downloaded by the stager. This will allow you to use larger sized payloads.
 
 Metasploit has a subtle way to help you identify single (also called “inline”) payloads and staged payloads.
