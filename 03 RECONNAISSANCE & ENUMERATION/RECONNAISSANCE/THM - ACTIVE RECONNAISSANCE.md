@@ -134,7 +134,16 @@ Generally speaking, when we don’t get a ping reply back, there are a few expla
 
 ### Questions
 
-##### 
+##### Which option would you use to set the size of the data carried by the ICMP echo request?
+-s
+
+##### What is the size of the ICMP header in bytes?
+
+
+##### Does MS Windows Firewall block ping by default? (Y/N)
+
+
+##### Deploy the VM for this task and using the AttackBox terminal, issue the command `ping -c 10 MACHINE_IP`. How many ping replies did you get back?
 <div align="center">
 <br>
 <br>
