@@ -284,10 +284,7 @@ Because FTP sends the login credentials along with the commands and files in c
 
 ### Questions
 
-##### Using an FTP client, connect to the VM and try to recover the flag file. What is the flag?
-
-- Username: frank
-- Password: D2xc9CgD
+##### Using an FTP client, connect to the VM and try to recover the flag file. What is the flag?<br><br>- Username: frank<br>- Password: D2xc9CgD
 <div align="center">
 <br>
 <br>
