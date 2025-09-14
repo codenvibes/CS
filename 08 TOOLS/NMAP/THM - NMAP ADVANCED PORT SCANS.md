@@ -297,15 +297,16 @@ PORT    STATE  SERVICE
 80/tcp  closed http
 MAC Address: 02:78:C0:D0:4E:E9 (Unknown)
 
-Nmap done: 1 IP address (1 host up) scanned in 14.84 seconds
-      
+Nmap done: 1 IP address (1 host up) scanned in 14.84 seconds  
 ```
+<div>
+<br>
+</div>
 
 ### Custom Scan
 
 If you want to experiment with a new TCP flag combination beyond the built-in TCP scan types, you can do so using `--scanflags` . For instance, if you want to set SYN, RST, and FIN simultaneously, you can do so using `--scanflags RSTSYNFIN` . As shown in the figure below, if you develop your custom scan, you need to know how the different ports will behave to interpret the results in different scenarios correctly.
-
-x ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/d76c5020f14ac0d66e7ff3812bb0bec3.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/d76c5020f14ac0d66e7ff3812bb0bec3.png"></div>
 
 Finally, it is essential to note that the ACK scan and the window scan were very efficient at helping us map out the firewall rules. However, it is vital to remember that just because a firewall is not blocking a specific port, it does not necessarily mean that a service is listening on that port. For example, there is a possibility that the firewall rules need to be updated to reflect recent service changes. Hence, ACK and window scans are exposing the firewall rules, not the services.
 <div>
@@ -315,7 +316,11 @@ Finally, it is essential to note that the ACK scan and the window scan were very
 
 ### Questions
 
-##### 
+##### In TCP Window scan, how many flags are set?
+##### You decided to experiment with a custom TCP scan that has the reset flag set. What would you add after `--scanflags`?
+##### The VM received an update to its firewall ruleset. A new port is now allowed by the firewall. After you make sure that you have terminated the VM from Task 2, start the VM for this task. Launch the AttackBox if you haven't done that already. Once both are ready, open the terminal on the AttackBox and use Nmap to launch an ACK scan against the target VM. How many ports appear unfiltered?
+##### What is the new port number that appeared? To determine the new port you need to compare the scan results of Task 2 to the ones of this task.
+##### Is there any service behind the newly discovered port number? (Y/N)
 <div align="center">
 <br>
 <br>
@@ -326,6 +331,7 @@ Finally, it is essential to note that the ACK scan and the window scan were very
 <div style="page-break-after: always;"></div>
 
 ## 5. Spoofing and Decoys
+
 <div align="center">
 <br>
 <br>
