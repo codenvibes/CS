@@ -161,22 +161,25 @@ Before we dive into these two resources, let's ensure that our understanding of 
 | Vulnerability          | A vulnerability is defined as a weakness or flaw in the design, implementation or behaviours of a system or application. |
 | Exploit                | An exploit is something such as an action or behaviour that utilises a vulnerability on a system or application.         |
 | Proof of Concept (PoC) | A PoC is a technique or tool that often demonstrates the exploitation of a vulnerability.                                |
+<div>
+<br>
+</div>
 
-  
-
-## NVD – National Vulnerability Database
+### NVD – National Vulnerability Database
 
 The National Vulnerability Database is a website that lists all publically categorised vulnerabilities. In cybersecurity, vulnerabilities are classified under “**C**ommon **V**ulnerabilities and **E**xposures” (Or CVE for short).
 
 These CVEs have the formatting of `CVE-YEAR-IDNUMBER`. For example, the vulnerability that the famous malware WannaCry used was `CVE-2017-0144.`
 
 NVD allows you to see all the CVEs that have been confirmed, using filters by category and month of submission. For example, it is three days into August; there have already been 223 new CVEs submitted to this database.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/aa86c1cce478d6c357f5507d927c9e88.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/aa86c1cce478d6c357f5507d927c9e88.png"></div>
 
 While this website helps keep track of new vulnerabilities, it is not great when searching for vulnerabilities for a specific application or scenario.
+<div>
+<br>
+</div>
 
-## Exploit-DB
+### Exploit-DB
 
 [Exploit-DB](https://www.exploit-db.com/) is a resource that we, as hackers, will find much more helpful during an assessment. Exploit-DB retains exploits for software and applications stored under the name, author and version of the software or application.
 
