@@ -197,7 +197,7 @@ If this still sounds sophisticated, don’t worry; we only need the gist of it. 
 Consequently, once an SSL/TLS handshake has been established, HTTP requests and exchanged data won’t be accessible to anyone watching the communication channel.
 
 As a final note, for SSL/TLS to be effective, especially when browsing the web over HTTPS, we rely on public certificates signed by certificate authorities trusted by our systems. In other words, when we browse to [TryHackMe](https://tryhackme.com/) over HTTPS, our browser expects the TryHackMe web server to provide a signed certificate from a trusted certificate authority, as per the example below. This way, our browser ensures that it is communicating with the correct server, and a MITM attack cannot occur.
-<div align="center"><br><img src=""></div>
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/2362c08e3a718863a1b1b56279931538.png"></div>
 
 In the figure above, we can see the following information:
 
@@ -213,7 +213,7 @@ Luckily, we don’t have to check the certificate manually for every site we vis
 
 ### Questions
 
-##### 
+##### DNS can also be secured using TLS. What is the three-letter acronym of the DNS protocol that uses TLS?
 <div align="center">
 <br>
 <br>
@@ -224,6 +224,63 @@ Luckily, we don’t have to check the certificate manually for every site we vis
 <div style="page-break-after: always;"></div>
 
 ## 5. Secure Shell (SSH)
+
+Secure Shell (SSH) was created to provide a secure way for remote system administration. In other words, it lets you securely connect to another system over the network and execute commands on the remote system. Put simply, the “S” in SSH stands for secure, which can be summarized simply as:
+
+1. You can confirm the identity of the remote server
+2. Exchanged messages are encrypted and can only be decrypted by the intended recipient
+3. Both sides can detect any modification in the messages
+
+The above three points are ensured by cryptography. In more technical terms, they are part of confidentiality and integrity, made possible through the proper use of different encryption algorithms.
+
+To use SSH, you need an SSH server and an SSH client. The SSH server listens on port 22 by default. The SSH client can authenticate using:
+
+- A username and a password
+- A private and public key (after the SSH server is configured to recognize the corresponding public key)
+
+On Linux, macOS, and MS Windows builds after 2018, you can connect to an SSH server using the following command `ssh username@MACHINE_IP`. This command will try to connect to the server of IP address `MACHINE_IP` with the login name `username`. If an SSH server is listening on the default port, it will ask you to provide the password for `username`. Once authenticated, the user will have access to the target server’s terminal. The terminal output below is an example of using SSH to access a Debian Linux server.
+
+```shell-session
+user@TryHackMe$ ssh mark@MACHINE_IP
+mark@MACHINE_IP's password: XBtc49AB
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Sep 20 13:53:17 2021
+mark@debian8:~$ 
+```
+
+In the example above, we issued the command `ssh mark@MACHINE_IP`. Then, once we entered the correct password, we got access to the remote system’s terminal. SSH is very reliable for remote administration because our username and password were sent encrypted; moreover, all commands we execute on the remote system will be sent over an encrypted channel.
+
+Note that if this is the first time we connect to this system, we will need to confirm the fingerprint of the SSH server’s public key to avoid man-in-the-middle (MITM) attacks. As explained earlier, MITM takes place when a malicious party, E, situates itself between A and B, and communicates with A, pretending to be B, and communicates with B pretending to be A, while A and B think that they are communicating directly with each other. In the case of SSH, we don’t usually have a third party to check if the public key is valid, so we need to do this manually. This attack is shown in the image below.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/fb2eb64abf54ed721dd55486d283b297.png)
+
+We can use SSH to transfer files using SCP (Secure Copy Protocol) based on the SSH protocol. An example of the syntax is as follows: `scp mark@MACHINE_IP:/home/mark/archive.tar.gz ~`. This command will copy a file named `archive.tar.gz` from the remote system located in the `/home/mark` directory to `~`, i.e., the root of the home directory of the currently logged-in user.
+
+Another example syntax is `scp backup.tar.bz2 mark@MACHINE_IP:/home/mark/`. This command will copy the file `backup.tar.bz2` from the local system to the directory `/home/mark/` on the remote system.
+
+Terminal
+
+```shell-session
+user@TryHackMe$ scp document.txt mark@MACHINE_IP:/home/mark
+mark@MACHINE_IP's password: 
+document.txt                                        100% 1997KB  70.4MB/s   00:00
+```
+
+As a closing note, FTP could be secured using SSL/TLS by using the FTPS protocol which uses port 990. It is worth mentioning that FTP can also be secured using the SSH protocol which is the SFTP protocol. By default this service listens on port 22, just like SSH.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
