@@ -419,8 +419,6 @@ Downloads				Postman       Tools
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
-  
-
 The prompt tells us we now have a context set in which we will work. You can see this by typing the show options command.
 
 Show options
@@ -460,8 +458,6 @@ Exploit target:
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
-  
-
 This will print options related to the exploit we have chosen earlier. The show options command will have different outputs depending on the context it is used in. The example above shows that this exploit will require we set variables like RHOSTS and RPORT. On the other hand, a post-exploitation module may only need us to set a SESSION ID (see the screenshot below). A session is an existing connection to the target system that the post-exploitation module will use.
 
 Options for a post-exploitation module
@@ -479,8 +475,6 @@ Module options (post/windows/gather/enum_domain_users):
 
 msf6 post(windows/gather/enum_domain_users) >
 ```
-
-  
 
 The `show` command can be used in any context followed by a module type (auxiliary, payload, exploit, etc.) to list available modules. The example below lists payloads that can be used with the ms17-010 Eternalblue exploit.
 
@@ -504,8 +498,6 @@ Compatible Payloads
    7   windows/x64/meterpreter/bind_ipv6_tcp_uuid                   manual  No     Windows Meterpreter (Reflective Injection x64), Windows x64 IPv6 Bind TCP Stager with UUID Support 
 ```
 
-  
-
 If used from the msfconsole prompt, the `show` command will list all modules.
 
 The `use` and `show options` commands we have seen so far are identical for all modules in Metasploit.
@@ -518,8 +510,6 @@ The back command
 msf6 exploit(windows/smb/ms17_010_eternalblue) > back
 msf6 > 
 ```
-
-  
 
 Further information on any module can be obtained by typing the `info` command within its context.
 
@@ -600,8 +590,6 @@ Also known as:
 
 msf6 exploit(windows/smb/ms17_010_eternalblue) > 
 ```
-
-  
 
 Alternatively, you can use the `info` command followed by the module’s path from the msfconsole prompt (e.g. `info exploit/windows/smb/ms17_010_eternalblue`). Info is not a help menu; it will display detailed information on the module such as its author, relevant sources, etc.
 
