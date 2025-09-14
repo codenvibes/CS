@@ -500,7 +500,7 @@ By default, Nmap will look up online hosts; however, you can use the option `
 
 ### Questions
 
-##### 
+##### We want Nmap to issue a reverse DNS lookup for all the possibles hosts on a subnet, hoping to get some insights from the names. What option should we add?
 <div align="center">
 <br>
 <br>
