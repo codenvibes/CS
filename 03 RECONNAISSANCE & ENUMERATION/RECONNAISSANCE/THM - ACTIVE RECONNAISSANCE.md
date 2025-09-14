@@ -304,7 +304,8 @@ Of particular interest for us is discovering the type and version of the install
 
 ### Questions
 
-##### 
+##### Start the attached VM from Task 3 if it is not already started. On the AttackBox, open the terminal and use the telnet client to connect to the VM on port 80. What is the name of the running server?
+##### What is the version of the running server (on port 80 of the VM)?
 <div align="center">
 <br>
 <br>
