@@ -1032,9 +1032,16 @@ meterpreter >
 ### Questions
 
 ##### How would you set the LPORT value to 6666?
+set LPORT 6666
+
 ##### How would you set the global value for RHOSTS  to 10.10.19.23 ?
-##### 
-##### 
+setg RHOSTS 10.10.19.23
+
+##### What command would you use to clear a set payload?
+unset PAYLOAD
+
+##### What command do you use to proceed with the exploitation phase?
+exploit
 <div align="center">
 <br>
 <br>
@@ -1045,6 +1052,14 @@ meterpreter >
 <div style="page-break-after: always;"></div>
 
 ## 5. Summary
+
+As we have seen so far, Metasploit is a powerful tool that facilitates the exploitation process. The exploitation process comprises three main steps; finding the exploit, customizing the exploit, and exploiting the vulnerable service.
+
+Metasploit provides many modules that you can use for each step of the exploitation process. Through this room, we have seen the basic components of Metasploit and their respective use.
+
+It would be best if you also had used the ms17_010_eternalblue exploit to gain access to the target VM.  
+
+In the following rooms, we will cover Metasploit and its components in more detail. Once completed, this module should give you a good understanding of the capabilities of Metasploit.
 <div align="center">
 <br>
 <br>
