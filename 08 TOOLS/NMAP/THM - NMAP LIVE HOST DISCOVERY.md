@@ -64,8 +64,8 @@ Click on the “View Site” button to start the network simulator. We will use 
 ### Questions
 
 ##### Send a packet with the following:<br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/65a1bdee53403520174388d9de6410ba.png"><br> - From computer1<br> - To computer1 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
-##### 
-##### 
+##### Did computer6 receive the ARP Request? (Y/N)
+##### Send a packet with the following:<br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/65a1bdee53403520174388d9de6410ba.png"><br> - From computer1<br> - To computer1 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
 ##### 
 ##### 
 ##### 
