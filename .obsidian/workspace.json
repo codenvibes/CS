@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - ACTIVE RECONNAISSANCE"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "Pasted image 20250914115124.png",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -299,7 +300,6 @@
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "ASSETS/Pasted image 20250910172321.png",
     "ASSETS/Pasted image 20250910172042.png",
-    "ASSETS/Pasted image 20250910114247.png",
     "08 TOOLS/BURP SUITE",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled",
