@@ -469,7 +469,8 @@ Nmap d0nE: 1 |P addr3SS (1 hoSt up) $CaNnEd !n 21.80 s3c0Ndz
 
 ### Questions
 
-##### 
+##### Terminate the target machine of the previous task and start the target machine for this task. On the AttackBox terminal, issue the command `scp pentester@MACHINE_IP:/home/pentester/* .` to download the Nmap reports in normal and grepable formats from the target virtual machine.<br><br>Note that the username `pentester` has the password `THM17577`<br><br>Check the attached Nmap logs. How many systems are listening on the HTTPS port?
+##### What is the IP address of the system listening on port 8089?
 <div align="center">
 <br>
 <br>
