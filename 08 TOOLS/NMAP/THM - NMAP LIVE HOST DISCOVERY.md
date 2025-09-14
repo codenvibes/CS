@@ -63,9 +63,9 @@ Click on the “View Site” button to start the network simulator. We will use 
 
 ### Questions
 
-##### Send a packet with the following:<br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/65a1bdee53403520174388d9de6410ba.png"><br> - From computer1<br> - To computer1 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
+##### Send a packet with the following:<br><img width=250 src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/65a1bdee53403520174388d9de6410ba.png"><br> - From computer1<br> - To computer1 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
 ##### Did computer6 receive the ARP Request? (Y/N)
-##### Send a packet with the following:<br><img width=src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/818d1c5a3a96a9962dde71069f9e1ee8.png"><br> - From computer4<br> - To computer4 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
+##### Send a packet with the following:<br><img width=250 src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/818d1c5a3a96a9962dde71069f9e1ee8.png"><br> - From computer4<br> - To computer4 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
 ##### Did computer6 reply to the ARP Request? (Y/N)
 <div align="center">
 <br>
@@ -134,6 +134,11 @@ If you have closed the network simulator, click on the “View Site” button in
 ### Questions
 
 ##### 
+##### 
+##### 
+##### 
+##### 
+
 <div align="center">
 <br>
 <br>
