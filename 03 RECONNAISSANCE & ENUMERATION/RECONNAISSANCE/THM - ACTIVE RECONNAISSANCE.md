@@ -201,8 +201,6 @@ Finally, in the first line of the output, we can see that the packets leaving th
 
 Traceroute B
 
-AttackBox Terminal - Traceroute B
-
 ```shell-session
 user@AttackBox$ traceroute tryhackme.com
 traceroute to tryhackme.com (104.26.11.229), 30 hops max, 60 byte packets
