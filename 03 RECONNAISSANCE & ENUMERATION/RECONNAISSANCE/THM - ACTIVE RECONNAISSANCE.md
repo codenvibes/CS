@@ -57,7 +57,8 @@ Over time, you might find a few extensions that fit perfectly in your workflow.
 
 ### Questions
 
-##### 
+##### Browse to the [following website](https://static-labs.tryhackme.cloud/sites/networking-tcp/) and ensure that you have opened your Developer Tools on AttackBox Firefox, or the browser on your computer. Using the Developer Tools, figure out the total number of questions.
+8
 <div align="center">
 <br>
 <br>
