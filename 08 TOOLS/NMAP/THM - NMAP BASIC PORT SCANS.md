@@ -89,7 +89,8 @@ In particular, we need to focus on the flags that Nmap can set or unset. We ha
 
 ### Questions
 
-##### 
+##### What 3 letters represent the Reset flag?
+##### Which flag needs to be set when you initiate a TCP connection (first packet of TCP 3-way handshake)?
 <div align="center">
 <br>
 <br>
@@ -100,6 +101,60 @@ In particular, we need to focus on the flags that Nmap can set or unset. We ha
 <div style="page-break-after: always;"></div>
 
 ## 4. TCP Connect Scan
+
+TCP connect scan works by completing the TCP 3-way handshake. In standard TCP connection establishment, the client sends a TCP packet with SYN flag set, and the server responds with SYN/ACK if the port is open; finally, the client completes the 3-way handshake by sending an ACK.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/8390020a13d6f22f49233833f6265de6.png)
+
+We are interested in learning whether the TCP port is open, not establishing a TCP connection. Hence the connection is torn as soon as its state is confirmed by sending a RST/ACK. You can choose to run TCP connect scan using `-sT`.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/514972cd54b3f58c83f951978ea9183e.png)
+
+It is important to note that if you are not a privileged user (root or sudoer), a TCP connect scan is the only possible option to discover open TCP ports.
+
+In the following Wireshark packet capture window, we see Nmap sending TCP packets with SYN flag set to various ports, 256, 443, 143, and so on. By default, Nmap will attempt to connect to the 1000 most common ports. A closed TCP port responds to a SYN packet with RST/ACK to indicate that it is not open. This pattern will repeat for all the closed ports as we attempt to initiate a TCP 3-way handshake with them.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/a975503bd3e006bd32147ba9c9faede4.png)
+
+We notice that port 143 is open, so it replied with a SYN/ACK, and Nmap completed the 3-way handshake by sending an ACK. The figure below shows all the packets exchanged between our Nmap host and the target system’s port 143. The first three packets are the TCP 3-way handshake being completed. Then, the fourth packet tears it down with an RST/ACK packet.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/19ebc8172c930867c50e214b630ef4ec.png)
+
+To illustrate the `-sT` (TCP connect scan), the following command example returned a detailed list of the open ports.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ nmap -sT MACHINE_IP
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-08-30 09:53 BST
+Nmap scan report for MACHINE_IP
+Host is up (0.0024s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+111/tcp open  rpcbind
+143/tcp open  imap
+993/tcp open  imaps
+995/tcp open  pop3s
+MAC Address: 02:45:BF:8A:2D:6B (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.40 seconds
+```
+
+Note that we can use `-F` to enable fast mode and decrease the number of scanned ports from 1000 to 100 most common ports.
+
+It is worth mentioning that the `-r` option can also be added to scan the ports in consecutive order instead of random order. This option is useful when testing whether ports open in a consistent manner, for instance, when a target boots up.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
