@@ -99,9 +99,9 @@ However, CVSS is not a magic bullet. Let's analyse some of the advantages and 
 | CVSS has been around for a long time.                                            | CVSS was never designed to help prioritise vulnerabilities, instead, just assign a value of severity.                                                                                          |
 | CVSS is popular in organisations.                                                | CVSS heavily assesses vulnerabilities on an exploit being available. However, only 20% of all vulnerabilities have an exploit available ([Tenable., 2020](https://www.tenable.com/research)) . |
 | CVSS is a free framework to adopt and recommended by organisations such as NIST. | Vulnerabilities rarely change scoring after assessment despite the fact that new developments such as exploits may be found.                                                                   |
-
-  
-  
+<div>
+<br>
+</div>
 
 ### Vulnerability Priority Rating (VPR)
 
@@ -111,25 +111,21 @@ Unlike CVSS, VPR scoring takes into account the relevancy of a vulnerability.
 
 VPR uses a similar scoring range as CVSS, which I have also put into the table below. However, two notable differences are that VPR does not have a _"None/Informational"_ category, and because VPR uses a different scoring method, the same vulnerability will have a different score using VPR than when using CVSS.
 
-|   |   |
-|---|---|
-|**Rating**|**Score**|
-|Low|0.0 - 3.9|
-|Medium|4.0 - 6.9|
-|High|7.0 - 8.9|
-|Critical|9.0 - 10.0|
-
-  
+| **Rating** | **Score**  |
+| ---------- | ---------- |
+| Low        | 0.0 - 3.9  |
+| Medium     | 4.0 - 6.9  |
+| High       | 7.0 - 8.9  |
+| Critical   | 9.0 - 10.0 |
 
 Let's recap some of the advantages and disadvantages of using the VPR framework in the table below.
 
-|   |   |
-|---|---|
-|**Advantages of VPR**|**Disadvantages of VPR**|
-|VPR is a modern framework that is real-world.|VPR is not open-source like some other vulnerability management frameworks.|
-|VPR considers over 150 factors when calculating risk.|VPR can only be adopted apart of a commercial platform.|
-|VPR is risk-driven and used by organisations to help prioritise patching vulnerabilities.|VPR does not consider the CIA triad to the extent that CVSS does; meaning that risk to the confidentiality, integrity and availability of data does not play a large factor in scoring vulnerabilities when using VPR.|
-|Scorings are not final and are very dynamic, meaning the priority a vulnerability should be given can change as the vulnerability ages.|_Intentionally left blank._|
+| **Advantages of VPR**                                                                                                                   | **Disadvantages of VPR**                                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| VPR is a modern framework that is real-world.                                                                                           | VPR is not open-source like some other vulnerability management frameworks.                                                                                                                                            |
+| VPR considers over 150 factors when calculating risk.                                                                                   | VPR can only be adopted apart of a commercial platform.                                                                                                                                                                |
+| VPR is risk-driven and used by organisations to help prioritise patching vulnerabilities.                                               | VPR does not consider the CIA triad to the extent that CVSS does; meaning that risk to the confidentiality, integrity and availability of data does not play a large factor in scoring vulnerabilities when using VPR. |
+| Scorings are not final and are very dynamic, meaning the priority a vulnerability should be given can change as the vulnerability ages. | _Intentionally left blank._                                                                                                                                                                                            |
 <div>
 <br>
 <br>
@@ -137,6 +133,8 @@ Let's recap some of the advantages and disadvantages of using the VPR framewor
 
 ### Questions
 
+##### What year was the first iteration of CVSS published?
+##### 
 ##### 
 <div align="center">
 <br>
