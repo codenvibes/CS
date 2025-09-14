@@ -265,7 +265,7 @@ To summarize, we can notice the following:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 5. Telnet
+## 5. #Telnet
 
 The TELNET (Teletype Network) protocol was developed in 1969 to communicate with a remote system via a command-line interface (CLI). Hence, the command `telnet` uses the TELNET protocol for remote administration. The default port used by telnet is 23. From a security perspective, `telnet` sends all the data, including usernames and passwords, in cleartext. Sending in cleartext makes it easy for anyone, who has access to the communication channel, to steal the login credentials. The secure alternative is SSH (Secure SHell) protocol.
 
@@ -305,7 +305,35 @@ Of particular interest for us is discovering the type and version of the install
 ### Questions
 
 ##### Start the attached VM from Task 3 if it is not already started. On the AttackBox, open the terminal and use the telnet client to connect to the VM on port 80. What is the name of the running server?
+Apache
+
+```
+┌──(mopsy㉿APHP)-[~]
+└─$ telnet 10.10.174.177 80
+Trying 10.10.174.177...
+Connected to 10.10.174.177.
+Escape character is '^]'.
+GET / HTTP/1.1
+host: telnet
+
+HTTP/1.1 200 OK
+Date: Sun, 14 Sep 2025 09:59:00 GMT
+Server: Apache/2.4.61 (Debian)
+Last-Modified: Mon, 30 Aug 2021 12:09:24 GMT
+ETag: "15-5cac5b436ddfa"
+Accept-Ranges: bytes
+Content-Length: 21
+Content-Type: text/html
+
+Telnet to port 80...
+Connection closed by foreign host.
+```
+<div>
+<br>
+</div>
+
 ##### What is the version of the running server (on port 80 of the VM)?
+2.4.61
 <div align="center">
 <br>
 <br>
