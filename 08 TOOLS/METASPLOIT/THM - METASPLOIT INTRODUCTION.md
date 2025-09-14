@@ -724,7 +724,7 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 
 - **The Meterpreter prompt:** Meterpreter is an important payload we will see in detail later in this module. This means a Meterpreter agent was loaded to the target system and connected back to you. You can use Meterpreter specific commands here.
 
-AMeterpretercommand prompt
+A Meterpreter command prompt
 
 ```shell-session
 meterpreter >
@@ -732,7 +732,7 @@ meterpreter >
 
 - **A shell on the target system:** Once the exploit is completed, you may have access to a command shell on the target system. This is a regular command line, and all commands typed here run on the target system.  
 
-AMeterpretercommand prompt
+A Meterpreter command prompt
 
 ```shell-session
 C:\Windows\system32>
@@ -777,13 +777,11 @@ Exploit target:
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
-  
-
 As you can see in the screenshot above, some of these parameters require a value for the exploit to work. Some required parameter values will be pre-populated, make sure you check if these should remain the same for your target. For example, a web exploit could have an RPORT (remote port: the port on the target system Metasploit will try to connect to and run the exploit) value preset to 80, but your target web application could be using port 8080.
 
 In this example, we will set the RHOSTS parameter to the IP address of our target system using the `set` command.
 
-AMeterpretercommand prompt
+A Meterpreter command prompt
 
 ```shell-session
 msf6 exploit(windows/smb/ms17_010_eternalblue) > set rhosts 10.10.165.39
@@ -822,11 +820,7 @@ Exploit target:
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
-  
-
 Once you have set a parameter, you can use the `show options` command to check the value was set correctly.
-
-  
 
 Parameters you will often use are:
 
