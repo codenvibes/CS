@@ -249,7 +249,7 @@ To summarize, we can notice the following:
 ##### In Traceroute A, what is the IP address of the last router/hop before reaching tryhackme.com?
 ##### In Traceroute B, what is the IP address of the last router/hop before reaching tryhackme.com?
 ##### In Traceroute B, how many routers are between the two systems?
-##### 
+##### Start the attached VM from Task 3 if it is not already started. On the AttackBox, run `traceroute 10.10.174.177`. Check how many routers/hops are there between the AttackBox and the target VM.
 <div align="center">
 <br>
 <br>
