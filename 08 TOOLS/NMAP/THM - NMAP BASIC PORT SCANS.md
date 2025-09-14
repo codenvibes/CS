@@ -197,7 +197,8 @@ Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
 
 ### Questions
 
-##### 
+##### Launch the VM. Some new server software has been installed since the last time we scanned it. On the AttackBox, use the terminal to execute `nmap -sS MACHINE_IP`. What is the new open port?
+##### What is Nmap’s guess of the service name?
 <div align="center">
 <br>
 <br>
@@ -208,6 +209,46 @@ Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
 <div style="page-break-after: always;"></div>
 
 ## 6. UDP Scan
+
+UDP is a connectionless protocol, and hence it does not require any handshake for connection establishment. We cannot guarantee that a service listening on a UDP port would respond to our packets. However, if a UDP packet is sent to a closed port, an ICMP port unreachable error (type 3, code 3) is returned. You can select UDP scan using the `-sU` option; moreover, you can combine it with another TCP scan.
+
+The following figure shows that if we send a UDP packet to an open UDP port, we cannot expect any reply in return. Therefore, sending a UDP packet to an open port won’t tell us anything.
+<div align="center"><br><img src=""></div>
+
+However, as shown in the figure below, we expect to get an ICMP packet of type 3, destination unreachable, and code 3, port unreachable. In other words, the UDP ports that don’t generate any response are the ones that Nmap will state as open.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/8b8b32517699b96777641a97dbf9d880.png)
+
+In the Wireshark capture below, we can see that every closed port will generate an ICMP packet destination unreachable (port unreachable).
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/f927563f4778092ced3ef7afa67cece3.png)
+
+Launching a UDP scan against this Linux server proved valuable, and indeed, we learned that port 111 is open. On the other hand, Nmap cannot determine whether UDP port 68 is open or filtered.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ sudo nmap -sU MACHINE_IP
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-08-30 09:54 BST
+Nmap scan report for MACHINE_IP
+Host is up (0.00061s latency).
+Not shown: 998 closed ports
+PORT    STATE         SERVICE
+68/udp  open|filtered dhcpc
+111/udp open          rpcbind
+MAC Address: 02:45:BF:8A:2D:6B (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 1085.05 seconds
+```
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
