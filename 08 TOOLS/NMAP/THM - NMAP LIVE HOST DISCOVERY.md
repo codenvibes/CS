@@ -422,10 +422,12 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 29.89 seconds
 ```
 
 If we peek at the network traffic as shown in the figure below, we will discover many packets with the ACK flag set and sent to port 80 of the target systems. Nmap sends each packet twice. The systems that don’t respond are offline or inaccessible.
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/6ccdba7337684b8e8f532a23c5259ffc.png"></div>
+<div>
+<br>
+</div>
 
-![]()
-
-**UDP Ping**
+### UDP Ping
 
 Finally, we can use UDP to discover if the host is online. Contrary to TCP SYN ping, sending a UDP packet to an open port is not expected to lead to any reply. However, if we send a UDP packet to a closed UDP port, we expect to get an ICMP port unreachable packet; this indicates that the target system is up and available.
 
