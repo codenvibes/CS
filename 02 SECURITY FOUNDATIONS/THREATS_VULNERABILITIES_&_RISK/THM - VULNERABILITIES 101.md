@@ -205,6 +205,27 @@ We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) 
 
 ## 5. An Example of Finding a Vulnerability
 
+In this task, I’m going to demonstrate the process of finding one minor vulnerability, coupled with some research of the vulnerability databases leading to a much more valuable vulnerability and exploit ultimately.
+
+Throughout an assessment, you will often combine multiple vulnerabilities to get results. For example, in this task, we will leverage the “**Version Disclosure”** vulnerability to find out the version of an application. With this version, we can then use [Exploit-DB](https://www.exploit-db.com/) to search for any exploits that work with that specific version. 
+
+Applications and software usually have a version number. This information is usually left with good intentions; for example, the author can support multiple versions of the software and the likes. Or sometimes, left unintentionally.
+
+For example, in the screenshot below, we can see that the name and version number of this application is “**Apache Tomcat 9.0.17**”
+<div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/tomcat1.png"></div>
+
+With this information in hand, let’s use the search filter on Exploit-DB to look for any exploits that may apply to “**Apache Tomcat 9.0.17**”.
+<div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/tomcat2.png)"></div>
+
+Great! After searching Exploit-DB, there are a total of five exploits that may be useful to us for this specific version of the application.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
