@@ -5,8 +5,11 @@
 Meterpreter is a Metasploit payload that supports the penetration testing process with many valuable components. Meterpreter will run on the target system and act as an agent within a command and control architecture. You will interact with the target operating system and files and use Meterpreter's specialized commands.
 
 Meterpreter has many versions which will provide different functionalities based on the target system.
+<div>
+<br>
+</div>
 
-## How does Meterpreter work?
+### How does Meterpreter work?
 
 Meterpreter runs on the target system but is not installed on it. It runs in memory and does not write itself to the disk on the target. This feature aims to avoid being detected during antivirus scans. By default, most antivirus software will scan new files on the disk (e.g. when you download a file from the internet) Meterpreter runs in memory (RAM - Random Access Memory) to avoid having a file that has to be written to the disk on the target system (e.g. meterpreter.exe). This way, Meterpreter will be seen as a process and not have a file on the target system.
 
@@ -54,7 +57,7 @@ Process List
 
 Even if we were to go a step further and look at DLLs (Dynamic-Link Libraries) used by the Meterpreter process (PID 1304 in this case), we still would not find anything jumping at us (e.g. no meterpreter.dll)
 
-TheMeterpreterprocess
+The Meterpreter process
 
 ```shell-session
 C:\Windows\system32>tasklist /m /fi "pid eq 1304"
@@ -111,6 +114,99 @@ It is also worth noting that Meterpreter will establish an encrypted (TLS) com
 <div style="page-break-after: always;"></div>
 
 ## 2. Meterpreter Flavors
+
+As discussed in the previous Metasploit rooms, linked below, Metasploit payloads can be initially divided into two categories; inline (also called single) and staged.
+
+Introduction to Metasploit: [https://www.tryhackme.com/jr/metasploitintro](https://www.tryhackme.com/jr/metasploitintro)
+
+Scanning and Exploitation with Metasploit: [https://www.tryhackme.com/jr/metasploitexploitation](https://www.tryhackme.com/jr/metasploitexploitation)  
+
+As you will remember, staged payloads are sent to the target in two steps. An initial part is installed (the stager) and requests the rest of the payload. This allows for a smaller initial payload size. The inline payloads are sent in a single step. Meterpreter payloads are also divided into stagged and inline versions. However, Meterpreter has a wide range of different versions you can choose from based on your target system. 
+
+The easiest way to have an idea about available Meterpreter versions could be to list them using msfvenom, as seen below. 
+
+We have used the `msfvenom --list payloads` command and grepped "meterpreter" payloads (adding `| grep meterpreter` to the command line), so the output only shows these. You can try this command on the AttackBox. 
+
+ListingMeterpreterpayloads
+
+```shell-session
+root@ip-10-10-186-44:~# msfvenom --list payloads | grep meterpreter
+    android/meterpreter/reverse_http                    Run a meterpreter server in Android. Tunnel communication over HTTP
+    android/meterpreter/reverse_https                   Run a meterpreter server in Android. Tunnel communication over HTTPS
+    android/meterpreter/reverse_tcp                     Run a meterpreter server in Android. Connect back stager
+    android/meterpreter_reverse_http                    Connect back to attacker and spawn a Meterpreter shell
+    android/meterpreter_reverse_https                   Connect back to attacker and spawn a Meterpreter shell
+    android/meterpreter_reverse_tcp                     Connect back to the attacker and spawn a Meterpreter shell
+    apple_ios/aarch64/meterpreter_reverse_http          Run the Meterpreter / Mettle server payload (stageless)
+    apple_ios/aarch64/meterpreter_reverse_https         Run the Meterpreter / Mettle server payload (stageless)
+    apple_ios/aarch64/meterpreter_reverse_tcp           Run the Meterpreter / Mettle server payload (stageless)
+    apple_ios/armle/meterpreter_reverse_http            Run the Meterpreter / Mettle server payload (stageless)
+    apple_ios/armle/meterpreter_reverse_https           Run the Meterpreter / Mettle server payload (stageless)
+    apple_ios/armle/meterpreter_reverse_tcp             Run the Meterpreter / Mettle server payload (stageless)
+    java/meterpreter/bind_tcp                           Run a meterpreter server in Java. Listen for a connection
+    java/meterpreter/reverse_http                       Run a meterpreter server in Java. Tunnel communication over HTTP
+    java/meterpreter/reverse_https                      Run a meterpreter server in Java. Tunnel communication over HTTPS
+    java/meterpreter/reverse_tcp                        Run a meterpreter server in Java. Connect back stager
+    linux/aarch64/meterpreter/reverse_tcp               Inject the mettle server payload (staged). Connect back to the attacker
+    linux/aarch64/meterpreter_reverse_http              Run the Meterpreter / Mettle server payload (stageless)
+    linux/aarch64/meterpreter_reverse_https             Run the Meterpreter / Mettle server payload (stageless)
+    linux/aarch64/meterpreter_reverse_tcp               Run the Meterpreter / Mettle server payload (stageless)
+    linux/armbe/meterpreter_reverse_http                Run the Meterpreter / Mettle server payload (stageless)
+    linux/armbe/meterpreter_reverse_https               Run the Meterpreter / Mettle server payload (stageless)
+    linux/armbe/meterpreter_reverse_tcp                 Run the Meterpreter / Mettle server payload (stageless)
+    linux/armle/meterpreter/bind_tcp                    Inject the mettle server payload (staged). Listen for a connection
+    linux/armle/meterpreter/reverse_tcp                 Inject the mettle server payload (staged). Connect back to the attacker [...]
+```
+
+The list will show Meterpreter versions available for the following platforms;
+
+- Android
+- Apple iOS
+- Java
+- Linux
+- OSX
+- PHP
+- Python
+- Windows
+
+Your decision on which version of Meterpreter to use will be mostly based on three factors;
+
+- The target operating system (Is the target operating system Linux or Windows? Is it a Mac device? Is it an Android phone? etc.)
+- Components available on the target system (Is Python installed? Is this a PHP website? etc.)
+- Network connection types you can have with the target system (Do they allow raw TCP connections? Can you only have an HTTPS reverse connection? Are IPv6 addresses not as closely monitored as IPv4 addresses? etc.) 
+
+If you are not using Meterpreter as a standalone payload generated by Msfvenom, your choice may also be limited by the exploit. You will notice some exploits will have a default Meterpreter payload, as you can see in the example below with the `ms17_010_eternalblue` exploit. 
+
+Default payload for MS17-010
+
+```shell-session
+msf6 > use exploit/windows/smb/ms17_010_eternalblue 
+[*] Using configured payload windows/x64/meterpreter/reverse_tcp
+msf6 exploit(windows/smb/ms17_010_eternalblue) >
+```
+
+You can also list other available payloads using the `show payloads` command with any module. 
+
+Available payloads
+
+```shell-session
+msf6 exploit(windows/smb/ms17_010_eternalblue) > show payloads 
+
+Compatible Payloads
+===================
+
+   #   Name                                        Disclosure Date  Rank    Check  Description
+   -   ----                                        ---------------  ----    -----  -----------
+   0   generic/custom                                               manual  No     Custom Payload
+   1   generic/shell_bind_tcp                                       manual  No     Generic Command Shell, Bind TCP Inline
+   2   generic/shell_reverse_tcp                                    manual  No     Generic Command Shell, Reverse TCP Inline
+   3   windows/x64/exec                                             manual  No     Windows x64 Execute Command
+   4   windows/x64/loadlibrary                                      manual  No     Windows x64 LoadLibrary Path
+   5   windows/x64/messagebox                                       manual  No     Windows MessageBox x64
+   6   windows/x64/meterpreter/bind_ipv6_tcp                        manual  No     Windows Meterpreter (Reflective Injection x64), Windows x64 IPv6 Bind TCP Stager
+   7   windows/x64/meterpreter/bind_ipv6_tcp_uuid                   manual  No     Windows Meterpreter (Reflective Injection x64), Windows x64 IPv6 Bind TCP Stager with UUID Support
+   8   windows/x64/meterpreter/bind_named_pipe                      manual  No     Windows Meterpreter (Reflective Injection x64), Windows x64 Bind Named Pipe Stager [...]
+```
 <div align="center">
 <br>
 <br>
