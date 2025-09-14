@@ -42,8 +42,7 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - NMAP LIVE HOST DISCOVERY"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -288,7 +288,6 @@
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
-    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/NMAP/THM - NMAP BASIC PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
     "08 TOOLS/NMAP",
