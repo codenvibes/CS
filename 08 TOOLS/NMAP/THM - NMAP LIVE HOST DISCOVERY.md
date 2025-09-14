@@ -133,12 +133,16 @@ If you have closed the network simulator, click on the “View Site” button in
 
 ### Questions
 
+##### Send a packet with the following:<br>- From computer1<br>- To computer3<br>- Packet Type: “Ping Request”<br>What is the type of packet that computer1 sent before the ping?
+##### What is the type of packet that computer1 received before being able to send the ping?
+##### How many computers responded to the ping request?
+##### Send a packet with the following:
+- From computer2
+- To computer5
+- Packet Type: “Ping Request”
+What is the name of the first device that responded to the first ARP Request?
 ##### 
 ##### 
-##### 
-##### 
-##### 
-
 <div align="center">
 <br>
 <br>
