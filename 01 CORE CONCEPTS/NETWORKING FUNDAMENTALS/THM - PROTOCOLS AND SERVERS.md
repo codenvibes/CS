@@ -382,12 +382,9 @@ Generally speaking, we don’t need to memorize SMTP commands. The console out
 ## 6. Post Office Protocol 3 (POP3)
 
 Post Office Protocol version 3 (POP3) is a protocol used to download the email messages from a Mail Delivery Agent (MDA) server, as shown in the figure below. The mail client connects to the POP3 server, authenticates, downloads the new email messages before (optionally) deleting them.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/ed910ad418376edc846846fc2a0dd3f6.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/ed910ad418376edc846846fc2a0dd3f6.png"></div>
 
 The example below shows what a POP3 session would look like if conducted via a Telnet client. First, the user connects to the POP3 server at the POP3 default port 110. Authentication is required to access the email messages; the user authenticates by providing his username `USER frank` and password `PASS D2xc9CgD`. Using the command `STAT`, we get the reply `+OK 1 179`; based on [RFC 1939](https://datatracker.ietf.org/doc/html/rfc1939), a positive response to `STAT` has the format `+OK nn mm`, where _nn_ is the number of email messages in the inbox, and _mm_ is the size of the inbox in octets (byte). The command `LIST` provided a list of new messages on the server, and `RETR 1` retrieved the first message in the list. We don’t need to concern ourselves with memorizing these commands; however, it is helpful to strengthen our understanding of such protocol.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ telnet MACHINE_IP 110
@@ -430,7 +427,8 @@ Based on the default settings, the mail client deletes the mail message after it
 
 ### Questions
 
-##### 
+##### Connect to the VM (`MACHINE_IP`) at the POP3 port. Authenticate using the username `frank` and password `D2xc9CgD`. What is the response you get to `STAT`?
+##### How many email messages are available to download via POP3 on `MACHINE_IP`?
 <div align="center">
 <br>
 <br>
@@ -441,6 +439,14 @@ Based on the default settings, the mail client deletes the mail message after it
 <div style="page-break-after: always;"></div>
 
 ## 7. Internet Message Access Protocol (IMAP)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
