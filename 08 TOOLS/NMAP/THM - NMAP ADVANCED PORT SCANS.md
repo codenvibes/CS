@@ -467,8 +467,6 @@ It is worth repeating that this scan is called an idle scan because choosing an 
 
 You might consider adding `--reason` if you want Nmap to provide more details regarding its reasoning and conclusions. Consider the two scans below to the system; however, the latter adds `--reason`.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sS 10.10.252.27
 
@@ -487,10 +485,6 @@ MAC Address: 02:45:BF:8A:2D:6B (Unknown)
 
 Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
 ```
-
-  
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sS --reason 10.10.252.27
@@ -515,8 +509,6 @@ Nmap done: 1 IP address (1 host up) scanned in 1.59 seconds
 Providing the `--reason` flag gives us the explicit reason why Nmap concluded that the system is up or a particular port is open. In this console output above, we can see that this system is considered online because Nmap “received arp-response.” On the other hand, we know that the SSH port is deemed to be open because Nmap received a “syn-ack” packet back.
 
 For more detailed output, you can consider using `-v` for verbose output or `-vv` for even more verbosity.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sS -vv 10.10.252.27
@@ -563,7 +555,7 @@ If `-vv` does not satisfy your curiosity, you can use `-d` for debugging det
 
 ### Questions
 
-##### 
+##### Launch the AttackBox if you haven't done so already. After you make sure that you have terminated the VM from Task 4, start the VM for this task. Wait for it to load completely, then open the terminal on the AttackBox and use Nmap with `nmap -sS -F --reason MACHINE_IP` to scan the VM. What is the reason provided for the stated port(s) being open?
 <div align="center">
 <br>
 <br>
