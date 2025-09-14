@@ -96,7 +96,8 @@ Launch the AttackBox using the Start AttackBox button, open the terminal when th
 
 ### Questions
 
-##### 
+##### What is the first IP address Nmap would scan if you provided `10.10.12.13/29` as your target?
+##### How many IP addresses will Nmap scan if you provide the following range `10.10.0-255.101-125`?
 <div align="center">
 <br>
 <br>
@@ -107,6 +108,7 @@ Launch the AttackBox using the Start AttackBox button, open the terminal when th
 <div style="page-break-after: always;"></div>
 
 ## 4. Discovering Live Hosts
+
 <div align="center">
 <br>
 <br>
