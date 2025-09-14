@@ -78,13 +78,11 @@ auxiliary/
 <br>
 </div>
 
-Encoders
+### Encoders
 
 Encoders will allow you to encode the exploit and payload in the hope that a signature-based antivirus solution may miss them.
 
 Signature-based antivirus and security solutions have a database of known threats. They detect threats by comparing suspicious files to this database and raise an alert if there is a match. Thus encoders can have a limited success rate as antivirus solutions can perform additional checks.  
-
-Terminal
 
 ```markup
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 1 encoders/
@@ -102,12 +100,13 @@ encoders/
 
 10 directories, 0 files
 ```
+<div>
+<br>
+</div>
 
-Evasion
+### Evasion
 
 While encoders will encode the payload, they should not be considered a direct attempt to evade antivirus software. On the other hand, “evasion” modules will try that, with more or less success.  
-
-Terminal
 
 ```markup
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 2 evasion/
@@ -125,12 +124,13 @@ evasion/
 
 1 directory, 9 files
 ```
+<div>
+<br>
+</div>
 
-Exploits
+### Exploits
 
 Exploits, neatly organized by target system.
-
-Terminal
 
 ```markup
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 1 exploits/
@@ -162,8 +162,11 @@ exploits/
 
 20 directories, 4 files
 ```
+<div>
+<br>
+</div>
 
-NOPs
+### NOPs
 
 NOPs (No OPeration) do nothing, literally. They are represented in the Intel x86 CPU family with 0x90, following which the CPU will do nothing for one cycle. They are often used as a buffer to achieve consistent payload sizes.
 
