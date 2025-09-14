@@ -256,6 +256,38 @@ Nmap done: 1 IP address (1 host up) scanned in 1085.05 seconds
 <div style="page-break-after: always;"></div>
 
 ## 7. Fine-Tuning Scope and Performance
+
+You can specify the ports you want to scan instead of the default 1000 ports. Specifying the ports is intuitive by now. Let’s see some examples:
+
+- port list: `-p22,80,443` will scan ports 22, 80 and 443.
+- port range: `-p1-1023` will scan all ports between 1 and 1023 inclusive, while `-p20-25` will scan ports between 20 and 25 inclusive.
+
+You can request the scan of all ports by using `-p-`, which will scan all 65535 ports. If you want to scan the most common 100 ports, add `-F`. Using `--top-ports 10` will check the ten most common ports.
+
+You can control the scan timing using `-T<0-5>`. `-T0` is the slowest (paranoid), while `-T5` is the fastest. According to Nmap manual page, there are six templates:
+
+- paranoid (0)
+- sneaky (1)
+- polite (2)
+- normal (3)
+- aggressive (4)
+- insane (5)
+
+To avoid IDS alerts, you might consider `-T0` or `-T1`. For instance, `-T0` scans one port at a time and waits 5 minutes between sending each probe, so you can guess how long scanning one target would take to finish. If you don’t specify any timing, Nmap uses normal `-T3`. Note that `-T5` is the most aggressive in terms of speed; however, this can affect the accuracy of the scan results due to the increased likelihood of packet loss. Note that `-T4` is often used during CTFs and when learning to scan on practice targets, whereas `-T1` is often used during real engagements where stealth is more important.
+
+Alternatively, you can choose to control the packet rate using `--min-rate <number>` and `--max-rate <number>`. For example, `--max-rate 10` or `--max-rate=10` ensures that your scanner is not sending more than ten packets per second.
+
+Moreover, you can control probing parallelization using `--min-parallelism <numprobes>` and `--max-parallelism <numprobes>`. Nmap probes the targets to discover which hosts are live and which ports are open; probing parallelization specifies the number of such probes that can be run in parallel. For instance, `--min-parallelism=512` pushes Nmap to maintain at least 512 probes in parallel; these 512 probes are related to host discovery and open ports.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the option to scan all the TCP ports between 5000 and 5500?
+##### How can you ensure that Nmap will run at least 64 probes in parallel?
+##### What option would you add to make Nmap very slow and paranoid?
 <div align="center">
 <br>
 <br>
