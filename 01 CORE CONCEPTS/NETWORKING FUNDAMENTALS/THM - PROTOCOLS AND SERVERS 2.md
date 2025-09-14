@@ -453,7 +453,7 @@ Hydra remains a very efficient tool that you can launch from the terminal to tr
 
 ### Questions
 
-##### 
+##### By now, you have completed the eighth room of the _Network Security_ module. Please proceed to the [final room](https://tryhackme.com/room/netsecchallenge) of this module to test your skills.
 <div align="center">
 <br>
 <br>
