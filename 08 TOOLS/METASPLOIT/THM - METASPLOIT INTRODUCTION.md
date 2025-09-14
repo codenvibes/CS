@@ -225,16 +225,13 @@ Metasploit has a subtle way to help you identify single (also called “inline�
 - windows/x64/shell/reverse_tcp
 
 Both are reverse Windows shells. The former is an inline (or single) payload, as indicated by the “_” between “shell” and “reverse”. While the latter is a staged payload, as indicated by the “/” between “shell” and “reverse”.
+<div>
+<br>
+</div>
 
-  
-
-Post
+### Post
 
 Post modules will be useful on the final stage of the penetration testing process listed above, post-exploitation.
-
-  
-
-Terminal
 
 ```terminal
 root@ip-10-10-135-188:/opt/metasploit-framework/embedded/framework/modules# tree -L 1 post/
@@ -263,6 +260,11 @@ If you wish to familiarize yourself further with these modules, you can find the
 
 ### Questions
 
+##### What is the name of the code taking advantage of a flaw on the target system?
+Exploit
+
+##### What is the name of the code that runs on the target system to achieve the attacker's goal?
+##### What are self-contained payloads called?
 ##### 
 <div align="center">
 <br>
