@@ -105,8 +105,6 @@ From a penetration testing point of view, we will try to discover more about thi
 
 Let’s consider the following case: we shut down the target virtual machine and then tried to ping `MACHINE_IP`. As you would expect in the following example, we don’t receive any reply.
 
-AttackBox Terminal
-
 ```shell-session
 user@AttackBox$ ping -c 5 MACHINE_IP
 PING MACHINE_IP (MACHINE_IP) 56(84) bytes of data.
