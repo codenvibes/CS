@@ -349,8 +349,6 @@ Netcat or simply `nc` has different applications that can be of great value to
 
 First, you can connect to a server, as you did with Telnet, to collect its banner using `nc 10.10.174.177 PORT`, which is quite similar to our previous `telnet 10.10.174.177 PORT`. Note that you might need to press SHIFT+ENTER after the GET line.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ nc 10.10.174.177 80
 GET / HTTP/1.1
