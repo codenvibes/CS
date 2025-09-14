@@ -288,16 +288,13 @@ File system commands
 - `download`: Will download a file or directory
 
 Networking commands
-
 - `arp`: Displays the host ARP (Address Resolution Protocol) cache
 - `ifconfig`: Displays network interfaces available on the target system  
-    
 - `netstat`: Displays the network connections
 - `portfwd`: Forwards a local port to a remote service
 - `route`: Allows you to view and modify the routing table
 
 System commands
-
 - `clearev`: Clears the event logs
 - `execute`: Executes a command
 - `getpid`: Shows the current process identifier
@@ -311,7 +308,6 @@ System commands
 - `sysinfo`: Gets information about the remote system, such as OS
 
 Others Commands (these will be listed under different menu categories in the help menu)
-
 - `idletime`: Returns the number of seconds the remote user has been idle
 - `keyscan_dump`: Dumps the keystroke buffer
 - `keyscan_start`: Starts capturing keystrokes
