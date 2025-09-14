@@ -714,8 +714,6 @@ Metasploitcommand prompt
 msf6 >
 ```
 
-  
-
 - **A context prompt:** Once you have decided to use a module and used the set command to chose it, the msfconsole will show the context. You can use context-specific commands (e.g. set RHOSTS 10.10.x.x) here.
 
 A context command prompt
@@ -723,8 +721,6 @@ A context command prompt
 ```shell-session
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
-
-  
 
 - **The Meterpreter prompt:** Meterpreter is an important payload we will see in detail later in this module. This means a Meterpreter agent was loaded to the target system and connected back to you. You can use Meterpreter specific commands here.
 
@@ -735,7 +731,6 @@ meterpreter >
 ```
 
 - **A shell on the target system:** Once the exploit is completed, you may have access to a command shell on the target system. This is a regular command line, and all commands typed here run on the target system.  
-    
 
 AMeterpretercommand prompt
 
