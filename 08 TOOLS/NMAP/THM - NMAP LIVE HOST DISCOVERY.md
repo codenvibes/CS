@@ -190,8 +190,6 @@ Note that `arp-scan` is not installed on the AttackBox; however, it can be ins
 
 In the example below, we scanned the subnet of the AttackBox using `arp-scan ATTACKBOX_IP/24`. Since we ran this scan at a time frame close to the previous one `nmap -PR -sn ATTACKBOX_IP/24`, we obtained the same three live targets.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo arp-scan 10.10.210.6/24
 Interface: eth0, datalink type: EN10MB (Ethernet)
@@ -206,8 +204,7 @@ Ending arp-scan 1.9: 256 hosts scanned in 2.726 seconds (93.91 hosts/sec). 3 res
 ```
 
 Similarly, the command `arp-scan` will generate many ARP queries that we can see using tcpdump, Wireshark, or a similar tool. We can notice that the packet capture for `arp-scan` and `nmap -PR -sn` yield similar traffic patterns. Below is the Wireshark output.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/7a4f0b5fe57a09aaebd18da5d1e1af16.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/7a4f0b5fe57a09aaebd18da5d1e1af16.png"></div>
 
 If you have closed the network simulator, click on the “Visit Site” button in Task 2 to display it again.
 <div>
@@ -217,7 +214,14 @@ If you have closed the network simulator, click on the “Visit Site” button i
 
 ### Questions
 
-##### 
+##### We will be sending broadcast ARP Requests packets with the following options:
+
+- From computer1
+- To computer1 (to indicate it is broadcast)
+- Packet Type: “ARP Request”
+- Data: try all the possible eight devices (other than computer1) in the network: computer2, computer3, computer4, computer5, computer6, switch1, switch2, and router.
+
+How many devices are you able to discover using ARP requests?
 <div align="center">
 <br>
 <br>
