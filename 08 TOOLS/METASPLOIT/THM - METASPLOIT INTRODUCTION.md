@@ -18,14 +18,6 @@ The main components of the Metasploit Framework can be summarized as follows;
 - **Tools**: Stand-alone tools that will help vulnerability research, vulnerability assessment, or penetration testing. Some of these tools are msfvenom, pattern_create and pattern_offset. We will cover msfvenom within this module, but pattern_create and pattern_offset are tools useful in exploit development which is beyond the scope of this module.  
 
 This room will cover the main components of Metasploit while providing you with a solid foundation on how to find relevant exploits, set parameters, and exploit vulnerable services on the target system. Once you have completed this room, you will be able to navigate and use the Metasploit command line comfortably.
-
-  
-
-Press the **Start Machine** button below.
-
-Start Machine
-
-Start the AttackBox by pressing the **Start AttackBox** button at the top of this page to complete tasks and answer the questions. The AttackBox machine will start in Split-Screen view. If it is not visible, use the blue **Show Split View** button at the top of the page.
 <div align="center">
 <br>
 <br>
@@ -36,6 +28,7 @@ Start the AttackBox by pressing the **Start AttackBox** button at the top of t
 <div style="page-break-after: always;"></div>
 
 ## 2. Main Components of Metasploit
+
 <div align="center">
 <br>
 <br>
