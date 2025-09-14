@@ -69,7 +69,7 @@ Over time, you might find a few extensions that fit perfectly in your workflow.
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## 3. Ping
+## 3. #Ping
 
 Ping should remind you of the game ping-pong (table tennis). You throw the ball and expect to get it back. The primary purpose of ping is to check whether you can reach the remote system and that the remote system can reach you back. In other words, initially, this was used to check network connectivity; however, we are more interested in its different uses: checking whether the remote system is online.
 
