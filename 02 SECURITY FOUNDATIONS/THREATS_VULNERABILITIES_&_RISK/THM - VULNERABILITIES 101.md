@@ -134,8 +134,8 @@ Let's recap some of the advantages and disadvantages of using the VPR framewor
 ### Questions
 
 ##### What year was the first iteration of CVSS published?
-##### 
-##### 
+##### If you wanted to assess vulnerability based on the risk it poses to an organisation, what framework would you use?<br>**Note:** We are looking for the acronym here.
+##### If you wanted to use a framework that was free and open-source, what framework would that be?<br>Note: We are looking for the acronym here
 <div align="center">
 <br>
 <br>
