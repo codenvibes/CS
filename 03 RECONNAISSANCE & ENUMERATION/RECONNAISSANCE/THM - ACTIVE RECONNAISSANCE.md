@@ -174,8 +174,6 @@ In the following examples, we run the same command,Â `traceroute tryhackme.com`Â
 
 Traceroute A
 
-AttackBox Terminal - Traceroute A
-
 ```shell-session
 user@AttackBox$ traceroute tryhackme.com
 traceroute to tryhackme.com (172.67.69.208), 30 hops max, 60 byte packets
