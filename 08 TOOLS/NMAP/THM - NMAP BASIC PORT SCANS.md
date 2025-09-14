@@ -114,12 +114,9 @@ In the following Wireshark packet capture window, we see Nmap sending TCP pa
 <div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/a975503bd3e006bd32147ba9c9faede4.png"></div>
 
 We notice that port 143 is open, so it replied with a SYN/ACK, and Nmap completed the 3-way handshake by sending an ACK. The figure below shows all the packets exchanged between our Nmap host and the target system’s port 143. The first three packets are the TCP 3-way handshake being completed. Then, the fourth packet tears it down with an RST/ACK packet.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/19ebc8172c930867c50e214b630ef4ec.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/19ebc8172c930867c50e214b630ef4ec.png"></div>
 
 To illustrate the `-sT` (TCP connect scan), the following command example returned a detailed list of the open ports.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ nmap -sT MACHINE_IP
@@ -151,7 +148,8 @@ It is worth mentioning that the `-r` option can also be added to scan the port
 
 ### Questions
 
-##### 
+##### Launch the VM. Open the AttackBox and execute `nmap -sT MACHINE_IP` via the terminal. A new service has been installed on this VM since our last scan, as shown in the terminal window above. Which port number was closed in the scan above but is now open on this target VM?
+##### What is Nmap’s guess about the newly installed service?
 <div align="center">
 <br>
 <br>
@@ -162,6 +160,14 @@ It is worth mentioning that the `-r` option can also be added to scan the port
 <div style="page-break-after: always;"></div>
 
 ## 5. TCP SYN Scan
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
