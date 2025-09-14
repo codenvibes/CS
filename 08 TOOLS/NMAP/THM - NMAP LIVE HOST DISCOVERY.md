@@ -476,9 +476,9 @@ Masscan is not installed on the AttackBox; however, it can be installed using `
 
 ### Questions
 
-##### 
-##### 
-##### 
+##### Which TCP ping scan does not require a privileged account?
+##### Which TCP ping scan requires a privileged account?
+##### What option do you need to add to Nmap to run a TCP SYN ping scan on the telnet port?
 <div align="center">
 <br>
 <br>
