@@ -175,6 +175,7 @@ One scenario where these three scan types can be efficient is when scanning a ta
 <div style="page-break-after: always;"></div>
 
 ## 3. TCP Maimon Scan
+
 <div align="center">
 <br>
 <br>
