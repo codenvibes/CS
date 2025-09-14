@@ -270,8 +270,6 @@ Another similar scan is the TCP window scan. The TCP window scan is almost t
 
 Similarly, launching a TCP window scan against a Linux system with no firewall will not provide much information. As we can see in the console output below, the results of the window scan against a Linux server with no firewall didn’t give any extra information compared to the ACK scan executed earlier.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sW MACHINE_IP
 
@@ -281,13 +279,10 @@ Host is up (0.0011s latency).
 All 1000 scanned ports on ip-10-10-252-27.eu-west-1.compute.internal (10.10.252.27) are closed
 MAC Address: 02:45:BF:8A:2D:6B (Unknown)
 
-Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds
-      
+Nmap done: 1 IP address (1 host up) scanned in 1.60 seconds  
 ```
 
 However, as you would expect, if we repeat our TCP window scan against a server behind a firewall, we expect to get more satisfying results. In the console output shown below, the TCP window scan pointed that three ports are detected as closed. (This is in contrast with the ACK scan that labelled the same three ports as unfiltered.) Although we know that these three ports are not closed, we realize they responded differently, indicating that the firewall does not block them.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sW MACHINE_IP
