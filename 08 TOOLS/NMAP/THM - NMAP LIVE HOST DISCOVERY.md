@@ -437,8 +437,6 @@ In the following figure, we see a UDP packet sent to an open UDP port and no
 
 The syntax to specify the ports is similar to that of TCP SYN ping and TCP ACK ping; Nmap uses `-PU` for UDP ping. In the following example, we use a UDP scan, and we discover five live hosts.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -PU -sn 10.10.68.220/24
 Starting Nmap 7.92 ( https://nmap.org ) at 2021-09-02 13:45 EEST
@@ -457,7 +455,7 @@ Nmap done: 256 IP addresses (5 hosts up) scanned in 9.20 seconds
 
 Let’s inspect the UDP packets generated. In the following Wireshark screenshot, we notice Nmap sending UDP packets to UDP ports that are most likely closed. The image below shows that Nmap uses an uncommon UDP port to trigger an ICMP destination unreachable (port unreachable) error.
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/2417b8b03f00fe5f589a08d9e6e62209.png)
+![]()
 
 **Masscan**
 
