@@ -85,8 +85,6 @@ Technically speaking, ping falls under the protocol ICMP (Internet Control Messa
 
 In the following example, we have specified the total count of packets to 5. From the AttackBox’s terminal, we started pinging `MACHINE_IP`. We learned that `MACHINE_IP` is up and is not blocking ICMP echo requests. Moreover, any firewalls and routers on the packet route are not blocking ICMP echo requests either.
 
-AttackBox Terminal
-
 ```shell-session
 user@AttackBox$ ping -c 5 MACHINE_IP
 PING MACHINE_IP (MACHINE_IP) 56(84) bytes of data.
