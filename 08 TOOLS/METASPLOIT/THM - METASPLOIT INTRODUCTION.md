@@ -956,17 +956,15 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 This will return you the context prompt from which you have run the exploit.
 
 Some modules support the `check` option. This will check if the target system is vulnerable without exploiting it.
+<div>
+<br>
+</div>
 
-  
+### Sessions
 
-**Sessions**  
 Once a vulnerability has been successfully exploited, a session will be created. This is the communication channel established between the target system and Metasploit.
 
-  
-
 You can use the `background` command to background the session prompt and go back to the msfconsole prompt.
-
-  
 
 Backgrounding sessions
 
@@ -976,10 +974,7 @@ meterpreter > background
 msf6 exploit(windows/smb/ms17_010_eternalblue) > 
 ```
 
-  
-
 Alternatively, `CTRL+Z` can be used to background sessions.
-
 The `sessions` command can be used from the msfconsole prompt or any context to see the existing sessions.
 
 Listing active sessions
@@ -1009,8 +1004,6 @@ Active sessions
 msf6 >
 ```
 
-  
-
 To interact with any session, you can use the `sessions -i` command followed by the desired session number.  
 
 Interacting with sessions
@@ -1038,6 +1031,9 @@ meterpreter >
 
 ### Questions
 
+##### How would you set the LPORT value to 6666?
+##### How would you set the global value for RHOSTS  to 10.10.19.23 ?
+##### 
 ##### 
 <div align="center">
 <br>
