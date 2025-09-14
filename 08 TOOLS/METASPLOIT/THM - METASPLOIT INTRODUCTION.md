@@ -317,13 +317,9 @@ Metasploit tip: Search can apply complex filters such as search cve:2009 type:ex
 msf6 >
 ```
 
-  
-
 Once launched, you will see the command line changes to msf6 (or msf5 depending on the installed version of Metasploit). The Metasploit console (msfconsole) can be used just like a regular command-line shell, as you can see below. The first command is `ls` which lists the contents of the folder from which Metasploit was launched using the `msfconsole` command.
 
 It is followed by a `ping` sent to Google's DNS IP address (8.8.8.8). As we operate from the AttackBox, which is Linux we had to add the `-c 1` option, so only a single ping was sent. Otherwise, the ping process would continue until it is stopped using `CTRL+C`.  
-
-LinuxCommands inMetasploit
 
 ```shell-session
 msf6 > ls
@@ -344,8 +340,6 @@ rtt min/avg/max/mdev = 1.335/1.335/1.335/0.000 ms
 msf6 >
 ```
 
-  
-
 It will support most Linux commands, including `clear` (to clear the terminal screen), but will not allow you to use some features of a regular command line (e.g. does not support output redirection), as seen below.
 
 Failed Output Redirection
@@ -355,8 +349,6 @@ msf6 > help > help.txt
 [-] No such command
 msf6 >
 ```
-
-  
 
 While on the subject, the help command can be used on its own or for a specific command. Below is the help menu for the set command we will cover soon.
 
@@ -377,8 +369,6 @@ If setting a PAYLOAD, this command can take an index from `show payloads'.
 msf6 >
 ```
 
-  
-
 You can use the history command to see commands you have typed earlier.
 
 History command
@@ -396,8 +386,6 @@ msf6 > history
 9  version
 10  use exploit/multi/script/web_delivery
 ```
-
-  
 
 An important feature of msfconsole is the support of tab completion. This will come in handy later when using Metasploit commands or dealing with modules. For example, if you start typing `he` and press the tab key, you will see it auto-completes to `help`.
 
