@@ -186,6 +186,111 @@ Web browsers are generally free to install and use; furthermore, tech giants bat
 
 ## 4. File Transfer Protocol (FTP)
 
+File Transfer Protocol (FTP) was developed to make the transfer of files between different computers with different systems efficient.
+
+FTP also sends and receives data as cleartext; therefore, we can use Telnet (or Netcat) to communicate with an FTP server and act as an FTP client. In the example below, we carried out the following steps:
+
+1. We connected to an FTP server using a Telnet client. Since FTP servers listen on port 21 by default, we had to specify to our Telnet client to attempt connection to port 21 instead of the default Telnet port.
+2. We needed to provide the username with the command `USER frank`.
+3. Then, we provided the password with the command `PASS D2xc9CgD`.
+4. Because we supplied the correct username and password, we got logged in.
+
+A command like `STAT` can provide some added information. The `SYST` command shows the System Type of the target (UNIX in this case). `PASV` switches the mode to passive. It is worth noting that there are two modes for FTP:
+
+- Active: In the active mode, the data is sent over a separate channel originating from the FTP server’s port 20.
+- Passive: In the passive mode, the data is sent over a separate channel originating from an FTP client’s port above port number 1023.
+
+The command `TYPE A` switches the file transfer mode to ASCII, while `TYPE I` switches the file transfer mode to binary. However, we cannot transfer a file using a simple client such as Telnet because FTP creates a separate connection for file transfer.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ telnet MACHINE_IP 21
+Trying MACHINE_IP...
+Connected to MACHINE_IP.
+Escape character is '^]'.
+220 (vsFTPd 3.0.3)
+USER frank
+331 Please specify the password.
+PASS D2xc9CgD
+230 Login successful.
+SYST
+215 UNIX Type: L8
+PASV
+227 Entering Passive Mode (10,10,0,148,78,223).
+TYPE A
+200 Switching to ASCII mode.
+STAT          
+211-FTP server status:
+     Connected to ::ffff:10.10.0.1
+     Logged in as frank
+     TYPE: ASCII
+     No session bandwidth limit
+     Session timeout in seconds is 300
+     Control connection is plain text
+     Data connections will be plain text
+     At session startup, client count was 1
+     vsFTPd 3.0.3 - secure, fast, stable
+211 End of status
+QUIT
+221 Goodbye.
+Connection closed by foreign host.
+```
+
+The image below shows how an actual file transfer would be conducted using FTP. To keep things simple in this figure, let’s only focus on the fact that the FTP client will initiate a connection to an FTP server, which listens on port 21 by default. All commands will be sent over the control channel. Once the client requests a file, another TCP connection will be established between them. (The details of establishing the data connection/channel is beyond the scope of this room.)
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/da71a52fddfbb268dc6c5857daf07f18.png)
+
+Considering the sophistication of the data transfer over FTP, let’s use an actual FTP client to download a text file. We only needed a small number of commands to retrieve the file. After logging in successfully, we get the FTP prompt, `ftp>`, to execute various FTP commands. We used `ls` to list the files and learn the file name; then, we switched to `ascii` since it is a text file (not binary). Finally, `get FILENAME` made the client and server establish another channel for file transfer.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ ftp MACHINE_IP
+Connected to MACHINE_IP.
+220 (vsFTPd 3.0.3)
+Name: frank
+331 Please specify the password.
+Password: D2xc9CgD
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+227 Entering Passive Mode (10,20,30,148,201,180).
+150 Here comes the directory listing.
+-rw-rw-r--    1 1001     1001         4006 Sep 15 10:27 README.txt
+226 Directory send OK.
+ftp> ascii
+200 Switching to ASCII mode.
+ftp> get README.txt
+local: README.txt remote: README.txt
+227 Entering Passive Mode (10,10,0,148,125,55).
+150 Opening BINARY mode data connection for README.txt (4006 bytes).
+WARNING! 9 bare linefeeds received in ASCII mode
+File may not have transferred correctly.
+226 Transfer complete.
+4006 bytes received in 0.000269 secs (14892.19 Kbytes/sec)
+ftp> exit
+221 Goodbye.
+```
+
+FTP servers and FTP clients use the FTP protocol. There are various FTP server software that you can select from if you want to host your FTP file server. Examples of FTP server software include:
+
+- [vsftpd](https://security.appspot.com/vsftpd.html)
+- [ProFTPD](http://www.proftpd.org/)
+- [uFTP](https://www.uftpserver.com/)
+
+For FTP clients, in addition to the console FTP client commonly found on Linux systems, you can use an FTP client with GUI such as [FileZilla](https://filezilla-project.org/). Some web browsers also support FTP protocol.
+
+Because FTP sends the login credentials along with the commands and files in cleartext, FTP traffic can be an easy target for attackers.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
