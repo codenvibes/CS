@@ -531,7 +531,6 @@ Remember to add `-sn` if you are only interested in host discovery without por
 |`-n`|no DNS lookup|
 |`-R`|reverse-DNS lookup for all hosts|
 |`-sn`|host discovery only|
-
 <div align="center">
 <br>
 <br>
