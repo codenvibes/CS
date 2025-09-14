@@ -272,8 +272,6 @@ Some scripts belong to more than one category. Moreover, some scripts launch bru
 
 We use Nmap to run a SYN scan against `MACHINE_IP` and execute the default scripts in the console shown below. The command is `sudo nmap -sS -sC MACHINE_IP`, where `-sC` will ensure that Nmap will execute the default scripts following the SYN scan. There are new details that appear below. Take a look at the SSH service at port 22; Nmap recovered all four public keys related to the running server. Consider another example, the HTTP service at port 80; Nmap retrieved the default page title. We can see that the page has been left as default.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sS -sC MACHINE_IP
 
@@ -316,8 +314,6 @@ You can also specify the script by name using `--script "SCRIPT-NAME"` or a pa
 
 Let’s consider a benign script, `http-date`, which we guess would retrieve the http server date and time, and this is indeed confirmed in its description: “Gets the date from HTTP-like services. Also, it prints how much the date differs from local time…” On the AttackBox, we execute `sudo nmap -sS -n --script "http-date" MACHINE_IP` as shown in the console below.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ sudo nmap -sS -n --script "http-date" MACHINE_IP
 
@@ -346,7 +342,10 @@ Finally, you might expand the functionality of Nmap beyond the official Nmap�
 
 ### Questions
 
-##### 
+##### Knowing that Nmap scripts are saved in `/usr/share/nmap/scripts` on the AttackBox. What does the script `http-robots.txt` check for?
+##### Can you figure out the name for the script that checks for the remote code execution vulnerability MS15-034 (CVE2015-1635)?
+##### Launch the AttackBox if you haven't already. After you ensure you have terminated the VM from Task 2, start the target machine for this task. On the AttackBox, run Nmap with the default scripts `-sC` against `MACHINE_IP`. You will notice that there is a service listening on port 53. What is its full version value?
+##### Based on its description, the script `ssh2-enum-algos` “reports the number of algorithms (for encryption, compression, etc.) that the target SSH2 server offers.” What is the name of the server host key algorithm that relies on SHA2-512 and is supported by `MACHINE_IP`?
 <div align="center">
 <br>
 <br>
