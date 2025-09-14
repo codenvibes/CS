@@ -416,34 +416,30 @@ Host: MACHINE_IP	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protoco
 
 An example use of `grep` is `grep KEYWORD TEXT_FILE`; this command will display all the lines containing the provided keyword. Let’s compare the output of using `grep` on normal output and grepable output. You will notice that the former does not provide the IP address of the host. Instead, it returned `80/tcp open http nginx 1.6.2`, making it very inconvenient if you are sifting through the scan results of multiple systems. However, the latter provides enough information, such as the host’s IP address, in each line to make it complete.
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ grep http MACHINE_IP_scan.nmap 
 80/tcp  open  http    nginx 1.6.2
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 ```
 
-Pentester Terminal
-
 ```shell-session
 pentester@TryHackMe$ grep http MACHINE_IP_scan.gnmap 
 Host: MACHINE_IP	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//nginx 1.6.2/, 110/open/tcp//pop3//Dovecot pop3d/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 143/open/tcp//imap//Dovecot imapd/	Ignored State: closed (994)	OS: Linux 3.13	Seq Index: 257	IP ID Seq: All zeros
 ```
-
-  
+<div>
+<br>
+</div>
 
 ### XML
 
 The third format is XML. You can save the scan results in XML format using `-oX FILENAME`. The XML format would be most convenient to process the output in other programs. Conveniently enough, you can save the scan output in all three formats using `-oA FILENAME` to combine `-oN`, `-oG`, and `-oX` for normal, grepable, and XML.
-
-  
+<div>
+<br>
+</div>
 
 ### Script Kiddie
 
 A fourth format is script kiddie. You can see that this format is useless if you want to search the output for any interesting keywords or keep the results for future reference. However, you can use it to save the output of the scan `nmap -sS 127.0.0.1 -oS FILENAME`, display the output filename, and look 31337 in front of friends who are not tech-savvy.
-
-Pentester Terminal
 
 ```shell-session
 pentester@TryHackMe$ cat MACHINE_IP_scan.kiddie 
