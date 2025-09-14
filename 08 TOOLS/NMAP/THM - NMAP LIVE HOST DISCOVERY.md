@@ -65,7 +65,7 @@ Click on the “View Site” button to start the network simulator. We will use 
 
 ##### Send a packet with the following:<br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/65a1bdee53403520174388d9de6410ba.png"><br> - From computer1<br> - To computer1 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
 ##### Did computer6 receive the ARP Request? (Y/N)
-##### Send a packet with the following:<br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/818d1c5a3a96a9962dde71069f9e1ee8.png"><br> - From computer4<br> - To computer4 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
+##### Send a packet with the following:<br><img width=src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/818d1c5a3a96a9962dde71069f9e1ee8.png"><br> - From computer4<br> - To computer4 (to indicate it is broadcast)<br> - Packet Type: “ARP Request”<br> - Data: computer6 (because we are asking for computer6 MAC address using ARP Request)<br>How many devices can see the ARP Request?
 ##### Did computer6 reply to the ARP Request? (Y/N)
 <div align="center">
 <br>
@@ -109,6 +109,31 @@ Launch the AttackBox using the Start AttackBox button, open the terminal when th
 
 ## 4. Discovering Live Hosts
 
+Let’s revisit the TCP/IP layers shown in the figure next. We will leverage the protocols to discover the live hosts. Starting from bottom to top, we can use:
+
+- ARP from Link Layer
+- ICMP from Network Layer
+- TCP from Transport Layer
+- UDP from Transport Layer
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/745e0412b319d324352c7b29863b74f4.png"></div>
+
+Before we discuss how scanners can use each in detail, we will briefly review these four protocols. ARP has one purpose: sending a frame to the broadcast address on the network segment and asking the computer with a specific IP address to respond by providing its MAC (hardware) address.
+
+ICMP has [many types](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml). ICMP ping uses Type 8 (Echo) and Type 0 (Echo Reply).
+
+If you want to ping a system on the same subnet, an ARP query should precede the ICMP Echo.
+
+Although TCP and UDP are transport layers, for network scanning purposes, a scanner can send a specially-crafted packet to common TCP or UDP ports to check whether the target will respond. This method is efficient, especially when ICMP Echo is blocked.
+
+If you have closed the network simulator, click on the “View Site” button in Task 2 to display it again.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
