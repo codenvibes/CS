@@ -590,6 +590,14 @@ Password: Password1
 
 ### Questions
 
+##### What is the computer name?
+##### What is the target domain?
+##### What is the name of the share likely created by the user?
+##### What is the NTLM hash of the jchambers user?
+##### What is the cleartext password of the jchambers user?
+##### 
+##### 
+##### 
 ##### 
 <div align="center">
 <br>
