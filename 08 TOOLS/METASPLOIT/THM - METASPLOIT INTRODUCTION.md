@@ -864,11 +864,7 @@ Exploit target:
 msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
-  
-
 You can use the `setg` command to set values that will be used for all modules. The `setg` command is used like the set command. The difference is that if you use the `set` command to set a value using a module and you switch to another module, you will need to set the value again. The `setg` command allows you to set the value so it can be used by default across different modules. You can clear any value set with `setg` using `unsetg`.
-
-  
 
 The example below uses the following flow;
 
@@ -907,19 +903,16 @@ Module options (auxiliary/scanner/smb/smb_ms17_010):
 msf6 auxiliary(scanner/smb/smb_ms17_010) >
 ```
 
-  
-
 The `setg` command sets a global value that will be used until you exit Metasploit or clear it using the `unsetg` command.
+<div>
+<br>
+</div>
 
-  
-
-**Using modules**
+### Using modules
 
 Once all module parameters are set, you can launch the module using the `exploit` command. Metasploit also supports the `run` command, which is an alias created for the `exploit` command as the word exploit did not make sense when using modules that were not exploits (port scanners, vulnerability scanners, etc.).
-
   
 The `exploit` command can be used without any parameters or using the “`-z`” parameter.
-
 The `exploit -z` command will run the exploit and background the session as soon as it opens.
 
 The exploit -z command
