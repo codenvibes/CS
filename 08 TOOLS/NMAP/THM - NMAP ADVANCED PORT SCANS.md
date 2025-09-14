@@ -176,6 +176,36 @@ One scenario where these three scan types can be efficient is when scanning a ta
 
 ## 3. TCP Maimon Scan
 
+Uriel Maimon first described this scan in 1996. In this scan, the FIN and ACK bits are set. The target should send an RST packet as a response. However, certain BSD-derived systems drop the packet if it is an open port exposing the open ports. This scan won’t work on most targets encountered in modern networks; however, we include it in this room to better understand the port scanning mechanism and the hacking mindset. To select this scan type, use the `-sM` option.
+
+Most target systems respond with an RST packet regardless of whether the TCP port is open. In such a case, we won’t be able to discover the open ports. The figure below shows the expected behaviour in the cases of both open and closed TCP ports.
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/8ca5e5e0f6e0a1843cebe11b5b0785b3.png"></div>
+
+The console output below is an example of a TCP Maimon scan against a Linux server. As mentioned, because open ports and closed ports are behaving the same way, the Maimon scan could not discover any open ports on the target system.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ sudo nmap -sM 10.10.252.27
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2021-08-30 10:36 BST
+Nmap scan report for ip-10-10-252-27.eu-west-1.compute.internal (10.10.252.27)
+Host is up (0.00095s latency).
+All 1000 scanned ports on ip-10-10-252-27.eu-west-1.compute.internal (10.10.252.27) are closed
+MAC Address: 02:45:BF:8A:2D:6B (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.61 seconds
+```
+
+This type of scan is not the first scan one would pick to discover a system; however, it is important to know about it as you don’t know when it could come in handy.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
