@@ -400,6 +400,7 @@ Consider the following example. On the server-side, we will listen on port 1234.
 ### Questions
 
 ##### Start the VM and open the AttackBox. Once the AttackBox loads, use Netcat to connect to the VM port 21. What is the version of the running server?
+0.17
 <div align="center">
 <br>
 <br>
