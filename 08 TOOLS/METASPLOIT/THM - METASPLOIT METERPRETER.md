@@ -216,7 +216,7 @@ Compatible Payloads
 
 Typing `help` on any Meterpreter session (shown by `meterpreter>` at the prompt) will list all available commands.
 
-TheMeterpreterhelp menu
+The Meterpreter help menu
 
 ```shell-session
 meterpreter > help
@@ -239,13 +239,11 @@ Core Commands
 Every version of Meterpreter will have different command options, so running the `help` command is always a good idea. Commands are built-in tools available on Meterpreter. They will run on the target system without loading any additional script or executable files.
 
 Meterpreter will provide you with three primary categories of tools;
-
 - Built-in commands
 - Meterpreter tools
 - Meterpreter scripting
 
 If you run the `help` command, you will see Meterpreter commands are listed under different categories.
-
 - Core commands
 - File system commands
 - Networking commands
@@ -258,17 +256,18 @@ If you run the `help` command, you will see Meterpreter commands are listed 
 - Timestomp commands
 
 Please note that the list above was taken from the output of the `help` command on the Windows version of Meterpreter (windows/x64/meterpreter/reverse_tcp). These will be different for other Meterpreter versions.
+<div>
+<br>
+</div>
 
-**Meterpreter commands**
+### Meterpreter commands
 
 Core commands will be helpful to navigate and interact with the target system. Below are some of the most commonly used. Remember to check all available commands running the help command once a Meterpreter session has started.
 
 Core commands
-
 - `background`: Backgrounds the current session
 - `exit`: Terminate the Meterpreter session
 - `guid`: Get the session GUID (Globally Unique Identifier)  
-    
 - `help`: Displays the help menu
 - `info`: Displays information about a Post module
 - `irb`: Opens an interactive Ruby shell on the current session
@@ -278,7 +277,6 @@ Core commands
 - `sessions`: Quickly switch to another session
 
 File system commands
-
 - `cd`: Will change directory
 - `ls`: Will list files in the current directory (dir will also work)
 - `pwd`: Prints the current working directory
