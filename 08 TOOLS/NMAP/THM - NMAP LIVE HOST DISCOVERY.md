@@ -489,6 +489,18 @@ Masscan is not installed on the AttackBox; however, it can be installed using `
 <div style="page-break-after: always;"></div>
 
 ## 8. Using Reverse-DNS Lookup
+
+Nmap’s default behaviour is to use reverse-DNS online hosts. Because the hostnames can reveal a lot, this can be a helpful step. However, if you don’t want to send such DNS queries, you use `-n` to skip this step.
+
+By default, Nmap will look up online hosts; however, you can use the option `-R` to query the DNS server even for offline hosts. If you want to use a specific DNS server, you can add the `--dns-servers DNS_SERVER` option.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
