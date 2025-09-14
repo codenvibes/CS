@@ -456,8 +456,11 @@ meterpreter >
 ```
 
 While it is not mathematically possible to "crack" these hashes, you may still discover the cleartext password using online NTLM databases or a rainbow table attack. These hashes can also be used in Pass-the-Hash attacks to authenticate to other systems that these users can access the same network.
+<div>
+<br>
+</div>
 
-**Search**
+### Search
 
 The `search` command is useful to locate files with potentially juicy information. In a CTF context, this can be used to quickly find a flag or proof file, while in actual penetration testing engagements, you may need to search for user-generated files or configuration files that may contain password or account information.
 
@@ -469,8 +472,11 @@ Found 1 result...
     c:\Windows\System32\config\flag2.txt (34 bytes)
 meterpreter >
 ```
+<div>
+<br>
+</div>
 
-**Shell**
+### Shell
 
 The shell command will launch a regular command-line shell on the target system. Pressing CTRL+Z will help you go back to the Meterpreter shell.
 
