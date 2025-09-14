@@ -592,8 +592,11 @@ msf6 exploit(windows/smb/ms17_010_eternalblue) >
 ```
 
 Alternatively, you can use the `info` command followed by the module’s path from the msfconsole prompt (e.g. `info exploit/windows/smb/ms17_010_eternalblue`). Info is not a help menu; it will display detailed information on the module such as its author, relevant sources, etc.
+<div>
+<br>
+</div>
 
-**Search**
+### Search
 
 One of the most useful commands in msfconsole is `search`. This command will search the Metasploit Framework database for modules relevant to the given search parameter. You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
 
@@ -619,26 +622,17 @@ Interact with a module by name or index, for example use 4 or use exploit/window
 msf6 >
 ```
 
-  
-
 The output of the `search` command provides an overview of each returned module. You may notice the “name” column already gives more information than just the module name. You can see the type of module (auxiliary, exploit, etc.) and the category of the module (scanner, admin, windows, Unix, etc.). You can use any module returned in a search result with the command use followed by the number at the beginning of the result line. (e.g. `use 0` instead of `use auxiliary/admin/smb/ms17_010_command`)  
 
-  
 Another essential piece of information returned is in the “rank” column. Exploits are rated based on their reliability. The table below provides their respective descriptions.
 
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/603df7900d7b6f1dff18b0bd/room-content/a88c8d37283878e01447853a68578deb.png)
 
 Source: [https://github.com/rapid7/metasploit-framework/wiki/Exploit-Ranking](https://github.com/rapid7/metasploit-framework/wiki/Exploit-Ranking)
 
-  
-
 You can direct the search function using keywords such as type and platform.
 
-  
-
 For example, if we wanted our search results to only include auxiliary modules, we could set the type to auxiliary. The screenshot below shows the output of the search type:auxiliary telnet command.
-
-  
 
 Search by module type
 
@@ -671,8 +665,6 @@ Interact with a module by name or index, for example use 13 or use auxiliary/ser
 msf6 >
 ```
 
-  
-
 Please remember that exploits take advantage of a vulnerability on the target system and may always show unexpected behavior. A low-ranking exploit may work perfectly, and an excellent ranked exploit may not, or worse, crash the target system.
 <div>
 <br>
@@ -681,6 +673,7 @@ Please remember that exploits take advantage of a vulnerability on the target sy
 
 ### Questions
 
+##### How would you search for a module related to Apache?
 ##### 
 <div align="center">
 <br>
