@@ -215,7 +215,7 @@ For example, in the screenshot below, we can see that the name and version numbe
 <div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/tomcat1.png"></div>
 
 With this information in hand, let’s use the search filter on Exploit-DB to look for any exploits that may apply to “**Apache Tomcat 9.0.17**”.
-<div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/tomcat2.png)"></div>
+<div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/tomcat2.png"></div>
 
 Great! After searching Exploit-DB, there are a total of five exploits that may be useful to us for this specific version of the application.
 <div>
@@ -225,7 +225,7 @@ Great! After searching Exploit-DB, there are a total of five exploits that may b
 
 ### Questions
 
-##### 
+##### What type of vulnerability did we use to find the name and version of the application in this example?
 <div align="center">
 <br>
 <br>
@@ -236,6 +236,20 @@ Great! After searching Exploit-DB, there are a total of five exploits that may b
 <div style="page-break-after: always;"></div>
 
 ## 6. Showcase: Exploiting Ackme's Application
+
+It is your first week on the job as Jr. Penetration tester at ThePentestingCo. For your first engagement, you are shadowing a Sr. Penetration Tester within the company.
+
+Deploy the site attached to this task and follow the steps that the Sr. Penetration Tester took to exploit a vulnerability against ACKme IT Service's infrastructure.
+
+**Complete the engagement to retrieve a flag.**
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Follow along with the showcase of exploiting ACKme's application to the end to retrieve a flag. What is this flag?
 <div align="center">
 <br>
 <br>
@@ -246,6 +260,8 @@ Great! After searching Exploit-DB, there are a total of five exploits that may b
 <div style="page-break-after: always;"></div>
 
 ## 7. Conclusion
+
+Nice work! We’ve made it to the end. This room has served as an introductory to vulnerability research and some skills and resources this requires, where you have practically applied this knowledge.
 <div align="center">
 <br>
 <br>
