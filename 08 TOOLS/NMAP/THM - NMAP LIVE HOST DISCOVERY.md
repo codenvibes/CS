@@ -338,8 +338,7 @@ Nmap done: 256 IP addresses (0 hosts up) scanned in 52.17 seconds
 ```
 
 Although we didn’t get any reply and could not figure out which hosts are online, it is essential to note that this scan sent ICMP address mask requests to every valid IP address and waited for a reply. Each ICMP request was sent twice, as we can see in the screenshot below.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/8281b22c8eff2c0e09cef3d81c9d299a.png)
+<div align="center"><br><img src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/8281b22c8eff2c0e09cef3d81c9d299a.png"></div>
 <div>
 <br>
 <br>
@@ -347,7 +346,9 @@ Although we didn’t get any reply and could not figure out which hosts are onli
 
 ### Questions
 
-##### 
+##### What is the option required to tell Nmap to use ICMP Timestamp to discover live hosts?
+##### What is the option required to tell Nmap to use ICMP Address Mask to discover live hosts?
+##### What is the option required to tell Nmap to use ICMP Echo to discover live hosts?
 <div align="center">
 <br>
 <br>
