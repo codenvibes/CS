@@ -184,8 +184,7 @@ While this website helps keep track of new vulnerabilities, it is not great when
 [Exploit-DB](https://www.exploit-db.com/) is a resource that we, as hackers, will find much more helpful during an assessment. Exploit-DB retains exploits for software and applications stored under the name, author and version of the software or application.
 
 We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) that are used to exploit a specific vulnerability.
-
-![](https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/exploitdb1.png)
+<div align="center"><br><img src="https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/exploitdb1.png"></div>
 <div>
 <br>
 <br>
@@ -193,7 +192,8 @@ We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) 
 
 ### Questions
 
-##### 
+##### Using [NVD](https://nvd.nist.gov/vuln/search), how many CVEs were published in July 2021?
+##### Who is the author of [Exploit-DB](https://www.exploit-db.com/)?
 <div align="center">
 <br>
 <br>
@@ -204,6 +204,7 @@ We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) 
 <div style="page-break-after: always;"></div>
 
 ## 5. An Example of Finding a Vulnerability
+
 <div align="center">
 <br>
 <br>
