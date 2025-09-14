@@ -417,8 +417,11 @@ Process List
  1340  692   svchost.exe           x64   0        NT AUTHORITY\LOCAL SERVICE    
  1388  548   conhost.exe           x64   0        NT AUTHORITY\SYSTEM           C:\Windows\system32\conhost.exe[...]
 ```
+<div>
+<br>
+</div>
 
-**Migrate**
+### Migrate
 
 Migrating to another process will help Meterpreter interact with it. For example, if you see a word processor running on the target (e.g. word.exe, notepad.exe, etc.), you can migrate to it and start capturing keystrokes sent by the user to this process. Some Meterpreter versions will offer you the `keyscan_start`, `keyscan_stop`, and `keyscan_dump` command options to make Meterpreter act like a keylogger. Migrating to another process may also help you to have a more stable Meterpreter session.
 
@@ -434,8 +437,11 @@ meterpreter >
 ```
 
 Be careful; you may lose your user privileges if you migrate from a higher privileged (e.g. SYSTEM) user to a process started by a lower privileged user (e.g. webserver). You may not be able to gain them back.
+<div>
+<br>
+</div>
 
-**Hashdump**
+### Hashdump
 
 The `hashdump` command will list the content of the SAM database. The SAM (Security Account Manager) database stores user's passwords on Windows systems. These passwords are stored in the NTLM (New Technology LAN Manager) format.
 
