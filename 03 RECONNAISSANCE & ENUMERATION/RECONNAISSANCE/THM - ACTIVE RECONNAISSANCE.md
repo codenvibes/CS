@@ -138,10 +138,10 @@ Generally speaking, when we don’t get a ping reply back, there are a few expla
 -s
 
 ##### What is the size of the ICMP header in bytes?
-
+8
 
 ##### Does MS Windows Firewall block ping by default? (Y/N)
-
+Y
 
 ##### Deploy the VM for this task and using the AttackBox terminal, issue the command `ping -c 10 MACHINE_IP`. How many ping replies did you get back?
 <div align="center">
