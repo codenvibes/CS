@@ -146,6 +146,51 @@ Let's recap some of the advantages and disadvantages of using the VPR framewor
 <div style="page-break-after: always;"></div>
 
 ## 4. Vulnerability Databases
+
+Throughout your journey in cybersecurity, you will often come across a magnitude of different applications and services. For example, a CMS whilst they all have the same purpose, often have very different designs and behaviors (and, in turn, potentially different vulnerabilities).
+
+Thankfully for us, there are resources on the internet that keep track of vulnerabilities for all sorts of software, operating systems and more! This room will showcase two databases that we can use to look up existing vulnerabilities for applications discovered in our infosec journey, specifically the following websites:
+
+1. [NVD (National Vulnerability Database)](https://nvd.nist.gov/vuln)
+2. [Exploit-DB](http://exploit-db.com/)
+
+Before we dive into these two resources, let's ensure that our understanding of some fundamental key terms is on the same page:
+
+| **Term**               | **Definition**                                                                                                           |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Vulnerability          | A vulnerability is defined as a weakness or flaw in the design, implementation or behaviours of a system or application. |
+| Exploit                | An exploit is something such as an action or behaviour that utilises a vulnerability on a system or application.         |
+| Proof of Concept (PoC) | A PoC is a technique or tool that often demonstrates the exploitation of a vulnerability.                                |
+
+  
+
+## NVD – National Vulnerability Database
+
+The National Vulnerability Database is a website that lists all publically categorised vulnerabilities. In cybersecurity, vulnerabilities are classified under “**C**ommon **V**ulnerabilities and **E**xposures” (Or CVE for short).
+
+These CVEs have the formatting of `CVE-YEAR-IDNUMBER`. For example, the vulnerability that the famous malware WannaCry used was `CVE-2017-0144.`
+
+NVD allows you to see all the CVEs that have been confirmed, using filters by category and month of submission. For example, it is three days into August; there have already been 223 new CVEs submitted to this database.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/aa86c1cce478d6c357f5507d927c9e88.png)
+
+While this website helps keep track of new vulnerabilities, it is not great when searching for vulnerabilities for a specific application or scenario.
+
+## Exploit-DB
+
+[Exploit-DB](https://www.exploit-db.com/) is a resource that we, as hackers, will find much more helpful during an assessment. Exploit-DB retains exploits for software and applications stored under the name, author and version of the software or application.
+
+We can use Exploit-DB to look for snippets of code (known as Proof of Concepts) that are used to exploit a specific vulnerability.
+
+![](https://assets.tryhackme.com/additional/vulnerability-module/vulnerabilities101/exploitdb1.png)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
