@@ -246,6 +246,9 @@ To summarize, we can notice the following:
 
 ### Questions
 
+##### In Traceroute A, what is the IP address of the last router/hop before reaching tryhackme.com?
+##### In Traceroute B, what is the IP address of the last router/hop before reaching tryhackme.com?
+##### In Traceroute B, how many routers are between the two systems?
 ##### 
 <div align="center">
 <br>
