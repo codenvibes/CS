@@ -356,6 +356,124 @@ Finally, you might expand the functionality of Nmap beyond the official Nmap�
 <div style="page-break-after: always;"></div>
 
 ## 5. Saving the Output
+
+Whenever you run a Nmap scan, it is only reasonable to save the results in a file. Selecting and adopting a good naming convention for your filenames is also crucial. The number of files can quickly grow and hinder your ability to find a previous scan result. The three main formats are:
+
+1. Normal
+2. Grepable (`grep`able)
+3. XML
+
+There is a fourth one that we cannot recommend:
+
+- Script Kiddie
+<div>
+<br>
+</div>
+
+### Normal
+
+As the name implies, the normal format is similar to the output you get on the screen when scanning a target. You can save your scan in normal format by using `-oN FILENAME`; N stands for normal. Here is an example of the result.
+
+```shell-session
+pentester@TryHackMe$ cat MACHINE_IP_scan.nmap 
+# Nmap 7.60 scan initiated Fri Sep 10 05:14:19 2021 as: nmap -sS -sV -O -oN MACHINE_IP_scan MACHINE_IP
+Nmap scan report for MACHINE_IP
+Host is up (0.00086s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)
+25/tcp  open  smtp    Postfix smtpd
+80/tcp  open  http    nginx 1.6.2
+110/tcp open  pop3    Dovecot pop3d
+111/tcp open  rpcbind 2-4 (RPC #100000)
+143/tcp open  imap    Dovecot imapd
+MAC Address: 02:A0:E7:B5:B6:C5 (Unknown)
+Device type: general purpose
+Running: Linux 3.X
+OS CPE: cpe:/o:linux:linux_kernel:3.13
+OS details: Linux 3.13
+Network Distance: 1 hop
+Service Info: Host:  debra2.thm.local; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Sep 10 05:14:28 2021 -- 1 IP address (1 host up) scanned in 9.99 seconds
+```
+<div>
+<br>
+</div>
+
+### Grepable
+
+The grepable format has its name from the command `grep`; grep stands for Global Regular Expression Printer. In simple terms, it makes filtering the scan output for specific keywords or terms efficient. You can save the scan result in grepable format using `-oG FILENAME`. The scan output, displayed above in normal format, is shown in the console below using grepable format. The normal output is 21 lines; however, the grepable output is only 4 lines. The main reason is that Nmap wants to make each line meaningful and complete when the user applies `grep`. As a result, in grepable output, the lines are so long and are not convenient to read compared to normal output.
+
+```shell-session
+pentester@TryHackMe$ cat MACHINE_IP_scan.gnmap 
+# Nmap 7.60 scan initiated Fri Sep 10 05:14:19 2021 as: nmap -sS -sV -O -oG MACHINE_IP_scan MACHINE_IP
+Host: MACHINE_IP	Status: Up
+Host: MACHINE_IP	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//nginx 1.6.2/, 110/open/tcp//pop3//Dovecot pop3d/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 143/open/tcp//imap//Dovecot imapd/	Ignored State: closed (994)	OS: Linux 3.13	Seq Index: 257	IP ID Seq: All zeros
+# Nmap done at Fri Sep 10 05:14:28 2021 -- 1 IP address (1 host up) scanned in 9.99 seconds
+```
+
+An example use of `grep` is `grep KEYWORD TEXT_FILE`; this command will display all the lines containing the provided keyword. Let’s compare the output of using `grep` on normal output and grepable output. You will notice that the former does not provide the IP address of the host. Instead, it returned `80/tcp open http nginx 1.6.2`, making it very inconvenient if you are sifting through the scan results of multiple systems. However, the latter provides enough information, such as the host’s IP address, in each line to make it complete.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ grep http MACHINE_IP_scan.nmap 
+80/tcp  open  http    nginx 1.6.2
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+```
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ grep http MACHINE_IP_scan.gnmap 
+Host: MACHINE_IP	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//nginx 1.6.2/, 110/open/tcp//pop3//Dovecot pop3d/, 111/open/tcp//rpcbind//2-4 (RPC #100000)/, 143/open/tcp//imap//Dovecot imapd/	Ignored State: closed (994)	OS: Linux 3.13	Seq Index: 257	IP ID Seq: All zeros
+```
+
+  
+
+### XML
+
+The third format is XML. You can save the scan results in XML format using `-oX FILENAME`. The XML format would be most convenient to process the output in other programs. Conveniently enough, you can save the scan output in all three formats using `-oA FILENAME` to combine `-oN`, `-oG`, and `-oX` for normal, grepable, and XML.
+
+  
+
+### Script Kiddie
+
+A fourth format is script kiddie. You can see that this format is useless if you want to search the output for any interesting keywords or keep the results for future reference. However, you can use it to save the output of the scan `nmap -sS 127.0.0.1 -oS FILENAME`, display the output filename, and look 31337 in front of friends who are not tech-savvy.
+
+Pentester Terminal
+
+```shell-session
+pentester@TryHackMe$ cat MACHINE_IP_scan.kiddie 
+
+$tart!ng nMaP 7.60 ( httpz://nMap.0rG ) at 2021-09-10 05:17 B$T
+Nmap scan rEp0rt f0r |p-10-10-161-170.EU-w3$t-1.C0mputE.intErnaL (10.10.161.170)
+HOSt !s uP (0.00095s LatEncy).
+N0T $H0wn: 994 closed pOrtS
+PoRT    st4Te SeRViC3 VERS1on
+22/tcp  Open  ssH     Op3n$$H 6.7p1 Deb|an 5+dEb8u8 (pr0t0COl 2.0)
+25/tCp  Op3n  SmTp    P0$Tf!x Smtpd
+80/tcp  0p3n  http    Ng1nx 1.6.2
+110/tCP 0pen  pOP3    d0v3coT P0p3D
+111/TcP op3n  RpcbInd 2-4 (RPC #100000)
+143/Tcp opEn  Imap    Dovecot 1mApd
+mAC 4Ddr3sz: 02:40:e7:B5:B6:c5 (Unknown)
+Netw0rk d!stanc3: 1 h0p
+$3rv1c3 InFO: Ho$t:  dEBra2.thM.lOcal; 0s: Linux; cPe: cP3:/0:linux:l|nux_k3rnel
+
+0S and servIc3 D3tEcti0n pErf0rm3d. Plea$e r3p0rt any !nc0RrecT rE$ultz at hTtpz://nmap.0rg/$ubmit/ .
+Nmap d0nE: 1 |P addr3SS (1 hoSt up) $CaNnEd !n 21.80 s3c0Ndz
+```
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
