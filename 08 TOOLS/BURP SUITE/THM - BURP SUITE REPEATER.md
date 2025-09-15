@@ -199,7 +199,7 @@ FlagAuthorised: True
 
 ### Questions
 
-##### 
+##### What is the flag you receive?
 <div align="center">
 <br>
 <br>
@@ -210,6 +210,23 @@ FlagAuthorised: True
 <div style="page-break-after: always;"></div>
 
 ## 7. Challenge
+
+In the previous task, we demonstrated the usage of Repeater by adding a header and sending a request. This served as an illustrative example for utilizing Repeater. Now, it's time for a straightforward challenge!
+
+To begin, make sure intercept is disabled in your Proxy module and navigate to `http://MACHINE_IP/products/`. Next, try clicking on some of the **See More** links.
+
+Observe that you are redirected to a numeric endpoint (e.g., /products/3).
+
+The objective is to validate the endpoint, confirming the existence of the number you wish to navigate to and ensuring it is a valid integer. However, consider what might occur if this endpoint is not adequately validated.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Enable intercept again and capture a request to one of the numeric products endpoints in the Proxy module, then forward it to Repeater.
+##### See if you can get the server to error out with a "500 Internal Server Error" code by changing the number at the end of the request to extreme inputs.<br>What is the flag you receive when you cause a 500 error in the endpoint?
 <div align="center">
 <br>
 <br>
