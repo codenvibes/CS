@@ -113,8 +113,7 @@ A public address is used to identify the device on the Internet, whereas a priva
 <div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png" alt=""></div>
 
 These two devices will be able to use their private IP addresses to communicate with each other. However, any data sent to the Internet from either of these devices will be identified by the same public IP address. Public IP addresses are given by your **I**nternet **S**ervice **P**rovider (or **ISP**) at a monthly fee (your bill!)
-
-![https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/2.png](https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/2.png)
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/2.png" alt=""></div>
 
 As more and more devices become connected, it is becoming increasingly harder to get a public address that isn't already in use. For example, Cisco, an industry giant in the world of networking, estimated that there would be approximately 50 billion devices connected on the Internet by the end of 2021. [(Cisco., 2021)](https://www.cisco.com/c/dam/en_us/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf). Enter IP address versions. So far, we have only discussed one version of the Internet Protocol addressing scheme known as IPv4, which uses a numbering system of 2^32 IP addresses (4.29 billion) -- so you can see why there is such a shortage!
 
@@ -126,9 +125,11 @@ IPv6 is a new iteration of the Internet Protocol addressing scheme to help tackl
 The screenshot below compares both an IPv6 and IPv4 address.
 
 ![](https://assets.tryhackme.com/additional/networking-fundamentals/intro-to-networking/ipv6.png)  
+<div>
+<br>
+</div>
 
-**MAC Addresses  
-**
+### MAC Addresses
 
 Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a **MAC** (**M**edia **A**ccess **C**ontrol ) address. The MAC address is a **twelve-character** hexadecimal number (_a base sixteen numbering system used in computing to represent numbers_) split into two's and separated by a colon. These colons are considered separators. For example, _a4:c3:f0:85:ac:2d_. The first six characters represent the company that made the network interface, and the last six is a unique number.
 
