@@ -296,6 +296,36 @@ We will be focusing on live captures in this room.
 <div style="page-break-after: always;"></div>
 
 ## 8. Sequencer: Live Capture
+
+Great, let's dive into the process of using the Sequencer's live capture for entropy analysis on the anti-bruteforce token used in the admin login form.
+
+First, capture a request to `http://MACHINE_IP/admin/login/` in the Proxy. Right-click on the request and select **Send to Sequencer**.
+
+In the "Token Location Within Response" section, we can select between **Cookie**, **Form field**, and **Custom location**. Since we're testing the loginToken in this case, select the "Form field" radio button and choose the loginToken from the dropdown menu:
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/9bb4ea43eb0acb59dee493699d336930.png" alt=""></div>
+
+In this situation, we can safely leave all other options at their default values. So, click on the **Start live capture** button.
+
+A new window will pop up indicating that a live capture is in progress and displaying the number of tokens captured so far. Wait until a sufficient number of tokens are captured (approximately 10,000 should suffice); the more tokens we have, the more precise our analysis will be.
+
+Once around 10,000 tokens are captured, click on **Pause** and then select the **Analyze now** button:
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/715caf9a950bdd3a3c9ec4a5360ae9ca.png" alt=""></div>
+
+It's important to note that we could have also chosen to **Stop** the capture. However, by opting to pause, we keep the option to resume the capture later if the report doesn't have enough samples to accurately calculate the token's entropy.
+
+If we wished for periodic updates on the analysis, we could have also selected the "Auto analyze" checkbox. This option tells Burp to perform the entropy analysis after every 2000 requests, providing frequent updates that will become increasingly accurate as more samples are loaded into Sequencer.
+
+At this point, it's also worth noting that we could choose to copy or save the captured tokens for further analysis at a later time.
+
+Upon clicking the **Analyze now** button, Burp will analyze the token's entropy and generate a report.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
