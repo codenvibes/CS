@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2-INTRODUCTION_TO_PENTESTING",
+                "query": "tag:#1-INTRODUCTION_TO_CYBERSECURITY",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -259,7 +259,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
