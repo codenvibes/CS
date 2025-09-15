@@ -449,7 +449,7 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
 
 ### Questions
 
-##### 
+##### What username and password combination indicates a successful login attempt? The answer format is "username:password".
 <div align="center">
 <br>
 <br>
@@ -460,6 +460,14 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
 <div style="page-break-after: always;"></div>
 
 ## 11. Practical Challenge
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
