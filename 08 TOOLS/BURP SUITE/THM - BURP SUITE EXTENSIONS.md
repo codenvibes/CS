@@ -52,6 +52,22 @@ In summary, the Extensions interface in Burp Suite allows users to manage and 
 <div style="page-break-after: always;"></div>
 
 ## 3. The BApp Store
+
+In Burp Suite, the BApp Store (Burp App Store) allows us to easily discover and integrate official extensions seamlessly into the tool. Extensions can be written in various languages, with Java and Python being the most common choices. Java extensions integrate automatically with the Burp Suite framework, while Python extensions require the Jython interpreter.
+
+To get a feel for the BApp store and install a Java extension, let's install the [Request Timer](https://github.com/portswigger/request-timer) extension, written by Nick Taylor. The Request Timer extension enables us to log the time it takes for each request to receive a response. This functionality is particularly useful for identifying and exploiting time-based vulnerabilities. For instance, if a login form takes an extra second to process requests with valid usernames compared to invalid ones, we can use the time differences to determine which usernames are valid.
+
+Follow these steps to install the Request Timer extension from the BApp store:
+
+1. Switch to the **BApp Store** sub-tab in Burp Suite.
+2. Use the search function to find **Request Timer**. There should only be one result for this extension.
+3. Click on the returned extension to view more details.
+4. Click the **Install** button to install the Request Timer extension.
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/f667309abf35384b10ab28ffe04da311.png" alt=""></div>
+
+After successfully installing the extension, you will notice a new tab appearing in the main menu at the top of the Burp Suite interface. Different extensions may have varying behaviours. Some may add new items to right-click context menus, while others create entirely new tabs in the main menu bar.
+
+As this installation is simply an example of using the BApp store, we won't cover how to use the Request Timer here. However, I highly recommend switching to the new tab and exploring the extension to understand its functionalities better. The Request Timer can be valuable in various scenarios, especially when assessing web application security and identifying potential time-based vulnerabilities.
 <div align="center">
 <br>
 <br>
@@ -62,6 +78,26 @@ In summary, the Extensions interface in Burp Suite allows users to manage and 
 <div style="page-break-after: always;"></div>
 
 ## 4. Jython
+
+**Note:** If you are using the AttackBox, Jython integration has already been done for you, so you can skip this task.
+
+To use Python modules in Burp Suite, we need to include the Jython Interpreter JAR file, which is a Java implementation of Python. The Jython Interpreter enables us to run Python-based extensions within Burp Suite.
+
+Follow these steps to integrate Jython into Burp Suite on your local machine:
+
+1. **Download Jython JAR**: Visit the [Jython website](https://www.jython.org/download) and download the standalone JAR archive. Look for the **Jython Standalone** option. Save the JAR file to a location on your disk.
+    
+    ![Jython Standalone download link](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/bdfe7373a7aa5fc356cdd95f0f7a2370.png)
+    
+2. **Configure Jython in Burp Suite**: Open Burp Suite and switch to the **Extensions** module. Then, go to the **Extensions settings** sub-tab.
+3. **Python Environment**: Scroll down to the "Python environment" section.
+4. **Set Jython JAR Location**: In the "Location of Jython standalone JAR file" field, set the path to the downloaded Jython JAR file.
+    ![Setting the location of Jython Standalone](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/092c98a31ec4a28c39ef9e1446305762.png)
+    
+
+Once you have completed these steps, Jython will be integrated with Burp Suite, allowing you to use Python modules in the tool. This integration significantly increases the number of available extensions and enhances your capabilities in performing various security testing and web application assessment tasks.
+
+**Note:** The process of adding Jython to Burp Suite is the same for all operating systems, as Java is a multi-platform technology.
 <div align="center">
 <br>
 <br>
