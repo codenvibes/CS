@@ -376,7 +376,7 @@ Hey presto, we have a flag!
 
 ### Questions
 
-##### 
+##### Exploit the union SQL injection vulnerability in the site.<br><br>What is the flag?
 <div align="center">
 <br>
 <br>
@@ -387,6 +387,14 @@ Hey presto, we have a flag!
 <div style="page-break-after: always;"></div>
 
 ## 9. Conclusion
+
+Congratulations on completing the Burp Suite Repeater room!
+
+By now, you should have a solid understanding of effectively utilising Repeater to edit, manipulate, and resend requests. Additionally, you should have gained insight into the numerous practical applications of this tool.
+
+In the next room of the module, we will explore the Burp Suite Intruder module. Intruder allows for automated and customizable attacks, making it a powerful tool for various security testing scenarios.
+
+Good luck with the next room, and enjoy exploring the capabilities of [Burp Suite Intruder](https://tryhackme.com/room/burpsuiteintruder)!
 <div align="center">
 <br>
 <br>
