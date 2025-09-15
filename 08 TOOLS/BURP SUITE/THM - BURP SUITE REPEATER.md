@@ -166,6 +166,40 @@ While the textual representation of these components can be found within the Req
 <div style="page-break-after: always;"></div>
 
 ## 6. Practical Example
+
+Repeater is particularly well-suited for tasks requiring repetitive sending of similar requests, typically with minor modifications. This is particularly useful for activities such as manual testing for SQL Injection vulnerabilities (to be covered in a forthcoming task), attempting to bypass web application firewall filters, or adjusting parameters in a form submission.
+
+Let's begin with an exceedingly simple example: Utilizing Repeater to modify the headers of a request sent to a target.
+
+Capture a request to `http://MACHINE_IP/` in the Proxy module and send it to Repeater.
+
+Send the request once from Repeater — you should see the HTML source code for the page you requested in the Response view.
+
+Try viewing this in one of the other display options (e.g. Hex).  
+
+Using Inspector (or manually, if you prefer), add a header called `FlagAuthorised` and set it to have a value of `True`, as shown below:
+
+Header with FlagAuthorised Added
+
+```html
+GET / HTTP/1.1
+Host: MACHINE_IP
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+FlagAuthorised: True
+```
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
