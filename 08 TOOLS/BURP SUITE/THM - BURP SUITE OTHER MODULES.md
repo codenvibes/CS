@@ -120,8 +120,8 @@ While not perfect, this feature can be a quick solution for decoding unknown dat
 
 ##### Base64 encode the phrase: `Let's Start Simple`.<br><br>What is the base64 encoded version of this text?
 ##### URL Decode this data: `%4e%65%78%74%3a%20%44%65%63%6f%64%69%6e%67`.<br><br>What is the plaintext returned?
-##### Use Smart decode to decode this data: `&#x25;&#x33;&#x34;&#x25;&#x33;&#x37;`.What is the decoded text?
-##### 
+##### Use Smart decode to decode this data: `&#x25;&#x33;&#x34;&#x25;&#x33;&#x37;`.<br><br>What is the decoded text?
+##### Encode this phrase: `Encoding Challenge`.<br><br>Start with base64 encoding. Take the output of this and convert it into ASCII Hex. Finally, encode the hex string into octal_._<br><br>What is the final string?
 <div align="center">
 <br>
 <br>
