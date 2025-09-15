@@ -227,6 +227,51 @@ The Sniper attack type is beneficial when we want to perform tests with single-p
 <div style="page-break-after: always;"></div>
 
 ## 7. Battering Ram
+
+The **Battering ram** attack type in Burp Suite Intruder differs from Sniper in that it places the same payload in every position simultaneously, rather than substituting each payload into each position in turn.
+
+Let's refer back to our previous example template:
+
+Example Positions
+
+```html
+POST /support/login/ HTTP/1.1
+    Host: MACHINE_IP
+    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Language: en-US,en;q=0.5
+    Accept-Encoding: gzip, deflate
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 37
+    Origin: http://MACHINE_IP
+    Connection: close
+    Referer: http://MACHINE_IP/support/login/
+    Upgrade-Insecure-Requests: 1
+    
+    username=§pentester§&password=§Expl01ted§
+```
+
+Using the Battering Ram attack type with the same wordlist from before (`burp`, `suite`, and `intruder`), Intruder would generate three requests:
+
+|Request Number|Request Body|
+|---|---|
+|1|`username=burp&password=burp`|
+|2|`username=suite&password=suite`|
+|3|`username=intruder&password=intruder`|
+
+As shown in the table, each payload from the wordlist is inserted into every position for each request made. In a Battering Ram attack, the same payload is thrown at every defined position simultaneously, providing a brute-force-like approach to testing.
+
+The Battering Ram attack type is useful when we want to test the same payload against multiple positions at once without the need for sequential substitution.
+
+In the upcoming tasks, we will explore further configurations and settings related to Intruder's Battering Ram attack type and examine its applications in different scenarios.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
