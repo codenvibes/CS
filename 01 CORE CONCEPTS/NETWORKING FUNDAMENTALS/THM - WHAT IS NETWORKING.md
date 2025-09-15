@@ -104,18 +104,13 @@ IP Addresses follow a set of standards known as protocols. These protocols are t
 
 A public address is used to identify the device on the Internet, whereas a private address is used to identify a device amongst other devices. Take the table & screenshot below as an example. Here we have two devices on a private network:
 
-  
-
-|   |   |   |
-|---|---|---|
-|**Device Name**|**IP Address**|**IP Address Type**|
-|DESKTOP-KJE57FD|192.168.1.77|Private|
-|DESKTOP-KJE57FD|86.157.52.21|Public|
-|CMNatic-PC|192.168.1.74|Private|
-|CMNatic-PC|86.157.52.21|Public|
-
-  
-![https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png](https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png)
+| **Device Name** | **IP Address** | **IP Address Type** |
+| --------------- | -------------- | ------------------- |
+| DESKTOP-KJE57FD | 192.168.1.77   | Private             |
+| DESKTOP-KJE57FD | 86.157.52.21   | Public              |
+| CMNatic-PC      | 192.168.1.74   | Private             |
+| CMNatic-PC      | 86.157.52.21   | Public              |
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/cmn-aoc2020/day-8/1.png" alt=""></div>
 
 These two devices will be able to use their private IP addresses to communicate with each other. However, any data sent to the Internet from either of these devices will be identified by the same public IP address. Public IP addresses are given by your **I**nternet **S**ervice **P**rovider (or **ISP**) at a monthly fee (your bill!)
 
