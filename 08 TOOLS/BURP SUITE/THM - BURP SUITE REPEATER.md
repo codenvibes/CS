@@ -350,7 +350,7 @@ Fortunately, we can use our SQLi to group the results. We can still only retri
 `/about/0 UNION ALL SELECT group_concat(column_name),null,null,null,null FROM information_schema.columns WHERE table_name="people"`  
 
 This process is shown below:
-<div align="center"><br><img width="1000" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/78495a1c1c84ce8d80cba18c48d924eb.png" alt="table names in the title"></div>
+<div align="center"><br><img width="1400" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/78495a1c1c84ce8d80cba18c48d924eb.png" alt="table names in the title"></div>
 
 We have successfully identified eight columns in this table: `id`, `firstName`, `lastName`, `pfpLink`, `role`, `shortRole`, `bio`, and `notes`.
 
