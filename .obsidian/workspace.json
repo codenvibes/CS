@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "escalation",
+                "query": "tag:#2-INTRODUCTION_TO_PENTESTING",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -259,7 +259,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
