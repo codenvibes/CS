@@ -322,6 +322,44 @@ In the upcoming tasks, we will explore further configurations and settings relat
 
 ## 9. Cluster Bomb
 
+The **Cluster bomb** attack type in Burp Suite Intruder allows us to choose multiple payload sets, one per position (up to a maximum of 20). Unlike Pitchfork, where all payload sets are tested simultaneously, Cluster bomb iterates through each payload set individually, ensuring that every possible combination of payloads is tested.
+
+To illustrate the Cluster bomb attack type, let's use the same wordlists as before:
+
+- Usernames: `joel`, `harriet`, and `alex`.
+- Passwords: `J03l`, `Emma1815`, and `Sk1ll`.
+
+In this example, let's assume that we don't know which password belongs to which user. We have three users and three passwords, but the mappings are unknown. In this case, we can use a Cluster bomb attack to try every combination of values. The request table for our username and password positions would look like this:
+
+|Request Number|Request Body|
+|---|---|
+|1|`username=joel&password=J03l`|
+|2|`username=harriet&password=J03l`|
+|3|`username=alex&password=J03l`|
+|4|`username=joel&password=Emma1815`|
+|5|`username=harriet&password=Emma1815`|
+|6|`username=alex&password=Emma1815`|
+|7|`username=joel&password=Sk1ll`|
+|8|`username=harriet&password=Sk1ll`|
+|9|`username=alex&password=Sk1ll`|
+
+As shown in the table, the Cluster bomb attack type iterates through every combination of the provided payload sets. It tests every possibility by substituting each value from each payload set into the corresponding position in the request.
+
+Cluster bomb attacks can generate a significant amount of traffic as it tests every combination. The number of requests made by a Cluster bomb attack can be calculated by multiplying the number of lines in each payload set together. It's important to be cautious when using this attack type, especially when dealing with large payload sets. Additionally, when using Burp Community and its Intruder rate-limiting, the execution of a Cluster bomb attack with a moderately sized payload set can take a significantly longer time.
+
+The Cluster bomb attack type is particularly useful for credential brute-forcing scenarios where the mapping between usernames and passwords is unknown.
+
+In the upcoming tasks, we will explore further configurations and settings related to Intruder's Cluster bomb attack type and examine its applications in different scenarios.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### We have three payload sets. The first set contains 100 lines, the second contains 2 lines, and the third contains 30 lines.
+
+How many requests will Intruder make using these payload sets in a Cluster bomb attack?
 <div align="center">
 <br>
 <br>
