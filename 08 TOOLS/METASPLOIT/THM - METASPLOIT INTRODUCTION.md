@@ -1,4 +1,4 @@
-#THMLP-JR_PENETRATION_TESTER #THMMOD-METASPLOIT #Metasploit
+#THM-JR_PENETRATION_TESTER #THMMOD-METASPLOIT #Metasploit
 
 ## 1. Introduction to Metasploit
 
