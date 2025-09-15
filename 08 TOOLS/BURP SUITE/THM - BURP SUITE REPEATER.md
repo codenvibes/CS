@@ -307,7 +307,6 @@ Overly Verbose Error Message Showing the Query
 This is an extremely useful error message that the server should absolutely not be sending us, _but_ the fact that we have it makes our job significantly more straightforward.
 
 The message tells us a couple of things that will be invaluable when exploiting this vulnerability:
-
 - The database table we are selecting from is called `people`.
 - The query selects five columns from the table: `firstName`, `lastName`, `pfpLink`, `role`, and `bio`. We can guess where these fit into the page, which will be helpful for when we choose where to place our requests.
 
@@ -351,8 +350,7 @@ Fortunately, we can use our SQLi to group the results. We can still only retri
 `/about/0 UNION ALL SELECT group_concat(column_name),null,null,null,null FROM information_schema.columns WHERE table_name="people"`  
 
 This process is shown below:
-
-![table names in the title](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/78495a1c1c84ce8d80cba18c48d924eb.png)
+<div align="center"><br><img width="" src="" alt=""></div>
 
 We have successfully identified eight columns in this table: `id`, `firstName`, `lastName`, `pfpLink`, `role`, `shortRole`, `bio`, and `notes`.
 
