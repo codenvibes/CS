@@ -1,12 +1,12 @@
 ## #THM-PRE_SECURITY
 
-### 1-Introduction to Cyber Security
+### 1-Introduction_to_Cyber_Security
 
 THM - Offensive Security Intro
 THM - Defensive Security Intro
 THM - Careers in Cyber
 
-### 2-Network Fundamentals
+### 2-Network_Fundamentals
 
 THM - What is Networking?
 THM - Intro to LAN
@@ -14,20 +14,20 @@ THM - OSI Model
 THM - Packets & Frames
 THM - Extending Your Network
 
-### 3-How The Web Works
+### 3-How_The_Web_Works
 
 THM - DNS in Detail
 THM - HTTP in Detail
 THM - How Websites Work
 THM - Putting it all together
 
-### 4-Linux Fundamentals
+### 4-Linux_Fundamentals
 
 THM - Linux Fundamentals Part 1
 THM - Linux Fundamentals Part 2
 THM - Linux Fundamentals Part 3
 
-### 5-Windows Fundamentals
+### 5-Windows_Fundamentals
 
 THM - Windows Fundamentals 1
 THM - Windows Fundamentals 2
