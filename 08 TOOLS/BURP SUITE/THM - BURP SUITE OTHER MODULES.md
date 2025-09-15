@@ -1,6 +1,14 @@
 #THMLP-JR_PENETRATION_TESTER #THMMOD-BURP_SUITE #Burp_Suite
 
 ## 1. Introduction
+
+#### Welcome to the Burp Suite Other Modules room!
+
+In addition to the widely recognized [Repeater](https://tryhackme.com/room/burpsuiterepeater) and [Intruder](https://tryhackme.com/room/burpsuiteintruder) rooms, Burp Suite incorporates several lesser-known modules. These will form the focus of this room's exploration.
+
+The spotlight will be on the Decoder, Comparer, Sequencer, and Organizer tools. They facilitate operations with encoded text, enable comparison of data sets, allow the analysis of randomness within captured tokens, and help you store and annotate copies of HTTP messages that you may want to revisit later. Although these tasks appear straightforward, accomplishing them within Burp Suite can substantially save time, thus emphasizing the importance of learning to use these modules effectively.
+
+Without further ado, let's delve into the first tool, the Decoder.
 <div align="center">
 <br>
 <br>
