@@ -93,7 +93,6 @@ Follow these steps to integrate Jython into Burp Suite on your local machine:
 3. **Python Environment**: Scroll down to the "Python environment" section.
 4. **Set Jython JAR Location**: In the "Location of Jython standalone JAR file" field, set the path to the downloaded Jython JAR file.
     ![Setting the location of Jython Standalone](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/092c98a31ec4a28c39ef9e1446305762.png)
-    
 
 Once you have completed these steps, Jython will be integrated with Burp Suite, allowing you to use Python modules in the tool. This integration significantly increases the number of available extensions and enhances your capabilities in performing various security testing and web application assessment tasks.
 
@@ -108,6 +107,23 @@ Once you have completed these steps, Jython will be integrated with Burp Suite,
 <div style="page-break-after: always;"></div>
 
 ## 5. The Burp Suite API
+
+In the Burp Suite Extensions module, you have access to a wide range of API endpoints that allow you to create and integrate your modules with Burp Suite. These APIs expose various functionalities, enabling you to extend the capabilities of Burp Suite to suit your specific needs.
+
+To view the available API endpoints, navigate to the **APIs** sub-tab within the Extensions module. Each item listed in the left-hand panel represents a different API endpoint that can be accessed from within extensions.
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/b815da3ba5714ffd2cbfa13c1c034aae.png" alt=""></div>
+
+The Extensions APIs give developers significant power and flexibility when writing custom extensions. You can use these APIs to seamlessly interact with Burp Suite's existing functionality and tailor your extensions to perform specific tasks.
+
+Burp Suite supports multiple languages for writing extensions, such as:
+
+1. Java (Natively): You can directly use Java to write extensions for Burp Suite, taking advantage of the powerful APIs available.
+2. Python (via Jython): If you prefer Python as your programming language, you can utilize Jython, which is a Java implementation of Python to create Burp Suite extensions.
+3. Ruby (via JRuby): Developers familiar with Ruby can leverage JRuby, a Java implementation of Ruby, to build Burp Suite extensions.
+
+It's important to note that coding your extensions for Burp Suite can be a complex task, and it goes beyond the scope of this module. However, suppose you are interested in exploring this area further and creating custom extensions. In that case, PortSwigger provides a comprehensive reference that is an excellent resource for developing Burp Suite extensions.
+
+To learn more about Burp Suite extension development and to access the detailed reference, you can visit PortSwigger's official [documentation](https://portswigger.net/burp/extender/writing-your-first-burp-suite-extension). This resource will provide the information and guidance needed to create powerful and customized extensions that enhance your experience with Burp Suite.
 <div align="center">
 <br>
 <br>
@@ -118,6 +134,18 @@ Once you have completed these steps, Jython will be integrated with Burp Suite,
 <div style="page-break-after: always;"></div>
 
 ## 6. Conclusion
+
+Congratulations! You have completed the Burp Suite Extensions Room. By going through this module, you have gained valuable insights into how to use Extensions to enhance the functionality of Burp Suite.
+
+You now have a solid understanding of how to:
+
+1. Install and manage extensions from the BApp store to extend Burp Suite's capabilities.
+2. Integrate Jython to leverage Python modules within Burp Suite.
+3. Explore the APIs allowing you to develop custom Java, Python, or Ruby modules.
+
+With these skills, you can utilize the Burp Suite Extensions module to its fullest potential in your web application security testing and vulnerability assessments.
+
+Great job completing the module, and kudos to you for your dedication and effort! Keep exploring, learning, and refining your cyber security skills. Happy hacking!
 <div align="center">
 <br>
 <br>
