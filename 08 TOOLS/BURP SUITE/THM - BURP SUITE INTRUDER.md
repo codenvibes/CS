@@ -509,23 +509,44 @@ Begin by capturing a request to `http://MACHINE_IP/admin/login/` and reviewing
 Example Response
 
 ```html
-
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 20 Aug 2021 22:31:16 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Set-Cookie: session=eyJ0b2tlbklEIjoiMzUyNTQ5ZjgxZDRhOTM5YjVlMTNlMjIzNmI0ZDlkOGEifQ.YSA-mQ.ZaKKsUnNsIb47sjlyux_LN8Qst0; HttpOnly; Path=/
+Vary: Cookie
+Front-End-Https: on
+Content-Length: 3922
+---
+<form method="POST">
+    <div class="form-floating mb-3">
+        <input class="form-control" type="text" name=username  placeholder="Username" required>
+        <label for="username">Username</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" type="password" name=password  placeholder="Password" required>
+        <label for="password">Password</label>
+    </div>
+    <input type="hidden" name="loginToken" value="84c6358bbf1bd8000b6b63ab1bd77c5e">
+    <div class="d-grid"><button class="btn btn-warning btn-lg" type="submit">Login!</button></div>
+</form>
 ```
 
 In this response, we notice that alongside the username and password fields, there is now a session cookie set, as well as a CSRF (**Cross-Site Request Forgery**) token in the form as a hidden field. Refreshing the page reveals that both the **session** cookie and the **loginToken** change with each request. This means that for every login attempt, we need to extract valid values for both the session cookie and the loginToken.
 
 To accomplish this, we will use **Burp Macros** to define a repeated set of actions (macro) to be executed before each request. This macro will extract unique values for the session cookie and loginToken, replacing them in every subsequent request of our attack.
+<div>
+<br>
+</div>
 
 #### Tutorial
 
 1. Navigate to `http://MACHINE_IP/admin/login/`. Activate **Intercept** in the Proxy module and attempt to log in. Capture the request and send it to Intruder.
-    
+
 2. Configure the positions the same way as we did for brute-forcing the support login:
-    
     - Set the attack type to "Pitchfork".
     - Clear all predefined positions and select only the username and password form fields. Our macro will handle the other two positions.
-        
-    
     ![Showing the predefined positions](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/cdade963a8004b0d9da03e075a60f3aa.png)
     
 3. Now switch over to the Payloads tab and load in the same username and password wordlists we used for the support login attack.
