@@ -1,38 +1,37 @@
 ## #THM-PRE_SECURITY
 
-### 1-Introduction_to_Cyber_Security
+### 1-INTRODUCTION_TO_CYBER_SECURITY
 
-THM - Offensive Security Intro
-THM - Defensive Security Intro
-THM - Careers in Cyber
+THM - OFFENSIVE SECURITY INTRO  
+THM - DEFENSIVE SECURITY INTRO  
+THM - CAREERS IN CYBER
 
-### 2-Network_Fundamentals
+### 2-NETWORK_FUNDAMENTALS
 
-THM - What is Networking?
-THM - Intro to LAN
-THM - OSI Model
-THM - Packets & Frames
-THM - Extending Your Network
+THM - WHAT IS NETWORKING?  
+THM - INTRO TO LAN  
+THM - OSI MODEL  
+THM - PACKETS & FRAMES  
+THM - EXTENDING YOUR NETWORK
 
-### 3-How_The_Web_Works
+### 3-HOW_THE_WEB_WORKS
 
-THM - DNS in Detail
-THM - HTTP in Detail
-THM - How Websites Work
-THM - Putting it all together
+THM - DNS IN DETAIL  
+THM - HTTP IN DETAIL  
+THM - HOW WEBSITES WORK  
+THM - PUTTING IT ALL TOGETHER
 
-### 4-Linux_Fundamentals
+### 4-LINUX_FUNDAMENTALS
 
-THM - Linux Fundamentals Part 1
-THM - Linux Fundamentals Part 2
-THM - Linux Fundamentals Part 3
+THM - LINUX FUNDAMENTALS PART 1  
+THM - LINUX FUNDAMENTALS PART 2  
+THM - LINUX FUNDAMENTALS PART 3
 
-### 5-Windows_Fundamentals
+### 5-WINDOWS_FUNDAMENTALS
 
-THM - Windows Fundamentals 1
-THM - Windows Fundamentals 2
-THM - Windows Fundamentals 3
-
+THM - WINDOWS FUNDAMENTALS 1  
+THM - WINDOWS FUNDAMENTALS 2  
+THM - WINDOWS FUNDAMENTALS 3
 ## -------------------------------
 ## #THM-JR_PENETRATION_TESTER
 
