@@ -8,7 +8,7 @@ Networks can be found in all walks of life:
 
 - A city's public transportation system
 - Infrastructure such as the national power grid for electricity
-- Meeting and greeting your neighbours
+- Meeting and greeting your neighbors
 - Postal systems for sending letters and parcels
 
 But more specifically, in computing, networking is the same idea, just dispersed to technological devices. Take your phone as an example; the reason that you have it is to access things. We'll cover how these devices communicate with each other and the rules that follow.
