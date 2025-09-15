@@ -91,6 +91,43 @@ Take some time to familiarize yourself with adding, clearing, and auto-selecting
 <div style="page-break-after: always;"></div>
 
 ## 4. Payloads
+
+In the **Payloads** tab of Burp Suite Intruder, we can create, assign, and configure payloads for our attack. This sub-tab is divided into four sections:
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/f049dff9e1172b76c0f81ad4771b012d.png" alt="Payloads sub-tab divided into four sections"></div>
+
+1. **Payload Sets**:
+    - This section allows us to choose the position for which we want to configure a payload set and select the type of payload we want to use.
+    - When using attack types that allow only a single payload set (Sniper or Battering Ram), the "Payload Set" dropdown will have only one option, regardless of the number of defined positions.
+    - If we use attack types that require multiple payload sets (Pitchfork or Cluster Bomb), there will be one item in the dropdown for each position.
+    - **Note:** When assigning numbers in the "Payload Set" dropdown for multiple positions, follow a top-to-bottom, left-to-right order. For example, with two positions (`username=§pentester§&password=§Expl01ted§`), the first item in the payload set dropdown would refer to the username field, and the second item would refer to the password field.
+  
+2. **Payload settings**:
+    - This section provides options specific to the selected payload type for the current payload set.
+    - For example, when using the "Simple list" payload type, we can manually add or remove payloads to/from the set using the **Add** text box, **Paste** lines, or **Load** payloads from a file. The **Remove** button removes the currently selected line, and the **Clear** button clears the entire list. Be cautious with loading huge lists, as it may cause Burp to crash.
+    - Each payload type will have its own set of options and functionality. Explore the options available to understand the range of possibilities.  
+        
+        ![Available options](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/722a734ac5dd6437211504d3bc7bb6c2.png)
+        
+  
+3. **Payload Processing**:
+    - In this section, we can define rules to be applied to each payload in the set before it is sent to the target.
+    - For example, we can capitalize every word, skip payloads that match a regex pattern, or apply other transformations or filtering.
+    - While you may not use this section frequently, it can be highly valuable when specific payload processing is required for your attack.
+  
+4. **Payload Encoding**:
+    - The section allows us to customize the encoding options for our payloads.
+    - By default, Burp Suite applies URL encoding to ensure the safe transmission of payloads. However, there may be cases where we want to adjust the encoding behavior.
+    - We can override the default URL encoding options by modifying the list of characters to be encoded or unchecking the "URL-encode these characters" checkbox.
+
+By leveraging these sections, we can create and customise payload sets to suit the specific requirements of our attacks. This level of control allows us to finely tune our payloads for effective testing and exploitation.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
