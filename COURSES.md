@@ -1,4 +1,4 @@
-## #THMLP-PRE_SECURITY
+## #THM-PRE_SECURITY
 
 SECTION 1 Introduction to Cyber Security
 
@@ -37,7 +37,7 @@ Windows Fundamentals 2
 Windows Fundamentals 3
 
 ---
-## #THMLP-JR_PENETRATION_TESTER
+## #THM-JR_PENETRATION_TESTER
 
 ### #THMMOD-INTRODUCTION_TO_CYBERSECURITY
 
