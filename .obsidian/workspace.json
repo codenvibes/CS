@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WHAT IS NETWORKING"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,19 +259,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "COURSES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
+    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
-    "COURSES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
