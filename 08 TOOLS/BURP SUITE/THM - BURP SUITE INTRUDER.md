@@ -19,6 +19,14 @@ Deploy the target VM attached to this task by pressing the green **Start Mach
 <div style="page-break-after: always;"></div>
 
 ## 2. What is Intruder
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
