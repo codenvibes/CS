@@ -357,9 +357,7 @@ In the upcoming tasks, we will explore further configurations and settings relat
 
 ### Questions
 
-##### We have three payload sets. The first set contains 100 lines, the second contains 2 lines, and the third contains 30 lines.
-
-How many requests will Intruder make using these payload sets in a Cluster bomb attack?
+##### We have three payload sets. The first set contains 100 lines, the second contains 2 lines, and the third contains 30 lines.<br><br>How many requests will Intruder make using these payload sets in a Cluster bomb attack?
 <div align="center">
 <br>
 <br>
@@ -370,6 +368,91 @@ How many requests will Intruder make using these payload sets in a Cluster bomb 
 <div style="page-break-after: always;"></div>
 
 ## 10. Practical Example
+
+To put our theoretical knowledge into practice, we will attempt to gain access to the support portal located at `http://MACHINE_IP/support/login`. This portal follows a typical login structure, and upon inspecting its source code, we find that no protective measures have been implemented:
+
+Support Login Form Source Code
+
+```html
+---
+<form method="POST">
+    <div class="form-floating mb-3">
+        <input class="form-control" type="text" name=username  placeholder="Username" required>
+        <label for="username">Username</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" type="password" name=password  placeholder="Password" required>
+        <label for="password">Password</label>
+    </div>
+    <div class="d-grid"><button class="btn btn-primary btn-lg" type="submit">Login!</button></div>
+</form>
+---
+```
+
+Given the absence of protective measures, we have multiple options to exploit this form, including a cluster bomb attack for brute-forcing the credentials. However, we have an easier approach at our disposal.
+
+Approximately three months ago, Bastion Hosting fell victim to a cyber attack, compromising employee usernames, email addresses, and plaintext passwords. While the affected employees were instructed to change their passwords promptly, there is a possibility that some disregarded this advice.
+
+As we possess a list of known usernames, each accompanied by a corresponding password, we can leverage a credential-stuffing attack instead of a straightforward brute-force. This method proves advantageous and significantly quicker, especially when utilising the rate-limited version of Intruder. To access the leaked credentials, download the file from the target machine using the following command in the AttackBox: `wget http://MACHINE_IP:9999/Credentials/BastionHostingCreds.zip`
+
+#### Tutorial
+
+To solve this example, follow these steps to conduct a credential-stuffing attack with Burp Macros:
+
+1. Download and Prepare Wordlists:
+    
+    - Download and extract the BastionHostingCreds.zip file.
+    - Within the extracted folder, find the following wordlists:
+        - emails.txt
+        - usernames.txt
+        - passwords.txt
+        - combined.txt
+    
+      
+    
+    These contain lists of leaked emails, usernames, and passwords, respectively. The last list contains the combined email and password lists. We will be using the `usernames.txt` and `passwords.txt` lists.
+    
+2. Navigate to `http://MACHINE_IP/support/login` in your browser. Activate the Burp Proxy and attempt to log in, capturing the request in your proxy. Note that any credentials will suffice for this step.
+    
+3. Send the captured request from the Proxy to Intruder by right-clicking and selecting "Send to Intruder" or using `Ctrl + I`.
+    
+4. In the "Positions" sub-tab, ensure that only the username and password parameters are selected. Clear any additional selections, such as session cookies.
+    
+5. Set the Attack type to "Pitchfork."
+    
+    ![Set the attack type to pitchfork](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/ebd86a3904d8cce5659194499d31db1d.png)
+    
+6. Move to the "Payloads" sub-tab. You will find two payload sets available for the username and password fields.
+    
+    ![Configure the two payload sets](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/f9ca1e72d694d8d27f7318637321d2be.png)
+    
+7. In the first payload set (for usernames), go to "Payload Options," choose "Load," and select the `usernames.txt` list.
+
+- Repeat the same process for the second payload set (for passwords) using the `passwords.txt` list.
+- The entire process can be seen in the GIF image below:
+    
+    ![Showing the entire process](https://assets.muirlandoracle.co.uk/thm/modules/burp/settingPayloads.gif)
+    
+
+9. Click the **Start Attack** button to begin the credential-stuffing attack. A warning about rate-limiting may appear; click **OK** to proceed. The attack will take a few minutes to complete in Burp Community.
+    
+10. Once the attack starts, a new window will display the results of the requests. However, as Burp sent 100 requests, we need to identify which one(s) were successful.
+    
+    Since the response status codes are not differentiating successful and unsuccessful attempts (all are 302 redirects), we need to use the response length to distinguish them.
+    
+    ![Showing the result with the smallest response length](https://assets.muirlandoracle.co.uk/thm/modules/burp/2ed757b27276.png)
+    
+    Click on the header for the "Length" column to sort the results by byte length. Look for the request with a shorter response length, indicating a successful login attempt.
+    
+11. To confirm the successful login attempt, use the credentials from the request with the shorter response length to log in.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
