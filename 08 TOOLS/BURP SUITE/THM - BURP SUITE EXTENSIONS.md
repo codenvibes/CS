@@ -21,8 +21,7 @@ To complete this room, you will not need a target machine, but make sure you hav
 ## 2. The Extensions Interface
 
 The Extensions interface in Burp Suite provides an overview of the extensions loaded into the tool. Let's take a look at the different components of this interface:
-
-![Extensions interface](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/499907ccb192f8deb8f473accd967df9.png)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/499907ccb192f8deb8f473accd967df9.png" alt=""></div>
 
 1. **Extensions List**: The top box displays a list of the extensions that are currently installed in Burp Suite for the current project. It allows you to activate or deactivate individual extensions.
 2. **Managing Extensions**: On the left side of the Extensions interface, there are options to manage extensions:
@@ -42,7 +41,7 @@ In summary, the Extensions interface in Burp Suite allows users to manage and 
 
 ### Questions
 
-##### 
+##### Are extensions invoked in ascending (A) or descending (D) order?
 <div align="center">
 <br>
 <br>
