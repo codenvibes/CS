@@ -100,6 +100,9 @@ While inputting data in ASCII format is beneficial, there are times when byte-by
 ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/704444afc761deabd6a8a3492dffd89b.png)
 
 This feature enables us to view and alter our data in hexadecimal byte format, a vital tool when working with binary files or other non-ASCII data.
+<div>
+<br>
+</div>
 
 ##### Smart Decode
 
@@ -115,6 +118,9 @@ While not perfect, this feature can be a quick solution for decoding unknown dat
 
 ### Questions
 
+##### Base64 encode the phrase: `Let's Start Simple`.<br><br>What is the base64 encoded version of this text?
+##### URL Decode this data: `%4e%65%78%74%3a%20%44%65%63%6f%64%69%6e%67`.<br><br>What is the plaintext returned?
+##### Use Smart decode to decode this data: `&#x25;&#x33;&#x34;&#x25;&#x33;&#x37;`.What is the decoded text?
 ##### 
 <div align="center">
 <br>
