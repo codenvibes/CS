@@ -588,7 +588,6 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
     - Click the **Add** button – this will cause a dropdown menu to appear with a list of actions we can add.
     - Select "Run a Macro" from this list.
     - In the new window that appears, select the macro we created earlier.
-        
     
     As it stands, this macro will now overwrite all of the parameters in our Intruder requests before we send them; this is great, as it means that we will get the loginTokens and session cookies added straight into our requests. That said, we should restrict which parameters and cookies are being updated before we start our attack:
     
@@ -597,7 +596,6 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
     - Select "Update only the following cookies", then click the relevant **Edit** button.
     - Enter "session" in the "Enter a new item" text field. Press **Add**, then **Close**.
     - Finally, press **OK** to confirm our action.
-        
     
     The following GIF demonstrates this final stage of the process:
     
@@ -610,7 +608,7 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
     **Note:** You should be getting 302 status code responses for every request in this attack. If you see 403 errors, then your macro is not working properly.
     
 9. As with the support login credential stuffing attack we carried out, the response codes here are all the same (302 Redirects). Once again, order your responses by length to find the valid credentials. Your results won't be quite as clear-cut as last time – you will see quite a few different response lengths: however, the response that indicates a successful login should still stand out as being significantly shorter.
-    
+
 10. Use the credentials you just found to log in (you may need to refresh the login page before entering the credentials).
 <div>
 <br>
@@ -619,7 +617,7 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
 
 ### Questions
 
-##### 
+##### What username and password combination indicates a successful login attempt? The answer format is "username:password".
 <div align="center">
 <br>
 <br>
@@ -630,6 +628,12 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
 <div style="page-break-after: always;"></div>
 
 ## 13. Conclusion
+
+Congratulations on completing the Burp Suite Intruder room!
+
+By now, you should have a solid understanding of how to effectively utilize Intruder to automate requests and perform various types of attacks.
+
+In the next room of the module, we will be looking at some of [Burp Suite's other modules](https://tryhackme.com/room/burpsuiteom)!
 <div align="center">
 <br>
 <br>
