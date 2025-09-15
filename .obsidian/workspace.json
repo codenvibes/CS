@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES.md",
+                "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM - NMAP LIVE HOST DISCOVERY"
             }
           },
           {
@@ -259,8 +259,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
@@ -287,7 +288,6 @@
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
     "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
-    "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
     "Pasted image 20250914142528.png",
     "ASSETS/Pasted image 20250914115124.png",
     "Pasted image 20250914115124.png",
