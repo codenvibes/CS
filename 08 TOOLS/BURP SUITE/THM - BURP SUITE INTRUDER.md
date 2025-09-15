@@ -127,7 +127,7 @@ By leveraging these sections, we can create and customise payload sets to suit t
 
 ### Questions
 
-##### 
+##### Which **Payload processing** rule could we use to add characters at the end of each payload in the set?
 <div align="center">
 <br>
 <br>
@@ -138,6 +138,7 @@ By leveraging these sections, we can create and customise payload sets to suit t
 <div style="page-break-after: always;"></div>
 
 ## 5. Introduction to Attack Types
+
 <div align="center">
 <br>
 <br>
