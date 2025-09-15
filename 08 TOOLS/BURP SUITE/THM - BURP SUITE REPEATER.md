@@ -155,7 +155,7 @@ While the textual representation of these components can be found within the Req
 
 ### Questions
 
-##### 
+##### Which section in Inspector is specific to POST requests?
 <div align="center">
 <br>
 <br>
