@@ -175,7 +175,7 @@ Here's the full process:
 
 ##### Using Decoder, what is the SHA-256 hashsum of the phrase: `Let's get Hashing!`?<br>Convert this into an ASCII Hex string for the answer to this question.
 ##### Generate an MD4 hashsum of the phrase: `Insecure Algorithms`.<br>Encode this as base64 (not ASCII Hex) before submitting.
-##### Let's look at an in-context example:<br>First, download the file attached to this task.<br>**Note:** This file can also be downloaded from the deployed VM with `wget http://MACHINE_IP:9999/AlteredKeys.zip` — you may find this helpful if you are using the AttackBox.<br>Now read the problem specification below:  <br>"Some joker has messed with my SSH key! There are four keys in the directory, and I have no idea which is the real one. The MD5 hashsum for my key is `3166226048d6ad776370dc105d40d9f8` — could you find it for me?"<br>What is the correct key name?
+##### Let's look at an in-context example:<br>First, download the file attached to this task.<br>**Note:** This file can also be downloaded from the deployed VM with `wget http://MACHINE_IP:9999/AlteredKeys.zip` — you may find this helpful if you are using the AttackBox.<br>Now read the problem specification below:<br>"Some joker has messed with my SSH key! There are four keys in the directory, and I have no idea which is the real one. The MD5 hashsum for my key is `3166226048d6ad776370dc105d40d9f8` — could you find it for me?"<br>What is the correct key name?
 <div align="center">
 <br>
 <br>
