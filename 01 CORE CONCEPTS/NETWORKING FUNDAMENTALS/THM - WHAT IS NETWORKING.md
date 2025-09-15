@@ -136,8 +136,11 @@ Devices on a network will all have a physical network interface, which is a micr
 However, an interesting thing with MAC addresses is that they can be faked or "spoofed" in a process known as spoofing. This spoofing occurs when a networked device pretends to identify as another using its MAC address. When this occurs, it can often break poorly implemented security designs that assume that devices talking on a network are trustworthy. Take the following scenario: A firewall is configured to allow any communication going to and from the MAC address of the administrator. If a device were to pretend or "spoof" this MAC address, the firewall would now think that it is receiving communication from the administrator when it isn't.
 
 Places such as cafes, coffee shops, and hotels alike often use MAC address control when using their "Guest "or "Public" Wi-Fi. This configuration could offer better services, i.e. a faster connection for a price if you are willing to pay the fee per device.  The **interactive lab attached to this task** has been made to replicate this scenario!
+<div>
+<br>
+</div>
 
-**Practical**  
+### Practical
 
 The interactive labs simulate a hotel Wi-Fi network where you have to pay for the service. You'll note that the router is not allowing Bob's packets ( blue) to the TryHackMe website and is placing them in the bin, but Alice's packets (green) are going through fine because she has paid for Wi-Fi. Try changing Bob's MAC address to the same as Alice's to see what happens.  
 
@@ -149,7 +152,19 @@ Deploy the interactive lab and proceed to answer the following questions below.
 
 ### Questions
 
-##### 
+##### What does the term "IP" stand for?
+Internet Protocol
+
+##### What is each section of an IP address called?
+
+
+##### How many sections (in digits) does an IPv4 address have?
+
+
+##### What does the term "MAC" stand for?
+
+
+##### Deploy the interactive lab using the "View Site" button and spoof your MAC address to access the site.  What is the flag?
 <div align="center">
 <br>
 <br>
