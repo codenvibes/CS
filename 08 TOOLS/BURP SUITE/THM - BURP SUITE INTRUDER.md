@@ -70,7 +70,7 @@ On the right-hand side of the interface, we find the following buttons: `Add §
 - The `Auto §` button automatically attempts to identify the most likely positions based on the request. This feature is helpful if we previously cleared the default positions and want them back.
 
 The following GIF demonstrates the process of adding, clearing, and automatically reselecting positions:
-<div align="center"><br><img width="" src="" alt=""></div>
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/504d75f7c90e1c985dae5e05038f50ac.gif" alt="Process of adding, clearing, and automatically reselecting positions"></div>
 
 Take some time to familiarize yourself with adding, clearing, and auto-selecting positions using the Burp Suite Intruder interface.
 <div>
@@ -80,7 +80,7 @@ Take some time to familiarize yourself with adding, clearing, and auto-selecting
 
 ### Questions
 
-##### 
+##### What symbol defines the start and the end of a payload position?
 <div align="center">
 <br>
 <br>
