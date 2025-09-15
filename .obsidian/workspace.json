@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#1-INTRODUCTION_TO_CYBERSECURITY",
+                "query": "tag:#5-NETWORK_SECURITY",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
