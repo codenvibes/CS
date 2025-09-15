@@ -44,7 +44,7 @@ There are four sub-tabs within Intruder:
 
 ### Questions
 
-##### 
+##### In which Intruder tab can we define the "Attack type" for our planned attack?
 <div align="center">
 <br>
 <br>
@@ -55,6 +55,34 @@ There are four sub-tabs within Intruder:
 <div style="page-break-after: always;"></div>
 
 ## 3. Positions
+
+When using Burp Suite Intruder to perform an attack, the first step is to examine the positions within the request where we want to insert our payloads. These positions inform Intruder about the locations where our payloads will be introduced (as we will explore in upcoming tasks).
+
+Let's navigate to the Positions tab:
+
+![Showing the positions tab](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/1372bbafab835e10806ee6beb6681f36.png)
+
+Notice that Burp Suite automatically attempts to identify the most probable positions where payloads can be inserted. These positions are highlighted in green and enclosed by section marks (`§`).
+
+On the right-hand side of the interface, we find the following buttons: `Add §`, `Clear §`, and `Auto §`:
+
+- The `Add §` button allows us to define new positions manually by highlighting them within the request editor and then clicking the button.
+- The `Clear §` button removes all defined positions, providing a blank canvas where we can define our own positions.
+- The `Auto §` button automatically attempts to identify the most likely positions based on the request. This feature is helpful if we previously cleared the default positions and want them back.
+
+The following GIF demonstrates the process of adding, clearing, and automatically reselecting positions:
+
+![Process of adding, clearing, and automatically reselecting positions](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/504d75f7c90e1c985dae5e05038f50ac.gif)
+
+Take some time to familiarize yourself with adding, clearing, and auto-selecting positions using the Burp Suite Intruder interface.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
