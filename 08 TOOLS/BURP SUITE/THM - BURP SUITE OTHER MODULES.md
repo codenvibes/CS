@@ -223,6 +223,38 @@ The window title displays the total number of differences found.
 
 ## 6. Comparer: Example
 
+We now know what Comparer does, but how is this useful?
+
+There are many situations where being able to quickly compare two (potentially very large) pieces of data can come in handy.
+
+For example, when performing a login bruteforce or credential stuffing attack with Intruder, you may wish to compare two responses with different lengths to see where the differences lie and whether the differences indicate a successful login.
+<div>
+<br>
+</div>
+
+#### Practical Example
+
+1. Navigate to `http://MACHINE_IP/support/login`
+    Try to log in with an invalid username and password – capture the request in the [Burp Proxy](https://tryhackme.com/room/burpsuitebasics).
+
+2. Send the request to [Repeater](https://tryhackme.com/room/burpsuiterepeater) with `Ctrl + R` (or Mac equivalent) or by right-clicking on the request in the Proxy module and choosing **Send to Repeater**.
+
+3. Send the request, then right-click on the response and choose **Send to Comparer**.
+    ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/f449ac6b049ffdb0491f7c872465dc01.gif)
+    
+4. In the Repeater tab, change the credentials to:
+    - Username: `support_admin`
+    - Password: `w58ySK4W`
+    
+    Send the request again, then pass the new response to Comparer.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
