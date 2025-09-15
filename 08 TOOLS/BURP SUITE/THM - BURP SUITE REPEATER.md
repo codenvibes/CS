@@ -30,15 +30,15 @@ The Repeater interface consists of six main sections, as depicted in the annotat
 <div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/3a4a4ee2008a2ed6a1aa8e9af3601ab2.png" alt="Showing a sample request in burp suite repeater"></div>
 
 1. **Request List**: Located at the top left of the tab, it displays the list of Repeater requests. Multiple requests can be managed simultaneously, and each new request sent to Repeater will appear here.
-    
+
 2. **Request Controls**: Positioned directly beneath the request list, these controls allow us to send a request, cancel a hanging request, and navigate through the request history.
-    
+
 3. **Request and Response View**: Occupying the majority of the interface, this section displays the **Request** and **Response** views. We can edit the request in the Request view and then forward it, while the corresponding response will be shown in the Response view.
-    
+
 4. **Layout Options**: Located at the top-right of the Request/Response view, these options enable us to customize the layout of the Request and Response views. The default setting is a side-by-side (horizontal) layout, but we can also choose a vertical layout or combine them in separate tabs.
-    
+
 5. **Inspector**: Positioned on the right-hand side, the Inspector allows us to analyze and modify requests in a more intuitive manner than using the raw editor. We will explore this feature in a later task.
-    
+
 6. **Target**: Situated above the Inspector, the Target field specifies the IP address or domain to which the requests are sent. When requests are sent to Repeater from other Burp Suite components, this field is automatically populated.
 <div>
 <br>
@@ -47,7 +47,7 @@ The Repeater interface consists of six main sections, as depicted in the annotat
 
 ### Questions
 
-##### 
+##### Which sections gives us a more intuitive control over our requests?
 <div align="center">
 <br>
 <br>
@@ -58,6 +58,33 @@ The Repeater interface consists of six main sections, as depicted in the annotat
 <div style="page-break-after: always;"></div>
 
 ## 3. Basic Usage
+
+We know what the application's interface looks like at this point, but how can we effectively utilize it?
+
+While manual request crafting is an option, it is more common to capture a request using the Proxy module and subsequently transmit it to Repeater for further editing and resending.
+
+Once a request has been captured in the Proxy module, we can send it to Repeater by either right-clicking on the request and selecting **Send to Repeater**, or by utilizing the keyboard shortcut `Ctrl + R`.
+
+Shifting our focus back to Repeater, we can observe that our captured request is now accessible in the Request view:
+<div align="center"><br><img width="" src="" alt=""></div>
+
+Both the Target and Inspector sections now display relevant information, albeit we are currently lacking a response. Upon clicking the **Send** button, the Response view swiftly populates:
+
+![Response view swiftly populates](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/11da62185a73223355048c2fc04a1340.png)
+
+Should we wish to modify any aspect of the request, we can simply type within the Request view and press **Send** once again. This action will update the Response view on the right accordingly. For instance, altering the **Connection** header to "open" instead of "close" yields a response with a **Connection** header containing the value "keep-alive":
+
+![header containing the value keep-alive](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/67d1462106edc86bd676315b3c0cba08.png)
+
+Furthermore, we can utilize the history buttons situated to the right of the Send button to navigate through our modification history, allowing us to move forward or backwards as needed.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
