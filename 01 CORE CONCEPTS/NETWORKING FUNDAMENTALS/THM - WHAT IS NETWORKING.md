@@ -123,8 +123,7 @@ IPv6 is a new iteration of the Internet Protocol addressing scheme to help tackl
 - More efficient due to new methodologies
 
 The screenshot below compares both an IPv6 and IPv4 address.
-
-![](https://assets.tryhackme.com/additional/networking-fundamentals/intro-to-networking/ipv6.png)  
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/networking-fundamentals/intro-to-networking/ipv6.png" alt=""></div>
 <div>
 <br>
 </div>
@@ -132,10 +131,7 @@ The screenshot below compares both an IPv6 and IPv4 address.
 ### MAC Addresses
 
 Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a **MAC** (**M**edia **A**ccess **C**ontrol ) address. The MAC address is a **twelve-character** hexadecimal number (_a base sixteen numbering system used in computing to represent numbers_) split into two's and separated by a colon. These colons are considered separators. For example, _a4:c3:f0:85:ac:2d_. The first six characters represent the company that made the network interface, and the last six is a unique number.
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png)  
-
-  
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/394caee97fb1b9f7b5a5f7a7ea0a9f71.png" alt=""></div>
 
 However, an interesting thing with MAC addresses is that they can be faked or "spoofed" in a process known as spoofing. This spoofing occurs when a networked device pretends to identify as another using its MAC address. When this occurs, it can often break poorly implemented security designs that assume that devices talking on a network are trustworthy. Take the following scenario: A firewall is configured to allow any communication going to and from the MAC address of the administrator. If a device were to pretend or "spoof" this MAC address, the firewall would now think that it is receiving communication from the administrator when it isn't.
 
