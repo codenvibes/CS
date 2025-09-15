@@ -19,6 +19,33 @@ Without further ado, let's delve into the first tool, the Decoder.
 <div style="page-break-after: always;"></div>
 
 ## 2. Decoder: Overview
+
+The Decoder module of Burp Suite gives user data manipulation capabilities. As implied by its name, it not only decodes data intercepted during an attack but also provides the function to encode our own data, prepping it for transmission to the target. Decoder also allows us to create hashsums of data, as well as providing a Smart Decode feature, which attempts to decode provided data recursively until it is back to being plaintext (like the "Magic" function of [Cyberchef](https://gchq.github.io/CyberChef/)).
+
+To access the Decoder, navigate to the Decoder tab from the top menu to view the available options:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/2258ccd03e0732c2d0bd4729a3f6212f.png)
+
+This interface lays out a multitude of options.
+
+1. This box serves as the workspace for entering or pasting data that requires encoding or decoding. Consistent with other modules of Burp Suite, data can be moved to this area from different parts of the framework via the **Send to Decoder** option upon right-clicking.
+2. At the top of the list on the right, there's an option to treat the input as either text or hexadecimal byte values.
+3. As we move down the list, dropdown menus are present to encode, decode, or hash the input.
+4. The **Smart Decode** feature, located at the end, attempts to auto-decode the input.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/f795b0f0701d019d37025310fa4ae285.png)
+
+Upon entering data into the input field, the interface replicates itself to present the output of our operation. We can then choose to apply further transformations using the same options:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/257ef62054a79fe68172310bfcb4c002.png)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Which feature attempts auto-decode of the input?
 <div align="center">
 <br>
 <br>
