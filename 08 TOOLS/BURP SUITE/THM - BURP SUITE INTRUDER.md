@@ -574,7 +574,6 @@ To accomplish this, we will use **Burp Macros** to define a repeated set of ac
     
     - Still in the "Sessions" category of the main settings, scroll up to the "Session Handling Rules" section and choose to **Add** a new rule.
     - A new window will pop up with two tabs in it: "Details" and "Scope". We are in the Details tab by default.
-        
     
     ![Window showing the details and scope](https://assets.muirlandoracle.co.uk/thm/modules/burp/38ceffeebf99.png)
     
