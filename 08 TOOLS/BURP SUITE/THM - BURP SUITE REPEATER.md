@@ -270,7 +270,14 @@ Now that we have our request primed, let's confirm that a vulnerability exists. 
 Request Headers from our Browser
 
 ```html
-
+GET /about/2' HTTP/1.1
+Host: MACHINE_IP
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
 ```
 
 You should see that the server responds with a "500 Internal Server Error", indicating that we successfully broke the query:  
@@ -283,7 +290,6 @@ Server: nginx/1.18.0 (Ubuntu)
 Date: Mon, 16 Aug 2021 23:05:21 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 3101
-
 ```
 
 If we look through the body of the server's response, we see something very interesting at around line 40. The server is telling us the query we tried to execute:  
