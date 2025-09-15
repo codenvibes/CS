@@ -134,11 +134,10 @@ While not mandatory for most tasks, this option can prove advantageous in certai
 Inspector is a supplementary feature to the Request and Response views in the Repeater module. It is also used to obtain a visually organized breakdown of requests and responses, as well as for experimenting to see how changes made using the higher-level Inspector affect the equivalent raw versions.
 
 Inspector can be utilized both in the Proxy and Repeater module. In both instances, it is situated on the far-right side of the window, presenting a list of components within the request and response:
-<div align="center"><br><img width="" src="" alt=""></div>
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/6c95db764fe7491d938485256fd1dd87.png" alt=""></div>
 
 Among these components, the sections pertaining to the request can typically be modified, enabling the addition, editing, and removal of items. For instance, in the **Request Attributes** section, we can alter elements related to the location, method, and protocol of the request. This includes modifying the desired resource to retrieve, changing the HTTP method from GET to another variant, or switching the protocol from HTTP/1 to HTTP/2:
-
-![Switching the protocol from HTTP/1 to HTTP/2](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/4f3a0f3714ceebbd6016e077369b48e8.png)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/4f3a0f3714ceebbd6016e077369b48e8.png" alt="Switching the protocol from HTTP/1 to HTTP/2"></div>
 
 Other sections available for viewing and/or editing include:
 
