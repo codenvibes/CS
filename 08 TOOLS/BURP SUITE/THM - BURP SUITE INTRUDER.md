@@ -460,6 +460,22 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
 <div style="page-break-after: always;"></div>
 
 ## 11. Practical Challenge
+
+Having gained access to the support system, we now have the opportunity to explore its functionalities and see what actions we can perform.
+
+Upon accessing the home interface, we are presented with a table displaying various tickets. Clicking on any row redirects us to a page where we can view the complete ticket. By examining the URL structure, we observe that these pages are numbered in the following format:
+
+`http://MACHINE_IP/support/ticket/NUMBER`
+
+The numbering system indicates that the tickets are assigned integer identifiers rather than complex and hard-to-guess IDs. This information is significant because it suggests two possible scenarios:
+
+1. **Access Control**: The endpoint may be properly configured to restrict access only to tickets assigned to our current user. In this case, we can only view tickets associated with our account.
+
+2. **IDOR Vulnerability**: Alternatively, the endpoint may lack appropriate access controls, leading to a vulnerability known as **Insecure Direct Object References** (IDOR). If this is the case, we could potentially exploit the system and read all existing tickets, regardless of the assigned user.
+
+To investigate further, we will utilize the Intruder tool to fuzz the `/support/ticket/NUMBER` endpoint. This approach will help us determine whether the endpoint has been correctly configured or if an IDOR vulnerability is present. Let's proceed with the fuzzing process!
+
+**Note:** You have to capture a request while being logged in.
 <div>
 <br>
 <br>
@@ -467,7 +483,11 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
 
 ### Questions
 
-##### 
+##### Which attack type is best suited for this task?
+##### Configure an appropriate position and payload (the tickets are stored at values between 1 and 100), then start the attack.<br><br>You should find that at least five tickets will be returned with a status code 200, indicating that they exist.
+##### Either using the **Response** tab in the **Attack Results** window or by looking at each successful (i.e. 200 code) request manually in your browser, find the ticket that contains the flag.
+
+What is the flag?
 <div align="center">
 <br>
 <br>
