@@ -245,7 +245,6 @@ For example, when performing a login bruteforce or credential stuffing attack wi
 4. In the Repeater tab, change the credentials to:
     - Username: `support_admin`
     - Password: `w58ySK4W`
-    
     Send the request again, then pass the new response to Comparer.
 <div>
 <br>
@@ -254,7 +253,7 @@ For example, when performing a login bruteforce or credential stuffing attack wi
 
 ### Questions
 
-##### 
+##### Compare the two responses by word. Can you identify the main differences?
 <div align="center">
 <br>
 <br>
@@ -265,6 +264,28 @@ For example, when performing a login bruteforce or credential stuffing attack wi
 <div style="page-break-after: always;"></div>
 
 ## 7. Sequencer: Overview
+
+Sequencer allows us to evaluate the entropy, or randomness, of "tokens". Tokens are strings used to identify something and should ideally be generated in a cryptographically secure manner. These tokens could be session cookies or **C**ross-**S**ite **R**equest **F**orgery (CSRF) tokens used to protect form submissions. If these tokens aren't generated securely, then, in theory, we could predict upcoming token values. The implications could be substantial, for instance, if the token in question is used for password resets.
+
+Let's start by looking at the Sequencer interface:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/dab1d10ba6ae4740453d593706cff315.png)
+
+We have two main ways to perform token analysis with Sequencer:
+
+- **Live Capture**: This is the more common method and is the default sub-tab for Sequencer. Live capture lets us pass a request that will generate a token to Sequencer for analysis. For instance, we might want to pass a POST request to a login endpoint to Sequencer, knowing that the server will respond with a cookie. With the request passed in, we can instruct Sequencer to start a live capture. It will then automatically make the same request thousands of times, storing the generated token samples for analysis. After collecting enough samples, we stop the Sequencer and allow it to analyze the captured tokens.
+
+- **Manual Load**: This allows us to load a list of pre-generated token samples directly into Sequencer for analysis. Using Manual Load means we don't need to make thousands of requests to our target, which can be noisy and resource-intensive. However, it does require that we have a large list of pre-generated tokens.
+
+We will be focusing on live captures in this room.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What does Sequencer allow us to evaluate?
 <div align="center">
 <br>
 <br>
