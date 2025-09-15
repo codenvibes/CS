@@ -393,14 +393,16 @@ Given the absence of protective measures, we have multiple options to exploit th
 
 Approximately three months ago, Bastion Hosting fell victim to a cyber attack, compromising employee usernames, email addresses, and plaintext passwords. While the affected employees were instructed to change their passwords promptly, there is a possibility that some disregarded this advice.
 
-As we possess a list of known usernames, each accompanied by a corresponding password, we can leverage a credential-stuffing attack instead of a straightforward brute-force. This method proves advantageous and significantly quicker, especially when utilising the rate-limited version of Intruder. To access the leaked credentials, download the file from the target machine using the following command in the AttackBox: `wget http://MACHINE_IP:9999/Credentials/BastionHostingCreds.zip`
+As we possess a list of known usernames, each accompanied by a corresponding password, we can leverage a credential-stuffing attack instead of a straightforward brute-force. This method proves advantageous and significantly quicker, especially when utilizing the rate-limited version of Intruder. To access the leaked credentials, download the file from the target machine using the following command in the AttackBox: `wget http://MACHINE_IP:9999/Credentials/BastionHostingCreds.zip`
+<div>
+<br>
+</div>
 
 #### Tutorial
 
 To solve this example, follow these steps to conduct a credential-stuffing attack with Burp Macros:
 
 1. Download and Prepare Wordlists:
-    
     - Download and extract the BastionHostingCreds.zip file.
     - Within the extracted folder, find the following wordlists:
         - emails.txt
@@ -408,18 +410,15 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
         - passwords.txt
         - combined.txt
     
-      
-    
     These contain lists of leaked emails, usernames, and passwords, respectively. The last list contains the combined email and password lists. We will be using the `usernames.txt` and `passwords.txt` lists.
     
 2. Navigate to `http://MACHINE_IP/support/login` in your browser. Activate the Burp Proxy and attempt to log in, capturing the request in your proxy. Note that any credentials will suffice for this step.
-    
+ 
 3. Send the captured request from the Proxy to Intruder by right-clicking and selecting "Send to Intruder" or using `Ctrl + I`.
-    
+
 4. In the "Positions" sub-tab, ensure that only the username and password parameters are selected. Clear any additional selections, such as session cookies.
-    
+
 5. Set the Attack type to "Pitchfork."
-    
     ![Set the attack type to pitchfork](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/ebd86a3904d8cce5659194499d31db1d.png)
     
 6. Move to the "Payloads" sub-tab. You will find two payload sets available for the username and password fields.
