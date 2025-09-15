@@ -325,7 +325,7 @@ Upon clicking the **Analyze now** button, Burp will analyze the token's entro
 
 ### Questions
 
-##### 
+##### What is the overall quality of randomness estimated to be?
 <div align="center">
 <br>
 <br>
@@ -336,6 +336,23 @@ Upon clicking the **Analyze now** button, Burp will analyze the token's entro
 <div style="page-break-after: always;"></div>
 
 ## 9. Sequencer: Analysis
+
+Now that we have a report for the entropy analysis of our token, it's time to analyze it!
+
+The generated entropy analysis report is split into four primary sections. The first of these is the **Summary** of the results. The summary gives us the following:
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/ff780f0e74d75191ea4945dbe7794a29.png" alt=""></div>
+
+- **Overall result**: This gives a broad assessment of the security of the token generation mechanism. In this case, the level of entropy indicates that the tokens are likely securely generated.
+
+- **Effective entropy**: This measures the randomness of the tokens. The effective entropy of 117 bits is relatively high, indicating that the tokens are sufficiently random and, therefore, secure against prediction or brute force attacks.
+
+- **Reliability**: The significance level of 1% implies that there is 99% confidence in the accuracy of the results. This level of confidence is quite high, providing assurance in the accuracy of the effective entropy estimation.
+
+- **Sample**: This provides details about the token samples analyzed during the entropy testing process, including the number of tokens and their characteristics.
+
+While the summary report often provides enough information to assess the security of the token generation process, it's important to remember that further investigation may be necessary in some cases. The character-level and bit-level analysis can provide more detailed insights into the randomness of the tokens, especially when the summary results raise potential concerns.
+
+While the entropy report can provide a strong indicator of the security of the token generation mechanism, there needs to be more definitive proof. Other factors could also impact the security of the tokens, and the nature of probability and statistics means there's always a degree of uncertainty. That said, an effective entropy of 117 bits with a significance level of 1% suggests a robustly secure token generation process.
 <div align="center">
 <br>
 <br>
