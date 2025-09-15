@@ -426,16 +426,14 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
     ![Configure the two payload sets](https://tryhackme-images.s3.amazonaws.com/user-uploads/645b19f5d5848d004ab9c9e2/room-content/f9ca1e72d694d8d27f7318637321d2be.png)
     
 7. In the first payload set (for usernames), go to "Payload Options," choose "Load," and select the `usernames.txt` list.
-
-- Repeat the same process for the second payload set (for passwords) using the `passwords.txt` list.
-- The entire process can be seen in the GIF image below:
+	- Repeat the same process for the second payload set (for passwords) using the `passwords.txt` list.
+	- The entire process can be seen in the GIF image below:
     
     ![Showing the entire process](https://assets.muirlandoracle.co.uk/thm/modules/burp/settingPayloads.gif)
     
-
-9. Click the **Start Attack** button to begin the credential-stuffing attack. A warning about rate-limiting may appear; click **OK** to proceed. The attack will take a few minutes to complete in Burp Community.
+8. Click the **Start Attack** button to begin the credential-stuffing attack. A warning about rate-limiting may appear; click **OK** to proceed. The attack will take a few minutes to complete in Burp Community.
     
-10. Once the attack starts, a new window will display the results of the requests. However, as Burp sent 100 requests, we need to identify which one(s) were successful.
+9. Once the attack starts, a new window will display the results of the requests. However, as Burp sent 100 requests, we need to identify which one(s) were successful.
     
     Since the response status codes are not differentiating successful and unsuccessful attempts (all are 302 redirects), we need to use the response length to distinguish them.
     
@@ -443,7 +441,7 @@ To solve this example, follow these steps to conduct a credential-stuffing attac
     
     Click on the header for the "Length" column to sort the results by byte length. Look for the request with a shorter response length, indicating a successful login attempt.
     
-11. To confirm the successful login attempt, use the credentials from the request with the shorter response length to log in.
+10. To confirm the successful login attempt, use the credentials from the request with the shorter response length to log in.
 <div>
 <br>
 <br>
