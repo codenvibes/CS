@@ -97,7 +97,7 @@ Furthermore, we can utilize the history buttons situated to the right of the Sen
 Repeater provides us with various request and response presentation options, ranging from hexadecimal output to a fully rendered page.
 
 To explore these options, we can refer to the section located above the response box, where the following four view buttons are available:
-<div align="center"><br><img width="" src="" alt=""></div>
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/635ad62b0204b104bbd58489716eccde.png" alt="Four buttons above the response box"></div>
 
 We are presented with the following display choices:
 
@@ -119,7 +119,7 @@ While not mandatory for most tasks, this option can prove advantageous in certai
 
 ### Questions
 
-##### 
+##### Which option allows us to visualize the page as it would appear in a web browser?
 <div align="center">
 <br>
 <br>
