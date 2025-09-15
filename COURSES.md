@@ -1,27 +1,27 @@
 ## #THMLP-PRE_SECURITY
 
-SECTION 1
-Introduction to Cyber Security
+SECTION 1 Introduction to Cyber Security
 
-Offensive Security IntroOffensive Security Intro
-Defensive Security IntroDefensive Security Intro
-Careers in CyberCareers in Cyber
-SECTION 2
-Network Fundamentals
+Offensive Security Intro
+Defensive Security Intro
+Careers in Cyber
 
-What is Networking?What is Networking?
-63%
-Intro to LANIntro to LAN
-OSI ModelOSI Model
-Packets & FramesPackets & Frames
-Extending Your NetworkExtending Your Network
+SECTION 2 Network Fundamentals
+
+What is Networking?
+Intro to LAN
+OSI Model
+Packets & Frames
+Extending Your Network
+
 SECTION 3
 How The Web Works
 
-DNS in DetailDNS in Detail
-HTTP in DetailHTTP in Detail
-How Websites WorkHow Websites Work
-Putting it all togetherPutting it all together
+DNS in Detail
+HTTP in Detail
+How Websites Work
+Putting it all together
+
 SECTION 4
 Linux Fundamentals
 
