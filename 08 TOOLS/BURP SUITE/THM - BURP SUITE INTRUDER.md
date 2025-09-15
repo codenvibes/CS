@@ -282,6 +282,35 @@ In the upcoming tasks, we will explore further configurations and settings relat
 <div style="page-break-after: always;"></div>
 
 ## 8. Pitchfork
+
+The **Pitchfork** attack type in Burp Suite Intruder is similar to having multiple Sniper attacks running simultaneously. While Sniper uses one payload set to test all positions simultaneously, Pitchfork utilises one payload set per position (up to a maximum of 20) and iterates through them all simultaneously.
+
+To better understand Pitchfork, let us revisit our brute-force example, but this time with two wordlists:
+
+1. The first wordlist contains usernames: `joel`, `harriet`, and `alex`.
+2. The second wordlist contains passwords: `J03l`, `Emma1815`, and `Sk1ll`.
+
+We can use these two lists to perform a Pitchfork attack on the login form. Each request made during the attack would look like this:
+
+|Request Number|Request Body|
+|---|---|
+|1|`username=joel&password=J03l`|
+|2|`username=harriet&password=Emma1815`|
+|3|`username=alex&password=Sk1ll`|
+
+As shown in the table, Pitchfork takes the first item from each list and substitutes them into the request, one per position. It then repeats this process for the next request by taking the second item from each list and substituting it into the template. Intruder continues this iteration until one or all of the lists run out of items. It's important to note that Intruder stops testing as soon as one of the lists is complete. Therefore, in Pitchfork attacks, it is ideal for the payload sets to have the same length. If the lengths of the payload sets differ, Intruder will only make requests until the shorter list is exhausted, and the remaining items in the longer list will not be tested.
+
+The Pitchfork attack type is especially useful when conducting credential-stuffing attacks or when multiple positions require separate payload sets. It allows for simultaneous testing of multiple positions with different payloads.
+
+In the upcoming tasks, we will explore further configurations and settings related to Intruder's Pitchfork attack type and explore its applications in different scenarios, including credential-stuffing attacks.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the maximum number of payload sets we can load into Intruder in Pitchfork mode?
 <div align="center">
 <br>
 <br>
@@ -292,6 +321,7 @@ In the upcoming tasks, we will explore further configurations and settings relat
 <div style="page-break-after: always;"></div>
 
 ## 9. Cluster Bomb
+
 <div align="center">
 <br>
 <br>
