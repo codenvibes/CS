@@ -271,7 +271,8 @@ In the upcoming tasks, we will explore further configurations and settings relat
 
 ### Questions
 
-##### 
+##### As a hypothetical question: You need to perform a Battering ram Intruder attack on the example request above.<br><br>If you have a wordlist with two words in it (`admin` and `Guest`) and the positions in the request template look like this:`username=§pentester§&password=§Expl01ted<br><br>
+What would the body parameters of the _first_ request that Burp Suite sends be?
 <div align="center">
 <br>
 <br>
