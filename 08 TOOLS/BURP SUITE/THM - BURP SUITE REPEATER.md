@@ -66,11 +66,10 @@ While manual request crafting is an option, it is more common to capture a reque
 Once a request has been captured in the Proxy module, we can send it to Repeater by either right-clicking on the request and selecting **Send to Repeater**, or by utilizing the keyboard shortcut `Ctrl + R`.
 
 Shifting our focus back to Repeater, we can observe that our captured request is now accessible in the Request view:
-<div align="center"><br><img width="" src="" alt=""></div>
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/ae762b56b7ecb30a0d861221d41502f5.png" alt="Request in the request view"></div>
 
 Both the Target and Inspector sections now display relevant information, albeit we are currently lacking a response. Upon clicking the **Send** button, the Response view swiftly populates:
-
-![Response view swiftly populates](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/11da62185a73223355048c2fc04a1340.png)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/11da62185a73223355048c2fc04a1340.png" alt="Response view swiftly populates"></div>
 
 Should we wish to modify any aspect of the request, we can simply type within the Request view and press **Send** once again. This action will update the Response view on the right accordingly. For instance, altering the **Connection** header to "open" instead of "close" yields a response with a **Connection** header containing the value "keep-alive":
 
