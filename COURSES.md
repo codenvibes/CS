@@ -33,7 +33,7 @@ THM - Windows Fundamentals 1
 THM - Windows Fundamentals 2
 THM - Windows Fundamentals 3
 
-## ---------------------------------------------
+## -------------------------------
 ## #THM-JR_PENETRATION_TESTER
 
 ### #1-INTRODUCTION_TO_CYBERSECURITY
@@ -99,5 +99,5 @@ THM - Windows Fundamentals 3
 38. [[THM - LINUX PRIVILEGE ESCALATION]]
 39. [[THM - WINDOWS PRIVILEGE ESCALATION]]
 
-## ---------------------------------------------
+## -------------------------------
 
