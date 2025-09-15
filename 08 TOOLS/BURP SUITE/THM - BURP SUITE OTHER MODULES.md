@@ -386,7 +386,7 @@ To view the request and response:
 
 ### Questions
 
-##### 
+##### Are saved requests read-only? (yea/nay)
 <div align="center">
 <br>
 <br>
@@ -397,6 +397,14 @@ To view the request and response:
 <div style="page-break-after: always;"></div>
 
 ## 11. Conclusion
+
+Congratulations on completing the Burp Suite Other Modules room!
+
+To summarize, Decoder allows you to encode and decode data, making it easier to read and understand the information being transferred. Comparer enables you to spot differences between two datasets, which can be pivotal in identifying vulnerabilities or anomalies. Sequencer helps in performing entropy analysis on tokens, providing insights into the randomness of their generation and, consequently, their security level. Organizer enables you to store and annotate copies of HTTP requests that you may want to revisit later.
+
+Having a fundamental understanding of these tools equips you with a broader skillset when it comes to web application penetration testing.
+
+In the next and final room of this module, you will be exploring the [Burp Suite Extensions](https://tryhackme.com/room/burpsuiteextensions) tool.
 <div align="center">
 <br>
 <br>
