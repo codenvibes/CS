@@ -60,9 +60,9 @@ Lastly, ring topologies are less prone to bottlenecks, such as within a bus topo
 <br>
 </div>
 
-A switch connects multiple devices within the same network (LAN) and forwards data based on **MAC addresses**.
-- **Function**: Creates a direct communication path between the sending and receiving device.
-- **Example Use**: Used in offices to connect computers, printers, and servers efficiently.
+==A DEF-switch connects multiple devices within the same network (LAN) and forwards data based on **MAC addresses**.==
+- ==**Function**: Creates a direct communication path between the sending and receiving device.==
+- ==**Example Use**: Used in offices to connect computers, printers, and servers efficiently.==
 <div align="center">
 <br>
 <br>
@@ -83,13 +83,13 @@ Switches are much more efficient than their lesser counterpart (hubs/repeaters).
 <br>
 </div>
 
-A hub is a simple networking device that connects multiple devices in a LAN but **does not filter data**. Whatever data it receives is broadcast to all connected devices.
-- **Function**: Acts as a basic connection point, without intelligence.
-- **Example Use**: Rarely used today; replaced by switches.
+==A DEF-hub is a simple networking device that connects multiple devices in a LAN but **does not filter data**. Whatever data it receives is broadcast to all connected devices.==
+- ==**Function**: Acts as a basic connection point, without intelligence.==
+- ==**Example Use**: Rarely used today; replaced by switches.==
 
-A repeater is a device that regenerates and amplifies network signals to extend the transmission distance.
-- **Function**: Prevents signal loss over long distances.
-- **Example Use**: Extending Wi-Fi coverage in large homes or boosting Ethernet signals.
+==A DEF-repeater is a device that regenerates and amplifies network signals to extend the transmission distance.==
+- ==**Function**: Prevents signal loss over long distances.==
+- ==**Example Use**: Extending Wi-Fi coverage in large homes or boosting Ethernet signals.==
 <div align="center">
 <br>
 <br>
