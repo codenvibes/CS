@@ -311,12 +311,13 @@ This process is illustrated in the diagram below:
 Address Resolution Protocol
 
 ##### What category of ARP Packet asks a device whether or not it has a specific IP address?
-
+Request
 
 ##### What address is used as a physical identifier for a device on a network?
-
+MAC Address
 
 ##### What address is used as a logical identifier for a device on a network?
+IP Address
 <div align="center">
 <br>
 <br>
@@ -327,6 +328,7 @@ Address Resolution Protocol
 <div style="page-break-after: always;"></div>
 
 ## 4. DHCP
+
 <div align="center">
 <br>
 <br>
