@@ -114,9 +114,9 @@ Both Switches and Routers can be connected to one another. The ability to do thi
 <br>
 </div>
 
-A router is a networking device that connects multiple networks together (e.g., your home network to the internet). It routes data packets based on **IP addresses**.
-- **Function**: Determines the best path for data to travel across networks.
-- **Example Use**: Your Wi-Fi router directs traffic between your devices and your ISP.
+==A DEF-router is a networking device that connects multiple networks together (e.g., your home network to the internet). It routes data packets based on **IP addresses**.==
+- ==**Function**: Determines the best path for data to travel across networks.==
+- ==**Example Use**: Your Wi-Fi router directs traffic between your devices and your ISP.==
 <div align="center">
 <br>
 <br>
