@@ -194,19 +194,15 @@ As we can recall, an IP address is made up of four sections called octets. The s
 <br>
 </div>
 
-A **DEF-subnet mask** is a 32-bit number that tells a device **which part of an IP address is the "network" portion** and which part is the **"host" portion**.
+==A **DEF-subnet mask** is a 32-bit number that tells a device **which part of an IP address is the "network" portion** and which part is the **"host" portion**.==
 
 - **Network portion** = identifies the subnet (the group).
 - **Host portion** = identifies the specific device within that subnet.
 
 **Shortcut with CIDR notation**
-
 Instead of writing the whole mask, we can use `/N` (CIDR notation).
-
 - `/24` = `255.255.255.0`
-    
 - `/16` = `255.255.0.0`
-    
 - `/8` = `255.0.0.0`
 <div align="center">
 <br>
@@ -280,6 +276,35 @@ Default Gateway
 <div style="page-break-after: always;"></div>
 
 ## 3. ARP
+
+Recalling from our previous tasks that devices can have two identifiers: A MAC address and an IP address, the **A**ddress **R**esolution **P**rotocol or **ARP** for short, is the technology that is responsible for allowing devices to identify themselves on a network.
+
+Simply, ARP allows a device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC addresses associated with other devices.
+
+When devices wish to communicate with another, they will send a broadcast to the entire network searching for the specific device. Devices can use ARP to find the MAC address (and therefore the physical identifier) of a device for communication.
+
+How does ARP Work?
+
+Each device within a network has a ledger to store information on, which is called a cache. In the context of ARP, this cache stores the identifiers of other devices on the network.
+
+In order to map these two identifiers together (IP address and MAC address), ARP sends two types of messages:
+
+1. **ARP Request**
+2. **ARP Reply**
+
+When an **ARP request** is sent, a message is broadcasted on the network to other devices asking, "What is the mac address that owns this IP address?" When the other devices receive that message, they will only respond if they own that IP address and will send an **ARP reply** with its MAC address. The requesting device can now remember this mapping and store it in its **ARP cache** for future use.  
+
+This process is illustrated in the diagram below:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/2107060a6e1df30659654335b878e91a.png)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
