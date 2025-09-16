@@ -282,8 +282,11 @@ Recalling from our previous tasks that devices can have two identifiers: A MAC a
 Simply, ARP allows a device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC addresses associated with other devices.
 
 When devices wish to communicate with another, they will send a broadcast to the entire network searching for the specific device. Devices can use ARP to find the MAC address (and therefore the physical identifier) of a device for communication.
+<div>
+<br>
+</div>
 
-How does ARP Work?
+### How does ARP Work?
 
 Each device within a network has a ledger to store information on, which is called a cache. In the context of ARP, this cache stores the identifiers of other devices on the network.
 
