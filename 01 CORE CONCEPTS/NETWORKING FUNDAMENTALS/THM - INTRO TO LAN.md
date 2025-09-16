@@ -39,7 +39,7 @@ Lastly, another disadvantage of the bus topology is that there is little redunda
 
 #### Ring Topology
 
-The ring topology (also known as token topology) boasts some similarities. Devices such as computers are connected directly to each other to form a loop, meaning that there is little cabling required and less dependence on dedicated hardware such as within a star topology.
+The ring topology (also known as token topology) boasts some similarities. In a ring topology, all devices are a connector to two others to create a full circle. Devices such as computers are connected directly to each other to form a loop, meaning that there is little cabling required and less dependence on dedicated hardware such as within a star topology.
 
 A ring topology works by sending data across the loop until it reaches the destined device, using other devices along the loop to forward the data. Interestingly, a device will only send received data from another device in this topology if it does not have any to send itself. If the device happens to have data to send, it will send its own data first before sending data from another device.
 
