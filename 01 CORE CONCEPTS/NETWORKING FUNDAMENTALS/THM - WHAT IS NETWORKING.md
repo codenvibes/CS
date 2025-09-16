@@ -219,7 +219,13 @@ Now you are going to do the same thing to ping the address of "**8.8.8.8**" on t
 
 ### Questions
 
-##### 
+##### What protocol does ping use?
+ICMP
+
+##### What is the syntax to ping 10.10.10.10?
+
+
+##### What flag do you get when you ping 8.8.8.8?
 <div align="center">
 <br>
 <br>
