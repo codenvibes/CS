@@ -194,11 +194,20 @@ As we can recall, an IP address is made up of four sections called octets. The s
 <br>
 </div>
 
-A **subnet mask** is a 32-bit number that tells a device **which part of an IP address is the "network" portion** and which part is the **"host" portion**.
+A **DEF-subnet mask** is a 32-bit number that tells a device **which part of an IP address is the "network" portion** and which part is the **"host" portion**.
 
 - **Network portion** = identifies the subnet (the group).
-    
 - **Host portion** = identifies the specific device within that subnet.
+
+**Shortcut with CIDR notation**
+
+Instead of writing the whole mask, we can use `/N` (CIDR notation).
+
+- `/24` = `255.255.255.0`
+    
+- `/16` = `255.255.0.0`
+    
+- `/8` = `255.0.0.0`
 <div align="center">
 <br>
 <br>
