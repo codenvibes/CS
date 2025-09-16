@@ -42,8 +42,7 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WHAT IS NETWORKING"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,13 +258,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "COURSES.md",
     "WHITE-BOARD/WHITE-BOARD.md",
