@@ -223,9 +223,10 @@ Now you are going to do the same thing to ping the address of "**8.8.8.8**" on t
 ICMP
 
 ##### What is the syntax to ping 10.10.10.10?
-
+ping 10.10.10.10
 
 ##### What flag do you get when you ping 8.8.8.8?
+THM{I_PINGED_THE_SERVER}
 <div align="center">
 <br>
 <br>
@@ -236,6 +237,8 @@ ICMP
 <div style="page-break-after: always;"></div>
 
 ## 5. Continue Your Learning: Intro to LAN
+
+Continue your learning by joining the ["Intro to LAN" room.](https://tryhackme.com/room/introtolan)
 <div align="center">
 <br>
 <br>
