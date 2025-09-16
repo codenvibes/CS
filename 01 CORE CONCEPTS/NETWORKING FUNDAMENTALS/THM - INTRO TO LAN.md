@@ -85,8 +85,11 @@ Switches are much more efficient than their lesser counterpart (hubs/repeaters).
 
 A hub is a simple networking device that connects multiple devices in a LAN but **does not filter data**. Whatever data it receives is broadcast to all connected devices.
 - **Function**: Acts as a basic connection point, without intelligence.
-- **Key Feature**: Works at **Layer 1 (Physical Layer)**.
 - **Example Use**: Rarely used today; replaced by switches.
+
+A repeater is a device that regenerates and amplifies network signals to extend the transmission distance.
+- **Function**: Prevents signal loss over long distances.
+- **Example Use**: Extending Wi-Fi coverage in large homes or boosting Ethernet signals.
 <div align="center">
 <br>
 <br>
