@@ -121,6 +121,34 @@ IPv6 is a new iteration of the Internet Protocol addressing scheme to help tackl
 
 - Supports up to 2^128 of IP addresses (340 trillion-plus), resolving the issues faced with IPv4
 - More efficient due to new methodologies
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+The TryHackMe room states that IPv6 supports _“340 trillion-plus”_ IP addresses.  
+This is **incorrect**.
+
+- The actual number of possible IPv6 addresses is:
+    
+    2128≈340,282,366,920,938,463,463,374,607,431,768,211,4562^{128} \approx 340,282,366,920,938,463,463,374,607,431,768,211,4562128≈340,282,366,920,938,463,463,374,607,431,768,211,456
+- In words: **340 undecillion** (short scale).
+    
+- In scientific notation: ≈3.4×1038\approx 3.4 \times 10^{38}≈3.4×1038.
+    
+
+A trillion (101210^{12}1012) is **tiny** compared to this number.  
+So the room’s “340 trillion” is a major understatement — likely a simplification or typo.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 The screenshot below compares both an IPv6 and IPv4 address.
 <div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/networking-fundamentals/intro-to-networking/ipv6.png" alt=""></div>
