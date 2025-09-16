@@ -225,21 +225,22 @@ Subnetting allows you to separate these two use cases from each other whilst hav
 ### Questions
 
 ##### What is the technical term for dividing a network up into smaller pieces?
-
+Subnetting
 
 ##### How many **bits** are in a subnet mask?
-
+32
 
 ##### What is the range of a section (octet) of a subnet mask?
-
+0-255
 
 ##### What address is used to identify the start of a network?
-
+Network Address
 
 ##### What address is used to identify devices within a network?
-
+Host Address
 
 ##### What is the name used to identify the device responsible for sending data to another network?
+Default Gateway
 <div align="center">
 <br>
 <br>
