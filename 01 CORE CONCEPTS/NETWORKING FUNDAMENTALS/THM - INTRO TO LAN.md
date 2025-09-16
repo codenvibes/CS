@@ -53,6 +53,24 @@ Lastly, ring topologies are less prone to bottlenecks, such as within a bus topo
 
 ### What is a Switch?
 
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+A switch connects multiple devices within the same network (LAN) and forwards data based on **MAC addresses**.
+- **Function**: Creates a direct communication path between the sending and receiving device.
+- **Example Use**: Used in offices to connect computers, printers, and servers efficiently.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 
 Switches are dedicated devices within a network that are designed to aggregate multiple other devices such as computers, printers, or any other networking-capable device using ethernet. These various devices plug into a switch's port. Switches are usually found in larger networks such as businesses, schools, or similar-sized networks, where there are many devices to connect to the network. Switches can connect a large number of devices by having ports of 4, 8, 16, 24, 32, and 64 for devices to plug into.
