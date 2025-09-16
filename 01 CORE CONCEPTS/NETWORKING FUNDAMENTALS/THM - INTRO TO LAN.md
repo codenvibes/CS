@@ -144,10 +144,20 @@ Attached to this task is an interactive practical featuring the discussed LAN to
 ### Questions
 
 ##### What does LAN stand for?
+Local Area Network
+
 ##### What is the verb given to the job that Routers perform?
+Routing
+
 ##### What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
+Switch
+
 ##### What topology is cost-efficient to set up?
+Bus Topology
+
 ##### What topology is expensive to set up and maintain?
+Star Topology
+
 ##### Complete the interactive lab attached to this task. What is the flag given at the end?
 <div align="center">
 <br>
