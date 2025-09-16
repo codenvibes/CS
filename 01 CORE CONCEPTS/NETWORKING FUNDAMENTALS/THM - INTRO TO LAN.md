@@ -10,6 +10,7 @@ Over the years, there has been experimentation and implementation of various net
 </div>
 
 ### Star Topology
+<div align="center"><br><img width="" src="Pasted image 20250916124724.png" alt=""></div>
 
 The main premise of a star topology is that devices are individually connected via a central networking device such as a switch or hub. This topology is the most commonly found today because of its reliability and scalability - despite the cost.
 
