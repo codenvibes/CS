@@ -200,6 +200,26 @@ THM{YOU_GOT_ON_TRYHACKME}
 <div style="page-break-after: always;"></div>
 
 ## 4. Ping (ICMP)
+
+Ping is one of the most fundamental network tools available to us. Ping uses **ICMP** (**I**nternet **C**ontrol **M**essage **P**rotocol) packets to determine the performance of a connection between devices, for example, if the connection exists or is reliable.
+
+The time taken for ICMP packets travelling between devices is measured by ping, such as in the screenshot below. This measuring is done using ICMP's echo packet and then ICMP's echo reply from the target device.
+
+Pings can be performed against devices on a network, such as your home network or resources like websites. This tool can be easily used and comes installed on Operating Systems (OSs) such as Linux and Windows. The syntax to do a simple ping is `ping IP address or website URL`. Let's see this in action in the screenshot below.
+
+![](https://assets.tryhackme.com/additional/networking-fundamentals/intro-to-networking/ping/ping1.png)
+
+Here we are pinging a device that has the private address of _192.168.1.254_. Ping informs us that we have sent six ICMP packets, all of which were received with an average time of 4.16 milliseconds.
+
+Now you are going to do the same thing to ping the address of "**8.8.8.8**" on the deployable website in this task. Pinging the correct address will reveal a flag to answer the following question below.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
