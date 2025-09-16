@@ -307,7 +307,16 @@ This process is illustrated in the diagram below:
 
 ### Questions
 
-##### 
+##### What does ARP stand for?
+Address Resolution Protocol
+
+##### What category of ARP Packet asks a device whether or not it has a specific IP address?
+
+
+##### What address is used as a physical identifier for a device on a network?
+
+
+##### What address is used as a logical identifier for a device on a network?
 <div align="center">
 <br>
 <br>
