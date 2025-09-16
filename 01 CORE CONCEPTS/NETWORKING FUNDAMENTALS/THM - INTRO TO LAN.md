@@ -9,7 +9,7 @@ Over the years, there has been experimentation and implementation of various net
 <br>
 </div>
 
-### Star Topology
+#### Star Topology
 <div align="center"><br><img width="" src="Pasted image 20250916124724.png" alt=""></div>
 
 The main premise of a star topology is that devices are individually connected via a central networking device such as a switch or hub. This topology is the most commonly found today because of its reliability and scalability - despite the cost.
@@ -23,7 +23,7 @@ Unfortunately, the more the network scales, the more maintenance is required to 
 <br>
 </div>
 
-### Bus Topology
+#### Bus Topology
 
 This type of connection relies upon a single connection which is known as a backbone cable. This type of topology is similar to the leaf off of a tree in the sense that devices (leaves) stem from where the branches are on this cable.
 
@@ -37,7 +37,7 @@ Lastly, another disadvantage of the bus topology is that there is little redunda
 <br>
 </div>
 
-### Ring Topology
+#### Ring Topology
 
 The ring topology (also known as token topology) boasts some similarities. Devices such as computers are connected directly to each other to form a loop, meaning that there is little cabling required and less dependence on dedicated hardware such as within a star topology.
 
@@ -46,10 +46,12 @@ A ring topology works by sending data across the loop until it reaches the desti
 Because there is only one direction for data to travel across this topology, it is fairly easy to troubleshoot any faults that arise. However, this is a double-edged sword because it isn't an efficient way of data travelling across a network, as it may have to visit many multiple devices first before reaching the intended device.
 
 Lastly, ring topologies are less prone to bottlenecks, such as within a bus topology, as large amounts of traffic are not travelling across the network at any one time. The design of this topology does, however, mean that a fault such as cut cable, or broken device will result in the entire networking breaking.
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/4cea7a4b48eacbd4db0b0d5e32068596.png" alt=""></div>
+<div>
+<br>
+</div>
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/4cea7a4b48eacbd4db0b0d5e32068596.png)
-
-## What is a Switch?
+### What is a Switch?
 
 Switches are dedicated devices within a network that are designed to aggregate multiple other devices such as computers, printers, or any other networking-capable device using ethernet. These various devices plug into a switch's port. Switches are usually found in larger networks such as businesses, schools, or similar-sized networks, where there are many devices to connect to the network. Switches can connect a large number of devices by having ports of 4, 8, 16, 24, 32, and 64 for devices to plug into.
 
