@@ -129,12 +129,11 @@ IPv6 is a new iteration of the Internet Protocol addressing scheme to help tackl
 <br>
 </div>
 
-The TryHackMe room states that IPv6 supports _“340 trillion-plus”_ IP addresses.  
+"Supports up to 2^128 of IP addresses (340 trillion-plus)"
 This is **incorrect**.
 
 - The actual number of possible IPv6 addresses is:
-    
-    2128≈340,282,366,920,938,463,463,374,607,431,768,211,4562^{128} \approx 340,282,366,920,938,463,463,374,607,431,768,211,4562128≈340,282,366,920,938,463,463,374,607,431,768,211,456
+    2^128≈340,282,366,920,938,463,463,374,607,431,768,211,4562^{128} \approx 340,282,366,920,938,463,463,374,607,431,768,211,4562128≈340,282,366,920,938,463,463,374,607,431,768,211,456
 - In words: **340 undecillion** (short scale).
     
 - In scientific notation: ≈3.4×1038\approx 3.4 \times 10^{38}≈3.4×1038.
