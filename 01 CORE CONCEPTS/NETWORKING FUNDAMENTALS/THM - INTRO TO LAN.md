@@ -338,7 +338,14 @@ IP addresses can be assigned either manually, by entering them physically into a
 
 ### Questions
 
-##### 
+##### What type of DHCP packet is used by a device to **retrieve an IP address?**
+DHCP Discover
+
+##### What type of DHCP packet does a device **send once it has been** **offered an IP address** by the DHCP server?
+DHCP Request
+
+##### Finally, **what is the last** DHCP packet that is sent to a device from a DHCP server?
+DHCP ACK
 <div align="center">
 <br>
 <br>
@@ -349,6 +356,8 @@ IP addresses can be assigned either manually, by entering them physically into a
 <div style="page-break-after: always;"></div>
 
 ## 5. Continue Your Learning: OSI Model
+
+Continue your learning by joining the ["OSI Model" room.](https://tryhackme.com/room/osimodelzi)
 <div align="center">
 <br>
 <br>
