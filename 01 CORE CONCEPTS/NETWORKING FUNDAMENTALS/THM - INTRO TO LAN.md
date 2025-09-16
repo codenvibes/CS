@@ -52,7 +52,6 @@ Lastly, ring topologies are less prone to bottlenecks, such as within a bus topo
 </div>
 
 ### What is a Switch?
-
 <div align="center">
 <br>
 <br>
@@ -85,6 +84,24 @@ Both Switches and Routers can be connected to one another. The ability to do thi
 </div>
 
 ## What is a Router?
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+A router is a networking device that connects multiple networks together (e.g., your home network to the internet). It routes data packets based on **IP addresses**.
+- **Function**: Determines the best path for data to travel across networks.
+- **Example Use**: Your Wi-Fi router directs traffic between your devices and your ISP.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 It's a router's job to connect networks and pass data between them. It does this by using routing (hence the name router!).
 
