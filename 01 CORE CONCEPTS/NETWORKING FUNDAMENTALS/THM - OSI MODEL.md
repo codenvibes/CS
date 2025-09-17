@@ -48,12 +48,13 @@ For example, ethernet cables connecting devices.
 ### Questions
 
 ##### What is the name of this Layer?
-
+Physical
 
 ##### What is the name of the numbering system that is both 0's and 1's?
-
+Binary
 
 ##### What is the name of the cables that are used to connect devices?
+Ethernet Cables
 <div align="center">
 <br>
 <br>
