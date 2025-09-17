@@ -9,8 +9,8 @@ One of the main benefits of the OSI model is that devices can have different fun
 The OSI model consists of seven layers which are illustrated in the diagram below. Each layer has a different set of responsibilities and is arranged from Layer 7 to Layer 1.
 
 At every individual layer that data travels through, specific processes take place, and pieces of information are added to this data, which is what we'll come to discuss in the upcoming tasks within this room. However, for now, we only need to understand that this process is called encapsulation and what the OSI model looks like in the diagram below:
+<div align="center"><br><img width="700" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6d17472b87f8792dadde3bb06aa1fdaa.svg" alt=""></div>
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/6d17472b87f8792dadde3bb06aa1fdaa.svg)
 <div>
 <br>
 <br>
@@ -18,6 +18,8 @@ At every individual layer that data travels through, specific processes take pla
 
 ### Questions
 
+##### What does the "OSI" in "OSI Model" stand for?
+##### 
 ##### 
 <div align="center">
 <br>
