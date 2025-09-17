@@ -19,8 +19,13 @@ At every individual layer that data travels through, specific processes take pla
 ### Questions
 
 ##### What does the "OSI" in "OSI Model" stand for?
-##### 
-##### 
+Open Systems Interconnection
+
+##### How many layers (in digits) does the OSI model have?
+7
+
+##### What is the key term for when pieces of information get added to data?
+encapsulation
 <div align="center">
 <br>
 <br>
