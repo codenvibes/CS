@@ -36,6 +36,10 @@ encapsulation
 <div style="page-break-after: always;"></div>
 
 ## 2. Layer 1 - Physical
+
+This layer is one of the easiest layers to grasp. Put simply, this layer references the physical components of the hardware used in networking and is the lowest layer that you will find. Devices use electrical signals to transfer data between each other in a binary numbering system (1's and 0's).
+
+For example, ethernet cables connecting devices.
 <div align="center">
 <br>
 <br>
