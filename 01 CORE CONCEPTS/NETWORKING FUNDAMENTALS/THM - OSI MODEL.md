@@ -40,6 +40,20 @@ encapsulation
 This layer is one of the easiest layers to grasp. Put simply, this layer references the physical components of the hardware used in networking and is the lowest layer that you will find. Devices use electrical signals to transfer data between each other in a binary numbering system (1's and 0's).
 
 For example, ethernet cables connecting devices.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the name of this Layer?
+
+
+##### What is the name of the numbering system that is both 0's and 1's?
+
+
+##### What is the name of the cables that are used to connect devices?
 <div align="center">
 <br>
 <br>
