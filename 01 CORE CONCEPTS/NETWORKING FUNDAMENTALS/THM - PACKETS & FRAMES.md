@@ -198,7 +198,7 @@ The **U**ser **D**atagram **P**rotocol (**UDP**) is another protocol that is 
 
 Unlike its brother TCP, UDP is a **stateless** protocol that doesn't require a constant connection between the two devices for data to be sent. For example, the Three-way handshake does not occur, nor is there any synchronisation between the two devices.
 
-Recall some of the comparisons made about these two protocols in Room 3: "OSI Model". Namely, UDP is used in situations where applications can tolerate data being lost (such as video streaming or voice chat) or in scenarios where an unstable connection is not the end-all. A table comparing the advantages and disadvantages of UDP is located below:
+Recall some of the comparisons made about these two protocols in Room 3: "OSI Model". Namely, UDP is used in situations where applications can tolerate data being lost (such as video streaming or voice chat) or in scenarios where an unstable connection is not the end-all. A table comparing the advantages and disadvantages of UDP is shown below:
 
 | **Advantages of UDP**                                                                                           | **Disadvantages of UDP**                                                           |
 | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
