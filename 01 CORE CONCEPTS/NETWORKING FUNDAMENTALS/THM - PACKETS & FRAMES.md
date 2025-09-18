@@ -156,9 +156,10 @@ In the illustration, we can see that Alice has sent Bob a "**FIN**" packet. Beca
 ### Questions
 
 ##### What is the header in a TCP packet that ensures the integrity of data?
-
+checksum
 
 ##### Provide the order of a normal Three-way handshake (with each step separated by a comma)
+SYN,SYN/ACK,ACK
 <div align="center">
 <br>
 <br>
@@ -169,6 +170,18 @@ In the illustration, we can see that Alice has sent Bob a "**FIN**" packet. Beca
 <div style="page-break-after: always;"></div>
 
 ## 3. Practical - Handshake
+
+Help Alice and Bob communicate by re-assembling the TCP handshake in the correct order in the static lab attached to this task!
+
+Enter the value of the flag given at the end of the conversation into the question below.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
