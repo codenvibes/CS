@@ -262,7 +262,10 @@ Security features such as data encryption (like HTTPS when visiting a secure sit
 
 ### Questions
 
-##### 
+##### What is the name of this Layer?
+
+
+##### What is the main purpose that this Layer acts as?
 <div align="center">
 <br>
 <br>
