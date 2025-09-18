@@ -316,7 +316,8 @@ Click the "View Site" button on the right to start.
 
 ### Questions
 
-##### 
+##### Escape the dungeon to retrieve the flag. What is the flag?
+THM{OSI_DUNGEON_ESCAPED}
 <div align="center">
 <br>
 <br>
@@ -327,6 +328,8 @@ Click the "View Site" button on the right to start.
 <div style="page-break-after: always;"></div>
 
 ## 10. Continue Your Learning: Packets & Frames
+
+Continue your learning by joining the ["Packets and Frames" room.](https://tryhackme.com/room/packetsframes)
 <div align="center">
 <br>
 <br>
