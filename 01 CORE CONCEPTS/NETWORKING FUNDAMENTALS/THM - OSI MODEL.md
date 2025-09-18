@@ -191,11 +191,11 @@ UDP is useful in situations where there are small pieces of data being sent. Fo
 ##### What is the name of this Layer?
 ##### What does TCP stand for?
 ##### What does UDP stand for?
-##### 
-##### 
-##### 
-##### 
-##### 
+##### What protocol guarantees the accuracy of data?
+##### What protocol doesn't care if data is received or not by the other device?
+##### What protocol would an application such as an email client use?
+##### What protocol would an application that downloads files use?
+##### What protocol would an application that streams video use?
 <div align="center">
 <br>
 <br>
