@@ -78,7 +78,11 @@ Additionally, it’s also the job of the data link layer to present the data in 
 
 ### Questions
 
-##### 
+##### What is the name of this Layer?
+Data Link
+
+##### What is the name of the piece of hardware that all networked devices come with?
+Network Interface Card
 <div align="center">
 <br>
 <br>
@@ -89,6 +93,28 @@ Additionally, it’s also the job of the data link layer to present the data in 
 <div style="page-break-after: always;"></div>
 
 ## 4. Layer 3 - Network
+
+The third layer of the OSI model (network layer) is where the magic of routing & re-assembly of data takes place (from these small chunks to the larger chunk). Firstly, routing simply determines the most optimal path in which these chunks of data should be sent.
+
+Whilst some protocols at this layer determine exactly what is the "optimal" path that data should take to reach a device, we should only know about their existence at this stage of the networking module. Briefly, these protocols include **OSPF** (**O**pen **S**hortest **P**ath **F**irst) and **RIP** (**R**outing **I**nformation **P**rotocol). The factors that decide what route is taken is decided by the following:
+
+- What path is the shortest? I.e. has the least amount of devices that the packet needs to travel across.
+- What path is the most reliable? I.e. have packets been lost on that path before?
+- Which path has the faster physical connection? I.e. is one path using a copper connection (slower) or a fibre (considerably faster)?
+
+At this layer, everything is dealt with via IP addresses such as 192.168.1.100. Devices such as routers capable of delivering packets using IP addresses are known as Layer 3 devices — because they are capable of working at the third layer of the OSI model.
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/893620a3545775f0fbbd75ea4bc4a946.svg)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
