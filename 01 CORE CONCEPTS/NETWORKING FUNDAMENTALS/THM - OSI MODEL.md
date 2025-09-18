@@ -263,9 +263,10 @@ Security features such as data encryption (like HTTPS when visiting a secure sit
 ### Questions
 
 ##### What is the name of this Layer?
-
+Presentation
 
 ##### What is the main purpose that this Layer acts as?
+Translator
 <div align="center">
 <br>
 <br>
@@ -276,6 +277,20 @@ Security features such as data encryption (like HTTPS when visiting a secure sit
 <div style="page-break-after: always;"></div>
 
 ## 8. Layer 7 - Application
+
+The application layer of the OSI model is the layer that you will be most familiar with. This familiarity is because the application layer is the layer in which protocols and rules are in place to determine how the user should interact with data sent or received.
+
+Everyday applications such as email clients, browsers, or file server browsing software such as FileZilla provide a friendly, **G**raphical **U**ser **I**nterface (**GUI**) for users to interact with data sent or received. Other protocols include **DNS** (**D**omain **N**ame **S**ystem), which is how website addresses are translated into IP addresses.
+
+![](https://assets.tryhackme.com/additional/cmn-aoc2020/day-10/replace/browser.png)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
