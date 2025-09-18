@@ -166,16 +166,15 @@ In the diagram below, we can see how a picture of a cat is broken down into smal
 
   
 
-Now let's move onto the **U**ser **D**atagram **P**rotocol (or **U****D****P** for short). This protocol is not nearly as advanced as its brother - the TCP protocol. It doesn't boast the many features offered by TCP, such as error checking and reliability. In fact, any data that gets sent via UDP is sent to the computer whether it gets there or not. There is no synchronisation between the two devices or guarantee; just hope for the best, and fingers crossed.
+Now let's move onto the **U**ser **D**atagram **P**rotocol (or **UDP** for short). This protocol is not nearly as advanced as its brother - the TCP protocol. It doesn't boast the many features offered by TCP, such as error checking and reliability. In fact, any data that gets sent via UDP is sent to the computer whether it gets there or not. There is no synchronisation between the two devices or guarantee; just hope for the best, and fingers crossed.
 
 Whilst this sounds disadvantageous, it does have its merits, which we'll layout in the table below:
 
-|   |   |
-|---|---|
-|**Advantages of UDP**|**Disadvantages of UDP**|
-|UDP is much faster than TCP.|UDP doesn't care if the data is received.|
-|UDP leaves the application layer (user software) to decide if there is any control over how quickly packets are sent.|It is quite flexible to software developers in this sense.|
-|UDP does not reserve a continuous connection on a device as TCP does.|This means that unstable connections result in a terrible experience for the user.|
+| **Advantages of UDP**                                                                                                 | **Disadvantages of UDP**                                                           |
+| --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| UDP is much faster than TCP.                                                                                          | UDP doesn't care if the data is received.                                          |
+| UDP leaves the application layer (user software) to decide if there is any control over how quickly packets are sent. | It is quite flexible to software developers in this sense.                         |
+| UDP does not reserve a continuous connection on a device as TCP does.                                                 | This means that unstable connections result in a terrible experience for the user. |
 
 Using the same example as before, we can now see that only Packets #1 and #3 have been received by the "Computer", meaning that half of the image is missing.
 
