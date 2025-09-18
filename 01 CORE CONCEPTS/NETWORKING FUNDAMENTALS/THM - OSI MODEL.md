@@ -188,6 +188,13 @@ UDP is useful in situations where there are small pieces of data being sent. Fo
 
 ### Questions
 
+##### What is the name of this Layer?
+##### What does TCP stand for?
+##### What does UDP stand for?
+##### 
+##### 
+##### 
+##### 
 ##### 
 <div align="center">
 <br>
