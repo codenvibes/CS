@@ -19,10 +19,8 @@ At every individual layer that data travels through, specific processes take pla
 <br>
 </div>
 
-DEF-Encapsulation is the process of **wrapping data with protocol information** as it moves down the layers of the OSI or TCP/IP model.
-
-Each layer adds its own header (and sometimes trailer) to the data, so that the receiving device can understand **how to handle it at each layer**.
-
+==DEF-Encapsulation is the process of **wrapping data with protocol information** as it moves down the layers of the OSI or TCP/IP model.==
+==Each layer adds its own header (and sometimes trailer) to the data, so that the receiving device can understand **how to handle it at each layer**.==
 
 **How it works (step by step)**
 
@@ -31,7 +29,6 @@ Each layer adds its own header (and sometimes trailer) to the data, so that the 
 3. **Network Layer**: Encapsulates the segment into a **packet** (adds source/destination IP addresses).
 4. **Data Link Layer**: Encapsulates the packet into a **frame** (adds source/destination MAC addresses + error checking).
 5. **Physical Layer**: Converts the frame into **bits** (0s and 1s) and transmits them across the medium (cable/wireless).
-
 
 **Analogy**
 
@@ -43,10 +40,6 @@ Think of **sending a gift** by mail:
 - Delivery truck = Physical layer (bits traveling across a wire/fiber/air)
 
 Each layer “wraps” the data so it can travel properly.
-
----
-
-👉 So, **encapsulation = wrapping data with headers (and trailers) layer by layer for transmission.**
 <div align="center">
 <br>
 <br>
