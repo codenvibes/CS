@@ -1,6 +1,8 @@
 #THM-PRE_SECURITY #2-NETWORK_FUNDAMENTALS
 
 ## 1. What are Packets and Frames
+
+
 <div align="center">
 <br>
 <br>
