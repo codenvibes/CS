@@ -286,7 +286,8 @@ Open the site attached to this task and connect to the IP address "**8.8.8.8**" 
 
 ### Questions
 
-##### 
+##### What is the flag received from the challenge?
+THM{YOU_CONNECTED_TO_A_PORT}
 <div align="center">
 <br>
 <br>
@@ -297,6 +298,8 @@ Open the site attached to this task and connect to the IP address "**8.8.8.8**" 
 <div style="page-break-after: always;"></div>
 
 ## 6. Continue Your Learning: Extending Your Network
+
+Join the final room of this networking module: "[Extending Your Network](https://tryhackme.com/room/extendingyournetwork)", to continue your learning and complete this module.
 <div align="center">
 <br>
 <br>
