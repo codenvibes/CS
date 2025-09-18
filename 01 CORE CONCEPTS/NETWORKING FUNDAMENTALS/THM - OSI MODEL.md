@@ -235,7 +235,10 @@ What is worthy of noting is that sessions are unique — meaning that data canno
 ### Questions
 
 ##### What is the name of this layer?
-##### What is the technical term for when a connection is succesfully established?
+Session
+
+##### What is the technical term for when a connection is successfully established?
+Session
 <div align="center">
 <br>
 <br>
@@ -246,6 +249,20 @@ What is worthy of noting is that sessions are unique — meaning that data canno
 <div style="page-break-after: always;"></div>
 
 ## 7. Layer 6 - Presentation
+
+Layer 6 of the OSI model is the layer in which standardization starts to take place. Because software developers can develop any software such as an email client differently, the data still needs to be handled in the same way — no matter how the software works.
+
+This layer acts as a translator for data to and from the application layer (layer 7). The receiving computer will also understand data sent to a computer in one format destined for in another format. For example, when you send an email, the other user may have another email client to you, but the contents of the email will still need to display the same.
+
+Security features such as data encryption (like HTTPS when visiting a secure site) occur at this layer.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
