@@ -181,7 +181,8 @@ Enter the value of the flag given at the end of the conversation into the questi
 
 ### Questions
 
-##### 
+##### What is the value of the flag given at the end of the conversation?
+THM{TCP_CHATTER}
 <div align="center">
 <br>
 <br>
