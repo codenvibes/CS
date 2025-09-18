@@ -155,7 +155,10 @@ In the illustration, we can see that Alice has sent Bob a "**FIN**" packet. Beca
 
 ### Questions
 
-##### 
+##### What is the header in a TCP packet that ensures the integrity of data?
+
+
+##### Provide the order of a normal Three-way handshake (with each step separated by a comma)
 <div align="center">
 <br>
 <br>
