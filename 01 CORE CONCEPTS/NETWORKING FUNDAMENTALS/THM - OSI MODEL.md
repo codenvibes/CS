@@ -290,7 +290,11 @@ Everyday applications such as email clients, browsers, or file server browsing s
 
 ### Questions
 
-##### 
+##### What is the name of this Layer?
+Application
+
+##### What is the technical term that is given to the name of the software that users interact with?
+Graphical User Interface
 <div align="center">
 <br>
 <br>
@@ -301,6 +305,18 @@ Everyday applications such as email clients, browsers, or file server browsing s
 <div style="page-break-after: always;"></div>
 
 ## 9. Practical - OSI Game
+
+Can you escape the OSI dungeon? Climb the levels in the correct order to escape the dungeon and reveal the flag! (Can you beat our staff high score of 19 seconds?)  
+
+Click the "View Site" button on the right to start.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
