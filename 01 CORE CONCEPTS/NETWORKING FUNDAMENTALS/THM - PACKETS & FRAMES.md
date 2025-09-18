@@ -13,15 +13,15 @@ A **packet** is a piece of data from Layer 3 (Network Layer) of the OSI model,
 <br>
 </div>
 
-| Feature           | **Packet**                                                                                    | **Frame**                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **OSI Layer**     | Network Layer (Layer 3)                                                                       | Data Link Layer (Layer 2)                                                       |
-| **Definition**    | A unit of data that contains **logical (IP) addressing** information for end-to-end delivery. | A unit of data that contains **physical (MAC) addressing** for local delivery.  |
-| **Purpose**       | Enables **routing across networks**.                                                          | Enables **delivery within the same network segment** (hop-to-hop).              |
-| **Addressing**    | Uses **IP addresses** (logical addressing).                                                   | Uses **MAC addresses** (physical addressing).                                   |
-| **Encapsulation** | Encapsulates a transport layer segment (e.g., TCP/UDP).                                       | Encapsulates a packet.                                                          |
-| **Contents**      | Header (IP info) + Payload (data).                                                            | Header (MAC info) + Encapsulated packet + Trailer (error detection, e.g., CRC). |
-| **Example**       | IP packet.                                                                                    | Ethernet frame, Wi-Fi frame.                                                    |
+| Feature           | **Packet**                                                                                                                              | **Frame**                                                                                                                                                   |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **OSI Layer**     | Network Layer (Layer 3)                                                                                                                 | Data Link Layer (Layer 2)                                                                                                                                   |
+| **Definition**    | A packet is a formatted unit of data that carries **logical addressing information** (such as IP addresses) along with the actual data. | A frame is a structured unit of data that carries **physical addressing information** (such as MAC addresses) along with error detection bits.              |
+| **Purpose**       | Used for routing data **from the source device to the destination device** across multiple networks.                                    | Used for reliable **delivery of packets between directly connected devices** (like from your laptop’s NIC to the switch, or from the switch to the router). |
+| **Addressing**    | Uses **IP addresses** (logical addressing).                                                                                             | Uses **MAC addresses** (physical addressing).                                                                                                               |
+| **Encapsulation** | Encapsulates a transport layer segment (e.g., TCP/UDP).                                                                                 | Encapsulates a packet.                                                                                                                                      |
+| **Contents**      | Header (IP info) + Payload (data).                                                                                                      | Header (MAC info) + Encapsulated packet + Trailer (error detection, e.g., CRC).                                                                             |
+| **Example**       | IP packet.                                                                                                                              | Ethernet frame, Wi-Fi frame.                                                                                                                                |
 <div align="center">
 <br>
 <br>
