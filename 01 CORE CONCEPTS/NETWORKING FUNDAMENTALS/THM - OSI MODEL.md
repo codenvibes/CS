@@ -114,11 +114,20 @@ At this layer, everything is dealt with via IP addresses such as 192.168.1.100. 
 
 ### Questions
 
-##### 
-##### 
-##### 
-##### 
-##### 
+##### What is the name of this Layer?
+Network
+
+##### Will packets take the most optimal route across a network? (Y/N)
+Y
+
+##### What does the acronym "OSPF" stand for?
+Open Shortest Path First
+
+##### What does the acronym "RIP" stand for?
+Routing Information Protocol
+
+##### What type of addresses are dealt with at this layer?
+IP Addresses
 <div align="center">
 <br>
 <br>
@@ -129,6 +138,60 @@ At this layer, everything is dealt with via IP addresses such as 192.168.1.100. 
 <div style="page-break-after: always;"></div>
 
 ## 5. Layer 4 - Transport
+
+Layer 4 of the OSI model plays a vital part in transmitting data across a network and can be a little bit difficult to grasp. When data is sent between devices, it follows one of two different protocols that are decided based upon several factors:
+
+- TCP
+- UDP
+
+Let's begin with TCP. The **T**ransmission **C**ontrol **P**rotocol (**TCP**). Potentially hinted by the name, this protocol is designed with reliability and guarantee in mind. This protocol reserves a constant connection between the two devices for the amount of time it takes for the data to be sent and received.
+
+Not only this, but TCP incorporates error checking into its design. Error checking is how TCP can guarantee that data sent from the small chunks in the session layer (layer 5) has then been received and reassembled in the same order.
+
+Let's summarise the advantages and disadvantages of TCP in the table below:
+
+|   |   |
+|---|---|
+|**Advantages of TCP**|**Disadvantages of TCP  <br>**|
+|Guarantees the accuracy of data.|Requires a reliable connection between the two devices. If one small chunk of data is not received, then the entire chunk of data cannot be used.|
+|Capable of synchronising two devices to prevent each other from being flooded with data.|A slow connection can bottleneck another device as the connection will be reserved on the receiving computer the whole time.|
+|Performs a lot more processes for reliability.|TCP is significantly slower than UDP because more work has to be done by the devices using this protocol.|
+
+  
+TCP is used for situations such as file sharing, internet browsing or sending an email. This usage is because these services require the data to be accurate and complete (no good having half a file!).
+
+In the diagram below, we can see how a picture of a cat is broken down into small pieces of data (known as packets) from the "webserver", where the "computer" re-constructs the picture of the cat into the correct order.
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/d47215ad75f503af0b06dacca9ebace6.svg)
+
+  
+
+Now let's move onto the **U**ser **D**atagram **P**rotocol (or **U****D****P** for short). This protocol is not nearly as advanced as its brother - the TCP protocol. It doesn't boast the many features offered by TCP, such as error checking and reliability. In fact, any data that gets sent via UDP is sent to the computer whether it gets there or not. There is no synchronisation between the two devices or guarantee; just hope for the best, and fingers crossed.
+
+Whilst this sounds disadvantageous, it does have its merits, which we'll layout in the table below:
+
+|   |   |
+|---|---|
+|**Advantages of UDP**|**Disadvantages of UDP**|
+|UDP is much faster than TCP.|UDP doesn't care if the data is received.|
+|UDP leaves the application layer (user software) to decide if there is any control over how quickly packets are sent.|It is quite flexible to software developers in this sense.|
+|UDP does not reserve a continuous connection on a device as TCP does.|This means that unstable connections result in a terrible experience for the user.|
+
+Using the same example as before, we can now see that only Packets #1 and #3 have been received by the "Computer", meaning that half of the image is missing.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/3259184a7fd3dafed265974c31fc8c46.svg)  
+
+UDP is useful in situations where there are small pieces of data being sent. For example, protocols used for discovering devices (_ARP_ and _DHCP_ that we discussed in [Room 2 - Intro to LAN)](https://tryhackme.com/room/introtolan) or larger files such as video streaming (where it is okay if some part of the video is pixelated. Pixels are just lost pieces of data!)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
