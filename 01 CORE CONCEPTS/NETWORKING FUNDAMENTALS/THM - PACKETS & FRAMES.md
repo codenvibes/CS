@@ -5,6 +5,30 @@
 Packets and frames are small pieces of data that, when forming together, make a larger piece of information or message. However, they are two different things in the OSI model. 
 
 A **packet** is a piece of data from Layer 3 (Network Layer) of the OSI model, containing information such as an IP header and payload. A **frame**, however, is used at Layer 2 (Data Link) of the OSI model, which, encapsulates the packet and adds additional information such as MAC addresses.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+| Feature           | **Packet**                                                                                    | **Frame**                                                                       |
+| ----------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **OSI Layer**     | Network Layer (Layer 3)                                                                       | Data Link Layer (Layer 2)                                                       |
+| **Definition**    | A unit of data that contains **logical (IP) addressing** information for end-to-end delivery. | A unit of data that contains **physical (MAC) addressing** for local delivery.  |
+| **Purpose**       | Enables **routing across networks**.                                                          | Enables **delivery within the same network segment** (hop-to-hop).              |
+| **Addressing**    | Uses **IP addresses** (logical addressing).                                                   | Uses **MAC addresses** (physical addressing).                                   |
+| **Encapsulation** | Encapsulates a transport layer segment (e.g., TCP/UDP).                                       | Encapsulates a packet.                                                          |
+| **Contents**      | Header (IP info) + Payload (data).                                                            | Header (MAC info) + Encapsulated packet + Trailer (error detection, e.g., CRC). |
+| **Example**       | IP packet.                                                                                    | Ethernet frame, Wi-Fi frame.                                                    |
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 You can think of this process as similar to mailing a letter through the post. The envelope is a frame, which, is used to move the contents (in this analogy, the packet) of the envelope to another place. Once the recepient opens the envelop (frame), they will know how to forward the letter (packet) itself.
 
