@@ -221,6 +221,21 @@ UDP
 <div style="page-break-after: always;"></div>
 
 ## 6. Layer 5 - Session
+
+Once data has been correctly translated or formatted from the presentation layer (layer 6), the session layer (layer 5) will begin to create and maintain the connection to other computer for which the data is destined. When a connection is established, a session is created. Whilst this connection is active, so is the session.
+
+The session layer is also responsible for closing the connection if it hasn't been used in a while or if it is lost. Additionally, a session _can_ contain "checkpoints," where if the data is lost, only the newest pieces of data are required to be sent, saving bandwidth. 
+
+What is worthy of noting is that sessions are unique — meaning that data cannot travel over different sessions, but in fact, only across each session instead.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the name of this layer?
+##### What is the technical term for when a connection is succesfully established?
 <div align="center">
 <br>
 <br>
