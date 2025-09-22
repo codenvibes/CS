@@ -20,6 +20,22 @@ Here’s the idea:
 - By default, the router **blocks unsolicited inbound traffic** from the internet for security.
 - **Port forwarding** tells the router:
     > “If someone from the internet tries to connect on this port number, send that traffic to this specific device inside my network.”
+
+**Example: Security Camera Access**
+
+Imagine you have a **Wi-Fi security camera** at home, and you want to check the live feed when you’re at work.
+- The camera is connected to your home network and streams video on **port 8080**.
+- From inside your house, you can watch the feed by typing `192.168.1.50:8080` in your browser.
+- But when you’re outside (on mobile data or office Wi-Fi), that local IP address doesn’t work—it only exists inside your home network.
+
+**Solution: Port Forwarding**
+
+- You log into your router and set up a port forwarding rule:
+    
+    > “Forward all incoming traffic on port 8080 from the internet to the camera at 192.168.1.50:8080.”
+    
+- Now, if you type your home’s **public IP address** (like `73.25.120.44:8080`) from anywhere in the world, the router will forward that request directly to your camera.
+
 <div align="center">
 <br>
 <br>
