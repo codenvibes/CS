@@ -12,6 +12,8 @@ Port forwarding is an essential component in connecting applications and service
 </div>
 
 DEF-Port forwarding is a **networking technique** that allows external devices (from the internet) to access specific services or devices inside a private network (like your home Wi-Fi).
+
+Port forwarding opens a “door” into your network.
 <div align="center">
 <br>
 <br>
