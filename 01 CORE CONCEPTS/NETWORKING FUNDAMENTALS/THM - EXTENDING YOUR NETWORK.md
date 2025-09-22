@@ -29,11 +29,8 @@ Imagine you have a **Wi-Fi security camera** at home, and you want to check the 
 - But when you’re outside (on mobile data or office Wi-Fi), that local IP address doesn’t work—it only exists inside your home network.
 
 **Solution: Port Forwarding**
-
 - You log into your router and set up a port forwarding rule:
-    
     > “Forward all incoming traffic on port 8080 from the internet to the camera at 192.168.1.50:8080.”
-    
 - Now, if you type your home’s **public IP address** (like `73.25.120.44:8080`) from anywhere in the world, the router will forward that request directly to your camera.
 
 <div align="center">
