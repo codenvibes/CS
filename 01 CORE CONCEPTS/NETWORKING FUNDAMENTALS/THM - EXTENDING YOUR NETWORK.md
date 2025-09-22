@@ -238,7 +238,7 @@ Switches can operate at both layer 2 and layer 3 of the OSI model. However, thes
 
 Take, for example, a layer 2 switch in the diagram below. These switches will forward frames (remember that the original IP packets are encapsulated within the frames) onto the connected devices using their MAC address.
 
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/3a3ae0931ed3c36abad80b3cde33dfeb.svg)
+![]()
 
 These switches are solely responsible for sending frames to the correct device.
 
