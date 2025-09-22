@@ -60,7 +60,7 @@ Lastly, ring topologies are less prone to bottlenecks, such as within a bus topo
 <br>
 </div>
 
-==A DEF-switch connects multiple devices within the same network (LAN) and forwards data based on **MAC addresses**.==
+DEF-switch. ==A switch connects multiple devices within the same network (LAN) and forwards data based on **MAC addresses**.==
 - ==**Function**: Creates a direct communication path between the sending and receiving device.==
 - ==**Example Use**: Used in offices to connect computers, printers, and servers efficiently.==
 <div align="center">
