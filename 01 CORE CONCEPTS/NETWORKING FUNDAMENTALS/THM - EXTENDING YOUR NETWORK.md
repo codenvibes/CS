@@ -259,7 +259,10 @@ In the context of the diagram above, the "Sales Department" and "Accounting Depa
 
 ### Questions
 
-##### 
+##### What is the verb for the action that a router does?
+
+
+##### What are the two different layers of switches? Separate these by a comma I.e.: Layer X,Layer Y
 <div align="center">
 <br>
 <br>
