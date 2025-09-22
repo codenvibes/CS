@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 19.590873328088122,
+            "dimension": 37.76553894571204,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -42,13 +42,12 @@
                   "title": "COURSES"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 80.40912667191188,
+            "dimension": 62.23446105428796,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -221,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - EXTENDING YOUR NETWORK"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -260,10 +259,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "COURSES.md",
