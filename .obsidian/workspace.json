@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 33.72641509433962,
+            "dimension": 45.554681353265146,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -42,12 +42,13 @@
                   "title": "COURSES"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 66.27358490566037,
+            "dimension": 54.445318646734854,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -260,15 +261,15 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
+    "COURSES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
     "Pasted image 20250916124724.png",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
-    "COURSES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
