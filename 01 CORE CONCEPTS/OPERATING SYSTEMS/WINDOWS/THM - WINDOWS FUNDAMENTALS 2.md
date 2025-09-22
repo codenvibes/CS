@@ -88,7 +88,7 @@ PsShutdown
 <div align="center"><br><img width="" src="Pasted image 20250922145522.png" alt=""></div>
 
 ##### Whom is the Windows license registered to?
-
+<div align="center"><br><img width="" src="![[Pasted image 20250922145752.png]]" alt=""></div>
 
 ##### What is the command for Windows Troubleshooting?
 
