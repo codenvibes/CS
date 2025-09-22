@@ -212,7 +212,7 @@ IPSec
 
 ### What is a Router?
 
-It's a router's job to connect networks and pass data between them. It does this by using routing (hence the name router!).
+DEF-router. ==A **router** is a networking device that connects multiple networks together and directs data between them.== It does this by using routing (hence the name router!). 
 
 Routing is the label given to the process of data travelling across networks. Routing involves creating a path between networks so that this data can be successfully delivered. Routers operate at Layer 3 of the OSI model. They often feature an interactive interface (such as a website or a console) that allows an administrator to configure various rules such as port forwarding or firewalling.
 
