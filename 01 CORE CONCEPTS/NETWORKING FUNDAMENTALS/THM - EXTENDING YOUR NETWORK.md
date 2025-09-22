@@ -59,7 +59,8 @@ Port forwarding is configured at the router of a network.
 
 ### Questions
 
-##### 
+##### What is the name of the device that is used to configure port forwarding?
+router
 <div align="center">
 <br>
 <br>
