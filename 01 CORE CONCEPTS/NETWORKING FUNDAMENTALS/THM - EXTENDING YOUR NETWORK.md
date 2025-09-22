@@ -113,6 +113,8 @@ We'll cover the two primary categories of firewalls in the table below:
 
 ### Questions
 
+##### What layers of the OSI model do firewalls operate at?For this answer, just provide the numbers in ascending order, separated by an ampersand (&) **I.e:** 4 & 5
+##### 
 ##### 
 <div align="center">
 <br>
