@@ -260,9 +260,11 @@ In the context of the diagram above, the "Sales Department" and "Accounting Depa
 ### Questions
 
 ##### What is the verb for the action that a router does?
-
+routing
 
 ##### What are the two different layers of switches? Separate these by a comma I.e.: Layer X,Layer Y
+Layer 2,Layer 3
+
 <div align="center">
 <br>
 <br>
@@ -273,6 +275,19 @@ In the context of the diagram above, the "Sales Department" and "Accounting Depa
 <div style="page-break-after: always;"></div>
 
 ## 6. Practical - Network Simulator
+
+Deploy the static site attached to this task. And experiment with the network simulator. The simulator will break down every step a packet needs to take to get from point a to b. Try sending a TCP packet from computer1 to computer3 to reveal a flag.
+
+**Note**: Please use the Chrome or Firefox browser to complete this practical exercise.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+##### 
 <div align="center">
 <br>
 <br>
