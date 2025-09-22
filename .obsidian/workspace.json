@@ -132,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#5-NETWORK_SECURITY",
+                "query": "DEF-switch",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -153,7 +153,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -259,7 +260,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
