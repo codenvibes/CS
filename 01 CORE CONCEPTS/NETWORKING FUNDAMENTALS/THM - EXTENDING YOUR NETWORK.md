@@ -98,7 +98,7 @@ A firewall is a device within a network responsible for determining what traff
 
 Firewalls perform packet inspection to determine the answers to these questions.
 
-Firewalls come in all shapes and sizes. From dedicated pieces of hardware (often found in large networks like businesses) that can handle a magnitude of data to residential routers (like at your home!) or software such as [Snort](https://www.snort.org/), firewalls can be categorised into 2 to 5 categories.
+Firewalls come in all shapes and sizes. From dedicated pieces of hardware (often found in large networks like businesses) that can handle a magnitude of data to residential routers (like at your home!) or software such as [Snort](https://www.snort.org/), firewalls can be categorized into 2 to 5 categories.
 
 We'll cover the two primary categories of firewalls in the table below:
 
