@@ -88,11 +88,12 @@ PsShutdown
 <div align="center"><br><img width="" src="Pasted image 20250922145522.png" alt=""></div>
 
 ##### Whom is the Windows license registered to?
+Windows User
 <div align="center"><br><img width="" src="Pasted image 20250922145752.png" alt=""></div>
 <div align="center"><br><img width="" src="Pasted image 20250922151239.png" alt=""></div>
 
 ##### What is the command for Windows Troubleshooting?
-
+C:\Windows\System32\control.exe /name Microsoft.Troubleshooting
 
 ##### What command will open the Control Panel? (The answer is  the name of .exe, not the full path)
 <div align="center">
