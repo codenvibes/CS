@@ -117,9 +117,10 @@ We'll cover the two primary categories of firewalls in the table below:
 3 & 4
 
 ##### What category of firewall inspects the **entire connection**?
-
+stateful
 
 ##### What category of firewall inspects individual packets?
+stateless
 <div align="center">
 <br>
 <br>
@@ -130,6 +131,18 @@ We'll cover the two primary categories of firewalls in the table below:
 <div style="page-break-after: always;"></div>
 
 ## 3. Practical - Firewall
+
+Deploy the static site attached to this task.
+
+Malicious traffic are marked as the packets in red. The legitimate traffic are the packets marked green. The protocol you need to block is port 80. **Configure the firewall to prevent the malicious packets from reaching the web sever 203.0.110.1**.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
