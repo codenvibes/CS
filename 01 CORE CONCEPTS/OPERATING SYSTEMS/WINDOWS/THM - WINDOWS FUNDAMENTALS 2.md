@@ -10,8 +10,6 @@ This module will attempt to provide an overview of some other utilities availabl
 
 Press the **Start Machine** button below to launch the attached virtual machine.
 
-Start Machine
-
 If you wish to access the virtual machine via Remote Desktop, use the credentials below. 
 
 Machine IP: `MACHINE_IP`
