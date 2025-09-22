@@ -13,12 +13,9 @@ Press the **Start Machine** button below to launch the attached virtual machin
 If you wish to access the virtual machine via Remote Desktop, use the credentials below. 
 
 Machine IP: `MACHINE_IP`
-
 User: `administrator`
-
 Password: `letmein123!`
-
-![](https://assets.tryhackme.com/additional/win-event-logs/remmina.png)
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/win-event-logs/remmina.png" alt=""></div>
 
 Accept the Certificate when prompted, and you should be logged into the remote system now.
 
