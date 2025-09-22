@@ -85,6 +85,7 @@ To run a tool, we can use the command to launch the tool via the run prompt, com
 
 ##### What is the name of the service that lists Systems Internals as the manufacturer?
 PsShutdown
+<div align="center"><br><img width="" src="Pasted image 20250922145522.png" alt=""></div>
 
 ##### Whom is the Windows license registered to?
 
