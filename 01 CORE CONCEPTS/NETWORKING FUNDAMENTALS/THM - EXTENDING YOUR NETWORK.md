@@ -113,9 +113,13 @@ We'll cover the two primary categories of firewalls in the table below:
 
 ### Questions
 
-##### What layers of the OSI model do firewalls operate at?For this answer, just provide the numbers in ascending order, separated by an ampersand (&) **I.e:** 4 & 5
-##### 
-##### 
+##### What layers of the OSI model do firewalls operate at?<br>For this answer, just provide the numbers in ascending order, separated by an ampersand (&) **I.e:** 4 & 5
+3 & 4
+
+##### What category of firewall inspects the **entire connection**?
+
+
+##### What category of firewall inspects individual packets?
 <div align="center">
 <br>
 <br>
