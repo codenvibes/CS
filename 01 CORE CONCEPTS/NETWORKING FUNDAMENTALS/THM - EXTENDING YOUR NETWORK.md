@@ -217,17 +217,14 @@ DEF-router. ==A **router** is a networking device that connects multiple network
 Routing is the label given to the process of data travelling across networks. Routing involves creating a path between networks so that this data can be successfully delivered. Routers operate at Layer 3 of the OSI model. They often feature an interactive interface (such as a website or a console) that allows an administrator to configure various rules such as port forwarding or firewalling.
 
 Routing is useful when devices are connected by many paths, such as in the example diagram below, where the most optimal path is taken:
-
-![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/a47c8c191d308906d91f680a5811e492.svg)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/a47c8c191d308906d91f680a5811e492.svg" alt=""></div>
 
 Routers are dedicated devices and do not perform the same functions as switches.
 
 We can see that Computer A's network is connected to the network of Computer B by two routers in the middle. The question is: what path will be taken? Different protocols will decide what path should be taken, but factors include:
 
 - What path is the shortest?
-
 - What path is the most reliable?
-
 - Which path has the faster medium (e.g. copper or fibre)?
 <div>
 <br>
