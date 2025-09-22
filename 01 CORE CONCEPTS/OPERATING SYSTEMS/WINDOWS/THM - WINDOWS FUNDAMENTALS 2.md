@@ -83,7 +83,16 @@ To run a tool, we can use the command to launch the tool via the run prompt, com
 
 ### Questions
 
-##### 
+##### What is the name of the service that lists Systems Internals as the manufacturer?
+PsShutdown
+
+##### Whom is the Windows license registered to?
+
+
+##### What is the command for Windows Troubleshooting?
+
+
+##### What command will open the Control Panel? (The answer is  the name of .exe, not the full path)
 <div align="center">
 <br>
 <br>
