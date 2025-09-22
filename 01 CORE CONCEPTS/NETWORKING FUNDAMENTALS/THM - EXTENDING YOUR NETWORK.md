@@ -194,7 +194,10 @@ VPN technology has improved over the years. Let's explore some existing VPN t
 
 ### Questions
 
-##### 
+##### What VPN technology **only** encrypts & provides the authentication of data?
+
+
+##### What VPN technology uses the IP framework?
 <div align="center">
 <br>
 <br>
