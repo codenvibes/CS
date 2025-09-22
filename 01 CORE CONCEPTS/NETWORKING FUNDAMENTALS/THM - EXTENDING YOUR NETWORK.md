@@ -237,8 +237,7 @@ A switch is a dedicated networking device responsible for providing a means of c
 Switches can operate at both layer 2 and layer 3 of the OSI model. However, these are exclusive in the sense that Layer 2 switches cannot operate at layer 3.
 
 Take, for example, a layer 2 switch in the diagram below. These switches will forward frames (remember that the original IP packets are encapsulated within the frames) onto the connected devices using their MAC address.
-
-![]()
+<div align="center"><br><img width="" src="" alt=""></div>
 
 These switches are solely responsible for sending frames to the correct device.
 
