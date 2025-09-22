@@ -286,8 +286,11 @@ Deploy the static site attached to this task. And experiment with the network si
 
 ### Questions
 
-##### 
-##### 
+##### What is the flag from the network simulator?
+THM{YOU'VE_GOT_DATA}
+
+##### How many HANDSHAKE entries are there in the Network Log?
+5
 <div align="center">
 <br>
 <br>
