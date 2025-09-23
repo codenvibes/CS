@@ -59,8 +59,7 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -128,7 +127,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -251,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WHAT THE SHELL"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -291,13 +290,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ad5e582b8f7e8c28",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
