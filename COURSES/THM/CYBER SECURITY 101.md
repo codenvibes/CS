@@ -31,13 +31,13 @@ aliases:
 
 ## #NETWORKING
 
-Networking Concepts
-Networking Essentials
-Networking Core Protocols
-Networking Secure Protocols
-Wireshark: The Basics
-Tcpdump: The Basics
-Nmap: The Basics
+14. THM - NETWORKING CONCEPTS
+15. THM - NETWORKING ESSENTIALS
+16. THM - NETWORKING CORE PROTOCOLS
+17. THM - NETWORKING SECURE PROTOCOLS
+18. THM - WIRESHARK: THE BASICS
+19. THM - TCPDUMP: THE BASICS
+20. THM - NMAP: THE BASICS
 
 ## #CRYPTOGRAPHY
 
