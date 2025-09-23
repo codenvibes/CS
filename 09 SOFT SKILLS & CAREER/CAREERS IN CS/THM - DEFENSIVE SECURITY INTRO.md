@@ -1,5 +1,7 @@
 ---
 tags:
+  - JR_PENETRATION_TESTER
+  - INTRODUCTION_TO_CYBERSECURITY
 aliases:
 ---
 ## 1. Introduction to Defensive Security
