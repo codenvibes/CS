@@ -1,5 +1,5 @@
 ---
 tags:
 aliases:
-  - https://assets.tryhackme.com/img/paths/introtocybersecurity.svg
+  - https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ---
