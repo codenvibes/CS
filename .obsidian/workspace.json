@@ -35,7 +35,7 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "Table"
+                    "viewName": "COURSES"
                   },
                   "icon": "lucide-layout-grid",
                   "title": "COURSES"
