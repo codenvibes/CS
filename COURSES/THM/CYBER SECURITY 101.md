@@ -56,11 +56,11 @@ aliases:
 
 ## #WEB_HACKING
 
-Web Application Basics
-JavaScript Essentials
-SQL Fundamentals
-Burp Suite: The Basics
-OWASP Top 10 - 2021
+30. THM - WEB APPLICATION BASICS
+31. THM - JAVASCRIPT ESSENTIALS
+32. THM - SQL FUNDAMENTALS
+33. [[THM - BURP SUITE: THE BASICS]]
+34. THM - OWASP TOP 10 - 2021
 
 ## #OFFENSIVE_SECURITY_TOOLING
 
