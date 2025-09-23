@@ -34,11 +34,11 @@
                 "state": {
                   "type": "bases",
                   "state": {
-                    "file": "COURSES/Untitled.base",
+                    "file": "COURSES/COURSES.base",
                     "viewName": "Table"
                   },
                   "icon": "lucide-layout-grid",
-                  "title": "Untitled"
+                  "title": "COURSES"
                 }
               }
             ],
@@ -87,12 +87,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/COURSES.md",
+                    "file": "COURSES/THM-PRE SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "COURSES"
+                  "title": "THM-PRE SECURITY"
                 }
               }
             ],
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.md",
+                "file": "COURSES/THM-PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM-PRE SECURITY"
             }
           },
           {
@@ -260,9 +260,9 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
+    "COURSES/THM-PRE SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
-    "COURSES/Untitled.base",
-    "COURSES/COURSES.md",
     "ASSETS/Pasted image 20250922151239.png",
     "ASSETS/Pasted image 20250922145752.png",
     "ASSETS/Pasted image 20250922145522.png",
