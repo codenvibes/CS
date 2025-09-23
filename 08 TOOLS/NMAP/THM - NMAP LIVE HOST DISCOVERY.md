@@ -1,5 +1,9 @@
-#JR_PENETRATION_TESTER #NETWORK_SECURITY #NMAP
-
+---
+tags:
+  - JR_PENETRATION_TESTER
+  - NETWORK_SECURITY
+  - NMAP
+---
 ## 1. Introduction
 
 When we want to target a network, we want to find an efficient tool to help us handle repetitive tasks and answer the following questions:
