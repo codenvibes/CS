@@ -14,4 +14,4 @@ views:
     name: View
     filters:
       and:
-        - file.tags == ["JR_PENETRATION_TESTER"]
+        - file.hasTag("JR_PENETRATION_TESTER")
