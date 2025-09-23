@@ -114,119 +114,49 @@
                 }
               },
               {
-                "id": "9ffeaeab698b41eb",
+                "id": "a2a9695ddbb5e820",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
+                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - PROTOCOLS AND SERVERS 2"
+                  "title": "THM - VULNERABILITY CAPSTONE"
                 }
               },
               {
-                "id": "53ed18720d7408e2",
+                "id": "22e7164c708f3db3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
+                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - PROTOCOLS AND SERVERS"
+                  "title": "THM - EXPLOIT VULNERABILITIES"
                 }
               },
               {
-                "id": "4b5ab2b4dff2e4fa",
+                "id": "43e473b5793e3bf8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
+                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - NMAP POST PORT SCANS"
-                }
-              },
-              {
-                "id": "f5d42d3a319f46f0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - NMAP ADVANCED PORT SCANS"
-                }
-              },
-              {
-                "id": "003051dcb3fba440",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08 TOOLS/NMAP/THM - NMAP BASIC PORT SCANS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - NMAP BASIC PORT SCANS"
-                }
-              },
-              {
-                "id": "fd39c3f4f0713cca",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - NMAP LIVE HOST DISCOVERY"
-                }
-              },
-              {
-                "id": "98165256815f99d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - ACTIVE RECONNAISSANCE"
-                }
-              },
-              {
-                "id": "9e86db57783992bd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - PASSIVE RECONNAISSANCE"
+                  "title": "THM - VULNERABILITIES 101"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -349,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JR PENETRATION TESTER"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -389,10 +319,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
+    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
+    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
     "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
@@ -400,7 +334,6 @@
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
@@ -414,9 +347,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
     "COURSES/COURSES.base",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
