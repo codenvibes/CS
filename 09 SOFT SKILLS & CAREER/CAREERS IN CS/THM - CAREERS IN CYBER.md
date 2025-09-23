@@ -1,5 +1,8 @@
-#JR_PENETRATION_TESTER #INTRODUCTION_TO_CYBERSECURITY
-
+---
+tags:
+  - JR_PENETRATION_TESTER
+aliases:
+---
 ## 1. Introduction
 <div align="center">
 <br>
