@@ -34,11 +34,11 @@
                 "state": {
                   "type": "bases",
                   "state": {
-                    "file": "COURSES/COURSES.base",
+                    "file": "EI1P.base",
                     "viewName": "COURSES"
                   },
                   "icon": "lucide-layout-grid",
-                  "title": "COURSES"
+                  "title": "EI1P"
                 }
               }
             ],
@@ -258,9 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
+    "EI1P.base",
     "COURSES/THM-PRE SECURITY.md",
     "Pasted image 20250923131819.png",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
