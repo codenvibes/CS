@@ -1,5 +1,7 @@
-#TAG #TAG
-
+---
+tags:
+aliases:
+---
 CONTENT
 ## References
 
