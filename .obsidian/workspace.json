@@ -233,13 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM-CYBER SECURITY 101.md",
+                "file": "EI1P.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM-CYBER SECURITY 101"
+              "title": "Outline of EI1P"
             }
           },
           {
@@ -272,10 +272,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "COURSES/THM-PRE SECURITY.md",
     "COURSES/THM-CYBER SECURITY 101.md",
+    "COURSES/THM-PRE SECURITY.md",
     "TEMPLATES/GENERAL.md",
     "EI1P.base",
     "Pasted image 20250923131819.png",
