@@ -79,14 +79,17 @@ aliases:
 
 ## #SECURITY_SOLUTIONS
 
-Introduction to SIEM
-Firewall Fundamentals
-IDS Fundamentals
-Vulnerability Scanner Overview
+44. THM - INTRODUCTION TO SIEM
+45. THM - FIREWALL FUNDAMENTALS
+46. THM - IDS FUNDAMENTALS
+47. THM - VULNERABILITY SCANNER OVERVIEW
 
 ## #DEFENSIVE_SECURITY_TOOLING
 
-
+CyberChef: The Basics
+CAPA: The Basics
+REMnux: Getting Started
+FlareVM: Arsenal of Tools
 
 ## #BUILD_YOUR_CYBER_SECURITY_CAREER
 
