@@ -25,9 +25,9 @@ aliases:
 
 ## #COMMAND_LINE
 
-Windows Command Line
-Windows PowerShell
-Linux Shells
+11. THM - WINDOWS COMMAND LINE
+12. THM - WINDOWS POWERSHELL
+13. THM - LINUX SHELLS
 
 ## #NETWORKING
 
