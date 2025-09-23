@@ -20,10 +20,10 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "THM"
+                    "viewName": "View"
                   },
                   "pinned": true,
-                  "icon": "lucide-layout-grid",
+                  "icon": "lucide-table",
                   "title": "COURSES"
                 }
               },
