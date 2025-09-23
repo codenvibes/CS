@@ -1,4 +1,4 @@
-#HOW_THE_WEB_WORKS
+##HOW_THE_WEB_WORKS
 
 ## 1. What is DNS?
 

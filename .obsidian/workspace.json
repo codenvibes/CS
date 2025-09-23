@@ -88,12 +88,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - 01 DNS"
+                  "title": "THM - DNS IN DETAIL"
                 }
               }
             ],
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 01 DNS"
+              "title": "Outline of THM - DNS IN DETAIL"
             }
           },
           {
@@ -259,11 +259,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
     "COURSES/PRE SECURITY.md",
+    "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
     "EI1P.base",
-    "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "COURSES/CYBER SECURITY 101.md",
