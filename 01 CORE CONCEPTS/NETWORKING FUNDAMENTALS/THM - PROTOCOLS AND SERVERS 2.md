@@ -1,9 +1,8 @@
 ---
 tags:
   - JR_PENETRATION_TESTER
+  - NETWORK_SECURITY
 ---
-
-
 ## 1. Introduction
 
 The [Protocols and Servers](https://tryhackme.com/room/protocolsandservers) room covered many protocols:
