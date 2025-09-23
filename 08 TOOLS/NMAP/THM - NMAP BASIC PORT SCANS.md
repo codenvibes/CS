@@ -2,9 +2,8 @@
 tags:
   - JR_PENETRATION_TESTER
   - NETWORK_SECURITY
+  - NMAP
 ---
-
-
 ## 1. Introduction
 
 This room is the second in the Nmap series (part of the Introduction to Network Security module).

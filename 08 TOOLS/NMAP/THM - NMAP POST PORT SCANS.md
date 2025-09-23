@@ -1,5 +1,9 @@
-#JR_PENETRATION_TESTER #NETWORK_SECURITY #NMAP
-
+---
+tags:
+  - JR_PENETRATION_TESTER
+  - NETWORK_SECURITY
+  - NMAP
+---
 ## 1. Introduction
 
 This room is the last in the Nmap series (part of the Introduction to Network Security module). In this room, we focus on the steps that follow port-scanning: in particular, service detection, OS detection, Nmap scripting engine, and saving the scan results.
