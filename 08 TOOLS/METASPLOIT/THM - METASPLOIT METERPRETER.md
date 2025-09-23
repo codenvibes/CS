@@ -1,4 +1,4 @@
-#THM-JR_PENETRATION_TESTER #7-METASPLOIT #Metasploit
+#JR_PENETRATION_TESTER#7-METASPLOIT #Metasploit
 
 ## 1. Introduction to Meterpreter
 

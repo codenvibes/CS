@@ -1,4 +1,4 @@
-#THM-JR_PENETRATION_TESTER #4-BURP_SUITE #Burp_Suite
+#JR_PENETRATION_TESTER#4-BURP_SUITE #Burp_Suite
 
 ## 1. Introduction
 
