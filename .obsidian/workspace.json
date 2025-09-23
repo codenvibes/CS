@@ -114,6 +114,146 @@
                 }
               },
               {
+                "id": "bf772e25a383dc63",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - SQL INJECTION"
+                }
+              },
+              {
+                "id": "6a08215e0f47a162",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - COMMAND INJECTION"
+                }
+              },
+              {
+                "id": "5dcf6e5970361ce3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - RACE CONDITIONS"
+                }
+              },
+              {
+                "id": "92b7e80407ac4c46",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - INTRO TO CROSS-SITE SCRIPTING"
+                }
+              },
+              {
+                "id": "3c1b442619e0c77b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - INTRO TO SSRF"
+                }
+              },
+              {
+                "id": "c8be4ed07898a7ad",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - FILE INCLUSION"
+                }
+              },
+              {
+                "id": "62bc758a1a7105eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - IDOR"
+                }
+              },
+              {
+                "id": "ccc95b88dbd352d0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - AUTHENTICATION BYPASS"
+                }
+              },
+              {
+                "id": "9d96020426e2f47d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - SUBDOMAIN ENUMERATION"
+                }
+              },
+              {
+                "id": "701c4463b135a425",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - CONTENT DISCOVERY"
+                }
+              },
+              {
                 "id": "61d2373a0fc56573",
                 "type": "leaf",
                 "state": {
@@ -275,7 +415,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -292,8 +433,18 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
@@ -309,16 +460,6 @@
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
-    "08 TOOLS/NMAP/THM - NMAP BASIC PORT SCANS.md",
-    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
