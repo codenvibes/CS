@@ -114,6 +114,20 @@
                 }
               },
               {
+                "id": "24a004490e7cd135",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - BURP SUITE THE BASICS"
+                }
+              },
+              {
                 "id": "f37da5b99dca138a",
                 "type": "leaf",
                 "state": {
@@ -168,23 +182,9 @@
                   "icon": "lucide-file",
                   "title": "THM - BURP SUITE REPEATER"
                 }
-              },
-              {
-                "id": "d22a281b5e23c15d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - BURP SUITE THE BASICS"
-                }
               }
             ],
-            "currentTab": 7
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -347,14 +347,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d22a281b5e23c15d",
+  "active": "24a004490e7cd135",
   "lastOpenFiles": [
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
@@ -366,7 +367,6 @@
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
