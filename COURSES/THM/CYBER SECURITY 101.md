@@ -48,27 +48,11 @@ aliases:
 
 ## #EXPLOITATION_BASICS
 
-image
-Moniker Link (CVE-2024-21413)
-Leak user's credentials using CVE-2024-21413 to bypass Outlook's Protected View.
-
-image
-Metasploit: Introduction
-An introduction to the main components of the Metasploit Framework.
-
-image
-Metasploit: Exploitation
-Using Metasploit for scanning, vulnerability assessment and exploitation.
-
-image
-Metasploit: Meterpreter
-Take a deep dive into Meterpreter, and see how in-memory payloads can be used for post-exploitation.
-
-image
-0%
-
-Blue
-
+25. THM - MONIKER LINK (CVE-2024-21413)
+26. THM - METASPLOIT: INTRODUCTION
+27. THM - METASPLOIT: EXPLOITATION
+28. THM - METASPLOIT: METERPRETER
+29. THM - BLUE
 
 ## #WEB_HACKING
 
