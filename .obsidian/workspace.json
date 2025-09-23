@@ -28,22 +28,6 @@
                 }
               },
               {
-                "id": "21fce08000a30866",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "WHITE-BOARD/WHITE-BOARD.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "WHITE-BOARD"
-                }
-              },
-              {
                 "id": "5735fcb3b6b15483",
                 "type": "leaf",
                 "pinned": true,
@@ -58,9 +42,24 @@
                   "icon": "lucide-file",
                   "title": "00 TOOLS"
                 }
+              },
+              {
+                "id": "21fce08000a30866",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WHITE-BOARD/WHITE-BOARD.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "WHITE-BOARD"
+                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -156,7 +155,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 5
           }
         ],
         "direction": "horizontal"
@@ -279,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - CAREERS IN CYBER"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -318,13 +317,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8e9de16e5ccd5a91",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
-    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
-    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
+    "08 TOOLS/00 TOOLS.md",
+    "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
@@ -345,8 +346,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
-    "COURSES/COURSES.base",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
