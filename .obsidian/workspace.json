@@ -43,8 +43,7 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -154,8 +153,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
+                "file": "EI1P.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 01 DNS"
+              "title": "Outline of EI1P"
             }
           },
           {
@@ -261,8 +259,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/WEB BASICS/THM - 01 DNS.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "COURSES/CYBER SECURITY 101.md",
@@ -302,7 +301,6 @@
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "Pasted image 20250916124724.png",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
