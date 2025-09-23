@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "92782614-64A8-423C-A30E-6D82BEBE246A",
+                "query": "THMLP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -260,7 +260,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "EI1P.base",
     "COURSES/WEB FUNDAMENTALS.md",
