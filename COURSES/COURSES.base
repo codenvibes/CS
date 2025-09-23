@@ -4,4 +4,9 @@ views:
     filters:
       and:
         - file.folder == "COURSES"
+    order:
+      - file.name
+      - file.tags
+      - file.ext
     image: file.file
+    imageAspectRatio: 1
