@@ -104,12 +104,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/DEFENDING AZURE.md",
+                    "file": "COURSES/THM/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DEFENDING AZURE"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/DEFENDING AZURE.md",
+                "file": "COURSES/THM/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DEFENDING AZURE"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -278,8 +278,9 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/DEFENDING AZURE.md",
+    "COURSES/THM/Untitled.md",
+    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/SOC LEVEL 1.md",
@@ -304,7 +305,6 @@
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
-    "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
