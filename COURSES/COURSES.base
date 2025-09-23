@@ -6,7 +6,6 @@ views:
         - file.folder == "COURSES/THM"
     order:
       - file.name
-      - Number
     sort:
       - property: Number
         direction: ASC
