@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBER SECURITY 101.md",
+                "file": "EI1P.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBER SECURITY 101"
+              "title": "Outline of EI1P"
             }
           },
           {
@@ -258,23 +258,23 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "COURSES/WEB FUNDAMENTALS.md",
+    "EI1P.base",
+    "COURSES/WEB APPLICATION PENTESTING.md",
+    "COURSES/SECURITY ENGINEER.md",
+    "COURSES/PRE SECURITY.md",
+    "COURSES/JR PENETRATION TESTER.md",
+    "COURSES/CYBER SECURITY 101.md",
     "COURSES/Untitled 4.md",
     "COURSES/Untitled 3.md",
-    "COURSES/CYBER SECURITY 101.md",
     "COURSES/Untitled 5.md",
-    "COURSES/JR PENETRATION TESTER.md",
-    "COURSES/PRE SECURITY.md",
-    "COURSES/WEB APPLICATION PENTESTING.md",
-    "COURSES/WEB FUNDAMENTALS.md",
-    "COURSES/SECURITY ENGINEER.md",
     "TEMPLATES/COURSE.md",
     "TEMPLATES/GENERAL.md",
     "COURSES/Untitled 6.md",
     "TEMPLATES/Untitled.md",
     "COURSES/untitled.md",
-    "EI1P.base",
     "Pasted image 20250923131819.png",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
@@ -299,7 +299,6 @@
     "Pasted image 20250916124724.png",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - WHAT IS NETWORKING.md",
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
