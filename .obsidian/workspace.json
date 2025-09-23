@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM-PRE SECURITY.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM-PRE SECURITY"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -258,10 +258,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "COURSES/THM-PRE SECURITY.md",
+    "COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "ASSETS/Pasted image 20250922151239.png",
     "ASSETS/Pasted image 20250922145752.png",
