@@ -1,7 +1,7 @@
 ---
 tags:
 aliases:
-  - https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1719330093098
+  - https://assets.tryhackme.com/img/paths/presecurity.svg
 ---
 ## #THM-PRE_SECURITY
 
