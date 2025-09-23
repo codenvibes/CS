@@ -3,6 +3,7 @@ tags:
   - "#THM-PRE_SECURITY"
   - HOW_THE_WEB_WORKS
 aliases:
+  - https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735573839890
 ---
 ## 1. What is DNS?
 
