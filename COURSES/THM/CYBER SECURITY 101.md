@@ -12,7 +12,9 @@ aliases:
 
 ## #LINUX_FUNDAMENTALS
 
-
+Linux Fundamentals Part 1
+Linux Fundamentals Part 2
+Linux Fundamentals Part 3
 
 ## #WINDOWS_AND_AD_FUNDAMENTALS
 
