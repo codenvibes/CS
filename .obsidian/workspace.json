@@ -168,37 +168,9 @@
                   "icon": "lucide-file",
                   "title": "THM - FILE INCLUSION"
                 }
-              },
-              {
-                "id": "62bc758a1a7105eb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - IDOR"
-                }
-              },
-              {
-                "id": "ccc95b88dbd352d0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - AUTHENTICATION BYPASS"
-                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 6
           }
         ],
         "direction": "horizontal"
@@ -321,13 +293,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - AUTHENTICATION BYPASS"
+              "title": "Outline of THM - FILE INCLUSION"
             }
           },
           {
@@ -361,8 +333,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ccc95b88dbd352d0",
+  "active": "c8be4ed07898a7ad",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
@@ -374,8 +348,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
