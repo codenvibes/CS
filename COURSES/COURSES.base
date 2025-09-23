@@ -10,8 +10,3 @@ views:
     image: note.aliases
     imageAspectRatio: 1
     cardSize: 200
-  - type: table
-    name: View
-    filters:
-      and:
-        - file.hasTag("JR_PENETRATION_TESTER")
