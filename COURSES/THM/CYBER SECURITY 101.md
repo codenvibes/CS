@@ -25,7 +25,9 @@ aliases:
 
 ## #COMMAND_LINE
 
-
+Windows Command Line
+Windows PowerShell
+Linux Shells
 
 ## #NETWORKING
 
