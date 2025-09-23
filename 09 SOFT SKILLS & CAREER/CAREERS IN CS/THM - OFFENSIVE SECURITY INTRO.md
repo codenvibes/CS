@@ -3,7 +3,6 @@ tags:
   - JR_PENETRATION_TESTER
   - INTRODUCTION_TO_CYBERSECURITY
 aliases:
-  - https://assets.tryhackme.com/img/modules/intro-to-security.png
 ---
 ## 1. What is Offensive Security?
 <div align="center">
