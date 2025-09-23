@@ -1,8 +1,8 @@
 ---
 tags:
+  - JR_PENETRATION_TESTER
+  - INTRODUCTION_TO_WEB_HACKING
 ---
-
-
 ## 1. Walking An Application
 
 In this room you will learn how to manually review a web application for security issues using only the in-built tools in your browser. More often than not, automated security tools and scripts will miss many potential vulnerabilities and useful information.
