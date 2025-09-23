@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#THM-JR_PENETRATION_TESTER"
+  - JR_PENETRATION_TESTER
 aliases:
   - https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ---

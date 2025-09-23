@@ -43,8 +43,7 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -89,12 +88,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
+                    "file": "COURSES/THM/JR PENETRATION TESTER.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - BURP SUITE REPEATER"
+                  "title": "JR PENETRATION TESTER"
                 }
               }
             ],
@@ -133,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"#THM-JR_PENETRATION_TESTER \"",
+                "query": "#THM-JR_PENETRATION_TESTER ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -222,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - BURP SUITE REPEATER"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -261,11 +260,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
+    "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
+    "COURSES/COURSES.base",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/COURSES.base",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM",
@@ -301,7 +301,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 1.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - EXTENDING YOUR NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - INTRO TO LAN.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
     "Pasted image 20250916124724.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
