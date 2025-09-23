@@ -18,22 +18,10 @@ aliases:
 
 ## #WINDOWS_AND_AD_FUNDAMENTALS
 
-image
-Windows Fundamentals 1
-In part 1 of the Windows Fundamentals module, we'll start our journey learning about the Windows desktop, the NTFS file system, UAC, the Control Panel, and more..
-
-image
-Windows Fundamentals 2
-In part 2 of the Windows Fundamentals module, discover more about System Configuration, UAC Settings, Resource Monitoring, the Windows Registry and more..
-
-image
-Windows Fundamentals 3
-In part 3 of the Windows Fundamentals module, learn about the built-in Microsoft tools that help keep the device secure, such as Windows Updates, Windows Security, BitLocker, and more...
-
-image
-5%
-
-Active Directory Basics
+7. THM - WINDOWS FUNDAMENTALS 1
+8. THM - WINDOWS FUNDAMENTALS 2
+9. THM - WINDOWS FUNDAMENTALS 3
+10. THM - ACTIVE DIRECTORY BASICS
 
 ## #COMMAND_LINE
 
