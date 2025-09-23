@@ -46,11 +46,17 @@
               {
                 "id": "5735fcb3b6b15483",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "08 TOOLS/00 TOOLS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "00 TOOLS"
                 }
               }
             ],
@@ -232,12 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "08 TOOLS/00 TOOLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 00 TOOLS"
             }
           },
           {
