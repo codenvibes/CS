@@ -105,12 +105,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                    "file": "COURSES/THM/JR PENETRATION TESTER.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - PENTENSTING FUNDAMENTALS"
+                  "title": "JR PENETRATION TESTER"
                 }
               }
             ],
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - PENTENSTING FUNDAMENTALS"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -279,7 +279,20 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - CONTENT DISCOVERY.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - WALKING AN APPLICATION.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+    "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
@@ -293,23 +306,10 @@
     "COURSES/THM",
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
-    "COURSES/THM/WEB APPLICATION PENTESTING.md",
-    "COURSES/THM/SECURITY ENGINEER.md",
-    "COURSES/Untitled 4.md",
-    "COURSES/Untitled 3.md",
-    "COURSES/Untitled 5.md",
-    "TEMPLATES/COURSE.md",
-    "TEMPLATES/GENERAL.md",
-    "COURSES/Untitled 6.md",
-    "TEMPLATES/Untitled.md",
-    "COURSES/untitled.md",
     "Pasted image 20250923131819.png",
-    "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 560567.crdownload",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "ASSETS/Pasted image 20250922151239.png",
     "ASSETS/Pasted image 20250922145752.png",
     "ASSETS/Pasted image 20250922145522.png",
