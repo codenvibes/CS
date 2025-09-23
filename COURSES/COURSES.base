@@ -12,3 +12,6 @@ views:
     cardSize: 200
   - type: table
     name: View
+    filters:
+      and:
+        - file.tags == ["JR_PENETRATION_TESTER"]
