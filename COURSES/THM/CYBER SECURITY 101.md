@@ -4,16 +4,16 @@ tags:
 aliases:
   - https://assets.tryhackme.com/img/paths/introtocybersecurity.svg
 ---
-Start Your Cyber Security Journey
-Linux Fundamentals
-Windows and AD Fundamentals
-Command Line
-Networking
-Cryptography
-Exploitation Basics
-Web Hacking
-Offensive Security Tooling
-Defensive Security
-Security Solutions
-Defensive Security Tooling
-Build Your Cyber Security Career
+START YOUR CYBER SECURITY JOURNEY
+LINUX FUNDAMENTALS
+WINDOWS AND AD FUNDAMENTALS
+COMMAND LINE
+NETWORKING
+CRYPTOGRAPHY
+EXPLOITATION BASICS
+WEB HACKING
+OFFENSIVE SECURITY TOOLING
+DEFENSIVE SECURITY
+SECURITY SOLUTIONS
+DEFENSIVE SECURITY TOOLING
+BUILD YOUR CYBER SECURITY CAREER
