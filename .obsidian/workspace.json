@@ -268,7 +268,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -391,13 +391,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JR PENETRATION TESTER"
+              "title": "Outline of THM - SQL INJECTION"
             }
           },
           {
@@ -431,8 +431,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "bf772e25a383dc63",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - COMMAND INJECTION.md",
@@ -450,7 +451,6 @@
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/COURSES.base",
     "08 TOOLS/00 TOOLS.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
