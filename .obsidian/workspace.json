@@ -112,9 +112,23 @@
                   "icon": "lucide-file",
                   "title": "JR PENETRATION TESTER"
                 }
+              },
+              {
+                "id": "7364c816c806278e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - METASPLOIT METERPRETER"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -237,13 +251,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JR PENETRATION TESTER"
+              "title": "Outline of THM - METASPLOIT METERPRETER"
             }
           },
           {
@@ -277,13 +291,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "7364c816c806278e",
   "lastOpenFiles": [
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
@@ -302,9 +319,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - FILE INCLUSION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
     "COURSES/COURSES.base",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
