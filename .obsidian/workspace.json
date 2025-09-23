@@ -32,14 +32,13 @@
                 "id": "d6e3d74256db3bbc",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "bases",
                   "state": {
-                    "file": "COURSES/COURSES.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "COURSES/Untitled.base",
+                    "viewName": "Table"
                   },
-                  "icon": "lucide-file",
-                  "title": "COURSES"
+                  "icon": "lucide-table",
+                  "title": "Untitled"
                 }
               }
             ],
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.md",
+                "file": "COURSES/Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -259,11 +258,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "COURSES/COURSES.md",
+    "COURSES/Untitled.base",
+    "ASSETS/Pasted image 20250922151239.png",
+    "ASSETS/Pasted image 20250922145752.png",
+    "ASSETS/Pasted image 20250922145522.png",
+    "ASSETS/Pasted image 20250916124724.png",
     "COURSES",
     "Untitled.base",
-    "COURSES/COURSES.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "Pasted image 20250922151239.png",
     "Pasted image 20250922145752.png",
@@ -295,17 +299,12 @@
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "Pasted image 20250914142528.png",
     "ASSETS/Pasted image 20250914115124.png",
-    "Pasted image 20250914115124.png",
-    "ASSETS/Pasted image 20250913165044.png",
-    "ASSETS/Pasted image 20250913110133.png",
-    "ASSETS/Pasted image 20250913100139.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
     "08 TOOLS/METASPLOIT",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "08 TOOLS/BURP SUITE",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS",
-    "ASSETS/login-logs_1595366583422.txt",
     "Untitled.canvas"
   ]
 }
