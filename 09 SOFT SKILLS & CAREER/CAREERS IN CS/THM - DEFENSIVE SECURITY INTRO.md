@@ -1,5 +1,7 @@
-#JR_PENETRATION_TESTER #INTRODUCTION_TO_CYBERSECURITY
-
+---
+tags:
+aliases:
+---
 ## 1. Introduction to Defensive Security
 <div align="center">
 <br>

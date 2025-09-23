@@ -1,5 +1,9 @@
-#JR_PENETRATION_TESTER #INTRODUCTION_TO_CYBERSECURITY
-
+---
+tags:
+  - JR_PENETRATION_TESTER
+  - INTRODUCTION_TO_CYBERSECURITY
+aliases:
+---
 ## 1. What is Offensive Security?
 <div align="center">
 <br>
