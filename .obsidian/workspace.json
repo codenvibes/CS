@@ -59,7 +59,8 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "4cae9467a36be2f0",
@@ -236,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ATTACKING AND DEFENDING AWS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -276,11 +277,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM/DEFENDING AZURE.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SOC LEVEL 2.md",
