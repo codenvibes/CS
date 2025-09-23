@@ -4,3 +4,4 @@ views:
     filters:
       and:
         - file.folder == "COURSES"
+    image: file.file
