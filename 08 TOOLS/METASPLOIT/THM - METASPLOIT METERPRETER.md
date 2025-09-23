@@ -1,4 +1,4 @@
-#JR_PENETRATION_TESTER #METASPLOIT #Metasploit
+#JR_PENETRATION_TESTER #METASPLOIT
 
 ## 1. Introduction to Meterpreter
 
