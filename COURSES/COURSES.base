@@ -6,5 +6,5 @@ views:
         - file.folder == "COURSES"
     order:
       - file.name
-    image: file.file
+    image: note.aliases
     imageAspectRatio: 1

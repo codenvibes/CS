@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM-PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM-PRE SECURITY"
             }
           },
           {
@@ -258,10 +258,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "COURSES/THM-PRE SECURITY.md",
     "COURSES/COURSES.base",
+    "COURSES/THM-PRE SECURITY.md",
     "Pasted image 20250923131819.png",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
