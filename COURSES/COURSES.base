@@ -7,6 +7,9 @@ views:
     order:
       - file.name
       - Number
+    sort:
+      - property: Number
+        direction: ASC
     image: note.aliases
     imageAspectRatio: 1
     cardSize: 200
