@@ -104,12 +104,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/COURSE.md",
+                    "file": "COURSES/THM/Red Teaming Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "COURSE"
+                  "title": "Red Teaming Untitled"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/COURSE.md",
+                "file": "COURSES/THM/Red Teaming Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSE"
+              "title": "Outline of Red Teaming Untitled"
             }
           },
           {
@@ -278,6 +278,10 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES/THM/Untitled 2.md",
+    "COURSES/THM/Untitled 1.md",
+    "COURSES/THM/Red Teaming Untitled.md",
+    "TEMPLATES/COURSE.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SECURITY ENGINEER.md",
@@ -301,10 +305,6 @@
     "08 TOOLS/NMAP/THM - NMAP POST PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP ADVANCED PORT SCANS.md",
     "08 TOOLS/NMAP/THM - NMAP BASIC PORT SCANS.md",
-    "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
