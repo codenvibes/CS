@@ -43,7 +43,8 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -221,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JR PENETRATION TESTER"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -260,12 +261,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "COURSES/COURSES.base",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM",
