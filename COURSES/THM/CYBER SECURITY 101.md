@@ -3,6 +3,7 @@ tags:
   - CYBER_SECURITY_101
 aliases:
   - https://assets.tryhackme.com/img/paths/introtocybersecurity.svg
+Number: "2"
 ---
 ## #START_YOUR_CYBER_SECURITY_JOURNEY
 
