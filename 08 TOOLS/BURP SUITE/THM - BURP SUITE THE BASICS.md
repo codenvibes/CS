@@ -1,6 +1,7 @@
 ---
 tags:
   - JR_PENETRATION_TESTER
+  - BURP_SUITE
 ---
 ## 1. Introduction
 
