@@ -7,3 +7,5 @@ views:
     sort:
       - property: file.name
         direction: ASC
+  - type: cards
+    name: COURSES
