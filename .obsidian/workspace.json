@@ -155,7 +155,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/JR PENETRATION TESTER.md",
+                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JR PENETRATION TESTER"
+              "title": "Outline of THM - CAREERS IN CYBER"
             }
           },
           {
@@ -317,15 +317,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8e9de16e5ccd5a91",
   "lastOpenFiles": [
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
     "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
     "08 TOOLS/00 TOOLS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
