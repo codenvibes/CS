@@ -153,8 +153,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -260,8 +259,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
+    "ASSETS/Unconfirmed 560567.crdownload",
     "COURSES/COURSES.base",
     "COURSES/Untitled.md",
     "COURSES/THM-PRE SECURITY.md",
@@ -306,7 +307,6 @@
     "08 TOOLS/METASPLOIT",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
     "08 TOOLS/BURP SUITE",
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS",
     "Untitled.canvas"
   ]
 }
