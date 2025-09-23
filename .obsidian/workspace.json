@@ -43,8 +43,7 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -133,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#THM",
+                "query": "file:THM",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,8 +153,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -261,16 +259,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "COURSES/THM/CYBER SECURITY 101.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/COURSES.base",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM",
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/SECURITY ENGINEER.md",
