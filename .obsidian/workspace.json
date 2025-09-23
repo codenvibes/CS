@@ -42,7 +42,8 @@
                   "title": "COURSES"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -219,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
+                "file": "COURSES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WINDOWS FUNDAMENTALS 2"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -258,13 +259,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "Pasted image 20250922151239.png",
     "Pasted image 20250922145752.png",
     "Pasted image 20250922145522.png",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 3.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 1.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES.md",
@@ -296,7 +297,6 @@
     "ASSETS/Pasted image 20250913165044.png",
     "ASSETS/Pasted image 20250913110133.png",
     "ASSETS/Pasted image 20250913100139.png",
-    "Pasted image 20250913165044.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
     "08 TOOLS/METASPLOIT",
