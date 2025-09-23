@@ -104,12 +104,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/Red Teaming Untitled.md",
+                    "file": "COURSES/THM/SOC LEVEL 1.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Red Teaming Untitled"
+                  "title": "SOC LEVEL 1"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/Red Teaming Untitled.md",
+                "file": "COURSES/THM/SOC LEVEL 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Red Teaming Untitled"
+              "title": "Outline of SOC LEVEL 1"
             }
           },
           {
@@ -278,9 +278,9 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/Untitled 2.md",
-    "COURSES/THM/Untitled 1.md",
-    "COURSES/THM/Red Teaming Untitled.md",
+    "COURSES/THM/SOC LEVEL 1.md",
     "TEMPLATES/COURSE.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
