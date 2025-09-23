@@ -1,10 +1,11 @@
 views:
   - type: cards
-    name: COURSES
+    name: THM
     filters:
       and:
-        - file.folder == "COURSES"
+        - file.folder == "COURSES/THM"
     order:
       - file.name
     image: note.aliases
     imageAspectRatio: 1
+    cardSize: 200
