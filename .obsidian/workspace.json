@@ -112,51 +112,9 @@
                   "icon": "lucide-file",
                   "title": "JR PENETRATION TESTER"
                 }
-              },
-              {
-                "id": "a2a9695ddbb5e820",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - VULNERABILITY CAPSTONE"
-                }
-              },
-              {
-                "id": "22e7164c708f3db3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - EXPLOIT VULNERABILITIES"
-                }
-              },
-              {
-                "id": "43e473b5793e3bf8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "THM - VULNERABILITIES 101"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -279,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -319,12 +277,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
+    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - NET SEC CHALLENGE.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS 2.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PROTOCOLS AND SERVERS.md",
@@ -334,7 +293,6 @@
     "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
