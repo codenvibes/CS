@@ -127,7 +127,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -162,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "owasp",
+                "query": "OWASP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -183,8 +183,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -251,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/CYBER SECURITY 101.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBER SECURITY 101"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -291,10 +290,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "ad5e582b8f7e8c28",
   "lastOpenFiles": [
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "COURSES/THM/PRE SECURITY.md",
