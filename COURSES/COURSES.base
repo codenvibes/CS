@@ -7,6 +7,7 @@ views:
     order:
       - file.name
       - file.folder
+      - Number
     image: note.aliases
     imageAspectRatio: 1
     cardSize: 200
