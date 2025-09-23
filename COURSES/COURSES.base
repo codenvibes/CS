@@ -1,3 +1,6 @@
 views:
   - type: cards
     name: COURSES
+    filters:
+      and:
+        - file.folder == "COURSES"

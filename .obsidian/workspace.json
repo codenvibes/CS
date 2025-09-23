@@ -32,14 +32,13 @@
                 "id": "d6e3d74256db3bbc",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "bases",
                   "state": {
-                    "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "COURSES/COURSES.base",
+                    "viewName": "COURSES"
                   },
-                  "icon": "lucide-file",
-                  "title": "REPORT DRAFT"
+                  "icon": "lucide-layout-grid",
+                  "title": "COURSES"
                 }
               }
             ],
@@ -220,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of REPORT DRAFT"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,8 +258,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 560567.crdownload",
     "COURSES/COURSES.base",
@@ -301,7 +301,6 @@
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "Pasted image 20250914142528.png",
-    "ASSETS/Pasted image 20250914115124.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
     "08 TOOLS/METASPLOIT",
