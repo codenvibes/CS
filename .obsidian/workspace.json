@@ -13,6 +13,21 @@
             "dimension": 48.93951296150825,
             "children": [
               {
+                "id": "d6e3d74256db3bbc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "EI1P.base",
+                    "viewName": "COURSES"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "EI1P"
+                }
+              },
+              {
                 "id": "21fce08000a30866",
                 "type": "leaf",
                 "pinned": true,
@@ -26,19 +41,6 @@
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "WHITE-BOARD"
-                }
-              },
-              {
-                "id": "d6e3d74256db3bbc",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "EI1P.base",
-                    "viewName": "COURSES"
-                  },
-                  "icon": "lucide-layout-grid",
-                  "title": "EI1P"
                 }
               }
             ],
@@ -219,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EI1P.base",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EI1P"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -258,10 +260,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "COURSES/WEB FUNDAMENTALS.md",
     "EI1P.base",
+    "COURSES/WEB FUNDAMENTALS.md",
     "COURSES/WEB APPLICATION PENTESTING.md",
     "COURSES/SECURITY ENGINEER.md",
     "COURSES/PRE SECURITY.md",
