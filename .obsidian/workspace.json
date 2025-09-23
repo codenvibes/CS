@@ -88,12 +88,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/PRE SECURITY.md",
+                    "file": "COURSES/THM/CYBER SECURITY 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PRE SECURITY"
+                  "title": "CYBER SECURITY 101"
                 }
               }
             ],
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/PRE SECURITY.md",
+                "file": "EI1P.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PRE SECURITY"
+              "title": "Outline of EI1P"
             }
           },
           {
@@ -259,19 +259,20 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/PRE SECURITY.md",
+    "COURSES/THM",
     "EI1P.base",
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
-    "COURSES/PRE SECURITY.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
-    "COURSES/CYBER SECURITY 101.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES/WEB FUNDAMENTALS.md",
-    "COURSES/WEB APPLICATION PENTESTING.md",
-    "COURSES/SECURITY ENGINEER.md",
-    "COURSES/JR PENETRATION TESTER.md",
+    "COURSES/THM/WEB FUNDAMENTALS.md",
+    "COURSES/THM/WEB APPLICATION PENTESTING.md",
+    "COURSES/THM/SECURITY ENGINEER.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/Untitled 4.md",
     "COURSES/Untitled 3.md",
     "COURSES/Untitled 5.md",
@@ -305,7 +306,6 @@
     "08 TOOLS/NMAP",
     "08 TOOLS/METASPLOIT",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE",
-    "08 TOOLS/BURP SUITE",
     "Untitled.canvas"
   ]
 }
