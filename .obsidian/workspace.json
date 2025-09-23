@@ -104,12 +104,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
+                    "file": "TEMPLATES/COURSE.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WEB APPLICATION PENTESTING"
+                  "title": "COURSE"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/WEB APPLICATION PENTESTING.md",
+                "file": "TEMPLATES/COURSE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WEB APPLICATION PENTESTING"
+              "title": "Outline of COURSE"
             }
           },
           {
@@ -278,6 +278,7 @@
   },
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
@@ -304,7 +305,6 @@
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - ACTIVE RECONNAISSANCE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/THM - PASSIVE RECONNAISSANCE.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE EXTENSIONS.md",
-    "08 TOOLS/BURP SUITE/THM - BURP SUITE OTHER MODULES.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
