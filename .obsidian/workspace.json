@@ -87,12 +87,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM-WEB FUNDAMENTALS.md",
+                    "file": "COURSES/CYBER SECURITY 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM-WEB FUNDAMENTALS"
+                  "title": "CYBER SECURITY 101"
                 }
               }
             ],
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM-WEB FUNDAMENTALS.md",
+                "file": "COURSES/CYBER SECURITY 101.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM-WEB FUNDAMENTALS"
+              "title": "Outline of CYBER SECURITY 101"
             }
           },
           {
@@ -258,20 +258,20 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "COURSES/JR PENETRATION TESTER.md",
+    "COURSES/PRE SECURITY.md",
+    "COURSES/WEB APPLICATION PENTESTING.md",
+    "COURSES/WEB FUNDAMENTALS.md",
     "COURSES/SECURITY ENGINEER.md",
-    "COURSES/THM-WEB APPLICATION PENTESTING.md",
-    "COURSES/THM-WEB FUNDAMENTALS.md",
     "TEMPLATES/COURSE.md",
     "TEMPLATES/GENERAL.md",
     "COURSES/Untitled 6.md",
     "COURSES/Untitled 5.md",
     "COURSES/Untitled 4.md",
     "COURSES/Untitled 3.md",
-    "COURSES/THM-JR PENETRATION TESTER.md",
-    "COURSES/THM-CYBER SECURITY 101.md",
-    "COURSES/THM-PRE SECURITY.md",
+    "COURSES/CYBER SECURITY 101.md",
     "TEMPLATES/Untitled.md",
     "COURSES/untitled.md",
     "EI1P.base",
