@@ -1,10 +1,9 @@
 ---
 tags:
+  - "#THM-PRE_SECURITY"
 aliases:
   - https://assets.tryhackme.com/img/paths/presecurity.svg
 ---
-## #THM-PRE_SECURITY
-
 ### #1-INTRODUCTION_TO_CYBER_SECURITY
 
 1. THM - OFFENSIVE SECURITY INTRO  
