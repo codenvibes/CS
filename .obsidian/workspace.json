@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 59.78004713275726,
+            "dimension": 48.93951296150825,
             "children": [
               {
                 "id": "21fce08000a30866",
@@ -47,7 +47,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 40.21995286724274,
+            "dimension": 51.06048703849175,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -219,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM-PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM-PRE SECURITY"
             }
           },
           {
@@ -258,10 +258,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "COURSES/THM-PRE SECURITY.md",
     "COURSES/COURSES.base",
+    "COURSES/THM-PRE SECURITY.md",
+    "Pasted image 20250923131819.png",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Unconfirmed 560567.crdownload",
@@ -299,7 +300,6 @@
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
-    "Pasted image 20250914142528.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "08 TOOLS/NMAP",
     "08 TOOLS/METASPLOIT",
