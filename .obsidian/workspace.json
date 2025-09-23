@@ -104,12 +104,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/Untitled.md",
+                    "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "ATTACKING AND DEFENDING AWS"
                 }
               }
             ],
@@ -236,13 +236,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/Untitled.md",
+                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of ATTACKING AND DEFENDING AWS"
             }
           },
           {
@@ -279,8 +279,8 @@
   "active": "182f4d1725c9749f",
   "lastOpenFiles": [
     "COURSES/THM/DEVSECOPS.md",
-    "COURSES/THM/Untitled.md",
     "COURSES/THM/DEFENDING AZURE.md",
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SOC LEVEL 2.md",
