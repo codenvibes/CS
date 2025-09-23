@@ -114,17 +114,45 @@
                 }
               },
               {
-                "id": "7364c816c806278e",
+                "id": "77865c70545fc00d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
+                    "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - METASPLOIT METERPRETER"
+                  "title": "THM - WINDOWS PRIVILEGE ESCALATION"
+                }
+              },
+              {
+                "id": "9d1750ec7b0f7141",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - LINUX PRIVILEGE ESCALATION"
+                }
+              },
+              {
+                "id": "ad5e582b8f7e8c28",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - WHAT THE SHELL"
                 }
               }
             ],
@@ -251,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
+                "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - METASPLOIT METERPRETER"
+              "title": "Outline of THM - WINDOWS PRIVILEGE ESCALATION"
             }
           },
           {
@@ -291,13 +319,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7364c816c806278e",
+  "active": "77865c70545fc00d",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
+    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
@@ -316,9 +347,6 @@
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - RACE CONDITIONS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO CROSS-SITE SCRIPTING.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - INTRO TO SSRF.md",
     "COURSES/COURSES.base",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
