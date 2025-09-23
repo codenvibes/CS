@@ -43,7 +43,8 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "4cae9467a36be2f0",
@@ -220,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -259,7 +260,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
