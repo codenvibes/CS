@@ -1,6 +1,7 @@
 ---
 tags:
   - "#THM-PRE_SECURITY"
+  - HOW_THE_WEB_WORKS
 aliases:
 ---
 ## 1. What is DNS?
