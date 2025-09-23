@@ -71,11 +71,11 @@ aliases:
 
 ## #DEFENSIVE_SECURITY
 
-Defensive Security Intro
-SOC Fundamentals
-Digital Forensics Fundamentals
-Incident Response Fundamentals
-Logs Fundamentals
+39. THM - DEFENSIVE SECURITY INTRO
+40. THM - SOC FUNDAMENTALS
+41. THM - DIGITAL FORENSICS FUNDAMENTALS
+42. THM - INCIDENT RESPONSE FUNDAMENTALS
+43. THM - LOGS FUNDAMENTALS
 
 ## #SECURITY_SOLUTIONS
 
