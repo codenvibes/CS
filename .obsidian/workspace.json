@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -290,9 +290,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "COURSES/COURSES.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
@@ -317,8 +319,6 @@
     "08 TOOLS/BURP SUITE/THM - BURP SUITE INTRUDER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE THE BASICS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
-    "COURSES/COURSES.base",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
