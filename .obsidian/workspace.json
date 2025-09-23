@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "THMLP",
+                "query": "file:THM",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,7 +154,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -260,7 +261,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "EI1P.base",
     "COURSES/WEB FUNDAMENTALS.md",
