@@ -155,7 +155,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - CAREERS IN CYBER"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -317,10 +317,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8e9de16e5ccd5a91",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
