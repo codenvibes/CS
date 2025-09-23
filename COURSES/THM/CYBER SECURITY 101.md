@@ -64,14 +64,18 @@ aliases:
 
 ## #OFFENSIVE_SECURITY_TOOLING
 
-HYDRA
-GOBUSTER: THE BASICS
-SHELLS OVERVIEW
-SQLMAP: THE BASICS
+35. THM - HYDRA
+36. THM - GOBUSTER: THE BASICS
+37. THM - SHELLS OVERVIEW
+38. THM - SQLMAP: THE BASICS
 
 ## #DEFENSIVE_SECURITY
 
-
+Defensive Security Intro
+SOC Fundamentals
+Digital Forensics Fundamentals
+Incident Response Fundamentals
+Logs Fundamentals
 
 ## #SECURITY_SOLUTIONS
 
