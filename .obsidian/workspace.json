@@ -32,13 +32,14 @@
                 "id": "d6e3d74256db3bbc",
                 "type": "leaf",
                 "state": {
-                  "type": "bases",
+                  "type": "markdown",
                   "state": {
-                    "file": "COURSES/COURSES.base",
-                    "viewName": "COURSES"
+                    "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-layout-grid",
-                  "title": "COURSES"
+                  "icon": "lucide-file",
+                  "title": "REPORT DRAFT"
                 }
               }
             ],
@@ -131,7 +132,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DEF-switch",
+                "query": "92782614-64A8-423C-A30E-6D82BEBE246A",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -152,7 +153,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -219,13 +221,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/REPORT DRAFT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of REPORT DRAFT"
             }
           },
           {
@@ -260,9 +262,9 @@
   },
   "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "COURSES/Untitled.md",
     "COURSES/THM-PRE SECURITY.md",
-    "COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/THM - WINDOWS FUNDAMENTALS 2.md",
     "ASSETS/Pasted image 20250922151239.png",
     "ASSETS/Pasted image 20250922145752.png",
@@ -297,7 +299,6 @@
     "08 TOOLS/METASPLOIT/THM - METASPLOIT INTRODUCTION.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITY CAPSTONE.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
-    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - VULNERABILITIES 101.md",
     "Pasted image 20250914142528.png",
     "ASSETS/Pasted image 20250914115124.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
