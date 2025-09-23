@@ -222,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -261,12 +261,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "08 TOOLS/BURP SUITE/THM - BURP SUITE REPEATER.md",
     "COURSES/COURSES.base",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM",
