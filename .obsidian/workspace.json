@@ -19,12 +19,12 @@
                 "state": {
                   "type": "bases",
                   "state": {
-                    "file": "EI1P.base",
+                    "file": "COURSES/COURSES.base",
                     "viewName": "THM"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
-                  "title": "EI1P"
+                  "title": "COURSES"
                 }
               },
               {
@@ -220,13 +220,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EI1P.base",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EI1P"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -259,12 +259,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM",
-    "EI1P.base",
+    "COURSES/COURSES.base",
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
     "07 CRYPTOGRAPHY/ALGORITHMS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - AUTHENTICATION BYPASS.md",
