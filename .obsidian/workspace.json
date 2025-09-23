@@ -155,7 +155,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -317,12 +317,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - CAREERS IN CYBER.md",
+    "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - OFFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - DEFENSIVE SECURITY INTRO.md",
-    "COURSES/COURSES.base",
     "08 TOOLS/00 TOOLS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
