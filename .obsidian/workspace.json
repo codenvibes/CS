@@ -149,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#JR_PENETRATION_TESTER",
+                "query": "tag:#8-PRIVILEGE_ESCALATION",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -276,7 +276,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
