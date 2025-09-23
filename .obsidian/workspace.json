@@ -162,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#8-PRIVILEGE_ESCALATION",
+                "query": "owasp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -183,7 +183,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -290,12 +291,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "COURSES/THM/JR PENETRATION TESTER.md",
+    "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/COURSES.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
-    "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/PRE SECURITY.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
