@@ -284,18 +284,15 @@ Cybersecurity is a field with many sub-disciplines. The teams listed below help 
 
 #### Red Team
 
-DEF-Red Team:
-==The red team tests the cybersecurity posture of an organization by simulating real-world cyberattacks to identify vulnerabilities and measure how well defenses hold up.== Their aim is to discover potential vulnerabilities and security gaps, exploit these weaknesses, and realistically test the organization's cyber defense capabilities. Red Team operations include various methods such as attack scenarios, penetration tests, and social engineering tactics. Their work helps understand how well the organization's defenses are prepared for real-world threats.
+DEF-Red Team: ==The red team tests the cybersecurity posture of an organization by simulating real-world cyberattacks to identify vulnerabilities and measure how well defenses hold up.== Their aim is to discover potential vulnerabilities and security gaps, exploit these weaknesses, and realistically test the organization's cyber defense capabilities. Red Team operations include various methods such as attack scenarios, penetration tests, and social engineering tactics. Their work helps understand how well the organization's defenses are prepared for real-world threats.
 
 #### Blue Team
 
-DEF-Blue Team:
-==The Blue Team is responsible for strengthening and maintaining the organization's cybersecurity defenses.== This team defends the organization against the Red Team's attack attempts, continuously monitors and improves security measures to prevent and detect security breaches. The Blue Team's duties include monitoring and managing firewalls, intrusion detection systems, and other security solutions, incident response, implementing security policies, and providing security awareness training to employees.
+DEF-Blue Team: ==The Blue Team is responsible for strengthening and maintaining the organization's cybersecurity defenses.== This team defends the organization against the Red Team's attack attempts, continuously monitors and improves security measures to prevent and detect security breaches. The Blue Team's duties include monitoring and managing firewalls, intrusion detection systems, and other security solutions, incident response, implementing security policies, and providing security awareness training to employees.
 
 #### Purple Team
 
-DEF-Purple Team:
-The Purple Team enhances an organization’s cybersecurity by combining the efforts of the Red and Blue teams. Serving as a bridge between the Red and Blue teams, the Purple Team allows both sides to learn from each other and develop their skills. They guide the Blue Team on how to address vulnerabilities discovered by the Red Team and provide feedback to enhance the effectiveness of defense strategies.
+DEF-Purple Team: ==The Purple Team enhances an organization’s cybersecurity by combining the efforts of the Red and Blue teams.== Serving as a bridge between the Red and Blue teams, the Purple Team allows both sides to learn from each other and develop their skills. They guide the Blue Team on how to address vulnerabilities discovered by the Red Team and provide feedback to enhance the effectiveness of defense strategies.
 <div>
 <br>
 </div>
