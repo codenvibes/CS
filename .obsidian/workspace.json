@@ -141,7 +141,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
+              "title": "Outline of 05 COMMON VULNERABILITIES AND EXPOSURES (CVE)"
             }
           },
           {
@@ -304,11 +304,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "b0461e78e85ce767",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
-    "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
