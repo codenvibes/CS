@@ -310,6 +310,44 @@ Bug Bounty is a defense strategy for companies and a revenue source for cybersec
 <div style="page-break-after: always;"></div>
 
 ## Penetration Testing (Pentest)
+
+Penetration testing is the process of identifying potential security vulnerabilities in an organization's software, systems, and IT infrastructure by simulating real-world cyber attacks. These tests help organizations strengthen their defenses, identify critical vulnerabilities ahead of time, and minimize the impact of a potential security breach.
+
+Penetration tests are conducted within the framework of a contract signed between the organization requesting the test and the organization performing the test. This contract ensures that the test activities are conducted legally and defines the scope of the test. Only the components specified in the contract may be tested, ensuring that the process adheres to both legal and ethical standards.
+
+Professionals involved in penetration testing are usually referred to as "pentesters," "penetration testers," or "cybersecurity experts." These professionals conduct tests within the scope of their given authority using an ethical hacker approach and report the security vulnerabilities they identify.
+
+### Types of Penetration Testing
+
+Penetration tests can be classified into three main categories based on the level of information provided: White Box, Grey Box, and Black Box.
+
+#### White Box
+
+The team conducting the test is given comprehensive information and authority about the system. This approach allows for an in-depth analysis and testing of the system.
+
+#### Grey Box
+
+The team performing the test is provided with partial information and authority about the system. This creates a more realistic test scenario and demonstrates how pentesters can progress with partial information.
+
+#### Black Box
+
+The test team conducts the test without any prior knowledge about the system. This offers the most realistic scenario from the perspective of an actual attacker.
+
+### Penetration Testing Methodologies
+
+Penetration testing methodologies are standardized approaches used to systematically identify and assess security vulnerabilities. These methodologies enhance both the effectiveness and efficiency of penetration tests.
+
+#### OWASP
+
+The Open Web Application Security Project (OWASP) is a global initiative focused on improving the security of web applications. The OWASP penetration testing methodology provides a framework for identifying, assessing, and mitigating security vulnerabilities in web applications and services. This methodology guides both developers and security experts in ensuring application security.
+
+#### OSSTMM
+
+The Open Source Security Testing Methodology Manual (OSSTMM) provides a methodology for information security testing and can be applied to a wide range of areas such as network security, application testing, and physical security audits. OSSTMM offers a detailed methodology that ensures security tests are conducted transparently, objectively, and repeatably. It also provides guidance for measuring security performance and continuously improving the security posture.
+
+#### NIST
+
+The National Institute of Standards and Technology (NIST) penetration testing methodology provides standards and best practices, particularly for government agencies and large-scale organizations. NIST's cybersecurity methodology encompasses risk management, the assessment of security vulnerabilities, and post-breach incident management processes. This methodology helps organizations conduct comprehensive security assessments and meet compliance requirements.
 <div align="center">
 <br>
 <br>
