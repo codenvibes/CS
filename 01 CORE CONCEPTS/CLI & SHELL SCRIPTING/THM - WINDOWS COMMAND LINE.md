@@ -198,6 +198,9 @@ Hyper-V Requirements:      A hypervisor has been detected. Features required for
 ## 3. Network Troubleshooting
 
 Most of us are used to looking up MS Windows network configuration from the GUI interface. The command-line interface provides many networking-related commands to look up your current configuration, check ongoing connections, and troubleshoot networking issues.
+<div>
+<br>
+</div>
 
 ### Network Configuration
 
@@ -245,6 +248,9 @@ Ethernet adapter Ethernet 3:
    DNS Servers . . . . . . . . . . . : 10.0.0.2
    NetBIOS over Tcpip. . . . . . . . : Enabled
 ```
+<div>
+<br>
+</div>
 
 ### Network Troubleshooting
 
@@ -298,6 +304,9 @@ over a maximum of 30 hops:
 
 Trace complete.
 ```
+<div>
+<br>
+</div>
 
 ### More Networking Commands
 
@@ -378,7 +387,9 @@ Active Connections
 
 ### Questions
 
-##### 
+##### Which command can we use to look up the server’s physical address (MAC address)?
+##### What is the name of the service listening on port 135?
+##### What is the name of the service listening on port 3389?
 <div align="center">
 <br>
 <br>
