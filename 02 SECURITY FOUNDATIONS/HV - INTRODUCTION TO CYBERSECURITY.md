@@ -290,7 +290,7 @@ DEF-Red Team:
 #### Blue Team
 
 DEF-Blue Team:
-The Blue Team is responsible for strengthening and maintaining the organization's cybersecurity defenses. This team defends the organization against the Red Team's attack attempts, continuously monitors and improves security measures to prevent and detect security breaches. The Blue Team's duties include monitoring and managing firewalls, intrusion detection systems, and other security solutions, incident response, implementing security policies, and providing security awareness training to employees.
+==The Blue Team is responsible for strengthening and maintaining the organization's cybersecurity defenses.== This team defends the organization against the Red Team's attack attempts, continuously monitors and improves security measures to prevent and detect security breaches. The Blue Team's duties include monitoring and managing firewalls, intrusion detection systems, and other security solutions, incident response, implementing security policies, and providing security awareness training to employees.
 
 #### Purple Team
 
