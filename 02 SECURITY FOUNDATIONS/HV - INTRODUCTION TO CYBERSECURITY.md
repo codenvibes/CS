@@ -61,7 +61,7 @@ The concept of "hack" is a versatile term used in various fields and can carry d
 <br>
 </div>
 
-DEF-Hacking: Hacking is the act of gaining unauthorized access to computer systems, networks, applications, or data, often by exploiting weaknesses in software, hardware, or human behavior.
+DEF-Hacking: ==Hacking is the act of gaining unauthorized access to computer systems, networks, applications, or data, often by exploiting weaknesses in software, hardware, or human behavior.==
 <div align="center">
 <br>
 <br>
@@ -74,7 +74,7 @@ A hacker is a skilled computer expert with in-depth technical knowledge of compu
 
 Hackers are often curious, problem-solving individuals who think creatively and have a keen interest in technology.
 
-Types of Hackers
+### Types of Hackers
 
 Hackers are categorized into three types based on their approaches and behaviors.
 

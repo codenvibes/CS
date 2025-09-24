@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"DEF-Information Security\"",
+                "query": "DEF-Hacking",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -304,7 +304,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
