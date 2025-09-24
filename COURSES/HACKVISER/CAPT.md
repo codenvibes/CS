@@ -49,7 +49,83 @@ Apache HTTP Server 2.4.49/2.4.50 Remote Code Execution (CVE-2021-42013)
 
 ## #WEB_APPLICATION_SECURITY
 
+Web Fundamentals
 
+How Does the Modern Web Work?
+
+Information Gathering in Web Applications
+
+Using Burp Suite
+
+Directory Scan
+
+Subdomain Scan
+
+Brute-Force in Web Applications
+
+Dictionary Attack
+
+Cross-site Scripting (XSS)
+
+Reflected XSS
+
+Stored XSS
+
+DOM-Based XSS
+
+SQL Injection
+
+Basic SQL Injection
+
+Union-Based SQL Injection
+
+Using SQLMap
+
+Command Injection
+
+Basic Command Injection
+
+Command Injection Filter Bypass
+
+File Inclusion (LFI/RFI)
+
+Basic Local File Inclusion
+
+Unrestricted File Upload
+
+Basic Unrestricted File Upload
+
+MIME Type Filter Bypass
+
+Insecure Direct Object Reference (IDOR)
+
+Invoices
+
+Ticket Sales
+
+Update Account
+
+Broken Authentication
+
+Execution After Redirect (EAR)
+
+Discover Lernaean
+
+Bee
+
+Alohomora
+
+Work Stuff
+
+Leaf
+
+Venomous
+
+Satellite
+
+Laravel Framework < 8.4.2 Remote Code Execution (CVE-2021-3129)
+
+Next.js Middleware Authorization Bypass (CVE-2025-29927)
 
 ## #PRIVILEGE_ESCALATION_TECHNIQUES
 
