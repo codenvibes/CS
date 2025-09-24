@@ -140,7 +140,11 @@ In the cybersecurity world, the role of ethical hackers is becoming increasingly
 
 ### Questions
 
-##### 
+##### Q: What is the sum of the squares of the numbers from 1 to 100?
+A: 338350
+
+Explanation: The first method that might come to mind to solve this problem is to take the squares of each number from 1 to 100 and sum them up one by one. However, using the formula
+`n * (n + 1) * (2 * n + 1) / 6` allows for a much faster solution, stepping outside the usual approach—what we can call a mathematical **hack**.
 <div align="center">
 <br>
 <br>
