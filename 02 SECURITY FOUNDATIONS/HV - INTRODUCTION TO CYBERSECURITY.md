@@ -365,6 +365,73 @@ The National Institute of Standards and Technology (NIST) penetration testing me
 <div style="page-break-after: always;"></div>
 
 ## Basic Information
+
+### Port
+
+Ports are virtual or physical connection points used for data transfer between computers.
+
+Physical Ports
+
+Physical ports are hardware-based connection points found on computers. Examples include USB, Ethernet, HDMI, and DisplayPort, which are used to connect various devices to the computer and facilitate data transfer.
+
+Virtual Ports
+
+Virtual ports are numbered between 0 and 65535 and are used for communication over a network. Each port number is associated with specific services or protocols, and all data transfer over the internet occurs through these virtual ports.
+
+For example, when visiting websites, we connect to port 80 or 443 on the server hosting the website.
+
+Commonly used services and protocols operate on specific ports. Below is a table of some frequently used ports and services:
+
+|Port Number|Service / Protocol|
+|---|---|
+|21|FTP|
+|22|SSH|
+|23|Telnet|
+|25|SMTP|
+|53|DNS|
+|80|HTTP|
+|443|HTTPS|
+|3306|MySQL|
+|3389|RDP|
+|5432|PostgreSQL|
+
+### Vulnerability
+
+A vulnerability refers to security weaknesses in computer systems. These weaknesses can be exploited by attackers to gain unauthorized access, steal data, or use the system for malicious purposes.
+
+**OWASP TOP 10:** A list ranking the most critical security vulnerabilities in web applications.
+
+**CVE (Common Vulnerabilities and Exposures):** A public directory that identifies known security vulnerabilities and exposures.
+
+**CVSS (Common Vulnerability Scoring System):** A scoring system used to measure the severity of security vulnerabilities.
+
+### Exploit
+
+An exploit is the code or technique that enables the malicious use of a vulnerability. This allows attackers to gain unauthorized access or control over systems.
+
+**PoC (Proof of Concept):** Demo content demonstrating the exploitability of a vulnerability.
+
+**Zero Day:** Security vulnerabilities that are not yet patched and are generally unknown to the public.
+
+### Shell
+
+A shell is a computer program that provides users with an interface to use the services of an operating system.
+
+Gaining a shell on a system allows an attacker to execute commands on the target system through an interface.
+
+**Bind Shell:** A type of shell where the attacker opens a port on the target machine and connects to it to execute commands.
+
+**Reverse Shell:** A type of shell where the target machine connects back to the attacker's machine, allowing the execution of commands.
+
+**Web Shell:** A type of shell that includes a malicious script running on a web server, giving the attacker remote command execution capabilities.
+
+### IP (Internet Protocol) Address
+
+An IP address is a unique number that identifies devices on the internet and facilitates communication between them.
+
+**IPv4:** Uses a 32-bit addressing system and provides approximately 4.3 billion unique addresses.
+
+**IPv6:** Developed due to the insufficient addressing capacity of IPv4, it uses a 128-bit addressing system.
 <div align="center">
 <br>
 <br>
