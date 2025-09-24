@@ -570,10 +570,10 @@ What role does the 'Purple Team' play in cybersecurity?
 
 ##### Question 10
 Which type of penetration testing is conducted without any prior knowledge about the target system?
-- [x] White Box
+- [ ] White Box
 - [ ] Grey Box
 - [ ] Red Box
-- [ ] Black Box
+- [x] Black Box
 
 ##### Question 11
 Which of the following is not a commonly known penetration testing methodology?
