@@ -51,6 +51,50 @@ Today, especially with the widespread use of the internet, information security 
 <div style="page-break-after: always;"></div>
 
 ## Hacker
+
+The concept of "hack" is a versatile term used in various fields and can carry different meanings depending on the context. Generally, it can be described as using or modifying a system in unintended ways.
+
+A hacker is a skilled computer expert with in-depth technical knowledge of computer systems and networks, capable of utilizing this knowledge for various purposes.
+
+Hackers are often curious, problem-solving individuals who think creatively and have a keen interest in technology.
+
+Types of Hackers
+
+Hackers are categorized into three types based on their approaches and behaviors.
+
+![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/c07fef69-9c47-46e3-b157-1074e447abed/hackers-57024f6a3.webp)
+
+**White Hat:** White hat hackers are well-intentioned hackers who know the techniques and methods used by cyber criminals and recognize the tools and software used during hacker activities.
+
+Ref: [Wikipedia](https://en.wikipedia.org/wiki/White_hat_\(computer_security\))
+
+White hat hackers work to enhance system security. They collaborate with companies to identify security vulnerabilities and help them fix these issues.
+
+**Black Hat:** Black hat hackers are malicious hackers who harm systems, steal information, and gain unauthorized access to systems.
+
+Ref: [Wikipedia](https://en.wikipedia.org/wiki/Black_hat_\(computer_security\))
+
+Often depicted as the "bad guys" in the media, these hackers breach security systems for personal gain or other harmful intentions. Their actions include data theft, spreading malware, and other cybercrimes.
+
+**Gray Hat:** Gray hat hackers know the techniques and methods used by malicious hackers and recognize the tools and software used during hacker activities. They are computer experts who sometimes may violate the law but generally operate within legal bounds and uphold ethical standards.
+
+Ref: [Wikipedia](https://en.wikipedia.org/wiki/Grey_hat)
+
+This group stands somewhere between ethical and unethical hacking. They may access systems without authorization but usually report the security vulnerabilities they find to the respective organization to show goodwill. Their intentions may not be entirely malicious, but their methods are questionable.
+
+Ethical Hacker
+
+Ethical hackers fall under the category of white hat hackers.
+
+The role of ethical hackers is to test and strengthen the security of computer systems, networks, and data. In addition to having deep technical knowledge, being an ethical hacker requires strong ethical values and a sense of responsibility. Ethical hackers typically enhance their skills through specialized training and certifications.
+
+Ethical hackers perform penetration tests to identify potential security vulnerabilities, conduct vulnerability analysis, and perform risk assessments. Their goal is to uncover weaknesses that attackers could exploit and make recommendations to fix them.
+
+In the cybersecurity world, the role of ethical hackers is becoming increasingly important. As technology becomes more integrated into our lives, the demand for these experts in ensuring the security of the digital world also increases.
+
+> "To be a hacker is to bring the impossible within reach through unexpected behaviors."
+> 
+> - Anonymous
 <div align="center">
 <br>
 <br>
