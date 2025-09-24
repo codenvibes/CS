@@ -368,7 +368,7 @@ The National Institute of Standards and Technology (NIST) penetration testing me
 
 ### Port
 
-Ports are virtual or physical connection points used for data transfer between computers.
+DEF-Port: ==Ports are virtual or physical connection points used for data transfer between computers.==
 
 #### Physical Ports
 
