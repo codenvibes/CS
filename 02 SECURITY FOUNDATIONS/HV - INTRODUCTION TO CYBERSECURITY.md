@@ -34,7 +34,7 @@ We can also define information security as the set of measures taken to prevent 
 
 **Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered. [[THM - PRINCIPLES OF SECURITY#^dc0537]]
 
-**Availability:** Ensures that information is easily accessible to authorized users when needed.
+**Availability:** Ensures that information is easily accessible to authorized users when needed. [[THM - PRINCIPLES OF SECURITY^]]
 
 ![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/d65a0fca-d9c9-4774-9397-42ef64272226/cia-653439271.webp)
 
