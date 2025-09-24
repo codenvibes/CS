@@ -43,7 +43,7 @@ Whilst the three elements to the CIA triad are arguably self-explanatory, let'
 
 ### Confidentiality
 
-==DEF-Confidentiality is the principle of ensuring that information is kept private, accessible only to authorized individuals with a legitimate need to know, and protected from unauthorized access or misuse through appropriate access controls.==
+DEF-Confidentiality: ==Confidentiality is the principle of ensuring that information is kept private, accessible only to authorized individuals with a legitimate need to know, and protected from unauthorized access or misuse through appropriate access controls.==
 
 There are many real-world examples for this, for example, employee records and accounting documents will be considered sensitive. Confidentiality will be provided in the sense that only HR administrators will access employee records, where vetting and tight access controls are in place. Accounting records are less valuable (and therefore less sensitive), so not as stringent access controls would be in place for these documents. Or, for example, governments using a sensitivity classification rating system (top-secret, classified, unclassified)
 <div align="center">
