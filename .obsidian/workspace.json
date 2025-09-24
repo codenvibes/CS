@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 47.9559748427673,
+            "dimension": 34.827044025157235,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -64,7 +64,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 52.04402515723271,
+            "dimension": 65.17295597484278,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -290,7 +290,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/HACKVISER/CAPT.md",
