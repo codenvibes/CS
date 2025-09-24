@@ -183,8 +183,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -290,7 +289,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/HACKVISER/CAPT.md",
