@@ -28,7 +28,7 @@ We can also define information security as the set of measures taken to prevent 
 
 ### Principles of Information Security: The CIA Triad
 
-[[THM - PRINCIPLES OF SECURITY#^]]
+[[THM - PRINCIPLES OF SECURITY#^58f409]]
 
 **Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it.
 
