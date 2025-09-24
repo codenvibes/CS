@@ -155,6 +155,50 @@ Explanation: The first method that might come to mind to solve this problem is t
 <div style="page-break-after: always;"></div>
 
 ## Sub-Fields of Cybersecurity
+
+Cybersecurity is a concept that represents our security in the digital world. To ensure our security in the digital realm, cybersecurity encompasses many critical sub-fields. Each area is a specialized domain and a crucial part of protecting our systems.
+
+Let's take a closer look at the important sub-fields of cybersecurity.
+
+Application Security
+
+Application security focuses on ensuring the security of applications from the development stage onward. This area includes identifying and fixing software bugs and other security vulnerabilities. Security tests and secure coding standards are important components of this field.
+
+Web Application Security
+
+Web application security focuses on detecting, preventing, and mitigating threats to web-based applications. In this field, vulnerabilities such as SQL Injection, XSS, CSRF, and IDOR are among the most common. Web application security is essential for protecting user data, maintaining application performance, and preserving the reputation of enterprises.
+
+Regular penetration tests (pentests) are conducted to identify and address security vulnerabilities in web applications.
+
+Network Security
+
+Network security involves protecting network resources to prevent, detect, and respond to malicious threats and attacks. Technologies such as firewalls, intrusion detection systems (IDS), intrusion prevention systems (IPS), and virtual private networks (VPN) are used in this field.
+
+Network security is crucial for ensuring the secure transmission of data and preventing unauthorized access.
+
+Reverse Engineering
+
+Reverse engineering involves analyzing software, devices, or systems to understand how they work, both statically and dynamically. This field can be used to find security vulnerabilities, analyze malware, and bypass licensing or other protection mechanisms.
+
+Cloud Security
+
+Cloud security ensures the protection of data, applications, and infrastructure in cloud computing services. This includes identity and access management (IAM), data encryption, firewalls, and other cloud-based security protocols. Cloud security ensures that data is stored, processed, and transmitted securely in the cloud.
+
+Mobile Application Security
+
+Mobile application security encompasses security measures specific to mobile devices and applications. This includes protection against malware, preventing data leaks, and implementing end-to-end encryption techniques.
+
+IoT Security
+
+IoT (Internet of Things) security involves ensuring the security of smart devices, sensors, and other IoT devices. This area covers device security, data protection, and network security. IoT security is critically important for protecting the expanding IoT ecosystem from threats.
+
+Digital Forensics
+
+Digital forensics includes technical and legal procedures for investigating and analyzing cybercrimes. This field focuses on practices such as data recovery, electronic evidence collection, and investigating cybercrimes. Digital forensics plays a vital role in criminal investigations and legal processes.
+
+Threat Intelligence
+
+Threat intelligence involves gathering and analyzing information about cyber threats. This information is used to prevent, detect, and respond to threats. Threat intelligence provides security teams with the ability to anticipate attacks and take proactive measures.
 <div align="center">
 <br>
 <br>
