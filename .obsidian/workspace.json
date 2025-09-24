@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DEF-Hacking",
+                "query": "Black",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -304,10 +304,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+    "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/COURSES.base",
@@ -334,7 +335,6 @@
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - LINUX PRIVILEGE ESCALATION.md",
     "08 TOOLS/METASPLOIT/THM - METASPLOIT METERPRETER.md",
-    "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",

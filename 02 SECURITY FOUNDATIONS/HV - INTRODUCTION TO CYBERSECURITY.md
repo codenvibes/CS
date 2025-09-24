@@ -73,6 +73,9 @@ DEF-Hacking: ==Hacking is the act of gaining unauthorized access to computer sys
 A hacker is a skilled computer expert with in-depth technical knowledge of computer systems and networks, capable of utilizing this knowledge for various purposes.
 
 Hackers are often curious, problem-solving individuals who think creatively and have a keen interest in technology.
+<div>
+<br>
+</div>
 
 ### Types of Hackers
 
