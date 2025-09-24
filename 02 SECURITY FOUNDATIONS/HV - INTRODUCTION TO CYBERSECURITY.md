@@ -584,6 +584,7 @@ Which type of penetration testing is conducted without any prior knowledge about
 - [ ] Grey Box
 - [ ] Red Box
 - [ ] Black Box
+
 ##### Question 11
 
 Which of the following is not a commonly known penetration testing methodology?
@@ -595,27 +596,24 @@ Which of the following is not a commonly known penetration testing methodology?
 ##### Question 12
 
 What is the abbreviation of the protocol used for sending email?
-
-
+SMTP
 
 ##### Question 13
 
 What is the commonly known port number for the FTP protocol used for file transfer over the internet?
-
-
+21
 
 ##### Question 14
 
 What is the commonly known port number for the HTTP protocol?
-
-
+80
 
 ##### Question 15
 
 What is the term for security vulnerabilities that are yet to be patched and generally unknown to the public?
 - [ ] OWASP TOP 10
 - [ ] CVE
-- [ ] Zero Day
+- [x] Zero Day
 - [ ] PoC
 
 <div align="center">
