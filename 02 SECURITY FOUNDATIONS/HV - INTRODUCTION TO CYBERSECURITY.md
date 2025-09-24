@@ -513,7 +513,6 @@ Which of the following is not one of the principles of information security?
 - [ ] Resilience
 - [ ] Availability
 
-
 ##### Question 2
 
 Ensuring the accuracy and consistency of data, preventing it from being tampered with, either accidentally or intentionally, is expressed by which principle?
@@ -521,7 +520,6 @@ Ensuring the accuracy and consistency of data, preventing it from being tampered
 - [ ] Integrity
 - [ ] Availability
 - [ ] Authentication
-
 
 ##### Question 3
 
@@ -531,7 +529,6 @@ Which of the following hacker types does not belong to the category based on app
 - [ ] Black Hat
 - [ ] Gray Hat
 
-
 ##### Question 4
 
 Which type of hacker is involved in malicious activities such as damaging systems, stealing information, and gaining unauthorized access?
@@ -539,7 +536,6 @@ Which type of hacker is involved in malicious activities such as damaging system
 - [ ] Gray Hat
 - [ ] White Hat
 - [ ] Blue Hat
-
 
 ##### Question 5
 
@@ -549,7 +545,6 @@ Which cybersecurity sub-field aims to understand how software or devices work, a
 - [ ] Threat Intelligence
 - [ ] Reverse Engineering
 
-
 ##### Question 6
 
 Which of the following cybersecurity sub-fields focuses on the security of web-based applications?
@@ -557,7 +552,6 @@ Which of the following cybersecurity sub-fields focuses on the security of web-b
 - [ ] Cloud Security
 - [ ] Web Application Security
 - [ ] Reverse Engineering
-
 
 ##### Question 7
 
@@ -567,7 +561,6 @@ Which of the following is a crucial social skill for someone looking to pursue a
 - [ ] Teamwork
 - [ ] Speed reading
 
-
 ##### Question 8
 
 What is the name of the team that acts from an attacker’s perspective to test an organization’s cybersecurity?
@@ -576,7 +569,6 @@ What is the name of the team that acts from an attacker’s perspective to test 
 - [ ] Blue Team
 - [ ] Purple Team
 
-
 ##### Question 9
 
 What role does the 'Purple Team' play in cybersecurity?
@@ -584,7 +576,6 @@ What role does the 'Purple Team' play in cybersecurity?
 - [ ] Enhancing only defense mechanisms.
 - [ ] Combining the efforts of Red and Blue teams to maximize the effectiveness of attack and defense strategies.
 - [ ] Conducting cybersecurity training sessions.
-
 
 ##### Question 10
 
@@ -600,7 +591,6 @@ Which of the following is not a commonly known penetration testing methodology?
 - [ ] OSSTMM
 - [ ] OOP
 - [ ] NIST
-
 
 ##### Question 12
 
