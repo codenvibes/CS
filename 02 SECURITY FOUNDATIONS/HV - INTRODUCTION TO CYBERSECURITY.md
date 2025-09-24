@@ -28,6 +28,8 @@ DEF-Information Security
 
 ### Principles of Information Security: The CIA Triad
 
+
+
 **Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it.
 
 **Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered.

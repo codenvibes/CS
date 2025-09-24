@@ -21,7 +21,7 @@ The measures, frameworks and protocols discussed throughout this room all play a
 
 ## 2. The CIA Triad
 
-==The DEF-CIA Triad is a foundational model in information security that represents the three core principles used to guide policies, practices, and controls for protecting information and systems==
+==The CIA Triad is a foundational model in information security that represents the three core principles used to guide policies, practices, and controls for protecting information and systems==.DEF-CIA Triad
 
 This model has an extensive background, ranging from being used in 1998.
 
