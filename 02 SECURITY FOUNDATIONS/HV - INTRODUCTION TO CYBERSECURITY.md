@@ -316,6 +316,9 @@ Penetration testing is the process of identifying potential security vulnerabili
 Penetration tests are conducted within the framework of a contract signed between the organization requesting the test and the organization performing the test. This contract ensures that the test activities are conducted legally and defines the scope of the test. Only the components specified in the contract may be tested, ensuring that the process adheres to both legal and ethical standards.
 
 Professionals involved in penetration testing are usually referred to as "pentesters," "penetration testers," or "cybersecurity experts." These professionals conduct tests within the scope of their given authority using an ethical hacker approach and report the security vulnerabilities they identify.
+<div>
+<br>
+</div>
 
 ### Types of Penetration Testing
 
@@ -332,6 +335,9 @@ The team performing the test is provided with partial information and authority 
 #### Black Box
 
 The test team conducts the test without any prior knowledge about the system. This offers the most realistic scenario from the perspective of an actual attacker.
+<div>
+<br>
+</div>
 
 ### Penetration Testing Methodologies
 
