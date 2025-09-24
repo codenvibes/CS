@@ -454,6 +454,36 @@ An IP address is a unique number that identifies devices on the internet and fac
 <div style="page-break-after: always;"></div>
 
 ## Resources
+
+Discover our meticulously prepared guides on penetration testing, system hardening activities, and frequently used cybersecurity tools, serving as manuals for your cybersecurity endeavors.
+
+## Pentesting Tactics
+
+Access all the information you need to conduct comprehensive penetration testing processes with resources designed for both beginners and professionals in the field.
+
+Each content piece guides you through various use cases in the pentesting domain and provides practical information to help you hone your skills.
+
+[Explore Pentesting Tactics](https://hackviser.com/tactics/pentesting)
+
+## Hardening Tactics
+
+Strengthen your defenses with hardening tactics designed to protect your systems, networks, and applications against cyber threats.
+
+These guides help you understand and implement essential security steps to make your infrastructure more secure. Discover quick and effective hardening methods.
+
+[Explore Hardening Tactics](https://hackviser.com/tactics/hardening)
+
+## Tools
+
+If you're looking for a comprehensive guide on cybersecurity tools, **Tools Tactics** is perfect for you. This content provides concise information on how to use various cybersecurity tools.
+
+[Tools Tactics](https://hackviser.com/tactics/tools)
+
+## Discord
+
+Join Hackviser's Discord channel to become part of a community where you can get help and share experiences on cybersecurity topics. We offer an environment where you can get support on technical issues and connect with people who have similar interests.
+
+[💪 Join Our Discord Community](https://discord.com/invite/VD6R7pzUqf)
 <div align="center">
 <br>
 <br>
