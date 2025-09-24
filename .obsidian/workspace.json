@@ -141,7 +141,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
+                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 SECURITY ASSESSTMENT TYPES"
+              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
             }
           },
           {
@@ -304,14 +304,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b0461e78e85ce767",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/17 VENDOR SPECIFIC INFORMATION.md",
-    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/COURSES.base",
