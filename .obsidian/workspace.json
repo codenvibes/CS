@@ -141,7 +141,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -264,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - PENTENSTING FUNDAMENTALS"
+              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
             }
           },
           {
@@ -303,10 +303,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b0461e78e85ce767",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
+    "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "COURSES/HACKVISER/CAPT.md",
