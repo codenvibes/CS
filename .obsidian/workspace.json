@@ -141,7 +141,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/04 COMMON VULNERABILITY SCORING SYSTEM (CVSS).md",
+                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04 COMMON VULNERABILITY SCORING SYSTEM (CVSS)"
+              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
             }
           },
           {
@@ -304,8 +304,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b0461e78e85ce767",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/04 COMMON VULNERABILITY SCORING SYSTEM (CVSS).md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
@@ -334,7 +335,6 @@
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
