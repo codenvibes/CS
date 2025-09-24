@@ -506,7 +506,6 @@ Join Hackviser's Discord channel to become part of a community where you can get
 ## Exam
 
 ##### Question 1
-
 Which of the following is not one of the principles of information security?
 - [ ] Confidentiality
 - [ ] Integrity
@@ -514,7 +513,6 @@ Which of the following is not one of the principles of information security?
 - [ ] Availability
 
 ##### Question 2
-
 Ensuring the accuracy and consistency of data, preventing it from being tampered with, either accidentally or intentionally, is expressed by which principle?
 - [ ] Confidentiality
 - [ ] Integrity
@@ -522,7 +520,6 @@ Ensuring the accuracy and consistency of data, preventing it from being tampered
 - [ ] Authentication
 
 ##### Question 3
-
 Which of the following hacker types does not belong to the category based on approach and behavior?
 - [ ] White Hat
 - [ ] Red Hat
@@ -530,7 +527,6 @@ Which of the following hacker types does not belong to the category based on app
 - [ ] Gray Hat
 
 ##### Question 4
-
 Which type of hacker is involved in malicious activities such as damaging systems, stealing information, and gaining unauthorized access?
 - [ ] Black Hat
 - [ ] Gray Hat
@@ -538,7 +534,6 @@ Which type of hacker is involved in malicious activities such as damaging system
 - [ ] Blue Hat
 
 ##### Question 5
-
 Which cybersecurity sub-field aims to understand how software or devices work, analyze malware, and find vulnerabilities?
 - [ ] Network Security
 - [ ] IoT Security
@@ -546,7 +541,6 @@ Which cybersecurity sub-field aims to understand how software or devices work, a
 - [ ] Reverse Engineering
 
 ##### Question 6
-
 Which of the following cybersecurity sub-fields focuses on the security of web-based applications?
 - [ ] Network Security
 - [ ] Cloud Security
@@ -554,7 +548,6 @@ Which of the following cybersecurity sub-fields focuses on the security of web-b
 - [ ] Reverse Engineering
 
 ##### Question 7
-
 Which of the following is a crucial social skill for someone looking to pursue a career in cybersecurity?
 - [ ] Fast typing
 - [ ] Advanced mathematics
@@ -562,54 +555,46 @@ Which of the following is a crucial social skill for someone looking to pursue a
 - [ ] Speed reading
 
 ##### Question 8
-
 What is the name of the team that acts from an attacker’s perspective to test an organization’s cybersecurity?
 - [ ] Black Team
-- [ ] Red Team
+- [x] Red Team
 - [ ] Blue Team
 - [ ] Purple Team
 
 ##### Question 9
-
 What role does the 'Purple Team' play in cybersecurity?
 - [ ] Working solely on attack scenarios.
 - [ ] Enhancing only defense mechanisms.
-- [ ] Combining the efforts of Red and Blue teams to maximize the effectiveness of attack and defense strategies.
+- [x] Combining the efforts of Red and Blue teams to maximize the effectiveness of attack and defense strategies.
 - [ ] Conducting cybersecurity training sessions.
 
 ##### Question 10
-
 Which type of penetration testing is conducted without any prior knowledge about the target system?
-- [ ] White Box
+- [x] White Box
 - [ ] Grey Box
 - [ ] Red Box
 - [ ] Black Box
 
 ##### Question 11
-
 Which of the following is not a commonly known penetration testing methodology?
 - [ ] OWASP
 - [ ] OSSTMM
-- [ ] OOP
+- [x] OOP
 - [ ] NIST
 
 ##### Question 12
-
 What is the abbreviation of the protocol used for sending email?
 SMTP
 
 ##### Question 13
-
 What is the commonly known port number for the FTP protocol used for file transfer over the internet?
 21
 
 ##### Question 14
-
 What is the commonly known port number for the HTTP protocol?
 80
 
 ##### Question 15
-
 What is the term for security vulnerabilities that are yet to be patched and generally unknown to the public?
 - [ ] OWASP TOP 10
 - [ ] CVE
