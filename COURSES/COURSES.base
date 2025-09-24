@@ -20,4 +20,4 @@ views:
     image: note.aliases
     cardSize: 300
     imageFit: contain
-    imageAspectRatio: 1.25
+    imageAspectRatio: 0.65
