@@ -132,16 +132,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
+                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "01 SECURITY ASSESSTMENT TYPES"
+                  "title": "05 COMMON VULNERABILITIES AND EXPOSURES (CVE)"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
+              "title": "Outline of 05 COMMON VULNERABILITIES AND EXPOSURES (CVE)"
             }
           },
           {
@@ -304,11 +304,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "b0461e78e85ce767",
   "lastOpenFiles": [
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/17 VENDOR SPECIFIC INFORMATION.md",
@@ -334,7 +335,6 @@
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/PRE SECURITY.md",
-    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WHAT THE SHELL.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
