@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/HACKVISER/CAPT.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CAPT"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -289,10 +289,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "COURSES/HACKVISER/CAPT.md",
+    "COURSES/COURSES.base",
     "COURSES/HACKVISER",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
