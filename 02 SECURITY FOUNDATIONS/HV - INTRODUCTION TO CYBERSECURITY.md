@@ -28,11 +28,11 @@ We can also define information security as the set of measures taken to prevent 
 
 ### Principles of Information Security: The CIA Triad
 
-[[THM - PRINCIPLES OF SECURITY^5]]
+[[THM - PRINCIPLES OF SECURITY#^58f409]]
 
 **Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it. [[THM - PRINCIPLES OF SECURITY#^e6c51a]]
 
-**Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered.
+**Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered. [[THM - PRINCIPLES OF SECURITY#^dc0537]]
 
 **Availability:** Ensures that information is easily accessible to authorized users when needed.
 
