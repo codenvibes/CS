@@ -36,8 +36,6 @@ Before starting this room, you should have finished the [Windows and AD Funda
 
 Press the **Start Machine** button below.
 
-Start Machine
-
 Start the AttackBox by pressing the **Start AttackBox** button at the top of this page. The AttackBox machine will start in Split-Screen view. If it is not visible, use the blue **Show Split View** button at the top of the page.
 
 You can use the SSH client on the AttackBox to connect to `MACHINE_IP` with the following credentials:
