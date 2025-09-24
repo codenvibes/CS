@@ -162,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OPEN_SOURCE_INTELLIGENCE_",
+                "query": "CIA",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -183,7 +183,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -289,7 +290,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/COURSES.base",
