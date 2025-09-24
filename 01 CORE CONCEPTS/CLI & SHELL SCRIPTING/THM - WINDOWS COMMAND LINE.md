@@ -114,6 +114,8 @@ Before moving on, it is good to mention a couple of tricks.
 
 First, you can pipe it through `more` if the output is too long. Then, you can view it page after page by pressing the space bar button. To demonstrate this, try running `driverquery` and compare it with running `driverquery | more`. In the latter, you can display the output page by page and you can exit it using `CTRL + C`.
 
+- `help` - Provides help information for a specific command
+- `cls` - Clears the Command Prompt screen.
 <div>
 <br>
 <br>
