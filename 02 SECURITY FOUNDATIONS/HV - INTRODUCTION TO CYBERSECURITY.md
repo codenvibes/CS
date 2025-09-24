@@ -10,16 +10,22 @@ Information is typically characterized by the highest possible degree of certain
 Ref: [Wikipedia](https://en.wikipedia.org/wiki/Knowledge)
 
 The most important feature of information is that it provides us with meaning and context about the world around us. For example, when we read a book or talk to someone, we learn new information and use this information to shape our thoughts and behaviors.
+<div>
+<br>
+</div>
 
-Information Security
+### Information Security
 
 Information security involves protecting information from unauthorized use, disclosure, destruction, alteration, damage, or preventing unauthorized access to it.
 
 Ref: [Wikipedia](https://en.wikipedia.org/wiki/Information_security)
 
 We can also define information security as the set of measures taken to prevent information from being harmed in the wrong hands.
+<div>
+<br>
+</div>
 
-Principles of Information Security: The CIA Triad
+### Principles of Information Security: The CIA Triad
 
 **Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it.
 
