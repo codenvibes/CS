@@ -404,7 +404,7 @@ Def-vulnerability: ==A vulnerability refers to a **weakness or flaw** in a syste
 
 **OWASP TOP 10:** A list ranking the most critical security vulnerabilities in web applications.
 
-**CVE (Common Vulnerabilities and Exposures):** A public directory that identifies known security vulnerabilities and exposures.
+**CVE (Common Vulnerabilities and Exposures):** A public directory that identifies known security vulnerabilities and exposures. 
 
 **CVSS (Common Vulnerability Scoring System):** A scoring system used to measure the severity of security vulnerabilities.
 <div>
