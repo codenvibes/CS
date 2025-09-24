@@ -110,10 +110,30 @@ The role of ethical hackers is to test and strengthen the security of computer s
 Ethical hackers perform penetration tests to identify potential security vulnerabilities, conduct vulnerability analysis, and perform risk assessments. Their goal is to uncover weaknesses that attackers could exploit and make recommendations to fix them.
 
 In the cybersecurity world, the role of ethical hackers is becoming increasingly important. As technology becomes more integrated into our lives, the demand for these experts in ensuring the security of the digital world also increases.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+|**Type of Hacker**|**Definition**|**Intent**|**Authorization**|**Legality**|**Methods Used**|**Impact**|**Examples**|
+|---|---|---|---|---|---|---|---|
+|**White-hat Hacker** (Ethical Hacker)|A security expert who uses hacking skills legally to test and strengthen computer systems.|Improve security, protect systems|Always has permission|Legal|Penetration testing, vulnerability assessment, ethical hacking tools|Strengthens cybersecurity|Penetration testers, security researchers|
+|**Black-hat Hacker** (Malicious Hacker)|A hacker who breaks into systems illegally to steal, exploit, or cause damage.|Personal gain, theft, disruption|No permission|Illegal|Malware, phishing, DDoS, ransomware, exploits|Data theft, financial loss, system disruption|Cybercriminals, ransomware operators|
+|**Gray-hat Hacker** (Hybrid Hacker)|A hacker who exploits vulnerabilities without permission, but not always for malicious reasons.|Curiosity, challenge, recognition, sometimes helpful|Usually no permission|Often illegal (but intent may not be harmful)|Exploits vulnerabilities, may disclose findings|Can cause unintentional harm or help improve security|Hackers who find flaws and report/publish them|
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 > "To be a hacker is to bring the impossible within reach through unexpected behaviors."
-> 
 > - Anonymous
+
 <div align="center">
 <br>
 <br>
