@@ -20,7 +20,7 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "THM"
+                    "viewName": "HACKVISER"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/HACKVISER/CAPT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of CAPT"
             }
           },
           {
@@ -289,11 +289,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/HACKVISER",
-    "COURSES/COURSES.base",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",

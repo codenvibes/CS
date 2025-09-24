@@ -12,3 +12,9 @@ views:
     image: note.aliases
     imageAspectRatio: 1
     cardSize: 200
+  - type: cards
+    name: HACKVISER
+    filters:
+      and:
+        - file.folder == "COURSES/HACKVISER"
+    image: note.aliases
