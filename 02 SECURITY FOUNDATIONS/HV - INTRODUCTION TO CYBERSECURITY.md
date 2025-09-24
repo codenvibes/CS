@@ -53,6 +53,22 @@ Today, especially with the widespread use of the internet, information security 
 ## Hacker
 
 The concept of "hack" is a versatile term used in various fields and can carry different meanings depending on the context. Generally, it can be described as using or modifying a system in unintended ways.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+DEF-Hacking: Hacking is the act of gaining unauthorized access to computer systems, networks, applications, or data, often by exploiting weaknesses in software, hardware, or human behavior.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※ ADDED NOTES ※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 A hacker is a skilled computer expert with in-depth technical knowledge of computer systems and networks, capable of utilizing this knowledge for various purposes.
 
