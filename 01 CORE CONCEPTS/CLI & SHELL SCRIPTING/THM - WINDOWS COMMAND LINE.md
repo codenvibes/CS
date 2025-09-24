@@ -75,6 +75,61 @@ cmd.exe
 <div style="page-break-after: always;"></div>
 
 ## 2. Basic System Information
+
+Before issuing commands, we should note that we can only issue the commands within the Windows Path. You can issue the command `set` to check your path from the command line. The terminal output below shows the path where MS Windows will execute commands, as indicated by the line starting with `Path=`.
+
+Terminal
+
+```shell-session
+C:\>set
+ALLUSERSPROFILE=C:\ProgramData
+[...]
+LOGNAME=strategos
+NUMBER_OF_PROCESSORS=2
+OS=Windows_NT
+Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\strategos\AppData\Local\Microsoft\WindowsApps;
+[...]
+```
+
+Let’s use the `ver` command to determine the operating system (OS) version. The terminal below shows an example output.
+
+Terminal
+
+```shell-session
+C:\>ver                                                                                                                                              
+Microsoft Windows [Version 10.0.17763.1821]
+```
+
+Enough warming up. Let’s discover more in-depth information about the system. We can run the `systeminfo` command to list various information about the system such as OS information, system details, processor and memory. The terminal below shows a snippet of the displayed output.
+
+Terminal
+
+```shell-session
+C:\>systeminfo
+
+Host Name:                 WIN-SRV-2019
+OS Name:                   Microsoft Windows Server 2019 Datacenter
+OS Version:                10.0.17763 N/A Build 17763
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Server
+OS Build Type:             Multiprocessor Free
+[...]
+```
+
+Before moving on, it is good to mention a couple of tricks.
+
+First, you can pipe it through `more` if the output is too long. Then, you can view it page after page by pressing the space bar button. To demonstrate this, try running `driverquery` and compare it with running `driverquery | more`. In the latter, you can display the output page by page and you can exit it using `CTRL + C`.
+
+- `help` - Provides help information for a specific command
+- `cls` - Clears the Command Prompt screen.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
