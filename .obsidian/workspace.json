@@ -118,12 +118,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/HACKVISER/CAPT.md",
+                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CAPT"
+                  "title": "HV -LINUX FUNDAMENTALS"
                 }
               }
             ],
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/HACKVISER/CAPT.md",
+                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CAPT"
+              "title": "Outline of HV -LINUX FUNDAMENTALS"
             }
           },
           {
@@ -291,9 +291,9 @@
   },
   "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "COURSES/HACKVISER/CAPT.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/HACKVISER/CAPT.md",
     "COURSES/COURSES.base",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
