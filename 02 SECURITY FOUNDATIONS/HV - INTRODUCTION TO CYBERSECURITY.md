@@ -370,11 +370,11 @@ The National Institute of Standards and Technology (NIST) penetration testing me
 
 Ports are virtual or physical connection points used for data transfer between computers.
 
-Physical Ports
+#### Physical Ports
 
 Physical ports are hardware-based connection points found on computers. Examples include USB, Ethernet, HDMI, and DisplayPort, which are used to connect various devices to the computer and facilitate data transfer.
 
-Virtual Ports
+#### Virtual Ports
 
 Virtual ports are numbered between 0 and 65535 and are used for communication over a network. Each port number is associated with specific services or protocols, and all data transfer over the internet occurs through these virtual ports.
 
@@ -394,6 +394,9 @@ Commonly used services and protocols operate on specific ports. Below is a table
 |3306|MySQL|
 |3389|RDP|
 |5432|PostgreSQL|
+<div>
+<br>
+</div>
 
 ### Vulnerability
 
@@ -404,6 +407,9 @@ A vulnerability refers to security weaknesses in computer systems. These weaknes
 **CVE (Common Vulnerabilities and Exposures):** A public directory that identifies known security vulnerabilities and exposures.
 
 **CVSS (Common Vulnerability Scoring System):** A scoring system used to measure the severity of security vulnerabilities.
+<div>
+<br>
+</div>
 
 ### Exploit
 
@@ -412,6 +418,9 @@ An exploit is the code or technique that enables the malicious use of a vulnerab
 **PoC (Proof of Concept):** Demo content demonstrating the exploitability of a vulnerability.
 
 **Zero Day:** Security vulnerabilities that are not yet patched and are generally unknown to the public.
+<div>
+<br>
+</div>
 
 ### Shell
 
@@ -424,6 +433,9 @@ Gaining a shell on a system allows an attacker to execute commands on the target
 **Reverse Shell:** A type of shell where the target machine connects back to the attacker's machine, allowing the execution of commands.
 
 **Web Shell:** A type of shell that includes a malicious script running on a web server, giving the attacker remote command execution capabilities.
+<div>
+<br>
+</div>
 
 ### IP (Internet Protocol) Address
 
