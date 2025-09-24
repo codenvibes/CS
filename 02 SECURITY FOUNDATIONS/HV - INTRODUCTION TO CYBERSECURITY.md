@@ -400,7 +400,7 @@ Commonly used services and protocols operate on specific ports. Below is a table
 
 ### Vulnerability
 
-A vulnerability refers to security weaknesses in computer systems. These weaknesses can be exploited by attackers to gain unauthorized access, steal data, or use the system for malicious purposes.
+A def-vulnerability refers to security weaknesses in computer systems. These weaknesses can be exploited by attackers to gain unauthorized access, steal data, or use the system for malicious purposes.
 
 **OWASP TOP 10:** A list ranking the most critical security vulnerabilities in web applications.
 
