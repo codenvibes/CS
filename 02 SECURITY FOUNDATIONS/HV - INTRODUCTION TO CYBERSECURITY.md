@@ -245,7 +245,7 @@ Below, you can see graphs showing employment numbers and workforce gaps in the c
 
 ![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/01489097-b2f5-43a9-baf8-18a9f1321e4d/cybersecurity-workforce-d8fd8334a.webp)
 
-The data were obtained from (ISC)² (International Information System Security Certification Consortium) reports.
+The data was obtained from (ISC)² (International Information System Security Certification Consortium) reports.
 
 As seen in the above graphs, although there is an increasing employment rate in recent years, the workforce gap also grows each year.
 
