@@ -14,8 +14,11 @@ There are many other advantages to using a CLI besides speed and efficiency. W
 - **Lower resource usage**: CLIs require fewer system resources than graphics-intensive GUIs. In other words, you can run your CLI system on older hardware or systems with limited memory. If you are using cloud computing, your system will require lower resources, which in turn will lower your bill.
 - **Automation**: While you can automate GUI tasks, creating a batch file or script with the commands you need to repeat is much easier.
 - **Remote management**: CLI makes it very convenient to use SSH to manage a remote system such as a server, router, or an IoT device. This approach works well on slow network speeds and systems with limited resources.
+<div>
+<br>
+</div>
 
-## Learning Objectives
+### Learning Objectives
 
 The purpose of this room is to teach you how to use MS Windows Command Prompt `cmd.exe`, the default command-line interpreter in the Windows environment. We will learn how to use the command line to:
 
@@ -23,8 +26,11 @@ The purpose of this room is to teach you how to use MS Windows Command Prompt `
 - Check and troubleshoot network configuration
 - Manage files and folders
 - Check running processes
+<div>
+<br>
+</div>
 
-## Room Prerequisites
+### Room Prerequisites
 
 Before starting this room, you should have finished the [Windows and AD Fundamentals](https://tryhackme.com/module/windows-and-active-directory-fundamentals) module.
 
@@ -38,8 +44,11 @@ You can use the SSH client on the AttackBox to connect to `MACHINE_IP` with 
 
 - Username: `user`
 - Password: `Tryhackme123!`
+<div>
+<br>
+</div>
 
-#### Establishing an SSH Connection from the AttackBox
+### Establishing an SSH Connection from the AttackBox
 
 If this is the first time you initiate an SSH connection from the AttackBox to a target system, the steps are shown in the screenshot below, and they are the following:
 
