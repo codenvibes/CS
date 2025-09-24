@@ -18,3 +18,5 @@ views:
       and:
         - file.folder == "COURSES/HACKVISER"
     image: note.aliases
+    cardSize: 310
+    imageFit: contain
