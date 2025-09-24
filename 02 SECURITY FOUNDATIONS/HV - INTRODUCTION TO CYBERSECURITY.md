@@ -509,26 +509,26 @@ Join Hackviser's Discord channel to become part of a community where you can get
 Which of the following is not one of the principles of information security?
 - [ ] Confidentiality
 - [ ] Integrity
-- [ ] Resilience
+- [x] Resilience
 - [ ] Availability
 
 ##### Question 2
 Ensuring the accuracy and consistency of data, preventing it from being tampered with, either accidentally or intentionally, is expressed by which principle?
 - [ ] Confidentiality
-- [ ] Integrity
+- [x] Integrity
 - [ ] Availability
 - [ ] Authentication
 
 ##### Question 3
 Which of the following hacker types does not belong to the category based on approach and behavior?
 - [ ] White Hat
-- [ ] Red Hat
+- [x] Red Hat
 - [ ] Black Hat
 - [ ] Gray Hat
 
 ##### Question 4
 Which type of hacker is involved in malicious activities such as damaging systems, stealing information, and gaining unauthorized access?
-- [ ] Black Hat
+- [x] Black Hat
 - [ ] Gray Hat
 - [ ] White Hat
 - [ ] Blue Hat
@@ -538,20 +538,20 @@ Which cybersecurity sub-field aims to understand how software or devices work, a
 - [ ] Network Security
 - [ ] IoT Security
 - [ ] Threat Intelligence
-- [ ] Reverse Engineering
+- [x] Reverse Engineering
 
 ##### Question 6
 Which of the following cybersecurity sub-fields focuses on the security of web-based applications?
 - [ ] Network Security
 - [ ] Cloud Security
-- [ ] Web Application Security
+- [x] Web Application Security
 - [ ] Reverse Engineering
 
 ##### Question 7
 Which of the following is a crucial social skill for someone looking to pursue a career in cybersecurity?
 - [ ] Fast typing
 - [ ] Advanced mathematics
-- [ ] Teamwork
+- [x] Teamwork
 - [ ] Speed reading
 
 ##### Question 8
