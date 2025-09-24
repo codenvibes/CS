@@ -401,7 +401,200 @@ Active Connections
 
 ## 4. File and Disk Management
 
+You have learned to look up basic system information and check the network configuration. Now, let’s discover how to browse the directories and move files around.
 
+### Working With Directories
+
+You can use `cd` without parameters to display the current drive and directory. It is the equivalent of asking the system, _where am I?_
+
+You can view the child directories using `dir`.
+
+Terminal
+
+```shell-session
+C:\Users\strategos>cd
+C:\Users\strategos
+
+C:\Users\strategos>dir 
+ Volume in drive C has no label. 
+ Volume Serial Number is A8A4-C362
+
+ Directory of C:\Users\strategos
+
+05/01/2024  02:40 PM    <DIR>          .
+05/01/2024  02:40 PM    <DIR>          ..
+11/14/2018  06:56 AM    <DIR>          Desktop
+05/01/2024  02:40 PM    <DIR>          Documents
+09/15/2018  07:19 AM    <DIR>          Downloads
+09/15/2018  07:19 AM    <DIR>          Favorites
+09/15/2018  07:19 AM    <DIR>          Links
+09/15/2018  07:19 AM    <DIR>          Music
+09/15/2018  07:19 AM    <DIR>          Pictures
+09/15/2018  07:19 AM    <DIR>          Saved Games
+09/15/2018  07:19 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              11 Dir(s)  14,984,953,856 bytes free
+```
+
+Note that you can use the following options with `dir`:
+
+- `dir /a` - Displays hidden and system files as well.
+- `dir /s` - Displays files in the current directory and all subdirectories.
+
+You can type `tree` to visually represent the child directories and subdirectories.
+
+Terminal
+
+```shell-session
+C:\Users\strategos>tree
+Folder PATH listing
+Volume serial number is A8A4-C362
+C:.
+├───Desktop
+├───Documents
+├───Downloads
+├───Favorites
+├───Links
+├───Music
+├───Pictures
+├───Saved Games
+└───Videos
+```
+
+You can change to any directory by using the command `cd target_directory`; this is equivalent to double-clicking the `target_directory` on your desktop. Furthermore, you can use `cd ..` to go up one level. An example is shown in the terminal output below.
+
+Terminal
+
+```shell-session
+C:\>cd
+C:\
+
+C:\>cd Users
+
+C:\Users>cd 
+C:\Users 
+
+C:\Users>cd .. 
+
+C:\>cd 
+C:\ 
+```
+
+To create a directory, use `mkdir directory_name`; `mkdir` stands for _make directory_. To delete a directory, use `rmdir directory_name`; `rmdir` stands for _remove directory_. The terminal output below shows creating and deleting a directory.
+
+Terminal
+
+```shell-session
+C:\example>mkdir backup_files
+
+strategos@WIN-SRV-2019 C:\example>dir
+ Directory of C:\example
+
+05/02/2024  07:36 AM    <DIR>          .
+05/02/2024  07:36 AM    <DIR>          ..
+05/02/2024  07:36 AM    <DIR>          backup_files
+               0 File(s)              0 bytes
+               3 Dir(s)  14,984,724,480 bytes free
+
+C:\example>rmdir backup_files
+
+C:\example>dir 
+ Directory of C:\example
+
+05/02/2024  07:36 AM    <DIR>          .
+05/02/2024  07:36 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  14,984,724,480 bytes free
+```
+
+## Working With Files
+
+You are working with the command line. You are curious about the contents of a particular text file. You can easily view text files with the command `type`. This command will dump the contents of the text file on the screen; this is convenient for files that fit within your terminal window. You might want to consider `more` for longer text files. This command will display enough text file contents to fill your terminal window. In other words, for long text files, `more` will display a single page and wait for you to press `Spacebar` to move by one page (flip the page) or `Enter` to move by one line.
+
+The `copy` command allows you to copy files from one location to another. The following terminal output provides an example.
+
+Terminal
+
+```shell-session
+C:\example>dir
+ Directory of C:\example
+
+05/02/2024  08:12 AM    <DIR>          .
+05/02/2024  08:12 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+               1 File(s)             17 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+
+C:\example>copy test.txt test2.txt
+        1 file(s) copied.
+
+C:\example>dir
+ Directory of C:\example
+
+05/02/2024  08:12 AM    <DIR>          .
+05/02/2024  08:12 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+05/02/2024  07:57 AM                17 test2.txt
+               2 File(s)             34 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+```
+
+Similarly, you can move files using the `move` command. An example is shown in the terminal output below.
+
+Terminal
+
+```shell-session
+C:\example>dir
+ Directory of C:\example
+
+05/02/2024  08:12 AM    <DIR>          .
+05/02/2024  08:12 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+05/02/2024  07:57 AM                17 test2.txt
+               2 File(s)             34 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+
+C:\example>move test2.txt .. 
+        1 file(s) moved. 
+
+C:\example>dir 
+ Directory of C:\example
+
+05/02/2024  08:13 AM    <DIR>          .
+05/02/2024  08:13 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+               1 File(s)             17 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+```
+
+Finally, we can delete a file using `del` or `erase`.
+
+Terminal
+
+```shell-session
+C:\example>dir
+ Directory of C:\example
+
+05/02/2024  08:16 AM    <DIR>          .
+05/02/2024  08:16 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+05/02/2024  07:57 AM                17 test2.txt
+               2 File(s)             34 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+
+C:\example>erase test2.txt
+
+C:\example>dir 
+ Directory of C:\example
+
+05/02/2024  08:16 AM    <DIR>          .
+05/02/2024  08:16 AM    <DIR>          ..
+05/02/2024  07:57 AM                17 test.txt
+               1 File(s)             17 bytes
+               2 Dir(s)  14,983,409,664 bytes free
+```
+
+We can use the wildcard character `*` to refer to multiple files. For example, `copy *.md C:\Markdown` will copy all files with the extension `md` to the directory `C:\Markdown`.
 <div>
 <br>
 <br>
