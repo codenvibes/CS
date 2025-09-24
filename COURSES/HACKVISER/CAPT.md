@@ -7,7 +7,7 @@ Number: "1"
 ---
 ## #INTRODUCTION
 
-Introduction to Cybersecurity
+INTRODUCTION TO CYBERSECURITY
 
 ## #OPERATING_SYSTEMS_FUNDAMENTALS
 
