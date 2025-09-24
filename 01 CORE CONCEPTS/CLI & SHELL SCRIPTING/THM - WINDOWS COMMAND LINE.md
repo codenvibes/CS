@@ -64,7 +64,7 @@ If this is the first time you initiate an SSH connection from the AttackBox to
 ### Questions
 
 ##### What is the default command line interpreter in the Windows environment?
-
+cmd.exe
 <div align="center">
 <br>
 <br>
