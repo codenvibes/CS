@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CVSS",
+                "query": "PAYLOAD",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -304,7 +304,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/04 COMMON VULNERABILITY SCORING SYSTEM (CVSS).md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
