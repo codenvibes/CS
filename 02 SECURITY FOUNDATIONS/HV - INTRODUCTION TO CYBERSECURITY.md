@@ -1,6 +1,7 @@
 ---
 tags:
   - CAPT
+  - INTRODUCTION
 aliases:
 ---
 ## Introduction
@@ -16,12 +17,11 @@ The most important feature of information is that it provides us with meaning an
 
 ### Information Security
 
-==Information security involves protecting information from unauthorized use, disclosure, destruction, alteration, damage, or preventing unauthorized access to it.==
+DEF-Information Security==Information security involves protecting information from unauthorized use, disclosure, destruction, alteration, damage, or preventing unauthorized access to it.==
 
 Ref: [Wikipedia](https://en.wikipedia.org/wiki/Information_security)
 
 We can also define information security as the set of measures taken to prevent information from being harmed in the wrong hands.
-DEF-Information Security
 <div>
 <br>
 </div>
