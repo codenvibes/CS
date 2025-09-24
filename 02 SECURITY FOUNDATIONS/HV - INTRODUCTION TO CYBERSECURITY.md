@@ -295,7 +295,7 @@ DEF-Blue Team:
 #### Purple Team
 
 DEF-Purple Team:
-The Purple Team aims to maximize the organization's cybersecurity capabilities by combining the efforts of the Red and Blue teams. Serving as a bridge between the Red and Blue teams, the Purple Team allows both sides to learn from each other and develop their skills. They guide the Blue Team on how to address vulnerabilities discovered by the Red Team and provide feedback to enhance the effectiveness of defense strategies.
+The Purple Team enhances an organization’s cybersecurity by combining the efforts of the Red and Blue teams. Serving as a bridge between the Red and Blue teams, the Purple Team allows both sides to learn from each other and develop their skills. They guide the Blue Team on how to address vulnerabilities discovered by the Red Team and provide feedback to enhance the effectiveness of defense strategies.
 <div>
 <br>
 </div>
