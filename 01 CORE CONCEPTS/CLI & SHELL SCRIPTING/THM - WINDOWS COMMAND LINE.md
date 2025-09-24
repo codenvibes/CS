@@ -123,7 +123,8 @@ First, you can pipe it through `more` if the output is too long. Then, you can
 
 ### Questions
 
-##### 
+##### What is the OS version of the Windows VM?
+##### What is the hostname of the Windows VM?
 <div align="center">
 <br>
 <br>
