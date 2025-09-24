@@ -132,16 +132,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/04 COMMON VULNERABILITY SCORING SYSTEM (CVSS).md",
+                    "file": "04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "04 COMMON VULNERABILITY SCORING SYSTEM (CVSS)"
+                  "title": "05 PAYLOADS"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+                "file": "04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HV - INTRODUCTION TO CYBERSECURITY"
+              "title": "Outline of 05 PAYLOADS"
             }
           },
           {
@@ -304,11 +304,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "b0461e78e85ce767",
   "lastOpenFiles": [
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/04 COMMON VULNERABILITY SCORING SYSTEM (CVSS).md",
-    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "COURSES/THM/CYBER SECURITY 101.md",
