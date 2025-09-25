@@ -7,10 +7,16 @@ aliases:
 ## Introduction
 
 Welcome to the beginning of our journey into the Linux operating system. In this section, we aim to introduce the fundamental concepts, history, significance of Linux in the modern computing landscape, and the core principles underpinning this powerful operating system.
+<div>
+<br>
+</div>
 
 ### What is Linux?
 
 Linux is a free and open-source operating system (OS) developed by Linus Torvalds in 1991 and continues to evolve. Since then, Linux has become a global phenomenon, powering everything from supercomputers to servers, mobile phones to personal computers. Known for its stability, security, and flexibility, Linux is a popular choice for both personal and professional use.
+<div>
+<br>
+</div>
 
 ### The Philosophy of Linux
 
@@ -21,6 +27,9 @@ Linux embodies the spirit of collaboration and freedom. Its development reflects
 - **Collaboration:** Thousands of developers worldwide contribute to Linux, keeping it sharp, secure, and responsive to user needs.
 
 - **Transparency:** The open-source nature of Linux provides a level of transparency unmatched by proprietary systems.
+<div>
+<br>
+</div>
 
 ### How Does Linux Work?
 
@@ -33,6 +42,9 @@ Linux supports multi-tasking and multi-user environments. This means multiple us
 The Linux file system is hierarchically organized, starting from the root directory (denoted as "/") and expanding into sub-directories. This organization makes it easy to manage and locate files.
 
 Around the kernel, there are many software tools and libraries that add extra functionality. These can include graphical user interfaces (GUIs), system utilities, and application software. Users can mix and match these components to create a Linux distribution that meets their specific needs. Linux distributions package the kernel with a selection of software to provide a complete operating system ready for use. Popular Linux distributions include Ubuntu, Fedora, and CentOS.
+<div>
+<br>
+</div>
 
 ### Linux Architecture
 
