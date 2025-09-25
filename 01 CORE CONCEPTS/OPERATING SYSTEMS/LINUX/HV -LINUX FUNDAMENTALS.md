@@ -59,7 +59,6 @@ The Linux operating system is composed of several layers that manage the compute
 3. **Shell Layer**: The shell is the user interface for accessing the services of the kernel. It is commonly a command-line interface (CLI) where users type commands, but graphical shells also exist. The shell allows users to interact with the kernel to run programs, manage files, and request other services by typing commands or using a graphical interface.
 
 4. **System Utility Layer**: This layer contains various tools and applications necessary for performing tasks on the computer. System utilities can range from file management tools to software installers, network configuration tools, and more. They serve as a bridge between the user's commands (entered in the shell or through a graphical interface) and the kernel's handling of those commands.
-    
 
 In summary, Linux architecture organizes the interaction between the computer's hardware and user activities from physical components to software applications through a well-defined management and control layer.
 <div align="center">
