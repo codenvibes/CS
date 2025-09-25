@@ -53,11 +53,11 @@ The Linux operating system is composed of several layers that manage the compute
 ![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/68a4d2f6-4913-4850-b2cd-ec08a7918b4c/linux-layers-a4d3a0334.webp)
 
 1. **Hardware Layer**: This is the physical foundation of the system, composed of the computer's processor (CPU), memory (RAM), storage (hard disks), and peripherals such as keyboards, mice, and printers.
-    
+
 2. **Kernel Layer**: The kernel is the heart of Linux and is vital to the operating system. It acts as an intermediary between software and hardware. The kernel manages tasks such as memory allocation, process scheduling (deciding when and what tasks the CPU should execute), and handling input/output requests from software. This layer ensures that different programs and users running on the system do not interfere with each other and have the necessary resources to operate.
-    
+
 3. **Shell Layer**: The shell is the user interface for accessing the services of the kernel. It is commonly a command-line interface (CLI) where users type commands, but graphical shells also exist. The shell allows users to interact with the kernel to run programs, manage files, and request other services by typing commands or using a graphical interface.
-    
+
 4. **System Utility Layer**: This layer contains various tools and applications necessary for performing tasks on the computer. System utilities can range from file management tools to software installers, network configuration tools, and more. They serve as a bridge between the user's commands (entered in the shell or through a graphical interface) and the kernel's handling of those commands.
     
 
