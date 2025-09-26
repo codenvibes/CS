@@ -171,6 +171,9 @@ In conclusion, Linux distributions offer a wide range of choices for users of al
 The Linux shell is a unique program that acts as a bridge between the user and the services of the operating system. It takes commands entered in a human-readable format, such as text typed on a keyboard or stored in a file, and translates them into a form that the operating system's kernel can process. The shell functions essentially as a command-language interpreter, executing these instructions. It becomes active automatically when users log into their accounts or start a terminal session.
 
 In Linux, there are two main types of shells: **Command Line** and **Graphical Interface**.
+<div>
+<br>
+</div>
 
 ### Command Line
 
@@ -182,15 +185,18 @@ A terminal on Linux looks like this:
 
 In the given screenshot, the
 
-ls
+`ls`
 
 command is executed with the
 
--l
+`-l`
 
 option. This command lists all files in the current directory in a long format.
 
 Using the command line can be challenging at first because remembering commands might be difficult. However, its power lies in its flexibility and strength; users can compile scripts and execute them simultaneously, making it easy to automate repetitive tasks. In the Linux context, these scripts are often referred to as shell scripts.
+<div>
+<br>
+</div>
 
 ### Graphical Interface
 
@@ -214,6 +220,9 @@ Linux operating systems offer various shells, each with unique features and comm
     
 
 While all these shells perform the basic task of command interpretation, they vary in the specific commands they support, built-in functionalities, and scripting capabilities, allowing users to choose the shell that best fits their preferences and needs.
+<div>
+<br>
+</div>
 
 ### What is a Terminal?
 
