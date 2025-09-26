@@ -183,15 +183,7 @@ A terminal on Linux looks like this:
 
 ![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/68a4d2f6-4913-4850-b2cd-ec08a7918b4c/terminal-example-2fe48b7c6.webp)
 
-In the given screenshot, the
-
-`ls`
-
-command is executed with the
-
-`-l`
-
-option. This command lists all files in the current directory in a long format.
+In the given screenshot, the `ls` command is executed with the `-l` option. This command lists all files in the current directory in a long format.
 
 Using the command line can be challenging at first because remembering commands might be difficult. However, its power lies in its flexibility and strength; users can compile scripts and execute them simultaneously, making it easy to automate repetitive tasks. In the Linux context, these scripts are often referred to as shell scripts.
 <div>
@@ -209,15 +201,14 @@ A graphical interface on a typical Linux system looks like this:
 Linux operating systems offer various shells, each with unique features and command syntax:
 
 - **BASH (Bourne Again SHell)**: The most widely used Linux shell, serving as the default shell on Linux and macOS. BASH is known for its comprehensive scripting capabilities and extensive support.
-    
+
 - **CSH (C Shell)**: The syntax and usage of C Shell are similar to the C programming language, making it appealing for users familiar with C.
-    
+
 - **KSH (Korn Shell)**: The Korn Shell, which forms the basis for the POSIX Shell standard features, combines elements from BASH and CSH, offering powerful scripting abilities and command-line editing features.
-    
+
 - **ZSH (Z Shell)**: ZSH incorporates features from BASH, KSH, and TCSH, offering robust auto-completion functions, customizable prompts, and numerous plugins and themes through frameworks like Oh My Zsh.
-    
+
 - **Fish (Friendly Interactive SHell)**: Known for its user-friendly interface, Fish provides features like syntax highlighting, auto-suggestions, and tab completions without requiring additional configuration.
-    
 
 While all these shells perform the basic task of command interpretation, they vary in the specific commands they support, built-in functionalities, and scripting capabilities, allowing users to choose the shell that best fits their preferences and needs.
 <div>
