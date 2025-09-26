@@ -73,14 +73,23 @@ In summary, Linux architecture organizes the interaction between the computer's 
 ## Linux Distributions
 
 Linux is not a single operating system but a family of open-source operating systems built around the Linux kernel. These variants are known as "distributions" or "distros." Each distribution offers a different flavor of Linux tailored for various types of users, devices, and purposes. This section explores the concept of Linux distributions, their importance, and examples of popular distros.
+<div>
+<br>
+</div>
 
 ### What are Linux Distributions?
 
 A Linux distribution is a complete operating system built around the Linux kernel. It includes the kernel, a wide array of software applications, libraries, and optionally a graphical user interface (GUI). Distros are developed by various organizations, communities, and even individuals, focusing on different needs such as usability, stability, security, or customization.
+<div>
+<br>
+</div>
 
 ### Why Are There Different Distributions?
 
 The diversity of Linux distributions stems from the philosophy of freedom and flexibility. Different users have different needs, ranging from personal computers to servers, from beginners to experts, and from lightweight systems for older hardware to feature-rich environments for modern machines. Distributions meet these varied requirements by offering specialized software packages, user interfaces, and management tools.
+<div>
+<br>
+</div>
 
 ### Core Components of a Distribution
 
@@ -92,44 +101,50 @@ While each distribution offers unique features and software, they all share seve
 - **Package Manager**: A tool for installing, updating, and managing software applications and components.
 - **Bootloader**: Software that manages the boot process of the computer after power is turned on.
 - **Graphical User Interface (GUI)**: Optional, but most distros offer a GUI for ease of use, such as GNOME, KDE, or XFCE.
+<div>
+<br>
+</div>
 
 ### Popular Linux Distributions
 
-Ubuntu
+#### Ubuntu
 
 - **Target Audience**: Beginner and regular desktop users.
 - **Features**: User-friendly, strong focus on ease of installation and usability. Extensive documentation and community support.
 - **Use Cases**: Desktops, servers, and cloud environments.
 
-Fedora
+#### Fedora
 
 - **Target Audience**: Developers and system administrators.
 - **Features**: Cutting-edge technology, close alignment with the Linux community, strong emphasis on free software.
 - **Use Cases**: Development, servers, and workstations.
 
-CentOS
+#### CentOS
 
 - **Target Audience**: Servers and enterprise users.
 - **Features**: Stability and long-term support, binary compatibility with RHEL (Red Hat Enterprise Linux).
 - **Use Cases**: Servers, enterprise environments.
 
-Debian
+#### Debian
 
 - **Target Audience**: Advanced users and environments focusing on stability.
 - **Features**: Large package repository, strict free software guidelines, stability.
 - **Use Cases**: Servers, desktops, embedded systems.
 
-Arch Linux
+#### Arch Linux
 
 - **Target Audience**: Experienced users and enthusiasts.
 - **Features**: Rolling release model, user-centric approach focusing on customization and minimalism.
 - **Use Cases**: Desktops, development, personal servers.
 
-Kali Linux
+#### Kali Linux
 
 - **Target Audience**: Security professionals and ethical hackers.
 - **Features**: Preloaded with a wide range of tools for penetration testing, security research, computer forensics, and reverse engineering.
 - **Use Cases**: Security research, penetration testing, and ethical hacking.
+<div>
+<br>
+</div>
 
 ### Choosing the Right Distribution
 
