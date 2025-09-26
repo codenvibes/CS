@@ -127,7 +127,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
+                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WINDOWS COMMAND LINE"
+              "title": "Outline of HV -LINUX FUNDAMENTALS"
             }
           },
           {
@@ -289,8 +289,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "COURSES/COURSES.base",
@@ -307,7 +308,6 @@
     "02 SECURITY FOUNDATIONS/THM - PRINCIPLES OF SECURITY.md",
     "COURSES/HTB",
     "COURSES/HACKVISER",
-    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
