@@ -125,9 +125,19 @@
                   "icon": "lucide-file",
                   "title": "HV -LINUX FUNDAMENTALS"
                 }
+              },
+              {
+                "id": "a9a7f4c54f83fbd1",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -250,13 +260,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HV -LINUX FUNDAMENTALS"
+              "title": "Outline"
             }
           },
           {
@@ -289,10 +298,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "a9a7f4c54f83fbd1",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/COURSES.base",
     "COURSES/HACKVISER/CAPT.md",
