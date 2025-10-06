@@ -78,6 +78,7 @@
               {
                 "id": "0a6f434a8cd9f151",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -85,6 +86,7 @@
                     "mode": "source",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "CS JOURNAL"
                 }
