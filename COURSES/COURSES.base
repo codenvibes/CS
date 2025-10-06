@@ -10,8 +10,8 @@ views:
       - property: Number
         direction: ASC
     image: note.aliases
-    imageAspectRatio: 1
-    cardSize: 200
+    imageAspectRatio: 0.95
+    cardSize: 170
   - type: cards
     name: HACKVISER
     filters:

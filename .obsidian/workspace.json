@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 34.82704402515723,
+            "dimension": 40.81475787855496,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -64,7 +64,7 @@
           {
             "id": "4cae9467a36be2f0",
             "type": "tabs",
-            "dimension": 65.17295597484276,
+            "dimension": 59.18524212144505,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -305,10 +305,11 @@
   },
   "active": "a9a7f4c54f83fbd1",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
+    "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/COURSES.base",
     "COURSES/HACKVISER/CAPT.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
@@ -332,7 +333,6 @@
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/SOC LEVEL 1.md",
-    "TEMPLATES/COURSE.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
