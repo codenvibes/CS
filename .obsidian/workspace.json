@@ -264,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OWASP TOP 10 - 2021"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -303,8 +303,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS",
     "TEMPLATES/GENERAL.md",
     "COURSES/COURSES.base",
@@ -350,7 +351,6 @@
     "Pasted image 20250916124724.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
-    "08 TOOLS/NMAP",
     "Untitled.canvas"
   ]
 }
