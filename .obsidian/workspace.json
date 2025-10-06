@@ -197,8 +197,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -304,7 +303,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "TEMPLATES/GENERAL.md",
     "COURSES/COURSES.base",
