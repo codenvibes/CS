@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "owasp",
+                "query": "DEF-OWASP",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
