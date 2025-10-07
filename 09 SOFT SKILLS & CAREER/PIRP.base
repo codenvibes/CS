@@ -32,6 +32,5 @@ views:
         - and:
             - file.inFolder("13 CTFS")
             - file.name.contains("PRESENTATION")
-    image: note.aliases
     cardSize: 280
     imageAspectRatio: 0.45
