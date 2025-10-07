@@ -12,8 +12,10 @@ views:
   - type: cards
     name: REPORTS
     filters:
-      and:
+      or:
         - file.inFolder("09 SOFT SKILLS & CAREER/REPORTS")
+        - and:
+            - file.name.contains("REPORT")
     cardSize: 280
   - type: cards
     name: PRESENTATIONS
