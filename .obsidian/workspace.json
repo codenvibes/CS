@@ -152,7 +152,7 @@
                   "type": "bases",
                   "state": {
                     "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "Table"
+                    "viewName": "View"
                   },
                   "icon": "lucide-table",
                   "title": "PIRP"
@@ -282,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/Untitled.md",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -321,12 +321,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "09 SOFT SKILLS & CAREER/Untitled",
+    "09 SOFT SKILLS & CAREER/Untitled.md",
+    "09 SOFT SKILLS & CAREER/REPORTS",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "09 SOFT SKILLS & CAREER/Untitled.md",
     "08 TOOLS/00 TOOLS.md",
     "COURSES/COURSES.base",
     "CS JOURNAL.md",
@@ -364,7 +364,6 @@
     "ASSETS/Pasted image 20250922145522.png",
     "ASSETS/Pasted image 20250916124724.png",
     "COURSES",
-    "Untitled.base",
     "Pasted image 20250922151239.png",
     "Pasted image 20250922145752.png",
     "Pasted image 20250922145522.png",

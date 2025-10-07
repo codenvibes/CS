@@ -1,3 +1,8 @@
 views:
   - type: table
-    name: Table
+    name: PREP
+    filters:
+      and:
+        - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEW_PREP")
+  - type: table
+    name: View
