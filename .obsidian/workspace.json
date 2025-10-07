@@ -235,8 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -299,13 +298,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBERSHUJAA TRAINER"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -339,10 +338,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "15e2938ed94bf975",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
