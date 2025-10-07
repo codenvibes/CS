@@ -284,13 +284,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of 17 REPORTING"
             }
           },
           {
@@ -323,10 +323,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "WHITE-BOARD/TODO.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",

@@ -19,6 +19,7 @@ views:
             - file.name.contains("REPORT")
         - and:
             - file.inFolder("/")
+            - file.hasTag("tags", "REPORT_WRITING")
     cardSize: 280
   - type: cards
     name: PRESENTATIONS
