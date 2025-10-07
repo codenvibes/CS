@@ -11,7 +11,7 @@ views:
         - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEWS")
     image: note.aliases
     cardSize: 290
-    imageAspectRatio: 0.35
+    imageAspectRatio: 0.45
   - type: cards
     name: REPORTS
     filters:
