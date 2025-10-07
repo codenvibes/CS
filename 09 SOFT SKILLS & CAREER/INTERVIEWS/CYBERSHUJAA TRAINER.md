@@ -13,3 +13,7 @@ aliases:
 
 ## Deliverables Checklist
 
+Presentation slides
+Presentation script
+Demo
+Lesson Plan
