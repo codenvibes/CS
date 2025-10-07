@@ -150,14 +150,12 @@
                 "id": "182f4d1725c9749f",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "THM - WINDOWS COMMAND LINE"
+                  "icon": "lucide-file-text",
+                  "title": "H4K-IT REPORT"
                 }
               }
             ],
@@ -284,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of H4K-IT REPORT"
             }
           },
           {
@@ -323,11 +321,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "182f4d1725c9749f",
   "lastOpenFiles": [
+    "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Untitled.md",
     "COURSES/COURSES.base",
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/Untitled.md",
     "09 SOFT SKILLS & CAREER/REPORTS",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS",
@@ -338,7 +338,6 @@
     "09 SOFT SKILLS & CAREER/INTERVIEWS",
     "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
-    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/HACKVISER/CAPT.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
@@ -357,7 +356,6 @@
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
