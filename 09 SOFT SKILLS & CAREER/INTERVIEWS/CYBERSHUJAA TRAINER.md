@@ -17,5 +17,5 @@ aliases:
 - [ ] Presentation script
 - [ ] Lesson Plan
 - [ ] Demo
-- [ ] Cheat sheet
+- [ ] Cheat sheet and Visual Summary
 - [ ] Mini quiz / Reflection
