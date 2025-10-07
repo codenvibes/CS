@@ -17,6 +17,8 @@ views:
         - and:
             - file.inFolder("13 CTFS")
             - file.name.contains("REPORT")
+        - and:
+            - file.tags == ["REPORT_WRITING"]
     cardSize: 280
   - type: cards
     name: PRESENTATIONS
