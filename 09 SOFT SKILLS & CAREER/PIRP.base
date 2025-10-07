@@ -22,3 +22,4 @@ views:
         - and:
             - file.inFolder("13 CTFS")
             - file.name.contains("PRESENTATION")
+    cardSize: 270
