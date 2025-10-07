@@ -149,14 +149,13 @@
                 "id": "6b2536b183f7f9a6",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "bases",
                   "state": {
-                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                    "viewName": "Table"
                   },
-                  "icon": "lucide-file",
-                  "title": "HV -LINUX FUNDAMENTALS"
+                  "icon": "lucide-table",
+                  "title": "PIRP"
                 }
               }
             ],
@@ -283,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/00 TOOLS.md",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 TOOLS"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -322,8 +321,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5735fcb3b6b15483",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "08 TOOLS/00 TOOLS.md",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
     "CS JOURNAL.md",
     "README.md",
@@ -368,7 +369,6 @@
     "Pasted image 20250922145522.png",
     "Pasted image 20250916124724.png",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
-    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION",
     "Untitled.canvas"
   ]
 }
