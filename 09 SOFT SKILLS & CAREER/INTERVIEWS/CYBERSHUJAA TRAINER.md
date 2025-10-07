@@ -22,3 +22,6 @@ aliases:
 - [ ] Cheat sheet and Visual Summary
 - [ ] Mini quiz / Reflection
 	- [ ] "Spot the vulnerability"
+
+
+Here's the inclist of things I want on the slides 
