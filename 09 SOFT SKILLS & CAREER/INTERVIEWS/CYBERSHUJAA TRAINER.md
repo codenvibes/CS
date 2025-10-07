@@ -8,4 +8,4 @@ aliases:
 > 
 > As the next step in the selection process, we’d like to invite you to participate in a training simulation exercise. Please prepare a 10-minute lesson on the topic of OWASP Top 10.
 
-Based on the extract from this email I am required to create a 10 minute lesson. So other than presentation slides wah
+Based on the extract from this email I am required to create a 10 minute lesson. So other than presentation slides, a simulation and a script what else do you think I should create to impress the panel?
