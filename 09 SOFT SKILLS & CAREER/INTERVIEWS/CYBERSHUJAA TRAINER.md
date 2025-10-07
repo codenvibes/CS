@@ -15,6 +15,7 @@ aliases:
 
 - [ ] Presentation slides
 - [ ] Presentation script
+- [ ] Lesson Plan
 - [ ] Demo
 - [ ] Cheat sheet
 - [ ] Mini quiz / Reflection
