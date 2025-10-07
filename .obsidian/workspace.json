@@ -298,13 +298,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBERSHUJAA TRAINER"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -337,10 +337,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "15e2938ed94bf975",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "COURSES/COURSES.base",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
