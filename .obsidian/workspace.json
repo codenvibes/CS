@@ -166,12 +166,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CYBERSHUJAA TRAINER"
+                  "title": "THM - OWASP TOP 10 - 2021"
                 }
               }
             ],
@@ -338,7 +338,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "15e2938ed94bf975",
   "lastOpenFiles": [
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "WHITE-BOARD/WHITE-BOARD.md",
