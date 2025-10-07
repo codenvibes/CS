@@ -282,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of H4K-IT REPORT"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -321,8 +321,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "182f4d1725c9749f",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
+    "WHITE-BOARD/TODO.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
@@ -355,16 +357,13 @@
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
-    "ASSETS/Unconfirmed 560567.crdownload",
     "ASSETS/Pasted image 20250922151239.png",
     "ASSETS/Pasted image 20250922145752.png",
     "ASSETS/Pasted image 20250922145522.png",
     "ASSETS/Pasted image 20250916124724.png",
-    "COURSES",
     "Pasted image 20250922151239.png",
     "Pasted image 20250922145752.png",
     "Pasted image 20250922145522.png",
