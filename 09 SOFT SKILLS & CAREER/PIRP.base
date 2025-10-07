@@ -17,7 +17,7 @@ views:
   - type: cards
     name: PRESENTATIONS
     filters:
-      and:
+      or:
         - file.inFolder("09 SOFT SKILLS & CAREER/PRESENTATIONS")
-        - and:
+        - or:
             - file.inFolder("13 CTFS")
