@@ -19,3 +19,5 @@ views:
     filters:
       and:
         - file.inFolder("09 SOFT SKILLS & CAREER/PRESENTATIONS")
+        - and:
+            - file.inFolder("13 CTFS")
