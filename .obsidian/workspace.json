@@ -28,6 +28,21 @@
                 }
               },
               {
+                "id": "6b2536b183f7f9a6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                    "viewName": "PRESENTATIONS"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "PIRP"
+                }
+              },
+              {
                 "id": "5735fcb3b6b15483",
                 "type": "leaf",
                 "pinned": true,
@@ -144,22 +159,9 @@
                   "icon": "lucide-file",
                   "title": "THM - WINDOWS COMMAND LINE"
                 }
-              },
-              {
-                "id": "6b2536b183f7f9a6",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "REPORTS"
-                  },
-                  "icon": "lucide-layout-grid",
-                  "title": "PIRP"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -323,12 +325,13 @@
   },
   "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "09 SOFT SKILLS & CAREER/PRESENTATIONS/Untitled.md",
+    "COURSES/COURSES.base",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/Untitled.md",
     "09 SOFT SKILLS & CAREER/REPORTS",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS",
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "08 TOOLS/00 TOOLS.md",
-    "COURSES/COURSES.base",
     "CS JOURNAL.md",
     "README.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
