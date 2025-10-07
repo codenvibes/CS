@@ -282,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "09 SOFT SKILLS & CAREER/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -321,10 +321,13 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "08 TOOLS/00 TOOLS.md",
+    "09 SOFT SKILLS & CAREER/Untitled",
+    "09 SOFT SKILLS & CAREER/PRESENTATIONS",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "09 SOFT SKILLS & CAREER/Untitled.md",
+    "08 TOOLS/00 TOOLS.md",
     "COURSES/COURSES.base",
     "CS JOURNAL.md",
     "README.md",
@@ -352,8 +355,6 @@
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/DEVSECOPS.md",
-    "COURSES/THM/DEFENDING AZURE.md",
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
@@ -368,7 +369,6 @@
     "Pasted image 20250922145752.png",
     "Pasted image 20250922145522.png",
     "Pasted image 20250916124724.png",
-    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/Untitled.base",
     "Untitled.canvas"
   ]
 }
