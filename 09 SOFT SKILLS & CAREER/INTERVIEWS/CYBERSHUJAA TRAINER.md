@@ -23,17 +23,3 @@ aliases:
 - [ ] Mini quiz / Reflection
 	- [ ] "Spot the vulnerability"
 
-
-Here's the list of things I want on the slides 
-- [ ] Presentation slides
-	- [ ] the owasp top10 content
-	- [ ] **Real-world case study** — e.g., how a known company got breached due to an OWASP issue.
-- [ ] Lesson Plan
-- [ ] Demo
-	- [ ] Short explainer animation
-- [ ] Cheat sheet and Visual Summary
-	- [ ] link to longer version/notes
-	- [ ] Cheat sheet
-	- [ ] links to comprehensive resources
-- [ ] Mini quiz / Reflection
-	- [ ] "Spot the vulnerability"
