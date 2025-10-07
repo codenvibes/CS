@@ -105,9 +105,19 @@
                   "icon": "lucide-file",
                   "title": "CS JOURNAL"
                 }
+              },
+              {
+                "id": "ed8a6a37ca4c9d1f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 6
           },
           {
             "id": "4cae9467a36be2f0",
@@ -299,13 +309,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBERSHUJAA TRAINER"
+              "title": "Outline"
             }
           },
           {
@@ -339,7 +348,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "15e2938ed94bf975",
+  "active": "ed8a6a37ca4c9d1f",
   "lastOpenFiles": [
     "WHITE-BOARD/WHITE-BOARD.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
