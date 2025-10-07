@@ -14,9 +14,11 @@ aliases:
 ## Deliverables Checklist
 
 - [ ] Presentation slides
+	- [ ] **Real-world case study** — e.g., how a known company got breached due to an OWASP issue.
 - [ ] Presentation script
 - [ ] Lesson Plan
 - [ ] Demo
+	- [ ] Short explainer animation
 - [ ] Cheat sheet and Visual Summary
 - [ ] Mini quiz / Reflection
 	- [ ] "Spot the vulnerability"
