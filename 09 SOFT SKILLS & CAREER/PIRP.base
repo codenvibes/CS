@@ -19,5 +19,6 @@ views:
     filters:
       or:
         - file.inFolder("09 SOFT SKILLS & CAREER/PRESENTATIONS")
-        - or:
+        - and:
             - file.inFolder("13 CTFS")
+            - file.name.contains("PRESENTATION")
