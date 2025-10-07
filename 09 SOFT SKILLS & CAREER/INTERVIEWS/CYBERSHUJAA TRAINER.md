@@ -19,3 +19,4 @@ aliases:
 - [ ] Demo
 - [ ] Cheat sheet and Visual Summary
 - [ ] Mini quiz / Reflection
+	- [ ] "Spot the vulnerability"
