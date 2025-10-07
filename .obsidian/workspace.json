@@ -150,12 +150,14 @@
                 "id": "182f4d1725c9749f",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf"
+                    "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "H4K-IT REPORT"
+                  "icon": "lucide-file",
+                  "title": "17 REPORTING"
                 }
               }
             ],
@@ -194,7 +196,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "DEF-OWASP",
+                "query": "file:REPORT",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -282,13 +284,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of 17 REPORTING"
             }
           },
           {
@@ -321,10 +323,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "WHITE-BOARD/TODO.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
