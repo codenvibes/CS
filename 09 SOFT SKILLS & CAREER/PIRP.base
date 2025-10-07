@@ -1,8 +1,13 @@
 views:
-  - type: table
+  - type: cards
     name: PREP
     filters:
       and:
         - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEW_PREP")
-  - type: table
-    name: View
+  - type: cards
+    name: INTERVIEWS
+    filters:
+      and:
+        - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEWS")
+  - type: cards
+    name: REPORTS

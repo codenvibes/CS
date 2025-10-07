@@ -152,9 +152,9 @@
                   "type": "bases",
                   "state": {
                     "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "View"
+                    "viewName": "REPORTS"
                   },
-                  "icon": "lucide-table",
+                  "icon": "lucide-layout-grid",
                   "title": "PIRP"
                 }
               }
