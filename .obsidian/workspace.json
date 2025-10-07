@@ -35,7 +35,7 @@
                   "type": "bases",
                   "state": {
                     "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "REPORTS"
+                    "viewName": "INTERVIEWS"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -339,9 +339,9 @@
   },
   "active": "15e2938ed94bf975",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
-    "09 SOFT SKILLS & CAREER/INTERVIEWS/Untitled.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "09 SOFT SKILLS & CAREER/INTERVIEWS/Untitled.md",
+    "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "COURSES/COURSES.base",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "WHITE-BOARD/TODO.md",
@@ -373,7 +373,6 @@
     "COURSES/HTB",
     "COURSES/HACKVISER",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
-    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "COURSES/THM",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
