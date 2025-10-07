@@ -11,3 +11,11 @@ views:
         - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEWS")
   - type: cards
     name: REPORTS
+    filters:
+      and:
+        - file.inFolder("09 SOFT SKILLS & CAREER/REPORTS")
+  - type: cards
+    name: PRESENTATIONS
+    filters:
+      and:
+        - file.inFolder("09 SOFT SKILLS & CAREER/PRESENTATIONS")
