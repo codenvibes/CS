@@ -15,7 +15,7 @@ views:
       or:
         - file.inFolder("09 SOFT SKILLS & CAREER/REPORTS")
         - and:
-            - file.folder == "13 CTFS"
+            - file.inFolder("13 CTFS")
             - file.name.contains("REPORT")
     cardSize: 280
   - type: cards
