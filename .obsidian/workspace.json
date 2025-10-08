@@ -121,7 +121,7 @@
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 3
           },
           {
             "id": "4cae9467a36be2f0",
@@ -352,11 +352,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e3f7abe6e3286223",
+  "active": "15e2938ed94bf975",
   "lastOpenFiles": [
     "WHITE-BOARD/WHITE-BOARD.md",
-    "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+    "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "CS JOURNAL.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
