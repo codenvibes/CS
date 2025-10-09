@@ -16,3 +16,5 @@ aliases:
 - [x] Presentation slides
 - [x] Presentation script
 
+
+![[CYBER SHUJAA TRAINER PRESENTATION.pdf]]
