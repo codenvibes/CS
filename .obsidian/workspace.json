@@ -121,7 +121,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 6
           },
           {
             "id": "4cae9467a36be2f0",
@@ -324,8 +324,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "e3f7abe6e3286223",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
@@ -337,7 +338,6 @@
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
     "COURSES/COURSES.base",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
-    "WHITE-BOARD/TODO.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Untitled.md",
