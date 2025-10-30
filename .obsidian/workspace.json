@@ -165,12 +165,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/RED TEAMING.md",
+                    "file": "COURSES/THM/SOC LEVEL 1.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "RED TEAMING"
+                  "title": "SOC LEVEL 1"
                 }
               }
             ],
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/RED TEAMING.md",
+                "file": "COURSES/THM/SOC LEVEL 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RED TEAMING"
+              "title": "Outline of SOC LEVEL 1"
             }
           },
           {
@@ -353,6 +353,8 @@
   "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
+    "COURSES/THM/SECURITY ENGINEER.md",
+    "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/PRE SECURITY.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/DEVSECOPS.md",
@@ -384,8 +386,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "COURSES/HACKVISER/CAPT.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
-    "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
-    "04 EXPLOITATION/METASPLOIT FRAMEWORK/05 PAYLOADS.md",
     "COURSES/HTB",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
