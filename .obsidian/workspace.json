@@ -165,12 +165,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                    "file": "COURSES/THM/DEFENDING AZURE.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "ATTACKING AND DEFENDING AWS"
+                  "title": "DEFENDING AZURE"
                 }
               }
             ],
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                "file": "COURSES/THM/DEFENDING AZURE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ATTACKING AND DEFENDING AWS"
+              "title": "Outline of DEFENDING AZURE"
             }
           },
           {
@@ -353,6 +353,8 @@
   "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "WHITE-BOARD/TODO.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
@@ -376,7 +378,6 @@
     "09 SOFT SKILLS & CAREER/INTERVIEWS",
     "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
-    "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/HACKVISER/CAPT.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/THM - EXPLOIT VULNERABILITIES.md",
@@ -385,7 +386,6 @@
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/05 COMMON VULNERABILITIES AND EXPOSURES (CVE).md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
-    "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
     "COURSES/HTB",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
