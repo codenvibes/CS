@@ -166,12 +166,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CYBERSHUJAA TRAINER"
+                  "title": "HV -LINUX FUNDAMENTALS"
                 }
               }
             ],
@@ -299,13 +299,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of HV -LINUX FUNDAMENTALS"
             }
           },
           {
@@ -352,8 +352,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
+    "TEMPLATES/COURSE.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
@@ -386,7 +388,6 @@
     "09 SOFT SKILLS & CAREER/Untitled.md",
     "09 SOFT SKILLS & CAREER/REPORTS",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS",
-    "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS",
     "COURSES/HTB",
     "Pasted image 20250923131819.png",

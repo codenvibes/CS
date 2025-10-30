@@ -2,7 +2,6 @@
 tags:
   - CAPT
   - INTRODUCTION
-aliases:
 ---
 ## Introduction
 
