@@ -1,6 +1,5 @@
 ---
 tags:
-aliases:
 ---
 CONTENT
 ## References

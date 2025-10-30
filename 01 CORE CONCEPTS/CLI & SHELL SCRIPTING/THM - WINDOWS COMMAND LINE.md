@@ -1,7 +1,6 @@
 ---
 tags:
   - COMMAND_LINE
-aliases:
 ---
 ## 1. Introduction
 
