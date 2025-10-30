@@ -1,10 +1,8 @@
 ---
 tags:
   - CAPT
-aliases:
-  - https://storage.hackviser.com/file/hackviser-prod/certificate-images/944bd3fc78a649d186d6de144f016dd0.webp
 number: "1"
-image:
+image: https://storage.hackviser.com/file/hackviser-prod/certificate-images/944bd3fc78a649d186d6de144f016dd0.webp
 ---
 ## #INTRODUCTION
 
