@@ -293,13 +293,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -311,14 +310,27 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "26b65d814f49edc2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -333,10 +345,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "67ed109e7e41fa8a",
+  "active": "26b65d814f49edc2",
   "lastOpenFiles": [
-    "WHITE-BOARD/TODO.md",
     "COURSES/COURSES.base",
+    "WHITE-BOARD/TODO.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
