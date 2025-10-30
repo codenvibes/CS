@@ -35,7 +35,7 @@
                   "type": "bases",
                   "state": {
                     "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "INTERVIEWS"
+                    "viewName": "PRESENTATIONS"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -210,7 +210,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:REPORT",
+                "query": "[\"aliases\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -231,7 +231,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -298,13 +299,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBERSHUJAA TRAINER"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -351,10 +352,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "67ed109e7e41fa8a",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
