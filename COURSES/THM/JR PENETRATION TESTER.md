@@ -3,7 +3,7 @@ tags:
   - JR_PENETRATION_TESTER
 aliases:
   - https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
-Number: "3"
+number: "3"
 ---
 ## #INTRODUCTION_TO_CYBERSECURITY
 

@@ -1,6 +1,6 @@
 ---
 tags:
 aliases:
-  - https://assets.tryhackme.com/img/paths/advancedendpointinvestigations.svg
-Number: "5"
+number: "5"
+image: https://assets.tryhackme.com/img/paths/advancedendpointinvestigations.svg
 ---

@@ -9,7 +9,7 @@ views:
     sort:
       - property: Number
         direction: ASC
-    image: note.aliases
+    image: note.image
     imageAspectRatio: 0.95
     cardSize: 170
   - type: cards

@@ -163,10 +163,14 @@
                 "id": "67ed109e7e41fa8a",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "ATTACKING AND DEFENDING AWS"
                 }
               }
             ],
@@ -293,12 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ATTACKING AND DEFENDING AWS"
             }
           },
           {
@@ -345,9 +350,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "26b65d814f49edc2",
+  "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
+    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "WHITE-BOARD/TODO.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
@@ -380,7 +386,6 @@
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/01 SECURITY ASSESSTMENT TYPES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - PACKETS & FRAMES.md",
     "02 SECURITY FOUNDATIONS/THM - PENTENSTING FUNDAMENTALS.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/17 VENDOR SPECIFIC INFORMATION.md",
     "COURSES/HTB",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
