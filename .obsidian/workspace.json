@@ -120,8 +120,7 @@
                   "title": "THM - OWASP TOP 10 - 2021"
                 }
               }
-            ],
-            "currentTab": 6
+            ]
           },
           {
             "id": "4cae9467a36be2f0",
@@ -159,9 +158,19 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
+              },
+              {
+                "id": "67ed109e7e41fa8a",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -324,19 +333,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e3f7abe6e3286223",
+  "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
     "WHITE-BOARD/TODO.md",
+    "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/02 NETWORK TYPES.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "CS JOURNAL.md",
     "02 SECURITY FOUNDATIONS/VULNERABILITY_ASSESSMENT/17 REPORTING.md",
-    "COURSES/COURSES.base",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
