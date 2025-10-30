@@ -4,6 +4,7 @@ tags:
 aliases:
   - https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 number: "3"
+image:
 ---
 ## #INTRODUCTION_TO_CYBERSECURITY
 
