@@ -1,10 +1,8 @@
 ---
 tags:
   - JR_PENETRATION_TESTER
-aliases:
-  - https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 number: "3"
-image:
+image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ---
 ## #INTRODUCTION_TO_CYBERSECURITY
 
