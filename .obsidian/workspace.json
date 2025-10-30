@@ -165,12 +165,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/DEFENDING AZURE.md",
+                    "file": "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DEFENDING AZURE"
+                  "title": "ADVANCED ENDPOINT INVESTIGATIONS"
                 }
               }
             ],
@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/DEFENDING AZURE.md",
+                "file": "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DEFENDING AZURE"
+              "title": "Outline of ADVANCED ENDPOINT INVESTIGATIONS"
             }
           },
           {
@@ -352,9 +352,10 @@
   },
   "active": "67ed109e7e41fa8a",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
-    "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/DEFENDING AZURE.md",
+    "COURSES/COURSES.base",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "WHITE-BOARD/TODO.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
