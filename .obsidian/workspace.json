@@ -283,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/GENERAL.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GENERAL"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -336,18 +336,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "09 SOFT SKILLS & CAREER/PIRP.base",
+    "COURSES/COURSES.base",
+    "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
-    "COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
     "TEMPLATES/COURSE.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
@@ -365,9 +366,7 @@
     "WHITE-BOARD/TODO.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/02 NETWORK TYPES.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT PRESENTATION.pdf",
     "09 SOFT SKILLS & CAREER/REPORTS",
