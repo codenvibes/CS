@@ -297,13 +297,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -331,12 +331,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -351,7 +350,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "753fe11880dc7593",
+  "active": "f8659b2b0049a1d4",
   "lastOpenFiles": [
     "WHITE-BOARD/TODO.md",
     "COURSES/COURSES.base",
