@@ -283,13 +283,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -350,10 +350,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "0fdad7852edf1960",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "WHITE-BOARD/TODO.md",
