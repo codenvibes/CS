@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "94f9af47b1021dd6",
+        "id": "45910d770f17f913",
         "type": "split",
         "children": [
           {
@@ -122,7 +122,7 @@
             ]
           },
           {
-            "id": "d313818b1ef0d7d7",
+            "id": "a54e001a20b3801f",
             "type": "tabs",
             "children": [
               {
@@ -161,7 +161,7 @@
             "currentTab": 1
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -319,7 +320,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -334,15 +336,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "CS JOURNAL.md",
     "README.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "COURSES/COURSES.base",
     "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
     "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS COMMAND LINE.md",
@@ -363,7 +365,6 @@
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/DEVSECOPS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
