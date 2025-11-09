@@ -60,11 +60,9 @@
               {
                 "id": "21fce08000a30866",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "empty",
                   "state": {},
-                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "New tab"
                 }
@@ -215,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -347,12 +344,12 @@
   },
   "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "WHITE-BOARD/TODO.md",
-    "COURSES/COURSES.base",
     "COURSES/attackin.md",
     "README.md",
     "08 TOOLS/00 TOOLS.md",
@@ -374,7 +371,6 @@
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/PRE SECURITY.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
