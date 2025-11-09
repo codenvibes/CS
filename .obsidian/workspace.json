@@ -60,17 +60,11 @@
               {
                 "id": "21fce08000a30866",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "WHITE-BOARD/WHITE-BOARD.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "WHITE-BOARD"
+                  "title": "New tab"
                 }
               },
               {
@@ -282,13 +276,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -297,8 +290,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -344,19 +337,21 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
+      "publish:Publish changes...": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "publish:Publish changes...": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "WHITE-BOARD/TODO.md",
+    "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
+    "WHITE-BOARD",
+    "COURSES/COURSES.base",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "CS JOURNAL.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
-    "WHITE-BOARD/TODO.md",
-    "COURSES/COURSES.base",
     "COURSES/attackin.md",
     "README.md",
     "08 TOOLS/00 TOOLS.md",
@@ -378,7 +373,6 @@
     "COURSES/THM/SECURITY ENGINEER.md",
     "COURSES/THM/RED TEAMING.md",
     "COURSES/THM/PRE SECURITY.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
@@ -386,7 +380,6 @@
     "09 SOFT SKILLS & CAREER/REPORTS",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS",
     "09 SOFT SKILLS & CAREER/INTERVIEWS",
-    "COURSES/HTB",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Pasted image 20250922151239.png",
@@ -396,7 +389,6 @@
     "Pasted image 20250922151239.png",
     "Pasted image 20250922145752.png",
     "Pasted image 20250922145522.png",
-    "Pasted image 20250916124724.png",
     "Untitled.canvas"
   ]
 }
