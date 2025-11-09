@@ -20,10 +20,10 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "THM"
+                    "viewName": "View"
                   },
                   "pinned": true,
-                  "icon": "lucide-layout-grid",
+                  "icon": "lucide-table",
                   "title": "COURSES"
                 }
               },
@@ -104,8 +104,7 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "d3e4a1ef28b0afcd",
@@ -219,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -283,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OWASP TOP 10 - 2021"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -335,7 +333,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -350,8 +349,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0fdad7852edf1960",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
@@ -359,7 +359,6 @@
     "WHITE-BOARD",
     "COURSES/COURSES.base",
     "CS JOURNAL.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "COURSES/attackin.md",
     "README.md",
     "08 TOOLS/00 TOOLS.md",
