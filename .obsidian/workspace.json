@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6096fb5a28ca32ef",
+        "id": "d93513bf66d50372",
         "type": "split",
         "children": [
           {
@@ -107,7 +107,7 @@
             "currentTab": 3
           },
           {
-            "id": "49f58324e0815426",
+            "id": "d3e4a1ef28b0afcd",
             "type": "tabs",
             "children": [
               {
@@ -160,7 +160,7 @@
             "currentTab": 2
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -349,14 +349,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0fdad7852edf1960",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "WHITE-BOARD",
     "COURSES/COURSES.base",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "CS JOURNAL.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "COURSES/attackin.md",
