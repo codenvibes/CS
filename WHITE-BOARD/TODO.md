@@ -1,0 +1,12 @@
+- [ ] Re-read all the files in the **Network Fundamentals** folder carefully — don’t skim this time as you move everything into [[HTB - NETWORKING FUNDAMENTALS]]
+- [ ] Re-read all the files in the **Windows** folder carefully — don’t skim this time! 
+- [ ] Create tags for TOOLS and LABS and delete the index notes respectively.
+- [ ] Go through all older notes and replace **`#TOOLS`** tags with **`#[ToolName]`** tags (e.g., `#nmap`, `#wireshark`, etc.) to match your current tagging system. And add the changes to the [[00 TOOLS]] note.
+- [ ] Search for Executive-Level Cybersecurity Presentation Videos on YouTube
+	Use these keywords:
+	- `cybersecurity executive keynote`
+	- `board level cyber risk`
+	- `CISO presentation to board`
+	- `cybersecurity business strategy`
+	- `cyber governance for executives`
+- [ ] move files from the Metasploit folder to [[HTB - METASPLOIT FRAMEWORK]]
