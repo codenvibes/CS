@@ -20,10 +20,10 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "View"
+                    "viewName": "CYBESHUJAA"
                   },
                   "pinned": true,
-                  "icon": "lucide-table",
+                  "icon": "lucide-layout-grid",
                   "title": "COURSES"
                 }
               },
@@ -349,8 +349,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "COURSES/Untitled",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
