@@ -23,3 +23,6 @@ views:
     imageAspectRatio: 0.65
   - type: cards
     name: CYBESHUJAA
+    filters:
+      and:
+        - file.folder == "COURSES/CYBESHUJAA"
