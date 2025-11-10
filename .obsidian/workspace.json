@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 41.56976744186047,
+            "dimension": 38.299418604651166,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -109,7 +109,7 @@
           {
             "id": "d3e4a1ef28b0afcd",
             "type": "tabs",
-            "dimension": 58.43023255813953,
+            "dimension": 61.70058139534884,
             "children": [
               {
                 "id": "68283aec2ce6118a",
@@ -349,13 +349,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "7063eaaf8717004c",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Unconfirmed 23904.crdownload",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
-    "COURSES/COURSES.base",
     "WHITE-BOARD/TODO.md",
     "COURSES/CYBERSHUJAA/WEEK 11.md",
     "COURSES/CYBERSHUJAA/WEEK 12.md",
