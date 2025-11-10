@@ -149,12 +149,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/CYBESHUJAA/WEEK 1.md",
+                    "file": "COURSES/CYBESHUJAA/WEEK 2.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WEEK 1"
+                  "title": "WEEK 2"
                 }
               }
             ],
@@ -351,8 +351,9 @@
   },
   "active": "0fdad7852edf1960",
   "lastOpenFiles": [
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/CYBESHUJAA/WEEK 1.md",
+    "COURSES/CYBESHUJAA/WEEK 2.md",
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "TEMPLATES/COURSE.md",
     "COURSES/COURSES.base",
     "COURSES/THM/CYBER SECURITY 101.md",
