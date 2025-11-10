@@ -6,6 +6,6 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 ---
 ## #WEEK_9_WIRELESS_NETWORK_SECURITY
 
-1. [[THM - OFFENSIVE SECURITY INTRO]]
+1. CYBERSHUJAA-
 2. [[THM - DEFENSIVE SECURITY INTRO]]
 3. [[THM - CAREERS IN CYBER]]
