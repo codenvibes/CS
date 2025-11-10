@@ -193,7 +193,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"aliases\"]",
+                "query": "tag:#WEEK_9",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -349,7 +349,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7063eaaf8717004c",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
