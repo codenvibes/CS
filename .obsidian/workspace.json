@@ -23,7 +23,7 @@
                     "viewName": "CYBESHUJAA"
                   },
                   "pinned": true,
-                  "icon": "lucide-layout-grid",
+                  "icon": "lucide-table",
                   "title": "COURSES"
                 }
               },
@@ -349,13 +349,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "0fdad7852edf1960",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "COURSES/CYBESHUJAA/Untitled.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
-    "COURSES/COURSES.base",
     "COURSES/CYBESHUJAA",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -381,7 +381,6 @@
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/SOC LEVEL 1.md",
-    "COURSES/THM/SECURITY ENGINEER.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",

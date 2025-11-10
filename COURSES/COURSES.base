@@ -21,7 +21,7 @@ views:
     cardSize: 300
     imageFit: contain
     imageAspectRatio: 0.65
-  - type: cards
+  - type: table
     name: CYBESHUJAA
     filters:
       and:
