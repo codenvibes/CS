@@ -149,12 +149,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/COURSE.md",
+                    "file": "COURSES/CYBESHUJAA/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "COURSE"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -351,6 +351,7 @@
   },
   "active": "0fdad7852edf1960",
   "lastOpenFiles": [
+    "TEMPLATES/COURSE.md",
     "COURSES/CYBESHUJAA/Untitled.md",
     "COURSES/COURSES.base",
     "COURSES/THM/JR PENETRATION TESTER.md",
@@ -374,7 +375,6 @@
     "01 CORE CONCEPTS/WEB BASICS/THM - DNS IN DETAIL.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/HV -LINUX FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/HV - INTRODUCTION TO CYBERSECURITY.md",
-    "TEMPLATES/COURSE.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "COURSES/HACKVISER/CAPT.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
