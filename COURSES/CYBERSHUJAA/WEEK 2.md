@@ -1,6 +1,0 @@
----
-tags:
-  - CYBERSHUJAA
-number:
----
-CONTENT
