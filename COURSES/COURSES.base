@@ -25,4 +25,4 @@ views:
     name: CYBESHUJAA
     filters:
       and:
-        - file.folder == "COURSES/CYBESHUJAA"
+        - file.folder == "COURSES/CYBERSHUJAA"
