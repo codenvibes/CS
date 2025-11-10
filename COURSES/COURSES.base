@@ -26,3 +26,5 @@ views:
     filters:
       and:
         - file.folder == "COURSES/CYBERSHUJAA"
+    image: note.image
+    imageFit: contain
