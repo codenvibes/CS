@@ -23,7 +23,7 @@
                     "viewName": "CYBESHUJAA"
                   },
                   "pinned": true,
-                  "icon": "lucide-table",
+                  "icon": "lucide-layout-grid",
                   "title": "COURSES"
                 }
               },
@@ -352,8 +352,8 @@
   "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
-    "WHITE-BOARD/TODO.md",
     "COURSES/COURSES.base",
+    "WHITE-BOARD/TODO.md",
     "COURSES/CYBERSHUJAA/WEEK 11.md",
     "COURSES/CYBERSHUJAA/WEEK 12.md",
     "COURSES/CYBERSHUJAA/WEEK 1.md",
