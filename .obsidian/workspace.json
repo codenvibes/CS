@@ -186,7 +186,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -377,8 +377,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a501fd000fa630d5",
+  "active": "7e4c441e35f9abce",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "05 DEFENSIVE SECURITY/FIREWALLS.md",
@@ -411,7 +412,6 @@
     "WHITE-BOARD",
     "CS JOURNAL.md",
     "COURSES/attackin.md",
-    "README.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
