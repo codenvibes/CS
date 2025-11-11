@@ -149,12 +149,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
+                    "file": "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - MALWARE DETECTION & ANALYSIS"
+                  "title": "CYBERSHUJAA - WIRELESS NETWORK SECURITY"
                 }
               }
             ],
@@ -352,6 +352,7 @@
   "active": "7063eaaf8717004c",
   "lastOpenFiles": [
     "05 DEFENSIVE SECURITY/FIREWALLS.md",
+    "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
@@ -384,7 +385,6 @@
     "README.md",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "TEMPLATES/GENERAL.md",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
