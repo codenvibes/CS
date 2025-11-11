@@ -161,10 +161,14 @@
                 "id": "7e4c441e35f9abce",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/THM - WIFI HACKING 101.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "THM - WIFI HACKING 101"
                 }
               }
             ],
