@@ -156,9 +156,19 @@
                   "icon": "lucide-file",
                   "title": "CYBERSHUJAA - WIRELESS NETWORK SECURITY"
                 }
+              },
+              {
+                "id": "7e4c441e35f9abce",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -349,11 +359,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7063eaaf8717004c",
+  "active": "7e4c441e35f9abce",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
+    "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "05 DEFENSIVE SECURITY/FIREWALLS.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
-    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
@@ -383,7 +394,6 @@
     "CS JOURNAL.md",
     "COURSES/attackin.md",
     "README.md",
-    "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
