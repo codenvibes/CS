@@ -104,8 +104,7 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "d3e4a1ef28b0afcd",
@@ -378,8 +377,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "08 TOOLS/00 TOOLS.md",
+    "COURSES/COURSES.base",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
+    "CS JOURNAL.md",
+    "README.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "12 AI & CYBERSECURITY/01 FUNDAMENTALS OF AI SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
@@ -389,7 +394,6 @@
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
-    "COURSES/COURSES.base",
     "Unconfirmed 23904.crdownload",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "WHITE-BOARD/TODO.md",
@@ -405,15 +409,9 @@
     "COURSES/CYBERSHUJAA/WEEK 4.md",
     "COURSES/CYBERSHUJAA/WEEK 2.md",
     "TEMPLATES/COURSE.md",
-    "COURSES/THM/CYBER SECURITY 101.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "COURSES/CYBERSHUJAA",
-    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "WHITE-BOARD",
-    "CS JOURNAL.md",
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
     "13 CTFS & LABS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
