@@ -35,7 +35,7 @@
                   "type": "bases",
                   "state": {
                     "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                    "viewName": "PRESENTATIONS"
+                    "viewName": "PREP"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -104,7 +104,8 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "d3e4a1ef28b0afcd",
@@ -377,10 +378,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e4c441e35f9abce",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
-    "12 AI & CYBERSECURITY/01 FUNDAMENTALS OF AI SECURITY.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
+    "12 AI & CYBERSECURITY/01 FUNDAMENTALS OF AI SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "05 DEFENSIVE SECURITY/FIREWALLS.md",
@@ -415,7 +416,7 @@
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
     "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
-    "13 CTFS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
+    "13 CTFS & LABS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
     "Pasted image 20250923131819.png",
     "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
     "ASSETS/Pasted image 20250922151239.png",
