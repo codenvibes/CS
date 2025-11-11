@@ -9,6 +9,8 @@ Wireless Network Security Principles
 The Electromagnetic Spectrum
 Types of Wireless Networks
 Wireless LAN
-
+WLAN Standards
+Wireless Encryption Protocols
+WLAN 
 ## References
 
