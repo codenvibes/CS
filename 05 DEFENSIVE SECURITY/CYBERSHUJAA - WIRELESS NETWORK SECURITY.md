@@ -17,5 +17,7 @@ Bluetooth Attacks
 WIFI Security Assessment
 WIFI Security Assessment Steps
 AirCrack-ng Suite
+WIFI Security Measures
+Bluetooth Security
 ## References
 
