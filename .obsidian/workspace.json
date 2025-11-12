@@ -1,0 +1,414 @@
+{
+  "main": {
+    "id": "25ecc447a71acc30",
+    "type": "split",
+    "children": [
+      {
+        "id": "d93513bf66d50372",
+        "type": "split",
+        "children": [
+          {
+            "id": "5fba8451e3d9bb96",
+            "type": "tabs",
+            "dimension": 21.947674418604652,
+            "children": [
+              {
+                "id": "d6e3d74256db3bbc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "COURSES/COURSES.base",
+                    "viewName": "THM"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "COURSES"
+                }
+              },
+              {
+                "id": "6b2536b183f7f9a6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                    "viewName": "PREP"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "PIRP"
+                }
+              },
+              {
+                "id": "5735fcb3b6b15483",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "08 TOOLS/00 TOOLS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "00 TOOLS"
+                }
+              },
+              {
+                "id": "21fce08000a30866",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WHITE-BOARD/WHITE-BOARD.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WHITE-BOARD"
+                }
+              },
+              {
+                "id": "a9a7f4c54f83fbd1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
+              },
+              {
+                "id": "0a6f434a8cd9f151",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CS JOURNAL.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "CS JOURNAL"
+                }
+              }
+            ]
+          },
+          {
+            "id": "d3e4a1ef28b0afcd",
+            "type": "tabs",
+            "dimension": 78.05232558139535,
+            "children": [
+              {
+                "id": "10dd2c9178155b52",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WHITE-BOARD/TODO.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "TODO"
+                }
+              },
+              {
+                "id": "7063eaaf8717004c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "CYBERSHUJAA - WIRELESS NETWORK SECURITY"
+                }
+              },
+              {
+                "id": "7e4c441e35f9abce",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/THM - WIFI HACKING 101.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - WIFI HACKING 101"
+                }
+              },
+              {
+                "id": "a501fd000fa630d5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "THM - L2 MAC FLOODING & ARP SPOOFING"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02dbd88863ceec5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "468eeab0f673db48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344cbeb398d80eda",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8089db5984bed9f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "common ports",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "720bbfc4320bfccb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "26820c7e22c27caf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b68a91430fb8fc9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dbbb0104e3a6050",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05_DEFENSIVE_SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for INTRO TO LOG ANALYSIS"
+            }
+          },
+          {
+            "id": "e49393d11b37e02a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f12cdeede3ae0432",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8659b2b0049a1d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COURSES/COURSES.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of COURSES"
+            }
+          },
+          {
+            "id": "c81f332ac7d36977",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "26b65d814f49edc2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "753fe11880dc7593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "344cbeb398d80eda",
+  "lastOpenFiles": [
+    "13 CTFS & LABS/HTB LABS",
+    "08 TOOLS/00 TOOLS.md",
+    "COURSES/COURSES.base",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
+    "CS JOURNAL.md",
+    "README.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "04 EXPLOITATION/THM - WIFI HACKING 101.md",
+    "12 AI & CYBERSECURITY/01 FUNDAMENTALS OF AI SECURITY.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
+    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
+    "05 DEFENSIVE SECURITY/FIREWALLS.md",
+    "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
+    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+    "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
+    "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
+    "Unconfirmed 23904.crdownload",
+    "COURSES/THM/JR PENETRATION TESTER.md",
+    "WHITE-BOARD/TODO.md",
+    "COURSES/CYBERSHUJAA/WEEK 11.md",
+    "COURSES/CYBERSHUJAA/WEEK 12.md",
+    "COURSES/CYBERSHUJAA/WEEK 1.md",
+    "COURSES/CYBERSHUJAA/WEEK 10.md",
+    "COURSES/CYBERSHUJAA/WEEK 9.md",
+    "COURSES/CYBERSHUJAA/WEEK 8.md",
+    "COURSES/CYBERSHUJAA/WEEK 7.md",
+    "COURSES/CYBERSHUJAA/WEEK 6.md",
+    "COURSES/CYBERSHUJAA/WEEK 5.md",
+    "COURSES/CYBERSHUJAA/WEEK 4.md",
+    "COURSES/CYBERSHUJAA/WEEK 2.md",
+    "TEMPLATES/COURSE.md",
+    "COURSES/CYBERSHUJAA",
+    "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
+    "WHITE-BOARD",
+    "09 SOFT SKILLS & CAREER/PRESENTATIONS/Presentation1.pptx",
+    "09 SOFT SKILLS & CAREER/PRESENTATIONS/CYBER SHUJAA TRAINER PRESENTATION.pdf",
+    "13 CTFS & LABS/2025_H4K-IT_CYBERSECURITY/H4K-IT REPORT.pdf",
+    "Pasted image 20250923131819.png",
+    "ASSETS/{92782614-64A8-423C-A30E-6D82BEBE246A}.png",
+    "ASSETS/Pasted image 20250922151239.png",
+    "ASSETS/Pasted image 20250922145752.png",
+    "ASSETS/Pasted image 20250922145522.png",
+    "ASSETS/Pasted image 20250916124724.png",
+    "Pasted image 20250922151239.png",
+    "Pasted image 20250922145752.png",
+    "Pasted image 20250922145522.png",
+    "Untitled.canvas"
+  ]
+}
