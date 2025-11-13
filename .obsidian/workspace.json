@@ -233,7 +233,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "common ports",
+                "query": "tag:#WK8_WIRELESS_NETWORK_SECURITY",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -389,7 +389,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5aa8a4cce29d43a",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
