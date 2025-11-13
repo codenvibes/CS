@@ -42,6 +42,14 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 2. ASSIGNMENT 1: [[THM - WIFI HACKING 101]]
 3. ASSIGNMENT 2: [[THM - L2 MAC FLOODING & ARP SPOOFING]]
 
+## #WK10_SECURITY_OPERATIONS_AND_MONITORING
+
+1. 
+
+## #WK11_
+
+1. 
+
 ## #WK7_
 
 1. 
