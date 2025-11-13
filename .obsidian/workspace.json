@@ -184,7 +184,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -375,10 +375,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3551e2c912fa3f59",
+  "active": "7063eaaf8717004c",
   "lastOpenFiles": [
-    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
+    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/HTB LABS",
