@@ -6,7 +6,8 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 ---
 ## #WK1_COMPUTING_ESSENTIALS
 
-1. 
+1. CYBERSHUJAA - WINDOWS FUNDAMENTALS
+2. ASSIGNMENT 1: [[]]
 
 ## #WK2_CYBERSECURITY_ESSENTIALS
 
