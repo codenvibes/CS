@@ -8,15 +8,15 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 1. 
 
-## #WK2_
+## #WK2_CYBERSECURITY_ESSENTIALS
 
 1. 
 
-## #WK3_
+## #WK3_RECONNAISSANCE_AND_OSINT
 
 1. 
 
-## #WK4_
+## #WK4_SCANNING_AND_ENUMERATION
 
 1. 
 
