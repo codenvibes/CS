@@ -20,7 +20,7 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "CYBESHUJAA"
+                    "viewName": "THM"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -391,7 +391,9 @@
   },
   "active": "e5aa8a4cce29d43a",
   "lastOpenFiles": [
+    "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
+    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
@@ -405,11 +407,9 @@
     "12 AI & CYBERSECURITY/01 FUNDAMENTALS OF AI SECURITY.md",
     "05 DEFENSIVE SECURITY/FIREWALLS.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
-    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Unconfirmed 23904.crdownload",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "WHITE-BOARD/TODO.md",
     "COURSES/CYBERSHUJAA/WEEK 11.md",
     "COURSES/CYBERSHUJAA/WEEK 12.md",
