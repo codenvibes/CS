@@ -20,15 +20,15 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 1. 
 
-## #WK5_
+## #WK5_THREAT_AND_VULNERABILITY_MANAGEMENT
 
 1. 
 
-## #WK6_
+## #WK6_ACCESS_CONTROL_SECURITY
 
 1. 
 
-## #WK7_
+## #WK7_WEB_APPLICATION_SECURITY
 
 1. 
 
@@ -41,3 +41,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 1. CYBERSHUJAA - WIRELESS NETWORK SECURITY
 2. ASSIGNMENT 1: [[THM - WIFI HACKING 101]]
 3. ASSIGNMENT 2: [[THM - L2 MAC FLOODING & ARP SPOOFING]]
+
+## #WK7_
+
+1. 
