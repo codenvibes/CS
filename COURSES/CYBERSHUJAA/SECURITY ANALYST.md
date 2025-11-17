@@ -10,6 +10,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 3. CYBERSHUJAA - LINUX FUNDAMENTALS
 4. ASSIGNMENT 2: 
 5. CYBERSHUJAA - WEB FUNDAMENTALS
+6. ASSIGNMENT 3: 
 
 ## #WK2_CYBERSECURITY_ESSENTIALS
 
