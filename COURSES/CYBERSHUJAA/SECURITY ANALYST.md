@@ -21,14 +21,6 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 5. CYBERSHUJAA - WEB FUNDAMENTALS
 6. ASSIGNMENT 3: 
 
-
-THM Assignment: Introduction To Cybersecurity
-Cybersecurity Essentials
-Cyber Security Frameworks
-Assignment 2: Getting Started
-Assignment 3: MITRE - (OPTIONAL - PREMIUM MODULE)
-
-
 ## #WK3_RECONNAISSANCE_AND_OSINT
 
 1. 
