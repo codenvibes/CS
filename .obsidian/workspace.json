@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 21.947674418604652,
+            "dimension": 39.60755813953488,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -109,7 +109,7 @@
           {
             "id": "d3e4a1ef28b0afcd",
             "type": "tabs",
-            "dimension": 78.05232558139535,
+            "dimension": 60.39244186046512,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -348,13 +348,13 @@
   },
   "active": "e5aa8a4cce29d43a",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
+    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/COURSES.base",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
@@ -379,7 +379,6 @@
     "COURSES/CYBERSHUJAA/WEEK 8.md",
     "COURSES/CYBERSHUJAA/WEEK 7.md",
     "COURSES/CYBERSHUJAA/WEEK 6.md",
-    "COURSES/CYBERSHUJAA/WEEK 5.md",
     "COURSES/CYBERSHUJAA",
     "WHITE-BOARD/Screenshot_20250704_201212_Instagram.jpg",
     "WHITE-BOARD",
