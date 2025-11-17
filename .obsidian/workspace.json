@@ -19,7 +19,7 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "THM"
+                    "viewName": "CYBESHUJAA"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -249,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/TODO.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -317,8 +317,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "WHITE-BOARD/TODO.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "COURSES/COURSES.base",
@@ -341,7 +342,6 @@
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Unconfirmed 23904.crdownload",
-    "WHITE-BOARD/TODO.md",
     "COURSES/CYBERSHUJAA/WEEK 11.md",
     "COURSES/CYBERSHUJAA/WEEK 12.md",
     "COURSES/CYBERSHUJAA/WEEK 1.md",
