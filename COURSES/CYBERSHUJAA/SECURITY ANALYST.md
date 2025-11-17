@@ -14,7 +14,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 ## #WK2_CYBERSECURITY_ESSENTIALS
 
-1. 
+7. 
 
 ## #WK3_RECONNAISSANCE_AND_OSINT
 
