@@ -3,9 +3,9 @@ tags:
 ---
 ## Summary
 
-| TASK | FLAG |
-| ---- | ---- |
-|      |      |
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
 
 <div align="center">
 <br>
