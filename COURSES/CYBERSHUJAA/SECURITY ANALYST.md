@@ -22,19 +22,10 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 6. ASSIGNMENT 3: 
 
 
-assign icon
 THM Assignment: Introduction To Cybersecurity
-Opened: Monday, 1 September 2025, 12:00 AM
-lesson icon
-Cybersecurity EssentialsLesson
-Opened: Monday, 22 September 2025, 12:00 AM
-page icon
-Cyber Security FrameworksPage
-assign icon
+Cybersecurity Essentials
+Cyber Security Frameworks
 Assignment 2: Getting Started
-Opened: Monday, 22 September 2025, 12:00 AM
-Due: Tuesday, 30 September 2025, 11:59 PM
-assign icon
 Assignment 3: MITRE - (OPTIONAL - PREMIUM MODULE)
 
 
