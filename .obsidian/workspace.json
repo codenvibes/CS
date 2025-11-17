@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d93513bf66d50372",
+        "id": "95350ff50d0fca49",
         "type": "split",
         "children": [
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 39.60755813953488,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -107,26 +106,9 @@
             ]
           },
           {
-            "id": "d3e4a1ef28b0afcd",
+            "id": "4cf77bdd1840ab5f",
             "type": "tabs",
-            "dimension": 60.39244186046512,
             "children": [
-              {
-                "id": "10dd2c9178155b52",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "WHITE-BOARD/TODO.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "TODO"
-                }
-              },
               {
                 "id": "7063eaaf8717004c",
                 "type": "leaf",
@@ -142,24 +124,25 @@
                 }
               },
               {
-                "id": "e5aa8a4cce29d43a",
+                "id": "10dd2c9178155b52",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "file": "WHITE-BOARD/TODO.md",
                     "mode": "source",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
+                  "title": "TODO"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
-        "direction": "horizontal"
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -279,13 +262,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of CYBERSHUJAA - WIRELESS NETWORK SECURITY"
             }
           },
           {
@@ -346,10 +329,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5aa8a4cce29d43a",
+  "active": "7063eaaf8717004c",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
+    "COURSES/COURSES.base",
     "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
@@ -357,7 +341,6 @@
     "COURSES/THM/JR PENETRATION TESTER.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
     "04 EXPLOITATION/THM - WIFI HACKING 101.md",
-    "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "13 CTFS & LABS/HTB LABS",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
