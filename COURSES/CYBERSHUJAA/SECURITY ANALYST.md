@@ -18,8 +18,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 2. ASSIGNMENT 1: THM INTRODUCTION TO CYBERSECURITY
 3. CYBERSHUJAA - CYBER SECURITY FRAMEWORKS
 4. ASSIGNMENT 2: GETTING STARTED
-5. CYBERSHUJAA - WEB FUNDAMENTALS
-6. ASSIGNMENT 3: MITRE
+5. ASSIGNMENT 3: MITRE
 
 ## #WK3_RECONNAISSANCE_AND_OSINT
 
@@ -55,7 +54,17 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 ## #WK10_SECURITY_OPERATIONS_AND_MONITORING
 
-1. 
+1. CYBERSHUJAA - WINDOWS FUNDAMENTALS
+2. ASSIGNMENT 1: 
+3. CYBERSHUJAA - LINUX FUNDAMENTALS
+4. ASSIGNMENT 2: 
+5. CYBERSHUJAA - WEB FUNDAMENTALS
+6. ASSIGNMENT 3: 
+
+Security Operations Cente
+Assignment 1: Junior Security Analyst Intro
+Assignment 2: Intro to Log Analysis
+Assignment 3: Splunk: Exploring SPL (Optional)
 
 ## #WK11_DIGITAL_FORENSICS
 
