@@ -233,7 +233,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#WK8_WIRELESS_NETWORK_SECURITY",
+                "query": "tag:#FRAMEWORK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -388,7 +388,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5aa8a4cce29d43a",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
