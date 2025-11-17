@@ -258,7 +258,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -373,7 +374,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -388,7 +390,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "e5aa8a4cce29d43a",
   "lastOpenFiles": [
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
