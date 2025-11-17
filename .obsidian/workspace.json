@@ -189,12 +189,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - OWASP TOP 10 - 2021"
+                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
                 }
               }
             ],
@@ -321,13 +321,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OWASP TOP 10 - 2021"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -390,9 +390,9 @@
   },
   "active": "e5aa8a4cce29d43a",
   "lastOpenFiles": [
-    "TEMPLATES/GENERAL.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
+    "TEMPLATES/GENERAL.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
