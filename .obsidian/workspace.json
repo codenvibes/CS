@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+                    "file": "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SECURITY ANALYST"
+                  "title": "CLOUD AND NETWORK SECURITY"
                 }
               }
             ],
@@ -263,13 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ANALYST"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -331,7 +331,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73c83d90d907bbd1",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",

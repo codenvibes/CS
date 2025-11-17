@@ -28,3 +28,5 @@ views:
         - file.folder == "COURSES/CYBERSHUJAA"
     image: note.image
     imageFit: contain
+    cardSize: 200
+    imageAspectRatio: 0.8
