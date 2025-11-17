@@ -19,7 +19,7 @@
                   "type": "bases",
                   "state": {
                     "file": "COURSES/COURSES.base",
-                    "viewName": "CYBESHUJAA"
+                    "viewName": "THM"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+                    "file": "COURSES/THM/JR PENETRATION TESTER.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SECURITY ANALYST"
+                  "title": "JR PENETRATION TESTER"
                 }
               }
             ],
@@ -263,13 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+                "file": "COURSES/THM/JR PENETRATION TESTER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ANALYST"
+              "title": "Outline of JR PENETRATION TESTER"
             }
           },
           {
@@ -334,8 +334,8 @@
   "active": "73c83d90d907bbd1",
   "lastOpenFiles": [
     "COURSES/COURSES.base",
-    "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+    "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/COURSE.md",
     "WHITE-BOARD/TODO.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
