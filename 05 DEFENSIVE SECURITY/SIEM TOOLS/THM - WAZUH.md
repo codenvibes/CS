@@ -51,7 +51,6 @@ Firstly, let's understand what EDR solutions are exactly. Endpoint detection 
   
 
 ==Created in 2015==, [Wazuh](https://wazuh.com/) is an open-source, freely available and extensive EDR solution. It can be used in all scales of environments. Wazuh operates on a management and agent module. Simply, a device is dedicated to running Wazuh named a manager, where the manager is responsible for managing agents installed on the devices you’d like to monitor. Let's look at this model in the diagram below:
-
 <div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/4c008954c296fe1fbca005637af73ea1.png" alt=""></div>
 
 _We can see logs from three Agents being sent to the Wazuh server._
@@ -88,7 +87,6 @@ Manager
 Once it has started, log in using the following credentials:
 
 **Username:** wazuh (**make sure that this is lowercase!**)
-
 **Password:** eYa0M1-hG0e7rjGi-lRB2qGYVoonsG1K
 
 Select "**Global Tenant**" after successfully logging in. Refer to the animated gif below of the process if you are stuck.
