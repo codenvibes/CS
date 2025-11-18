@@ -196,8 +196,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -332,11 +331,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "73c83d90d907bbd1",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/SIEM TOOLS.md",
+    "COURSES/COURSES.base",
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/COURSES.base",
     "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/COURSE.md",
     "WHITE-BOARD/TODO.md",
