@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "95350ff50d0fca49",
+        "id": "2bc68cdaa52238c6",
         "type": "split",
         "children": [
           {
@@ -106,7 +106,7 @@
             ]
           },
           {
-            "id": "4cf77bdd1840ab5f",
+            "id": "f7fadfebe200ccf6",
             "type": "tabs",
             "children": [
               {
@@ -143,7 +143,7 @@
             "currentTab": 1
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -331,11 +331,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73c83d90d907bbd1",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/COURSES.base",
-    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/COURSE.md",
     "WHITE-BOARD/TODO.md",
