@@ -196,7 +196,14 @@ Press enter or click to view image in full size
 
 ### Questions
 
-##### 
+##### Ensure that you are logged in to the Wazuh management server on
+No answer needed
+
+##### Navigate to the Agents tab by pressing **Wazuh** -> **Agents** like so
+No answer needed
+
+##### Select the agent named “**AGENT-001**”
+
 <div align="center">
 <br>
 <br>
