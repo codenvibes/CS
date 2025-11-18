@@ -264,13 +264,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
+                "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/THM - WAZUH.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ANALYST"
+              "title": "Outline of THM - WAZUH"
             }
           },
           {
@@ -316,8 +316,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
