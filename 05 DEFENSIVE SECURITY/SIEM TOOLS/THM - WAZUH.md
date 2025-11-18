@@ -149,7 +149,7 @@ No answer needed
 No answer needed
 
 ##### How many agents does this Wazuh management server manage?
-
+2
 
 ##### How many agents does this Wazuh management server manage?
 
