@@ -113,6 +113,39 @@ The Wazuh management server in this room will show the agents as being _disco
 <div style="page-break-after: always;"></div>
 
 ## Task 3. Wazuh Agents
+
+Devices that record the events and processes of a system are called agents. Agents monitor the processes and events that take place on the device, such as authentication and user management. Agents will offload these logs to a designated collector for processing, such as Wazuh.
+
+In order for Wazuh to be populated, agents need to be installed onto devices to log such events. Wazuh can guide you through the agent deployment process provided you fill out some pre-requisites such as::
+
+- Operating System
+- The address of the Wazuh server that the agent should send logs to (this can be a DNS entry or an IP address)
+- What group the agent will be under - you can sort agents into groups within Wazuh if you wish
+
+This wizard can be launched by navigating to the following location on the Wazuh server: **Wazuh -> Agents -> Deploy New Agent** as illustrated in this screenshot below:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/561a60f3973c417098e4381bc50f9252.png)  
+
+Once you navigate to this display, the intuitive wizard will be available to you. I have shared screenshots of using the wizard to install Wazhur's agent on both Windows and Debian/Ubuntu. At stage 4, you are given a command to copy and paste to your clipboard which will install & configure the agent on the device that you wish to collect logs from.
+
+**Installing the Wazuh agent on Windows:**
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/5729622f750cdd7185c094ad09ce70f8.png)  
+
+**Installing the Wazuh agent on Debian/Ubuntu:** 
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/e50f510af70b7cd247e5623cbd5f7e31.png)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Ensure that you are logged in to the Wazuh management server on [HTTPS://10.10.171.243](https://10.10.171.243/)
+##### Navigate to the "Agents" tab by pressing **Wazuh** -> **Agents**
+##### How many agents does this Wazuh management server manage?
+##### How many agents does this Wazuh management server manage?
 <div align="center">
 <br>
 <br>
