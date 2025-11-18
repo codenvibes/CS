@@ -6,20 +6,20 @@ link: https://tryhackme.com/room/wazuhct
 ---
 ## Summary
 
-| SECTION/TASK                                     | FLAG |
-| ------------------------------------------------ | ---- |
-| Introduction                                     |      |
-| Required: Deploy Wazuh Server                    |      |
-| Wazuh Agents                                     |      |
-| Wazuh Vulnerability Assessment & Security Events |      |
-| Wazuh Policy Auditing                            |      |
-| Monitoring Logons with Wazuh                     |      |
-| Collecting Windows Logs with Wazuh               |      |
-| Collecting Linux Logs with Wazuh                 |      |
-| Auditing Commands on Linux with Wazuh            |      |
-| Wazuh API                                        |      |
-| Generating Reports with Wazuh                    |      |
-| Loading Sample Data                              |      |
+| SECTION/TASK                                     | FLAG                     |
+| ------------------------------------------------ | ------------------------ |
+| Introduction                                     | 2015<br>Agent<br>Manager |
+| Required: Deploy Wazuh Server                    | No answ                  |
+| Wazuh Agents                                     |                          |
+| Wazuh Vulnerability Assessment & Security Events |                          |
+| Wazuh Policy Auditing                            |                          |
+| Monitoring Logons with Wazuh                     |                          |
+| Collecting Windows Logs with Wazuh               |                          |
+| Collecting Linux Logs with Wazuh                 |                          |
+| Auditing Commands on Linux with Wazuh            |                          |
+| Wazuh API                                        |                          |
+| Generating Reports with Wazuh                    |                          |
+| Loading Sample Data                              |                          |
 
 <div align="center">
 <br>
