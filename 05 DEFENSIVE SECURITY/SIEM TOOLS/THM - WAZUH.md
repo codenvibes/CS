@@ -50,7 +50,7 @@ Firstly, let's understand what EDR solutions are exactly. Endpoint detection 
 - Recording a device's normal operating behaviour to help with detecting anomalies
   
 
-Created in 2015, [Wazuh](https://wazuh.com/) is an open-source, freely available and extensive EDR solution. It can be used in all scales of environments. Wazuh operates on a management and agent module. Simply, a device is dedicated to running Wazuh named a manager, where Wazuh operates on a management and agent model where the manager is responsible for managing agents installed on the devices you’d like to monitor. Let's look at this model in the diagram below:
+==Created in 2015==, [Wazuh](https://wazuh.com/) is an open-source, freely available and extensive EDR solution. It can be used in all scales of environments. Wazuh operates on a management and agent module. Simply, a device is dedicated to running Wazuh named a manager, where Wazuh operates on a management and agent model where the manager is responsible for managing agents installed on the devices you’d like to monitor. Let's look at this model in the diagram below:
 
 <div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/4c008954c296fe1fbca005637af73ea1.png" alt=""></div>
 
@@ -63,8 +63,14 @@ _We can see logs from three Agents being sent to the Wazuh server._
 ### Questions
 
 ##### When was Wazuh released?
+2015
+
 ##### What is the term that Wazuh calls a device that is being monitored for suspicious activity and potential security threats?
-##### 
+
+
+##### What is the term that Wazuh calls a device that is being monitored for suspicious activity and potential security threats?
+
+
 <div align="center">
 <br>
 <br>
