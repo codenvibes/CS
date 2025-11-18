@@ -70,7 +70,6 @@ Agent
 
 ##### What is the term that Wazuh calls a device that is being monitored for suspicious activity and potential security threats?
 Manager
-
 <div align="center">
 <br>
 <br>
@@ -81,6 +80,31 @@ Manager
 <div style="page-break-after: always;"></div>
 
 ## Task 2. Required: Deploy Wazuh Server
+
+[Connect](https://tryhackme.com/access) to the TryHackMe network and deploy the Wazuh management server attached to this task and wait a **minimum of five minutes** before visiting the Wazuh server on [HTTP://MACHINE_IP](http://machine_ip/).
+
+**If you load the Wazuh management server too early, it will say "Kibana Server is not ready yet" Please wait a few more minutes before refreshing the page and trying again.**
+
+Once it has started, log in using the following credentials:
+
+**Username:** wazuh (**make sure that this is lowercase!**)
+
+**Password:** eYa0M1-hG0e7rjGi-lRB2qGYVoonsG1K
+
+Select "**Global Tenant**" after successfully logging in. Refer to the animated gif below of the process if you are stuck.
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/e072a26a84886784f231585294f763dd.gif" alt=""></div>
+
+**Note:** The questions within the tasks of this room **will expect the data stored on this Wazuh management server**, so it is vital that you are able to connect to this server before continuing.  
+
+The Wazuh management server in this room will show the agents as being _disconnected_ - this is expected.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Login to the Wazuh management server on [HTTP://MACHINE_IP](http://machine_ip/)[](https://machine_ip.p.thmlabs.com/) before proceeding with this room's tasks.
 <div align="center">
 <br>
 <br>
