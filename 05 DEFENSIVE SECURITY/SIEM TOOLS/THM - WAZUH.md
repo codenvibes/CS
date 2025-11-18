@@ -6,9 +6,20 @@ link: https://tryhackme.com/room/wazuhct
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK                                     | FLAG |
+| ------------------------------------------------ | ---- |
+| Introduction                                     |      |
+| Required: Deploy Wazuh Server                    |      |
+| Wazuh Agents                                     |      |
+| Wazuh Vulnerability Assessment & Security Events |      |
+| Wazuh Policy Auditing                            |      |
+| Monitoring Logons with Wazuh                     |      |
+| Collecting Windows Logs with Wazuh               |      |
+| Collecting Linux Logs with Wazuh                 |      |
+| Auditing Commands on Linux with Wazuh            |      |
+| Wazuh API                                        |      |
+| Generating Reports with Wazuh                    |      |
+| Loading Sample Data                              |      |
 
 <div align="center">
 <br>
@@ -20,6 +31,14 @@ link: https://tryhackme.com/room/wazuhct
 <div style="page-break-after: always;"></div>
 
 ## Task 1. Introduction
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
