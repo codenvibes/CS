@@ -9,7 +9,7 @@ link: https://tryhackme.com/room/wazuhct
 | SECTION/TASK                                     | FLAG                     |
 | ------------------------------------------------ | ------------------------ |
 | Introduction                                     | 2015<br>Agent<br>Manager |
-| Required: Deploy Wazuh Server                    | No answ                  |
+| Required: Deploy Wazuh Server                    | No answer needed         |
 | Wazuh Agents                                     |                          |
 | Wazuh Vulnerability Assessment & Security Events |                          |
 | Wazuh Policy Auditing                            |                          |
