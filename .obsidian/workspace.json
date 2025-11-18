@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/Untitled.md",
+                    "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/THM.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "THM"
                 }
               }
             ],
@@ -334,7 +334,7 @@
   "active": "73c83d90d907bbd1",
   "lastOpenFiles": [
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
-    "05 DEFENSIVE SECURITY/SIEM TOOLS/Untitled.md",
+    "05 DEFENSIVE SECURITY/SIEM TOOLS/THM.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "05 DEFENSIVE SECURITY/SIEM TOOLS.md",
     "COURSES/COURSES.base",
