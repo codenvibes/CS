@@ -151,8 +151,8 @@ No answer needed
 ##### How many agents does this Wazuh management server manage?
 2
 
-##### How many agents does this Wazuh management server manage?
-
+##### What are the status of the agents managed by this Wazuh management server?
+disconnected
 <div align="center">
 <br>
 <br>
@@ -163,6 +163,40 @@ No answer needed
 <div style="page-break-after: always;"></div>
 
 ## Task 4. Wazuh Vulnerability Assessment & Security Events
+
+Wazuh’s Vulnerability Assessment module is a powerful tool that can be used to periodically scan an agent’s operating system for installed applications and their version numbers.
+
+Once this information has been gathered, it is sent back to the Wazuh server and compared against a database of CVEs to discover potential vulnerabilities. For example, the agent in the screenshot below has a version of Vim that is vulnerable to **CVE-2019–12735**.
+
+Press enter or click to view image in full size
+
+![](https://miro.medium.com/v2/resize:fit:700/0*s7OQvrO5kWzgNZOH.png)
+
+The vulnerability scanner module will perform a full scan when the Wazuh agent is first installed on a device and **must** be configured to run at a set interval then after (by default, this is set to 5 minute intervals when enabled) like so:
+
+![](https://miro.medium.com/v2/resize:fit:356/0*Rf4toBwjG-bYp1SH.png)
+
+_Configuring the Wazuh management server to audit agents for vulnerabilities frequently (/var/ossec/etc/ossec.conf)_
+
+Wazuh is capable of testing an agent’s configuration against certain rulesets to check for compliance. However, out of the box, it is arguably sensitive. Take, for example, this Linux host running the Wazuh agent. There have been a total of 769 events occurring that the system performs as part of its daily maintenance
+
+![](https://miro.medium.com/v2/resize:fit:652/0*xdDYOKhj5e0KGmC8.png)
+
+These frequent actions, such as removing files, are often detected as a security event. These events and the related severities are determined by Wazuh’s rulesets, which is something that we will come on to explore adjusting in another task.
+
+We can analyze these events individually by selecting the event’s dropdown. You can sort events based upon various factors such as timestamp, tactics, or description.
+
+Press enter or click to view image in full size
+
+![](https://miro.medium.com/v2/resize:fit:700/0*5KAANwl3mzpkAMUa.gif)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
