@@ -143,10 +143,10 @@ Once you navigate to this display, the intuitive wizard will be available to you
 ### Questions
 
 ##### Ensure that you are logged in to the Wazuh management server on [HTTPS://10.10.171.243](https://10.10.171.243/)
-
+No answer needed
 
 ##### Navigate to the "Agents" tab by pressing **Wazuh** -> **Agents**
-
+No answer needed
 
 ##### How many agents does this Wazuh management server manage?
 
