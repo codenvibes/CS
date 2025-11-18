@@ -167,7 +167,7 @@ disconnected
 Wazuh’s Vulnerability Assessment module is a powerful tool that can be used to periodically scan an agent’s operating system for installed applications and their version numbers.
 
 Once this information has been gathered, it is sent back to the Wazuh server and compared against a database of CVEs to discover potential vulnerabilities. For example, the agent in the screenshot below has a version of Vim that is vulnerable to **CVE-2019–12735**.
-<div align="center"><br><img width="" src="" alt=""></div>
+<div align="center"><br><img width="1200" src="https://miro.medium.com/v2/resize:fit:700/0*s7OQvrO5kWzgNZOH.png" alt=""></div>
 
 The vulnerability scanner module will perform a full scan when the Wazuh agent is first installed on a device and **must** be configured to run at a set interval then after (by default, this is set to 5 minute intervals when enabled) like so:
 
