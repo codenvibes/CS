@@ -124,5 +124,14 @@ sudo vi /etc/hosts
 ```
 
 ```
+┌──(kali㉿kali)-[~/soulmate]
+└─$ cat /etc/hosts
+127.0.0.1       localhost
+127.0.1.1       kali
+::1             localhost ip6-localhost ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters
+10.10.11.86     soulmate.htb
 
 ```
+
