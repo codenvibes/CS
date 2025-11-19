@@ -92,3 +92,19 @@ AD4MPU3MAN
 ----
 
 
+```
+┌──(kali㉿kali)-[~]
+└─$ nmap -sV 10.10.11.86                      
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-19 06:34 EST
+Nmap scan report for soulmate.htb (10.10.11.86)
+Host is up (1.2s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 200.82 seconds
+```
+
