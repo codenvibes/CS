@@ -92,4 +92,9 @@ I added the hostname to /etc/hosts
 10.10.11.86   soulmate.htb
  and I managed to get 
  ```
+ ┌──(kali㉿kali)-[~] └─$ curl -I http://soulmate.htb HTTP/1.1 200 OK Server: nginx/1.18.0 (Ubuntu) Date: Wed, 19 Nov 2025 08:24:54 GMT Content-Type: text/html; charset=UTF-8 Connection: keep-alive Set-Cookie: PHPSESSID=shno5qq52f0at6l5do7li31qdn; path=/ Expires: Thu, 19 Nov 1981 08:52:00 GMT Cache-Control: no-store, no-cache, must-revalidate Pragma: no-cache
  ```
+and then I entered this on my browser 
+```
+http://soulmate.htb
+```
