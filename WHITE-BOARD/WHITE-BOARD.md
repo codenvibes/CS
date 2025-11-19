@@ -135,3 +135,28 @@ ff02::2         ip6-allrouters
 
 ```
 
+```
+┌──(kali㉿kali)-[~/soulmate]
+└─$ gobuster vhost -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://soulmate.htb --append-domain
+
+===============================================================
+Gobuster v3.8
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                       http://soulmate.htb
+[+] Method:                    GET
+[+] Threads:                   10
+[+] Wordlist:                  /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+[+] User Agent:                gobuster/3.8
+[+] Timeout:                   10s
+[+] Append Domain:             true
+[+] Exclude Hostname Length:   false
+===============================================================
+Starting gobuster in VHOST enumeration mode
+===============================================================
+ftp.soulmate.htb Status: 302 [Size: 0] [--> /WebInterface/login.html]
+Progress: 4989 / 4989 (100.00%)
+===============================================================
+Finished
+===============================================================
+```
