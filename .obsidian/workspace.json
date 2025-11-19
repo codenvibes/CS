@@ -148,12 +148,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/GENERAL.md",
+                    "file": "13 CTFS & LABS/HTB LABS/HTB - SOULMATE.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "GENERAL"
+                  "title": "HTB - SOULMATE"
                 }
               }
             ],
@@ -350,6 +350,7 @@
   },
   "active": "94f72f7313613411",
   "lastOpenFiles": [
+    "TEMPLATES/GENERAL.md",
     "13 CTFS & LABS/HTB LABS/HTB - SOULMATE.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS/THM - WAZUH.md",
     "CS JOURNAL.md",
@@ -364,7 +365,6 @@
     "WHITE-BOARD/TODO.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
-    "TEMPLATES/GENERAL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - L2 MAC FLOODING & ARP SPOOFING.md",
