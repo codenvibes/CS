@@ -88,5 +88,8 @@ AD4MPU3MAN
 | Thu 30 Oct 2025 |                                |                                                      |
 | Fri 31 Oct 2025 |                                |                                                      |
 
-
-
+I added the hostname to /etc/hosts
+10.10.11.86   soulmate.htb
+ and I managed to get 
+ ```
+ ```
