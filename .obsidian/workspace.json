@@ -104,7 +104,8 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "f7fadfebe200ccf6",
@@ -333,10 +334,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73c83d90d907bbd1",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS/THM - WAZUH.md",
+    "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "05 DEFENSIVE SECURITY/SIEM TOOLS.md",
     "COURSES/COURSES.base",
