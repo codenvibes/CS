@@ -1,7 +1,7 @@
 ---
 tags:
   - HTB
-link:
+link: https://app.hackthebox.com/machines/Soulmate
 description:
 ---
 ## Summary
