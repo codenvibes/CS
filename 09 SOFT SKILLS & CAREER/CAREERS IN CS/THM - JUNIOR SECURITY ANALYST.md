@@ -1,3 +1,23 @@
+---
+tags:
+link: https://tryhackme.com/room/jrsecanalystintrouxo
+description: Play through a day in the life of a Security Analyst and experience their everyday duties.
+---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## 1. A career as a Junior (Associate) Security Analyst
 
 In the Junior Security Analyst role, you will be a Triage Specialist. You will spend a lot of time triaging or monitoring the event logs and alerts.  
