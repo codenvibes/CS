@@ -139,7 +139,18 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 
 ### Questions
 
-##### 
+##### Click on the green **View Site** button in this task and open the lab.
+No answer needed
+
+##### What was the malicious IP address in the alerts?
+221.181.185.159
+
+##### To whom did you escalate the alert with the malicious IP?
+Will Griffin
+
+##### What message did you get after blocking the IP address on the firewall?
+
+
 <div align="center">
 <br>
 <br>
