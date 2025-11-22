@@ -766,6 +766,25 @@ agent-001
 <div style="page-break-after: always;"></div>
 
 ## Task 12. Loading Sample Data
+
+The Wazuh management server comes with sample data bundled with the installation that can be loaded at your convenience. I have not enabled this by default to improve the performance of the server. However, if you wish to import much more data to showcase the extensibility of Wazuh further, follow the steps below. Navigate to the module to load the sample data: 
+
+1. Open the "**Wazuh"** tab in the heading.
+2. Highlight over "**Settings"**.
+3. Select the "**Sample Data"** heading.
+4. Press the "**Add Data**" button on the respective three cards to import the data.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/b3915d96928cd3999a652155e21a88f2.png)  
+
+- Note that this may take up to a minute for each. Refer to this animated picture below for example. The data will have successfully imported when the button on the card says "Remove data"
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/cdea39d294694de9ae762e086acc1e81.png)  
+
+Return to the Wazuh dashboard to see the newly imported data. For example, we can now see that the "Security Events" module has a tonne more data for us to explore.
+
+**Please note** that you will need to play with the date range. The absolute minimum required to show the sample will need to be Last 7 days+ and refresh the dashboard for this to apply.  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/c3e72b11a3b6fc4acae20858c928e28e.png)
 <div>
 <br>
 <br>
@@ -773,7 +792,10 @@ agent-001
 
 ### Questions
 
-##### 
+##### I've imported the sample data!
+
+
+##### I have played around with the sample data.
 <div align="center">
 <br>
 <br>
