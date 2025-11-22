@@ -419,7 +419,7 @@ Configuring theWazuhServer to ingress Ssymon events
 Sysmon
 
 ##### What standard application on Windows do these system events get recorded to?
-
+Event Viewer
 <div align="center">
 <br>
 <br>
@@ -430,6 +430,7 @@ Sysmon
 <div style="page-break-after: always;"></div>
 
 ## Task 8. Collecting Linux Logs with Wazuh
+
 <div align="center">
 <br>
 <br>
