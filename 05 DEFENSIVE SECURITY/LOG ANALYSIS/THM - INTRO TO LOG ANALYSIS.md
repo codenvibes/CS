@@ -1,6 +1,6 @@
 ---
 tags:
-link:
+link: https://tryhackme.com/room/introtologanalysis
 description:
 ---
 ## Summary
@@ -1007,7 +1007,7 @@ Files and folders can be uploaded to CyberChef. This provides a convenient way o
 <div style="page-break-after: always;"></div>
 
 
-## 9. Log Analysis Tools: Yara and Sigma
+## Task 9. Log Analysis Tools: #Yara and #Sigma
 
 ### Sigma
 
@@ -1117,7 +1117,7 @@ If you want to learn more about Yara, check out the [Yara](https://tryhackme.co
 <div style="page-break-after: always;"></div>
 
 
-## 10. Conclusion
+## Task 10. Conclusion
 
 In this room, we covered the basic methodology behind adopting an effective log analysis strategy. We explored the importance of log data collection, common attack patterns, and useful tools for the investigation and response processes.
 
