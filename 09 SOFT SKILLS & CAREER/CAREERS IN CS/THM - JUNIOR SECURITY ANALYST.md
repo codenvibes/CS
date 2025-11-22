@@ -5,11 +5,11 @@ description: Play through a day in the life of a Security Analyst and experience
 ---
 ## Summary
 
-| SECTION/TASK                            | FLAG |
-| --------------------------------------- | ---- |
-| Task 1. Junior Security Analyst Journey | SOC  |
-|                                         |      |
-|                                         |      |
+| SECTION/TASK                            | FLAG             |
+| --------------------------------------- | ---------------- |
+| Task 1. Junior Security Analyst Journey | SOC              |
+|                                         | No answer needed |
+|                                         |                  |
 
 <div align="center">
 <br>
@@ -101,6 +101,15 @@ Junior Security Analysts play a crucial role in the investigation procedure. The
 ### Response 
 
 After the investigation, the SOC team coordinates and takes action on the compromised hosts, which involves isolating the hosts from the network, terminating the malicious processes, deleting files, and more.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### Continue to the next task!
+No answer needed
 <div align="center">
 <br>
 <br>
