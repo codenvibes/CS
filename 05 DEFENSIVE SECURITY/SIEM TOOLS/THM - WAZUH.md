@@ -289,7 +289,10 @@ The animated gif below shows the number of Windows agent events/alerts triggered
 
 ### Questions
 
-##### 
+##### Ensure that you are logged in to the Wazuh management server on [HTTP://MACHINE_IP](http://machine_ip/)
+No answer needed
+
+##### Navigate to the "Management" tab by pressing Wazuh -> **Management** and open the "Rules" module like so:
 <div align="center">
 <br>
 <br>
