@@ -35,7 +35,7 @@ The responsibilities for a Junior Security Analyst or Tier 1 SOC Analyst inclu
 Required qualifications (most common):
 
 - 0-2 years of experience with Security Operations
-- Basic understanding of Networking ( OSI model (Open Systems Interconnection Model) or  TCP/IP model (Transmission Control Protocol/Internet Protocol Model)), Operating Systems (Windows, Linux), Web applications. To further learn about OSI and TCP/IP models, please refer to the [Introductory Networking Room](https://tryhackme.com/room/introtonetworking).
+- Basic understanding of Networking (OSI model (Open Systems Interconnection Model) or  TCP/IP model (Transmission Control Protocol/Internet Protocol Model)), Operating Systems (Windows, Linux), Web applications. To further learn about OSI and TCP/IP models, please refer to the [Introductory Networking Room](https://tryhackme.com/room/introtonetworking).
 - Scripting/programming skills are a plus
 
 Desired certification:
