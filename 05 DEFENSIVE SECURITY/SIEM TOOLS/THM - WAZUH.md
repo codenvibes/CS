@@ -183,8 +183,7 @@ These frequent actions, such as removing files, are often detected as a security
 We can analyze these events individually by selecting the event’s dropdown. You can sort events based upon various factors such as timestamp, tactics, or description.
 
 Press enter or click to view image in full size
-
-![](https://miro.medium.com/v2/resize:fit:700/0*5KAANwl3mzpkAMUa.gif)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/3a195f897882eee1b3151a3b5b167054.gif" alt=""></div>
 <div>
 <br>
 <br>
