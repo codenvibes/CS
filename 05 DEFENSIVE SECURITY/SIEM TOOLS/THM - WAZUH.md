@@ -467,7 +467,8 @@ We will now need to restart the Linux agent running the Apache2 service.
 
 ### Questions
 
-##### 
+##### What is the full file path to the rules located on a Wazuh management server?
+/var/ossec/ruleset/rules
 <div align="center">
 <br>
 <br>
