@@ -538,9 +538,10 @@ Configuring theWazuhagent to add the auditd log as a log file to send to theWazu
 ### Questions
 
 ##### What application do we use on Linux to monitor events such as command execution?
-
+/etc/audit/rules.d/audit.rules
 
 ##### What is the full path & filename for where the aforementioned application stores rules?
+/etc/audit/rules.d/audit.rules
 <div align="center">
 <br>
 <br>
