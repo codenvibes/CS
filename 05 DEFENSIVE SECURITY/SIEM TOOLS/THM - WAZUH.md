@@ -681,10 +681,10 @@ Reminder, the syntax for running queries uses the same web methods (i.e. GET/PUT
 ### Questions
 
 ##### What is the name of the standard Linux tool that we can use to make requests to  the Wazuh management server?
-
+curl
 
 ##### What HTTP method would we use to retrieve information for a Wazuh management server API?
-
+GET
 
 ##### What HTTP method would we use to retrieve information for a Wazuh management server API?
 
