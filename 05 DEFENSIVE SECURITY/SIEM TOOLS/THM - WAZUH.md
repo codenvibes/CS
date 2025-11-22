@@ -693,6 +693,7 @@ PUT
 No answer needed
 
 ##### Use the API console to find the Wazuh server's version.<br>Note: You will need to add the "**v**" prefix to the number for this answer. For example **v**1.2.3
+v4.2.5
 
 <div align="center">
 <br>
@@ -704,6 +705,14 @@ No answer needed
 <div style="page-break-after: always;"></div>
 
 ## Task 11. Generating Reports with Wazuh
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
