@@ -7,7 +7,7 @@ description: Play through a day in the life of a Security Analyst and experience
 
 | SECTION/TASK                            | FLAG |
 | --------------------------------------- | ---- |
-| Task 1. Junior Security Analyst Journey |      |
+| Task 1. Junior Security Analyst Journey | SOC  |
 |                                         |      |
 |                                         |      |
 
@@ -62,7 +62,8 @@ An overview of the Security Operations Center (SOC) Three-Tier Model:
 
 ### Questions
 
-![[Pasted image 20250731165315.png]]
+##### Which team do you work with as a Junior Security Analyst?
+SOC
 <div align="center">
 <br>
 <br>
