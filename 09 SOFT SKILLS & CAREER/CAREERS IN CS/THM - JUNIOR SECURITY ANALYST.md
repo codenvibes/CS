@@ -22,6 +22,14 @@ description: Play through a day in the life of a Security Analyst and experience
 
 ## Task 1. Junior Security Analyst Journey
 
+Welcome to the cyber security - a world of evolving threats, where every click could hide an attack, and every attack could destroy the business. This is why we need defenders who analyze attacks, stop breaches, and keep companies safe. Your journey as a Junior Security Analyst begins here, in this TryHackMe room!
+
+You start your work day from a quick scrolling through the cyber news for the last week. As usual, big companies are getting breached, threat groups are running full-scale attacks, and new vulnerabilities are popping here and there. You are the first line of defense, and every day you protect your company from apeearing in the cyber news.
+
+![Four screenshots of recent cyber incidents: record-breaking DDoS attacks, campaigns against NATO countries, supply chain attacks, and SaaS compromises leading to data leaks.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1757436897488.png)
+
+Above are the cyber news for September 2025 ([The Hacker News](https://thehackernews.com/))
+
 In the Junior Security Analyst role, you will be a Triage Specialist. You will spend a lot of time triaging or monitoring the event logs and alerts.  
 
 The responsibilities for a Junior Security Analyst or Tier 1 SOC Analyst include:
