@@ -416,9 +416,10 @@ Configuring theWazuhServer to ingress Ssymon events
 ### Questions
 
 ##### What is the name of the tool that we can use to monitor system events?
-
+Sysmon
 
 ##### What standard application on Windows do these system events get recorded to?
+
 <div align="center">
 <br>
 <br>
