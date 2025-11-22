@@ -5,18 +5,18 @@ description: "An intro to log analysis, best practices, and essential tools for 
 ---
 ## Summary
 
-| SECTION/TASK                                    | FLAG                          |
-| ----------------------------------------------- | ----------------------------- |
-| Task 1. Introduction                            | No answer needed              |
-| Task 2. Log Analysis Basics                     | No answer needed              |
-| Task 3. Investigation Theory                    | Super Timeline<br>File Hashes |
-| Task 4. Detection Engineering                   |                               |
-| Task 5. Automated vs. Manual Analysis           |                               |
-| Task 6. Log Analysis Tools: Command Line        |                               |
-| Task 7. Log Analysis Tools: Regular Expressions |                               |
-| Task 8. Log Analysis Tools: CyberChef           |                               |
-| Task 9. Log Analysis Tools: Yara and Sigma      |                               |
-| Task 10. Conclusion                             |                               |
+| SECTION/TASK                                    | FLAG                                                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Task 1. Introduction                            | No answer needed                                                                      |
+| Task 2. Log Analysis Basics                     | No answer needed                                                                      |
+| Task 3. Investigation Theory                    | Super Timeline<br>File Hashes                                                         |
+| Task 4. Detection Engineering                   | /var/log/nginx/access.log<br>Path Traversal                                           |
+| Task 5. Automated vs. Manual Analysis           | Automated<br>Manual                                                                   |
+| Task 6. Log Analysis Tools: Command Line        | c701d43cc5a3acb9b5b04db7f1be94f6<br>52<br>145.76.33.201<br>31/Jul/2023:12:34:40 +0000 |
+| Task 7. Log Analysis Tools: Regular Expressions | post=2[0-9]<br>                                                                       |
+| Task 8. Log Analysis Tools: CyberChef           |                                                                                       |
+| Task 9. Log Analysis Tools: Yara and Sigma      |                                                                                       |
+| Task 10. Conclusion                             |                                                                                       |
 
 <div align="center">
 <br>
