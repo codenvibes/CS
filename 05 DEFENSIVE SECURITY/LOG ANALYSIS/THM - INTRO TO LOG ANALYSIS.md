@@ -45,7 +45,7 @@ It is recommended to have a general understanding of logs and how they are colle
 <div style="page-break-after: always;"></div>
 
 
-## 2. Log Analysis Basics
+## Task 2. Log Analysis Bas
 
 ### What Are Logs?
 
@@ -106,7 +106,7 @@ Each log type presents a unique perspective on the activities within an environm
 <div style="page-break-after: always;"></div>
 
 
-## 3. Investigation Theory
+## Task 3. Investigation Theory
 
 Several methodologies, best practices, and essential techniques are employed to create a coherent timeline and conduct effective log analysis investigations.
 
