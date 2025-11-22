@@ -82,9 +82,7 @@ SOC
 The core function of a SOC (Security Operations Center) is to investigate, monitor, prevent, and respond to threats in the cyber realm 24/7 or around the clock. Per [Trellix's definition of a SOC](https://www.trellix.com/security-awareness/operations/what-is-soc/),  "Security operations teams are charged with monitoring and protecting many assets. These include intellectual property, personnel data, business systems, and brand integrity". As the implementation component of an organisation's overall cyber security framework, security operations teams act as the central point of collaboration in coordinated efforts to monitor, assess, and defend against cyberattacks". The number of people working in the SOC can vary depending on the organisation's size. 
 
 **What is included in the responsibilities of the SOC?**
-
-<div align="center"><br><img width="" src="" alt=""></div>
-
+<div align="center"><br><img width="" src=https://tryhackme-images.s3.amazonaws.com/user-uploads/5fc2847e1bbebc03aa89fbf2/room-content/e2b97e6d9224da98764e21085190e54e.png" alt=SOC responsibilities that security analysts will be exposed to.]("></div>
 
 ### Preparation and Prevention
 
