@@ -705,6 +705,42 @@ v4.2.5
 <div style="page-break-after: always;"></div>
 
 ## Task 11. Generating Reports with Wazuh
+
+Wazuh features a reporting module that allows you to view a summarised breakdown of events that have occurred on an agent. 
+
+First, we will need to select a view to generate reports from. In this example, I want to generate a report of the security events in the last 24 hours. To do so, I will need to open the view: **1. Modules -> 2. Security Events**
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/41d15d504f407acf744fdfdd00b152a9.png)
+
+  
+
+Now, if there have been alerts within the last 24 hours, I can generate a report like so: 
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/2710a93265a303595e8aefadf498f400.png)  
+
+**Note:** If this button is greyed out, there is no report data, so you will either need to change your query or extend the date range.
+
+  
+
+The report **may** take between a couple of seconds to a few minutes to generate (depending on the amount of data needed to be processed). After allowing some time, we will navigate to the report overview dashboard within Wazuh.
+
+  
+
+First, press on the "Wazuh" heading at the top of the screen and select "**Management**", and then click on the "**Reporting**" text located under the "**Status and Reports**" sub-heading:
+
+  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/d5f90046e283c983f1f1ae0a6662c990.png)  
+
+  
+
+The report overview dashboard lists all generated reports. To download a report, press the save icon on the right of the report located under the "**Actions**" heading. 
+
+  
+
+Which will download the report as a PDF to your machine. A generated security events report looks like so:![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/e6ea3d0724fe2cb241dc3c8a4ba08363.png)
 <div>
 <br>
 <br>
