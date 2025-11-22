@@ -227,8 +227,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -362,7 +361,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "de9a4ecec3ad31f6",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
     "TEMPLATES/Questions.md",
