@@ -5,15 +5,18 @@ description:
 ---
 ## Summary
 
-| SECTION/TASK                          | FLAG |
-| ------------------------------------- | ---- |
-| Task 1. Introduction                  |      |
-| Task 2. Log Analysis Basics           |      |
-| Task 3. Investigation Theory          |      |
-| Task 4. Detection Engineering         |      |
-| Task 5. Automated vs. Manual Analysis |      |
-|                                       |      |
-|                                       |      |
+| SECTION/TASK                                    | FLAG |
+| ----------------------------------------------- | ---- |
+| Task 1. Introduction                            |      |
+| Task 2. Log Analysis Basics                     |      |
+| Task 3. Investigation Theory                    |      |
+| Task 4. Detection Engineering                   |      |
+| Task 5. Automated vs. Manual Analysis           |      |
+| Task 6. Log Analysis Tools: Command Line        |      |
+| Task 7. Log Analysis Tools: Regular Expressions |      |
+| Task 8. Log Analysis Tools: CyberChef           |      |
+| Task 9. Log Analysis Tools: Yara and Sigma      |      |
+| Task 10. Conclusion                             |      |
 
 <div align="center">
 <br>
