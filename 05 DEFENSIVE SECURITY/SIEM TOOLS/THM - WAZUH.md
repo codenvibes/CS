@@ -171,8 +171,7 @@ Once this information has been gathered, it is sent back to the Wazuh server and
 <div align="center"><br><img width="1200" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/1907912f601690e47d5e11d031461f4b.png" alt=""></div>
 
 The vulnerability scanner module will perform a full scan when the Wazuh agent is first installed on a device and **must** be configured to run at a set interval then after (by default, this is set to 5 minute intervals when enabled) like so:
-
-![](https://miro.medium.com/v2/resize:fit:356/0*Rf4toBwjG-bYp1SH.png)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/06c4394959f434bffd04a4a6618b576b.png" alt=""></div>
 
 _Configuring the Wazuh management server to audit agents for vulnerabilities frequently (/var/ossec/etc/ossec.conf)_
 
