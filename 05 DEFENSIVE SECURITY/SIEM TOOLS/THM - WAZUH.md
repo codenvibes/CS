@@ -687,10 +687,10 @@ curl
 GET
 
 ##### What HTTP method would we use to retrieve information for a Wazuh management server API?
-
+PUT
 
 ##### Navigate to Wazuh's API console.
-
+No answer needed
 
 ##### Use the API console to find the Wazuh server's version.<br>Note: You will need to add the "**v**" prefix to the number for this answer. For example **v**1.2.3
 
