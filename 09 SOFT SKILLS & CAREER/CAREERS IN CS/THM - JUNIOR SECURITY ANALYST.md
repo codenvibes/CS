@@ -5,11 +5,11 @@ description: Play through a day in the life of a Security Analyst and experience
 ---
 ## Summary
 
-| SECTION/TASK                             | FLAG             |
-| ---------------------------------------- | ---------------- |
-| Task 1. Junior Security Analyst Journey  | SOC              |
-| Task 2. Security Operations Center (SOC) | No answer needed |
-|                                          |                  |
+| SECTION/TASK                                    | FLAG                                                                            |
+| ----------------------------------------------- | ------------------------------------------------------------------------------- |
+| Task 1. Junior Security Analyst Journey         | SOC                                                                             |
+| Task 2. Security Operations Center (SOC)        | No answer needed                                                                |
+| Task 3. A Day in the Life of a Security Analyst | No answer needed<br>221.181.185.159<br>Will Griffin<br>THM{until-we-meet-again} |
 
 <div align="center">
 <br>
@@ -121,7 +121,7 @@ No answer needed
 
 
 
-## 3. A day In the life of a Junior (Associate) Security Analyst
+## Task 3. A Day in the Life of a Security Analyst
 
 To understand the job responsibilities for a Junior (Associate) Security Analyst, let us first show you what a day in the life of the Junior Security Analyst looks like and why this is an exciting career journey.
 
@@ -149,7 +149,7 @@ No answer needed
 Will Griffin
 
 ##### What message did you get after blocking the IP address on the firewall?
-
+THM{until-we-meet-again}
 
 <div align="center">
 <br>
