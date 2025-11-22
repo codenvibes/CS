@@ -83,7 +83,8 @@ The core function of a SOC (Security Operations Center) is to investigate, mon
 
 **What is included in the responsibilities of the SOC?**
 
-![SOC responsibilities that security analysts will be exposed to.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5fc2847e1bbebc03aa89fbf2/room-content/e2b97e6d9224da98764e21085190e54e.png)
+<div align="center"><br><img width="" src="" alt=""></div>
+
 
 ### Preparation and Prevention
 
