@@ -680,7 +680,20 @@ Reminder, the syntax for running queries uses the same web methods (i.e. GET/PUT
 
 ### Questions
 
-##### 
+##### What is the name of the standard Linux tool that we can use to make requests to  the Wazuh management server?
+
+
+##### What HTTP method would we use to retrieve information for a Wazuh management server API?
+
+
+##### What HTTP method would we use to retrieve information for a Wazuh management server API?
+
+
+##### Navigate to Wazuh's API console.
+
+
+##### Use the API console to find the Wazuh server's version.<br>Note: You will need to add the "**v**" prefix to the number for this answer. For example **v**1.2.3
+
 <div align="center">
 <br>
 <br>
