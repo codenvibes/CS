@@ -293,6 +293,8 @@ The animated gif below shows the number of Windows agent events/alerts triggered
 No answer needed
 
 ##### Navigate to the "Management" tab by pressing Wazuh -> **Management** and open the "Rules" module like so:
+No answer needed
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/wazuh/rules2.png" alt=""></div>
 <div align="center">
 <br>
 <br>
