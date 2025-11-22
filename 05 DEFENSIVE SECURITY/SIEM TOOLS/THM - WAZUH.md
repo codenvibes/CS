@@ -748,7 +748,14 @@ Which will download the report as a PDF to your machine. A generated security ev
 
 ### Questions
 
+##### Use Wazuh's "Report" feature to generate a report of an agent.
+No answer needed
+
 ##### 
+
+
+##### 
+
 <div align="center">
 <br>
 <br>
