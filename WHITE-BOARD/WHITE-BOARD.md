@@ -162,15 +162,3 @@ Finished
 ```
 
 
-
-
-
-The HackTheBox machine "Soulmate" is a beginner-friendly Linux-based challenge with a difficulty rating of Easy. The initial reconnaissance phase involves identifying open ports and discovering hidden assets. A standard nmap scan reveals two open ports: 22 (SSH) and 80 (HTTP). The HTTP service runs nginx 1.18.0 on Ubuntu, and the web server hosts a dating-themed website with typical features like user registration, login, and profile browsing.
-
-Subdomain enumeration using tools like ffuf is a critical step. Running the command `ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u http://soulmate.htb -H "Host: FUZZ.soulmate.htb" --fs 652` uncovers a subdomain, `ftp.soulmate.htb`, which leads to a CrushFTP web interface. This interface is running CrushFTP version 11.W.657, released on March 8, 2025. A critical vulnerability, CVE-2025-31161, is identified as an authentication bypass that allows an attacker to create a new administrative user account without proper authentication.
-
-Exploiting CVE-2025-31161 involves using a public Python exploit. The command `python3 cve-2025-31161.py --target_host ftp.soulmate.htb --port 80 --target_user root --new_user <username> --password <password>` successfully creates a new user with administrative privileges. Once logged into the CrushFTP web interface as the newly created user, the attacker can navigate to the User Manager and modify the password for an existing user, such as 'ben', to a known value like '123456'.
-
-The web interface also provides a file upload feature in the `/webProd/` directory, which is accessible via the main web server at `http://soulmate.htb`. This allows for the upload of a PHP webshell, which can be used to gain a reverse shell as the `www-data` user. A common method involves uploading a file named `shell.png`, renaming it to `shell.php`, and then executing commands via a URL like `http://soulmate.htb/assets/images/profiles/shell.php?cmd=id`.
-
-Privilege escalation is achieved through multiple paths. One method involves discovering a suspicious Erlang SSH service running on port 2222, which is accessible via SSH as the user `ben` using the password found in a hardcoded script (`HouseH0ldings998`). This service runs with root privileges, allowing command execution via the `os:cmd/1` function in the Erlang shell, which can be used to retrieve the root flag. Another path involves finding a `backup` command with `NOPASSWD` privileges for the user `eros`, which can be leveraged for privilege escalation.
