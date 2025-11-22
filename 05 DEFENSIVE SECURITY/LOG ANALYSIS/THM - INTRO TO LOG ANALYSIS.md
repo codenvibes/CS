@@ -1,22 +1,22 @@
 ---
 tags:
 link: https://tryhackme.com/room/introtologanalysis
-description:
+description: "An intro to log analysis, best practices, and essential tools for effective detection and response.\r\r\rUser avatar\r60 min\r\r32,914\r\rUser avatar\rUser avatar"
 ---
 ## Summary
 
-| SECTION/TASK                                    | FLAG |
-| ----------------------------------------------- | ---- |
-| Task 1. Introduction                            |      |
-| Task 2. Log Analysis Basics                     |      |
-| Task 3. Investigation Theory                    |      |
-| Task 4. Detection Engineering                   |      |
-| Task 5. Automated vs. Manual Analysis           |      |
-| Task 6. Log Analysis Tools: Command Line        |      |
-| Task 7. Log Analysis Tools: Regular Expressions |      |
-| Task 8. Log Analysis Tools: CyberChef           |      |
-| Task 9. Log Analysis Tools: Yara and Sigma      |      |
-| Task 10. Conclusion                             |      |
+| SECTION/TASK                                    | FLAG                          |
+| ----------------------------------------------- | ----------------------------- |
+| Task 1. Introduction                            | No answer needed              |
+| Task 2. Log Analysis Basics                     | No answer needed              |
+| Task 3. Investigation Theory                    | Super Timeline<br>File Hashes |
+| Task 4. Detection Engineering                   |                               |
+| Task 5. Automated vs. Manual Analysis           |                               |
+| Task 6. Log Analysis Tools: Command Line        |                               |
+| Task 7. Log Analysis Tools: Regular Expressions |                               |
+| Task 8. Log Analysis Tools: CyberChef           |                               |
+| Task 9. Log Analysis Tools: Yara and Sigma      |                               |
+| Task 10. Conclusion                             |                               |
 
 <div align="center">
 <br>
