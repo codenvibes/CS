@@ -5,11 +5,11 @@ description: Play through a day in the life of a Security Analyst and experience
 ---
 ## Summary
 
-| SECTION/TASK                            | FLAG             |
-| --------------------------------------- | ---------------- |
-| Task 1. Junior Security Analyst Journey | SOC              |
-|                                         | No answer needed |
-|                                         |                  |
+| SECTION/TASK                             | FLAG             |
+| ---------------------------------------- | ---------------- |
+| Task 1. Junior Security Analyst Journey  | SOC              |
+| Task 2. Security Operations Center (SOC) | No answer needed |
+|                                          |                  |
 
 <div align="center">
 <br>
@@ -75,7 +75,7 @@ SOC
 
 
 
-## 2. Security Operations Center (SOC)
+## Task 2. Security Operations Center (SOC)
 
 ### So, what exactly is a SOC?
 
@@ -139,7 +139,7 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 
 ### Questions
 
-![[Pasted image 20250731174924.png]]
+##### 
 <div align="center">
 <br>
 <br>
