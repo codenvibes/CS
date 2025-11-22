@@ -244,7 +244,7 @@ cmnatic@thm grep "54.36.149.64" logfile.txt
 <div style="page-break-after: always;"></div>
 
 
-## 4. Detection Engineering
+## Task 4. Detection Engineering
 
 ### Common Log File Locations
 
@@ -386,7 +386,7 @@ path-traversal.log
 <div style="page-break-after: always;"></div>
 
 
-## 5. Automated vs. Manual Analysis
+## Task 5. Automated vs. Manual Analysis
 
 ### Automated Analysis
 
@@ -427,7 +427,7 @@ Manual analysis is the process of examining data and artifacts without using aut
 <div style="page-break-after: always;"></div>
 
 
-## 6. Log Analysis Tools: Command Line
+## Task 6. Log Analysis Tools: Command Line 
 
 When analyzing collected logs, sometimes the most readily available tool we have is the command line itself. Analyzing logs through the command line provides a quick and powerful way to gain insights into system activities, troubleshoot issues, and detect security incidents, even if we don't have an SIEM system configured.
 
@@ -801,7 +801,7 @@ While command-line log analysis offers powerful capabilities, it might only suit
 <div style="page-break-after: always;"></div>
 
 
-## 7. Log Analysis Tools: Regular Expressions
+## Task 7. Log Analysis Tools: Regular Expressions
 
 Regular expressions, abbreviated as _regex_, are an invaluable way to define patterns for searching, matching, and manipulating text data. Regular expression patterns are constructed using a combination of special characters that represent matching rules and are supported in many programming languages, text editors, and software.
 
@@ -932,7 +932,7 @@ The [Logstash room](https://tryhackme.com/jr/logstash) and [the official Gro
 <div style="page-break-after: always;"></div>
 
 
-## 8. Log Analysis Tools: #CyberChef
+## Task 8. Log Analysis Tools: #CyberChef
 
 #CyberChef is a powerful tool in an analyst's toolkit. Created by [GCHQ](https://github.com/gchq/CyberChef), #CyberChef has long been regarded as the "Cyber Swiss Army Knife." The application boasts over 300 operations, which combine to make a recipe that makes handling data a piece of cake. Some key features include:
 
