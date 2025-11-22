@@ -305,6 +305,120 @@ No answer needed
 <div style="page-break-after: always;"></div>
 
 ## Task 7. Collecting Windows Logs with Wazuh
+
+All sorts of actions and events are captured and recorded on a Windows operating system. This includes authentication attempts, networking connections, files that were accessed, and the behaviours of applications and services. This information is stored in the Windows event log using a tool called Sysmon.
+
+We can use the Wazuh agent to aggregate these events recorded by _Sysmon_ for processing to the Wazuh manager. Now, we will need to configure both the Wazuh agent and the Sysmon application.  Sysmon uses rules that are made in XML formatting to be triggered. For example, in the XML snippet below, we are telling Sysmon to monitor for the event of the powershell.exe process starting.
+
+ASysmonconfiguration file for monitoring thePowershellprocess
+
+```shell-session
+ Sysmon schemaversion="3.30" 
+         HashAlgorithms md5 /HashAlgorithms 
+  EventFiltering 
+  !--SYSMON EVENT ID 1 : PROCESS CREATION-- 
+  ProcessCreate onmatch="include" 
+  Image condition="contains" powershell.exe /Image 
+  /ProcessCreate 
+  !--SYSMON EVENT ID 2 : FILE CREATION TIME RETROACTIVELY CHANGED IN THE FILESYSTEM-- 
+  FileCreateTime onmatch="include"  /FileCreateTime 
+  !--SYSMON EVENT ID 3 : NETWORK CONNECTION INITIATED-- 
+  NetworkConnect onmatch="include"  /NetworkConnect 
+  !--SYSMON EVENT ID 4 : RESERVED FOR SYSMON STATUS MESSAGES, THIS LINE IS INCLUDED FOR DOCUMENTATION PURPOSES ONLY-- 
+  !--SYSMON EVENT ID 5 : PROCESS ENDED-- 
+  ProcessTerminate onmatch="include"  /ProcessTerminate 
+  !--SYSMON EVENT ID 6 : DRIVER LOADED INTO KERNEL-- 
+  DriverLoad onmatch="include"  /DriverLoad  
+  !--SYSMON EVENT ID 7 : DLL (IMAGE) LOADED BY PROCESS-- 
+  ImageLoad onmatch="include"  /ImageLoad 
+  !--SYSMON EVENT ID 8 : REMOTE THREAD CREATED-- 
+  CreateRemoteThread onmatch="include"  /CreateRemoteThread 
+  !--SYSMON EVENT ID 9 : RAW DISK ACCESS-- 
+  RawAccessRead onmatch="include"  /RawAccessRead  
+  !--SYSMON EVENT ID 10 : INTER-PROCESS ACCESS-- 
+  ProcessAccess onmatch="include"  /ProcessAccess 
+  !--SYSMON EVENT ID 11 : FILE CREATED-- 
+  FileCreate onmatch="include"  /FileCreate 
+  !--SYSMON EVENT ID 12 & 13 & 14 : REGISTRY MODIFICATION-- 
+  RegistryEvent onmatch="include"  /RegistryEvent 
+  !--SYSMON EVENT ID 15 : ALTERNATE DATA STREAM CREATED-- 
+  FileCreateStreamHash onmatch="include"  /FileCreateStreamHash  
+  PipeEvent onmatch="include"  /PipeEvent 
+  /EventFiltering 
+ /Sysmon 
+        
+```
+
+  
+
+To instruct Sysmon to do, we need to execute the Sysmon application and provide the aforementioned configuration file like so: `Sysmon64.exe -accepteula -i detect_powershell.xml`
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/8a1cf21e3a8fa4d7e42c8395a50973e6.png)  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/e1605655cc49dd89016b1bdc87561561.png)  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/ba0799f89ee450cc9646b169fc1927b1.png)  
+
+We can verify that Sysmon has accepted our configuration file by navigating to the Event Viewer and searching for the “**Sysmon**” module like so:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/8a05b23adeb562db0e3ed27b1ff31dca.png)  
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/3b3bca59a5fc8d0de3b06d872838c70d.png)  
+
+Let’s launch a powershell prompt on the Windows Server and return to our Event Viewer. We can now see a record of this powershell prompt being opened, kept within the Event Viewer.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/a41077ba6bd769954ff3c353ec33b890.png)  
+
+Now we will need to configure the Wazuh agent on this Window Server to instruct it to send these events to the Wazuh management server. To do so, we need to open the Wazuh agent file located at: `C:\Program Files (x86)\ossec-agent\ossec.conf`
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/ea9e6fe95bb44847fc17c4096a1e8fe5.png)  
+
+To include the following snippet:
+
+Configuring theWazuhAgent's configuration
+
+```shell-session
+<localfile>
+<location>Microsoft-Windows-Sysmon/Operational</location>
+<log_format>eventchannel</log_format>
+</localfile>
+```
+
+Looking like so:
+
+ ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/c6f7ce784d60c25cfcf58b36fa5be0f0.png)  
+
+Now, we will need to restart the Wazuh agent. In this instance, I am restarting the operating system just to be sure that these changes have taken place.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/70dbe7115a64426e5648a169173a5d24.gif)  
+
+Once this is done, we need to tell the Wazuh Management server to add Sysmon as a rule to visualize these events. This can be done by adding  an XML file to the local rules located in `/var/ossec/etc/rules/local_rules.xml`
+
+Configuring theWazuhServer to ingress Ssymon events
+
+```shell-session
+<group name="sysmon,">
+ <rule id="255000" level="12">
+ <if_group>sysmon_event1</if_group>
+ <field name="sysmon.image">\\powershell.exe||\\.ps1||\\.ps2</field>
+ <description>Sysmon - Event 1: Bad exe: $(sysmon.image)</description>
+ <group>sysmon_event1,powershell_execution,</group>
+ </rule>
+</group>
+```
+
+ You will need to restart the Wazuh Management server for this to apply. Once done, we can refer back to our Wazuh Management server and notice that data has been retrieved from an agent.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What is the name of the tool that we can use to monitor system events?
+
+
+##### What standard application on Windows do these system events get recorded to?
 <div align="center">
 <br>
 <br>
