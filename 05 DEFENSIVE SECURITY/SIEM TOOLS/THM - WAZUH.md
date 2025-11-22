@@ -176,8 +176,7 @@ The vulnerability scanner module will perform a full scan when the Wazuh agent i
 _Configuring the Wazuh management server to audit agents for vulnerabilities frequently (/var/ossec/etc/ossec.conf)_
 
 Wazuh is capable of testing an agent’s configuration against certain rulesets to check for compliance. However, out of the box, it is arguably sensitive. Take, for example, this Linux host running the Wazuh agent. There have been a total of 769 events occurring that the system performs as part of its daily maintenance
-
-![](https://miro.medium.com/v2/resize:fit:652/0*xdDYOKhj5e0KGmC8.png)
+<div align="center"><br><img width="" src="https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/55456a88291bf69e44a15e5a742faf1e.png" alt=""></div>
 
 These frequent actions, such as removing files, are often detected as a security event. These events and the related severities are determined by Wazuh’s rulesets, which is something that we will come on to explore adjusting in another task.
 
