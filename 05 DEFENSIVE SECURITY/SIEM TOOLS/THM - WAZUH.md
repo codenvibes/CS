@@ -751,10 +751,11 @@ Which will download the report as a PDF to your machine. A generated security ev
 ##### Use Wazuh's "Report" feature to generate a report of an agent.
 No answer needed
 
-##### 
+##### Navigate to the [Wazuh "Report" dashboard](https://machine_ip/app/wazuh#/manager/?tab=reporting)
+No answer needed
 
+##### Analyse the report. What is the name of the agent that has generated the most alerts?
 
-##### 
 
 <div align="center">
 <br>
