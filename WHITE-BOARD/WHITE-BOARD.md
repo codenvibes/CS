@@ -1,6 +1,5 @@
 🛡️ DAY 44 of my #CYBERSECURITY Journey!
-✅ Completed the Extending Your Network room on @RealTryHackMe today!
-Learned about port forwarding, firewalls, VPNs & LAN devices, plus hands-on labs with firewalls & a network simulator.
+Learned how to deploy Wazuh, add agents, monitor logons, audit policies, collect Windows/Linux logs, assess vulnerabilities, use the API & generate reports.
 
 
 22 more rooms to the Jr Penetration Tester certificate.
