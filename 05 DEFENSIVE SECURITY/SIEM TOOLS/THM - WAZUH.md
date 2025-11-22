@@ -235,8 +235,8 @@ Wazuh presents a broad illustration of the logs. We can use the visualizations 
 No answer needed
 
 ##### Navigate to the "Modules" tab by pressing **Wazuh** -> **Modules** and open the "Policy Management" module like so:
-<div align="center"><br><img width="" src="" alt=""></div>
 
+<div align="center"><br><img width="" src="https://assets.tryhackme.com/additional/wazuh/navigate5.png" alt=""></div>
 <div align="center">
 <br>
 <br>
