@@ -552,6 +552,135 @@ Configuring theWazuhagent to add the auditd log as a log file to send to theWazu
 <div style="page-break-after: always;"></div>
 
 ## Task 10. Wazuh API
+
+### Using Our Own Client
+
+The Wazuh management server features a rich and extensive API to allow the Wazuh management server to be interacted with using the command line. Because the Wazuh management server requires authentication, we must first authenticate our client.
+
+In this task, we will be using a Linux machine with the `curl` tool installed to interact with the Wazuh management server API. First, we will need to authenticate ourselves by providing a valid set of credentials to the authentication endpoint.
+
+Once we are authenticated, the Wazuh management server will give us a token (similar to a session) that we will need to provide for any further interaction. We can store this token as an environment variable on our Linux machine like the snippet below:
+
+(replacing _WAZUH_MANAGEMENT_SERVER_IP_ with the IP address of the Wazuh management server (i.e. MACHINE_IP):
+
+`TOKEN=$(curl -u : -k -X GET "https://WAZUH_MANAGEMENT_SERVER_IP:55000/security/user/authenticate?raw=true")`  
+  
+Let’s confirm that we have authenticated okay and have been given a token by the Wazuh management server:  
+  
+`curl -k -X GET "https://MACHINE_IP:55000/" -H "Authorization: Bearer $TOKEN"`  
+  
+
+WazuhAPIVerify Authentication
+
+```shell-session
+{
+    "data": {
+        "title": "Wazuh API",
+        "api_version": "4.0.0",
+        "revision": 4000,
+        "license_name": "GPL 2.0",
+        "license_url": "https://github.com/wazuh/wazuh/blob/master/LICENSE",
+        "hostname": "wazuh-master",
+        "timestamp": "2021-10-25T07:05:00+0000"
+    },
+    "error": 0
+}
+```
+
+We can use the standard HTTP request methods such as `GET/POST/PUT/DELETE` by providing the relevant option after a `-X` i.e. `-X GET`
+
+`curl -k -X GET "https://MACHINE_IP:55000/manager/status?pretty=true" -H "Authorization: Bearer $TOKEN"`
+
+For example, let’s use the Wazuh API to list some statistics and important information about the Wazuh management server, including what services are being monitored and some general settings about the Wazuh management server:
+
+`curl -k -X GET "https://MACHINE_IP:55000/manager/configuration?pretty=true§ion=global" -H "Authorization: Bearer $TOKEN"`
+
+  
+
+Getting information about theWazuhmanager
+
+```shell-session
+{
+  "data": {
+    "affected_items": [
+      {
+        "wazuh-agentlessd": "running",
+        "wazuh-analysisd": "running",
+        "wazuh-authd": "running",
+        "wazuh-csyslogd": "running",
+        "wazuh-dbd": "stopped",
+        "wazuh-monitord": "running",
+        "wazuh-execd": "running",
+        "wazuh-integratord": "running",
+        "wazuh-logcollector": "running",
+        "wazuh-maild": "running",
+        "wazuh-remoted": "running",
+        "wazuh-reportd": "stopped",
+        "wazuh-syscheckd": "running",
+        "wazuh-clusterd": "running",
+        "wazuh-modulesd": "running",
+        "wazuh-db": "running",
+        "wazuh-apid": "stopped"
+      }
+    ],
+    "total_affected_items": 1,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "Processes status were successfully read in specified node",
+  "error": 0
+}
+```
+
+Or perhaps, we can use the Wazuh management server’s API to interact with an agent:
+
+`curl -k -X GET "https://MACHINE_IP:55000/agents?pretty=true&offset=1&limit=2&select=status%2Cid%2Cmanager%2Cname%2Cnode_name%2Cversion&status=active" -H "Authorization: Bearer $TOKEN"`
+
+Using theWazuhmanagement server’sAPIto interact with an agent
+
+```shell-session
+{
+  "data": {
+    "affected_items": [
+      {
+        "node_name": "worker2",
+        "status": "active",
+        "manager": "wazuh-worker2",
+        "version": "Wazuh v3.13.1",
+        "id": "001",
+        "name": "wazuh-agent1"
+      }
+],
+    "total_affected_items": 9,
+    "total_failed_items": 0,
+    "failed_items": []
+  },
+  "message": "All selected agents information was returned",
+  "error": 0
+}
+```
+
+Using Wazuh's API Console
+
+Wazuh has a powerful, integrated API console within the Wazuh website to query management servers and agents. Whilst it is not as extensive as using your own environment (where you can create and run scripts using python, for example), it is convenient.
+
+To find this API console, we need to open the "Tools" category within the Wazuh heading at the top:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/676b0bc423d8692a96cca58f5d86605a.png)  
+
+You will be greeted with a few sample queries that you can run. Simply _select_ the line and _press_ the green run arrow to run the query as demonstrated below:
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/e3daa0e68fe454de9e61bde5cd87c8a1.gif)  
+
+Reminder, the syntax for running queries uses the same web methods (i.e. GET/PUT/POST) and endpoints (i.e. /manager/info) as you would use with curl. You can view some more options about API endpoints by following Wazuh's detailed API documentation [here](https://documentation.wazuh.com/current/user-manual/api/reference.html)
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
 <div align="center">
 <br>
 <br>
