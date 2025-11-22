@@ -103,6 +103,7 @@ The Wazuh management server in this room will show the agents as being _disco
 ### Questions
 
 ##### Login to the Wazuh management server on [HTTP://MACHINE_IP](http://machine_ip/)[](https://machine_ip.p.thmlabs.com/) before proceeding with this room's tasks.
+No answer needed
 <div align="center">
 <br>
 <br>
