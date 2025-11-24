@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
+                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - INTRO TO LOG ANALYSIS"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -348,8 +348,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "05 DEFENSIVE SECURITY/THM - INTRODUCTION TO EDR.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
@@ -359,7 +360,6 @@
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "05 DEFENSIVE SECURITY/REMOTE ACCESS CONCEPTS.md",
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "ASSETS/Pasted image 20250728194314 - Copy.png",
     "ASSETS/Pasted image 20250728193754 - Copy.png",
     "ASSETS/Pasted image 20250728192904 - Copy.png",
