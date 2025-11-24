@@ -18,8 +18,14 @@ It is used in investigations involving cybercrime, data breaches, fraud, or any 
 - Recovering deleted files
 - Investigating unauthorized access
 - Uncovering insider threats
-
----
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 ## References
 
