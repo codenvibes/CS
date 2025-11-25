@@ -155,21 +155,9 @@
                   "icon": "lucide-file",
                   "title": "00 DIGITAL FORENSICS"
                 }
-              },
-              {
-                "id": "c0ba1b2f0e4bcefc",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.10.6"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.10.6"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -361,7 +349,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0ba1b2f0e4bcefc",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
