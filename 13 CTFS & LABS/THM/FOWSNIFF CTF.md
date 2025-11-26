@@ -374,6 +374,10 @@ baksteen@fowsniff:~$
 
 ##### Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
 ==No answer needed==
+
+```
+
+```
 <div>
 <br>
 <br>
