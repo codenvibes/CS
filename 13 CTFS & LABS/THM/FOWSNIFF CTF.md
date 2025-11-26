@@ -34,30 +34,35 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 ### Questions
 
 ##### Deploy the machine. On the top right of this you will see a **Deploy** button. Click on this to deploy the machine into the cloud. Wait a minute for it to become live.
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### Using nmap, scan this machine. What ports are open?
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### Using the information from the open ports. Look around. What can you find?
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### Using Google, can you find any public information about them?
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
+==No answer needed==
 <div>
 <br>
 <br>
