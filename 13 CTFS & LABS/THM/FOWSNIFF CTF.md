@@ -375,9 +375,16 @@ baksteen@fowsniff:~$
 ##### Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
 ==No answer needed==
 
-```
+From our low-privileged user shell we can enumerate the system further. Our user does not have any _sudo_ privileges and we cannot access any of the other users home directories.
+
+Running the _groups_ command we find this user belongs to a group called "users", which has the permissions to run a file named "_cube.sh_":
 
 ```
+baksteen@fowsniff:~$ groups
+users baksteen
+```
+
+
 <div>
 <br>
 <br>
