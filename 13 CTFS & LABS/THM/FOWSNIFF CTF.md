@@ -68,6 +68,7 @@ Nmap done: 1 IP address (1 host up) scanned in 32.15 seconds
 
 We have a web server running on port 80, let's have a look at that in our browser:
 
+![[Pasted image 20251126173228.png]]
 <div>
 <br>
 <br>
