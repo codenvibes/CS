@@ -100,7 +100,8 @@ seina@fowsniff
 mursten@fowsniff
 parede@fowsniff
 sciana@fowsniff
-                                                                                                                    
+
+
 ┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
 └─# cat fowsniffpass 
 carp4ever
@@ -111,8 +112,9 @@ mailcall
 scoobydoo2
 bilbo101
 07011972
-
 ```
+
+Using the `_/auxiliary/scanner/pop3/pop3_login_ module` in Metasploit, we can attempt to brute force the POP3 service using our custom lists
 <div>
 <br>
 <br>
