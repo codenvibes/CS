@@ -304,6 +304,12 @@ A.J Stone
 
 .
 ```
+
+The first email contains a temporary password for the SSH service.
+
+```
+The temporary password for SSH is "S1ck3nBluff+secureshell"
+```
 <div>
 <br>
 <br>
