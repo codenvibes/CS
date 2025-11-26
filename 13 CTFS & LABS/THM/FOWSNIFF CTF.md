@@ -763,7 +763,7 @@ Other reverse shells: [here](http://pentestmonkey.net/cheat-sheet/shells/revers
 ##### If you have not found out already, this file is run as root when a user connects to the machine using SSH. We know this as when we first connect we can see we get given a banner (with fowsniff corp). Look in **/etc/update-motd.d/** file. If (after we have put our reverse shell in the cube file) we then include this file in the motd.d file, it will run as root and we will get a reverse shell as root!
 ==No answer needed==
 
-Taking a look in the `_/etc/update-motd.d_` folder and the `_00-header_ `file shows that the _/opt/cube/cube.sh_ file is run when a user connects to the machine using SSH (and that it will run as the _root_ user)
+Taking a look in the `/etc/update-motd.d` folder and the `00-header`file shows that the`/opt/cube/cube.sh` file is run when a user connects to the machine using SSH (and that it will run as the root user)
 <div>
 <br>
 <br>
