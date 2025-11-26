@@ -42,6 +42,22 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 
 ##### Using nmap, scan this machine. What ports are open?
 ==No answer needed==
+
+```
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# nmap 10.82.154.253  
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-26 09:30 EST
+Nmap scan report for 10.82.154.253
+Host is up (0.15s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+110/tcp open  pop3
+143/tcp open  imap
+
+Nmap done: 1 IP address (1 host up) scanned in 32.15 seconds
+```
 <div>
 <br>
 <br>
@@ -49,6 +65,9 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 
 ##### Using the information from the open ports. Look around. What can you find?
 ==No answer needed==
+
+We have a web server running on port 80, let's have a look at that in our browser:
+
 <div>
 <br>
 <br>
