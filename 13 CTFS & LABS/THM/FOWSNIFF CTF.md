@@ -316,6 +316,12 @@ The temporary password for SSH is "S1ck3nBluff+secureshell"
 </div>
 
 ##### Looking through her emails, what was a temporary password set for her?
+
+The first email contains a temporary password for the SSH service.
+
+```
+The temporary password for SSH is "S1ck3nBluff+secureshell"
+```
 <div>
 <br>
 <br>
