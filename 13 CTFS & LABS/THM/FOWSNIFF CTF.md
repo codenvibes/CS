@@ -329,6 +329,44 @@ The temporary password for SSH is "S1ck3nBluff+secureshell"
 
 ##### In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
 ==No answer needed==
+
+```
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# ssh baksteen@10.82.154.253
+The authenticity of host '10.82.154.253 (10.82.154.253)' can't be established.
+ED25519 key fingerprint is SHA256:KZLP3ydGPtqtxnZ11SUpIwqMdeOUzGWHV+c3FqcKYg0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.82.154.253' (ED25519) to the list of known hosts.
+baksteen@10.82.154.253's password: 
+
+                            _____                       _  __  __  
+      :sdddddddddddddddy+  |  ___|____      _____ _ __ (_)/ _|/ _|  
+   :yNMMMMMMMMMMMMMNmhsso  | |_ / _ \ \ /\ / / __| '_ \| | |_| |_   
+.sdmmmmmNmmmmmmmNdyssssso  |  _| (_) \ V  V /\__ \ | | | |  _|  _|  
+-:      y.      dssssssso  |_|  \___/ \_/\_/ |___/_| |_|_|_| |_|   
+-:      y.      dssssssso                ____                      
+-:      y.      dssssssso               / ___|___  _ __ _ __        
+-:      y.      dssssssso              | |   / _ \| '__| '_ \     
+-:      o.      dssssssso              | |__| (_) | |  | |_) |  _  
+-:      o.      yssssssso               \____\___/|_|  | .__/  (_) 
+-:    .+mdddddddmyyyyyhy:                              |_|        
+-: -odMMMMMMMMMMmhhdy/.    
+.ohdddddddddddddho:                  Delivering Solutions
+
+
+   ****  Welcome to the Fowsniff Corporate Server! **** 
+
+              ---------- NOTICE: ----------
+
+ * Due to the recent security breach, we are running on a very minimal system.
+ * Contact AJ Stone -IMMEDIATELY- about changing your email and SSH passwords.
+
+
+Last login: Tue Mar 13 16:55:40 2018 from 192.168.7.36
+baksteen@fowsniff:~$ 
+
+```
 <div>
 <br>
 <br>
