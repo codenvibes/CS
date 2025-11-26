@@ -802,6 +802,8 @@ baksteen@fowsniff:/etc/update-motd.d$ cat 00-header
 
 sh /opt/cube/cube.sh
 ```
+
+This file calls motd
 <div>
 <br>
 <br>
