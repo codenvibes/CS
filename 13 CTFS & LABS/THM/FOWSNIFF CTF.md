@@ -223,6 +223,7 @@ Great, we got a hit!
 </div>
 
 ##### What was seina's password to the email service?
+==scoobydoo2==
 <div>
 <br>
 <br>
@@ -247,6 +248,10 @@ USER seina
 PASS scoobydoo2
 +OK Logged in.
 ```
+
+Once logged in, the LIST command can be used to see a summary of messages and the RETR command to retrieve them:
+
+
 <div>
 <br>
 <br>
