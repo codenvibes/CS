@@ -76,6 +76,12 @@ We have a web server running on port 80, let's have a look at that in our browse
 
 ##### Using Google, can you find any public information about them?
 ==No answer needed==
+
+Check the Question Hint: 
+
+There is a pastebin with all of the company employees emails and hashes. If the pastebin is down, check out TheWayBackMachine, or https://github.com/berzerk0/Fowsniff
+
+
 <div>
 <br>
 <br>
