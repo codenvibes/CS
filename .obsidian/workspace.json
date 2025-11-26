@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 33.18014705882353,
+            "dimension": 30.14705882352941,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -109,7 +109,7 @@
           {
             "id": "f7fadfebe200ccf6",
             "type": "tabs",
-            "dimension": 66.81985294117648,
+            "dimension": 69.85294117647058,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -348,13 +348,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "Pasted image 20251126173556.png",
     "Pasted image 20251126173228.png",
     "ASSETS/Pasted image 20251126155022.png",
     "11 DIGITAL FORENSICS/00 DIGITAL FORENSICS.md",
-    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM",
     "09 SOFT SKILLS & CAREER/PIRP.base",
@@ -373,7 +373,6 @@
     "ASSETS/Pasted image 20250728184827 - Copy.png",
     "ASSETS/Pasted image 20250729102658 - Copy.png",
     "ASSETS/Pasted image 20250728234818 - Copy.png",
-    "ASSETS/Pasted image 20250728232851 - Copy.png",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
     "TEMPLATES/Questions.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
