@@ -131,12 +131,14 @@ Other reverse shells: [here](http://pentestmonkey.net/cheat-sheet/shells/revers
 </div>
 
 ##### Start a netcat listener (nc -lvp 1234) and then re-login to the SSH service. You will then receive a reverse shell on your netcat session as root!
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### If you are **really really** stuck, there is a brilliant walkthrough here: [https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/) **[](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/)**<br><br>If its easier, follow this walkthrough with the deployed machine on the site.
+==No answer needed==
 <div>
 <br>
 <br>
