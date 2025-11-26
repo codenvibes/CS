@@ -804,6 +804,8 @@ sh /opt/cube/cube.sh
 ```
 
 This file calls motd (message of the day); banners, and announcements that you get upon login with information about the system or server. Usually a splash screen and announcement. 
+
+We can edit the `cube.sh` file to include a python reverse shell that will trigger once our user logs in via SSH - (make sure you add your local IP and listener port)
 <div>
 <br>
 <br>
