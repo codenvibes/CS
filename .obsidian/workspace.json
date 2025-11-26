@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 30.147058823529413,
+            "dimension": 39.900000000000006,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -104,12 +104,13 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "f7fadfebe200ccf6",
             "type": "tabs",
-            "dimension": 69.85294117647058,
+            "dimension": 60.099999999999994,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -348,10 +349,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+    "COURSES/COURSES.base",
     "Pasted image 20251126173556.png",
     "Pasted image 20251126173228.png",
     "ASSETS/Pasted image 20251126155022.png",
