@@ -81,7 +81,7 @@ Check the Question Hint:
 
 There is a pastebin with all of the company employees emails and hashes. If the pastebin is down, check out TheWayBackMachine, or https://github.com/berzerk0/Fowsniff
 
-
+![[Pasted image 20251126173556.png]]
 <div>
 <br>
 <br>
