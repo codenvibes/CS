@@ -216,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -347,7 +348,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
     "ASSETS/Pasted image 20251126155022.png",
     "11 DIGITAL FORENSICS/00 DIGITAL FORENSICS.md",
