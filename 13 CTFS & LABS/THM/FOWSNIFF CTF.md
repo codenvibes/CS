@@ -64,7 +64,7 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 ##### Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
 ==No answer needed==
 
-The passwords you find on https://github.com/berzerk0/Fowsniff/blob/main/fowsniff.txt are MD5 hashes. These can be easily decoded using a site like [Hashes.com](https://hashes.com/en/decrypt/hash?ref=blog.razrsec.uk) - just copy and paste the hashes, complete the captcha and hit submit:
+The passwords you find on https://github.com/berzerk0/Fowsniff/blob/main/fowsniff.txt are MD5 hashes. These can be easily decoded using a site like [Hashes.com](https://hashes.com/en/decrypt/hash?ref=blog.razrsec.uk) - just copy and paste the hashes, complete the captcha and hit submit.
 
 ![[Pasted image 20251126155022.png]]
 
@@ -88,6 +88,31 @@ f7fd98d380735e859f8b2ffbbede5a7e:07011972
 ==No answer needed==
 
 Before running metasploit, we will create two custom lists - one for usernames and one for passwords.
+
+```
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# cat fowsniffusers
+mauer@fowsniff
+mustikka@fowsniff
+tegel@fowsniff
+baksteen@fowsniff
+seina@fowsniff
+mursten@fowsniff
+parede@fowsniff
+sciana@fowsniff
+                                                                                                                    
+┌──(root㉿kali)-[/home/kali/ET/THM/Fowsniff CTF]
+└─# cat fowsniffpass 
+carp4ever
+skyler22
+apples01
+orlando12
+mailcall
+scoobydoo2
+bilbo101
+07011972
+
+```
 <div>
 <br>
 <br>
