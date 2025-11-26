@@ -64,6 +64,8 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 ##### Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
 ==No answer needed==
 
+The passwords I found are MD5 hashes. These can be easily decoded using a site such as [Hashes.com](https://hashes.com/en/decrypt/hash?ref=blog.razrsec.uk) - just copy and paste the hashes, complete the captcha and hit submit:
+
 ![[Pasted image 20251126155022.png]]
 
 ```
