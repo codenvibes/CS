@@ -803,7 +803,7 @@ baksteen@fowsniff:/etc/update-motd.d$ cat 00-header
 sh /opt/cube/cube.sh
 ```
 
-This file calls motd
+This file calls motd (message of the day); banners, and announcements that you get upon login with information about the system or server. U
 <div>
 <br>
 <br>
