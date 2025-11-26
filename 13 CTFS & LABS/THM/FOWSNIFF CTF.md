@@ -69,6 +69,7 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 </div>
 
 ##### Using the usernames and passwords you captured, can you use metasploit to brute force the pop3 login?
+==No answer needed==
 <div>
 <br>
 <br>
@@ -81,6 +82,7 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 </div>
 
 ##### Can you connect to the pop3 service with her credentials? What email information can you gather?
+==No answer needed==
 <div>
 <br>
 <br>
@@ -93,12 +95,14 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 </div>
 
 ##### In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
+==No answer needed==
 <div>
 <br>
 <br>
@@ -113,12 +117,14 @@ python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SO
 ```
 
 Other reverse shells: [here](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet).
+==No answer needed==
 <div>
 <br>
 <br>
 </div>
 
 ##### If you have not found out already, this file is run as root when a user connects to the machine using SSH. We know this as when we first connect we can see we get given a banner (with fowsniff corp). Look in **/etc/update-motd.d/** file. If (after we have put our reverse shell in the cube file) we then include this file in the motd.d file, it will run as root and we will get a reverse shell as root!
+==No answer needed==
 <div>
 <br>
 <br>
