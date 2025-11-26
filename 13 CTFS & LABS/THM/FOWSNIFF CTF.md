@@ -216,7 +216,7 @@ msf auxiliary(scanner/pop3/pop3_login) > exploit
 
 ```
 
-
+Great, we got a hit! We can now try connecting to the POP3 service using these credential
 <div>
 <br>
 <br>
