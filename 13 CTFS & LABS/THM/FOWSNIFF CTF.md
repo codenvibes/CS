@@ -33,8 +33,7 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 
 ### Questions
 
-##### 
-Deploy the machine. On the top right of this you will see a **Deploy** button. Click on this to deploy the machine into the cloud. Wait a minute for it to become live.
+##### Deploy the machine. On the top right of this you will see a **Deploy** button. Click on this to deploy the machine into the cloud. Wait a minute for it to become live.
 
 
 
