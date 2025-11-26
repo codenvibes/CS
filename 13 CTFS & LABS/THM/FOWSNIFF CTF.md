@@ -353,7 +353,7 @@ The temporary password for SSH is "S1ck3nBluff+secureshell"
 <br>
 </div>
 
-##### In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
+##### In the email, who sent it? Using the password from the previous question and the senders username, connect to the machine using SSH.
 ==No answer needed==
 
 ```
