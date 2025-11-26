@@ -384,7 +384,11 @@ baksteen@fowsniff:~$ groups
 users baksteen
 ```
 
+Next we search the entire system for regular files owned by the group `users`.
 
+```
+
+```
 <div>
 <br>
 <br>
