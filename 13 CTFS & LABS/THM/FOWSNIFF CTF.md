@@ -718,7 +718,27 @@ baksteen@fowsniff:~$ find / -group users -type f 2>/dev/null
 /proc/10685/projid_map
 /proc/10685/setgroups
 /proc/10685/timers
-baksteen@fowsniff:~$ 
+```
+
+Running this script we find this looks exactly like the banner that is displayed when logging in via SSH.
+
+```
+baksteen@fowsniff:~$ /opt/cube/cube.sh
+
+                            _____                       _  __  __  
+      :sdddddddddddddddy+  |  ___|____      _____ _ __ (_)/ _|/ _|  
+   :yNMMMMMMMMMMMMMNmhsso  | |_ / _ \ \ /\ / / __| '_ \| | |_| |_   
+.sdmmmmmNmmmmmmmNdyssssso  |  _| (_) \ V  V /\__ \ | | | |  _|  _|  
+-:      y.      dssssssso  |_|  \___/ \_/\_/ |___/_| |_|_|_| |_|   
+-:      y.      dssssssso                ____                      
+-:      y.      dssssssso               / ___|___  _ __ _ __        
+-:      y.      dssssssso              | |   / _ \| '__| '_ \     
+-:      o.      dssssssso              | |__| (_) | |  | |_) |  _  
+-:      o.      yssssssso               \____\___/|_|  | .__/  (_) 
+-:    .+mdddddddmyyyyyhy:                              |_|        
+-: -odMMMMMMMMMMmhhdy/.    
+.ohdddddddddddddho:                  Delivering Solutions
+
 ```
 <div>
 <br>
