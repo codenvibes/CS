@@ -64,10 +64,11 @@ Credit to [berzerk0](https://twitter.com/berzerk0) for creating this machine.�
 ##### Can you decode these md5 hashes? You can even use sites like [hashkiller](https://hashkiller.io/listmanager) to decode them.
 ==No answer needed==
 
-The passwords I found are MD5 hashes. These can be easily decoded using a site such as [Hashes.com](https://hashes.com/en/decrypt/hash?ref=blog.razrsec.uk) - just copy and paste the hashes, complete the captcha and hit submit:
+The passwords I found on https://github.com/berzerk0/Fowsniff/blob/main/fowsniff.txt are MD5 hashes. These can be easily decoded using a site like [Hashes.com](https://hashes.com/en/decrypt/hash?ref=blog.razrsec.uk) - just copy and paste the hashes, complete the captcha and hit submit:
 
 ![[Pasted image 20251126155022.png]]
 
+We've managed to decode 8 out of 9 hashed passwords:
 ```
 0e9588cb62f4b6f27e33d449e2ba0b3b:carp4ever
 19f5af754c31f1e2651edde9250d69bb:skyler22
