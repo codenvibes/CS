@@ -114,7 +114,7 @@ bilbo101
 07011972
 ```
 
-Using the `_/auxiliary/scanner/pop3/pop3_login_ module` in Metasploit, we can attempt to brute force the POP3 service using our custom lists
+Using the `_/auxiliary/scanner/pop3/pop3_login_ module` in Metasploit, we can attempt to brute force the POP3 service using our custom lists we just created.
 <div>
 <br>
 <br>
