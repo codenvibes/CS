@@ -6,9 +6,9 @@ description: Hack this machine and get the flag. There are lots of hints along t
 ---
 ## Summary
 
-| SECTION/TASK                                 | FLAG |
-| -------------------------------------------- | ---- |
-| Task 1. Hack into the FowSniff organisation. |      |
+| SECTION/TASK                                 | FLAG                                                                                                                                                                                  |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Task 1. Hack into the FowSniff organisation. | No answer needed<br>No answer needed<br>No answer needed<br>No answer needed<br>No answer needed<br>No answer needed<br>scoobydoo2<br>No answer needed<br>S1ck3nBluff+secureshell<br> |
 
 <div align="center">
 <br>
