@@ -281,13 +281,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 DIGITAL FORENSICS/00 DIGITAL FORENSICS.md",
+                "file": "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 DIGITAL FORENSICS"
+              "title": "Outline of THM - INTRO TO LOG ANALYSIS"
             }
           },
           {
@@ -333,8 +333,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
