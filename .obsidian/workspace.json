@@ -104,8 +104,7 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "f7fadfebe200ccf6",
@@ -267,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FOWSNIFF CTF"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -334,10 +333,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/COURSES.base",
     "Pasted image 20251126173556.png",
