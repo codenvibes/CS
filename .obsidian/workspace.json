@@ -266,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of FOWSNIFF CTF"
             }
           },
           {
@@ -333,12 +333,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "COURSES/COURSES.base",
     "Pasted image 20251126173556.png",
     "Pasted image 20251126173228.png",
     "ASSETS/Pasted image 20251126155022.png",
