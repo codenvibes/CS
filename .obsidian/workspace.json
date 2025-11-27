@@ -133,12 +133,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "FOWSNIFF CTF"
+                  "title": "THM - 02 HTTP"
                 }
               }
             ],
@@ -177,7 +177,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intro to log analysis",
+                "query": "domain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -198,12 +198,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -266,13 +266,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FOWSNIFF CTF"
+              "title": "Outline of THM - 02 HTTP"
             }
           },
           {
@@ -335,8 +335,8 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+    "COURSES/COURSES.base",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "Pasted image 20251126173556.png",
