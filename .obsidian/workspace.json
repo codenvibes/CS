@@ -265,13 +265,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM - 02 HTTP"
             }
           },
           {
@@ -317,7 +317,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -332,10 +333,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
+    "WHITE-BOARD/TODO.md",
     "COURSES/COURSES.base",
+    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "Pasted image 20251126173556.png",
@@ -370,7 +372,6 @@
     "COURSES/THM/JR PENETRATION TESTER.md",
     "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/COURSE.md",
-    "WHITE-BOARD/TODO.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "13 CTFS & LABS/HTB",
