@@ -131,14 +131,12 @@
                 "id": "dde008b382b7a5ed",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "image",
                   "state": {
-                    "file": "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "ASSETS/Pasted image 20251126173556.png"
                   },
-                  "icon": "lucide-file",
-                  "title": "THM - 02 HTTP"
+                  "icon": "lucide-image",
+                  "title": "Pasted image 20251126173556"
                 }
               }
             ],
@@ -265,13 +263,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
+                "file": "ASSETS/Pasted image 20251126173556.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - 02 HTTP"
+              "title": "Outline of Pasted image 20251126173556"
             }
           },
           {
@@ -333,15 +331,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20251126173228.png",
+    "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
     "WHITE-BOARD/TODO.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "Pasted image 20251126173556.png",
-    "Pasted image 20251126173228.png",
+    "ASSETS/Pasted image 20251126173556.png",
     "ASSETS/Pasted image 20251126155022.png",
     "11 DIGITAL FORENSICS/00 DIGITAL FORENSICS.md",
     "13 CTFS & LABS/THM",
@@ -373,7 +372,6 @@
     "COURSES/CYBERSHUJAA/CLOUD AND NETWORK SECURITY.md",
     "TEMPLATES/COURSE.md",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - WIRELESS NETWORK SECURITY.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - OWASP TOP 10 - 2021.md",
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
