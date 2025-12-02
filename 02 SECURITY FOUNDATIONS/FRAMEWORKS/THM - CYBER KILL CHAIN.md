@@ -63,7 +63,7 @@ As a result, you will be ready to recognize different phases or stages of the at
 
 ### Questions
 
-##### 
+##### Read the above.
 <div align="center">
 <br>
 <br>
