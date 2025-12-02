@@ -155,7 +155,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -278,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
+                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - CYBER KILL CHAIN"
+              "title": "Outline of THM - OVERPASS"
             }
           },
           {
@@ -346,13 +347,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "b3f260f3a871cf04",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "TEMPLATES/SECTION BREAK 5.md",
     "TEMPLATES/SECTION BREAK 2.md",
     "TEMPLATES/SECTION BREAK 1.md",
     "TEMPLATES/Section Break.md",
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "COURSES/THM/SOC LEVEL 1.md",
