@@ -87,19 +87,7 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 2. THM - 
 3. THM - 
 
-image
 Junior Security Analyst Intro
-Play through a day in the life of a Security Analyst and experience their everyday duties.
-
-image
 SOC Role in Blue Team
-Discover security roles and learn how to advance your SOC career, starting from the L1 analyst.
-
-image
 Humans as Attack Vectors
-Understand why and how people are targeted in cyber attacks and how the SOC helps defend them.
-
-image
-0%
-
 Systems as Attack Vectors
