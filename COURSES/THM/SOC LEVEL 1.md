@@ -33,6 +33,24 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 2. 
 3. 
 
+## #NETWORK_TRAFFIC_ANALYSIS
+
+1. 
+2. 
+3. 
+
+## #NETWORK_SECURITY_MONITORING
+
+1. 
+2. 
+3. 
+
+## #WEB_SECURITY_MONITORING
+
+1. 
+2. 
+3. 
+
 ## #TITLE_IN_CAPITAL
 
 1. 
