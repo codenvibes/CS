@@ -168,7 +168,7 @@ render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duratio
 :: Progress: [4746/4746] :: Job [1/1] :: 188 req/sec :: Duration: [0:00:25] :: Errors: 0 ::
 ```
 
-Our biggest find is the admin directory and after visiting the `/admin` page .
+Our biggest find is the admin path and this is what the `/admin` page looks like.
 
 ![[Pasted image 20251202154014.png]]
 
