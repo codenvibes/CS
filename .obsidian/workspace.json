@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - CYBER KILL CHAIN"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -346,10 +346,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
