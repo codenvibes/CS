@@ -87,16 +87,17 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #MALWARE_CONCEPTS_FOR_SOC
 
-1. THM - 
-2. THM - 
-3. THM - 
-4. THM - 
+1. THM - MALWARE CLASSIFICATION
+2. THM - INTRO TO MALWARE ANALYSIS
+3. THM - LIVING OFF THE LAND ATTACKS
+4. THM - SHADOW TRACE
 
 ## #THREAT_ANALYSIS_TOOLS
 
 1. THM - 
 2. THM - 
 3. THM - 
+4. THM - 
 
 ## #SIEM_TRIAGE_FOR_SOC
 
