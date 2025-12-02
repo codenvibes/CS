@@ -6,9 +6,19 @@ description: The Cyber Kill Chain framework is designed for identification and p
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK           | FLAG |
+| ---------------------- | ---- |
+| Task 1. Introduction   |      |
+| Task 2. Reconnaissance |      |
+| Task 3. Weaponization  |      |
+| Task 4. Delivery       |      |
+| Task 5. Exploitation   |      |
+|                        |      |
+|                        |      |
+|                        |      |
+|                        |      |
+|                        |      |
+|                        |      |
 
 <div align="center">
 <br>
