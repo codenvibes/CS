@@ -90,24 +90,11 @@ AD4MPU3MAN
 
 ----
 
-image
-Log Analysis with SIEM
-Learn how SIEM solutions can be used to detect and analyse malicious behaviour.
 
-image
-Alert Triage With Splunk
-Use Splunk to triage alerts and investigate malicious activity efficiently.
 
-image
-Alert Triage With Elastic
-Investigate alerts with Elastic by analyzing logs and spotting threats.
 
-image
-ItsyBitsy
-Put your ELK knowledge together and investigate an incident.
 
-image
-Benign
+
 
 
 
