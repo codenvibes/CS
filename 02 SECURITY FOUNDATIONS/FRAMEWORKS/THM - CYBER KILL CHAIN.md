@@ -6,18 +6,18 @@ description: The Cyber Kill Chain framework is designed for identification and p
 ---
 ## Summary
 
-| SECTION/TASK                                 | FLAG |
-| -------------------------------------------- | ---- |
-| Task 1. Introduction                         |      |
-| Task 2. Reconnaissance                       |      |
-| Task 3. Weaponization                        |      |
-| Task 4. Delivery                             |      |
-| Task 5. Exploitation                         |      |
-| Task 6. Installation                         |      |
-| Task 7. Command & Control                    |      |
-| Task 8. Actions on Objectives (Exfiltration) |      |
-| Task 9. Practice Analysis                    |      |
-| Task 10. Conclusion                          |      |
+| SECTION/TASK                                 | FLAG             |
+| -------------------------------------------- | ---------------- |
+| Task 1. Introduction                         | No answer needed |
+| Task 2. Reconnaissance                       |                  |
+| Task 3. Weaponization                        |                  |
+| Task 4. Delivery                             |                  |
+| Task 5. Exploitation                         |                  |
+| Task 6. Installation                         |                  |
+| Task 7. Command & Control                    |                  |
+| Task 8. Actions on Objectives (Exfiltration) |                  |
+| Task 9. Practice Analysis                    |                  |
+| Task 10. Conclusion                          |                  |
 
 <div align="center">
 <br>
@@ -64,6 +64,7 @@ As a result, you will be ready to recognize different phases or stages of the at
 ### Questions
 
 ##### Read the above.
+No answer needed
 <div align="center">
 <br>
 <br>
