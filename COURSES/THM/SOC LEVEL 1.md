@@ -47,8 +47,8 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #NETWORK_TRAFFIC_ANALYSIS
 
-1. THM - 
-2. THM - 
+1. THM - NETWORK TRAFFIC BASICS
+2. THM - WIRESHARK: THE BASICS
 3. THM - 
 
 ## #NETWORK_SECURITY_MONITORING
