@@ -3,7 +3,6 @@ tags:
   - "#THM-PRE_SECURITY"
 number: "1"
 image: https://assets.tryhackme.com/img/paths/presecurity.svg
-link:
 ---
 ### #1-INTRODUCTION_TO_CYBER_SECURITY
 
