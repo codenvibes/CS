@@ -37,7 +37,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ##### Hack the machine and get the flag in user.txt
 
-```
+```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-02 07:14 EST
@@ -69,7 +69,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 89.15 seconds
 ```
 
-```
+```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ ffuf -u http://10.65.152.254/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt 
 
@@ -105,49 +105,47 @@ render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duratio
 
 ![[Pasted image 20251202154014.png]]
 
-```
-|   |
-|---|
-|<!DOCTYPE html>|
-|<html>|
-||
-|<head>|
-|<meta charset="utf-8">|
-|<meta http-equiv="X-UA-Compatible" content="IE=edge">|
-|<title>Overpass</title>|
-|<meta name="viewport" content="width=device-width, initial-scale=1">|
-|<link rel="stylesheet" type="text/css" media="screen" href="[/css/main.css](http://10.65.152.254/css/main.css)">|
-|<link rel="stylesheet" type="text/css" media="screen" href="[/css/login.css](http://10.65.152.254/css/login.css)">|
-|<link rel="icon" type="image/png" href="[/img/overpass.png](http://10.65.152.254/img/overpass.png)" />|
-|<script src="[/main.js](http://10.65.152.254/main.js)"></script>|
-|<script src="[/login.js](http://10.65.152.254/login.js)"></script>|
-|<script src="[/cookie.js](http://10.65.152.254/cookie.js)"></script>|
-|</head>|
-||
-|<body onload="onLoad()">|
-|<nav>|
-|<img class="logo" src="[/img/overpass.svg](http://10.65.152.254/img/overpass.svg)" alt="Overpass logo">|
-|<h2 class="navTitle"><a href="[/](http://10.65.152.254/)">Overpass</a></h2>|
-|<a class="current" href="[/aboutus](http://10.65.152.254/aboutus)">About Us</a>|
-|<a href="[/downloads](http://10.65.152.254/downloads)">Downloads</a>|
-|</nav>|
-|<div class="content">|
-|<h1>Administrator area</h1>|
-|<p>Please log in to access this content</p>|
-|<div>|
-|<h3 class="formTitle">Overpass administrator login</h1>|
-|</div>|
-|<form id="loginForm">|
-|<div class="formElem"><label for="username">Username:</label><input id="username" name="username" required></div>|
-|<div class="formElem"><label for="password">Password:</label><input id="password" name="password"|
-|type="password" required></div>|
-|<button>Login</button>|
-|</form>|
-|<div id="loginStatus"></div>|
-|</div>|
-|</body>|
-||
-|</html>|
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Overpass</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/login.css">
+    <link rel="icon" type="image/png" href="/img/overpass.png" />
+    <script src="/main.js"></script>
+    <script src="/login.js"></script>
+    <script src="/cookie.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <nav>
+        <img class="logo" src="/img/overpass.svg" alt="Overpass logo">
+        <h2 class="navTitle"><a href="/">Overpass</a></h2>
+        <a class="current" href="/aboutus">About Us</a>
+        <a href="/downloads">Downloads</a>
+    </nav>
+    <div class="content">
+        <h1>Administrator area</h1>
+        <p>Please log in to access this content</p>
+        <div>
+            <h3 class="formTitle">Overpass administrator login</h1>
+        </div>
+        <form id="loginForm">
+            <div class="formElem"><label for="username">Username:</label><input id="username" name="username" required></div>
+            <div class="formElem"><label for="password">Password:</label><input id="password" name="password"
+                    type="password" required></div>
+            <button>Login</button>
+        </form>
+        <div id="loginStatus"></div>
+    </div>
+</body>
+
+</html>
 ```
 
 <div>

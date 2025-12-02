@@ -229,7 +229,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -360,7 +361,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "b3f260f3a871cf04",
   "lastOpenFiles": [
     "ASSETS/Pasted image 20251202154014.png",
     "WHITE-BOARD/WHITE-BOARD.md",
