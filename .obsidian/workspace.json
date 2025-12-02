@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - OVERPASS"
             }
           },
           {
@@ -360,8 +360,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "ASSETS/Pasted image 20251202154014.png",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "Pasted image 20251202153841.png",
     "Pasted image 20251202153649.png",
@@ -373,7 +375,6 @@
     "TEMPLATES/SECTION BREAK 2.md",
     "TEMPLATES/SECTION BREAK 1.md",
     "TEMPLATES/Section Break.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
