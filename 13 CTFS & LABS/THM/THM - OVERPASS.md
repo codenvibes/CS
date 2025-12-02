@@ -41,7 +41,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 ###### Recon
 
 We’ll first want to check the target for any open ports that we can exploit.
-Explain the nmap command
+==Explain the nmap command==
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
@@ -74,6 +74,8 @@ HOP RTT       ADDRESS
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 89.15 seconds
 ```
+
+So we see that port 22 and 80 are open, port 80 means that they have a website hosted. Let’s visit the site and see if we find anything interesting.
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
