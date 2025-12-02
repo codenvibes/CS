@@ -128,7 +128,6 @@ Breakdown:
 
 Output:
 
-
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ ffuf -u http://10.65.152.254/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt 
