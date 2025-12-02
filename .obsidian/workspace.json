@@ -132,12 +132,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/Untitled.md",
+                    "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "THM - CYBER KILL CHAIN"
                 }
               },
               {
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of THM - CYBER KILL CHAIN"
             }
           },
           {
@@ -346,18 +346,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/Untitled.md",
+    "13 CTFS & LABS/THM/THM - OVERPASS.md",
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/THM COURSE SECTION.md",
     "TEMPLATES/COURSE.md",
-    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "COURSES/THM/PRE SECURITY.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
