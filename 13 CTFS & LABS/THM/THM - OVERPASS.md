@@ -116,6 +116,15 @@ Command:
 `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
 
 Breakdown:
+- **ffuf**
+    - **Description:** Fast web fuzzer.
+    - **Purpose:** Performs fuzzing to discover hidden directories, files, or parameters on a web server.
+- **-u [http://10.65.152.254/FUZZ](http://10.65.152.254/FUZZ)**
+    - **Description:** Target URL with the **FUZZ** keyword.
+    - **Purpose:** Tells ffuf where to inject words from the wordlist.
+- **-w /usr/share/seclists/Discovery/Web-Content/common.txt**
+    - **Description:** Wordlist option.
+    - **Purpose:** Specifies the wordlist to use for fuzzing. In this case, a common directory/file discovery list from SecLists.
 
 Output:
 
