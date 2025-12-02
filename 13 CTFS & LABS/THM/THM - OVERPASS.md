@@ -172,7 +172,7 @@ Our biggest find is the admin path and this is what the `/admin` page looks like
 
 ![[Pasted image 20251202154014.png]]
 
-Inspect the page source using developer tools and
+Inspect the page source:
 
 ```html
 <!DOCTYPE html>
@@ -216,6 +216,8 @@ Inspect the page source using developer tools and
 
 </html>
 ```
+
+Inspect 
 
 ```js
 async function postData(url = '', data = {}) {
