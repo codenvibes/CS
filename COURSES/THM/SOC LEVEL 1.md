@@ -29,11 +29,11 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 ## #CYBER_DEFENCE_FRAMEWORKS
 
 1. THM - PYRAMID OF PAIN
-2. THM - 
-3. THM - 
-4. THM - 
-5. THM - 
-6. THM - 
+2. THM - CYBER KILL CHAIN
+3. THM - UNIFIED KILL CHAIN
+4. THM - MITRE
+5. THM - SUMMIT
+6. THM - EVICTION
 
 ## #PHISHING_ANALYSIS
 
