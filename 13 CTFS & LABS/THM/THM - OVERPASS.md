@@ -41,7 +41,9 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 ###### Recon (Information Gathering)
 
 We’ll first want to check the target for any open ports that we can exploit.
-==Explain the nmap command==
+
+Command:
+nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
