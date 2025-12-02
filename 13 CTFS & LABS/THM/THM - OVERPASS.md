@@ -111,6 +111,13 @@ Nmap done: 1 IP address (1 host up) scanned in 89.15 seconds
 
 So we see that port 22 and 80 are open, port 80 means that they have a website hosted but first let's see what other directories and pages are available. 
 
+Command:
+
+`nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
+
+Breakdown:
+
+Output:
 
 
 ```shell
