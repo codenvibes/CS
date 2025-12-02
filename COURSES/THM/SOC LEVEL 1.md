@@ -109,9 +109,9 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #SOC_LEVEL_1_CAPSTONE_CHALLENGES
 
-1. THM - 
-2. THM - 
-3. THM - 
-4. THM - 
-5. THM - 
-6. THM - 
+1. THM - TEMPEST
+2. THM - BOOGEYMAN 1
+3. THM - BOOGEYMAN 2
+4. THM - BOOGEYMAN 3
+5. THM - HIDDEN HOOKS
+6. THM - OPEN DOOR

@@ -90,11 +90,4 @@ AD4MPU3MAN
 
 ----
 
-Tempest
-Boogeyman 1
-Boogeyman 2
-Boogeyman 3
-Hidden Hooks
-Open Door
-
 
