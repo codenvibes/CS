@@ -109,6 +109,8 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 89.15 seconds
 ```
 
+
+
 So we see that port 22 and 80 are open, port 80 means that they have a website hosted but first let's see what other directories and pages are available. 
 
 Command:

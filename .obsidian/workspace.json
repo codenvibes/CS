@@ -160,16 +160,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/FFUF.md",
+                    "file": "TEMPLATES/SECTION BREAK 5.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "FFUF"
+                  "title": "SECTION BREAK 5"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -229,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -293,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
+                "file": "TEMPLATES/SECTION BREAK 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OVERPASS"
+              "title": "Outline of SECTION BREAK 5"
             }
           },
           {
@@ -400,21 +399,21 @@
       }
     ]
   },
-  "active": "b3f260f3a871cf04",
+  "active": "556e51c855c28fa9",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
+    "TEMPLATES/SECTION BREAK 2.md",
+    "TEMPLATES/SECTION BREAK 1.md",
+    "08 TOOLS/FFUF.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "Pasted image 20251202153841.png",
     "Pasted image 20251202153649.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
-    "08 TOOLS/FFUF.md",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/QUESTIONS.md",
     "TEMPLATES/SECTION BREAK 5.md",
-    "TEMPLATES/SECTION BREAK 2.md",
-    "TEMPLATES/SECTION BREAK 1.md",
     "TEMPLATES/Section Break.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
