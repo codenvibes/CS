@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 54,
+            "dimension": 30.2,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -109,7 +109,7 @@
           {
             "id": "f7fadfebe200ccf6",
             "type": "tabs",
-            "dimension": 46,
+            "dimension": 69.8,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -279,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/SOC LEVEL 1.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SOC LEVEL 1"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -346,10 +346,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "TEMPLATES/COURSE SECTION.md",
     "COURSES/THM/SOC LEVEL 1.md",
+    "TEMPLATES/COURSE SECTION.md",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/COURSE.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
