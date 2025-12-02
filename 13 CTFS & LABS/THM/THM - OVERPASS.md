@@ -259,7 +259,41 @@ Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
 ```
 
+```shell
+┌──(kali㉿kali)-[~/ET/THM/Overpass]
+└─$ ssh -i id_rsa james@10.65.152.254
+Enter passphrase for key 'id_rsa': 
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-139-generic x86_64)
 
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Dec  2 14:13:17 UTC 2025
+
+  System load:  0.0                Processes:             101
+  Usage of /:   30.7% of 18.53GB   Users logged in:       0
+  Memory usage: 14%                IPv4 address for eth0: 10.65.152.254
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Infrastructure is not enabled.
+
+0 updates can be applied immediately.
+
+58 additional security updates can be applied with ESM Infra.
+Learn more about enabling ESM Infra service for Ubuntu 20.04 at
+https://ubuntu.com/20-04
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+
+Last login: Sat Jun 27 04:45:40 2020 from 192.168.170.1
+james@ip-10-65-152-254:~$ 
+```
+
+```shell
+
+```
 <div>
 <br>
 </div>
