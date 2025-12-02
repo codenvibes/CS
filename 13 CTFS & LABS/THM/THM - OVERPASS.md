@@ -235,7 +235,7 @@ ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
 
 ```
 
-```
+```shell
 ──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ locate ssh2john                                 
 /usr/bin/ssh2john
@@ -256,9 +256,10 @@ Press 'q' or Ctrl-C to abort, almost any other key for status
 james13          (id_rsa)     
 1g 0:00:00:00 DONE (2025-12-02 09:03) 20.00g/s 267520p/s 267520c/s 267520C/s pink25..honolulu
 Use the "--show" option to display all of the cracked passwords reliably
-Session completed. 
-                     
+Session completed.
 ```
+
+
 <div>
 <br>
 </div>
