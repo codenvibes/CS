@@ -37,7 +37,6 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ##### Hack the machine and get the flag in user.txt
 
-
 ```
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
