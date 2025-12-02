@@ -92,8 +92,16 @@ AD4MPU3MAN
 
 
 
-WINDOWS THREAT DETECTION 2
-WINDOWS THREAT DETECTION 3
+
+Linux Logging for SOC
+
+Linux Threat Detection 1
+
+Linux Threat Detection 2
+
+Linux Threat Detection 3
+
+BlackCat
 
 
 
