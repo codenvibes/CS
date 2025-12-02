@@ -132,12 +132,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/SOC LEVEL 1.md",
+                    "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SOC LEVEL 1"
+                  "title": "00 FRAMEWORKS"
                 }
               },
               {
@@ -278,13 +278,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of 00 FRAMEWORKS"
             }
           },
           {
@@ -346,7 +346,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
     "COURSES/THM/SOC LEVEL 1.md",
     "WHITE-BOARD/WHITE-BOARD.md",
