@@ -81,3 +81,8 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 2. 
 3. 
 
+## #SOC_LEVEL_1_CAPSTONE_CHALLENGES
+
+1. 
+2. 
+3. 
