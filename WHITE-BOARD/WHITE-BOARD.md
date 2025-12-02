@@ -90,19 +90,10 @@ AD4MPU3MAN
 
 ----
 
-Pyramid Of Pain
-
-Cyber Kill Chain
-
-Unified Kill Chain
-
+PYRAMID OF PAIN
+CYBER KILL CHAIN
+UNIFIED KILL CHAIN
 MITRE
-
-Summit
-
-
-Eviction
-
-
-
+SUMMIT
+EVICTION
 
