@@ -279,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "COURSES/THM/SOC LEVEL 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of SOC LEVEL 1"
             }
           },
           {
@@ -346,15 +346,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "TEMPLATES/THM COURSE SECTION.md",
     "COURSES/THM/SOC LEVEL 1.md",
-    "TEMPLATES/COURSE SECTION.md",
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/COURSE.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
-    "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/COURSES.base",
     "COURSES/THM/PRE SECURITY.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
@@ -386,7 +386,6 @@
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "COURSES/THM/DEFENDING AZURE.md",
     "TEMPLATES/GENERAL.md",
-    "CS JOURNAL.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
