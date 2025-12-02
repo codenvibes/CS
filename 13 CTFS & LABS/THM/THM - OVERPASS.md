@@ -47,46 +47,33 @@ Command:
 `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
 
 Breakdown:
-
 - **`nmap`**
     - **Description:** The utility itself.
     - **Purpose:** Starts the network scanning application.
-- **-sV**
+- **`-sV`**
     - **Description:** Service Version Detection.
     - **Purpose:** Attempts to determine the version of the service running on open ports (e.g., Apache 2.4.41, OpenSSH 7.2p2).
-- **-sC**
+- **`-sC`**
     - **Description:** Default Script Scan.
     - **Purpose:** Runs default, safe Nmap scripts to check for common vulnerabilities, weak passwords, or gather more details.
-- **-A**
+- **`-A`**
     - **Description:** Aggressive Scan.
     - **Purpose:** Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisier.
-- **-T4**
+- **`-T4`**
     - **Description:** Timing Template 4 (Aggressive).
     - **Purpose:** Speeds up the scan with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.
-- **-p-**
+- **`-p-`**
     - **Description:** All Ports Scan. 
     - **Purpose:** Scans all 65,535 ports. Slower but thorough.
-- **--min-rate 1000**
+- **`--min-rate 1000`**
     - **Description:** Packet Rate Limit.
     - **Purpose:** Ensures at least 1,000 packets per second, speeding up large scans.
-- **-oN nmap.txt**
+- **`-oN nmap.txt`**
     - **Description:** Output to Normal format. 
     - **Purpose:** Saves scan results to `nmap.txt` in human-readable format.
-- **10.65.152.254**
+- **`10.65.152.254`**
     - **Description:** Target Specification.
     - **Purpose:** The IP address of the host being scanned.
-
-| **Flag**            | **Description**                 | **Purpose in the Scan**                                                                                      |
-| ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **nmap**            | The utility itself.             | Starts the network scanning application.                                                                     |
-| **-sV**             | Service Version Detection.      | Attempts to determine the version of the service running on open ports (e.g., Apache 2.4.41, OpenSSH 7.2p2). |
-| **-sC**             | Default Script Scan.            | Runs default, safe Nmap scripts checking for common vulnerabilities, weak passwords, and extra details.      |
-| **-A**              | Aggressive Scan.                | Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisy.           |
-| **-T4**             | Timing Template 4 (Aggressive). | Speeds up scanning with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.          |
-| **-p-**             | All Ports Scan.                 | Scans all 65,535 ports. Much slower but thorough.                                                            |
-| **--min-rate 1000** | Packet Rate Limit.              | Ensures sending at least 1,000 packets/second. Greatly speeds up large scans.                                |
-| **-oN nmap.txt**    | Output to Normal format.        | Saves results to `nmap.txt` in human‑readable format.                                                        |
-| **10.65.152.254**   | Target Specification.           | The IP of the host being scanned.                                                                            |
 
 Output:
 
