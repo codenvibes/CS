@@ -133,12 +133,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "COURSES/THM/CYBER SECURITY 101.md",
+                    "file": "COURSES/THM/PRE SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CYBER SECURITY 101"
+                  "title": "PRE SECURITY"
                 }
               },
               {
@@ -349,8 +349,9 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
-    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/COURSES.base",
+    "COURSES/THM/CYBER SECURITY 101.md",
+    "COURSES/THM/SOC LEVEL 1.md",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
@@ -387,7 +388,6 @@
     "COURSES/CYBERSHUJAA/SECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "05 DEFENSIVE SECURITY/SIEM TOOLS.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
