@@ -38,8 +38,10 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 ##### Hack the machine and get the flag in user.txt
 ==thm{65c1aaf000506e56996822c6281e6bf7}==
 
+###### Recon
 
 We’ll first want to check the target for any open ports that we can exploit. We use nmap with the -sV flag to find the version of the applications as well as the ports.
+
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
