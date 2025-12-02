@@ -14,3 +14,9 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 1. 
 2. 
 3. 
+
+## #CORE_SOC_SOLUTIONS
+
+1. 
+2. 
+3. 
