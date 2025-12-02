@@ -204,7 +204,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TITLE_IN_CAPITAL",
+                "query": "kill",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -225,12 +225,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -293,13 +293,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OVERPASS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -400,10 +400,10 @@
       }
     ]
   },
-  "active": "4987a68ca0dfa5c3",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "Pasted image 20251202153841.png",
