@@ -86,8 +86,3 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 1. THM - 
 2. THM - 
 3. THM - 
-
-Junior Security Analyst Intro
-SOC Role in Blue Team
-Humans as Attack Vectors
-Systems as Attack Vectors
