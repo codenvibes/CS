@@ -90,9 +90,32 @@ AD4MPU3MAN
 
 ----
 
+image
+Network Security Essentials
+Learn about key aspects of network security essentials and how to monitor and protect against adversaries.
+
+image
+Network Discovery Detection
+Understand how attackers discover assets in a network, and how to detect that activity.
+
+image
+Data Exfiltration Detection
+Learn how to detect data exfiltration attempts in various network channels.
+
+image
+Man-in-the-Middle Detection
+Learn what MITM attack is, and how to identify the footprints of this attack in the network traffic.
+
+image
+IDS Fundamentals
+Learn the fundamentals of IDS, along with the experience of working with Snort.
+
+image
+0%
+
+Snort
 
 
-WIRESHARK: PACKET OPERATIONS
-WIRESHARK: TRAFFIC ANALYSIS
-NETWORKMINER
+
+
 
