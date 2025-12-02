@@ -293,13 +293,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OVERPASS"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -361,12 +361,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3f260f3a871cf04",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "Pasted image 20251202153841.png",
     "Pasted image 20251202153649.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
@@ -401,7 +401,6 @@
     "ASSETS/Pasted image 20250728194314 - Copy.png",
     "ASSETS/Pasted image 20250728193754 - Copy.png",
     "ASSETS/Pasted image 20250728192904 - Copy.png",
-    "ASSETS/Pasted image 20250728185001 - Copy.png",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
