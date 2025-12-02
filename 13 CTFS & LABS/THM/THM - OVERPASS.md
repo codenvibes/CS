@@ -292,7 +292,19 @@ james@ip-10-65-152-254:~$
 ```
 
 ```shell
-
+james@ip-10-65-152-254:~$ ls
+todo.txt  user.txt
+james@ip-10-65-152-254:~$ cat user.txt 
+thm{65c1aaf000506e56996822c6281e6bf7}
+james@ip-10-65-152-254:~$ cat todo.txt 
+To Do:
+> Update Overpass' Encryption, Muirland has been complaining that it's not strong enough
+> Write down my password somewhere on a sticky note so that I don't forget it.
+  Wait, we make a password manager. Why don't I just use that?
+> Test Overpass for macOS, it builds fine but I'm not sure it actually works
+> Ask Paradox how he got the automated build script working and where the builds go.
+  They're not updating on the website
+james@ip-10-65-152-254:~$ 
 ```
 <div>
 <br>
