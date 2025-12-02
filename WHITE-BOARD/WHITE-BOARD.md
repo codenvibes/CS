@@ -9,7 +9,7 @@ AD4MPU3MAN
 ----
 
 
-Cyber Kill Chain
+CYBER KILL CA
 
 Task 1. Introduction
 Task 2. Reconnaissance
