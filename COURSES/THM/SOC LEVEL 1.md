@@ -94,16 +94,18 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #THREAT_ANALYSIS_TOOLS
 
-1. THM - 
-2. THM - 
-3. THM - 
-4. THM - 
+1. THM - INTRO TO CYBER THREAT INTEL
+2. THM - FILE AND HASH THREAT INTEL
+3. THM - IP AND DOMAIN THREAT INTEL
+4. THM - INVITE ONLY
 
 ## #SIEM_TRIAGE_FOR_SOC
 
 1. THM - 
 2. THM - 
 3. THM - 
+4. THM - 
+5. THM - 
 
 ## #SOC_LEVEL_1_CAPSTONE_CHALLENGES
 

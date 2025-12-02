@@ -90,13 +90,28 @@ AD4MPU3MAN
 
 ----
 
-Intro to Cyber Threat Intel
+image
+Log Analysis with SIEM
+Learn how SIEM solutions can be used to detect and analyse malicious behaviour.
 
-File and Hash Threat Intel
+image
+Alert Triage With Splunk
+Use Splunk to triage alerts and investigate malicious activity efficiently.
 
-IP and Domain Threat Intel
+image
+Alert Triage With Elastic
+Investigate alerts with Elastic by analyzing logs and spotting threats.
 
-Invite Only
+image
+ItsyBitsy
+Put your ELK knowledge together and investigate an incident.
+
+image
+Benign
+
+
+
+
 
 
 
