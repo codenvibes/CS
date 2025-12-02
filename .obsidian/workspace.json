@@ -191,7 +191,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "tag:#TITLE_IN_CAPITAL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,

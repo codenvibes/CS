@@ -3,9 +3,14 @@ tags:
 number: "3"
 image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 ---
-## #
+## #BLUE_TEAM_INTRODUCTION
 
 1. 
 2. 
 3. 
 
+## #SOC_TEAM_INTERNALS
+
+1. 
+2. 
+3. 
