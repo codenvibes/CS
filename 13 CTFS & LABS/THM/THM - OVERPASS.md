@@ -43,8 +43,12 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 We’ll first want to check the target for any open ports that we can exploit.
 
 Command:
-nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
+`nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
 
+Breakdown:
+
+
+Output:
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
