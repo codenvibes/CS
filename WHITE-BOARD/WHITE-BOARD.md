@@ -90,22 +90,10 @@ AD4MPU3MAN
 
 ----
 
-image
-Windows Logging for SOC
-Start your Windows monitoring journey by learning how to use system logs to detect threats.
 
-image
-Windows Threat Detection 1
-Explore common Initial Access methods on Windows and learn how to detect them.
 
-image
-Windows Threat Detection 2
-Discover how to detect and analyze the first steps of threat actors after breaching Windows.
-
-image
-0%
-
-Windows Threat Detection 3
+WINDOWS THREAT DETECTION 2
+WINDOWS THREAT DETECTION 3
 
 
 

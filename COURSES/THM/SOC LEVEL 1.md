@@ -72,7 +72,7 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #WINDOWS_SECURITY_MONITORING
 
-1. THM - 
+1. THM - WINDOWS LOGGING FOR SOC
 2. THM - 
 3. THM - 
 4. THM - 
