@@ -90,8 +90,23 @@ AD4MPU3MAN
 
 ----
 
+image
+Introduction to EDR
+Learn the fundamentals of EDR and explore its features and working.
 
+image
+Introduction to SIEM
+Learn the fundamentals of SIEM and explore its features and functionality.
 
+image
+Splunk: The Basics
+Understand how SOC analysts use Splunk for log investigations.
 
+image
+Elastic Stack: The Basics
+Understand how SOC analysts use the Elastic Stack (ELK) for log investigations.
 
-INTRODUCTION TO PHISHING
+image
+0%
+
+Introduction to SOAR
