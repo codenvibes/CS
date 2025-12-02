@@ -36,6 +36,10 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 ### Questions
 
 ##### Hack the machine and get the flag in user.txt
+
+```
+
+```
 <div>
 <br>
 </div>
