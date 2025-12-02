@@ -28,9 +28,12 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 
 ## #CYBER_DEFENCE_FRAMEWORKS
 
-1. THM - 
+1. THM - PYRAMID OF PAIN
 2. THM - 
 3. THM - 
+4. THM - 
+5. THM - 
+6. THM - 
 
 ## #PHISHING_ANALYSIS
 
