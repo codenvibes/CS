@@ -229,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -363,6 +362,7 @@
   },
   "active": "b3f260f3a871cf04",
   "lastOpenFiles": [
+    "Pasted image 20251202153841.png",
     "Pasted image 20251202153649.png",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "08 TOOLS/FFUF.md",
@@ -401,7 +401,6 @@
     "ASSETS/Pasted image 20250728185001 - Copy.png",
     "ASSETS/Pasted image 20250728184827 - Copy.png",
     "ASSETS/Pasted image 20250729102658 - Copy.png",
-    "ASSETS/Pasted image 20250728234818 - Copy.png",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
