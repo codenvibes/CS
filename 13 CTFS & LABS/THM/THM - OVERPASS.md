@@ -75,7 +75,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 89.15 seconds
 ```
 
-So we see that port 22 and 80 are open, port 80 means that they have a website hosted. Let’s visit the site and see if we find anything interesting.
+So we see that port 22 and 80 are open, port 80 means that they have a website hosted. 
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
@@ -110,6 +110,8 @@ index.html              [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 202
 render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 207ms]
 :: Progress: [4746/4746] :: Job [1/1] :: 188 req/sec :: Duration: [0:00:25] :: Errors: 0 ::
 ```
+
+Let’s visit the site and see if we find anything interesting.
 
 ![[Pasted image 20251202154014.png]]
 
