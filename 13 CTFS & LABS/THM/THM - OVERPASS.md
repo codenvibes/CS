@@ -43,24 +43,25 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 We’ll first want to check the target for any open ports that we can exploit.
 
 Command:
+
 `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
 
 Breakdown:
 
-|     |     |     |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-
+| **Flag**            | **Description**                 | **Purpose in the Scan**                                                                                      |
+| ------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **nmap**            | The utility itself.             | Starts the network scanning application.                                                                     |
+| **-sV**             | Service Version Detection.      | Attempts to determine the version of the service running on open ports (e.g., Apache 2.4.41, OpenSSH 7.2p2). |
+| **-sC**             | Default Script Scan.            | Runs default, safe Nmap scripts checking for common vulnerabilities, weak passwords, and extra details.      |
+| **-A**              | Aggressive Scan.                | Enables OS detection, version detection, script scanning, and traceroute. Comprehensive but noisy.           |
+| **-T4**             | Timing Template 4 (Aggressive). | Speeds up scanning with more aggressive timing. Faster but may be less accurate or trigger IDS/IPS.          |
+| **-p-**             | All Ports Scan.                 | Scans all 65,535 ports. Much slower but thorough.                                                            |
+| **--min-rate 1000** | Packet Rate Limit.              | Ensures sending at least 1,000 packets/second. Greatly speeds up large scans.                                |
+| **-oN nmap.txt**    | Output to Normal format.        | Saves results to `nmap.txt` in human‑readable format.                                                        |
+| **10.65.152.254**   | Target Specification.           | The IP of the host being scanned.                                                                            |
 
 Output:
+
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254
