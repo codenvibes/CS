@@ -90,10 +90,18 @@ AD4MPU3MAN
 
 ----
 
+Web Security Essentials
+
+Detecting Web Attacks
+
+Detecting Web Shells
+
+Detecting Web DDoS
+
+Upload and Conquer
 
 
 
-MAN-IN-THE-MIDDLE DETECTION
-IDS FUNDAMENTALS
-SNORT
+
+
 
