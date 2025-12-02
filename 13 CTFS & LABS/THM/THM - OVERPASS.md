@@ -217,7 +217,7 @@ Inspect the page source:
 </html>
 ```
 
-Inspect 
+Inspect the `login.js` file:
 
 ```js
 async function postData(url = '', data = {}) {
