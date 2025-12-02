@@ -40,7 +40,8 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ###### Recon
 
-We’ll first want to check the target for any open ports that we can exploit. We use nmap with the -sV flag to find the version of the applications as well as the ports.
+We’ll first want to check the target for any open ports that we can exploit.
+Explain the nmap command
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
