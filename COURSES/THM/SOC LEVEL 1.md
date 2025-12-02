@@ -90,6 +90,7 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 1. THM - 
 2. THM - 
 3. THM - 
+4. THM - 
 
 ## #THREAT_ANALYSIS_TOOLS
 
