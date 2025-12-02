@@ -279,13 +279,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "COURSES/THM/SOC LEVEL 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of SOC LEVEL 1"
             }
           },
           {
@@ -347,10 +347,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
-    "COURSES/THM/SOC LEVEL 1.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",

@@ -90,8 +90,8 @@ AD4MPU3MAN
 
 ----
 
-Introduction to EDR
-Introduction to SIEM
-Splunk: The Basics
-Elastic Stack: The Basics
-Introduction to SOAR
+
+
+
+
+
