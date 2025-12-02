@@ -20,3 +20,22 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 1. 
 2. 
 3. 
+
+## #CYBER_DEFENCE_FRAMEWORKS
+
+1. 
+2. 
+3. 
+
+## #PHISHING_ANALYSIS
+
+1. 
+2. 
+3. 
+
+## #TITLE_IN_CAPITAL
+
+1. 
+2. 
+3. 
+
