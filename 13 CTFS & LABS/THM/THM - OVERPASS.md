@@ -36,6 +36,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 ### Questions
 
 ##### Hack the machine and get the flag in user.txt
+==thm{65c1aaf000506e56996822c6281e6bf7}==
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
@@ -296,6 +297,15 @@ james@ip-10-65-152-254:~$ ls
 todo.txt  user.txt
 james@ip-10-65-152-254:~$ cat user.txt 
 thm{65c1aaf000506e56996822c6281e6bf7}
+```
+<div>
+<br>
+</div>
+
+##### Escalate your privileges and get the flag in root.txt
+====
+
+```
 james@ip-10-65-152-254:~$ cat todo.txt 
 To Do:
 > Update Overpass' Encryption, Muirland has been complaining that it's not strong enough
@@ -306,11 +316,6 @@ To Do:
   They're not updating on the website
 james@ip-10-65-152-254:~$ 
 ```
-<div>
-<br>
-</div>
-
-##### Escalate your privileges and get the flag in root.txt
 <div align="center">
 <br>
 <br>
