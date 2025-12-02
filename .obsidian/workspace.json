@@ -160,12 +160,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/SECTION BREAK 5.md",
+                    "file": "TEMPLATES/SECTION BREAK 5※.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SECTION BREAK 5"
+                  "title": "SECTION BREAK 5※"
                 }
               }
             ],
@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEMPLATES/SECTION BREAK 5.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECTION BREAK 5"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -399,8 +399,9 @@
       }
     ]
   },
-  "active": "556e51c855c28fa9",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "TEMPLATES/SECTION BREAK 5※.md",
     "TEMPLATES/SECTION BREAK 2.md",
     "TEMPLATES/SECTION BREAK 1.md",
     "08 TOOLS/FFUF.md",
@@ -413,7 +414,6 @@
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/QUESTIONS.md",
-    "TEMPLATES/SECTION BREAK 5.md",
     "TEMPLATES/Section Break.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
