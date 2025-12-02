@@ -51,7 +51,31 @@ image: https://assets.tryhackme.com/img/paths/SOCL1.svg
 2. 
 3. 
 
-## #TITLE_IN_CAPITAL
+## #WINDOWS_SECURITY_MONITORING
+
+1. 
+2. 
+3. 
+
+## #LINUX_SECURITY_MONITORING
+
+1. 
+2. 
+3. 
+
+## #MALWARE_CONCEPTS_FOR_SOC
+
+1. 
+2. 
+3. 
+
+## #THREAT_ANALYSIS_TOOLS
+
+1. 
+2. 
+3. 
+
+## #SIEM_TRIAGE_FOR_SOC
 
 1. 
 2. 
