@@ -90,16 +90,22 @@ AD4MPU3MAN
 
 ----
 
-Web Security Essentials
+image
+Windows Logging for SOC
+Start your Windows monitoring journey by learning how to use system logs to detect threats.
 
-Detecting Web Attacks
+image
+Windows Threat Detection 1
+Explore common Initial Access methods on Windows and learn how to detect them.
 
-Detecting Web Shells
+image
+Windows Threat Detection 2
+Discover how to detect and analyze the first steps of threat actors after breaching Windows.
 
-Detecting Web DDoS
+image
+0%
 
-Upload and Conquer
-
+Windows Threat Detection 3
 
 
 
