@@ -576,6 +576,12 @@ To Do:
 james@ip-10-65-152-254:~$ 
 ```
 
+- **“Ask Paradox how he got the automated build script working and where the builds go.”**
+    - Significance: This is the most critical hint. It points to an automated build script run by Paradox. Such scripts often run with high privileges (e.g., root via cron) and may expose sensitive file paths or configs relevant for privilege escalation.
+- **“Write down my password somewhere... Wait, we make a password manager. Why don't I just use that?”**
+    - Significance: Minor clue. It reminds you that a password manager (Overpass) exists in the environment, but it doesn’t directly help with escalation.
+
+
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/crontab
 # /etc/crontab: system-wide crontab
