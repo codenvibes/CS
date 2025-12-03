@@ -253,9 +253,13 @@ Testing Default Credentials:
 - **Action:** Attempted to log in with the default credentials `admin:admin`.
 - **Result:** The login failed, indicating that the administrator did not leave the default credentials configured.
 
+![[Pasted image 20251203062735.png]]
+
+Since the default login failed, the application's I analyzed using the browser's Developer Tools. The network traffic revealed that the page utilizes client-side JavaScript (`login.js`) to handle the authentication request.
+
+
 ![[Pasted image 20251203064331.png]]
 
-![[Pasted image 20251203062735.png]]
 Inspect the page source:
 
 ```html
