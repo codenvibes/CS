@@ -60,9 +60,14 @@ Once the VPN initialized successfully, confirm the connection by checking for th
 
 After connecting to the VPN, verify that the target machine is up and reachable by performing an ICMP ping test.
 
-Command:
+Command: `ping -c 4 <TARGET_IP>`
 
-`ping -c 4 <TARGET_IP>`
+Breakdown:
+- `-c 4` → sends 4 packets only (clean output, fast)
+
+Output:
+
+
 
 A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing us to proceed with the enumeration phase.
 <div align="center">
@@ -74,9 +79,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 We’ll first want to check the target for any open ports that we can exploit.
 
-Command:
-
-`nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
+Command: `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
 
 Breakdown:
 - **`nmap`**
