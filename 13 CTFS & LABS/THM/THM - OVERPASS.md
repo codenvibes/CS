@@ -774,7 +774,7 @@ bash: no job control in this shell
 root@ip-10-66-180-249:~# 
 ```
 
-
+The root flag is located in the standard root home directory.
 
 ```shell
 root@ip-10-66-180-249:~# hostname ; whoami ; ip a
@@ -808,6 +808,8 @@ cat root.txt
 thm{7f336f8c359dbac18d54fdd64ea753bb}
 root@ip-10-66-180-249:~#
 ```
+
+AND THIS IS THE PART WHERE OMBACHI WOULD SAY DONE
 <div align="center">
 <br>
 <br>
