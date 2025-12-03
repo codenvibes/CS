@@ -556,7 +556,11 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 #### Escalate your privileges and get the flag in root.txt
 ====
 
-##### Stage 5: Gaining User Access (SSH)
+##### Stage 5: Privilege Escalation (Enumeration)
+
+With user access established as `James`, the goal is to find a path to the root user.
+
+
 
 ```
 james@ip-10-65-152-254:~$ cat todo.txt 
