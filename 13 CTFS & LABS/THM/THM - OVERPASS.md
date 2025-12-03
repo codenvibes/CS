@@ -243,7 +243,9 @@ render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duratio
 
 ###### 1. Investigating the `/admin` Directory
 
-Our biggest find is the admin path and this is what the `/admin` page looks like:
+The `ffuf` scan identified the `/admin` path, which is a high-priority target as it often contains sensitive information or a login portal.
+
+Navigated to `http://<TARGET_IP>/admin` in your browser.
 
 ![[Pasted image 20251202154014.png]]
 
