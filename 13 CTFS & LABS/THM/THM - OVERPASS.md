@@ -497,9 +497,15 @@ todo.txt  user.txt
 james@ip-10-65-152-254:~$ cat user.txt 
 thm{65c1aaf000506e56996822c6281e6bf7}
 ```
-<div>
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
 <br>
 </div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 
 #### Escalate your privileges and get the flag in root.txt
 ====
