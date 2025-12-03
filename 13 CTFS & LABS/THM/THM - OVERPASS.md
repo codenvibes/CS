@@ -40,7 +40,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ###### Recon (Information Gathering)
 
-As usual connect to
+As usual connect to the 
 
 We’ll first want to check the target for any open ports that we can exploit.
 
