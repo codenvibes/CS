@@ -750,9 +750,7 @@ Gaining Root Access: Check the **python server** on the attacker machine for t
 
 Upon the next minute cycle, the root cron job executes:
 1. **Resolution:** The system looks up `overpass.thm` and resolves it to the **attacker's IP** (`192.168.157.156`).
-
 2. **Download:** `curl` connects to the attacker's web server (Port 80), downloading the malicious reverse shell payload (`buildscript.sh`).
-
 3. **Execution:** The payload is piped to `bash` and executed as **`root`**.
 
 ```shell
