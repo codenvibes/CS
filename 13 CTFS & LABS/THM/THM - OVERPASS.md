@@ -40,7 +40,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ##### Stage 1: Recon (Information Gathering)
 
-###### 1. Connecting to the TryHackMe VPN
+###### 1.1 Connecting to the TryHackMe VPN
 
 Before interacting with the target machine, connect to the TryHackMe VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
@@ -56,7 +56,7 @@ Once the VPN initialized successfully, confirm the connection by checking for th
 <br>
 </div>
 
-###### ## 2. Verifying the Target is Reachable
+###### ## 1.2. Verifying the Target is Reachable
 
 After connecting to the VPN, verify that the target machine is up and reachable by performing an ICMP ping test.
 
@@ -91,7 +91,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 ##### Stage 2: Enumeration (Network & Port Scanning)
 
-###### 1. Port Scan with Nmap
+###### 2.1. Port Scan with Nmap
 
 The first step in enumeration is to find out what services are running on the target machine. We'll use **Nmap** for a comprehensive scan of all TCP ports.
 
@@ -166,7 +166,7 @@ Nmap done: 1 IP address (1 host up) scanned in 90.78 seconds
 <br>
 </div>
 
-###### 2. Enumeration of Web Services (Port 80)
+###### 2.2. Enumeration of Web Services (Port 80)
 
 Since **Port 80 (HTTP)** is open, the next logical step is to explore the web server. This typically involves checking the main page and running a **directory brute-forcing tool**.
 
@@ -180,7 +180,7 @@ Navigated to `http://<TARGET_IP>` in your browser to see the main page.
 <br>
 </div>
 
-###### 3. Directory Brute-Forcing with Ffuf
+###### 2.3. Directory Brute-Forcing with Ffuf
 
 Command:
 
@@ -241,7 +241,7 @@ render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duratio
 
 ##### Stage 3: Web Enumeration & Initial Foothold
 
-###### 1. Investigating the `/admin` Directory
+###### 3.1. Investigating the `/admin` Directory
 
 The `ffuf` scan identified the `/admin` path, which is a high-priority target as it often contains sensitive information or a login portal.
 
