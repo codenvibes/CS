@@ -535,7 +535,7 @@ james@ip-10-64-165-146:~$
 ```
 
 We're in!
-The user flag is located in the home directory.
+Tcaacahe user flag is located in the home directory.
 
 ```shell
 james@ip-10-65-152-254:~$ ls
@@ -555,6 +555,8 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 
 #### Escalate your privileges and get the flag in root.txt
 ====
+
+##### Stage 5: Gaining User Access (SSH)
 
 ```
 james@ip-10-65-152-254:~$ cat todo.txt 
