@@ -387,7 +387,16 @@ The injection was successful. Upon refreshing, the browser was granted access to
 
 The Key Discovery: Encrypted SSH Private Key.
 - The administrator page revealed a message about an encrypted SSH key set up for user **James**, which is the key piece of information needed for the next stage.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
+###### 3. Preparation for Cracking the Key
+
+The next step is to decrypt the private key to gain SSH access as the user `James`.
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ vi id_rsa
