@@ -438,8 +438,7 @@ ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
 -----END RSA PRIVATE KEY-----
 ```
 
-Generate a Hash for Cracking
-
+Generate a Hash for Cracking: The key is encrypted, requiring a passphrase. We will use `ssh2john` to convert the encrypted key into a hash format that John the Ripper can crack.
 
 ```shell
 ──(kali㉿kali)-[~/ET/THM/Overpass]
