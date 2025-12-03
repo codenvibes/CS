@@ -184,13 +184,13 @@ Navigated to `http://<TARGET_IP>` in your browser to see the main page.
 
 Command:
 
-`nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
+`ffuf -u http://<TARGET_IP>/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt `
 
 Breakdown:
 - **ffuf**
     - **Description:** Fast web fuzzer.
     - **Purpose:** Performs fuzzing to discover hidden directories, files, or parameters on a web server.
-- **-u [http://10.65.152.254/FUZZ](http://10.65.152.254/FUZZ)**
+- **-u [http://<TARGET_IP>/FUZZ](http://10.65.152.254/FUZZ)**
     - **Description:** Target URL with the **FUZZ** keyword.
     - **Purpose:** Tells ffuf where to inject words from the wordlist.
 - **-w /usr/share/seclists/Discovery/Web-Content/common.txt**
