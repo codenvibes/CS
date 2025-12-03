@@ -56,6 +56,11 @@ Once the VPN initialized successfully, confirm the connection by checking for th
 <br>
 </div>
 
+###### ## 2. Verifying the Target is Reachable
+
+After connecting to the VPN, verify that the target machine is up and reachable by performing an ICMP ping test.
+
+
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
