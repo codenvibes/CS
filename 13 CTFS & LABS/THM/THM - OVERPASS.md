@@ -649,6 +649,9 @@ The vulnerability lies in the command structure:
 2. The target machine resolves this hostname using the local **`/etc/hosts`** file or DNS.
 3. Since the job runs as `root`, if we can control what the system resolves `overpass.thm` to, we can control what script is downloaded and executed as `root`.
 
+Check `/etc/hosts` to see how the system is currently resolving `overpass.thm`.
+
+Command: `cat /etc/hosts`
 
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
