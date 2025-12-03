@@ -688,10 +688,12 @@ Command: `nc -lvnp 1234`
 
 Create the Malicious Payload:
 
-
 Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
 ![[Pasted image 20251203150324.png]]
+
+
+
 
 Open a new terminal and create the directory path `./downloads/src/` and the a file called `builtscript.sh` and paste the reverse shell payload.
 
