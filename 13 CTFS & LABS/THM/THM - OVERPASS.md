@@ -6,9 +6,9 @@ description: What happens when some broke CompSci students make a password manag
 ---
 ## Summary
 
-| SECTION/TASK     | FLAG |
-| ---------------- | ---- |
-| Task 1. Overpass |      |
+| SECTION/TASK     | FLAG                                                                           |
+| ---------------- | ------------------------------------------------------------------------------ |
+| Task 1. Overpass | thm{65c1aaf000506e56996822c6281e6bf7}<br>thm{7f336f8c359dbac18d54fdd64ea753bb} |
 
 <div align="center">
 <br>
@@ -809,7 +809,7 @@ thm{7f336f8c359dbac18d54fdd64ea753bb}
 root@ip-10-66-180-249:~#
 ```
 
-AND THIS IS THE PART WHERE OMBACHI WOULD SAY DONE!
+AND THIS IS THE PART WHERE OMBACHI WOULD SAY DONE!🍳
 <div align="center">
 <br>
 <br>
