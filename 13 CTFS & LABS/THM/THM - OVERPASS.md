@@ -467,7 +467,13 @@ id_rsa:$sshng$1$16$9F85D92F34F42626F13A7493AB48F337$1200$2cdbb9c10041cfba4a67771
 
 Crack the SSH key.
 
-Command: 
+Command: `john --wordlist=/usr/share/wordlists/rockyou.txt hash`
+
+Breakdown:
+- `--wordlist=/usr/share/wordlists/rockyou.txt`  
+    Tells John to use the RockYou password list.
+- `hash`  
+    The file containing the key hash you want to crack.
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
