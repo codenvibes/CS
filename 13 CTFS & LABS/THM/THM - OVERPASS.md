@@ -587,6 +587,11 @@ james@ip-10-65-152-254:~$
 
 ###### 4.2. Hunting for Automated Scripts/Files
 
+Following the hint in `todo.txt` about an "automated build script," check the system's cron table.
+
+Command: `cat /etc/crontab`
+
+Oup
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/crontab
 # /etc/crontab: system-wide crontab
