@@ -578,6 +578,14 @@ james@ip-10-65-152-254:~$
 
 - **“Ask Paradox how he got the automated build script working and where the builds go.”**
     - Significance: This is the most critical hint. It points to an automated build script run by Paradox. Such scripts often run with high privileges (e.g., root via cron) and may expose sensitive file paths or configs relevant for privilege escalation.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+###### 4.2. Hunting for Automated Scripts/Files
 
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/crontab
@@ -622,14 +630,9 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
-<div align="center">
-<br>
-※※※※※※※※※※※※※※※※※※※※※※※※
-<br>
-<br>
-</div>
 
-###### 4.2. Analyzing `todo.txt` for Hints
+
+
 
 <div align="center">
 <br>
