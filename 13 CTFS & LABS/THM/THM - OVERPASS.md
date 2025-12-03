@@ -373,7 +373,7 @@ Breakdown:
 <br>
 </div>
 
-###### 2. Exploiting the Login Logic
+###### 2. Exploiting the Login Logic: Cookie Injection Bypass
 
 ![[Pasted image 20251202160720.png]]
 
