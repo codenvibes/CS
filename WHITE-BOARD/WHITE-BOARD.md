@@ -1,5 +1,5 @@
 🛡️ DAY 46 of my #CYBERSECURITY Journey!
-Completed the Overpass CTF on TryHackMe today. Learned how leaked credentials, weak password policies, and poorly secured services can lead to full compromise. On to the next!
+Completed the Overpass CTF on TryHackMe today. On to the next challenge.
 
 
 22 more rooms to the Jr Penetration Tester certificate.
