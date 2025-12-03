@@ -669,6 +669,20 @@ ff02::2 ip6-allrouters
 ```
 
 The system resolves `overpass.thm` to **`127.0.0.1`** (localhost), meaning the cron job is downloading the script from the machine's own web server (running on Port 80, which we previously found).
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+###### 4.4. Exploitation: Hijacking the `root` Cron Job
+
+Since we know the web server is running on the target machine, and the cron job is downloading a script from itself as `root`, the path to exploitation is clear:
+
+1. Create a malicious script that grants us a root shell.
+2. Place this malicious script in the web server's accessible directory (where `buildscript.sh` should be).
+3. Wait for the cron job to execute (which happens every minute).
 
 
 ```shell
