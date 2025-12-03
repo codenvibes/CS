@@ -170,6 +170,8 @@ Nmap done: 1 IP address (1 host up) scanned in 90.78 seconds
 
 Since **Port 80 (HTTP)** is open, the next logical step is to explore the web server. This typically involves checking the main page and running a **directory brute-forcing tool**.
 
+Navigated to `http://<TARGET_IP>` in your browser to see the main page.
+
 Command:
 
 `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
