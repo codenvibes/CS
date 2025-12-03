@@ -692,7 +692,7 @@ Obtain a revershell payload from [revshells.com](https://www.revshells.com/). En
 
 ![[Pasted image 20251203150324.png]]
 
-Create the Web Structure: Create the directory path that matches the URL used by the cron job: `downloads/src/`.
+Create the Web Structure: Create the directory path that matches the URL used by the cron job: `downloads/src/`. Then create the `buildscript.sh` file and paste the reverse shell payload into it.
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
