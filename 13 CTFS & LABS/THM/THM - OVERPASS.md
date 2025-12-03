@@ -686,11 +686,15 @@ Set Up the Netcat Listener:
 
 Command: `nc -lvnp 1234`
 
-```s
+```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ nc -lvnp 1234
 listening on [any] 1234 ...
 ```
+
+> **you can use almost any port** for your reverse shell listener, but there are a few considerations:
+> - **Non-Privileged Ports:** You should generally use ports above **1024** (e.g., `4444`, `9001`, `1234`). Ports 1-1024 are "well-known" and require root privileges to bind to them, which isn't necessary for a simple netcat listener on your Kali machine.
+> - **Unused Ports:** The port must not be in use by any other service on your attacking machine.
 
 Create the Malicious Payload: Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
