@@ -255,10 +255,11 @@ Testing Default Credentials:
 
 ![[Pasted image 20251203062735.png]]
 
-Since the default login failed, the application's I analyzed using the browser's Developer Tools. The network traffic revealed that the page utilizes client-side JavaScript (`login.js`) to handle the authentication request.
-
+Since the default login failed, I analyzed the application's behavior using my browser's Developer Tools. The network traffic revealed that the page utilizes client-side JavaScript (`login.js`) to handle the authentication request.
 
 ![[Pasted image 20251203064331.png]]
+
+**Action:** View the source code for the login page and clicked on the linked `/login.js` file.
 
 Inspect the page source:
 
