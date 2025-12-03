@@ -377,6 +377,12 @@ Breakdown:
 
 **Action:** To exploit this, manually create a **`SessionToken`** cookie was  into the browser's storage using Developer Tools.
 
+- **Cookie Name:** `SessionToken`
+- **Cookie Value:** **(Left empty / set to an arbitrary, non-matching string)**
+- **Result:** Injecting the cookie (even with an empty or non-specific value, as the flaw is in the client-side comparison) caused the client-side logic to treat the session as valid.
+
+The injection was successful. Upon refreshing, the browser was granted access to the **"Overpass Administrator area"** .
+
 ![[Pasted image 20251202160720.png]]
 
 ```shell
