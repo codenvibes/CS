@@ -489,10 +489,6 @@ james13          (id_rsa)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
 ```
-
-Cracking the Hash: We use the common `rockyou.txt` wordlist for the attack.
-
-
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
