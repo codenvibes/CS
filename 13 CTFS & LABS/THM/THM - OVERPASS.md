@@ -187,10 +187,10 @@ Command:
 `ffuf -u http://<TARGET_IP>/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt `
 
 Breakdown:
-- **ffuf**
+- **`ffuf*`*
     - **Description:** Fast web fuzzer.
     - **Purpose:** Performs fuzzing to discover hidden directories, files, or parameters on a web server.
-- **-u [http://<TARGET_IP>/FUZZ](http://10.65.152.254/FUZZ)**
+- **`-u http://<TARGET_IP>/FUZZ`**
     - **Description:** Target URL with the **FUZZ** keyword.
     - **Purpose:** Tells ffuf where to inject words from the wordlist.
 - **-w /usr/share/seclists/Discovery/Web-Content/common.txt**
