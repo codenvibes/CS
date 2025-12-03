@@ -166,7 +166,6 @@ Nmap done: 1 IP address (1 host up) scanned in 90.78 seconds
 <br>
 </div>
 
-##### Stage 3: Enumeration (Network & Port Scanning)
 ###### 2. Enumeration of Web Services (Port 80)
 
 Since **Port 80 (HTTP)** is open, the next logical step is to explore the web server. This typically involves checking the main page and running a **directory brute-forcing tool**.
@@ -240,6 +239,9 @@ render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duratio
 <br>
 </div>
 
+##### Stage 3: Web Enumeration & Initial Foothold
+
+###### 1. Investigating the `/admin` Directory
 
 Our biggest find is the admin path and this is what the `/admin` page looks like:
 
