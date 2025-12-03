@@ -249,6 +249,9 @@ Navigated to `http://<TARGET_IP>/admin` in your browser.
 
 ![[Pasted image 20251203062833.png]]
 
+Testing Default Credentials:
+- **Action:** Attempted to log in with the default credentials `admin:admin`.
+- **Result:** The login failed, indicating that the administrator did not leave the default credentials configured.
 
 ![[Pasted image 20251203062735.png]]
 Inspect the page source:
