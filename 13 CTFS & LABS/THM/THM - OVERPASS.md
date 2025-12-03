@@ -440,7 +440,18 @@ ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
 
 Convert the SSH private key into a John-the-Ripper–readable hash
 
-Co
+Command: `/usr/share/john/ssh2john.py id_rsa > hash`
+
+Breakdown:
+- `/usr/share/john/ssh2john.py`  
+    A John the Ripper utility that converts SSH private keys into a hash format that John can crack.
+- `id_rsa`  
+    The SSH private key file you found in the machine.
+- `>`  
+    Redirects the output into a new file.
+- `hash`  
+    The output file that will contain the converted hash (usable by John).
+
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ locate ssh2john
