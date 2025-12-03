@@ -398,13 +398,14 @@ The Key Discovery: Encrypted SSH Private Key.
 
 The next step is to decrypt the private key to gain SSH access as the user `James`.
 
-Save the key 
-```shell
-┌──(kali㉿kali)-[~/ET/THM/Overpass]
-└─$ vi id_rsa
+Save the key in local file.
 
-┌──(kali㉿kali)-[~/ET/THM/Overpass]
-└─$ cat id_rsa
+```shell
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ vi id_rsa        
+
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ cat id_rsa        
 -----BEGIN RSA PRIVATE KEY-----
 Proc-Type: 4,ENCRYPTED
 DEK-Info: AES-128-CBC,9F85D92F34F42626F13A7493AB48F337
@@ -435,7 +436,6 @@ ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
 +hL1kHlTtJZU8Zj2Y2Y3hd6yRNJcIgCDrmLbn9C5M0d7g0h2BlFaJIZOYDS6J6Yk
 2cWk/Mln7+OhAApAvDBKVM7/LGR9/sVPceEos6HTfBXbmsiV+eoFzUtujtymv8U7
 -----END RSA PRIVATE KEY-----
-
 ```
 
 ```shell
