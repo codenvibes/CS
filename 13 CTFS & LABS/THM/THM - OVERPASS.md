@@ -622,9 +622,14 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-
-
+###### 4.2. Analyzing `todo.txt` for Hints
 
 <div align="center">
 <br>
