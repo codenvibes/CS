@@ -306,7 +306,7 @@ view-source:http://10.64.165.146/admin/:
 </html>
 ```
 
-The `login.js` file contains the logic for the `login()` function, which determines the result of the authentication attempt.:
+The `login.js` file contains the logic for the `login()` function, which determines the result of the authentication attempt:
 
 ```js
 async function postData(url = '', data = {}) {
