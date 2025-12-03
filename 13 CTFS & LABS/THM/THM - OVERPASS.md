@@ -653,6 +653,8 @@ Check `/etc/hosts` to see how the system is currently resolving `overpass.thm`.
 
 Command: `cat /etc/hosts`
 
+Output:
+
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
 127.0.0.1 localhost
@@ -665,6 +667,9 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
+
+The system resolves `overpass.thm` to **`127.0.0.1`** (localhost), meaning the cron job is downloading the script from the machine's own web server (running on Port 80, which we previously found).
+
 
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
