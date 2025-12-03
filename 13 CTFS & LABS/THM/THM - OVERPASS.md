@@ -686,6 +686,12 @@ Set Up the Netcat Listener:
 
 Command: `nc -lvnp 1234`
 
+```s
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ nc -lvnp 1234
+listening on [any] 1234 ...
+```
+
 Create the Malicious Payload: Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
 ![[Pasted image 20251203150324.png]]
