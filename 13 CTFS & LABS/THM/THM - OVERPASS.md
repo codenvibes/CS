@@ -766,6 +766,28 @@ bash: cannot set terminal process group (2111): Inappropriate ioctl for device
 bash: no job control in this shell
 root@ip-10-66-180-249:~# 
 ```
+
+
+
+```shell
+root@ip-10-66-180-249:~# hostname ; whoami ; ip a
+hostname ; whoami ; ip a
+ip-10-66-180-249
+root
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc fq_codel state UP group default qlen 1000
+    link/ether 02:85:fc:e9:41:5d brd ff:ff:ff:ff:ff:ff
+    inet 10.66.180.249/18 metric 100 brd 10.66.191.255 scope global dynamic eth0
+       valid_lft 3079sec preferred_lft 3079sec
+    inet6 fe80::85:fcff:fee9:415d/64 scope link 
+       valid_lft forever preferred_lft forever
+root@ip-10-66-180-249:~# 
+```
 <div align="center">
 <br>
 <br>
