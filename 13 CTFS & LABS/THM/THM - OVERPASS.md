@@ -247,7 +247,7 @@ The `ffuf` scan identified the `/admin` path, which is a high-priority target as
 
 Navigated to `http://<TARGET_IP>/admin` in your browser.
 
-![[Pasted image 20251202154014.png]]
+![[Pasted image 20251203062833.png]]
 
 
 ![[Pasted image 20251203062735.png]]
