@@ -385,7 +385,8 @@ The injection was successful. Upon refreshing, the browser was granted access to
 
 ![[Pasted image 20251202160720.png]]
 
-The Key Discovery: Encrypted SSH Private Key
+The Key Discovery: Encrypted SSH Private Key.
+- The administrator page revealed a message about an encrypted SSH key set up for user **James**, which is the key piece of information needed for the next stage.
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
