@@ -684,6 +684,7 @@ Since we know the web server is running on the target machine, and the cron job 
 2. Place this malicious script in the web server's accessible directory (where `buildscript.sh` should be).
 3. Wait for the cron job to execute (which happens every minute).
 
+Start a **netcat** listener on the attacker machine.
 
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
