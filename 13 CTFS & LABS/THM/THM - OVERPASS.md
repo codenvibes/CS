@@ -719,6 +719,21 @@ Output:
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 ```
 
+> **Tip:** If you don't launch the Python web server from the directory containing the necessary file path (`downloads/src/`), the cron job will fail to retrieve the payload, and you won't get a root shell.
+> 
+> **Explanation:** The Cron job on the target machine uses the exact, full path specified in the `/etc/crontab` entry: `overpass.thm/downloads/src/buildscript.sh`.
+> 
+> When you run `python3 -m http.server 80` from a specific directory (in your case, `~/CS/THM/Overpass`), that directory becomes the **root** (`/`) of your web server. Therefore, the server must be launched from the directory that **contains** the `downloads` folder, allowing the URL path to map correctly:
+> 
+> - **Target Request:** `GET /downloads/src/buildscript.sh HTTP/1.1`
+>     
+> - **Server Root (`/`):** `~/CS/THM/Overpass`
+>     
+> - **File Served:** `~/CS/THM/Overpass/downloads/src/buildscript.sh`
+>     
+> 
+> If you ran the server from your home directory (`~`), the server would look for the file at `~/downloads/src/buildscript.sh`, which is incorrect based on your directory structure.
+
 Edit the `/etc/hosts` File: On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
 
 ```shell
