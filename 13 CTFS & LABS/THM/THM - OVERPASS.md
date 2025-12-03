@@ -454,12 +454,6 @@ Breakdown:
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
-└─$ locate ssh2john
-/usr/bin/ssh2john
-/usr/share/john/ssh2john.py
-/usr/share/john/__pycache__/ssh2john.cpython-313.pyc
-
-┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ /usr/share/john/ssh2john.py id_rsa > hash
 
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
