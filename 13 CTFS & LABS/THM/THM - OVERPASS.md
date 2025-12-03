@@ -619,8 +619,15 @@ Critical Finding in `/etc/crontab`:
 # Update builds from latest code
 * * * * * root curl overpass.thm/downloads/src/buildscript.sh | bash
 ```
-
-
+ 
+Analysis of the Cron Job:
+- **Schedule:** `* * * * *`
+    - The script runs **every minute**, providing a small and predictable exploitation window.
+- **User:** `root`
+    - The script executes with **root privileges**, so any command injection results in **full system compromise**.
+- **Action:** `curl overpass.thm/...bash`
+    - The script downloads and executes a payload, indicating a potential **remote code execution risk**.
+ 
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
 127.0.0.1 localhost
