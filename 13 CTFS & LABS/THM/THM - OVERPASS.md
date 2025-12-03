@@ -678,13 +678,11 @@ The system resolves `overpass.thm` to **`127.0.0.1`** (localhost), meaning the c
 
 ###### 4.4. Exploitation: Hijacking the `root` Cron Job
 
-Since we know the web server is running on the target machine, and the cron job is downloading a script from itself as `root`, the path to exploitation is clear:
+The key to exploitation is hijacking the domain resolution of `overpass.thm` to point to the attacker's machine, thereby controlling the script that is executed as `root`.
 
-1. Create a malicious script that grants us a root shell.
-2. Place this malicious script in the web server's accessible directory (where `buildscript.sh` should be).
-3. Wait for the cron job to execute (which happens every minute).
+To exploit this, the attacker machine (Kali) must host the malicious `buildscript.sh` file and listen for the reverse shell connection.
 
-Start a **netcat** listener on the attacker machine.
+####### Set Up the Netcat Listener
 
 Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
