@@ -498,9 +498,9 @@ Session completed.
 <br>
 </div>
 
-##### Stage 4: Gaining User Access
+##### Stage 4: Gaining User Access (SSH)
 
-The goal now is to use the `id_rsa` key file to gain SSH access as the user `James`.
+Use the `id_rsa` key file to gain SSH access as the user `James`.
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
@@ -534,7 +534,7 @@ Last login: Sat Jun 27 04:45:40 2020 from 192.168.170.1
 james@ip-10-64-165-146:~$
 ```
 
-We're in
+We're in!
 
 ```shell
 james@ip-10-65-152-254:~$ ls
