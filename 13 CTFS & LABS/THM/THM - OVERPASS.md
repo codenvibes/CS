@@ -200,8 +200,8 @@ Breakdown:
 Output:
 
 ```shell
-┌──(kali㉿kali)-[~/ET/THM/Overpass]
-└─$ ffuf -u http://10.65.152.254/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt 
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ ffuf -u http://10.64.165.146/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt 
 
         /'___\  /'___\           /'___\       
        /\ \__/ /\ \__/  __  __  /\ \__/       
@@ -214,7 +214,7 @@ Output:
 ________________________________________________
 
  :: Method           : GET
- :: URL              : http://10.65.152.254/FUZZ
+ :: URL              : http://10.64.165.146/FUZZ
  :: Wordlist         : FUZZ: /usr/share/seclists/Discovery/Web-Content/common.txt
  :: Follow redirects : false
  :: Calibration      : false
@@ -223,15 +223,22 @@ ________________________________________________
  :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
 ________________________________________________
 
-aboutus                 [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 202ms]
-admin                   [Status: 301, Size: 42, Words: 3, Lines: 3, Duration: 206ms]
+aboutus                 [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 205ms]
+admin                   [Status: 301, Size: 42, Words: 3, Lines: 3, Duration: 201ms]
 css                     [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 202ms]
-downloads               [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 202ms]
-img                     [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 204ms]
-index.html              [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 202ms]
-render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 207ms]
-:: Progress: [4746/4746] :: Job [1/1] :: 188 req/sec :: Duration: [0:00:25] :: Errors: 0 ::
+downloads               [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 204ms]
+img                     [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 201ms]
+index.html              [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 203ms]
+render/https://www.google.com [Status: 301, Size: 0, Words: 1, Lines: 1, Duration: 199ms]
+:: Progress: [4746/4746] :: Job [1/1] :: 196 req/sec :: Duration: [0:00:25] :: Errors: 0 ::
 ```
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
 
 Our biggest find is the admin path and this is what the `/admin` page looks like:
 
