@@ -686,6 +686,8 @@ Since we know the web server is running on the target machine, and the cron job 
 
 Start a **netcat** listener on the attacker machine.
 
+Obtain a revershell payload from revshells.com. Enter the attacker IP, port number and change the payload to Bash -i and shell to /bin/bash as shown below. Copy the payload.
+
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
 james@ip-10-65-152-254:~$ cat /etc/hosts
