@@ -635,7 +635,14 @@ Analysis of the Cron Job:
     - The script executes with **root privileges**, so any command injection results in **full system compromise**.
 - **Action:** `curl overpass.thm/...bash`
     - The script downloads and executes a payload, indicating a potential **remote code execution risk**.
- 
+ <div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+###### 4.3. Hunting for Automated Scripts/Files
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
 127.0.0.1 localhost
