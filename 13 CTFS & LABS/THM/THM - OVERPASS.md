@@ -465,8 +465,9 @@ id_rsa:$sshng$1$16$9F85D92F34F42626F13A7493AB48F337$1200$2cdbb9c10041cfba4a67771
 <br>
 </div>
 
-##### Stage 4: Web Enumeration & Initial Foothold
+##### Stage 4: Gaining User Access (SSH via Key Cracking)
 
+The goal now is to use the `james_rsa.enc` file to gain SSH access as the user `James`. Since the key is encrypted (`Proc-Type: 4,ENCRYPTED`), we must first crack the passphrase.
 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
