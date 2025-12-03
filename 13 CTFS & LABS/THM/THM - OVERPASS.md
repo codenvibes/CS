@@ -67,7 +67,7 @@ Breakdown:
 
 Output:
 
-```
+```shell
 ┌──(kali㉿kali)-[~]
 └─$ ping -c 4 10.64.165.146
 PING 10.64.165.146 (10.64.165.146) 56(84) bytes of data.
