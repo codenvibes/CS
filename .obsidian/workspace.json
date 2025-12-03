@@ -243,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -413,12 +414,12 @@
       }
     ]
   },
-  "active": "b3f260f3a871cf04",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "TEMPLATES/SECTION BREAK 3※.md",
     "TEMPLATES/SECTION BREAK 5※.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "TEMPLATES/SECTION BREAK 2.md",
     "TEMPLATES/SECTION BREAK 1.md",
     "08 TOOLS/FFUF.md",
