@@ -91,7 +91,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 ##### Stage 2: Enumeration (Network & Port Scanning)
 
-###### Port Scan with Nmap
+###### 1. Port Scan with Nmap
 
 The first step in enumeration is to find out what services are running on the target machine. We'll use **Nmap** for a comprehensive scan of all TCP ports.
 
@@ -166,7 +166,9 @@ Nmap done: 1 IP address (1 host up) scanned in 90.78 seconds
 <br>
 </div>
 
-So we see that port 22 and 80 are open, port 80 means that they have a website hosted but first let's see what other directories and pages are available. 
+###### 2. Enumeration of Web Services (Port 80)
+
+Since **Port 80 (HTTP)** is open, the next logical step is to explore the web server. This typically involves checking the main page and running a **directory brute-forcing tool**.
 
 Command:
 
