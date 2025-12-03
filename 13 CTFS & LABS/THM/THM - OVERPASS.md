@@ -489,6 +489,8 @@ james13          (id_rsa)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
 ```
+
+**Passphrase Discovered:** The passphrase for the encrypted private key is `james13`.
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
@@ -531,6 +533,8 @@ Your Hardware Enablement Stack (HWE) is supported until April 2025.
 Last login: Sat Jun 27 04:45:40 2020 from 192.168.170.1
 james@ip-10-64-165-146:~$
 ```
+
+We're in
 
 ```shell
 james@ip-10-65-152-254:~$ ls
