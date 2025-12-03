@@ -173,6 +173,14 @@ Since **Port 80 (HTTP)** is open, the next logical step is to explore the web se
 Navigated to `http://<TARGET_IP>` in your browser to see the main page.
 
 ![[Pasted image 20251203061345.png]]
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
+
+###### 2. Directory Brute-Forcing with Ffuf
 
 Command:
 
