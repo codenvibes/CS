@@ -47,6 +47,9 @@ Before interacting with the target machine, I first connected to the TryHackMe V
 Command:
 
 `sudo openvpn <myprofile>.ovpn`
+
+Once the VPN initialized successfully, I confirmed the connection by checking for the `Initialization Sequence Completed` message in the terminal.
+
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
