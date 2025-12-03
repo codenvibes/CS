@@ -172,6 +172,8 @@ Since **Port 80 (HTTP)** is open, the next logical step is to explore the web se
 
 Navigated to `http://<TARGET_IP>` in your browser to see the main page.
 
+![[Pasted image 20251203061345.png]]
+
 Command:
 
 `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
