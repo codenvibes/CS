@@ -686,9 +686,7 @@ Set Up the Netcat Listener:
 
 Command: `nc -lvnp 1234`
 
-Create the Malicious Payload:
-
-Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
+Create the Malicious Payload: Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
 ![[Pasted image 20251203150324.png]]
 
@@ -720,6 +718,8 @@ Output:
 └─$ python3 -m http.server 80 
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 ```
+
+Edit the `/etc/hosts` File: 
 
 On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
 
