@@ -688,9 +688,9 @@ Start a **netcat** listener on the attacker machine.
 
 Obtain a revershell payload from revshells.com. Enter the attacker IP, port number and change the payload to Bash -i and shell to /bin/bash as shown below. Copy the payload.
 
-![[Pasted image 20251203142927.png]]
+![[Pasted image 20251203143305.png]]
 
-
+Open a new terminal and create the directory path ./downloads/src/ and the a file called **builtscript.sh** and paste the reverse shell payload.
 
 
 ```shell
