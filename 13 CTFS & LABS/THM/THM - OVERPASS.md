@@ -95,7 +95,7 @@ A successful response confirms that the machine is active and accessible on the 
 
 The first step in enumeration is to find out what services are running on the target machine. We'll use **Nmap** for a comprehensive scan of all TCP ports.
 
-Command: `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
+Command: `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt <TARGET_IP>`
 
 Breakdown:
 - **`nmap`**
