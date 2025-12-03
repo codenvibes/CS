@@ -91,6 +91,8 @@ A successful response confirms that the machine is active and accessible on the 
 
 ##### Stage 2: Enumeration (Network & Port Scanning)
 
+###### Port Scan with Nmap
+
 We’ll first want to check the target for any open ports that we can exploit.
 
 Command: `nmap -sV -sC -A -T4 -p- --min-rate 1000 -oN nmap.txt 10.65.152.254`
