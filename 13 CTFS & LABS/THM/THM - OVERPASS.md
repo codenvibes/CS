@@ -354,6 +354,21 @@ async function login() {
 }
 ```
 
+Breakdown:
+- **`const response = await postData("/api/login", creds)`**
+    - Sends the login credentials via POST to `/api/login`.
+- **`const statusOrCookie = await response.text()`**
+    - Reads the server response as plain text and stores it in `statusOrCookie`.
+- **`if (statusOrCookie === "Incorrect credentials") { ... }`**
+    - If the server returns exactly `"Incorrect credentials"`, the login is considered failed.
+- **`else { Cookies.set("SessionToken", statusOrCookie); window.location = "/admin" }`**
+    - **Critical Vulnerability:**
+        - Any response _other than_ `"Incorrect credentials"` is automatically treated as a _valid session token_.
+        - The text is stored as `SessionToken` in a cookie.
+        - User is redirected to `/admin`, effectively granting admin access regardless of token validity.
+
+
+
 ![[Pasted image 20251202160720.png]]
 
 ```shell
