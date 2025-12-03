@@ -397,6 +397,8 @@ The Key Discovery: Encrypted SSH Private Key.
 ###### 3. Preparation for Cracking the Key
 
 The next step is to decrypt the private key to gain SSH access as the user `James`.
+
+Save the key 
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ vi id_rsa
