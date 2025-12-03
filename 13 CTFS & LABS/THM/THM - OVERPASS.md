@@ -259,7 +259,7 @@ Since the default login failed, I analyzed the application's behavior using my b
 
 ![[Pasted image 20251203064331.png]]
 
-**Action:** View the source code for the login page and clicked on the linked `/login.js` file.
+**Action:** View and inspect the source code for the login page and click on the linked `/login.js` file.
 
 Inspect the page source:
 
