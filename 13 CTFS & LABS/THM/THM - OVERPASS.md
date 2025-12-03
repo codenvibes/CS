@@ -562,7 +562,7 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 
 
 #### Escalate your privileges and get the flag in root.txt
-====
+==thm{7f336f8c359dbac18d54fdd64ea753bb}==
 
 ##### Stage 5: Privilege Escalation (Enumeration)
 
@@ -786,7 +786,20 @@ root
        valid_lft 3079sec preferred_lft 3079sec
     inet6 fe80::85:fcff:fee9:415d/64 scope link 
        valid_lft forever preferred_lft forever
-root@ip-10-66-180-249:~# 
+root@ip-10-66-180-249:~# pwd
+pwd
+/root
+root@ip-10-66-180-249:~# ls
+ls
+buildStatus
+builds
+go
+root.txt
+src
+root@ip-10-66-180-249:~# cat root.txt   
+cat root.txt
+thm{7f336f8c359dbac18d54fdd64ea753bb}
+root@ip-10-66-180-249:~#
 ```
 <div align="center">
 <br>
