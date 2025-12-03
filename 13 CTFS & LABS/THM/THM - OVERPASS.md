@@ -591,7 +591,8 @@ Following the hint in `todo.txt` about an "automated build script," check the sy
 
 Command: `cat /etc/crontab`
 
-Oup
+Output:
+
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/crontab
 # /etc/crontab: system-wide crontab
@@ -611,6 +612,14 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # Update builds from latest code
 * * * * * root curl overpass.thm/downloads/src/buildscript.sh | bash
 ```
+
+Critical Finding in `/etc/crontab`:
+
+```
+# Update builds from latest code
+* * * * * root curl overpass.thm/downloads/src/buildscript.sh | bash
+```
+
 
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
