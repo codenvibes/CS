@@ -605,6 +605,9 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 # Update builds from latest code
 * * * * * root curl overpass.thm/downloads/src/buildscript.sh | bash
+```
+
+```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
 127.0.0.1 localhost
 127.0.1.1 overpass-prod
