@@ -502,6 +502,10 @@ Session completed.
 
 Use the `id_rsa` key file to gain SSH access as the user `James`.
 
+###### 4.1. Analyzing `todo.txt` for Hints
+
+The `todo.txt` file contained several tasks, one of which provided a crucial lead regarding the system's operation and another user.
+
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ ssh -i id_rsa james@10.64.165.146
@@ -535,7 +539,7 @@ james@ip-10-64-165-146:~$
 ```
 
 We're in!
-Tcaacahe user flag is located in the home directory.
+The user flag is located in the home directory.
 
 ```shell
 james@ip-10-65-152-254:~$ ls
