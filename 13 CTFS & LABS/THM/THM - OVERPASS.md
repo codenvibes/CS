@@ -446,7 +446,7 @@ Breakdown:
 - `/usr/share/john/ssh2john.py`  
     A John the Ripper utility that converts SSH private keys into a hash format that John can crack.
 - `id_rsa`  
-    The SSH private key file you found in the machine.
+    The SSH private key file you found.
 - `>`  
     Redirects the output into a new file.
 - `hash`  
