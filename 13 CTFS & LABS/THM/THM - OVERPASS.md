@@ -366,8 +366,14 @@ Breakdown:
         - Any response _other than_ `"Incorrect credentials"` is automatically treated as a _valid session token_.
         - The text is stored as `SessionToken` in a cookie.
         - User is redirected to `/admin`, effectively granting admin access regardless of token validity.
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
-
+###### 2. Exploiting the Login Logic
 
 ![[Pasted image 20251202160720.png]]
 
