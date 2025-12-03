@@ -45,6 +45,8 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 Before interacting with the target machine, I first connected to the TryHackMe VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
 Command:
+
+`sudo openvpn <myprofile>.ovpn`
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
