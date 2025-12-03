@@ -249,6 +249,8 @@ Navigated to `http://<TARGET_IP>/admin` in your browser.
 
 ![[Pasted image 20251202154014.png]]
 
+
+![[Pasted image 20251203062735.png]]
 Inspect the page source:
 
 ```html
