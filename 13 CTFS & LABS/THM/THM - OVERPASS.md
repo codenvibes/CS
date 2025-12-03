@@ -373,7 +373,7 @@ Breakdown:
 <br>
 </div>
 
-###### 2. Exploiting the Login Logic: Cookie Injection Bypass
+###### 3.2. Exploiting the Login Logic: Cookie Injection Bypass
 
 **Action:** To exploit this, manually create a **`SessionToken`** cookie was  into the browser's storage using Developer Tools.
 
@@ -394,7 +394,7 @@ The Key Discovery: Encrypted SSH Private Key.
 <br>
 </div>
 
-###### 3. Prepare and Crack the Key
+###### 3.3. Prepare and Crack the Key
 
 The next step is to decrypt the private key to gain SSH access as the user `James`.
 
