@@ -501,8 +501,8 @@ Session completed.
 The goal now is to use the `id_rsa` key file to gain SSH access as the user `James`.
 
 ```shell
-┌──(kali㉿kali)-[~/ET/THM/Overpass]
-└─$ ssh -i id_rsa james@10.65.152.254
+┌──(kali㉿kali)-[~/CS/THM/Overpass]
+└─$ ssh -i id_rsa james@10.64.165.146
 Enter passphrase for key 'id_rsa': 
 Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-139-generic x86_64)
 
@@ -510,11 +510,11 @@ Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.15.0-139-generic x86_64)
  * Management:     https://landscape.canonical.com
  * Support:        https://ubuntu.com/pro
 
- System information as of Tue Dec  2 14:13:17 UTC 2025
+ System information as of Wed Dec  3 05:02:19 UTC 2025
 
-  System load:  0.0                Processes:             101
+  System load:  0.0                Processes:             102
   Usage of /:   30.7% of 18.53GB   Users logged in:       0
-  Memory usage: 14%                IPv4 address for eth0: 10.65.152.254
+  Memory usage: 14%                IPv4 address for eth0: 10.64.165.146
   Swap usage:   0%
 
 
@@ -529,7 +529,7 @@ https://ubuntu.com/20-04
 Your Hardware Enablement Stack (HWE) is supported until April 2025.
 
 Last login: Sat Jun 27 04:45:40 2020 from 192.168.170.1
-james@ip-10-65-152-254:~$ 
+james@ip-10-64-165-146:~$
 ```
 
 ```shell
