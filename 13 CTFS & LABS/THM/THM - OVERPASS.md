@@ -682,7 +682,12 @@ The key to exploitation is hijacking the domain resolution of `overpass.thm` to 
 
 To exploit this, the attacker machine (Kali) must host the malicious `buildscript.sh` file and listen for the reverse shell connection.
 
-####### Set Up the Netcat Listener
+Set Up the Netcat Listener:
+
+Command: `nc -lvnp 1234`
+
+Create the Malicious Payload:
+
 
 Obtain a revershell payload from [revshells.com](https://www.revshells.com/). Enter the attacker IP, port number and change the payload to your preference and shell to /bin/bash as shown below. Copy the payload.
 
