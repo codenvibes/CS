@@ -712,8 +712,15 @@ Open a new terminal and create the directory path `./downloads/src/` and the a
 
 Start a python **webserver** on **port 80** on the attacker machine.
 
-Command: 
+Command: `python3 -m http.server 80`
 
+Output:
+
+```shell
+
+```
+
+On the target, edit the /etc/hosts file by replacing the IP for the domain overpass.thm to the attacker IP address.
 
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
