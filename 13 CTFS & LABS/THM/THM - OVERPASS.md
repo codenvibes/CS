@@ -535,7 +535,7 @@ james@ip-10-64-165-146:~$
 ```
 
 We're in!
-Once logged into the shell, the user flag i immediately located and read from the home directory.
+The user flag is located in the home directory.
 
 ```shell
 james@ip-10-65-152-254:~$ ls
