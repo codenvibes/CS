@@ -502,6 +502,8 @@ Cracking the Hash: We use the common `rockyou.txt` wordlist for the attack.
 
 ##### Stage 4: Gaining User Access
 
+The goal now is to use the `id_rsa` key file to gain SSH access as the user `James`.
+
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ ssh -i id_rsa james@10.65.152.254
