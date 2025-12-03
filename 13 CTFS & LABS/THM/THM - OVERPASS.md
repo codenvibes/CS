@@ -45,7 +45,12 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 Before interacting with the target machine, I first connected to the TryHackMe VPN using my `.ovpn` configuration file. This establishes a secure tunnel that allows access to the target machine’s internal network.
 
 Command:
-
+<div align="center">
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+<br>
+</div>
 
 We’ll first want to check the target for any open ports that we can exploit.
 
