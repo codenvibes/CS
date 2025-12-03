@@ -726,11 +726,8 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 > When you run `python3 -m http.server 80` from a specific directory (in your case, `~/CS/THM/Overpass`), that directory becomes the **root** (`/`) of your web server. Therefore, the server must be launched from the directory that **contains** the `downloads` folder, allowing the URL path to map correctly:
 > 
 > - **Target Request:** `GET /downloads/src/buildscript.sh HTTP/1.1`
->     
 > - **Server Root (`/`):** `~/CS/THM/Overpass`
->     
 > - **File Served:** `~/CS/THM/Overpass/downloads/src/buildscript.sh`
->     
 > 
 > If you ran the server from your home directory (`~`), the server would look for the file at `~/downloads/src/buildscript.sh`, which is incorrect based on your directory structure.
 
