@@ -690,7 +690,9 @@ Obtain a revershell payload from revshells.com. Enter the attacker IP, port numb
 
 ![[Pasted image 20251203143305.png]]
 
-Open a new terminal and create the directory path ./downloads/src/ and the a file called **builtscript.sh** and paste the reverse shell payload.
+Open a new terminal and create the directory path `./downloads/src/` and the a file called `builtscript.sh` and paste the reverse shell payload.
+
+
 
 
 ```shell
