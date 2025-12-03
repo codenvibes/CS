@@ -688,6 +688,11 @@ Start a **netcat** listener on the attacker machine.
 
 Obtain a revershell payload from revshells.com. Enter the attacker IP, port number and change the payload to Bash -i and shell to /bin/bash as shown below. Copy the payload.
 
+![[Pasted image 20251203142927.png]]
+
+
+
+
 ```shell
 james@ip-10-65-152-254:~$ vi /etc/hosts
 james@ip-10-65-152-254:~$ cat /etc/hosts
