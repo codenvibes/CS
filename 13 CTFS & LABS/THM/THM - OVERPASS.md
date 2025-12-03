@@ -64,7 +64,7 @@ Command:
 
 `ping -c 4 <TARGET_IP>`
 
-A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing me to proceed with the enumeration phase.
+A successful response confirms that the machine is active and accessible on the TryHackMe network, allowing us to proceed with the enumeration phase.
 <div align="center">
 <br>
 ※※※※※※※※※※※※※※※※※※※※※※※※
