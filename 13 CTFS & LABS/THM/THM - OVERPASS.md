@@ -38,7 +38,7 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 #### Hack the machine and get the flag in user.txt
 ==thm{65c1aaf000506e56996822c6281e6bf7}==
 
-##### Recon (Information Gathering)
+##### Stage 1: Recon (Information Gathering)
 
 ###### 1. Connecting to the TryHackMe VPN
 
@@ -88,6 +88,8 @@ A successful response confirms that the machine is active and accessible on the 
 <br>
 <br>
 </div>
+
+##### Stage 2: Enumeration (Network & Port Scanning)
 
 We’ll first want to check the target for any open ports that we can exploit.
 
