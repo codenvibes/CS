@@ -385,6 +385,8 @@ The injection was successful. Upon refreshing, the browser was granted access to
 
 ![[Pasted image 20251202160720.png]]
 
+The Key Discovery: Encrypted SSH Private Key
+
 ```shell
 ┌──(kali㉿kali)-[~/ET/THM/Overpass]
 └─$ vi id_rsa
