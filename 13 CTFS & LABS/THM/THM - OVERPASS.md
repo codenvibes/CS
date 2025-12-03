@@ -261,7 +261,7 @@ Since the default login failed, I analyzed the application's behavior using my b
 
 **Action:** View and inspect the source code for the login page and click on the linked `/login.js` file.
 
-Inspect the page source:
+view-source:http://10.64.165.146/admin/:
 
 ```html
 <!DOCTYPE html>
@@ -306,7 +306,7 @@ Inspect the page source:
 </html>
 ```
 
-Inspect the `login.js` file:
+The `login.js` file contains the logic for the `login()` function, which determines the result of the authentication attempt.:
 
 ```js
 async function postData(url = '', data = {}) {
