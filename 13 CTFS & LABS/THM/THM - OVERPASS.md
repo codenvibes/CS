@@ -502,10 +502,6 @@ Session completed.
 
 Use the `id_rsa` key file to gain SSH access as the user `James`.
 
-###### 4.1. Analyzing `todo.txt` for Hints
-
-The `todo.txt` file contained several tasks, one of which provided a crucial lead regarding the system's operation and another user.
-
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ ssh -i id_rsa james@10.64.165.146
@@ -564,7 +560,9 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 
 With user access established as `James`, the goal is to find a path to the root user.
 
+###### 4.1. Analyzing `todo.txt` for Hints
 
+The `todo.txt` file contains several tasks, one of which provides a crucial lead regarding the system's operation and another user.
 
 ```
 james@ip-10-65-152-254:~$ cat todo.txt 
