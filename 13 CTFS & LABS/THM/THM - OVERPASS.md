@@ -375,6 +375,8 @@ Breakdown:
 
 ###### 2. Exploiting the Login Logic: Cookie Injection Bypass
 
+**Action:** To exploit this, manually create a **`SessionToken`** cookie was  into the browser's storage using Developer Tools.
+
 ![[Pasted image 20251202160720.png]]
 
 ```shell
