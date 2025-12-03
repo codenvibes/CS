@@ -35,12 +35,12 @@ The machine was slightly modified on 2020/09/25. This was only to improve the pe
 
 ### Questions
 
-##### Hack the machine and get the flag in user.txt
+#### Hack the machine and get the flag in user.txt
 ==thm{65c1aaf000506e56996822c6281e6bf7}==
 
-###### Recon (Information Gathering)
+##### Recon (Information Gathering)
 
-As usual connect to the 
+Connecting to the TryHackMe VPN
 
 We’ll first want to check the target for any open ports that we can exploit.
 
@@ -374,7 +374,7 @@ thm{65c1aaf000506e56996822c6281e6bf7}
 <br>
 </div>
 
-##### Escalate your privileges and get the flag in root.txt
+#### Escalate your privileges and get the flag in root.txt
 ====
 
 ```
