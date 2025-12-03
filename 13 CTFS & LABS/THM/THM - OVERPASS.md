@@ -642,7 +642,14 @@ Analysis of the Cron Job:
 <br>
 </div>
 
-###### 4.3. Hunting for Automated Scripts/Files
+###### 4.3. The Command Injection Vulnerability
+
+The vulnerability lies in the command structure:
+1. The system uses **`overpass.thm`** to find the file.
+2. The target machine resolves this hostname using the local **`/etc/hosts`** file or DNS.
+3. Since the job runs as `root`, if we can control what the system resolves `overpass.thm` to, we can control what script is downloaded and executed as `root`.
+
+
 ```shell
 james@ip-10-65-152-254:~$ cat /etc/hosts
 127.0.0.1 localhost
