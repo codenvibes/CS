@@ -438,15 +438,18 @@ ylqilOgj4+yiS813kNTjCJOwKRsXg2jKbnRa8b7dSRz7aDZVLpJnEy9bhn6a7WtS
 -----END RSA PRIVATE KEY-----
 ```
 
-Generate a Hash for Cracking: The key is encrypted, requiring a passphrase. We will use `ssh2john` to convert the encrypted key into a hash format that John the Ripper can crack.
+Convert the SSH private key into a John-the-Ripper–readable hash
 
+Co
 ```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ locate ssh2john
 /usr/bin/ssh2john
 /usr/share/john/ssh2john.py
 /usr/share/john/__pycache__/ssh2john.cpython-313.pyc
+```
 
+```shell
 ┌──(kali㉿kali)-[~/CS/THM/Overpass]
 └─$ /usr/share/john/ssh2john.py id_rsa > hash
 
