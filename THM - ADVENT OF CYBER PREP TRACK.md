@@ -623,6 +623,26 @@ Log into the router and secure it with a strong new password.
 <div style="page-break-after: always;"></div>
 
 ## Task 12. Challenge 8 — The App Trap
+
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127690848.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### The App Trap
+
+McSkidy’s social account has gone rogue, posting strange messages about “EASTMAS.” A suspicious third party app may be behind it.
+
+Learning to review and manage app permissions helps stop data leaks before they start.
+
+**Objective:**  
+Find and remove the malicious connected app.
+
+**Steps:**
+1. Review the list of connected apps.
+2. Look for one with unusual permissions (like “password vault” access).
+3. Click “Revoke Access.”
 <div>
 <br>
 <br>
