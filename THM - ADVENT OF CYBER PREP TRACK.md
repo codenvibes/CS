@@ -6,23 +6,23 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 ---
 ## Summary
 
-| SECTION/TASK                                       | FLAG                |
-| -------------------------------------------------- | ------------------- |
-| Task 1. Welcome to Advent of Cyber 2025            | No answer needed    |
-| Task 2. How to use TryHackMe                       | No answer needed    |
-| Task 3. Join our community                         | No answer needed    |
-| Task 4. Introduction                               | No answer needed    |
-| Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}     |
-| Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}     |
-| Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}     |
-| Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy} |
-| Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}   |
-| Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound} |
-| Task 11. Challenge 7 — WiFi Woes in Wareville      | THM{NoMoreDefault}  |
-| Task 12. Challenge 8 — The App Trap                | THM{AppTrapped}     |
-| Task 13. Challenge 9 — The Chatbot Confession      | THM{DontFeedTheBot} |
-| Task 14. Challenge 10 — The Bunny’s Browser Trail  |                     |
-| Task 15. The Finish Line                           |                     |
+| SECTION/TASK                                       | FLAG                 |
+| -------------------------------------------------- | -------------------- |
+| Task 1. Welcome to Advent of Cyber 2025            | No answer needed     |
+| Task 2. How to use TryHackMe                       | No answer needed     |
+| Task 3. Join our community                         | No answer needed     |
+| Task 4. Introduction                               | No answer needed     |
+| Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}      |
+| Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}      |
+| Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}      |
+| Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy}  |
+| Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}    |
+| Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound}  |
+| Task 11. Challenge 7 — WiFi Woes in Wareville      | THM{NoMoreDefault}   |
+| Task 12. Challenge 8 — The App Trap                | THM{AppTrapped}      |
+| Task 13. Challenge 9 — The Chatbot Confession      | THM{DontFeedTheBot}  |
+| Task 14. Challenge 10 — The Bunny’s Browser Trail  | THM{EastmasIsComing} |
+| Task 15. The Finish Line                           | No answer needed     |
 
 <div align="center">
 <br>
@@ -764,7 +764,7 @@ Sounds like fun? It is! And you can wait for the fun to begin at this year's **
 ### Questions
 
 ##### Bring on Advent of Cyber 2025!
-==Answer==
+==No answer needed==
 <div align="center">
 <br>
 <br>
