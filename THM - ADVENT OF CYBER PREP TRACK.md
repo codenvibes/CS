@@ -20,7 +20,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound} |
 | Task 11. Challenge 7 — WiFi Woes in Wareville      | THM{NoMoreDefault}  |
 | Task 12. Challenge 8 — The App Trap                | THM{AppTrapped}     |
-| Task 13. Challenge 9 — The Chatbot Confession      |                     |
+| Task 13. Challenge 9 — The Chatbot Confession      | THM{DontFeedTheBot} |
 | Task 14. Challenge 10 — The Bunny’s Browser Trail  |                     |
 | Task 15. The Finish Line                           |                     |
 
@@ -691,7 +691,7 @@ Identify which chatbot messages contain sensitive information.
 ### Questions
 
 ##### What's the flag?
-==Answer==
+==THM{DontFeedTheBot}==
 <div align="center">
 <br>
 <br>
@@ -702,6 +702,7 @@ Identify which chatbot messages contain sensitive information.
 <div style="page-break-after: always;"></div>
 
 ## Task 14. Challenge 10 — The Bunny’s Browser Trail
+
 <div align="center">
 <br>
 <br>
