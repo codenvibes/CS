@@ -10,7 +10,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | -------------------------------------------------- | ---------------- |
 | Task 1. Welcome to Advent of Cyber 2025            | No answer needed |
 | Task 2. How to use TryHackMe                       | No answer needed |
-| Task 3. Join our community                         |                  |
+| Task 3. Join our community                         | No answer needed |
 | Task 4. Introduction                               |                  |
 | Task 5. Challenge 1 — Password Pandemonium         |                  |
 | Task 6. Challenge 2 — The Suspicious Chocolate.exe |                  |
@@ -289,8 +289,8 @@ Want to rep swag from your favourite cyber security training platform? We have a
 
 ### Questions
 
-##### 
-==Answer==
+##### Got it!
+==No answer needed==
 <div align="center">
 <br>
 <br>
