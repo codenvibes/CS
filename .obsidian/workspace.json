@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "THM - ADVENT OF CYBER PREP TRACK.md",
+                "file": "WHITE-BOARD/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - ADVENT OF CYBER PREP TRACK"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -359,14 +359,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9da75676d79083ea",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "THM - ADVENT OF CYBER PREP TRACK.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "TEMPLATES/SECTION BREAK 3※.md",
     "TEMPLATES/SECTION BREAK 5※.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
     "Pasted image 20251203142927.png",
