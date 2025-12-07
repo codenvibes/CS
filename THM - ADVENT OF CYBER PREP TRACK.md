@@ -404,11 +404,8 @@ Checking suspicious files is a crucial skill for every defender.
 Determine if `chocolate.exe` is safe or infected.
 
 **Steps:**
-
 1. Click the “Scan” Button.
-    
 2. Review the scan report (49 clean results, 1 malicious).
-    
 3. Decide correctly whether the file is safe or dangerous.
 <div>
 <br>
