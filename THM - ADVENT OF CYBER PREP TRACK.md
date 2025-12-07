@@ -238,14 +238,13 @@ We provide this as some users might prefer to connect directly. However, please 
 ### Join our community
 
 Follow us on social media for exclusive giveaways, Advent of Cyber rooms releases, and your weekly missions! 
-
-|   |   |   |
-|---|---|---|
-|[![](https://assets.tryhackme.com/additional/socials/LinkedIn.png)](https://www.linkedin.com/company/tryhackme/)<br><br>Follow us on [LinkedIn](https://www.linkedin.com/company/tryhackme/)!|[![](https://assets.tryhackme.com/additional/socials/Discord.png)](https://discord.gg/tryhackme)  <br><br>Be a part of our community and join our [Discord](https://discord.gg/tryhackme)!|![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/62c435d1f4d84a005f5df811-1731073939543.png)<br><br>Follow us on [X](https://x.com/tryhackme) to receive daily challenge posts!|
-
-|                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                    |                                                                                                                                                                                  |                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/7acc4c807bc9879c9643d0daf597414e.png)](https://www.instagram.com/realtryhackme/)<br><br>Join us on [Instagram](https://www.instagram.com/realtryhackme/)! | ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/ee16ec1cbabf90bae641262c32fd9dcf.png)<br><br>Follow us on [Facebook](https://www.facebook.com/people/Tryhackme/100069557747714/)! | [![](https://assets.tryhackme.com/additional/socials/Reddit.png)](https://www.reddit.com/r/tryhackme/)<br><br>Join our growing [subreddit](https://www.reddit.com/r/tryhackme/)! | [![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/62c435d1f4d84a005f5df811-1730296167133.png)](https://www.tiktok.com/@tryhackmeofficial)<br><br>Follow our [TikTok](https://www.tiktok.com/@tryhackmeofficial)! |
+Follow us on [LinkedIn](https://www.linkedin.com/company/tryhackme/)!
+Be a part of our community and join our [Discord](https://discord.gg/tryhackme)!
+Follow us on [X](https://x.com/tryhackme) to receive daily challenge posts!
+Join us on [Instagram](https://www.instagram.com/realtryhackme/)!
+Follow us on [Facebook](https://www.facebook.com/people/Tryhackme/100069557747714/)!
+Join our growing [subreddit](https://www.reddit.com/r/tryhackme/)!
+Follow our [TikTok](https://www.tiktok.com/@tryhackmeofficial)!
 
 ### Join our Discord
 
