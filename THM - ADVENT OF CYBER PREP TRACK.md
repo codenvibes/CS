@@ -245,6 +245,10 @@ Join us on [Instagram](https://www.instagram.com/realtryhackme/)!
 Follow us on [Facebook](https://www.facebook.com/people/Tryhackme/100069557747714/)!
 Join our growing [subreddit](https://www.reddit.com/r/tryhackme/)!
 Follow our [TikTok](https://www.tiktok.com/@tryhackmeofficial)!
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Join our Discord
 
@@ -253,6 +257,10 @@ Discord is the heartbeat of the TryHackMe community. It's where we go to connect
 Are you excited about Advent of Cyber? Visit a dedicated channel on our Discord, where you can chat with other participants in the event and follow the daily releases!
 
 If you haven't used it before, it's very easy to set up (we recommend installing the app). We'll ask a couple of onboarding questions to help figure out which channels are most relevant to you.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### What do you get with Discord?
 
@@ -264,6 +272,10 @@ There are so many benefits to joining:
 - Browse discussion forums for all of our learning paths and releases.
 
 Click on this link to join our Discord Server: [Join the Community!](https://discord.gg/tryhackme)
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Grab your swag!
 
