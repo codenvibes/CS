@@ -303,16 +303,24 @@ Want to rep swag from your favourite cyber security training platform? We have a
 ## Task 4. Introduction
 
 ## ![Task Banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127196610.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## Let's Get Warmed Up
+### Let's Get Warmed Up
 
 The snow has started falling in **Wareville**, home of _The Best Festival Company (TBFC)_. The team is preparing for SOCMAS, the annual cyber celebration, but something’s not right. Systems are glitching, passwords are failing, and McSkidy suspects something is afoot. This name keeps coming up: **King Malhare**. What could it mean?
 
 Before joining the **SOCMAS Response Team**, you can complete **10 short missions** to ensure you are ready. Each one teaches an essential cyber security skill and uncovers clues to help get you ready for Advent of Cyber 2025.
 
 ![McSkidy warming her hands by a fire](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127196624.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## How it Works
+### How it Works
 
 To start each challenge, click the **“View Site”** button in the top-right corner of the task page. You’ll need to press this button **again for every new task**, as each one loads its own challenge site. Once clicked, the room will open in a **split-screen view**, letting you follow the instructions on the left while interacting with the challenge on the right. This is where you’ll complete all of our interactive challenges to get you ready for this year's event!
 <div>
