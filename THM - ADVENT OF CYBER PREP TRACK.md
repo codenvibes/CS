@@ -155,6 +155,15 @@ This year's Advent of Cyber featured creators include John Hammond, 0day, UnixGu
 <div style="page-break-after: always;"></div>
 
 ## Task 2. How to use TryHackMe
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
