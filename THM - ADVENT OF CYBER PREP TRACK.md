@@ -6,23 +6,23 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 ---
 ## Summary
 
-| SECTION/TASK                                       | FLAG             |
-| -------------------------------------------------- | ---------------- |
-| Task 1. Welcome to Advent of Cyber 2025            | No answer needed |
-| Task 2. How to use TryHackMe                       | No answer needed |
-| Task 3. Join our community                         | No answer needed |
-| Task 4. Introduction                               | No answer needed |
-| Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}  |
-| Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}  |
-| Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}  |
-| Task 8. Challenge 4 — The CMD Conundrum            |                  |
-| Task 9. Challenge 5 — Linux Lore                   |                  |
-| Task 10. Challenge 6 — The Leak in the List        |                  |
-| Task 11. Challenge 7 — WiFi Woes in Wareville      |                  |
-| Task 12. Challenge 8 — The App Trap                |                  |
-| Task 13. Challenge 9 — The Chatbot Confession      |                  |
-| Task 14. Challenge 10 — The Bunny’s Browser Trail  |                  |
-| Task 15. The Finish Line                           |                  |
+| SECTION/TASK                                       | FLAG                |
+| -------------------------------------------------- | ------------------- |
+| Task 1. Welcome to Advent of Cyber 2025            | No answer needed    |
+| Task 2. How to use TryHackMe                       | No answer needed    |
+| Task 3. Join our community                         | No answer needed    |
+| Task 4. Introduction                               | No answer needed    |
+| Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}     |
+| Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}     |
+| Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}     |
+| Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy} |
+| Task 9. Challenge 5 — Linux Lore                   |                     |
+| Task 10. Challenge 6 — The Leak in the List        |                     |
+| Task 11. Challenge 7 — WiFi Woes in Wareville      |                     |
+| Task 12. Challenge 8 — The App Trap                |                     |
+| Task 13. Challenge 9 — The Chatbot Confession      |                     |
+| Task 14. Challenge 10 — The Bunny’s Browser Trail  |                     |
+| Task 15. The Finish Line                           |                     |
 
 <div align="center">
 <br>
@@ -494,7 +494,7 @@ Find the hidden flag file using Windows commands.
 ### Questions
 
 ##### What's the flag?
-==Answer==
+==THM{WhereIsMcSkidy}==
 <div align="center">
 <br>
 <br>
@@ -505,6 +505,17 @@ Find the hidden flag file using Windows commands.
 <div style="page-break-after: always;"></div>
 
 ## Task 9. Challenge 5 — Linux Lore
+
+THM{WhereIsMcSkidy}
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
