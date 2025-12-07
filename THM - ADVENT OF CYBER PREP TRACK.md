@@ -584,6 +584,35 @@ Check if McSkidy’s email has appeared in a breach.
 <div style="page-break-after: always;"></div>
 
 ## Task 11. Challenge 7 — WiFi Woes in Wareville
+
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127645725.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### WiFi Woes in Wareville
+
+The TBFC drones are looping endlessly over Wareville Square. Someone logged into the company router using default credentials!
+
+Securing WiFi is critical. Default passwords are like leaving the front gate wide open.
+
+**Objective:**  
+Log into the router and secure it with a strong new password.
+
+**Steps:**
+1. Log in with username `admin` and password `admin`.
+2. Go to “Security Settings.”
+3. Set a new strong password that passes validation.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### THM{LeakedAndFound}
+==Answer==
 <div align="center">
 <br>
 <br>
