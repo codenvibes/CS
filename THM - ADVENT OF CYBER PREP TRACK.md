@@ -18,7 +18,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy} |
 | Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}   |
 | Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound} |
-| Task 11. Challenge 7 — WiFi Woes in Wareville      |                     |
+| Task 11. Challenge 7 — WiFi Woes in Wareville      | THM{NoMoreDefault}  |
 | Task 12. Challenge 8 — The App Trap                |                     |
 | Task 13. Challenge 9 — The Chatbot Confession      |                     |
 | Task 14. Challenge 10 — The Bunny’s Browser Trail  |                     |
@@ -612,7 +612,7 @@ Log into the router and secure it with a strong new password.
 ### Questions
 
 ##### THM{LeakedAndFound}
-==Answer==
+==THM{NoMoreDefault}==
 <div align="center">
 <br>
 <br>
@@ -623,6 +623,15 @@ Log into the router and secure it with a strong new password.
 <div style="page-break-after: always;"></div>
 
 ## Task 12. Challenge 8 — The App Trap
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
