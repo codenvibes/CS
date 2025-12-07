@@ -426,6 +426,38 @@ Determine if `chocolate.exe` is safe or infected.
 <div style="page-break-after: always;"></div>
 
 ## Task 7. Challenge 3 — Welcome to the AttackBox!
+
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127385113.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### Welcome to the AttackBox!
+
+You step into TBFC’s **AttackBox**, a secure virtual environment built for training. The system hums quietly, waiting for your first command.
+
+This is where defenders learn, break, and rebuild safely. Getting comfortable with the command line is your first step toward cyber mastery.
+
+**Objective:**  
+Find and read the hidden welcome message inside your AttackBox.
+
+**Steps:**
+
+1. Use `ls` to list files.
+    
+2. Use `cd challenges/` to change directories.
+    
+3. Use `cat welcome.txt` to read the text file.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### What's the flag?
+==Answer==
 <div align="center">
 <br>
 <br>
