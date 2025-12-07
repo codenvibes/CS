@@ -155,35 +155,21 @@
                 }
               },
               {
-                "id": "556e51c855c28fa9",
+                "id": "9da75676d79083ea",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "TEMPLATES/SECTION BREAK 5※.md",
+                    "file": "Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SECTION BREAK 5※"
-                }
-              },
-              {
-                "id": "3dabc4a04d07c430",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "TEMPLATES/SECTION BREAK 3※.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "SECTION BREAK 3※"
+                  "title": "Untitled"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -374,9 +360,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
+    "Untitled.md",
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
+    "TEMPLATES/SECTION BREAK 3※.md",
+    "TEMPLATES/SECTION BREAK 5※.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
@@ -385,15 +375,12 @@
     "ASSETS/Pasted image 20251203062833.png",
     "ASSETS/Pasted image 20251203062735.png",
     "ASSETS/Pasted image 20251203061345.png",
-    "TEMPLATES/SECTION BREAK 3※.md",
-    "TEMPLATES/SECTION BREAK 5※.md",
     "TEMPLATES/SECTION BREAK 2.md",
     "TEMPLATES/SECTION BREAK 1.md",
     "08 TOOLS/FFUF.md",
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "Pasted image 20251202153841.png",
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "13 CTFS & LABS/THM/THM - FOWSNIFF CTF.md",
     "TEMPLATES/QUESTIONS.md",
     "TEMPLATES/Section Break.md",
