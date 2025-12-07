@@ -12,8 +12,8 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 2. How to use TryHackMe                       | No answer needed |
 | Task 3. Join our community                         | No answer needed |
 | Task 4. Introduction                               | No answer needed |
-| Task 5. Challenge 1 — Password Pandemonium         |                  |
-| Task 6. Challenge 2 — The Suspicious Chocolate.exe |                  |
+| Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}  |
+| Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}  |
 | Task 7. Challenge 3 — Welcome to the AttackBox!    |                  |
 | Task 8. Challenge 4 — The CMD Conundrum            |                  |
 | Task 9. Challenge 5 — Linux Lore                   |                  |
@@ -414,8 +414,8 @@ Determine if `chocolate.exe` is safe or infected.
 
 ### Questions
 
-##### 
-==Answer==
+##### THM{NotSoSweet}
+==THM{NotSoSweet}==
 <div align="center">
 <br>
 <br>
