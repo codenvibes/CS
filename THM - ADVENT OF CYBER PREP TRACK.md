@@ -732,7 +732,7 @@ Find the unusual User Agent in the HTTP log.
 
 ### Questions
 
-##### 
+##### What's the flag?
 ==Answer==
 <div align="center">
 <br>
