@@ -546,8 +546,12 @@ Locate McSkidy’s hidden message in his Linux home directory.
 ## Task 10. Challenge 6 — The Leak in the List
 
  ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127586717.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## The Leak in the List
+### The Leak in the List
 
 Rumours swirl that TBFC’s data has been leaked. Emails are bouncing, and the staff are panicking.  
 McSkidy suspects his account might have been part of a breach.
@@ -558,11 +562,8 @@ Defenders often use tools like **Have I Been Pwned** to check for compromised 
 Check if McSkidy’s email has appeared in a breach.
 
 **Steps:**
-
 1. Enter `mcskidy@tbfc.com` into the breach checker.
-    
 2. Review results for each domain.
-    
 3. Identify the one marked “Compromised.”
 <div>
 <br>
