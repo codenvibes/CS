@@ -14,7 +14,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 4. Introduction                               | No answer needed |
 | Task 5. Challenge 1 — Password Pandemonium         | THM{NotSoSweet}  |
 | Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}  |
-| Task 7. Challenge 3 — Welcome to the AttackBox!    |                  |
+| Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}  |
 | Task 8. Challenge 4 — The CMD Conundrum            |                  |
 | Task 9. Challenge 5 — Linux Lore                   |                  |
 | Task 10. Challenge 6 — The Leak in the List        |                  |
@@ -454,7 +454,7 @@ Find and read the hidden welcome message inside your AttackBox.
 ### Questions
 
 ##### What's the flag?
-==Answer==
+==THM{Ready2Hack}==
 <div align="center">
 <br>
 <br>
