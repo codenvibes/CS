@@ -374,7 +374,7 @@ Create a password that passes all system checks and isn’t found in the leaked 
 ### Questions
 
 ##### What's the flag?
-==Answer==
+==THM{StrongStart}==
 <div align="center">
 <br>
 <br>
@@ -385,6 +385,40 @@ Create a password that passes all system checks and isn’t found in the leaked 
 <div style="page-break-after: always;"></div>
 
 ## Task 6. Challenge 2 — The Suspicious Chocolate.exe
+
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127337148.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### The Suspicious Chocolate.exe
+
+A shiny USB labelled **“SOCMAS Party Playlist”** appears on your desk. Inside is a mysterious file called `chocolate.exe`.  
+It looks festive, but who sent it?
+
+In this challenge, you’ll scan the file using a simulated VirusTotal tool to decide whether it’s safe or malicious.  
+Checking suspicious files is a crucial skill for every defender.
+
+**Objective:**  
+Determine if `chocolate.exe` is safe or infected.
+
+**Steps:**
+
+1. Click the “Scan” Button.
+    
+2. Review the scan report (49 clean results, 1 malicious).
+    
+3. Decide correctly whether the file is safe or dangerous.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
