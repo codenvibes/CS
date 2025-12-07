@@ -344,8 +344,12 @@ To start each challenge, click the **“View Site”** button in the top-right
 ## Task 5. Challenge 1 — Password Pandemonium
 
  ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127292315.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## Password Pandemonium
+### Password Pandemonium
 
 As you log into your new TBFC workstation, an alert pops up:
 
@@ -359,11 +363,8 @@ Strong passwords are one of the simplest yet most effective defences against cyb
 Create a password that passes all system checks and isn’t found in the leaked password list.
 
 **Steps:**
-
 1. Enter a password with at least 12 characters.
-    
 2. Include uppercase, lowercase, numbers, and symbols.
-    
 3. Ensure it isn’t in the breach database.
 <div>
 <br>
