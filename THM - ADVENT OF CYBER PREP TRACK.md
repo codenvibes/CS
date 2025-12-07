@@ -650,7 +650,7 @@ Find and remove the malicious connected app.
 
 ### Questions
 
-##### 
+##### What's the flag?
 ==Answer==
 <div align="center">
 <br>
