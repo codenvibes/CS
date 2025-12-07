@@ -302,7 +302,7 @@ Want to rep swag from your favourite cyber security training platform? We have a
 
 ## Task 4. Introduction
 
-## ![Task Banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127196610.png)
+![Task Banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127196610.png)
 <div align="center">
 <br>
 <br>
