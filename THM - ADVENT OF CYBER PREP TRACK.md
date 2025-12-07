@@ -663,9 +663,13 @@ Find and remove the malicious connected app.
 
 ## Task 13. Challenge 9 — The Chatbot Confession
 
-				 ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127752452.png)
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127752452.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## The Chatbot Confession
+### The Chatbot Confession
 
 TBFC’s AI assistant, **FestiveBot**, was meant to help write cheerful emails, but it’s been spilling secrets.  
 Some messages reveal internal URLs and even passwords.
@@ -676,11 +680,8 @@ AI tools can be powerful, but defenders must know how to prevent them from over
 Identify which chatbot messages contain sensitive information.
 
 **Steps:**
-
 1. Read each line of the conversation.
-    
 2. Select the ones containing private data.
-    
 3. Submit your findings.
 <div>
 <br>
