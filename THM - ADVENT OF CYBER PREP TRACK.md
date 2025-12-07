@@ -19,7 +19,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}   |
 | Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound} |
 | Task 11. Challenge 7 — WiFi Woes in Wareville      | THM{NoMoreDefault}  |
-| Task 12. Challenge 8 — The App Trap                |                     |
+| Task 12. Challenge 8 — The App Trap                | THM{AppTrapped}     |
 | Task 13. Challenge 9 — The Chatbot Confession      |                     |
 | Task 14. Challenge 10 — The Bunny’s Browser Trail  |                     |
 | Task 15. The Finish Line                           |                     |
@@ -651,7 +651,7 @@ Find and remove the malicious connected app.
 ### Questions
 
 ##### What's the flag?
-==Answer==
+==THM{AppTrapped}==
 <div align="center">
 <br>
 <br>
@@ -662,6 +662,35 @@ Find and remove the malicious connected app.
 <div style="page-break-after: always;"></div>
 
 ## Task 13. Challenge 9 — The Chatbot Confession
+
+				 ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127752452.png)
+
+## The Chatbot Confession
+
+TBFC’s AI assistant, **FestiveBot**, was meant to help write cheerful emails, but it’s been spilling secrets.  
+Some messages reveal internal URLs and even passwords.
+
+AI tools can be powerful, but defenders must know how to prevent them from oversharing.
+
+**Objective:**  
+Identify which chatbot messages contain sensitive information.
+
+**Steps:**
+
+1. Read each line of the conversation.
+    
+2. Select the ones containing private data.
+    
+3. Submit your findings.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
