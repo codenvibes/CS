@@ -11,7 +11,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 1. Welcome to Advent of Cyber 2025            | No answer needed |
 | Task 2. How to use TryHackMe                       | No answer needed |
 | Task 3. Join our community                         | No answer needed |
-| Task 4. Introduction                               |                  |
+| Task 4. Introduction                               | No answer needed |
 | Task 5. Challenge 1 — Password Pandemonium         |                  |
 | Task 6. Challenge 2 — The Suspicious Chocolate.exe |                  |
 | Task 7. Challenge 3 — Welcome to the AttackBox!    |                  |
@@ -330,8 +330,8 @@ To start each challenge, click the **“View Site”** button in the top-right
 
 ### Questions
 
-##### 
-==Answer==
+##### Warm me up!
+==No answer needed==
 <div align="center">
 <br>
 <br>
