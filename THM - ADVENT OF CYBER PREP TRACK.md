@@ -155,6 +155,66 @@ This year's Advent of Cyber featured creators include John Hammond, 0day, UnixGu
 <div style="page-break-after: always;"></div>
 
 ## Task 2. How to use TryHackMe
+
+### A short TryHackMe tutorial
+
+New tasks are released daily at 4pm GMT, with the first challenge being released on 1st December all aimed at beginners. Each task in the event will include instructions on how to interact with the practical material. Please follow them carefully! The instructions will include a connection card similar to the one shown below:
+
+![connection card](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763550621401.png)
+
+Let's work our way through the different options.
+
+**If the AttackBox option is available:**
+
+TryHackMe's AttackBox is **an Ubuntu Virtual Machine hosted in the cloud**. Think of the AttackBox as your virtual computer, which you would use to conduct a security engagement. There will be multiple tasks during the event that will ask you to deploy the AttackBox.
+
+You can deploy the AttackBox by clicking the "Start AttackBox" button at the top of this page.
+
+![Start Attackbox button](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763551029856.png)
+
+Using the web-based AttackBox, you can complete exercises through your browser. If you're a regular user, you can deploy the AttackBox **for free for 1 hour a day.** If you're [subscribed](https://tryhackme.com/why-subscribe), you can deploy it for an unlimited amount of time!
+
+Please note that you can use your own attacker machine instead of the AttackBox. In that case, you will need to connect using OpenVPN. Instructions on how to set up OpenVPN are [here](https://help.tryhackme.com/en/collections/3664918-openvpn-guide).
+
+You can open the AttackBox full-screen view in a new tab using this button:
+
+![The full screen button is located in the bottom left corner of the split screen window](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/60909fb1f01099ca375e787ddc48789e.png)
+
+**If the VM option is available:**
+
+Most tasks in Advent of Cyber will have a virtual machine attached to them. You will use some of them as targets to train your offensive security skills and some of them as hosts for your analysis and investigations. If this option is available, you need to click the "Start Machine" button.
+
+![Start machine button](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763551072512.png)
+
+After the machine is deployed, you will see a frame appear at the top of the room. It will display some important information, like the IP address of the target machine, as well as options to extend the machine's timer or terminate it.
+
+![Active machine information](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763551112625.png)
+
+**If the split-screen option is available:**
+
+Some tasks will allow you to view your deployed VM in a split-screen view. Typically, if this option is enabled, the split screen will open automatically. If it doesn't, you can click this button at the top of the page for the split screen to open.
+
+![Show split view button](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763551146629.png)
+
+Please note that you can open split-screen virtual machines in another tab using this button:
+
+![The full screen button is located in the bottom left corner of the split screen window](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/38e87a57b989140607a374e7ee487f81.png)
+
+**If there's a direct link available:**
+
+Some virtual machines allow you to view the necessary content directly in another tab on your browser. In this case, you'll be able to see a link to the virtual machine directly in the task content.
+
+![](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/b0a5b7d20824326444979a77ff269b33.png)
+
+Please note that for the link to work, you first need to deploy the virtual machine attached to the task.
+
+**If there is a direct connection option available:**
+
+Some tasks will allow you to connect to the virtual machines attached using RDP, SSH, or VNC. This is always optional, and virtual machines with this enabled will also be accessible via a split screen. In these cases, login credentials will be provided, like in the image below:
+
+![Credentials](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763551178426.png)
+
+We provide this as some users might prefer to connect directly. However, please note that some tasks will deliberately have this option disabled. If no credentials are given, direct connection is not possible. Now that the admin is out of the way, are you ready to get warmed up for this year's event?
 <div>
 <br>
 <br>
