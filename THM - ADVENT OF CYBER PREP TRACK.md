@@ -493,7 +493,7 @@ Find the hidden flag file using Windows commands.
 
 ### Questions
 
-##### 
+##### What's the flag?
 ==Answer==
 <div align="center">
 <br>
