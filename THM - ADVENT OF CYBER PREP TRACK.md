@@ -703,6 +703,37 @@ Identify which chatbot messages contain sensitive information.
 
 ## Task 14. Challenge 10 — The Bunny’s Browser Trail
 
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127781498.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### The Bunny’s Browser Trail
+
+SOCMAS web servers are showing heavy traffic, but one log entry stands out:
+
+“_User Agent: BunnyOS/1.0 (HopSecBot)_”
+
+Someone or something has infiltrated the system.  
+User Agent strings help defenders spot automated or suspicious visitors in network logs.
+
+**Objective:**  
+Find the unusual User Agent in the HTTP log.
+
+**Steps:**
+1. Read the provided web log entries.
+2. Compare them to common browsers (Chrome, Firefox, Edge).
+3. Identify and select the suspicious entry.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
