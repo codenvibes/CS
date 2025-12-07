@@ -506,7 +506,25 @@ Find the hidden flag file using Windows commands.
 
 ## Task 9. Challenge 5 — Linux Lore
 
-THM{WhereIsMcSkidy}
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127544173.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### Linux Lore
+
+TBFC’s delivery drones are glitching, dropping eggs instead of presents! McSkidy’s last login came from a Linux server, and something in his account might explain why.
+
+Linux powers most servers worldwide, and knowing how to search within it is a must for any defender.
+
+**Objective:**  
+Locate McSkidy’s hidden message in his Linux home directory.
+
+**Steps:**
+1. Use `cd /home/mcskidy/` to enter his folder.
+2. Run `ls -la` to show all files.
+3. Use `cat .secret_message` to reveal the flag.
 <div>
 <br>
 <br>
