@@ -353,7 +353,7 @@ To start each challenge, click the **“View Site”** button in the top-right
 
 As you log into your new TBFC workstation, an alert pops up:
 
-> “_Weak passwords detected on 73 TBFC accounts!_”
+“_Weak passwords detected on 73 TBFC accounts!_”
 
 Even McSkidy’s password, `P@ssw0rd123`, has been flagged. Before gaining full access, you’ll need to prove your password prowess.
 
