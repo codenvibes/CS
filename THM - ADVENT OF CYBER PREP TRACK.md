@@ -443,11 +443,8 @@ This is where defenders learn, break, and rebuild safely. Getting comfortable wi
 Find and read the hidden welcome message inside your AttackBox.
 
 **Steps:**
-
 1. Use `ls` to list files.
-    
 2. Use `cd challenges/` to change directories.
-    
 3. Use `cat welcome.txt` to read the text file.
 <div>
 <br>
