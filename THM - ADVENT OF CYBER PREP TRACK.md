@@ -16,7 +16,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 6. Challenge 2 — The Suspicious Chocolate.exe | THM{NotSoSweet}     |
 | Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}     |
 | Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy} |
-| Task 9. Challenge 5 — Linux Lore                   |                     |
+| Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}   |
 | Task 10. Challenge 6 — The Leak in the List        |                     |
 | Task 11. Challenge 7 — WiFi Woes in Wareville      |                     |
 | Task 12. Challenge 8 — The App Trap                |                     |
@@ -533,7 +533,7 @@ Locate McSkidy’s hidden message in his Linux home directory.
 ### Questions
 
 ##### 
-==Answer==
+==THM{TrustNoBunny}==
 <div align="center">
 <br>
 <br>
