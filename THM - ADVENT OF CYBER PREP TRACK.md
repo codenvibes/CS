@@ -17,7 +17,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | Task 7. Challenge 3 — Welcome to the AttackBox!    | THM{Ready2Hack}     |
 | Task 8. Challenge 4 — The CMD Conundrum            | THM{WhereIsMcSkidy} |
 | Task 9. Challenge 5 — Linux Lore                   | THM{TrustNoBunny}   |
-| Task 10. Challenge 6 — The Leak in the List        |                     |
+| Task 10. Challenge 6 — The Leak in the List        | THM{LeakedAndFound} |
 | Task 11. Challenge 7 — WiFi Woes in Wareville      |                     |
 | Task 12. Challenge 8 — The App Trap                |                     |
 | Task 13. Challenge 9 — The Chatbot Confession      |                     |
@@ -572,7 +572,7 @@ Check if McSkidy’s email has appeared in a breach.
 
 ### Questions
 
-##### 
+##### What's the flag?
 ==THM{LeakedAndFound}==
 <div align="center">
 <br>
