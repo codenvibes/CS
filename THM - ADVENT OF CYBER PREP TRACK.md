@@ -22,6 +22,10 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 ## Task 1. Welcome to Advent of Cyber 2025
 
 ![AoC 2025 banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/651d23c7c110975d027a644a/room-content/651d23c7c110975d027a644a-1763551803320.png)
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Welcome to Advent of Cyber 2025!
 
@@ -30,6 +34,10 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 Dive into the wonderful world of cyber security by engaging in festive beginner-friendly challenges every day in the lead-up to Christmas!
 
 Advent of Cyber is available to all TryHackMe users, and best of all, it's free to participate in. You’ll also be in with the chance of winning from this year’s huge **$150,000 prize draw**. The more rooms you complete, the higher your chances of winning BIG!
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Main Prizes
 
@@ -57,6 +65,10 @@ Here are the prizes up for grabs:
 |100 x PT1 Certifications|10 x AWS & Azure Cloud Licenses|
 
 All winners will be chosen at random, verified by our team (no cheating allowed!), and contacted by **Thursday, 8 January 2026.** 
+<div align="center">
+<br>
+<br>
+</div>
 
 ### General Rules
 
@@ -77,6 +89,10 @@ Please note: Cheating is NOT allowed and will result in a disqualification from 
 
 - creating puppet accounts to inflate your chance to win
 - using bots to auto-complete the answers in the room
+<div align="center">
+<br>
+<br>
+</div>
 
 ### How To Qualify
 
@@ -84,6 +100,10 @@ To qualify for the main prizes, you must complete the rooms in the Advent of Cyb
 
 - It doesn't matter when you complete rooms. You just need to complete them by 31st December 2025. For example, if you complete Day 1 on 31st December 2025, you will still receive the same amount of raffle tickets as a user who completes on the day of the task release!
 - You don't have to complete all the rooms or complete them in order. The more rooms you complete, the more raffle tickets you get and the higher your chances of winning.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Certificate
 
@@ -92,6 +112,10 @@ Finally, if you complete every room in the event, you will earn a certificate of
 |   |
 |---|
 |![Certificate](https://tryhackme-images.s3.amazonaws.com/user-uploads/651d23c7c110975d027a644a/room-content/651d23c7c110975d027a644a-1763549935610.png)|
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Featured Videos
 
