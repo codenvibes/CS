@@ -9,7 +9,7 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 | SECTION/TASK                                       | FLAG             |
 | -------------------------------------------------- | ---------------- |
 | Task 1. Welcome to Advent of Cyber 2025            | No answer needed |
-| Task 2. How to use TryHackMe                       |                  |
+| Task 2. How to use TryHackMe                       | No answer needed |
 | Task 3. Join our community                         |                  |
 | Task 4. Introduction                               |                  |
 | Task 5. Challenge 1 — Password Pandemonium         |                  |
@@ -222,7 +222,7 @@ We provide this as some users might prefer to connect directly. However, please 
 
 ### Questions
 
-##### 
+##### Got it!
 ==Answer==
 <div align="center">
 <br>
