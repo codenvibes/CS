@@ -745,9 +745,13 @@ Find the unusual User Agent in the HTTP log.
 
 ## Task 15. The Finish Line
 
-## ![Task Banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763209787515.png)
+![Task Banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763209787515.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## Consider Yourself Warmed Up!
+### Consider Yourself Warmed Up!
 
 Well done for making your way through Advent of Cyber 2025's Prep Track! These mini challenges have been designed to familiarise you with some of the key tricks and tools you'll need at your disposal to **help save SOC-mas** in this year's event. If you're looking to start your cyber security journey, there's no better place to do it than with us, as we take you on a tour of topics from **Linux CLI** to **Prompt Injection**, getting you up to speed with the world of cyber and all, while earning chances to win some of our amazing prizes in our annual AoC giveaway!  
   
@@ -759,7 +763,7 @@ Sounds like fun? It is! And you can wait for the fun to begin at this year's **
 
 ### Questions
 
-##### 
+##### Bring on Advent of Cyber 2025!
 ==Answer==
 <div align="center">
 <br>
