@@ -6,23 +6,23 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 ---
 ## Summary
 
-| SECTION/TASK                            | FLAG             |
-| --------------------------------------- | ---------------- |
-| Task 1. Welcome to Advent of Cyber 2025 | No answer needed |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
-|                                         |                  |
+| SECTION/TASK                               | FLAG             |
+| ------------------------------------------ | ---------------- |
+| Task 1. Welcome to Advent of Cyber 2025    | No answer needed |
+| Task 2. How to use TryHackMe               |                  |
+| Task 3. Join our community                 |                  |
+| Task 4. Introduction                       |                  |
+| Task 5. Challenge 1 — Password Pandemonium |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
+|                                            |                  |
 
 <div align="center">
 <br>
