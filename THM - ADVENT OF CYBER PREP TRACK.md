@@ -6,9 +6,23 @@ description: Get ready for the Advent of Cyber 2025 with the "Advent of Cyber Pr
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK                            | FLAG             |
+| --------------------------------------- | ---------------- |
+| Task 1. Welcome to Advent of Cyber 2025 | No answer needed |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
+|                                         |                  |
 
 <div align="center">
 <br>
@@ -129,8 +143,8 @@ This year's Advent of Cyber featured creators include John Hammond, 0day, UnixGu
 
 ### Questions
 
-##### 
-==Answer==
+##### Got it!
+==No answer needed==
 <div align="center">
 <br>
 <br>
