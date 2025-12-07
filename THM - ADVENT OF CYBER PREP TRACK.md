@@ -235,7 +235,7 @@ We provide this as some users might prefer to connect directly. However, please 
 
 ## Task 3. Join our community
 
-## Join our community
+### Join our community
 
 Follow us on social media for exclusive giveaways, Advent of Cyber rooms releases, and your weekly missions! 
 
@@ -247,7 +247,7 @@ Follow us on social media for exclusive giveaways, Advent of Cyber rooms release
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/7acc4c807bc9879c9643d0daf597414e.png)](https://www.instagram.com/realtryhackme/)<br><br>Join us on [Instagram](https://www.instagram.com/realtryhackme/)! | ![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/ee16ec1cbabf90bae641262c32fd9dcf.png)<br><br>Follow us on [Facebook](https://www.facebook.com/people/Tryhackme/100069557747714/)! | [![](https://assets.tryhackme.com/additional/socials/Reddit.png)](https://www.reddit.com/r/tryhackme/)<br><br>Join our growing [subreddit](https://www.reddit.com/r/tryhackme/)! | [![](https://tryhackme-images.s3.amazonaws.com/user-uploads/62c435d1f4d84a005f5df811/room-content/62c435d1f4d84a005f5df811-1730296167133.png)](https://www.tiktok.com/@tryhackmeofficial)<br><br>Follow our [TikTok](https://www.tiktok.com/@tryhackmeofficial)! |
 
-## Join our Discord
+### Join our Discord
 
 Discord is the heartbeat of the TryHackMe community. It's where we go to connect with fellow hackers, get help with difficult rooms, and find out when a new room launches. Our Discord server has over 326,000 members (and continues to grow every day), so there's always something happening.
 
@@ -255,7 +255,7 @@ Are you excited about Advent of Cyber? Visit a dedicated channel on our Discord,
 
 If you haven't used it before, it's very easy to set up (we recommend installing the app). We'll ask a couple of onboarding questions to help figure out which channels are most relevant to you.
 
-## What do you get with Discord?
+### What do you get with Discord?
 
 There are so many benefits to joining:
 
@@ -266,7 +266,7 @@ There are so many benefits to joining:
 
 Click on this link to join our Discord Server: [Join the Community!](https://discord.gg/tryhackme)
 
-## Grab your swag!
+### Grab your swag!
 
 Want to rep swag from your favourite cyber security training platform? We have a NEW special edition [Advent of Cyber swag](https://store.tryhackme.com/collections/all), now available for order!
 

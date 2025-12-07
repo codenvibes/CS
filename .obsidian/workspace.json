@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
+                "file": "THM - ADVENT OF CYBER PREP TRACK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OVERPASS"
+              "title": "Outline of THM - ADVENT OF CYBER PREP TRACK"
             }
           },
           {
@@ -344,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
