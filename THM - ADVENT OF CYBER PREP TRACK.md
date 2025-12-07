@@ -465,6 +465,36 @@ Find and read the hidden welcome message inside your AttackBox.
 <div style="page-break-after: always;"></div>
 
 ## Task 8. Challenge 4 — The CMD Conundrum
+
+ ![Task banner](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763127496266.png)
+<div align="center">
+<br>
+<br>
+</div>
+
+### The CMD Conundrum
+
+McSkidy’s workstation shows signs of tampering, suspicious files moved, logs wiped, and a strange folder named `mystery_data`.
+
+It’s time to use the **Windows Command Prompt** to uncover what’s hidden.  
+Learning these commands helps you investigate systems and find what the GUI can’t.
+
+**Objective:**  
+Find the hidden flag file using Windows commands.
+
+**Steps:**
+1. Use `dir` to list visible files.
+2. Try `dir /a` to reveal hidden ones.
+3. Use `type hidden_flag.txt` to read the flag.
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
