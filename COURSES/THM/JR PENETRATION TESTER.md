@@ -45,7 +45,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 25. [[NMAP BASIC PORT SCANS]]
 26. [[NMAP ADVANCED PORT SCANS]]
 27. [[NMAP POST PORT SCANS]]
-28. [[THM - PROTOCOLS AND SERVERS]]
+28. [[PROTOCOLS AND SERVERS]]
 29. [[THM - PROTOCOLS AND SERVERS 2]]
 30. [[NET SEC CHALLENGE]]
 
