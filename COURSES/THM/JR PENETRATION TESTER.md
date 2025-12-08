@@ -25,7 +25,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 11. [[FILE INCLUSION]]
 12. [[INTRO TO SSRF]]
 13. [[INTRO TO CROSS-SITE SCRIPTING]]
-14. [[THM - RACE CONDITIONS]]
+14. [[RACE CONDITIONS]]
 15. [[COMMAND INJECTION]]
 16. [[THM - SQL INJECTION]]
 
