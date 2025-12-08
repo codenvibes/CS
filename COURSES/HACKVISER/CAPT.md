@@ -6,7 +6,7 @@ image: https://storage.hackviser.com/file/hackviser-prod/certificate-images/944b
 ---
 ## #INTRODUCTION
 
-[[HV - INTRODUCTION TO CYBERSECURITY]]
+[[INTRODUCTION TO CYBERSECURITY]]
 
 ## #OPERATING_SYSTEMS_FUNDAMENTALS
 

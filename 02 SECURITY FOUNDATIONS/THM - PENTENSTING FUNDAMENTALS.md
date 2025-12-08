@@ -2,7 +2,27 @@
 tags:
   - JR_PENETRATION_TESTER
   - INTRODUCTION_TO_PENTESTING
+  - HV
+link:
+description:
 ---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## References
+
 ## 1. What is Penetration Testing?
 
 Before teaching you the technical hands-on aspects of ethical hacking, you'll need to understand more about what a penetration tester's job responsibilities are and what processes are followed in performing pentests (finding vulnerabilities in a clients application or system).

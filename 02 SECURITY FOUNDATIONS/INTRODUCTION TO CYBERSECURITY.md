@@ -2,7 +2,25 @@
 tags:
   - CAPT
   - INTRODUCTION
+  - HV
+link:
+description:
 ---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## Introduction
 
 Information is typically characterized by the highest possible degree of certainty, assumed to be accurate and valid, and available to individuals or groups.
