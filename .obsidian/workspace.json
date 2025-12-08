@@ -291,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of THM - ADVENT OF CYBER PREP TRACK"
             }
           },
           {
@@ -358,8 +358,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "9da75676d79083ea",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "05 DEFENSIVE SECURITY/THM - MAL MALWARE INTRODUCTORY.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
@@ -390,7 +391,6 @@
     "COURSES/THM/SOC LEVEL 1.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/00 FRAMEWORKS.md",
     "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/COURSES.base",
     "TEMPLATES/THM COURSE SECTION.md",
     "TEMPLATES/COURSE.md",
     "COURSES/THM/PRE SECURITY.md",
