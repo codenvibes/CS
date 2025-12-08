@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WHITE-BOARD/WHITE-BOARD.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
             }
           },
           {
@@ -359,10 +359,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21fce08000a30866",
+  "floating": {
+    "id": "5f66380971e6712a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6ae1c9b54c551bb6",
+        "type": "window",
+        "children": [
+          {
+            "id": "9c41fff915568918",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "364bdaab699119b2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 116,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "364bdaab699119b2",
   "lastOpenFiles": [
-    "THM - ADVENT OF CYBER PREP TRACK.md",
     "WHITE-BOARD/WHITE-BOARD.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "THM - ADVENT OF CYBER PREP TRACK.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "TEMPLATES/SECTION BREAK 3※.md",
@@ -392,7 +432,6 @@
     "COURSES/THM/PRE SECURITY.md",
     "05 DEFENSIVE SECURITY/THM - MALWARE DETECTION & ANALYSIS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "11 DIGITAL FORENSICS/THM - WINDOWS FORENSICS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
     "WHITE-BOARD/TODO.md",
