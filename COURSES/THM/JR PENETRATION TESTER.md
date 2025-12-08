@@ -18,7 +18,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ## #INTRODUCTION_TO_WEB_HACKING
 
 6. [[THM - WALKING AN APPLICATION]]
-7. [[THM - CONTENT DISCOVERY]]
+7. [[CONTENT DISCOVERY]]
 8. [[THM - SUBDOMAIN ENUMERATION]]
 9. [[AUTHENTICATION BYPASS]]
 10. [[IDOR]]
