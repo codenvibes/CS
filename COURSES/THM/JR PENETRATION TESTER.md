@@ -31,7 +31,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 
 ## #BURP_SUITE
 
-17. [[THM - BURP SUITE THE BASICS]]
+17. [[BURP SUITE THE BASICS]]
 18. [[BURP SUITE REPEATER]]
 19. [[BURP SUITE INTRUDER]]
 20. [[BURP SUITE OTHER MODULES]]

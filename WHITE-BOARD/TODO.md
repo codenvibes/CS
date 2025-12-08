@@ -9,4 +9,4 @@
 	- `CISO presentation to board`
 	- `cybersecurity business strategy`
 	- `cyber governance for executives`
-- [ ] move files from the Metasploit folder to [[HTB - METASPLOIT FRAMEWORK]]
+- [ ] move files from the Metasploit folder to [[METASPLOIT FRAMEWORK]]

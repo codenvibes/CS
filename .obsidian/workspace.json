@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
+                    "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "BURP SUITE REPEATER"
+                  "title": "THM - METASPLOIT EXPLOITATION"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
+                "file": "08 TOOLS/METASPLOIT/THM - METASPLOIT EXPLOITATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BURP SUITE REPEATER"
+              "title": "Outline of THM - METASPLOIT EXPLOITATION"
             }
           },
           {
@@ -346,6 +346,9 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "08 TOOLS/METASPLOIT/METASPLOIT FRAMEWORK.md",
+    "08 TOOLS/BURP SUITE/BURP SUITE THE BASICS.md",
+    "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/BURP SUITE OTHER MODULES.md",
     "08 TOOLS/BURP SUITE/BURP SUITE INTRUDER.md",
     "08 TOOLS/BURP SUITE/BURP SUITE EXTENSIONS.md",
@@ -378,9 +381,6 @@
     "ASSETS/Pasted image 20251203062833.png",
     "ASSETS/Pasted image 20251203062735.png",
     "ASSETS/Pasted image 20251203061345.png",
-    "TEMPLATES/SECTION BREAK 2.md",
-    "TEMPLATES/SECTION BREAK 1.md",
-    "08 TOOLS/FFUF.md",
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "Pasted image 20251202153841.png",
