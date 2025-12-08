@@ -39,7 +39,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 
 ## #NETWORK_SECURITY
 
-22. [[THM - PASSIVE RECONNAISSANCE]]
+22. [[PASSIVE RECONNAISSANCE]]
 23. [[ACTIVE RECONNAISSANCE]]
 24. [[NMAP LIVE HOST DISCOVERY]]
 25. [[NMAP BASIC PORT SCANS]]

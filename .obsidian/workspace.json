@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/NET SEC CHALLENGE.md",
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NET SEC CHALLENGE"
+                  "title": "HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/NET SEC CHALLENGE.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/HTB - ATTACKING WEB APPLICATIONS WITH FFUF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NET SEC CHALLENGE"
+              "title": "Outline of HTB - ATTACKING WEB APPLICATIONS WITH FFUF"
             }
           },
           {
@@ -374,6 +374,8 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/NET SEC CHALLENGE.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/ACTIVE RECONNAISSANCE.md",
     "04 EXPLOITATION/FILE TRANSFER.md",
     "04 EXPLOITATION/WIFI HACKING 101.md",
@@ -398,8 +400,6 @@
     "05 DEFENSIVE SECURITY/REMOTE ACCESS CONCEPTS.md",
     "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
     "05 DEFENSIVE SECURITY/Untitled.md",
-    "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
