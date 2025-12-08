@@ -8,7 +8,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 
 1. [[THM - OFFENSIVE SECURITY INTRO]]
 2. [[THM - DEFENSIVE SECURITY INTRO]]
-3. [[THM - CAREERS IN CYBER]]
+3. [[CAREERS IN CYBER]]
 
 ## #INTRODUCTION_TO_PENTESTING
 
