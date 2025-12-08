@@ -2,7 +2,25 @@
 tags:
   - JR_PENETRATION_TESTER
   - INTRODUCTION_TO_WEB_HACKING
+  - THM
+link:
+description:
 ---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## 1. Walking An Application
 
 In this room you will learn how to manually review a web application for security issues using only the in-built tools in your browser. More often than not, automated security tools and scripts will miss many potential vulnerabilities and useful information.

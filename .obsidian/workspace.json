@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/WALKING AN APPLICATION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - SUBDOMAIN ENUMERATION"
+                  "title": "WALKING AN APPLICATION"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/THM - SUBDOMAIN ENUMERATION.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/WALKING AN APPLICATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - SUBDOMAIN ENUMERATION"
+              "title": "Outline of WALKING AN APPLICATION"
             }
           },
           {
@@ -374,6 +374,7 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/SUBDOMAIN ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
@@ -399,7 +400,6 @@
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT FRAMEWORK.md",
     "WHITE-BOARD/TODO.md",
     "05 DEFENSIVE SECURITY/INTRODUCTION TO EDR.md",
-    "05 DEFENSIVE SECURITY/REMOTE ACCESS CONCEPTS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",

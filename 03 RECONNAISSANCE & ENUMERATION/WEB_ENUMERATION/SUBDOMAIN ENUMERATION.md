@@ -3,7 +3,24 @@ tags:
   - JR_PENETRATION_TESTER
   - INTRODUCTION_TO_WEB_HACKING
   - THM
+link:
+description:
 ---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## 1. Brief
 
 ==DEF-Subdomain enumeration is the process of finding valid subdomains for a domain, but why do we do this? We do this to expand our attack surface to try and discover more potential points of vulnerability.==
