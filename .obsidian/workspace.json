@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
+                    "file": "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WAZUH"
+                  "title": "WIRELESS NETWORK SECURITY"
                 }
               },
               {
@@ -154,7 +154,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WAZUH"
+              "title": "Outline of LINUX CLI - SHELLS BELLS"
             }
           },
           {
@@ -344,8 +344,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "1e3b570004cb9b2b",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
+    "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/LINUX PRIVILEGE ESCALATION.md",
@@ -370,8 +372,6 @@
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/DEFENSIVE SECURITY INTRO.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/CAREERS IN CYBER.md",
     "11 DIGITAL FORENSICS/WINDOWS FORENSICS.md",
-    "13 CTFS & LABS/HTB/SOULMATE.md",
-    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
