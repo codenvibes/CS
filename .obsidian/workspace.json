@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/COMMAND INJECTION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
+                  "title": "COMMAND INJECTION"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/COMMAND INJECTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of COMMAND INJECTION"
             }
           },
           {
@@ -374,6 +374,8 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "04 EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION FUNDAMENTALS.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
@@ -398,8 +400,6 @@
     "08 TOOLS/BURP SUITE/BURP SUITE THE BASICS.md",
     "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/BURP SUITE OTHER MODULES.md",
-    "08 TOOLS/BURP SUITE/BURP SUITE INTRUDER.md",
-    "08 TOOLS/BURP SUITE/BURP SUITE EXTENSIONS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
