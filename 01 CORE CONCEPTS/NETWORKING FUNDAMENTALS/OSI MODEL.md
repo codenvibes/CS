@@ -21,10 +21,6 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## References
-
-#THM-PRE_SECURITY #2-NETWORK_FUNDAMENTALS
-
 ## 1. What is the OSI Model?
 
 The **OSI** model (or **O**pen **S**ystems **I**nterconnection Model) is an essential model used in networking.  This critical model provides a framework dictating how all networked devices will send, receive and interpret data.

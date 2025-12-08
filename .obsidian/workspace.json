@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - OSI MODEL"
+                  "title": "PACKETS & FRAMES"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/THM - OSI MODEL.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - OSI MODEL"
+              "title": "Outline of PACKETS & FRAMES"
             }
           },
           {
@@ -374,6 +374,7 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/INTRO TO LAN.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXTENDING YOUR NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORKING FUNDAMENTALS.md",
@@ -399,7 +400,6 @@
     "04 EXPLOITATION/WIFI HACKING 101.md",
     "04 EXPLOITATION/PASSWORD ATTACKS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/RACE CONDITIONS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
