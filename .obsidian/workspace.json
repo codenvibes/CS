@@ -292,13 +292,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTB - SQL INJECTION FUNDAMENTALS"
+              "title": "Outline of HTB - WEB REQUESTS"
             }
           },
           {
@@ -377,12 +377,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "HTB - SQL INJECTION FUNDAMENTALS"
+                  "title": "HTB - WEB REQUESTS"
                 }
               }
             ]
@@ -400,8 +400,8 @@
   },
   "active": "364bdaab699119b2",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "THM - ADVENT OF CYBER PREP TRACK.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
