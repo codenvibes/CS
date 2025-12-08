@@ -159,7 +159,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "THM - ADVENT OF CYBER PREP TRACK.md",
+                    "file": "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
                     "mode": "source",
                     "source": false
                   },
@@ -358,14 +358,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/AOC 2025",
     "05 DEFENSIVE SECURITY/THM - MAL MALWARE INTRODUCTORY.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "THM - ADVENT OF CYBER PREP TRACK.md",
+    "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
     "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "TEMPLATES/SECTION BREAK 3※.md",
@@ -396,7 +397,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "11 DIGITAL FORENSICS/THM - WINDOWS FORENSICS.md",
     "01 CORE CONCEPTS/WEB BASICS/THM - 02 HTTP.md",
-    "WHITE-BOARD/TODO.md",
     "13 CTFS & LABS/THM",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
