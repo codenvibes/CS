@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
+                    "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - WINDOWS PRIVILEGE ESCALATION"
+                  "title": "WAZUH"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
+                "file": "05 DEFENSIVE SECURITY/SIEM TOOLS/WAZUH.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - WINDOWS PRIVILEGE ESCALATION"
+              "title": "Outline of WAZUH"
             }
           },
           {
@@ -346,6 +346,8 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/WINDOWS PRIVILEGE ESCALATION.md",
     "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/LINUX PRIVILEGE ESCALATION.md",
     "08 TOOLS/NMAP/NMAP.md",
     "08 TOOLS/NMAP/NMAP POST PORT SCANS.md",
@@ -370,8 +372,6 @@
     "11 DIGITAL FORENSICS/WINDOWS FORENSICS.md",
     "13 CTFS & LABS/HTB/SOULMATE.md",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
-    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
-    "13 CTFS & LABS/THM/OVERPASS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
