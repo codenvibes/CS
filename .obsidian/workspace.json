@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/NMAP/NMAP.md",
+                    "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NMAP"
+                  "title": "THM - WINDOWS PRIVILEGE ESCALATION"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/NMAP/NMAP.md",
+                "file": "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/THM - WINDOWS PRIVILEGE ESCALATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NMAP"
+              "title": "Outline of THM - WINDOWS PRIVILEGE ESCALATION"
             }
           },
           {
@@ -344,8 +344,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "06 POST EXPLOITATION & LATERAL MOVEMENT/PRIVILEGE ESCALATION/LINUX PRIVILEGE ESCALATION.md",
+    "08 TOOLS/NMAP/NMAP.md",
     "08 TOOLS/NMAP/NMAP POST PORT SCANS.md",
     "08 TOOLS/NMAP/NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/NMAP/NMAP BASIC PORT SCANS.md",
@@ -370,8 +372,6 @@
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
-    "02 SECURITY FOUNDATIONS/FRAMEWORKS/CYBER KILL CHAIN.md",
-    "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
