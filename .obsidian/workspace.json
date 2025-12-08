@@ -159,12 +159,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "05 DEFENSIVE SECURITY/THM - INTRODUCTION TO EDR.md",
+                    "file": "05 DEFENSIVE SECURITY/INTRODUCTION TO EDR.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - INTRODUCTION TO EDR"
+                  "title": "INTRODUCTION TO EDR"
                 }
               }
             ],
@@ -291,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 DEFENSIVE SECURITY/THM - INTRODUCTION TO EDR.md",
+                "file": "05 DEFENSIVE SECURITY/INTRODUCTION TO EDR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - INTRODUCTION TO EDR"
+              "title": "Outline of INTRODUCTION TO EDR"
             }
           },
           {
