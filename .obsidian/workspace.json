@@ -167,8 +167,7 @@
                   "title": "METASPLOIT FRAMEWORK"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -291,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT FRAMEWORK.md",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of METASPLOIT FRAMEWORK"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -358,8 +357,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
+    "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT FRAMEWORK.md",
     "05 DEFENSIVE SECURITY/INTRODUCTION TO EDR.md",
     "05 DEFENSIVE SECURITY/REMOTE ACCESS CONCEPTS.md",
     "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
@@ -378,7 +378,6 @@
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT METERPRETER.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT INTRODUCTION.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT EXPLOITATION.md",
-    "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT FRAMEWORK.md",
     "08 TOOLS/BURP SUITE/BURP SUITE THE BASICS.md",
     "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
     "08 TOOLS/BURP SUITE/BURP SUITE OTHER MODULES.md",
