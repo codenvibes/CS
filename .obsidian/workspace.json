@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
+                    "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - LINUX SHELLS"
+                  "title": "THM - WINDOWS POWERSHELL"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - LINUX SHELLS.md",
+                "file": "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/THM - WINDOWS POWERSHELL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - LINUX SHELLS"
+              "title": "Outline of THM - WINDOWS POWERSHELL"
             }
           },
           {
@@ -374,6 +374,8 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/WINDOWS COMMAND LINE.md",
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/LINUX SHELLS.md",
     "02 SECURITY FOUNDATIONS/PRINCIPLES OF SECURITY.md",
     "02 SECURITY FOUNDATIONS/PENTENSTING FUNDAMENTALS.md",
     "02 SECURITY FOUNDATIONS/INTRODUCTION TO CYBERSECURITY.md",
@@ -398,8 +400,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/INTRO TO SSRF.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/INTRO TO CROSS-SITE SCRIPTING.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/IDOR.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
