@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/CAREERS IN CYBER.md",
+                    "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "CAREERS IN CYBER"
+                  "title": "THM - JUNIOR SECURITY ANALYST"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/CAREERS IN CYBER.md",
+                "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/THM - JUNIOR SECURITY ANALYST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CAREERS IN CYBER"
+              "title": "Outline of THM - JUNIOR SECURITY ANALYST"
             }
           },
           {
@@ -346,6 +346,8 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/DEFENSIVE SECURITY INTRO.md",
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/CAREERS IN CYBER.md",
     "11 DIGITAL FORENSICS/WINDOWS FORENSICS.md",
     "13 CTFS & LABS/HTB/SOULMATE.md",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
@@ -382,8 +384,6 @@
     "COURSES/THM/CYBER SECURITY 101.md",
     "TEMPLATES/THM COURSE SECTION.md",
     "TEMPLATES/COURSE.md",
-    "COURSES/THM/PRE SECURITY.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/THM - SQL INJECTION.md",
     "13 CTFS & LABS/THM",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
