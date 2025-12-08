@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/COMMAND INJECTION.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "COMMAND INJECTION"
+                  "title": "THM - IDOR"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/WEB_EXPLOITATION/COMMAND INJECTION.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/THM - IDOR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COMMAND INJECTION"
+              "title": "Outline of THM - IDOR"
             }
           },
           {
@@ -374,8 +374,10 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
-    "04 EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/FILE INCLUSION.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION FUNDAMENTALS.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/COMMAND INJECTION.md",
+    "04 EXPLOITATION/WEB_EXPLOITATION/AUTHENTICATION BYPASS.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
@@ -398,8 +400,6 @@
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT INTRODUCTION.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT EXPLOITATION.md",
     "08 TOOLS/BURP SUITE/BURP SUITE THE BASICS.md",
-    "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
-    "08 TOOLS/BURP SUITE/BURP SUITE OTHER MODULES.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",

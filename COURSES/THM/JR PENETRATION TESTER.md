@@ -22,7 +22,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 8. [[THM - SUBDOMAIN ENUMERATION]]
 9. [[AUTHENTICATION BYPASS]]
 10. [[THM - IDOR]]
-11. [[THM - FILE INCLUSION]]
+11. [[FILE INCLUSION]]
 12. [[THM - INTRO TO SSRF]]
 13. [[THM - INTRO TO CROSS-SITE SCRIPTING]]
 14. [[THM - RACE CONDITIONS]]
