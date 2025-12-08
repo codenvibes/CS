@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/BURP SUITE/BURP SUITE INTRUDER.md",
+                    "file": "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "BURP SUITE INTRUDER"
+                  "title": "BURP SUITE REPEATER"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/BURP SUITE/BURP SUITE INTRUDER.md",
+                "file": "08 TOOLS/BURP SUITE/BURP SUITE REPEATER.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BURP SUITE INTRUDER"
+              "title": "Outline of BURP SUITE REPEATER"
             }
           },
           {
@@ -346,6 +346,8 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "08 TOOLS/BURP SUITE/BURP SUITE OTHER MODULES.md",
+    "08 TOOLS/BURP SUITE/BURP SUITE INTRUDER.md",
     "08 TOOLS/BURP SUITE/BURP SUITE EXTENSIONS.md",
     "09 SOFT SKILLS & CAREER/REPORTS/REPORT WRITING GUIDE.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
@@ -382,8 +384,6 @@
     "ASSETS/Pasted image 20251202160720.png",
     "ASSETS/Pasted image 20251202154014.png",
     "Pasted image 20251202153841.png",
-    "TEMPLATES/QUESTIONS.md",
-    "TEMPLATES/Section Break.md",
     "13 CTFS & LABS/THM",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
