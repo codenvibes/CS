@@ -4,3 +4,4 @@
 - [ ] Go through all older notes and replace **`#TOOLS`** tags with **`#[ToolName]`** tags (e.g., `#nmap`, `#wireshark`, etc.) to match your current tagging system. And add the changes to the [[00 TOOLS]] note.
 
 - [ ] move files from the Metasploit folder to [[METASPLOIT FRAMEWORK]]
+- [ ] Redo VULNERABILITY ASSESSSMENT
