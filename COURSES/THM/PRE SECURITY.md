@@ -16,7 +16,7 @@ image: https://assets.tryhackme.com/img/paths/presecurity.svg
 5. [[THM - INTRO TO LAN]]
 6. [[THM - OSI MODEL]]  
 7. [[THM - PACKETS & FRAMES]]  
-8. [[THM - EXTENDING YOUR NETWORK]]
+8. [[EXTENDING YOUR NETWORK]]
 
 ### #3-HOW_THE_WEB_WORKS
 
