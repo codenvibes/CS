@@ -1134,8 +1134,6 @@ To expand your SIEM and centralized logging solution capabilities, visit the 
 <div style="page-break-after: always;"></div>
 
 
----
-
 ## References
 
 https://tryhackme.com/room/introtologanalysis
