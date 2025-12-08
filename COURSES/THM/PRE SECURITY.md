@@ -12,7 +12,7 @@ image: https://assets.tryhackme.com/img/paths/presecurity.svg
 
 ### #2-NETWORK_FUNDAMENTALS
 
-4. [[THM - WHAT IS NETWORKING]] 
+4. [[WHAT IS NETWORKING]] 
 5. [[INTRO TO LAN]]
 6. [[OSI MODEL]]  
 7. [[PACKETS & FRAMES]]  
