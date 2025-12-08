@@ -6,7 +6,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ---
 ## #INTRODUCTION_TO_CYBERSECURITY
 
-1. [[THM - OFFENSIVE SECURITY INTRO]]
+1. [[OFFENSIVE SECURITY INTRO]]
 2. [[DEFENSIVE SECURITY INTRO]]
 3. [[CAREERS IN CYBER]]
 

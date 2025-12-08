@@ -1,5 +1,6 @@
 ---
 tags:
+  - THM
 link: https://tryhackme.com/room/jrsecanalystintrouxo
 description: Play through a day in the life of a Security Analyst and experience their everyday duties.
 ---
