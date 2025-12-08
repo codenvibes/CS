@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/NMAP/NMAP ADVANCED PORT SCANS.md",
+                    "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NMAP ADVANCED PORT SCANS"
+                  "title": "THM - NMAP LIVE HOST DISCOVERY"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/NMAP/NMAP ADVANCED PORT SCANS.md",
+                "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NMAP ADVANCED PORT SCANS"
+              "title": "Outline of THM - NMAP LIVE HOST DISCOVERY"
             }
           },
           {
@@ -346,6 +346,8 @@
   },
   "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "08 TOOLS/NMAP/NMAP BASIC PORT SCANS.md",
+    "08 TOOLS/NMAP/NMAP ADVANCED PORT SCANS.md",
     "08 TOOLS/METASPLOIT/METASPLOIT METERPRETER.md",
     "08 TOOLS/METASPLOIT/METASPLOIT INTRODUCTION.md",
     "08 TOOLS/METASPLOIT/METASPLOIT EXPLOITATION.md",
@@ -372,8 +374,6 @@
     "13 CTFS & LABS/THM/AOC 2025",
     "05 DEFENSIVE SECURITY/THM - MAL MALWARE INTRODUCTORY.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
-    "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
-    "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
     "Pasted image 20251203142927.png",
