@@ -10,7 +10,7 @@ image: https://storage.hackviser.com/file/hackviser-prod/certificate-images/944b
 
 ## #OPERATING_SYSTEMS_FUNDAMENTALS
 
-[[HV -LINUX FUNDAMENTALS]]
+[[LINUX FUNDAMENTALS]]
 Windows Fundamentals
 Using Windows Command Line
 

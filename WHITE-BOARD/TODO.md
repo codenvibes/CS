@@ -6,3 +6,4 @@
 - [ ] move files from the Metasploit folder to [[METASPLOIT FRAMEWORK]]
 - [ ] Redo VULNERABILITY ASSESSSMENT
 - [ ] Redo NETWORKING FUNDAMENTALS
+- [ ] Redo WINDOWS

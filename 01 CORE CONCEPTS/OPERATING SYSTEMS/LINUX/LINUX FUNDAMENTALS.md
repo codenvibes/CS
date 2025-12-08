@@ -2,7 +2,25 @@
 tags:
   - CAPT
   - OPERATING_SYSTEMS_FUNDAMENTALS
+  - HV
+link:
+description:
 ---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## Introduction
 
 Welcome to the beginning of our journey into the Linux operating system. In this section, we aim to introduce the fundamental concepts, history, significance of Linux in the modern computing landscape, and the core principles underpinning this powerful operating system.
