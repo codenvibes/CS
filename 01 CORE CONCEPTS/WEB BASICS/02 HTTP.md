@@ -1,4 +1,24 @@
-#HOW_THE_WEB_WORKS
+---
+tags:
+  - THM
+  - HOW_THE_WEB_WORKS
+link:
+description:
+---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 ## HTTP (HyperText Transfer Protocol)
 
