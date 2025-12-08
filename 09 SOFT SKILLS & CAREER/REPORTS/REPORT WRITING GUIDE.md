@@ -1,4 +1,22 @@
-#REPORT_WRITING
+---
+tags:
+link:
+description:
+---
+## Summary
+
+| SECTION/TASK | FLAG |
+| ------------ | ---- |
+|              |      |
+
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 Creating a strong cybersecurity report is not just about technical detail — it’s about **communicating impact clearly to all stakeholders**. This guide helps you write reports that are clear, credible, and management-friendly, while still preserving technical rigor.
 
