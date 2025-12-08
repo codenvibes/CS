@@ -145,12 +145,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/THM - OVERPASS.md",
+                    "file": "13 CTFS & LABS/THM/OVERPASS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - OVERPASS"
+                  "title": "OVERPASS"
                 }
               },
               {
@@ -159,16 +159,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/AOC 2025/THM - LINUX CLI - SHELLS BELLS.md",
+                    "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - LINUX CLI - SHELLS BELLS"
+                  "title": "LINUX CLI - SHELLS BELLS"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -291,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/THM - LINUX CLI - SHELLS BELLS.md",
+                "file": "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - LINUX CLI - SHELLS BELLS"
+              "title": "Outline of THM - CYBER KILL CHAIN"
             }
           },
           {
@@ -358,10 +358,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e3b570004cb9b2b",
+  "active": "dde008b382b7a5ed",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+    "13 CTFS & LABS/THM/OVERPASS.md",
     "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
-    "13 CTFS & LABS/THM/AOC 2025/THM - LINUX CLI - SHELLS BELLS.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "05 DEFENSIVE SECURITY/THM - MAL MALWARE INTRODUCTORY.md",
@@ -369,7 +370,6 @@
     "01 CORE CONCEPTS/WEB BASICS/HTB - WEB REQUESTS.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/HTB - SQL INJECTION FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "13 CTFS & LABS/THM/THM - OVERPASS.md",
     "02 SECURITY FOUNDATIONS/FRAMEWORKS/THM - CYBER KILL CHAIN.md",
     "TEMPLATES/SECTION BREAK 3※.md",
     "TEMPLATES/SECTION BREAK 5※.md",
