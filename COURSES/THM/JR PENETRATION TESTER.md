@@ -63,6 +63,6 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 
 ## #PRIVILEGE_ESCALATION
 
-37. [[THM - WHAT THE SHELL]]
+37. WHAT THE SHELL
 38. [[LINUX PRIVILEGE ESCALATION]]
 39. [[WINDOWS PRIVILEGE ESCALATION]]
