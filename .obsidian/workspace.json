@@ -131,12 +131,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
+                    "file": "08 TOOLS/NMAP/NMAP.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "THM - NMAP LIVE HOST DISCOVERY"
+                  "title": "NMAP"
                 }
               },
               {
@@ -277,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/NMAP/THM - NMAP LIVE HOST DISCOVERY.md",
+                "file": "08 TOOLS/NMAP/NMAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of THM - NMAP LIVE HOST DISCOVERY"
+              "title": "Outline of NMAP"
             }
           },
           {
@@ -344,8 +344,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dde008b382b7a5ed",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "08 TOOLS/NMAP/NMAP POST PORT SCANS.md",
+    "08 TOOLS/NMAP/NMAP LIVE HOST DISCOVERY.md",
     "08 TOOLS/NMAP/NMAP BASIC PORT SCANS.md",
     "08 TOOLS/NMAP/NMAP ADVANCED PORT SCANS.md",
     "08 TOOLS/METASPLOIT/METASPLOIT METERPRETER.md",
@@ -372,8 +374,6 @@
     "13 CTFS & LABS/THM/AOC 2025/THM - ADVENT OF CYBER PREP TRACK.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
-    "05 DEFENSIVE SECURITY/THM - MAL MALWARE INTRODUCTORY.md",
-    "05 DEFENSIVE SECURITY/LOG ANALYSIS/THM - INTRO TO LOG ANALYSIS.md",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
     "Pasted image 20251203142927.png",
