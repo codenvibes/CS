@@ -35,4 +35,4 @@ image: https://assets.tryhackme.com/img/paths/presecurity.svg
 
 16. [[WINDOWS FUNDAMENTALS 1]]  
 17. [[WINDOWS FUNDAMENTALS 2]]  
-18. [[THM - WINDOWS FUNDAMENTALS 3]]
+18. [[WINDOWS FUNDAMENTALS 3]]
