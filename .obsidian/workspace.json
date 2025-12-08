@@ -173,12 +173,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/WALKING AN APPLICATION.md",
+                    "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/EXPLOIT VULNERABILITIES.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "WALKING AN APPLICATION"
+                  "title": "EXPLOIT VULNERABILITIES"
                 }
               }
             ],
@@ -305,13 +305,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/WALKING AN APPLICATION.md",
+                "file": "02 SECURITY FOUNDATIONS/THREATS_VULNERABILITIES_&_RISK/EXPLOIT VULNERABILITIES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WALKING AN APPLICATION"
+              "title": "Outline of EXPLOIT VULNERABILITIES"
             }
           },
           {
@@ -374,6 +374,8 @@
   },
   "active": "dbbc1501910769b4",
   "lastOpenFiles": [
+    "02 SECURITY FOUNDATIONS/FRAMEWORKS/MITRE.md",
+    "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/WALKING AN APPLICATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/SUBDOMAIN ENUMERATION.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/CONTENT DISCOVERY.md",
     "03 RECONNAISSANCE & ENUMERATION/WEB_ENUMERATION/ATTACKING WEB APPLICATIONS WITH FFUF.md",
@@ -398,8 +400,6 @@
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/METASPLOIT FRAMEWORK.md",
-    "WHITE-BOARD/TODO.md",
-    "05 DEFENSIVE SECURITY/INTRODUCTION TO EDR.md",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",

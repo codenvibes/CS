@@ -52,7 +52,7 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 ## #VULNERABILITY_RESEARCH
 
 31. [[THM - VULNERABILITIES 101]]
-32. [[THM - EXPLOIT VULNERABILITIES]]
+32. [[EXPLOIT VULNERABILITIES]]
 33. [[THM - VULNERABILITY CAPSTONE]]
 
 ## #METASPLOIT
