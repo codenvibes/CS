@@ -2,7 +2,7 @@
 tags:
   - JR_PENETRATION_TESTER
   - INTRODUCTION_TO_PENTESTING
-  - HV
+  - THM
 link:
 description:
 ---
@@ -20,8 +20,6 @@ description:
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
-## References
 
 ## 1. What is Penetration Testing?
 

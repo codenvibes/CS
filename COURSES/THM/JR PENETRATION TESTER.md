@@ -12,8 +12,8 @@ image: https://assets.tryhackme.com/img/paths/jrpenetrationtester.svg
 
 ## #INTRODUCTION_TO_PENTESTING
 
-4. [[THM - PENTENSTING FUNDAMENTALS]]
-5. [[THM - PRINCIPLES OF SECURITY]]
+4. [[PENTENSTING FUNDAMENTALS]]
+5. [[PRINCIPLES OF SECURITY]]
 
 ## #INTRODUCTION_TO_WEB_HACKING
 

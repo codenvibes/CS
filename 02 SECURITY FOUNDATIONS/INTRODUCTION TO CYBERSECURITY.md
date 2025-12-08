@@ -45,13 +45,13 @@ We can also define information security as the set of measures taken to prevent 
 
 ### Principles of Information Security: The CIA Triad
 
-[[THM - PRINCIPLES OF SECURITY#^58f409]]
+[[PRINCIPLES OF SECURITY#^58f409]]
 
-**Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it. [[THM - PRINCIPLES OF SECURITY#^e6c51a]]
+**Confidentiality:** Ensures that information is accessible only to authorized individuals and prevents others from viewing it. [[PRINCIPLES OF SECURITY#^e6c51a]]
 
-**Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered. [[THM - PRINCIPLES OF SECURITY#^dc0537]]
+**Integrity:** Means that information remains accurate and unchanged, preventing it from being accidentally or intentionally altered. [[PRINCIPLES OF SECURITY#^dc0537]]
 
-**Availability:** Ensures that information is easily accessible to authorized users when needed. [[THM - PRINCIPLES OF SECURITY#^3df46e]]
+**Availability:** Ensures that information is easily accessible to authorized users when needed. [[PRINCIPLES OF SECURITY#^3df46e]]
 
 ![](https://storage.hackviser.com/file/hackviser-prod/trainings/sections/images/d65a0fca-d9c9-4774-9397-42ef64272226/cia-653439271.webp)
 
@@ -328,7 +328,7 @@ Bug Bounty is a defense strategy for companies and a revenue source for cybersec
 
 ## Penetration Testing (Pentest)
 
-[[THM - PENTENSTING FUNDAMENTALS#^f0a56c]]
+[[PENTENSTING FUNDAMENTALS#^f0a56c]]
 Penetration testing is the process of identifying potential security vulnerabilities in an organization's software, systems, and IT infrastructure by simulating real-world cyber attacks. These tests help organizations strengthen their defenses, identify critical vulnerabilities ahead of time, and minimize the impact of a potential security breach.
 
 Penetration tests are conducted within the framework of a contract signed between the organization requesting the test and the organization performing the test. This contract ensures that the test activities are conducted legally and defines the scope of the test. Only the components specified in the contract may be tested, ensuring that the process adheres to both legal and ethical standards.
