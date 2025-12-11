@@ -168,7 +168,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -291,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+                "file": "13 CTFS & LABS/THM/OVERPASS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LINUX CLI - SHELLS BELLS"
+              "title": "Outline of OVERPASS"
             }
           },
           {
@@ -358,16 +358,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e3b570004cb9b2b",
+  "floating": {
+    "id": "5cc589620c9e6db8",
+    "type": "floating",
+    "children": [
+      {
+        "id": "56e815871c37995f",
+        "type": "window",
+        "children": [
+          {
+            "id": "9ad4015c66b97313",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f5b7f786a538cf89",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "13 CTFS & LABS/THM/OVERPASS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "OVERPASS"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 116,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f5b7f786a538cf89",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
+    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "README.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
-    "COURSES/COURSES.base",
     "COURSES/THM/SOC LEVEL 2.md",
     "COURSES/THM/SOC LEVEL 1.md",
     "COURSES/THM/SECURITY ENGINEER.md",
@@ -386,8 +426,6 @@
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 3.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 2.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 1.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/LINUX/LINUX FUNDAMENTALS.md",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
