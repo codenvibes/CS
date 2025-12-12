@@ -238,13 +238,14 @@ Root is the default, ultimate Linux user who can do anything on the system. Yo
 - Switch to the root user by running the `sudo su` command.
 - You can verify your current user by running `whoami`.
 
-Switching to the Root User
-
 ```shell-session
 mcskidy@tbfc-web01:~$ sudo suroot@tbfc-web01:/home/mcskidy$ whoamiroot
 ```
+<div align="center">
+<br>
+</div>
 
-**Bash History**
+#### Bash History
 
 Did you know that every command you run is saved in a hidden history file, also called Bash history? It is located at every user's home directory: `/home/mcskidy/.bash_history` for McSkidy, and `/root/.bash_history` for root, and you can check it with a convenient `history` command, or just read the files directly with `cat`. Let's check if Sir Carrotbane with his bad bunnies left their traces in history!
 
