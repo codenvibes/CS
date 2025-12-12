@@ -164,9 +164,19 @@
                   "icon": "lucide-file",
                   "title": "LINUX CLI - SHELLS BELLS"
                 }
+              },
+              {
+                "id": "63adedbaf4de3841",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -289,13 +299,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LINUX CLI - SHELLS BELLS"
+              "title": "Outline"
             }
           },
           {
@@ -356,10 +365,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6fb4faf9b221334",
+  "active": "63adedbaf4de3841",
   "lastOpenFiles": [
-    "00 COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+    "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/00 TOOLS.md",
