@@ -275,7 +275,13 @@ To the TBFC red team’s surprise, they received at least one set of working cre
 
 ### Questions
 
-##### 
+##### What is the password used to access the TBFC portal? 
+==Answer==
+
+##### Browse to `http://10.65.145.89` from within the AttackBox and try to access the mailbox of the `factory` user to see if the previously harvested `admin` password has been reused on the email portal. What is the total number of toys expected for delivery?
+==Answer==
+
+##### If you enjoyed today's room, feel free to check out the [Phishing Prevention](https://tryhackme.com/room/phishingemails4gkxh) room.
 ==Answer==
 <div align="center">
 <br>
