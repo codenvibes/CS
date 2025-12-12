@@ -164,19 +164,9 @@
                   "icon": "lucide-file",
                   "title": "LINUX CLI - SHELLS BELLS"
                 }
-              },
-              {
-                "id": "63adedbaf4de3841",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -299,12 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of LINUX CLI - SHELLS BELLS"
             }
           },
           {
@@ -365,9 +356,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63adedbaf4de3841",
+  "active": "a6fb4faf9b221334",
   "lastOpenFiles": [
+    "13 CTFS & LABS/Untitled.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+    "13 CTFS & LABS/THM/OVERPASS.md",
     "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -387,7 +380,6 @@
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
-    "13 CTFS & LABS/THM/OVERPASS.md",
     "README.md",
     "WHITE-BOARD/TODO.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
@@ -411,7 +403,6 @@
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Unconfirmed 23904.crdownload",
-    "00 COURSES/CYBERSHUJAA",
     "Untitled.canvas"
   ]
 }
