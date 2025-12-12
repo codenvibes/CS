@@ -71,7 +71,7 @@ Start the lab by clicking the **Start Machine** button below. The machine will
 
 ## Task 2. Linux CLI
 
-## Working With the Linux CLI
+### Working With the Linux CLI
 
 _- But, there is no graphical interface (GUI) on the server! How will we look for clues?  
 __- Who needs a GUI when we have a Linux command-line terminal? It’s even better!_
@@ -196,7 +196,7 @@ The Eggstrike script you read seems to be stealing Christmas wishes and replacin
 |Output redirect (`>`/`>>`)|Use `>` to overwrite a file, and `>>` to append to the end|`some-long-command > /home/mcskidy/output.txt`|
 |Double ampersand (`&&`)|Run the second command if the first was successful|`grep "secret" message.txt && echo "Secret found!"`|
 
-## Sir Carrotbane Attacks
+### Sir Carrotbane Attacks
 
 **![Sir Carrotbane dressed as a cyber-themed knight, holding two glowing swords. It stands on an encrypted-looking device displaying a lock icon, surrounded by binary code and two glowing, circuit-patterned eggs.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1762788000830.png)**
 
