@@ -42,22 +42,6 @@
                 }
               },
               {
-                "id": "5735fcb3b6b15483",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "08 TOOLS/00 TOOLS.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "00 TOOLS"
-                }
-              },
-              {
                 "id": "21fce08000a30866",
                 "type": "leaf",
                 "state": {
@@ -373,7 +357,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5735fcb3b6b15483",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
