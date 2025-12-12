@@ -234,15 +234,20 @@ Use random or hard-to-guess IDs for public links, but remember that random ID
 
 ##### What does IDOR stand for?
 ==Answer==
+
 ##### What type of privilege escalation are most IDOR cases?
 ==Answer==
+
 ##### Exploiting the IDOR found in the `view_accounts` parameter, what is the `user_id` of the parent that has 10 children?
 ==Answer==
-##### 
+
+##### **Bonus Task:** If you want to dive even deeper, use either the base64 or md5 child endpoint and try to find the `id_number` of the child born on 2019-04-17? To make the iteration faster, consider using something like Burp's Intruder. If you want to check your answer, click the hint on the question.
 ==Answer==
-##### 
+
+##### **Bonus Task:** Want to go even further? Using the `/parents/vouchers/claim` endpoint, find the voucher that is valid on 20 November 2025. Insider information tells you that the voucher was generated exactly on the minute somewhere between 20:00 - 24:00 UTC that day. What is the voucher code? If you want to check your answer, click the hint on the question.
 ==Answer==
-##### 
+
+##### If you enjoyed today's room, check out our complete [IDOR](https://tryhackme.com/room/idor) room!
 ==Answer==
 
 <div align="center">
