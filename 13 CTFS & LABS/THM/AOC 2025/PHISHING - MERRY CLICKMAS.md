@@ -77,6 +77,10 @@ Start your target VM by clicking the **Start Machine** button below. The mac
 **Social engineering** refers to manipulating a user to make a mistake. Examples of such mistakes include sharing a password, opening a malicious file, and approving a payment. The term “social” means that the target of such an attack is human beings, not computer systems. Consequently, the attacker relies on psychological tricks to get the target user to cooperate. Some psychological factors that can play a key role in the success of such attacks are urgency, curiosity, and authority. This is why some would refer to social engineering as “human hacking”.
 
 ![Three cartoon elves dressed in red winter outfits stand in a snowy forest. The elf on the left holds a fishing rod, the middle elf has a satchel over his shoulder, and the elf on the right holds two fish.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1763362766183.jpg)
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Phishing
 
@@ -97,6 +101,10 @@ The second S.T.O.P. reminds users to follow the following instructions:
 - **Prove the sender**. Check the real From address/number, not just the display name.
 
 After hours of periodic cyber security training, the red team checks to see if the TBFC staff can dodge “fishy” emails.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Building the Trap
 
@@ -119,6 +127,10 @@ Starting server on http://0.0.0.0:8000
 ```
 
 The above message indicates that the phishing web application is listening on port 8000; moreover, the `0.0.0.0` implies that it is bound to all interfaces. To confirm what the user will see, use Firefox on the AttackBox and browse to `http://10.65.135.240:8000` or `http://127.0.0.1:8000`; either of these addresses will show you what the user will see. With this set, it is time to email this link to test our users’ vigilance.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Delivery via Social-Engineer Toolkit (SET)
 
