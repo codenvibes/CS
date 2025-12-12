@@ -288,7 +288,7 @@ THM{learning-linux-cli}
 ```
 
 ##### Complete on machine<br>Identify the flag inside the Eggstrike script
-==Answer==
+==THM{sir-carrotbane-attacks}==
 
 ##### Which command would you run to switch to the root user?
 ==sudo su==
