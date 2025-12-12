@@ -290,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/00 TOOLS.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 TOOLS"
+              "title": "Outline of LINUX CLI - SHELLS BELLS"
             }
           },
           {
@@ -357,8 +357,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "a6fb4faf9b221334",
   "lastOpenFiles": [
+    "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
