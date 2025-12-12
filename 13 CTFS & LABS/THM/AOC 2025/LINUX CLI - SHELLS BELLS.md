@@ -9,7 +9,8 @@ description: Explore the Linux command-line interface and use it to unveil Chris
 | SECTION/TASK | FLAG |
 | ------------ | ---- |
 |              |      |
-
+Task 1. Introduction
+Task 2. Linux CLI
 <div align="center">
 <br>
 <br>
