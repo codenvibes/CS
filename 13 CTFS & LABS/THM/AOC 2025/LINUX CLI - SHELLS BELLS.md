@@ -227,8 +227,11 @@ There are hundreds of CLI commands to view and manage your system. For example
 mcskidy@tbfc-web01:~$ cat /etc/shadow
 cat: /etc/shadow: Permission denied
 ```
+<div align="center">
+<br>
+</div>
 
-**Root User**
+#### Root User
 
 Root is the default, ultimate Linux user who can do anything on the system. You can switch the user to root with `sudo su`, and return back to McSkidy with the `exit` command. Only root can open `/etc/shadow` and edit system settings, so this user is often a main target for attackers. If at any moment you want to verify your current user, just run `whoami`!
 
