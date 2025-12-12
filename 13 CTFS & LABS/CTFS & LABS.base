@@ -10,4 +10,5 @@ views:
     filters:
       and:
         - file.name == "13 CTFS & LABS/THM"
+        - file.tags.contains("THM")
     image: note.aliases
