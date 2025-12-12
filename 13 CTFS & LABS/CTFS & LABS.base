@@ -9,6 +9,6 @@ views:
     name: THM
     filters:
       and:
-        - file.name == "13 CTFS & LABS/THM"
         - file.tags.contains("THM")
+        - file.folder == "13 CTFS & LABS/THM"
     image: note.aliases
