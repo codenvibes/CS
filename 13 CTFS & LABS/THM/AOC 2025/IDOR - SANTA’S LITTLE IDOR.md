@@ -232,8 +232,19 @@ Use random or hard-to-guess IDs for public links, but remember that random ID
 
 ### Questions
 
+##### What does IDOR stand for?
+==Answer==
+##### What type of privilege escalation are most IDOR cases?
+==Answer==
+##### Exploiting the IDOR found in the `view_accounts` parameter, what is the `user_id` of the parent that has 10 children?
+==Answer==
 ##### 
 ==Answer==
+##### 
+==Answer==
+##### 
+==Answer==
+
 <div align="center">
 <br>
 <br>
