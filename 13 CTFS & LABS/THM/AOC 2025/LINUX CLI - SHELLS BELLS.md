@@ -250,13 +250,13 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 ### Objectives
 
 ##### Which CLI command would you use to list a directory?
-==Answer==
+==ls==
 ##### Complete on machine<br>Identify the flag inside of the McSkidy's guide
 ==Answer==
-##### Complete on machine
+##### Complete on machine<br>Identify the flag inside the Eggstrike script
 ==Answer==
-##### 
-==Answer==
+##### Which command would you run to switch to the root user?
+==sudo su==
 ##### 
 ==Answer==
 ##### 
