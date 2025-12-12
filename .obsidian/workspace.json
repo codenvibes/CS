@@ -18,7 +18,7 @@
                 "state": {
                   "type": "bases",
                   "state": {
-                    "file": "COURSES/COURSES.base",
+                    "file": "00 COURSES/COURSES.base",
                     "viewName": "THM"
                   },
                   "pinned": true,
@@ -289,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "00 COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -356,28 +356,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
-    "COURSES/COURSES.base",
+    "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
-    "COURSES/THM/WEB FUNDAMENTALS.md",
-    "COURSES/THM/WEB APPLICATION PENTESTING.md",
-    "COURSES/THM/SOC LEVEL 2.md",
-    "COURSES/THM/SOC LEVEL 1.md",
-    "COURSES/THM/SECURITY ENGINEER.md",
-    "COURSES/THM/RED TEAMING.md",
-    "COURSES/THM/PRE SECURITY.md",
-    "COURSES/THM/JR PENETRATION TESTER.md",
-    "COURSES/THM/DEVSECOPS.md",
-    "COURSES/THM/DEFENDING AZURE.md",
-    "COURSES/THM/CYBER SECURITY 101.md",
-    "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
-    "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
+    "00 COURSES/THM/WEB FUNDAMENTALS.md",
+    "00 COURSES/THM/WEB APPLICATION PENTESTING.md",
+    "00 COURSES/THM/SOC LEVEL 2.md",
+    "00 COURSES/THM/SOC LEVEL 1.md",
+    "00 COURSES/THM/SECURITY ENGINEER.md",
+    "00 COURSES/THM/RED TEAMING.md",
+    "00 COURSES/THM/PRE SECURITY.md",
+    "00 COURSES/THM/JR PENETRATION TESTER.md",
+    "00 COURSES/THM/DEVSECOPS.md",
+    "00 COURSES/THM/DEFENDING AZURE.md",
+    "00 COURSES/THM/CYBER SECURITY 101.md",
+    "00 COURSES/THM/ATTACKING AND DEFENDING AWS.md",
+    "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "README.md",
     "WHITE-BOARD/TODO.md",
@@ -402,7 +402,7 @@
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Unconfirmed 23904.crdownload",
-    "COURSES/CYBERSHUJAA",
+    "00 COURSES/CYBERSHUJAA",
     "Untitled.canvas"
   ]
 }
