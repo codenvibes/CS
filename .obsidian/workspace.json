@@ -104,7 +104,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "1ac3a562cde27d81",
@@ -306,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                "file": "08 TOOLS/00 TOOLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of 00 TOOLS"
             }
           },
           {
@@ -373,10 +373,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "5735fcb3b6b15483",
   "lastOpenFiles": [
-    "COURSES/COURSES.base",
     "09 SOFT SKILLS & CAREER/PIRP.base",
+    "COURSES/COURSES.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
