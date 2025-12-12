@@ -223,8 +223,6 @@ Now it is clear that the server has been breached, and the Christmas wishlist ha
 
 There are hundreds of CLI commands to view and manage your system. For example, `uptime` to see how much time your system is running, `ip addr` to check your IP address, and `ps aux` to list all processes. You may also check the usernames and hashed passwords of users, such as McSkidy, by running `cat /etc/shadow`. However, you'd need root permissions to do that.
 
-Permission Denied
-
 ```shell-session
 mcskidy@tbfc-web01:~$ cat /etc/shadow
 cat: /etc/shadow: Permission denied
