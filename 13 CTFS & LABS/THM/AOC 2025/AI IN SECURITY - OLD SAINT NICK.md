@@ -193,10 +193,10 @@ _If you are on a small display, we recommend expanding the AttackBox into full s
 ##### Complete the AI showcase by progressing through all of the stages. What is the flag presented to you?
 ==Answer==
 
-##### 
+##### Execute the exploit provided by the red team agent against the vulnerable web application hosted at `MACHINE_IP:5000`. What flag is provided in the script's output after it?<br>Remember, you will need to update the IP address placeholder in the script with the IP of your vulnerable machine (`MACHINE_IP:5000`)
 ==Answer==
 
-##### 
+##### If you enjoyed today's room, feel free to check out the [Defending Adverserial Attacks](https://tryhackme.com/room/defadversarialattacks) room, where you will learn how to harden and secure AI models.
 ==Answer==
 <div align="center">
 <br>
