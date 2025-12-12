@@ -257,8 +257,22 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 ==ls==
 
 ##### Complete on machine<br>Identify the flag inside of the McSkidy's guide
-==Answer==
+==THM{learning-linux-cli}==
 
+```
+mcskidy@tbfc-web01:~/Guides$ cat .guide.txt 
+I think King Malhare from HopSec Island is preparing for an attack.
+Not sure what his goal is, but Eggsploits on our servers are not good.
+Be ready to protect Christmas by following this Linux guide:
+
+Check /var/log/ and grep inside, let the logs become your guide.
+Look for eggs that want to hide, check their shells for what's inside!
+
+P.S. Great job finding the guide. Your flag is:
+-----------------------------------------------
+THM{learning-linux-cli}
+-----------------------------------------------
+```
 ##### Complete on machine<br>Identify the flag inside the Eggstrike script
 ==Answer==
 
