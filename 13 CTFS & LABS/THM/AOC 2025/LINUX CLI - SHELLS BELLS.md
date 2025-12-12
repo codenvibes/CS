@@ -272,7 +272,7 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 ##### Complete on machine<br>Identify the flag inside of the McSkidy's guide
 ==THM{learning-linux-cli}==
 
-```
+```shell
 mcskidy@tbfc-web01:~/Guides$ cat .guide.txt 
 I think King Malhare from HopSec Island is preparing for an attack.
 Not sure what his goal is, but Eggsploits on our servers are not good.
@@ -299,7 +299,7 @@ THM{learning-linux-cli}
 ##### Finally, what flag did Sir Carrotbane leave in the root bash history?
 ==THM{until-we-meet-again}==
 
-```
+```shell
 root@tbfc-web01:~$ cat .bash_history
 whoami
 cd ~
