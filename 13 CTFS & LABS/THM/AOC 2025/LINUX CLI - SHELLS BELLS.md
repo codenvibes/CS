@@ -56,9 +56,9 @@ Start the lab by clicking the **Start Machine** button below. The machine will
 <br>
 </div>
 
-### Questions
+### Objectives
 
-##### 
+##### I have successfully started my virtual machine!
 ==No answer needed==
 <div align="center">
 <br>
@@ -247,10 +247,17 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 <br>
 </div>
 
-### Questions
+### Objectives
 
 ##### 
 ==Answer==
+##### 
+==Answer==
+##### 
+==Answer==
+##### 
+==Answer==
+
 <div align="center">
 <br>
 <br>
