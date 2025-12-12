@@ -90,6 +90,10 @@ GPT this, GPT that, we’ve all heard it often. And it’s likely to persist. As
 With that said, let’s begin today’s room!
 
 ![a christmas bauble ornament with an AI robot sitting inside of it.](https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1762182384720)
+<div align="center">
+<br>
+<br>
+</div>
 
 ### AI in Cyber Security
 
@@ -101,6 +105,10 @@ The use of artificial intelligence has seen a significant boost in cyber secur
 |Processing large amounts of data|Analysing vast data from multiple types of sources. For example, system and network logs together.|
 |Behaviour analysis|Tracking normal behaviour and activities over a period of time and flagging anything that is out of the ordinary.|
 |Generative AI|Summarising or providing context behind a series of events.|
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Defensive Security
 
@@ -109,12 +117,20 @@ The use of artificial intelligence has seen a significant boost in cyber secur
 AI agents are being used in blue teaming to speed up detection, investigation, and response, making them quicker and more dependable. Acting like automated assistants, these agents continuously process telemetry (logs, network flows, endpoint signals) and add context to alerts. Furthermore, we are witnessing the integration of AI into vendor appliances—such as AI-assisted firewalling and intrusion detection systems.
 
 Beyond just detecting threats, AI can also assist in automating responses. Picture your system automatically isolating an infected device, blocking a suspicious email, or flagging an unusual login attempt — all in real time.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Offensive Security
 
 AI agents have made a notable impact on offensive security by automating and handling the often very labourious and time-consuming tasks that a pentester might traditionally undertake. 
 
 For example, AI can be a powerful tool in a penetration tester's workflow for reconnaissance and information gathering, from OSINT to analysing noisy scanner outputs and mapping attack surfaces. This allows the pentester to spend more time on the crucial tasks that require a human touch.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Software
 
@@ -125,6 +141,10 @@ AI-driven software development, rightfully, sounds a bit frightening. Isn't that
 However, AI has proven to be a valuable addition to the software development process in several ways. One example is a virtual "colleague" to bounce ideas off while writing the code itself. More importantly, it is used as a SAST/DAST scanner. These scanners audit and analyse written code and applications for potential vulnerabilities. 
 
 Yes, it's somewhat ironic. AI agents can be great at identifying vulnerabilities, but are not quite as effective at writing secure code.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Considerations of AI In Cyber Security
 
@@ -137,6 +157,10 @@ While the usual considerations of using AI apply, such as not owning the outpu
 One such consideration is the use of AI in activities like offensive penetration testing. While we have discussed some of AI's applications in these areas, caution remains essential. You do not want to explain to a client that their services and websites are down because an AI has caused a race condition or overwhelmed their systems.
 
 We must think carefully about the data AI learns from, how transparent and fair its decisions are, and how reliable it remains when the unexpected occurs. We cannot assume the output from AI is 100% correct. Efforts must be made to verify the information it provides. Additionally, managing challenges such as keeping data private, securing AI models, and informing users properly requires careful consideration.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Practical
 
@@ -149,6 +173,10 @@ Phew! Ready for an exciting exercise? You will be interacting with Van SolveIT, 
 When you're ready, you can access Van SolveIT at `http://MACHINE_IP`. Remember, you will need to do so either from the AttackBox or your own device connected to the VPN.
 
 _If you are on a small display, we recommend expanding the AttackBox into full screen mode which can be done by pressing the "two arrows" icon (left of the "+" icon) in the split-screen view to expand it into full screen._
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Usage Tips
 
@@ -161,6 +189,12 @@ _If you are on a small display, we recommend expanding the AttackBox into full s
 </div>
 
 ### Questions
+
+##### Complete the AI showcase by progressing through all of the stages. What is the flag presented to you?
+==Answer==
+
+##### 
+==Answer==
 
 ##### 
 ==Answer==
