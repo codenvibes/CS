@@ -68,7 +68,7 @@ Start your target VM by clicking the **Start Machine** button below. The mac
 <div style="page-break-after: always;"></div>
 
 ## Task 2. IDOR on the Shelf
-## It’s Dangerously Obvious, Really
+### It’s Dangerously Obvious, Really
 
 Have you ever seen a link that looks like this: `https://awesome.website.thm/TrackPackage?packageID=1001`?
 
@@ -95,16 +95,24 @@ If the user wants to know the status of their package and makes a web request, t
 However, since packageID is a sequential number, it becomes pretty obvious to guess the packageIDs of other customers, and since the web application isn't verifying that the person making the request **is the same** person as the one who owns the package, an IDOR vulnerability appears, allowing attackers to recover the details for packages belonging to other users. Even worse is when a feature like this doesn't require a user to authenticate, then there would be no way to even tell who is making the request! To dive a bit deeper, we need to understand authentication, authorization, and privilege escalation.
 
 **A note from one of the co-authors of this task:** I am not a fan of the vulnerability name IDOR. I prefer the name authorization Bypass. If you want to understand my reasoning, expand here, but you don't have to be bored with the details!
+<div align="center">
+<br>
+<br>
+</div>
 
-## It Doesn’t Obviously Relate
+### It Doesn’t Obviously Relate
 
 The full term, Insecure Direct Object Reference, sounds fancy, but it doesn’t really describe what’s going wrong. The “Direct Object Reference” part just means that a system uses an ID (like `/user/1`) to point to something. That’s not the problem. The real issue is that the system doesn’t check whether the person making the request is allowed to access it.
 
 A lot of people try to “fix” IDORs by hiding or encoding IDs. For example, changing `/user/1` to `/user/ea21f09b2`. That might make it look harder to guess, but if the server still isn’t checking permissions, it’s just as insecure. The vulnerability isn’t about how the object is referenced, it’s about missing authorization checks.
 
 That’s why I prefer to call it an Authorization Bypass instead. It explains exactly what’s happening: someone is bypassing the rules that decide who can see or change something. Whether the ID is a number, a hash, or a random string, the risk stays the same if the server doesn’t verify access. You can read more [here](https://www.mwrcybersec.com/whats-the-deal-with-idor) if you want.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Identity Defines Our Reach
+### Identity Defines Our Reach
 
 To understand the root cause of IDOR, it is important to understand the basic principles of authentication and authorization:
 
@@ -121,8 +129,12 @@ The last bit of theory to cover is privilege escalation types:
 - **Horizontal privilege escalation:** This refers to privilege escalation where you use a feature you are authorized to use, but gain access to data that you are not allowed to access. For example, you should only be able to see your accounts, not someone else's accounts.
 
 IDOR is usually a form of horizontal privilege escalation. You are allowed to make use of the track package functionality. But you should be restricted to only performing that tracking action for packages you own. Now that we understand the theory, let's look at how to exploit IDOR practically!
+<div align="center">
+<br>
+<br>
+</div>
 
-## Iterate Digits, Observe Responses
+### Iterate Digits, Observe Responses
 
 Let's start with the simplest example of IDOR. On the web application, let's authenticate to the application using the details below.
 
@@ -167,8 +179,12 @@ This tells us that the application is using our `user_id` as the reference for
 Let's change the `user_id` to 11 and see what happens. Double-click on the **Value** field of the `auth_user` data entry, update the `user_id` to 11 and save it by pressing **Enter**. Now refresh the page. All of a sudden it seems like you are a completely different user!
 
 This is the simplest form of IDOR. Simply changing the `user_id` to something else means we can see other users' data. Some IDORs might be slightly more hidden. Just because you don't see a direct number doesn't mean it doesn't exist! Let's dive deeper. To continue onto the next challenges of the task, **go and change the id back to 10 using the same steps you followed above**. Alternatively, you can log out of the application and log back in using the username and password.
+<div align="center">
+<br>
+<br>
+</div>
 
-## In Disguise: Obvious References
+### In Disguise: Obvious References
 
 Sometimes, IDOR may not be as simple as just a number. In certain cases, encoding may have been used. On the loaded profile, click the eye icon next to the first child as shown on the image below.
 
@@ -179,16 +195,24 @@ Now go back to the **Network** tab and take a look at the requests being made;
 ![Developer tools: child endpoint request](https://tryhackme-images.s3.amazonaws.com/user-uploads/66c44fd9733427ea1181ad58/room-content/66c44fd9733427ea1181ad58-1762174472236.png)
 
 Simply put, the `Mg==` is just the base64 encoded version of the number `2`. You could still perform IDOR using this request, but you would have to base64 encode the number first.
+<div align="center">
+<br>
+<br>
+</div>
 
-## In Digests, Objects Remain
+### In Digests, Objects Remain
 
 Encoding isn't the only thing that can be used to hide potential IDOR vulnerabilities. Sometimes the values may look like a hash, such as MD5 or SHA1. If you want to see what that would look like, take a look at the request that happens when you click the edit icon next to a child.
 
 ![API child endpoint using md5 hashing](https://tryhackme-images.s3.amazonaws.com/user-uploads/66c44fd9733427ea1181ad58/room-content/66c44fd9733427ea1181ad58-1762174472380.png)
 
 While the string may look random, upon further investigation, you can see that it is a type of hash. If we understand what value was used to generate the hash, we can perform an IDOR attack by simply replicating the hashing function. Using something like a [hash identifier](https://hashes.com/en/tools/hash_identifier) can help you quickly understand what hashing algorithm is being used and can often tell you what data was hashed.
+<div align="center">
+<br>
+<br>
+</div>
 
-## It's Deterministic, Obviously Reproducible
+### It's Deterministic, Obviously Reproducible
 
 Sometimes you have to dig quite deep for IDOR. Sometimes IDOR is not as clear. Sometimes the IDOR stems from the actual algorithm being used. In this last case, let's take a look at our vouchers. While the values may look random, we need to investigate what algorithm was used to generate them. Their format looks like a UUID, so let's use a website such as [UUID Decoder](https://www.uuidtools.com/decode) to try to understand what UUID format was used. Copy one of the vouchers to the website for decoding, and you should see something like this:
 
@@ -197,8 +221,12 @@ Sometimes you have to dig quite deep for IDOR. Sometimes IDOR is not as clear
 While these look completely random, we can see that the UUID version 1 was used. The issue with UUID 1 is that if we know the exact date when the code was generated, we can recover the UUID. For example, suppose we knew the elves always generated vouchers between 20:00 - 21:00. In that case, we can create UUIDs for that entire time period (3600 UUIDs since we have 60 minutes, and 60 seconds in a minute), which we could use in a brute force attack to aim to recover a valid voucher and get more gifts.
 
 Now that we have seen the various IDORs that can be found, let's discuss how to fix them and avoid them!
+<div align="center">
+<br>
+<br>
+</div>
 
-## Improve Design, Obliterate Risk
+### Improve Design, Obliterate Risk
 
 Now that we learned about what IDOR is, let's discuss how to fix it. The best way to stop IDOR is to make sure the server checks who is asking for the data every time. It's not enough to hide or change the ID number; the system must confirm that the logged-in user is authorized to see or change that information.
 
