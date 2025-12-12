@@ -4,167 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "5f8dc41ea47bd112",
+        "id": "bed426459f6e71ff",
         "type": "split",
         "children": [
           {
-            "id": "bed426459f6e71ff",
-            "type": "split",
+            "id": "5fba8451e3d9bb96",
+            "type": "tabs",
+            "dimension": 24.708171206225682,
             "children": [
               {
-                "id": "5fba8451e3d9bb96",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "d6e3d74256db3bbc",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "00 COURSES/COURSES.base",
-                        "viewName": "THM"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "COURSES"
-                    }
+                "id": "d6e3d74256db3bbc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "00 COURSES/COURSES.base",
+                    "viewName": "THM"
                   },
-                  {
-                    "id": "ed613906cd6677eb",
-                    "type": "leaf",
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "13 CTFS & LABS/CTFS & LABS.base",
-                        "viewName": "THM"
-                      },
-                      "icon": "lucide-layout-grid",
-                      "title": "CTFS & LABS"
-                    }
-                  },
-                  {
-                    "id": "6b2536b183f7f9a6",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "bases",
-                      "state": {
-                        "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                        "viewName": "INTERVIEWS"
-                      },
-                      "pinned": true,
-                      "icon": "lucide-layout-grid",
-                      "title": "PIRP"
-                    }
-                  },
-                  {
-                    "id": "21fce08000a30866",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "WHITE-BOARD/WHITE-BOARD.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "WHITE-BOARD"
-                    }
-                  },
-                  {
-                    "id": "a9a7f4c54f83fbd1",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "README.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true,
-                      "icon": "lucide-file",
-                      "title": "README"
-                    }
-                  },
-                  {
-                    "id": "0a6f434a8cd9f151",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "CS JOURNAL.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true,
-                      "icon": "lucide-file",
-                      "title": "CS JOURNAL"
-                    }
-                  }
-                ],
-                "currentTab": 1
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "COURSES"
+                }
               },
               {
-                "id": "245458448bf23b3f",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "10dd2c9178155b52",
-                    "type": "leaf",
-                    "pinned": true,
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "WHITE-BOARD/TODO.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "pinned": true,
-                      "icon": "lucide-file",
-                      "title": "TODO"
-                    }
+                "id": "ed613906cd6677eb",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "13 CTFS & LABS/CTFS & LABS.base",
+                    "viewName": "THM"
                   },
-                  {
-                    "id": "dde008b382b7a5ed",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "WIRELESS NETWORK SECURITY"
-                    }
+                  "icon": "lucide-layout-grid",
+                  "title": "CTFS & LABS"
+                }
+              },
+              {
+                "id": "6b2536b183f7f9a6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "09 SOFT SKILLS & CAREER/PIRP.base",
+                    "viewName": "INTERVIEWS"
                   },
-                  {
-                    "id": "1e3b570004cb9b2b",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "LINUX CLI - SHELLS BELLS"
-                    }
-                  }
-                ],
-                "currentTab": 2
+                  "pinned": true,
+                  "icon": "lucide-layout-grid",
+                  "title": "PIRP"
+                }
+              },
+              {
+                "id": "21fce08000a30866",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WHITE-BOARD/WHITE-BOARD.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WHITE-BOARD"
+                }
+              },
+              {
+                "id": "a9a7f4c54f83fbd1",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
+              },
+              {
+                "id": "0a6f434a8cd9f151",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "CS JOURNAL.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "CS JOURNAL"
+                }
               }
             ],
-            "direction": "horizontal"
+            "currentTab": 1
           },
           {
-            "id": "1ac3a562cde27d81",
+            "id": "245458448bf23b3f",
             "type": "tabs",
+            "dimension": 75.29182879377431,
             "children": [
+              {
+                "id": "10dd2c9178155b52",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WHITE-BOARD/TODO.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "TODO"
+                }
+              },
+              {
+                "id": "dde008b382b7a5ed",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WIRELESS NETWORK SECURITY"
+                }
+              },
+              {
+                "id": "1e3b570004cb9b2b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "LINUX CLI - SHELLS BELLS"
+                }
+              },
               {
                 "id": "87e9d3c6112bc47f",
                 "type": "leaf",
@@ -194,10 +182,10 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
-        "direction": "vertical"
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -369,7 +357,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -384,7 +373,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6fb4faf9b221334",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "13 CTFS & LABS/THM/AOC 2025/PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
