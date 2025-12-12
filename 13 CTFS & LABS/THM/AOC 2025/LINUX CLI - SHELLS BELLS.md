@@ -252,8 +252,6 @@ Did you know that every command you run is saved in a hidden history file, also 
 - Familiarize yourself with Bash history by running the `history` command.
 - Note that your commands are also saved to a file (`cat .bash_history`).
 
-Accessing Bash History
-
 ```shell-session
 root@tbfc-web01:/home/mcskidy$ cd /root
 root@tbfc-web01:~$ cat .bash_history
