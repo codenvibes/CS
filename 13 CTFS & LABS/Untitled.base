@@ -4,3 +4,10 @@ views:
     filters:
       and:
         - file.folder == "13 CTFS & LABS/HTB"
+    image: note.aliases
+  - type: cards
+    name: THK
+    filters:
+      and:
+        - file.folder == "13 CTFS & LABS/THM"
+    image: note.aliases
