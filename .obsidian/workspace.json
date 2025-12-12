@@ -87,8 +87,7 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "1ac3a562cde27d81",
@@ -167,7 +166,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -290,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+                "file": "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LINUX CLI - SHELLS BELLS"
+              "title": "Outline of 01 INTRODUCTION TO METASPLOIT"
             }
           },
           {
@@ -357,12 +356,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6fb4faf9b221334",
+  "active": "87e9d3c6112bc47f",
   "lastOpenFiles": [
+    "COURSES/COURSES.base",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "COURSES/COURSES.base",
-    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
@@ -380,14 +380,12 @@
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "README.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTTP.md",
     "01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
     "01 CORE CONCEPTS/WEB BASICS/PUTTING IT ALL TOGETHER.md",
-    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
