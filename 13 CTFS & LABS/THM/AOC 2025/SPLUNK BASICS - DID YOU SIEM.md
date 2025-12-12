@@ -322,17 +322,20 @@ The results show a hugh volume of data transferred from the compromised webserve
 
 ##### What is the attacker IP found attacking and compromising the web server?
 ==Answer==
+
 ##### Which day was the peak traffic in the logs? (Format: YYYY-MM-DD)
 ==Answer==
+
 ##### What is the count of Havij user_agent events found in the logs?
 ==Answer==
+
 ##### How many path traversal attempts to access sensitive files on the server were observed?
 ==Answer==
+
 ##### Examine the firewall logs. How many bytes were transferred to the C2 server IP from the compromised web server?
 ==Answer==
+
 ##### If you enjoyed today's room, check out the [Incident Handling With Splunk](https://tryhackme.com/room/splunk201) room to learn more about analyzing logs with Splunk.
-==Answer==
-##### 
 ==Answer==
 <div align="center">
 <br>
