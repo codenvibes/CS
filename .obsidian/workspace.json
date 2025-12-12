@@ -179,7 +179,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -302,13 +302,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/CTFS & LABS.base",
+                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CTFS & LABS"
+              "title": "Outline of LINUX CLI - SHELLS BELLS"
             }
           },
           {
@@ -408,11 +408,11 @@
       }
     ]
   },
-  "active": "ed613906cd6677eb",
+  "active": "a6fb4faf9b221334",
   "lastOpenFiles": [
+    "13 CTFS & LABS/CTFS & LABS.base",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
-    "13 CTFS & LABS/CTFS & LABS.base",
     "WHITE-BOARD/TODO.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "00 COURSES/COURSES.base",
@@ -439,7 +439,6 @@
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTTP.md",
     "01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
-    "01 CORE CONCEPTS/WEB BASICS/PUTTING IT ALL TOGETHER.md",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
