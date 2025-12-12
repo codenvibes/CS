@@ -76,7 +76,7 @@ Start your VM by clicking the **Start Machine** button below. The machine wi
 <div style="page-break-after: always;"></div>
 
 ## Task 2. Log Analysis with Splunk
-## Exploring the Logs
+### Exploring the Logs
 
 In the Splunk instance, the data has been pre-ingested for us to investigate the incident. On the Splunk interface, click on **Search & Reporting** on the left panel, as shown below:
 
@@ -96,8 +96,12 @@ The two datasets are as follows:
 - `firewall_logs`: This data source contains the firewall logs, showing the traffic allowed or blocked. The local IP assigned to the web server is `10.10.1.15`.
 
 Let's explore the logs and investigate the attack on our servers to identify the culprit.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Initial Triage
+### Initial Triage
 
 Start a basic search across the index using your custom source type `web_traffic`, using the following query:
 
@@ -115,8 +119,12 @@ Let's break down our result for a better understanding:
 6. **Event details & field extraction:** This section shows the parsed details of a single event with extracted fields like `user_agent`, `path`, `status`, `client_ip`, and more.
 
 Now that we have an understanding of the Splunk layout and how to read the logs in Splunk. Let's continue our analysis of the logs.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Visualizing the Logs Timeline
+### Visualizing the Logs Timeline
 
 Let's chart the total event count over time, grouped by day, to determine the number of events captured per day. This will help us in identifying the day that received an abnormal number of logs.
 
@@ -135,8 +143,12 @@ We can append the `reverse` function at the end to display the result in desce
 ![Shows the same result but in reverse order using the reverse function](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762375952629.png)
 
 There is a clear period of intense activity during which King Malhare launched his main attack phase.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Anomaly Detection
+### Anomaly Detection
 
 Now that we have examined the days with the abnormal logs, using the table and the graph, let's use the same search query to examine various fields to hunt for suspicious values. We need to go back to the **Events** tab to continue.
 
@@ -159,8 +171,12 @@ The second field we will examine is the `client_ip`, which contains the IP addr
 The third field we will examine is path, which contains the URI being requested and accessed by the client IPs. The results shown below clearly indicate some attacks worth investigating.
 
 ![This image points to the path field with various values](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762518123140.png)
+<div align="center">
+<br>
+<br>
+</div>
 
-## Filtering out Benign Values
+### Filtering out Benign Values
 
 We know King Malhare's bunnies use scripts and tools, not standard browsers. Let's filter out all standard traffic.
 
@@ -171,8 +187,12 @@ Let's exclude common legitimate user agents. The following query will remove leg
 ![Image points to the client IP values after excluding legit user agents](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1761870512175.png)
 
 The output reveals interesting results. By clicking on the `client_ip` field we can see a single IP address being responsible for all the suspicious user agents. Let's note that down for further investigation and fill in the `<REDACTED>` portions of the upcoming queries with that IP.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Narrowing Down Suspicious IPs
+### Narrowing Down Suspicious IPs
 
 In real-world scenarios, we often encounter various IP addresses constantly attempting to attack our servers. To narrow down on the IP addresses that do not send requests from common desktop or mobile browsers, we can use the following query:
 
@@ -180,8 +200,12 @@ In real-world scenarios, we often encounter various IP addresses constantly atte
 
 ![Image points to the client IP values after excluding legit user agents](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1761870512236.png)  
 The result confirms the top IP used by the Bandit Bunnies. In the search query, the `-` in the `sort -count` part will sort the result by count in reverse order, it's the same as using the reverse function. Let's pick this IP address and filter out to see what the footprints of the activities captured.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Tracing the Attack Chain
+### Tracing the Attack Chain
 
 We will now focus on the selected attacker IP to trace their steps chronologically, confirming the use of multiple tools and payloads. Don’t forget to replace `<REDACTED>` with the IP we noted down previously.
 
@@ -220,8 +244,12 @@ Find the automated attack tool and its payload by using the query below:
 ![Results show footprints of SQL injection in the logs](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762518123699.png)
 
 Above results confirms the use of known SQL injection and specific attack strings like `SLEEP(5)`. A **504** status code often confirms a successful time-based SQL injection attack.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Exfiltration Attempts
+### Exfiltration Attempts
 
 Search for attempts to download large, sensitive files (backups, logs). We can use the query below:
 
@@ -230,8 +258,12 @@ Search for attempts to download large, sensitive files (backups, logs). We can u
 ![Result show footprints of exfiltration attempts](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762409281685.png)
 
 The results indicate the attacker was exfiltrating large chunks of compressed log files using tools like `curl`, `zgrab`, and more. We can confirm the details about these connections in the firewall logs.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Ransomware Staging & RCE
+### Ransomware Staging & RCE
 
 Requests for sensitive archives like `/logs.tar.gz` and `/config` indicate the attacker is gathering data for double-extortion. In the logs, we identified some requests related to bunnylock and shell.php. Let's use the following query to see what those search queries are about.
 
@@ -240,8 +272,12 @@ Requests for sensitive archives like `/logs.tar.gz` and `/config` indicate t
 ![Result shows footprints of Data Staging attempts](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762409281693.png)
 
 Above results clearly confirm a successful webshell. The attacker has gained full control over the web server and is also able to run commands. This type of attack is called Remote code Execution (RCE). The execution of `/shell.php?cmd=./bunnylock.bin` indicates a ransomware like program executed on the server. 
+<div align="center">
+<br>
+<br>
+</div>
 
-## Correlate Outbound C2 Communication
+### Correlate Outbound C2 Communication
 
 We pivot the search to the `firewall_logs` using the **Compromised Server IP** (`10.10.1.5`) as the source and the attacker IP as the destination.
 
@@ -250,8 +286,12 @@ We pivot the search to the `firewall_logs` using the **Compromised Server IP*
 ![Image shows correlation of C2 communication in firewall logs](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762518123059.png)
 
 This query proves the server immediately established an **outbound** connection to the attacker's C2 IP on the suspicious `DEST_PORT`. The `ACTION=ALLOWED` and `REASON=C2_CONTACT` fields confirm the malware communication channel was active.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Volume of Data Exfiltrated
+### Volume of Data Exfiltrated
 
 We can also use the sum function to calculate the sum of the bytes transferred, using the bytes_transferred field, as shown below:
 
@@ -260,8 +300,12 @@ We can also use the sum function to calculate the sum of the bytes transferred, 
 ![Result shows data exfiltrated to C2 server](https://tryhackme-images.s3.amazonaws.com/user-uploads/5e8dd9a4a45e18443162feab/room-content/5e8dd9a4a45e18443162feab-1762519716093.png)
 
 The results show a hugh volume of data transferred from the compromised webserver to C2 server.
+<div align="center">
+<br>
+<br>
+</div>
 
-## Conclusion
+### Conclusion
 
 - **Identity found:** The attacker was identified via the highest volume of malicious web traffic originating from the external IP.
 - **Intrusion vector:** The attack followed a clear progression in the web logs (`sourcetype=web_traffic`).
