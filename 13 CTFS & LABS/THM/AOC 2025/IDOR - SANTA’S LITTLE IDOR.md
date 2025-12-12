@@ -140,12 +140,9 @@ Let's start with the simplest example of IDOR. On the web application, let's au
 
 #### Credentials
 
-Username
-niels
-Password
-TryHackMe#2025
-IP address/Website
-http://MACHINE_IP
+Username: niels
+Password: TryHackMe#2025
+IP address/Website: http://MACHINE_IP
 
 Once authenticated, you should see a dashboard like this:
 
