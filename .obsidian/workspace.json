@@ -164,9 +164,22 @@
                   "icon": "lucide-file",
                   "title": "LINUX CLI - SHELLS BELLS"
                 }
+              },
+              {
+                "id": "ed613906cd6677eb",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "13 CTFS & LABS/Untitled.base",
+                    "viewName": "HTB"
+                  },
+                  "icon": "lucide-layout-grid",
+                  "title": "Untitled"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "vertical"
@@ -289,13 +302,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+                "file": "13 CTFS & LABS/Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LINUX CLI - SHELLS BELLS"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -356,10 +369,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6fb4faf9b221334",
+  "active": "ed613906cd6677eb",
   "lastOpenFiles": [
-    "13 CTFS & LABS/Untitled.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+    "13 CTFS & LABS/Untitled.base",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
