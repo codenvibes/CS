@@ -178,8 +178,7 @@
                   "title": "Untitled"
                 }
               }
-            ],
-            "currentTab": 5
+            ]
           }
         ],
         "direction": "vertical"
@@ -302,13 +301,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/Untitled.base",
+                "file": "WHITE-BOARD/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -369,10 +368,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed613906cd6677eb",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/Untitled.base",
+    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
