@@ -168,17 +168,13 @@
                 }
               },
               {
-                "id": "dea9c174479fe3d2",
+                "id": "a6fb4faf9b221334",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "COURSES/THM/WEB FUNDAMENTALS.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "WEB FUNDAMENTALS"
+                  "title": "New tab"
                 }
               }
             ],
@@ -305,13 +301,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/THM/WEB FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WEB FUNDAMENTALS"
+              "title": "Outline"
             }
           },
           {
@@ -372,8 +367,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dea9c174479fe3d2",
+  "active": "a6fb4faf9b221334",
   "lastOpenFiles": [
+    "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
+    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
+    "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
+    "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/COURSES.base",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
     "COURSES/THM/SOC LEVEL 2.md",
@@ -387,14 +386,11 @@
     "COURSES/THM/CYBER SECURITY 101.md",
     "COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
-    "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
-    "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "README.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "WHITE-BOARD/TODO.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
-    "COURSES/THM/WEB FUNDAMENTALS.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "01 CORE CONCEPTS/WEB BASICS/HTTP.md",
     "01 CORE CONCEPTS/WEB BASICS/HOW WEBSITES WORK.md",
