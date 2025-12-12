@@ -215,8 +215,11 @@ The Eggstrike script you read seems to be stealing Christmas wishes and replacin
 **![Sir Carrotbane dressed as a cyber-themed knight, holding two glowing swords. It stands on an encrypted-looking device displaying a lock icon, surrounded by binary code and two glowing, circuit-patterned eggs.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1762788000830.png)**
 
 Now it is clear that the server has been breached, and the Christmas wishlist has been replaced with an EASTMAS one. Although you found no clue of what happened to McSkidy, at least you know the attackers were there. You can see how Sir Carrotbane replaced the wishlist by visiting `http://10.65.169.36:8080` from the VM's web browser. You can open it by clicking the Firefox icon on the Desktop.
+<div align="center">
+<br>
+</div>
 
-**System Utilities**
+#### System Utilities
 
 There are hundreds of CLI commands to view and manage your system. For example, `uptime` to see how much time your system is running, `ip addr` to check your IP address, and `ps aux` to list all processes. You may also check the usernames and hashed passwords of users, such as McSkidy, by running `cat /etc/shadow`. However, you'd need root permissions to do that.
 
