@@ -112,8 +112,11 @@ Navigating WithCD
 mcskidy@tbfc-web01:~$ cd Guides
 mcskidy@tbfc-web01:~/Guides$ ls
 ```
+<div align="center">
+<br>
+</div>
 
-**Looking for the Hidden Guide**
+#### Looking for the Hidden Guide
 
 Oh-oh, it looks like the guides aren't there. Or are they? In Linux, files and directories can be hidden from plain view if they start with a dot symbol (e.g., `.secret.txt`). Such a feature is often used by IT administrators to hide system files, by attackers to hide malware, and now by McSkidy to hide the precious guide from bad bunnies!
 
