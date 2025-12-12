@@ -273,6 +273,7 @@ P.S. Great job finding the guide. Your flag is:
 THM{learning-linux-cli}
 -----------------------------------------------
 ```
+
 ##### Complete on machine<br>Identify the flag inside the Eggstrike script
 ==Answer==
 
