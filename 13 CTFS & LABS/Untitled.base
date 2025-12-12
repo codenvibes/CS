@@ -6,7 +6,7 @@ views:
         - file.folder == "13 CTFS & LABS/HTB"
     image: note.aliases
   - type: cards
-    name: THK
+    name: THM
     filters:
       and:
         - file.folder == "13 CTFS & LABS/THM"
