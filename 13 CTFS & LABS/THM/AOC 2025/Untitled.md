@@ -7,11 +7,30 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
-Task 1. Introduction
-Task 2. AI for Cyber Security Showcase
+| SECTION/TASK                           | FLAG |
+| -------------------------------------- | ---- |
+| Task 1. Introduction                   |      |
+| Task 2. AI for Cyber Security Showcase |      |
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## Task 1. Introduction
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
+## Task 2. AI for Cyber Security Showcase
 <div align="center">
 <br>
 <br>
