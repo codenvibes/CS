@@ -205,6 +205,10 @@ The Eggstrike script you read seems to be stealing Christmas wishes and replacin
 | Pipe symbol (`\|`)         | Send the output from the first command to the second       | `cat unordered-list.txt \| sort \| uniq`            |
 | Output redirect (`>`/`>>`) | Use `>` to overwrite a file, and `>>` to append to the end | `some-long-command > /home/mcskidy/output.txt`      |
 | Double ampersand (`&&`)    | Run the second command if the first was successful         | `grep "secret" message.txt && echo "Secret found!"` |
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Sir Carrotbane Attacks
 
