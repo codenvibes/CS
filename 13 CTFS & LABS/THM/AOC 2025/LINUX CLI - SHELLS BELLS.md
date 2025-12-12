@@ -249,7 +249,11 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 
 ### Objectives
 
-##### 
+##### Which CLI command would you use to list a directory?
+==Answer==
+##### Complete on machine<br>Identify the flag inside of the McSkidy's guide
+==Answer==
+##### Complete on machine
 ==Answer==
 ##### 
 ==Answer==
@@ -257,7 +261,6 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 ==Answer==
 ##### 
 ==Answer==
-
 <div align="center">
 <br>
 <br>
