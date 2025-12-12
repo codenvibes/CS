@@ -251,15 +251,23 @@ curl --data "%qur\(tq_` :D AH?65P" http://red.hopsec.thm/report
 
 ##### Which CLI command would you use to list a directory?
 ==ls==
+
 ##### Complete on machine<br>Identify the flag inside of the McSkidy's guide
 ==Answer==
+
 ##### Complete on machine<br>Identify the flag inside the Eggstrike script
 ==Answer==
+
 ##### Which command would you run to switch to the root user?
 ==sudo su==
-##### 
+
+##### Finally, what flag did Sir Carrotbane leave in the root bash history?
 ==Answer==
-##### 
+
+##### For those who consider themselves intermediate and want another challenge, check McSkidy's hidden note in `/home/mcskidy/Documents/` to get access to the key for **Side Quest 1**! Accessible through our [Side Quest Hub](https://tryhackme.com/adventofcyber25/sidequest)!
+==Answer==
+
+##### Enjoyed investigating in a Linux environment? Check out our [Linux Logs Investigations](https://tryhackme.com/room/linuxlogsinvestigations) room for more like this!
 ==Answer==
 <div align="center">
 <br>
