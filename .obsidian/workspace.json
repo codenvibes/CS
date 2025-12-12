@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 INTRODUCTION TO METASPLOIT"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -356,14 +356,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87e9d3c6112bc47f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "COURSES/COURSES.base",
     "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "COURSES/THM/WEB FUNDAMENTALS.md",
     "COURSES/THM/WEB APPLICATION PENTESTING.md",
