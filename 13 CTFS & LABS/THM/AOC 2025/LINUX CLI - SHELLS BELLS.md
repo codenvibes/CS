@@ -144,8 +144,6 @@ In her guide, McSkidy refers to `/var/log/`, a Linux directory where all securi
 - Navigate to the logs directory with `cd /var/log` and explore its content with `ls`.
 - Run `grep "Failed password" auth.log` to look for the failed logins inside the `auth.log`.
 
-Grepping Logfiles
-
 ```shell-session
 mcskidy@tbfc-web01:~$ cd /var/log
 mcskidy@tbfc-web01:~$ grep "Failed password" auth.log
@@ -154,8 +152,11 @@ mcskidy@tbfc-web01:~$ grep "Failed password" auth.log
 ```
 
 ![Two cartoon versions of McSkidy. On the left, she looks frustrated with a speech bubble saying, "Manually scroll big files with cat." On the right, she appears cheerful and points upward with a speech bubble saying, "Get only what’s needed with grep."](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1762788000826.png)
+<div align="center">
+<br>
+</div>
 
-**Finding the Files**
+#### Finding the Files
 
 You can see a lot of failed logins on the "socmas" account, all from the HopSec location! They were clearly trying to break into SOC-mas, Wareville's Christmas ordering platform. What if bad bunnies left some malware there? Let's follow McSkidy's guide and look for Eggsploits and Eggshells with `find` - a command that searches for files with specific parameters, such as `-name`:
 
