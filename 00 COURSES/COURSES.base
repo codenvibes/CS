@@ -3,7 +3,7 @@ views:
     name: THM
     filters:
       and:
-        - file.folder == "COURSES/THM"
+        - file.folder == "00 COURSES/THM"
     order:
       - file.name
     sort:
@@ -16,7 +16,7 @@ views:
     name: HACKVISER
     filters:
       and:
-        - file.folder == "COURSES/HACKVISER"
+        - file.folder == "00 COURSES/HACKVISER"
     image: note.image
     cardSize: 300
     imageFit: contain
@@ -25,7 +25,7 @@ views:
     name: CYBESHUJAA
     filters:
       and:
-        - file.folder == "COURSES/CYBERSHUJAA"
+        - file.folder == "00 COURSES/CYBERSHUJAA"
     image: note.image
     imageFit: contain
     cardSize: 270
