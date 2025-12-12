@@ -200,11 +200,11 @@ mv eastmas.txt wishlist.txt && echo "EASTMAS is invading!"
 
 The Eggstrike script you read seems to be stealing Christmas wishes and replacing them with the fake ones! You might have noticed that the commands in the script are a bit complex, but that's not unusual since the script author is no other than Sir Carrotbane, the leader of HopSec's red team. Let's explore the special symbols below:
 
-|Special Symbol|Description|Example|
-|---|---|---|
-|Pipe symbol (`\|`)|Send the output from the first command to the second|`cat unordered-list.txt \| sort \| uniq`|
-|Output redirect (`>`/`>>`)|Use `>` to overwrite a file, and `>>` to append to the end|`some-long-command > /home/mcskidy/output.txt`|
-|Double ampersand (`&&`)|Run the second command if the first was successful|`grep "secret" message.txt && echo "Secret found!"`|
+| Special Symbol             | Description                                                | Example                                             |
+| -------------------------- | ---------------------------------------------------------- | --------------------------------------------------- |
+| Pipe symbol (`\|`)         | Send the output from the first command to the second       | `cat unordered-list.txt \| sort \| uniq`            |
+| Output redirect (`>`/`>>`) | Use `>` to overwrite a file, and `>>` to append to the end | `some-long-command > /home/mcskidy/output.txt`      |
+| Double ampersand (`&&`)    | Run the second command if the first was successful         | `grep "secret" message.txt && echo "Secret found!"` |
 
 ### Sir Carrotbane Attacks
 
