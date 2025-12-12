@@ -9,5 +9,5 @@ views:
     name: THM
     filters:
       and:
-        - file.folder == "13 CTFS & LABS/THM"
+        - file.name == "13 CTFS & LABS/THM"
     image: note.aliases

@@ -171,11 +171,11 @@
                 "state": {
                   "type": "bases",
                   "state": {
-                    "file": "13 CTFS & LABS/Untitled.base",
+                    "file": "13 CTFS & LABS/CTFS & LABS.base",
                     "viewName": "THM"
                   },
                   "icon": "lucide-layout-grid",
-                  "title": "Untitled"
+                  "title": "CTFS & LABS"
                 }
               }
             ],
@@ -302,13 +302,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/Untitled.base",
+                "file": "13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -369,10 +369,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed613906cd6677eb",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "WHITE-BOARD/TODO.md",
-    "13 CTFS & LABS/Untitled.base",
+    "13 CTFS & LABS/CTFS & LABS.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
     "00 COURSES/COURSES.base",
