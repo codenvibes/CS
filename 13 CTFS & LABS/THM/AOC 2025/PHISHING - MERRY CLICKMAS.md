@@ -72,13 +72,13 @@ Start your target VM by clicking the **Start Machine** button below. The mac
 
 ## Task 2. Phishing Exercise for TBFC
 
-## Social Engineering
+### Social Engineering
 
 **Social engineering** refers to manipulating a user to make a mistake. Examples of such mistakes include sharing a password, opening a malicious file, and approving a payment. The term “social” means that the target of such an attack is human beings, not computer systems. Consequently, the attacker relies on psychological tricks to get the target user to cooperate. Some psychological factors that can play a key role in the success of such attacks are urgency, curiosity, and authority. This is why some would refer to social engineering as “human hacking”.
 
 ![Three cartoon elves dressed in red winter outfits stand in a snowy forest. The elf on the left holds a fishing rod, the middle elf has a satchel over his shoulder, and the elf on the right holds two fish.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5f04259cf9bf5b57aed2c476/room-content/5f04259cf9bf5b57aed2c476-1763362766183.jpg)
 
-## Phishing
+### Phishing
 
 Phishing is a subset of social engineering in which the communication medium is mostly messages. At one point, the most common phishing attacks happened via email; however, the spread of smartphones, along with ubiquitous Internet access, has spread phishing to short text messages (smishing), voice calls (vishing), QR codes (quishing), and social-media direct messages. The attacker’s purpose is to make the target user click, open, or reply to a message so that the attacker can steal information, money, or access.
 
@@ -98,7 +98,7 @@ The second S.T.O.P. reminds users to follow the following instructions:
 
 After hours of periodic cyber security training, the red team checks to see if the TBFC staff can dodge “fishy” emails.
 
-## Building the Trap
+### Building the Trap
 
 You must sound very convincing as a penetration tester for a successful phishing attack. It’s not only how you write the phishing email or messages, but also how you set up the trap for the target. The trap can be anything, depending on your objectives and the research you conduct on the target. Sometimes, attackers aim to compromise the target’s machine, and they achieve this by attaching a malicious file to their phishing email. Attackers sometimes craft a web page that mimics a legitimate login page to steal the target’s credentials.
 
@@ -120,7 +120,7 @@ Starting server on http://0.0.0.0:8000
 
 The above message indicates that the phishing web application is listening on port 8000; moreover, the `0.0.0.0` implies that it is bound to all interfaces. To confirm what the user will see, use Firefox on the AttackBox and browse to `http://10.65.135.240:8000` or `http://127.0.0.1:8000`; either of these addresses will show you what the user will see. With this set, it is time to email this link to test our users’ vigilance.
 
-## Delivery via Social-Engineer Toolkit (SET)
+### Delivery via Social-Engineer Toolkit (SET)
 
 As our phishing page is ready, we can now prepare and send the phishing email to our target users. Sending it from our personal email is the worst idea. Ideally, the email should appear to be coming from a legitimate-looking sender; for example, we can pretend to be somebody the target user trusts or expects to get such an email from them. The more a phishing email appears realistic, the more likely it is for the target user to believe it and get phished. The question is how we can send a realistic-looking email that contains our fake login page.
 
@@ -251,7 +251,7 @@ Next line of the body: END
       Press <return> to continue
 ```
 
-Now, the phishing email has been sent to the target. The **"Press <return> to continue"** button is just the Enter button to restart the tool. Open the terminal where our `server.py` script is running to see if the user gets trapped and enters their credentials.
+Now, the phishing email has been sent to the target. The **"Press `<return>` to continue"** button is just the Enter button to restart the tool. Open the terminal where our `server.py` script is running to see if the user gets trapped and enters their credentials.
 
 **Note:** You may have to wait for 1 - 2 minutes and observe the terminal for any credentials entered by the user.
 
