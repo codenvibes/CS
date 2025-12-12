@@ -30,14 +30,30 @@ The lights glimmer and servers hum blissfully at The Best Festival Company (TBFC
 Unfortunately for the elves at TBFC, they are also not immune to performance metrics. The elves aim to find ways of increasing their velocity; something to manage the tedious, distracting tasks, which allows the elves to do the real magic. 
 
 TBFC, adventurous as ever, is trialling their brand new cyber security AI assistant, Van SolveIT, which is capable of helping the elves with all their defensive, offensive, and software needs. They decide to put this flashy technology to use as Christmas approaches, to identify, confirm, and resolve any potential vulnerabilities, before any nay-sayers can.
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-## ![an open book.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/5de96d9ca744773ea7ef8c00-1762271195732.png)Learning Objectives
+### Learning Objectives
 
 - How AI can be used as an assistant in cyber security for a variety of roles, domains and tasks
 - Using an AI assistant to solve various tasks within cyber security
 - Some of the considerations, particularly in cyber security, surrounding the use of AI
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
-## Connecting to the Machine
+### Connecting to the Machine
 
 Before moving forward, review the questions in the connection card shown below:
 
@@ -51,7 +67,7 @@ Start your target VM by clicking the **Start Machine** button below. The mac
 
 ### Questions
 
-##### 
+##### I have successfully started the AttackBox and the target machine!
 ==Answer==
 <div align="center">
 <br>

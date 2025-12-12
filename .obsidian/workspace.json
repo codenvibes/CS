@@ -196,7 +196,7 @@
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "horizontal"
@@ -319,13 +319,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/AI IN SECURITY - OLD SAINT NICK.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI IN SECURITY - OLD SAINT NICK"
+              "title": "Outline of LINUX CLI - SHELLS BELLS"
             }
           },
           {
@@ -387,10 +387,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f90a33ffc53393d",
+  "active": "a6fb4faf9b221334",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/AOC 2025/SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/AI IN SECURITY - OLD SAINT NICK.md",
+    "13 CTFS & LABS/THM/AOC 2025/SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/AOC 2025/PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/ADVENT OF CYBER PREP TRACK.md",
