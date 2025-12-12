@@ -21,6 +21,15 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f
 <div style="page-break-after: always;"></div>
 
 ## Task 1. Introduction
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
