@@ -21,17 +21,8 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f
 <div style="page-break-after: always;"></div>
 
 ## Task 1. Introduction
-<div>
-<br>
-<br>
-</div>
 
-### Questions
-
-##### 
-==No answer needed==
-
-The Story
+### The Story
 
 ![Task banner for day 1](https://tryhackme-images.s3.amazonaws.com/user-uploads/6228f0d4ca8e57005149c3e3/room-content/6228f0d4ca8e57005149c3e3-1763378686706.png)
 
@@ -39,13 +30,13 @@ The unthinkable has happened - McSkidy has been kidnapped. Without her, Warevill
 
 ![Cartoon-style illustration of a determined McSkidy facing King Malhare holding a USB scepter. The King Malhare stands beside a computer terminal displaying a rabbit icon, accompanied by a robotic black bunny and two glowing, circuit-patterned eggs on the ground.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1762788024698.png)
 
-## Learning Objectives
+### Learning Objectives
 
 - Learn the basics of the Linux command-line interface (CLI)
 - Explore its use for personal objectives and IT administration
 - Apply your knowledge to unveil the Christmas mysteries
 
-## Connecting to the Machine
+### Connecting to the Machine
 
 Before moving forward, review the questions in the connection card shown below:
 
@@ -53,7 +44,7 @@ Before moving forward, review the questions in the connection card shown below:
 
 Start the lab by clicking the **Start Machine** button below. The machine will start in split view and will take about two minutes to load. In case the machine is not visible, click the **Show Split View** button at the top of the page. Once the machine is loaded, you will have a terminal window - that's your Linux CLI, you'll need to type the commands there!
 
-### Your virtual environment has been set up
+#### Your virtual environment has been set up
 
 All machine details can be found at the top of the page.
 
@@ -84,6 +75,15 @@ Connection via
 SSH
 
 ssh mcskidy@10.65.142.128
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==No answer needed==
 <div align="center">
 <br>
 <br>
