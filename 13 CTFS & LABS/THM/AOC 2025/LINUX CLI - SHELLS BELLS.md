@@ -192,8 +192,11 @@ mv eastmas.txt wishlist.txt && echo "EASTMAS is invading!"
 3. The command then sends the output (unique orders) to the `/tmp/dump.txt` file.
 4. The `rm wishlist.txt` deletes the wishlist file (containing Christmas wishes).
 5. The `mv eastmas.txt wishlist.txt` replaces the original file with eastmas.txt.
+<div align="center">
+<br>
+</div>
 
-**CLI Features**
+#### CLI Features
 
 The Eggstrike script you read seems to be stealing Christmas wishes and replacing them with the fake ones! You might have noticed that the commands in the script are a bit complex, but that's not unusual since the script author is no other than Sir Carrotbane, the leader of HopSec's red team. Let's explore the special symbols below:
 
