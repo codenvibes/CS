@@ -163,14 +163,15 @@ You can see a lot of failed logins on the "socmas" account, all from the HopSec 
 - Run `find /home/socmas -name *egg*` to search for "eggs" in the socmas home directory.
 - Note that `find` is a powerful command. Check out its [documentation](https://man7.org/linux/man-pages/man1/find.1.html) for more details.
 
-Using Find Command
-
 ```shell-session
 mcskidy@tbfc-web01:~$ find /home/socmas -name *egg*
 /home/socmas/2025/eggstrike.sh
 ```
+<div align="center">
+<br>
+</div>
 
-**Analyzing the Eggstrike**
+#### Analyzing the Eggstrike
 
 Looks like you found something, `eggstrike.sh`! Files with the `.sh` extension contain CLI commands and are called shell scripts. Such scripts are used both by IT teams to automate things and by attackers to quickly run malicious commands. Let's display the suspicious script's content and try to understand it:
 
