@@ -79,7 +79,7 @@ Start your target VM by clicking the **Start Machine** button below. The mac
 <div style="page-break-after: always;"></div>
 
 ## Task 2. AI for Cyber Security Showcase
-## The Boom of AI Assistants
+### The Boom of AI Assistants
 
 Ah, yes, artificial intelligence, that buzzword that seems here to stay. Who would have thought? Today’s room will highlight some ways AI is utilised in cyber security, along with important considerations to bear in mind when deploying AI for such tasks.
 
@@ -91,7 +91,7 @@ With that said, let’s begin today’s room!
 
 ![a christmas bauble ornament with an AI robot sitting inside of it.](https://tryhackme-images.s3.amazonaws.com/room-icons/5de96d9ca744773ea7ef8c00-1762182384720)
 
-## AI in Cyber Security
+### AI in Cyber Security
 
 The use of artificial intelligence has seen a significant boost in cyber security. Visit almost any vendor, and they'll now have some form of AI powering a solution somewhere. Why? Well, it's not just because they're capitalising on the buzzword (although that's certainly _a part of it_), but rather, the benefits from artificial intelligence really do apply here. Let's explore some of these in the table below:
 
@@ -102,7 +102,7 @@ The use of artificial intelligence has seen a significant boost in cyber secur
 |Behaviour analysis|Tracking normal behaviour and activities over a period of time and flagging anything that is out of the ordinary.|
 |Generative AI|Summarising or providing context behind a series of events.|
 
-## Defensive Security
+### Defensive Security
 
 ![a piece of paper on a clipboard with a magnifying glass inspecting it.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/5de96d9ca744773ea7ef8c00-1762271394697.png)
 
@@ -110,13 +110,13 @@ AI agents are being used in blue teaming to speed up detection, investigation, 
 
 Beyond just detecting threats, AI can also assist in automating responses. Picture your system automatically isolating an infected device, blocking a suspicious email, or flagging an unusual login attempt — all in real time.
 
-## Offensive Security
+### Offensive Security
 
 AI agents have made a notable impact on offensive security by automating and handling the often very labourious and time-consuming tasks that a pentester might traditionally undertake. 
 
 For example, AI can be a powerful tool in a penetration tester's workflow for reconnaissance and information gathering, from OSINT to analysing noisy scanner outputs and mapping attack surfaces. This allows the pentester to spend more time on the crucial tasks that require a human touch.
 
-## Software
+### Software
 
 ![three gears/cogs closely placed with one another.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/5de96d9ca744773ea7ef8c00-1762271395568.svg)
 
@@ -126,7 +126,7 @@ However, AI has proven to be a valuable addition to the software development p
 
 Yes, it's somewhat ironic. AI agents can be great at identifying vulnerabilities, but are not quite as effective at writing secure code.
 
-## Considerations of AI In Cyber Security
+### Considerations of AI In Cyber Security
 
 ![a red closed book with the text "rules" on the cover.](https://tryhackme-images.s3.amazonaws.com/user-uploads/5de96d9ca744773ea7ef8c00/room-content/5de96d9ca744773ea7ef8c00-1762271477832.svg)
 
@@ -138,7 +138,7 @@ One such consideration is the use of AI in activities like offensive penetrati
 
 We must think carefully about the data AI learns from, how transparent and fair its decisions are, and how reliable it remains when the unexpected occurs. We cannot assume the output from AI is 100% correct. Efforts must be made to verify the information it provides. Additionally, managing challenges such as keeping data private, securing AI models, and informing users properly requires careful consideration.
 
-## Practical
+### Practical
 
 Phew! Ready for an exciting exercise? You will be interacting with Van SolveIT, who will guide you through three showcases of how AI can be used in cyber security:
 
@@ -150,7 +150,7 @@ When you're ready, you can access Van SolveIT at `http://MACHINE_IP`. Remember,
 
 _If you are on a small display, we recommend expanding the AttackBox into full screen mode which can be done by pressing the "two arrows" icon (left of the "+" icon) in the split-screen view to expand it into full screen._
 
-## Usage Tips
+### Usage Tips
 
 - Chatbot responses may appear blank for a minute or two while it generates the reply. You will start to see Van SolveIT's responses in real time.
 - If the chatbot gets confused at any time, press the **Restart Chat** button at the top right of the page.
