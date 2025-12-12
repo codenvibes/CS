@@ -7,11 +7,13 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/6645aa8c024f7893371e
 ---
 ## Summary
 
-| SECTION/TASK | FLAG |
-| ------------ | ---- |
-|              |      |
+| SECTION/TASK                       | FLAG |
+| ---------------------------------- | ---- |
+| Task 1. Introduction               |      |
+| Task 2. Phishing Exercise for TBFC |      |
 
-
+Task 1. Introduction
+Task 2. Phishing Exercise for TBFC
 <div align="center">
 <br>
 <br>
