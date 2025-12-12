@@ -7,10 +7,10 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f
 ---
 ## Summary
 
-| SECTION/TASK         | FLAG |
-| -------------------- | ---- |
-| Task 1. Introduction |      |
-| Task 2. Linux CLI    |      |
+| SECTION/TASK         | FLAG             |
+| -------------------- | ---------------- |
+| Task 1. Introduction | No answer needed |
+| Task 2. Linux CLI    |                  |
 <div align="center">
 <br>
 <br>
