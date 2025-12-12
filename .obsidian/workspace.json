@@ -187,12 +187,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
+                    "file": "13 CTFS & LABS/THM/AOC 2025/IDOR - SANTA’S LITTLE IDOR.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "IDOR - SANTA’S LITTLE IDOR"
                 }
               }
             ],
@@ -319,13 +319,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/IDOR - SANTA’S LITTLE IDOR.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of IDOR - SANTA’S LITTLE IDOR"
             }
           },
           {
@@ -390,7 +390,7 @@
   "active": "6fdafb03b2ab446b",
   "lastOpenFiles": [
     "13 CTFS & LABS/THM/AOC 2025/AI IN SECURITY - OLD SAINT NICK.md",
-    "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
+    "13 CTFS & LABS/THM/AOC 2025/IDOR - SANTA’S LITTLE IDOR.md",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/AOC 2025/SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/PHISHING - MERRY CLICKMAS.md",
