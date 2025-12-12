@@ -287,6 +287,9 @@ THM{learning-linux-cli}
 -----------------------------------------------
 ```
 
+##### Which command helped you filter the logs for failed logins?
+==grep==
+
 ##### Complete on machine<br>Identify the flag inside the Eggstrike script
 ==THM{sir-carrotbane-attacks}==
 
