@@ -64,7 +64,7 @@ Start your VM by clicking the **Start Machine** button below. The machine wi
 
 ### Questions
 
-##### 
+##### I successfully have access to the Splunk instance!
 ==Answer==
 <div align="center">
 <br>
