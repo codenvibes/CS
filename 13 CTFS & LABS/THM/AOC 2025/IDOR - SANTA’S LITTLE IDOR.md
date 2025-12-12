@@ -138,18 +138,13 @@ IDOR is usually a form of horizontal privilege escalation. You are allowed to m
 
 Let's start with the simplest example of IDOR. On the web application, let's authenticate to the application using the details below.
 
-Credentials
+#### Credentials
 
 Username
-
 niels
-
 Password
-
 TryHackMe#2025
-
 IP address/Website
-
 http://MACHINE_IP
 
 Once authenticated, you should see a dashboard like this:
