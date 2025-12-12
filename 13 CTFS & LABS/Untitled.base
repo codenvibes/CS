@@ -1,5 +1,6 @@
 views:
-  - type: table
-    name: Table
   - type: cards
     name: HTB
+    filters:
+      and:
+        - file.folder == "13 CTFS & LABS/HTB"
