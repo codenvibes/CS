@@ -27,6 +27,19 @@
                 }
               },
               {
+                "id": "ed613906cd6677eb",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "13 CTFS & LABS/CTFS & LABS.base",
+                    "viewName": "THM"
+                  },
+                  "icon": "lucide-layout-grid",
+                  "title": "CTFS & LABS"
+                }
+              },
+              {
                 "id": "6b2536b183f7f9a6",
                 "type": "leaf",
                 "pinned": true,
@@ -87,7 +100,8 @@
                   "title": "CS JOURNAL"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "1ac3a562cde27d81",
@@ -164,22 +178,9 @@
                   "icon": "lucide-file",
                   "title": "LINUX CLI - SHELLS BELLS"
                 }
-              },
-              {
-                "id": "ed613906cd6677eb",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "13 CTFS & LABS/CTFS & LABS.base",
-                    "viewName": "THM"
-                  },
-                  "icon": "lucide-layout-grid",
-                  "title": "CTFS & LABS"
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -302,13 +303,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/COURSES.base",
+                "file": "13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -369,15 +370,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "ed613906cd6677eb",
   "lastOpenFiles": [
+    "00 COURSES/THM/CYBER SECURITY 101.md",
+    "00 COURSES/COURSES.base",
     "13 CTFS & LABS/CTFS & LABS.base",
     "13 CTFS & LABS/THM/AOC 2025/LINUX CLI - SHELLS BELLS.md",
     "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "WHITE-BOARD/TODO.md",
     "13 CTFS & LABS/THM/OVERPASS.md",
-    "00 COURSES/COURSES.base",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "08 TOOLS/00 TOOLS.md",
@@ -393,7 +395,6 @@
     "00 COURSES/THM/JR PENETRATION TESTER.md",
     "00 COURSES/THM/DEVSECOPS.md",
     "00 COURSES/THM/DEFENDING AZURE.md",
-    "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/THM/ATTACKING AND DEFENDING AWS.md",
     "README.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
