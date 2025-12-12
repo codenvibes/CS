@@ -10,4 +10,4 @@ views:
     filters:
       and:
         - file.inFolder("13 CTFS & LABS/THM")
-    image: note.aliases
+    image: note.image
