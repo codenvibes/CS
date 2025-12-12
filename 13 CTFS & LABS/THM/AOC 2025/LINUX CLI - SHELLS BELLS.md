@@ -82,8 +82,6 @@ Linux has a powerful command-line interface, allowing you to use and manage the
 - Then type `ls` to list the contents of the current directory. This command will show you McSkidy's files.
 - After that, type `cat README.txt` to display the file contents. You will see its content in the output below.
 
-BasicCLICommands
-
 ```shell-session
 mcskidy@tbfc-web01:~$ echo "Hello World!"
 Hello World!
@@ -97,8 +95,11 @@ To be prepared, I'll write the security guide by tomorrow.
 As a precaution, I'll also hide the guide from plain view.
 ~ McSkidy
 ```
+<div align="center">
+<br>
+</div>
 
-**Navigating the Filesystem**
+#### Navigating the Filesystem
 
 Looks like McSkidy left a security guide before being kidnapped - it would definitely help! You might have noticed the "Guides" directory when you ran `ls` last time - that's likely the directory we need. Your CLI journey began at McSkidy's home directory (you can verify this by running `pwd`), but now let's switch to the guides directory.
 
