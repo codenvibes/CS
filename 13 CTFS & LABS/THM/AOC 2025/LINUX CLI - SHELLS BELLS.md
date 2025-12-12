@@ -123,8 +123,6 @@ Oh-oh, it looks like the guides aren't there. Or are they? In Linux, files and 
 - View the directory again by running `ls -la`. The `-a` flag shows the hidden files. The `-l` flag shows the additional details, such as file permissions and file owner.
 - Read the hidden guide by running `cat .guide.txt`. Don't forget the leading dot.
 
-Reading Hidden Files
-
 ```shell-session
 mcskidy@tbfc-web01:~/Guides$ ls -la
 drwxrwxr-x  2 mcskidy mcskidy 4096 Oct 13 01:26 .drwxr-x--- 19 mcskidy mcskidy 4096 Oct 23 12:29 ..-rw-rw-r--  1 mcskidy mcskidy  504 Oct 13 01:26 .guide.txt
@@ -135,8 +133,11 @@ Be ready to protect Christmas by following this Linux guide:
 Check /var/log/ and grep inside, let the logs become your guide.
 Look for eggs that want to hide, check their shells for what's inside!
 ```
+<div align="center">
+<br>
+</div>
 
-**Grepping the Logs**
+#### Grepping the Logs
 
 In her guide, McSkidy refers to `/var/log/`, a Linux directory where all security events (logs) are stored. Indeed, every SOC analyst at TBFC will confirm that the best way to find evil bunnies is to check the logs. Log files are usually very big, and looking through them with cat is not ideal. Thus, let's use `grep`, a command to look for a specific text inside a file.
 
