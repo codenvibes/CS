@@ -187,12 +187,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/AOC 2025/08 MALWARE ANALYSIS - EGG-XECUTABLE.md",
+                    "file": "13 CTFS & LABS/THM/AOC 2025/05 IDOR - SANTA’S LITTLE IDOR.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "08 MALWARE ANALYSIS - EGG-XECUTABLE"
+                  "title": "05 IDOR - SANTA’S LITTLE IDOR"
                 }
               }
             ],
@@ -389,8 +389,8 @@
   },
   "active": "6fdafb03b2ab446b",
   "lastOpenFiles": [
+    "13 CTFS & LABS/THM/AOC 2025/AOC DAY6 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "13 CTFS & LABS/THM/AOC 2025/05 IDOR - SANTA’S LITTLE IDOR.md",
-    "13 CTFS & LABS/THM/AOC 2025/08 MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "13 CTFS & LABS/THM/AOC 2025/04 AI IN SECURITY - OLD SAINT NICK.md",
     "13 CTFS & LABS/THM/AOC 2025/03 SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/02 PHISHING - MERRY CLICKMAS.md",
