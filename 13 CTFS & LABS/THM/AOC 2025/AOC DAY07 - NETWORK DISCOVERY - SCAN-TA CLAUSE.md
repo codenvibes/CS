@@ -91,8 +91,11 @@ Although we lost access to the QA server, at least it's still active, and we kno
 Along the practical of today's task you will find three keys.  
 Keep note of them since you will later need them for the web app.  
 The format will be `KEYNAME:KEY`.
+<div align="center">
+<br>
+</div>
 
-**The Simplest Port Scan**
+#### The Simplest Port Scan
 
 There are many tools you can use to scan for open ports, from preinstalled Netcat on Linux and PowerShell on Windows, to specialized, powerful tools like Nmap and Naabu. Let's use Nmap for this task and perform a basic scan from the AttackBox or your own VPN-connected attacking machine. Open a new command line terminal and run the following command:
 
