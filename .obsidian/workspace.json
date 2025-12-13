@@ -372,8 +372,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -390,9 +389,9 @@
   },
   "active": "6fdafb03b2ab446b",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
-    "13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
+    "13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
+    "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",

@@ -8,10 +8,10 @@ image: https://tryhackme-images.s3.amazonaws.com/room-icons/678ecc92c80aa206339f
 ---
 ## Summary
 
-| SECTION/TASK                      | FLAG |
-| --------------------------------- | ---- |
-| Task 1. Introduction              |      |
-| Task 2. Discover Network Services |      |
+| SECTION/TASK                      | FLAG             |
+| --------------------------------- | ---------------- |
+| Task 1. Introduction              | No answer needed |
+| Task 2. Discover Network Services |                  |
 <div align="center">
 <br>
 <br>
@@ -67,8 +67,8 @@ To successfully complete this room, you'll need to set up your virtual environme
 
 ### Questions
 
-##### 
-==Answer==
+##### I have successfully launched the target machine and the AttackBox.
+==No answer needed==
 <div align="center">
 <br>
 <br>
@@ -79,6 +79,15 @@ To successfully complete this room, you'll need to set up your virtual environme
 <div style="page-break-after: always;"></div>
 
 ## Task 2. Discover Network Services
+<div>
+<br>
+<br>
+</div>
+
+### Questions
+
+##### 
+==Answer==
 <div align="center">
 <br>
 <br>
