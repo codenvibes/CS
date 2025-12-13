@@ -113,8 +113,11 @@ PORT     STATE SERVICE
 The command scanned the top 1000 most commonly used ports and reported if any services were running there. The only results you received are an opened SSH port for remote machine access and a HTTP port for a website. This means you can now access the server via SSH (if you know the password), or open the website by visiting `http://MACHINE_IP` from within the AttackBox:
 
 ![A screenshot from the tbfc-qa server, where evil bunnies left the "pwned" message.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1762976351953.png)
+<div align="center">
+<br>
+</div>
 
-**Scanning Whole Range**
+#### Scanning Whole Range
 
 It seems like the website is defaced by bad bunnies, and we don't know the key to enter the admin panel! But worry not. We scanned just 1000 ports, but there are actually 65535 ports where other services can hide! Now let's add the `-p-` argument to scan all ports, and `--script=banner` to see what's likely behind the port:
 
@@ -149,8 +152,11 @@ ftp> get tbfc_qa_key1 -
 [GET HIDDEN KEY 1 FROM HERE]
 ftp> ! # Will exit the FTP shell
 ```
+<div align="center">
+<br>
+</div>
 
-**Port Scan Modes**
+#### Port Scan Modes
 
 Good job finding the first flag part. There is nothing more we can see on the FTP server, so let's move on to the custom TBFC app on port 25251. Since it is not a well-known service like HTTP or FTP, your web browser or FTP client won't know how to access it. Luckily, you can always use Netcat (`nc`), a universal tool to interact with network services:
 
