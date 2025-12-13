@@ -187,12 +187,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
+                    "file": "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -319,13 +319,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -389,8 +389,9 @@
   },
   "active": "6fdafb03b2ab446b",
   "lastOpenFiles": [
-    "13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
+    "13 CTFS & LABS/THM/AOC 2025/Untitled.md",
+    "13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",
@@ -417,7 +418,6 @@
     "00 COURSES/THM/PRE SECURITY.md",
     "00 COURSES/THM/JR PENETRATION TESTER.md",
     "00 COURSES/THM/DEVSECOPS.md",
-    "00 COURSES/THM/DEFENDING AZURE.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
