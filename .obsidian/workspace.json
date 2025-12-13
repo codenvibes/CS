@@ -256,7 +256,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -319,13 +320,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13 CTFS & LABS/THM/AOC 2025/IDOR - SANTA’S LITTLE IDOR.md",
+                "file": "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IDOR - SANTA’S LITTLE IDOR"
+              "title": "Outline of AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE"
             }
           },
           {
@@ -371,8 +372,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
