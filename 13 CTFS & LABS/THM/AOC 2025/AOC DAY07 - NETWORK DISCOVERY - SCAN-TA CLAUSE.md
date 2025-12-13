@@ -173,8 +173,11 @@ Commands: HELP, STATUS, GET KEY, QUIT  # Server response
 ```
 
 Once you received the key, press `CTRL+C` to exit the Netcat client.
+<div align="center">
+<br>
+</div>
 
-**TCP and UDP Ports**
+#### TCP and UDP Ports
 
 Congratulations on the second flag! But where to look for the third one? Till now, you have scanned only TCP ports, but there are also 65535 ports for UDP, another transport protocol. And there is a chance HopSec secrets are hiding there, too! You can switch to UDP scan by specifying the `-sU` flag:
 
@@ -205,8 +208,11 @@ root@attackbox:~# dig @MACHINE_IP TXT key3.tbfc.local +short
 Now that you know all three keys to the **tbfc-devqa01** QA server, it's time to call your TBFC teammates and kick out the bad bunnies. But first, log in to the server's admin panel by visiting `http://MACHINE_IP` from within the AttackBox and access the secret admin console by submitting the combined keys:
 
 ![The terminal window you will see after combining three key parts on the tbfc-qa website.](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1761256003855.png)
+<div align="center">
+<br>
+</div>
 
-**Listing Listening Ports**
+#### Listing Listening Ports
 
 Once you have access to the console, there is no need to scan the ports, as you can simply ask the OS to list its open ports, also called listening ports. You can do it by running `ss -tunlp` (or `netstat` on older systems) inside the Secret Admin Console of the web app. In the output, you may see exactly the same services you scanned before listening on `0.0.0.0`, but also some listening on `127.0.0.1` (available only from the host itself):
 
