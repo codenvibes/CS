@@ -250,26 +250,26 @@ Great job on finding the flag! You have exposed all bunnies' secrets and regaine
 
 ### Questions
 
-##### 
+##### What evil message do you see on top of the website?
 ==Answer==
 
-##### 
+##### What is the first key part found on the FTP server?
 ==Answer==
 
-##### 
+##### What is the second key part found in the TBFC app?
 ==Answer==
 
-##### 
+##### What is the third key part found in the DNS records?
 ==Answer==
 
-##### 
+##### Which port was the MySQL database running on?
 ==Answer==
 
-##### 
+##### Finally, what's the flag you found in the database?
 ==Answer==
 
-##### 
-==Answer==
+##### If you enjoyed today's room, feel free to check out the [Nmap: The Basics](https://tryhackme.com/room/nmap) room.
+==No answer needed==
 <div align="center">
 <br>
 <br>
