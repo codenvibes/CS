@@ -417,12 +417,12 @@
           }
         ],
         "direction": "vertical",
-        "x": -960,
+        "x": -1920,
         "y": 0,
         "width": 960,
         "height": 1080,
         "maximize": false,
-        "zoom": 0
+        "zoom": 1.5
       }
     ]
   },
