@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 23.20155541153597,
+            "dimension": 62.34607906675308,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -102,12 +102,12 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "245458448bf23b3f",
             "type": "tabs",
-            "dimension": 76.79844458846404,
+            "dimension": 37.65392093324692,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -373,8 +373,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "13 CTFS & LABS/CTFS & LABS.base",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
     "02 SECURITY FOUNDATIONS/INTRODUCTION TO CYBERSECURITY.md",
@@ -386,7 +387,6 @@
     "04 EXPLOITATION/WEB_EXPLOITATION/SQL INJECTION FUNDAMENTALS.md",
     "05 DEFENSIVE SECURITY/LOG ANALYSIS/INTRO TO LOG ANALYSIS.md",
     "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
-    "13 CTFS & LABS/CTFS & LABS.base",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
@@ -403,7 +403,6 @@
     "08 TOOLS/00 TOOLS.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "00 COURSES/THM/WEB FUNDAMENTALS.md",
-    "00 COURSES/THM/WEB APPLICATION PENTESTING.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
