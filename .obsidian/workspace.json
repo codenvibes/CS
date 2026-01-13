@@ -238,8 +238,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -374,7 +373,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fdafb03b2ab446b",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/00 CAREERS IN CS.md",
     "03 RECONNAISSANCE & ENUMERATION/00 ENUMERATION.md",
