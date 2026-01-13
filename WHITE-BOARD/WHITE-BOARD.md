@@ -59,38 +59,18 @@ Most TryHackMe and Hack The Box labs expect **Linux familiarity**.
 
 ## 3. Networking Fundamentals (Often Overlooked)
 
-This is where many students get stuck without realizing why.
-
-**Must-cover basics**
-
-- NAT vs Bridged networking
-    
-- VPN vs local network access
-    
-- What a tunnel actually does
-    
-
 **For THM / HTB**
 
 - OpenVPN configuration files
-    
 - How to:
-    
     - Import `.ovpn`
-        
     - Confirm connection (`ip a`, `ifconfig`)
-        
     - Verify reachability (`ping`, `nmap`)
-        
 
 **Common issues**
-
 - VPN connects but no access to targets
-    
 - Firewall blocking traffic
-    
 - Multiple VPNs running at once
-    
 
 ---
 
