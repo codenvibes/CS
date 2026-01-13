@@ -67,29 +67,20 @@ Most TryHackMe and Hack The Box labs expect **Linux familiarity**.
     - Confirm connection (`ip a`, `ifconfig`)
     - Verify reachability (`ping`, `nmap`)
 
-**Common issues**
-- VPN connects but no access to targets
-- Firewall blocking traffic
-- Multiple VPNs running at once
+-
+-
+-
 
 ---
 
 ## 4. Accounts, Subscriptions & Access
 
-Avoid day-one chaos.
-
 **Ensure students have**
-
 - TryHackMe account created
-    
 - Hack The Box account created
-    
 - Email verified
-    
 - VPN files downloaded
-    
 
-➡️ Pro tip: Share a **pre-class checklist** or QR code.
 
 ---
 
