@@ -22,26 +22,18 @@ Make sure you cover **why** virtualization is used in cybersecurity, not just ho
 **Minimum setup**
 
 - Hypervisor:
-    
     - VirtualBox (free, cross-platform) **or**
-        
     - VMware Workstation Player (Windows/Linux) / Fusion (macOS)
-        
 - Virtualization enabled in BIOS/UEFI (VT-x / AMD-V)
-    
 
 **Common beginner blockers**
 
 - Hypervisor conflicts (Hyper-V, WSL2, Docker on Windows)
-    
 - Insufficient RAM (8 GB recommended minimum)
-    
 - Students running on ARM Macs (M1/M2/M3)
-    
 
 ➡️ Tip: Have a **fallback option** ready (cloud labs or attack boxes).
 
----
 
 ## 2. Operating System Choices (Critical for Labs)
 
@@ -50,25 +42,16 @@ Most TryHackMe and Hack The Box labs expect **Linux familiarity**.
 ### Recommended options
 
 - **Kali Linux** (most common)
-    
 - **Parrot OS** (lighter alternative)
-    
 
 **What students should understand**
-
 - Difference between host OS vs guest OS
-    
 - Desktop vs CLI usage
-    
 - Package management basics (`apt`)
-    
 
 **Alternatives**
-
 - TryHackMe AttackBox (browser-based)
-    
 - HTB Pwnbox (subscription)
-    
 
 ➡️ If time is tight, emphasize **AttackBox/Pwnbox** for beginners.
 
