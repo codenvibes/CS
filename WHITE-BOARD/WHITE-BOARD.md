@@ -113,15 +113,10 @@ Even analysts (blue team) need CLI comfort.
 **Cover at least**
 
 - File navigation (`ls`, `cd`, `pwd`)
-    
 - Viewing files (`cat`, `less`)
-    
 - Permissions (`chmod`, `chown`)
-    
 - Networking basics (`ip`, `ss`, `netstat`)
-    
 - Package install (`apt install`)
-    
 
 ➡️ Frame CLI as a **core analyst skill**, not a hacker-only thing.
 
