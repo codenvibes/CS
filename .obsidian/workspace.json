@@ -19,7 +19,7 @@
                   "type": "bases",
                   "state": {
                     "file": "00 COURSES/COURSES.base",
-                    "viewName": "HTB"
+                    "viewName": "THM"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -300,10 +300,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "00 COURSES/COURSES.base",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
+    "00 COURSES/COURSES.base",
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/THM/PRE SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
