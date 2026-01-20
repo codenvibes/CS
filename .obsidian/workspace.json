@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 62.346079066753084,
+            "dimension": 34.283862605314326,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -107,7 +107,7 @@
           {
             "id": "245458448bf23b3f",
             "type": "tabs",
-            "dimension": 37.65392093324692,
+            "dimension": 65.71613739468567,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -181,8 +181,7 @@
                   "title": "AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE"
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "horizontal"
@@ -373,7 +372,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
     "WHITE-BOARD/WHITE-BOARD.md",
     "13 CTFS & LABS/CTFS & LABS.base",
