@@ -98,12 +98,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
+                    "file": "00 COURSES/THM/CYBER SECURITY 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "01 INTRODUCTION TO WINDOWS"
+                  "title": "CYBER SECURITY 101"
                 }
               }
             ],
@@ -301,9 +301,12 @@
   },
   "active": "1ed32a33f41cf25f",
   "lastOpenFiles": [
-    "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/OFFENSIVE SECURITY INTRO.md",
+    "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/COURSES.base",
+    "00 COURSES/THM/PRE SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
+    "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
     "README.md",
@@ -327,9 +330,6 @@
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY05 - SANTA’S LITTLE IDOR.md",
-    "13 CTFS & LABS/THM/AOC 2025/00 ADVENT OF CYBER PREP TRACK.md",
-    "13 CTFS & LABS/THM/FOWSNIFF CTF.md",
-    "13 CTFS & LABS/THM/OVERPASS.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
