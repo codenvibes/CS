@@ -19,7 +19,7 @@
                   "type": "bases",
                   "state": {
                     "file": "00 COURSES/COURSES.base",
-                    "viewName": "HTB"
+                    "viewName": "THM"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -299,8 +299,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "00 COURSES/Untitled",
     "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
     "00 COURSES/THM/PRE SECURITY.md",
@@ -329,7 +330,6 @@
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",
-    "13 CTFS & LABS/THM/AOC 2025/AOC DAY05 - SANTA’S LITTLE IDOR.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
