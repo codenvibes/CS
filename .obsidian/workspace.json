@@ -10,7 +10,7 @@
           {
             "id": "5fba8451e3d9bb96",
             "type": "tabs",
-            "dimension": 62.7349319507453,
+            "dimension": 27.608554763447827,
             "children": [
               {
                 "id": "d6e3d74256db3bbc",
@@ -58,6 +58,7 @@
               {
                 "id": "21fce08000a30866",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -65,49 +66,18 @@
                     "mode": "source",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "WHITE-BOARD"
                 }
-              },
-              {
-                "id": "a9a7f4c54f83fbd1",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "README.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "README"
-                }
-              },
-              {
-                "id": "0a6f434a8cd9f151",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "CS JOURNAL.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "CS JOURNAL"
-                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "245458448bf23b3f",
             "type": "tabs",
-            "dimension": 37.265068049254694,
+            "dimension": 72.39144523655217,
             "children": [
               {
                 "id": "10dd2c9178155b52",
@@ -328,21 +298,22 @@
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "iconic:Open rulebook": false
     }
   },
-  "active": "6b2536b183f7f9a6",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "WHITE-BOARD/WHITE-BOARD.md",
     "CS JOURNAL.md",
+    "README.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
+    "09 SOFT SKILLS & CAREER/PIRP.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "04 EXPLOITATION/METASPLOIT FRAMEWORK/01 INTRODUCTION TO METASPLOIT.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "WHITE-BOARD/TODO.md",
-    "README.md",
-    "09 SOFT SKILLS & CAREER/PIRP.base",
     "13 CTFS & LABS/CTFS & LABS.base",
     "00 COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 1.md",
