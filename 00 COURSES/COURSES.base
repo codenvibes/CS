@@ -36,3 +36,5 @@ views:
       and:
         - file.folder == "00 COURSES/HTB"
     image: note.image
+    cardSize: 250
+    imageAspectRatio: 0.65
