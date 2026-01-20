@@ -3,7 +3,7 @@ views:
     name: THM
     filters:
       and:
-        - file.folder == "00 COURSES/HTB"
+        - file.folder == "00 COURSES/THM"
     order:
       - file.name
     sort:
@@ -32,4 +32,7 @@ views:
     imageAspectRatio: 0.6
   - type: cards
     name: HTB
+    filters:
+      and:
+        - file.folder == "00 COURSES"
     image: note.image
