@@ -157,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#INTRODUCTION_TO_THREAT_HUNTING_",
+                "query": "tag:#WINDOWS_EVENT_LOGS_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
