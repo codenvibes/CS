@@ -7,7 +7,7 @@ description: The Junior Cybersecurity Analyst Job Role Path is the first step to
 ---
  
 
-## #[INTRODUCTION_TO_INFORMATION_SECURITY](https://academy.hackthebox.com/module/details/293)
+INTRODUCTION TO INFORMATION SECURITY
 
 This theoretical module provides a comprehensive introduction to the foundational components of information security, focusing on the structure and operation of effective InfoSec frameworks. It explores the theoretical roles of security applications across networks, software, mobile devices, cloud environments, and operational systems, emphasizing their importance in protecting organizational assets. Students will gain an understanding of common threats, including malware and advanced persistent threats (APTs), alongside strategies for mitigating these risks. The module also introduces the roles and responsibilities of security teams and InfoSec professionals, equipping students with the confidence to advance their knowledge and explore specialized areas within the field.
 
