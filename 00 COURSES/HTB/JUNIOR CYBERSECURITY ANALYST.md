@@ -19,13 +19,13 @@ This course introduces the basic concepts essential to understanding the world o
 
  
 
-[Introduction to Networking](https://academy.hackthebox.com/module/details/34)Completed
+[Introduction to Networking](https://academy.hackthebox.com/module/details/34)
 
 As an information security professional, a firm grasp of networking fundamentals and the required components is necessary. Without a strong foundation in networking, it will be tough to progress in any area of information security. Understanding how a network is structured and how the communication between the individual hosts and servers takes place using the various protocols allows us to understand the entire network structure and its network traffic in detail and how different communication standards are handled. This knowledge is essential to create our tools and to interact with the protocols.
 
  
 
-[Linux Fundamentals](https://academy.hackthebox.com/module/details/18)Completed
+[Linux Fundamentals](https://academy.hackthebox.com/module/details/18)
 
 This module covers the fundamentals required to work comfortably with the Linux operating system and shell.
 
@@ -37,7 +37,7 @@ This module covers the basics needed for working with Bash scripts to automate t
 
  
 
-[Windows Fundamentals](https://academy.hackthebox.com/module/details/49)Completed
+[Windows Fundamentals](https://academy.hackthebox.com/module/details/49)
 
 This module covers the fundamentals required to work comfortably with the Windows operating system.
 
@@ -49,13 +49,13 @@ As administrators and Pentesters, we may not always be able to utilize a graphic
 
  
 
-[Web Requests](https://academy.hackthebox.com/module/details/35)Completed
+[Web Requests](https://academy.hackthebox.com/module/details/35)
 
 This module introduces the topic of HTTP web requests and how different web applications utilize them to communicate with their backends.
 
  
 
-[Introduction to Web Applications](https://academy.hackthebox.com/module/details/75)Completed
+[Introduction to Web Applications](https://academy.hackthebox.com/module/details/75)
 
 In the Introduction to Web Applications module, you will learn all of the basics of how web applications work and begin to look at them from an information security perspective.
 
@@ -91,7 +91,7 @@ WordPress is an open-source Content Management System (CMS) that can be used for
 
  
 
-[Using the Metasploit Framework](https://academy.hackthebox.com/module/details/39)Completed
+[Using the Metasploit Framework](https://academy.hackthebox.com/module/details/39)
 
 The Metasploit Framework is an open-source set of tools used for network enumeration, attacks, testing security vulnerabilities, evading detection, performing privilege escalation attacks, and performing post-exploitation.
 
