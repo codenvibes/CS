@@ -34,5 +34,5 @@ views:
     name: HTB
     filters:
       and:
-        - file.folder == "00 COURSES"
+        - file.folder == "00 COURSES/HTB"
     image: note.image
