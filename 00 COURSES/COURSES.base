@@ -3,7 +3,7 @@ views:
     name: THM
     filters:
       and:
-        - file.folder == "00 COURSES/THM"
+        - file.folder == "00 COURSES/HTB"
     order:
       - file.name
     sort:

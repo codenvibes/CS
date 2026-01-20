@@ -98,12 +98,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
+                    "file": "00 COURSES/HTB/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "01 INTRODUCTION TO WINDOWS"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -299,15 +299,16 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "1ed32a33f41cf25f",
   "lastOpenFiles": [
-    "00 COURSES/Untitled",
+    "00 COURSES/COURSES.base",
+    "00 COURSES/HTB/Untitled.md",
+    "00 COURSES/HTB",
     "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
     "00 COURSES/THM/PRE SECURITY.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "09 SOFT SKILLS & CAREER/CAREERS IN CS/OFFENSIVE SECURITY INTRO.md",
-    "00 COURSES/COURSES.base",
     "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "CS JOURNAL.md",
     "README.md",
@@ -329,7 +330,6 @@
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
-    "13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
     "ASSETS/Pasted image 20251203150324.png",
@@ -346,7 +346,6 @@
     "13 CTFS & LABS/HTB",
     "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "05 DEFENSIVE SECURITY/~$CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
-    "Unconfirmed 23904.crdownload",
     "Untitled.canvas"
   ]
 }
