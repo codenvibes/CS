@@ -120,9 +120,21 @@
                   "icon": "lucide-file",
                   "title": "JUNIOR CYBERSECURITY ANALYST"
                 }
+              },
+              {
+                "id": "96d161300f6cf8eb",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.11.5"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.11.5"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -315,7 +327,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "96d161300f6cf8eb",
   "lastOpenFiles": [
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
