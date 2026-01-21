@@ -32,12 +32,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "09 SOFT SKILLS & CAREER/CAREERS IN CS/OFFENSIVE SECURITY INTRO.md",
+                    "file": "00 COURSES/THM/CYBER SECURITY 101.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "OFFENSIVE SECURITY INTRO"
+                  "title": "CYBER SECURITY 101"
                 }
               },
               {
@@ -317,7 +317,9 @@
   },
   "active": "a9ab2ea5e70ad7e5",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/CLI & SHELL SCRIPTING/WINDOWS COMMAND LINE.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
+    "09 SOFT SKILLS & CAREER/CAREERS IN CS/OFFENSIVE SECURITY INTRO.md",
     "00 COURSES/COURSES.base",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "WHITE-BOARD/WHITE-BOARD.md",
@@ -325,7 +327,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 1.md",
     "00 COURSES/HTB",
-    "09 SOFT SKILLS & CAREER/CAREERS IN CS/OFFENSIVE SECURITY INTRO.md",
     "00 COURSES/THM/ADVANCED ENDPOINT INVESTIGATIONS.md",
     "CS JOURNAL.md",
     "README.md",
