@@ -85,7 +85,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           },
           {
             "id": "96c424c4653196ac",
@@ -315,10 +315,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
-    "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
+    "00 COURSES/THM/CYBER SECURITY 101.md",
     "00 COURSES/COURSES.base",
     "00 COURSES/THM/PRE SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
