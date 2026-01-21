@@ -19,7 +19,7 @@
                   "type": "bases",
                   "state": {
                     "file": "00 COURSES/COURSES.base",
-                    "viewName": "THM"
+                    "viewName": "HTB"
                   },
                   "pinned": true,
                   "icon": "lucide-layout-grid",
@@ -84,8 +84,7 @@
                   "title": "WHITE-BOARD"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "96c424c4653196ac",
@@ -315,11 +314,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "a9ab2ea5e70ad7e5",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
+    "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/COURSES.base",
     "00 COURSES/THM/PRE SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
