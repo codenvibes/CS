@@ -1,5 +1,7 @@
 ---
 tags:
+  - HTB
+  - JUNIOR_CYBERSECURITY_ANALYST
 link:
 description:
 ---
