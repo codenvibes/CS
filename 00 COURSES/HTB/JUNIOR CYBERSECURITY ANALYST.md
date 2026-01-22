@@ -28,7 +28,6 @@ description: The Junior Cybersecurity Analyst Job Role Path is the first step to
 ## #WINDOWS_FUNDAMENTALS
 
 
-
 ## #INTRODUCTION_TO_WINDOWS_COMMAND_LINE
 
 
