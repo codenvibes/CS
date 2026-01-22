@@ -44,5 +44,5 @@ views:
       and:
         - file.folder == "00 COURSES/CYBERSHUJAA"
     image: note.image
-    imageAspectRatio: 0.4
+    imageAspectRatio: 0.35
     cardSize: 300
