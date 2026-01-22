@@ -22,7 +22,7 @@ views:
     imageFit: contain
     imageAspectRatio: 0.65
   - type: cards
-    name: CYBESHUJAA
+    name: CYBER SHUJAA
     filters:
       and:
         - file.folder == "00 COURSES/CYBERSHUJAA"
@@ -38,11 +38,3 @@ views:
     image: note.image
     cardSize: 250
     imageAspectRatio: 0.65
-  - type: cards
-    name: CYBERSHUJAA
-    filters:
-      and:
-        - file.folder == "00 COURSES/CYBERSHUJAA"
-    image: note.image
-    imageAspectRatio: 0.35
-    cardSize: 300
