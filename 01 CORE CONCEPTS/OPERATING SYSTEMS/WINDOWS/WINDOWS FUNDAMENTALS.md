@@ -5,22 +5,22 @@ description:
 ---
 ## Summary
 
-| SECTION/TASK                                  | FLAG                                                             |
-| --------------------------------------------- | ---------------------------------------------------------------- |
-| Introduction to Windows                       | 19041<br>Windows 10                                              |
-| Operating System Structure                    | c8fe8d977d3a0c655ed7cf81e4d13c75                                 |
-| File System                                   | bob.smith                                                        |
-| NTFS vs. Share Permissions                    | SMB<br>event viewer<br>C:\Users\htb-student\Desktop\Company Data |
-| Windows Services & Processes                  | FoxitReaderUpdateService.exe                                     |
-| Service Permissions                           |                                                                  |
-| Windows Sessions                              |                                                                  |
-| Interacting with the Windows Operating System | ifconfig<br>Unrestricted                                         |
-| Windows Management Instrumentation (WMI)      | 00329-10280-00000-AA938                                          |
-| Microsoft Management Console (MMC)            |                                                                  |
-| Windows Subsystem for Linux (WSL)             |                                                                  |
-| Desktop Experience vs. Server Core            |                                                                  |
-| Windows Security                              | S-1-5-21-2614195641-1726409526-3792725429-1003<br>NordVPN        |
-| Skills Assessment - Windows Fundamentals      |                                                                  |
+| SECTION/TASK                                  | FLAG                                                                                                                                 |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Introduction to Windows                       | 19041<br>Windows 10                                                                                                                  |
+| Operating System Structure                    | c8fe8d977d3a0c655ed7cf81e4d13c75                                                                                                     |
+| File System                                   | bob.smith                                                                                                                            |
+| NTFS vs. Share Permissions                    | SMB<br>event viewer<br>C:\Users\htb-student\Desktop\Company Data                                                                     |
+| Windows Services & Processes                  | FoxitReaderUpdateService.exe                                                                                                         |
+| Service Permissions                           |                                                                                                                                      |
+| Windows Sessions                              |                                                                                                                                      |
+| Interacting with the Windows Operating System | ifconfig<br>Unrestricted                                                                                                             |
+| Windows Management Instrumentation (WMI)      | 00329-10280-00000-AA938                                                                                                              |
+| Microsoft Management Console (MMC)            |                                                                                                                                      |
+| Windows Subsystem for Linux (WSL)             |                                                                                                                                      |
+| Desktop Experience vs. Server Core            |                                                                                                                                      |
+| Windows Security                              | S-1-5-21-2614195641-1726409526-3792725429-1003<br>NordVPN                                                                            |
+| Skills Assessment - Windows Fundamentals      | everyone<br>security<br>wuauserv<br>S-1-5-21-2614195641-1726409526-3792725429-1006<br>S-1-5-21-2614195641-1726409526-3792725429-1007 |
 
 <div align="center">
 <br>
