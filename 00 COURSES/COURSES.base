@@ -40,4 +40,9 @@ views:
     imageAspectRatio: 0.65
   - type: cards
     name: CYBERSHUJAA
+    filters:
+      and:
+        - file.folder == "00 COURSES/CYBERSHUJAA"
     image: note.image
+    imageAspectRatio: 0.4
+    cardSize: 300
