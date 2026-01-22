@@ -88,23 +88,9 @@
                       "icon": "lucide-file",
                       "title": "WHITE-BOARD"
                     }
-                  },
-                  {
-                    "id": "77e798663c009e8b",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
-                        "mode": "source",
-                        "source": false
-                      },
-                      "icon": "lucide-file",
-                      "title": "14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS"
-                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 4
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -357,8 +343,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "77e798663c009e8b",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/02 OPERATING SYSTEM STRUCTURE.md",
+    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/13 WINDOWS SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/12 DESKTOP EXPERIENCE VS. SERVER CORE.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/11 WINDOWS SUBSYSTEM FOR LINUX (WSL).md",
@@ -368,11 +359,7 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/07 WINDOWS SESSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/06 SERVICE PERMISSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/05 WINDOWS SERVICES & PROCESSES.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/03 FILE SYSTEM.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/02 OPERATING SYSTEM STRUCTURE.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "WHITE-BOARD/TODO.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 1.md",
@@ -387,7 +374,6 @@
     "CS JOURNAL.md",
     "README.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
-    "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "13 CTFS & LABS/CTFS & LABS.base",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
