@@ -38,3 +38,6 @@ views:
     image: note.image
     cardSize: 250
     imageAspectRatio: 0.65
+  - type: cards
+    name: CYBERSHUJAA
+    image: note.image
