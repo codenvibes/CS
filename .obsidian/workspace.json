@@ -89,8 +89,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 4
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -343,8 +342,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
@@ -361,7 +361,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/06 SERVICE PERMISSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/05 WINDOWS SERVICES & PROCESSES.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/03 FILE SYSTEM.md",
-    "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "WHITE-BOARD/TODO.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS 1.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
