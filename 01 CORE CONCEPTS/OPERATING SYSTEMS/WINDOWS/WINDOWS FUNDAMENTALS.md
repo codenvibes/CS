@@ -14,12 +14,12 @@ description:
 | Windows Services & Processes                  | FoxitReaderUpdateService.exe                                     |
 | Service Permissions                           |                                                                  |
 | Windows Sessions                              |                                                                  |
-| Interacting with the Windows Operating System | ifconfig<br>                                                     |
-| Windows Management Instrumentation (WMI)      |                                                                  |
+| Interacting with the Windows Operating System | ifconfig<br>Unrestricted                                         |
+| Windows Management Instrumentation (WMI)      | 00329-10280-00000-AA938                                          |
 | Microsoft Management Console (MMC)            |                                                                  |
 | Windows Subsystem for Linux (WSL)             |                                                                  |
 | Desktop Experience vs. Server Core            |                                                                  |
-| Windows Security                              |                                                                  |
+| Windows Security                              | S-1-5-21-2614195641-1726409526-3792725429-1003<br>NordVPN        |
 | Skills Assessment - Windows Fundamentals      |                                                                  |
 
 <div align="center">
