@@ -25,10 +25,10 @@ views:
     name: CYBER SHUJAA
     filters:
       and:
-        - file.folder == "00 COURSES/CYBERSHUJAA"
+        - file.folder == "00 COURSES/CYBER SHUJAA"
     image: note.image
     imageFit: contain
-    cardSize: 270
+    cardSize: 280
     imageAspectRatio: 0.6
   - type: cards
     name: HTB
