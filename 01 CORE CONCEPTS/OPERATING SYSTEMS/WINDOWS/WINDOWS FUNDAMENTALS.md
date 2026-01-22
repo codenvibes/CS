@@ -5,23 +5,22 @@ description:
 ---
 ## Summary
 
-| SECTION/TASK                                                                                                                               | FLAG |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| Introduction to Windows<br>Operating System Structure<br>File System<br>NTFS vs. Share Permissions<br><br><br><br><br><br><br><br><br><br> |      |
-|                                                                                                                                            |      |
-|                                                                                                                                            |      |
-|                                                                                                                                            |      |
-|                                                                                                                                            |      |
-| Windows Services & Processes                                                                                                               |      |
-| Service Permissions                                                                                                                        |      |
-| Windows Sessions                                                                                                                           |      |
-| Interacting with the Windows Operating System                                                                                              |      |
-| Windows Management Instrumentation (WMI)                                                                                                   |      |
-| Microsoft Management Console (MMC)                                                                                                         |      |
-| Windows Subsystem for Linux (WSL)                                                                                                          |      |
-| Desktop Experience vs. Server Core                                                                                                         |      |
-| Windows Security                                                                                                                           |      |
-| Skills Assessment - Windows Fundamentals                                                                                                   |      |
+| SECTION/TASK                                  | FLAG |
+| --------------------------------------------- | ---- |
+| Introduction to Windows                       |      |
+| Operating System Structure                    |      |
+| File System                                   |      |
+| NTFS vs. Share Permissions                    |      |
+| Windows Services & Processes                  |      |
+| Service Permissions                           |      |
+| Windows Sessions                              |      |
+| Interacting with the Windows Operating System |      |
+| Windows Management Instrumentation (WMI)      |      |
+| Microsoft Management Console (MMC)            |      |
+| Windows Subsystem for Linux (WSL)             |      |
+| Desktop Experience vs. Server Core            |      |
+| Windows Security                              |      |
+| Skills Assessment - Windows Fundamentals      |      |
 
 <div align="center">
 <br>
