@@ -178,13 +178,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -316,7 +314,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "WHITE-BOARD/WHITE-BOARD.md",
