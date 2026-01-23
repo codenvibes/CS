@@ -8,10 +8,7 @@ AD4MPU3MAN
 
 ----
 
-Lesson: Cloud Computing Fundamentals
-Assignment 1: Azure Cloud Account Registration
-
-
-
-
-
+Cloud Computing Fundamentals
+Azure Cloud Account Registration
+AWS Cloud Account Registration
+GCP Cloud Account Creation
