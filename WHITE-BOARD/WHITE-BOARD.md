@@ -12,9 +12,6 @@ AD4MPU3MAN
 
 
 
-Network Standards, Models & Protocols
-
-Examine TCP/IP and OSI Models in Action
 
 
 

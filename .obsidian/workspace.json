@@ -88,9 +88,19 @@
                       "icon": "lucide-file",
                       "title": "WHITE-BOARD"
                     }
+                  },
+                  {
+                    "id": "be408329fd97d1e3",
+                    "type": "leaf",
+                    "state": {
+                      "type": "empty",
+                      "state": {},
+                      "icon": "lucide-file",
+                      "title": "New tab"
+                    }
                   }
                 ],
-                "currentTab": 4
+                "currentTab": 5
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -254,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125
+    "width": 359.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -386,7 +397,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "be408329fd97d1e3",
   "lastOpenFiles": [
     "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
