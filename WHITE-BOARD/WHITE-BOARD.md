@@ -8,7 +8,7 @@ AD4MPU3MAN
 
 ----
 
-Lesson 1: Securing Cloud Compute Services
-Assignment 1: Key Vault and Encryption
+Securing Cloud Compute Services
+Key Vault and Encryption
 
 
