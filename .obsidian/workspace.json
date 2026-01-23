@@ -88,19 +88,9 @@
                       "icon": "lucide-file",
                       "title": "WHITE-BOARD"
                     }
-                  },
-                  {
-                    "id": "be408329fd97d1e3",
-                    "type": "leaf",
-                    "state": {
-                      "type": "empty",
-                      "state": {},
-                      "icon": "lucide-file",
-                      "title": "New tab"
-                    }
                   }
                 ],
-                "currentTab": 5
+                "currentTab": 4
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -397,11 +387,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "208b62d6bd0b3ab0",
+  "active": "225ff8f6688c786e",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "WHITE-BOARD/WHITE-BOARD.md",
-    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "00 COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
