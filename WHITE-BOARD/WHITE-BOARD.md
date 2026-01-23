@@ -8,9 +8,9 @@ AD4MPU3MAN
 
 ----
 
-Lesson 1: Cloud Identity and Access Management (IAM)
-Assignment: Role-Based Access Control
-OPTIONAL Assignment 2: CloudGoat IAM Privilege Escalation by Rollback Scenario
+
+
+
 
 
 
