@@ -8,7 +8,8 @@ AD4MPU3MAN
 
 ----
 
-
+Lesson: Cloud Computing Fundamentals
+Assignment 1: Azure Cloud Account Registration
 
 
 
