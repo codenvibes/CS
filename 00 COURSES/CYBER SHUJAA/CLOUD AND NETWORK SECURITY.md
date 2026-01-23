@@ -17,7 +17,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 ## WK3 EXAMINING NETWORK LAYERS 4-7
 
-1. 
+1. EXAMINING NETWORK LAYERS 1,2 & 3PAGE
 
 ## WK4 SECURING NETWORK LAYERS 1-3
 
