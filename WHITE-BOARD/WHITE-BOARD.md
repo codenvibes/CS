@@ -9,7 +9,8 @@ AD4MPU3MAN
 ----
 
 
-
+Lesson: Securing Cloud Network & Remote Access
+Assignment 1: Azure Firewall
 
 
 
