@@ -12,7 +12,9 @@ AD4MPU3MAN
 
 
 
-
+Examining Network Layers 4, 5, 6, & 7
+TryHackMe - DNS In Detail
+HTB Academy - Web Requests
 
 
 
