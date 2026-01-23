@@ -7,6 +7,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 1. LESSON: NETWORK STANDARDS, MODELS & PROTOCOLS
 2. ASSIGNMENT 1: EXAMINE TCP/IP AND OSI MODELS IN ACTION
+3. ASSIGNMENT 2: 
 
 ## WK2 EXAMINING NETWORK LAYERS 1, 2 & 3
 
