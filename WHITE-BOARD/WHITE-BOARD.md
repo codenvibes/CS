@@ -12,10 +12,11 @@ AD4MPU3MAN
 
 
 
-Examining Network Layers 4, 5, 6, & 7
-THM - DNS In Detail
-HTB Academy - Web Requests
-THM - Passive Reconnaissance
+
+THM - DNS IN DETAIL
+HTB ACADEMY - WEB REQUESTS
+THM - PASSIVE RECONNAISSANCE
+
 
 
 
