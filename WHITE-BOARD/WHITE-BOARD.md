@@ -8,6 +8,8 @@ AD4MPU3MAN
 
 ----
 
-
+Lesson: Cloud Monitoring and Incidence Response
+Assignment 1: Azure Monitor
+Assignment 1: Azure Monitor, Microsoft Defender for cloud, Enable Just-In Time Access in VMs, Microsoft Sentinel
 
 
