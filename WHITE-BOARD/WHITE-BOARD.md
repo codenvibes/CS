@@ -8,7 +8,8 @@ AD4MPU3MAN
 
 ----
 
-Securing Cloud Compute Services
-Key Vault and Encryption
+Lesson: Securing Software Development & Operations
+Assignment: Azure Monitor, Microsoft Defender for cloud, Enable Just-In Time Access in VMs, Microsoft Sentinel
+OPTIONAL Assignment 1: CloudGoat vulnerable_lambda
 
 
