@@ -9,15 +9,15 @@ AD4MPU3MAN
 ----
 
 
-Week 1: Network Standards, Models & Protocols
-Week 2: Examining Network Layers 1, 2 & 3
-Week 3: Examining Network Layers 4-7
-Week 4: Securing Network Layers 1-3
-Week 5: Securing Network Layers 4, 5, 6 & 7
-Week 6: Cloud Computing Fundamentals
-Week 7: Cloud Identity and Access Management (IAM)
-Week 8: Securing Cloud Network & Remote Access
-Week 9: Securing Cloud Compute & Storage
-Week 10: Securing Software Development & Operations
-Week 11: Cloud Monitoring and Incidence Response
-Week 12: Vulnerability Assessment & Penetration Testing (VAPT)
+
+
+EXAMINING NETWORK LAYERS 4-7
+SECURING NETWORK LAYERS 1-3
+SECURING NETWORK LAYERS 4, 5, 6 & 7
+CLOUD COMPUTING FUNDAMENTALS
+CLOUD IDENTITY AND ACCESS MANAGEMENT (IAM)
+SECURING CLOUD NETWORK & REMOTE ACCESS
+SECURING CLOUD COMPUTE & STORAGE
+SECURING SOFTWARE DEVELOPMENT & OPERATIONS
+CLOUD MONITORING AND INCIDENCE RESPONSE
+VULNERABILITY ASSESSMENT & PENETRATION TESTING (VAPT)
