@@ -5,7 +5,8 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 ---
 ## WK1 NETWORK STANDARDS, MODELS & PROTOCOLS
 
-1. 
+1. LESSON: 
+2. ASSIGNMENT 1: 
 
 ## WK2 EXAMINING NETWORK LAYERS 1, 2 & 3
 
