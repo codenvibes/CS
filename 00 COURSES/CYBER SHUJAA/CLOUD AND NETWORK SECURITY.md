@@ -53,7 +53,7 @@ image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcyb
 
 ## WK8 SECURING CLOUD NETWORK & REMOTE ACCESS
 
-1. LESSON: 
+1. LESSON: SECURING CLOUD NETWORK & REMOTE ACCESS
 2. ASSIGNMENT 1: 
 3. ASSIGNMENT 2: 
 4. ASSIGNMENT 3: 
