@@ -75,7 +75,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -289,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+                "file": "13 CTFS & LABS/CTFS & LABS.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EXAMINE TCPIP AND OSI MODELS IN ACTION"
+              "title": "Outline of CTFS & LABS"
             }
           },
           {
@@ -357,11 +358,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ff623cb0dc3f196a",
+  "active": "ed613906cd6677eb",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "QUICK NOTES/TODO.md",
     "00 COURSES/COURSES.base",
     "08 TOOLS/WIRESHARK",
