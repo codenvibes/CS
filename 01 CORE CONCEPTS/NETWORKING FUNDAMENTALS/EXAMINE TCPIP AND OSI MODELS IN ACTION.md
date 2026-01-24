@@ -66,7 +66,7 @@ As data moves through the network, it is broken down into smaller pieces and ide
 
 Even though much of the information displayed will be discussed in more detail later, this is an opportunity to explore the functionality of Packet Tracer and be able to visualize the encapsulation process.
 
-#### Instructions
+### Instructions
 
 ### Part 1: Examine HTTP Web Traffic
 
