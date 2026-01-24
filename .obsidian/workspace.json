@@ -89,7 +89,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 4
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -342,11 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
+    "QUICK NOTES/TODO.md",
     "00 COURSES/COURSES.base",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "QUICK NOTES/TODO.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
