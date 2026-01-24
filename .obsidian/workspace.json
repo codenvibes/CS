@@ -80,7 +80,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "WHITE-BOARD/WHITE-BOARD.md",
+                        "file": "QUICK NOTES/WHITE-BOARD.md",
                         "mode": "source",
                         "source": false
                       },
@@ -141,7 +141,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "WHITE-BOARD/TODO.md",
+                    "file": "QUICK NOTES/TODO.md",
                     "mode": "source",
                     "source": false
                   },
@@ -342,13 +342,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "10dd2c9178155b52",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "00 COURSES/COURSES.base",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "WHITE-BOARD/TODO.md",
+    "QUICK NOTES/TODO.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
+    "QUICK NOTES/WHITE-BOARD.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
