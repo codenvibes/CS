@@ -66,13 +66,13 @@ As data moves through the network, it is broken down into smaller pieces and ide
 
 Even though much of the information displayed will be discussed in more detail later, this is an opportunity to explore the functionality of Packet Tracer and be able to visualize the encapsulation process.
 
-### Instructions
+#### Instructions
 
-#### Part 1: Examine HTTP Web Traffic
+##### Part 1: Examine HTTP Web Traffic
 
 In Part 1 of this activity, you will use Packet Tracer (PT) **Simulation** mode to generate web traffic and examine HTTP.
 
-##### Step 1: Switch from Realtime to **Simulation** mode.
+###### Step 1: Switch from Realtime to **Simulation** mode.
 
 In the lower right corner of the Packet Tracer interface are buttons that toggle between Realtime and **Simulation** mode. PT always starts in **Realtime** mode, in which networking protocols operate with realistic timings. However, a powerful feature of Packet Tracer allows the user to “stop time” by switching to **Simulation** mode. In **Simulation** mode, packets are displayed as animated envelopes, time is event driven, and the user can step through networking events.
 
@@ -84,7 +84,7 @@ b. Select **HTTP** from the **Event List Filters**.
 
 2) Click the **Show All/None** check box until all boxes are cleared and then select **HTTP** from the Misc tab of the Edit Filters window. Click the X in the upper right hand corner of the window to close the **Edit Filters** window. The Visible Events should now only display HTTP.
 
-##### Step 2: Generate web (HTTP) traffic.
+###### Step 2: Generate web (HTTP) traffic.
 
 Currently the Simulation Panel is empty. There are five columns listed across the top of the Event List within the Simulation Panel. As traffic is generated and stepped through, events appear in the list.
 
@@ -101,7 +101,7 @@ d. Click **Capture/Forward** four times. There should be four events in the Ev
 Look at the Web Client web browser page. Did anything change?  
 The web page was returned from the web server.
 
-##### Step 3: Explore the contents of the HTTP packet.
+###### Step 3: Explore the contents of the HTTP packet.
 
 a. Click the first colored square box under the **Event List** > **Type** column. It may be necessary to expand the Simulation Panel or use the scrollbar directly below the **Event List**.
 
@@ -152,11 +152,11 @@ g. Click the last colored square box under the **Info** column.
 How many tabs are displayed with this event? Explain.  
 Just 2, one for the OSI Model and one for Inbound PDU Details because this is the receiving device.
 
-#### Part 2: Display Elements of the TCP/IP Protocol Suite
+##### Part 2: Display Elements of the TCP/IP Protocol Suite
 
 In Part 2 of this activity, you will use the Packet Tracer **Simulation** mode to view and examine some of the other protocols comprising of TCP/IP suite.
 
-##### Step 1: View Additional Events
+###### Step 1: View Additional Events
 
 a. Close any open PDU information windows.
 
@@ -194,7 +194,7 @@ g. Click the last TCP event. Highlight Layer 4 in the **OSI Model** tab. Exami
 What is the purpose of this event, based on the information provided in the last item in the list (should be item 4)?  
 CLOSING the connection.
 
-### Challenge Questions
+#### Challenge Questions
 
 This simulation provided an example of a web session between a client and a server on a local area network (LAN). The client makes requests to specific services running on the server. The server must be set up to listen on specific ports for a client request. (Hint: Look at Layer 4 in the **OSI Model** tab for port information.)
 
@@ -204,7 +204,7 @@ The first HTTP PDU being requested by the Web Client shows port 80 under the lay
 What port is the Web Server listening on for a DNS request?  
 The first DNS PDU being requested by the Web Client shows a layer 4 destination of port 53.
 
-### Download Packet Tracer (.pka) file:
+#### Download Packet Tracer (.pka) file:
 <div align="center">
 <br>
 <br>
