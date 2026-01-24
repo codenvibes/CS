@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "USE WIRESHARK TO EXAMINE NETWORK TRAFFIC"
+                  "title": "EXAMINE TCPIP AND OSI MODELS IN ACTION"
                 }
               }
             ],
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of USE WIRESHARK TO EXAMINE NETWORK TRAFFIC"
+              "title": "Outline of EXAMINE TCPIP AND OSI MODELS IN ACTION"
             }
           },
           {
@@ -359,8 +359,8 @@
   },
   "active": "ff623cb0dc3f196a",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "QUICK NOTES/TODO.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/COURSES.base",

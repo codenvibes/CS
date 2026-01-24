@@ -48,7 +48,7 @@ For the assignment that follows in the next section, you will be working with th
 - https://drive.google.com/file/d/1Z-Xyz5nG8IHDFcwn1f-EQshdsJDpCNr_/view
 - [Video Walkthrough](https://www.youtube.com/watch?time_continue=1&v=BiC4FohM6j8&embeds_referring_euri=https%3A%2F%2Flearning.cybershujaa.co.ke%2F&embeds_referring_origin=https%3A%2F%2Flearning.cybershujaa.co.ke)
 
-### 3.7.10 Lab – Use Wireshark to View Network Traffic
+### [3.7.10 Lab – Use Wireshark to View Network Traffic](https://itexamanswers.net/3-7-10-lab-use-wireshark-to-view-network-traffic-answers.html)
 <div align="center">
 <br>
 <br>
