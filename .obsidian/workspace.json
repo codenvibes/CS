@@ -89,8 +89,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -372,14 +371,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8a8da2d9040ed214",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/COURSES.base",
     "WHITE-BOARD/TODO.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
