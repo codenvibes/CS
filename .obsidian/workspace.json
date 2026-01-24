@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+                    "file": "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EXAMINE TCPIP AND OSI MODELS IN ACTION"
+                  "title": "USE WIRESHARK TO EXAMINE NETWORK TRAFFIC"
                 }
               }
             ],
@@ -357,14 +357,16 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "ff623cb0dc3f196a",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+    "00 COURSES/COURSES.base",
+    "08 TOOLS/WIRESHARK",
     "QUICK NOTES/WHITE-BOARD.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
     "13 CTFS & LABS/CTFS & LABS.base",
-    "00 COURSES/COURSES.base",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "ASSETS/Packet Tracer Investigating the TCPIP and OSI Models in Action.pdf",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
@@ -403,7 +405,6 @@
     "13 CTFS & LABS/THM",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "13 CTFS & LABS/HTB",
-    "05 DEFENSIVE SECURITY/CYBERSHUJAA - SA-wk09-Wireless-Network-Security-v2.pptx",
     "Untitled.canvas"
   ]
 }
