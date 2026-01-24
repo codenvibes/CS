@@ -41,6 +41,7 @@ For the assignment that follows in the next section, you will need to install Ci
 ## Section B
 
 For this assignment, the instructions have been provided right below. Therefore you can scroll through. Alternatively, the packet tracer file itself comes with the same instructions once downloaded and opened.
+
 <div align="center">
 <br>
 <br>
