@@ -45,7 +45,7 @@ For the assignment that follows in the next section, you will need to install Ci
 
 For this assignment, the instructions have been provided right below. Therefore you can scroll through. Alternatively, the packet tracer file itself comes with the same instructions once downloaded and opened.
 
-### Packet Tracer - Investigate the TCP/IP and OSI Models in Action
+### [Packet Tracer - Investigate the TCP/IP and OSI Models in Action](https://itexamanswers.net/3-5-5-packet-tracer-investigate-the-tcp-ip-and-osi-models-in-action-answers.html)
 
 Instructor Note: Red font color or gray highlights indicate text that appears in the instructor copy only.
 
