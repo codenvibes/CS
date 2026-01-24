@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of USE WIRESHARK TO EXAMINE NETWORK TRAFFIC"
             }
           },
           {
@@ -357,12 +357,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "ff623cb0dc3f196a",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "QUICK NOTES/TODO.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/COURSES.base",
     "08 TOOLS/WIRESHARK",
     "QUICK NOTES/WHITE-BOARD.md",
