@@ -40,8 +40,8 @@ For the assignment that follows in the next section, you will need to install Ci
 
 ## Section B
 
-https://drive.google.com/file/d/1q0fJU96UDk4-n6nIvoYnF4N6uBk8Pu2C/view
-[Video Walkthrough](https://www.youtube.com/watch?time_continue=2&v=UqDPmLKZnVI&embeds_referring_euri=https%3A%2F%2Flearning.cybershujaa.co.ke%2F&embeds_referring_origin=https%3A%2F%2Flearning.cybershujaa.co.ke)
+- https://drive.google.com/file/d/1q0fJU96UDk4-n6nIvoYnF4N6uBk8Pu2C/view
+- [Video Walkthrough](https://www.youtube.com/watch?time_continue=2&v=UqDPmLKZnVI&embeds_referring_euri=https%3A%2F%2Flearning.cybershujaa.co.ke%2F&embeds_referring_origin=https%3A%2F%2Flearning.cybershujaa.co.ke)
 
 For this assignment, the instructions have been provided right below. Therefore you can scroll through. Alternatively, the packet tracer file itself comes with the same instructions once downloaded and opened.
 
