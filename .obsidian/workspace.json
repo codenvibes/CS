@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+                    "file": "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EXAMINE TCPIP AND OSI MODELS IN ACTION"
+                  "title": "USE WIRESHARK TO EXAMINE NETWORK TRAFFIC"
                 }
               }
             ],
@@ -357,7 +357,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ff623cb0dc3f196a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
     "08 TOOLS/WIRESHARK/USE WIRESHARK TO EXAMINE NETWORK TRAFFIC.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
