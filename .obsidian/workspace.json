@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NETWORK STANDARDS, MODELS & PROTOCOLS"
+                  "title": "OSI MODEL"
                 }
               }
             ],
@@ -359,8 +359,8 @@
   },
   "active": "ff623cb0dc3f196a",
   "lastOpenFiles": [
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
