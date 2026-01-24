@@ -125,7 +125,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -357,11 +357,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ff623cb0dc3f196a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/10 SUBNETTING.md",
