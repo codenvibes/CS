@@ -42,7 +42,7 @@ For the assignment that follows in the next section, you will need to install Ci
 
 For this assignment, the instructions have been provided right below. Therefore you can scroll through. Alternatively, the packet tracer file itself comes with the same instructions once downloaded and opened.
 
-
+[[Packet Tracer Investigating the TCPIP and OSI Models in Action.pdf]]
 <div align="center">
 <br>
 <br>
