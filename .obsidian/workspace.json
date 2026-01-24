@@ -139,7 +139,8 @@
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -357,12 +358,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "208b62d6bd0b3ab0",
   "lastOpenFiles": [
+    "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
-    "WHITE-BOARD/WHITE-BOARD.md",
     "00 COURSES/COURSES.base",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
