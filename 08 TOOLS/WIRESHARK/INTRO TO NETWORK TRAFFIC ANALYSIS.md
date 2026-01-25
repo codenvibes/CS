@@ -21,6 +21,20 @@ description: This module introduces network traffic analysis in a general sense 
 </div>
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
-
+ Network Traffic Analysis
+ Networking Primer - Layers 1-4
+ Networking Primer - Layers 5-7
+ The Analysis Process
+ Analysis in Practice
+ Tcpdump Fundamentals
+ Capturing With Tcpdump (Fundamentals Labs)
+ Tcpdump Packet Filtering
+ Interrogating Network Traffic With Capture and Display Filters
+ Analysis with Wireshark
+ Familiarity With Wireshark
+ Wireshark Advanced Usage
+ Packet Inception, Dissecting Network Traffic With Wireshark
+ Guided Lab: Traffic Analysis Workflow
+ Decrypting RDP connections
 ## References
 
