@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKET TRACER WLAN CONFIGURATION.md",
+                    "file": "04 EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PACKET TRACER WLAN CONFIGURATION"
+                  "title": "L2 MAC FLOODING & ARP SPOOFING"
                 }
               }
             ],
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKET TRACER WLAN CONFIGURATION.md",
+                "file": "04 EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PACKET TRACER WLAN CONFIGURATION"
+              "title": "Outline of L2 MAC FLOODING & ARP SPOOFING"
             }
           },
           {
@@ -359,8 +359,8 @@
   },
   "active": "356121f780c5efb0",
   "lastOpenFiles": [
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKET TRACER WLAN CONFIGURATION.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/VLANS AND SECURE SWITCH CONFIGURATION.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
