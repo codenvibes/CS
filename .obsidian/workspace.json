@@ -301,13 +301,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AWS/AWS S3 ENUMERATION BASICS.md",
+                "file": "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS S3 ENUMERATION BASICS"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -369,10 +369,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9ed762f26254a922",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/AWS S3 ENUMERATION BASICS.md",
+    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/FLAWS AWS.md",
     "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
