@@ -155,12 +155,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
+                    "file": "DEVOPS/12 CLOUD/AWS/FLAWS AWS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "MICROSOFT SENTINEL"
+                  "title": "FLAWS AWS"
                 }
               }
             ],
@@ -287,13 +287,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/AWS/FLAWS AWS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of FLAWS AWS"
             }
           },
           {
@@ -355,11 +355,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "161499ed222cd432",
   "lastOpenFiles": [
     "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
-    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
+    "DEVOPS/12 CLOUD/AWS/FLAWS AWS.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "COURSES/COURSES.base",
     "SOFT SKILLS & CAREER/PIRP.base",
     "SOFT SKILLS & CAREER/PREP",
@@ -398,7 +399,6 @@
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/4. COMPUTE.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/2. NETWORKING.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/2. IAM.md",
-    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/03 THE BENEFITS OF USING CLOUD SERVICES.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
