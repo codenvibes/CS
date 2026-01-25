@@ -33,13 +33,14 @@ Complete the given subnetting exercises. First, you could start by watching the 
 	![[Pasted image 20260125123055.png]]
 
 2. For each of the following IP addresses, carry out fixed length subnetting (FLSM) by applying the given subnet mask and utilizing additional masking bits borrowed from the default subnet mask. Determine the number of possible subnets per the given network ID but only state the first three subnets, where possible. Consider the zero subnet in each of the below network IDs as your first possible subnet.
-Additionally, in every subnet, determine the; number of hosts, network address/ID, first and last usable IP, and the broadcast address.
-a) 192.168.10.0/25
-b) 192.168.10.0/28
-c) 10.0.0.0/30
-d) 10.0.0.0/16
-e) 172.16.0.0/30
-f) 172.16.0.0/17
+	Additionally, in every subnet, determine the; number of hosts, network address/ID, first and last usable IP, and the broadcast address.
+	
+	a) 192.168.10.0/25
+	b) 192.168.10.0/28
+	c) 10.0.0.0/30
+	d) 10.0.0.0/16
+	e) 172.16.0.0/30
+	f) 172.16.0.0/17
 <div align="center">
 <br>
 <br>
