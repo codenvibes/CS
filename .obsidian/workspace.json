@@ -156,7 +156,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
                     "mode": "source",
                     "source": false
                   },
@@ -221,8 +221,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -290,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -369,7 +368,7 @@
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
-    "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
