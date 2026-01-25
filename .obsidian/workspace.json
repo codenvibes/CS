@@ -290,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of LAB - BUILD A SWITCH AND ROUTER NETWORK"
             }
           },
           {
@@ -358,13 +358,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "7eda1ffc13dd09be",
   "lastOpenFiles": [
-    "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
+    "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "13 CTFS & LABS/CTFS & LABS.base",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "QUICK NOTES/TODO.md",
     "00 COURSES/COURSES.base",
     "08 TOOLS/WIRESHARK",
