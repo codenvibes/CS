@@ -28,7 +28,14 @@
   },
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "CYBER": {
+      "icon": "lucide-shield-ban",
+      "unsynced": [
+        "f8771b0a364a4c92"
+      ]
+    }
+  },
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},
