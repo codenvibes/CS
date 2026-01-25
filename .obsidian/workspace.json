@@ -24,7 +24,7 @@
                       "type": "bases",
                       "state": {
                         "file": "00 COURSES/COURSES.base",
-                        "viewName": "THM"
+                        "viewName": "CYBER SHUJAA"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -62,8 +62,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -276,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/README.md",
+                "file": "00 COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -344,13 +343,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "356121f780c5efb0",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "DEVOPS/README.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "ASSETS/Pasted image 20260107115449.png",
     "00 COURSES/COURSES.base",
     "CYBER/README.md",
-    "DEVOPS/README.md",
     "DEVOPS/CONTAINERIZATION",
     "DEVOPS/13 MONITORING & OBSERVABILITY",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/7. SECURITY.md",
