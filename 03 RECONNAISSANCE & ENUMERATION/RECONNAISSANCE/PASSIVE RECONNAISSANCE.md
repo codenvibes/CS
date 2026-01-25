@@ -3,6 +3,8 @@ tags:
   - THM
   - JR_PENETRATION_TESTER
   - NETWORK_SECURITY
+  - CYBERSHUJAA
+  - CNS
 link:
 description:
 ---

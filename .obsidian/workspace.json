@@ -125,7 +125,7 @@
                     }
                   }
                 ],
-                "currentTab": 2
+                "currentTab": 1
               }
             ],
             "direction": "horizontal"
@@ -290,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of SECURITY ANALYST"
             }
           },
           {
@@ -358,11 +358,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "208b62d6bd0b3ab0",
   "lastOpenFiles": [
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
-    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/THM/PRE SECURITY.md",
