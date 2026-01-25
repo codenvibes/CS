@@ -8,7 +8,7 @@ views:
     name: INTERVIEWS
     filters:
       and:
-        - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEWS")
+        - file.inFolder("SOFT SKILLS & CAREER/INTERVIEWS")
     image: note.image
     cardSize: 290
     imageAspectRatio: 0.45
@@ -16,9 +16,9 @@ views:
     name: REPORTS
     filters:
       or:
-        - file.inFolder("09 SOFT SKILLS & CAREER/REPORTS")
+        - file.inFolder("SOFT SKILLS & CAREER/REPORTS")
         - and:
-            - file.inFolder("13 CTFS")
+            - file.inFolder("CYBER/13 CTFS & LABS")
             - file.name.contains("REPORT")
         - and:
             - file.inFolder("/")
