@@ -47,7 +47,7 @@ The free account will give you:
 9. Log in to our AWS console [https://console.aws.amazon.com/](https://console.aws.amazon.com/) as Root user using the email address and password you used in registration.  
 10. Provide evidence (upload as PDF) showing your operational account capturing a screen shot of your free trial subscription working. Examples of screenshots are as follows:
 
-![](https://learning.cybershujaa.co.ke/pluginfile.php/20124/mod_assign/intro/image.png)
+![[Pasted image 20260125163436.png]]
 <div align="center">
 <br>
 <br>
