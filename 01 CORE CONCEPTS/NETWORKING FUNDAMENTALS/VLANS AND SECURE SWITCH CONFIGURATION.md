@@ -19,7 +19,7 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Packet Tracer Lab: Switch Security Configuration
+## [Packet Tracer Lab: Switch Security Configuration](https://itexamanswers.net/11-6-2-lab-switch-security-configuration-answers.html)
 <div align="center">
 <br>
 <br>
