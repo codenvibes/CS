@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/README.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -343,12 +343,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5d99ab491bdb066a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "DEVOPS/README.md",
+    "DEVOPS/12 CLOUD/GCP",
+    "DEVOPS/12 CLOUD/AWS",
     "QUICK NOTES/TODO.md",
     "00 COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AZURE",
-    "DEVOPS/README.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "ASSETS/Pasted image 20260107115449.png",
     "CYBER/README.md",
@@ -369,8 +371,6 @@
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS",
     "DEVOPS/12 CLOUD/OCI",
     "DEVOPS/12 CLOUD",
-    "DEVOPS/11 CONTAINER ORCHESTRATION",
-    "DEVOPS/10 CONTAINERIZATION",
     "CYBER/CS JOURNAL.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
@@ -381,7 +381,6 @@
     "CYBER/13 CTFS & LABS/THM/AOC 2025/00 ADVENT OF CYBER PREP TRACK.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY03 - SPLUNK BASICS - DID YOU SIEM.md",
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
-    "CYBER/13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
