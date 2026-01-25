@@ -125,8 +125,7 @@
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               }
             ],
             "direction": "horizontal"
@@ -304,13 +303,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+                "file": "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTRO TO NETWORK TRAFFIC ANALYSIS"
+              "title": "Outline of JUNIOR CYBERSECURITY ANALYST"
             }
           },
           {
@@ -372,12 +371,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "be960be7af27966d",
+  "active": "1ed32a33f41cf25f",
   "lastOpenFiles": [
-    "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
-    "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
-    "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+    "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
+    "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "13 CTFS & LABS/CTFS & LABS.base",
     "QUICK NOTES/TODO.md",
