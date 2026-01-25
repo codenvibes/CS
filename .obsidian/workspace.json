@@ -287,13 +287,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
+                "file": "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MICROSOFT SENTINEL"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -355,10 +355,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "161499ed222cd432",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AZURE/MICROSOFT SENTINEL.md",
+    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "COURSES/COURSES.base",
     "SOFT SKILLS & CAREER/PIRP.base",
