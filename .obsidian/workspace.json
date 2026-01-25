@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AZURE CLOUD ACCOUNT REGISTRATION"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -343,10 +343,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5d99ab491bdb066a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "00 COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
+    "00 COURSES/COURSES.base",
     "DEVOPS/README.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/GCP",
