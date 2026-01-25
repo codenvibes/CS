@@ -14,7 +14,7 @@
               {
                 "id": "5fba8451e3d9bb96",
                 "type": "tabs",
-                "dimension": 35.49432739059968,
+                "dimension": 44.68775344687753,
                 "children": [
                   {
                     "id": "d6e3d74256db3bbc",
@@ -24,7 +24,7 @@
                       "type": "bases",
                       "state": {
                         "file": "00 COURSES/COURSES.base",
-                        "viewName": "CYBER SHUJAA"
+                        "viewName": "THM"
                       },
                       "pinned": true,
                       "icon": "lucide-layout-grid",
@@ -75,13 +75,12 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
                 "type": "tabs",
-                "dimension": 64.50567260940032,
+                "dimension": 55.31224655312247,
                 "children": [
                   {
                     "id": "1ed32a33f41cf25f",
@@ -117,12 +116,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                        "file": "00 COURSES/THM/PRE SECURITY.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "CLOUD AND NETWORK SECURITY"
+                      "title": "PRE SECURITY"
                     }
                   }
                 ],
@@ -157,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "SUBNETTING EXERCISE"
+                  "title": "DNS IN DETAIL"
                 }
               }
             ],
@@ -201,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:dns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -222,7 +221,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -290,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
+                "file": "00 COURSES/THM/PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SUBNETTING EXERCISE"
+              "title": "Outline of PRE SECURITY"
             }
           },
           {
@@ -358,12 +358,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "af42e3cb962d2202",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "00 COURSES/COURSES.base",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+    "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
     "Pasted image 20260125123234.png",
     "Pasted image 20260125123055.png",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
     "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
@@ -371,7 +373,6 @@
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "13 CTFS & LABS/CTFS & LABS.base",
     "QUICK NOTES/TODO.md",
-    "00 COURSES/COURSES.base",
     "08 TOOLS/WIRESHARK",
     "QUICK NOTES/WHITE-BOARD.md",
     "09 SOFT SKILLS & CAREER/PIRP.base",
@@ -391,7 +392,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/12 DESKTOP EXPERIENCE VS. SERVER CORE.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/11 WINDOWS SUBSYSTEM FOR LINUX (WSL).md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/10 MICROSOFT MANAGEMENT CONSOLE (MMC).md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/09 WINDOWS MANAGEMENT INSTRUMENTATION (WMI).md",
     "00 COURSES/HTB",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
@@ -402,7 +402,6 @@
     "ASSETS/Pasted image 20251203062833.png",
     "ASSETS/Pasted image 20251203062735.png",
     "ASSETS/Pasted image 20251203061345.png",
-    "ASSETS/Pasted image 20251202160720.png",
     "13 CTFS & LABS/THM",
     "05 DEFENSIVE SECURITY/SIEM TOOLS",
     "13 CTFS & LABS/HTB",
