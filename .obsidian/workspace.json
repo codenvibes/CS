@@ -156,7 +156,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                     "mode": "source",
                     "source": false
                   },
@@ -225,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -289,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -357,7 +356,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "af42e3cb962d2202",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
@@ -370,7 +369,7 @@
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
-    "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
