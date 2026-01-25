@@ -19,6 +19,7 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+## Assignment
 
 **Note: You must do all levels of this assignment for it to be complete.  
 pre req. :**
@@ -31,6 +32,15 @@ since we will use aws cli which can we downloaded and install
 
 Have an aws iam user and cli credentials  
 
-use this guide
+use this guide: https://www.youtube.com/watch?v=N7MgJYlJd7M
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## References
 
