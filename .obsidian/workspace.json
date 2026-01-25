@@ -38,7 +38,7 @@
                       "type": "bases",
                       "state": {
                         "file": "SOFT SKILLS & CAREER/PIRP.base",
-                        "viewName": "PREP"
+                        "viewName": "INTERVIEWS"
                       },
                       "icon": "lucide-layout-grid",
                       "title": "PIRP"
@@ -60,8 +60,7 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ],
-                "currentTab": 1
+                ]
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -274,13 +273,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOFT SKILLS & CAREER/PIRP.base",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PIRP"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -342,11 +341,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5451534be122d60e",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
+    "SOFT SKILLS & CAREER/PIRP.base",
     "SOFT SKILLS & CAREER/PREP",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "SOFT SKILLS & CAREER/PIRP.base",
     "COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR.md",

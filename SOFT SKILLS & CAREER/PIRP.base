@@ -1,6 +1,9 @@
 views:
   - type: cards
     name: PREP
+    filters:
+      and:
+        - file.inFolder("SOFT SKILLS & CAREER/PREP")
   - type: cards
     name: INTERVIEWS
     filters:
