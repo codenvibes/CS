@@ -19,13 +19,12 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-##### **AZ500** **Lab 11: Azure Monitor**
+## **AZ500** **Lab 11: Azure Monitor**
 
 **Instructions**
 
 1. The lab instructions will be available on the GitHub page. _[Click here](https://github.com/MicrosoftLearning/AZ500-AzureSecurityTechnologies/blob/master/Instructions/Labs/LAB_11_Azure%20Monitor.md)_ to be redirected.
 
-  
 
 **Write a report that has the following sections:**  
 
@@ -35,5 +34,14 @@ description:
 
   
 **LAB GUIDE**
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
+
 ## References
 
