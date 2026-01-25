@@ -19,6 +19,8 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+## Account Registration
+
 Go to the link [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/) to register a free Azure cloud account.
 
 The free account will give you:  
@@ -36,6 +38,14 @@ The free account will give you:
 6. Complete the Agreement section to complete the registration.
 7. Go to the Azure Portal [https://portal.azure.com/](https://portal.azure.com/) and verify your account is working.
 8. Provide evidence **(upload as PDF)** showing your operational account capturing a screen shot of your free trial subscription working. Examples of screenshots are as follows:
+<div align="center">
+<br>
+<br>
+※※※※※※※※※※※※※※※※※※※※※※※※
+<br>
+</div>
+<!-- PAGE BREAK -->
+<div style="page-break-after: always;"></div>
 
 ## References
 
