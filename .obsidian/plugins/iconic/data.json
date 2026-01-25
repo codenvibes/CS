@@ -29,6 +29,13 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "ASSETS": {
+      "icon": "lucide-image",
+      "unsynced": [
+        "f8771b0a364a4c92"
+      ],
+      "color": "yellow"
+    },
     "CYBER": {
       "icon": "lucide-lock",
       "unsynced": [
