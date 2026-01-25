@@ -125,7 +125,7 @@
                     }
                   }
                 ],
-                "currentTab": 1
+                "currentTab": 2
               }
             ],
             "direction": "horizontal"
@@ -200,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:SA",
+                "query": "tag:CNS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SECURITY ANALYST"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -359,8 +359,9 @@
   },
   "active": "8089db5984bed9f9",
   "lastOpenFiles": [
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
+    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
@@ -382,7 +383,6 @@
     "ASSETS/Packet Tracer Investigating the TCPIP and OSI Models in Action.pdf",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
-    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/10 SUBNETTING.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
