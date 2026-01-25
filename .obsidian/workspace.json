@@ -302,13 +302,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/PACKET TRACER/CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI.md",
+                "file": "00 COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -370,10 +370,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1a75a50bbfc2913f",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "ASSETS/Pasted image 20260125123055.png",
     "08 TOOLS/PACKET TRACER/CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI.md",
+    "ASSETS/Pasted image 20260125123055.png",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/PACKET TRACER/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
