@@ -178,9 +178,23 @@
                   "icon": "lucide-file",
                   "title": "INTRO TO NETWORK TRAFFIC ANALYSIS"
                 }
+              },
+              {
+                "id": "af42e3cb962d2202",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISES.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "SUBNETTING EXERCISES"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -304,13 +318,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "08 TOOLS/WIRESHARK/SUBNETTING EXERCISES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of SUBNETTING EXERCISES"
             }
           },
           {
@@ -372,12 +386,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "af42e3cb962d2202",
   "lastOpenFiles": [
     "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+    "08 TOOLS/WIRESHARK/SUBNETTING EXERCISES.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "13 CTFS & LABS/CTFS & LABS.base",
@@ -404,7 +419,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/10 MICROSOFT MANAGEMENT CONSOLE (MMC).md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/09 WINDOWS MANAGEMENT INSTRUMENTATION (WMI).md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/08 INTERACTING WITH THE WINDOWS OPERATING SYSTEM.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/07 WINDOWS SESSIONS.md",
     "00 COURSES/HTB",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
