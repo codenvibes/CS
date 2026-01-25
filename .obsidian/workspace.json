@@ -155,12 +155,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+                    "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "INTRO TO NETWORK TRAFFIC ANALYSIS"
+                  "title": "WINDOWS FUNDAMENTALS"
                 }
               }
             ],
@@ -288,13 +288,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+                "file": "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTRO TO NETWORK TRAFFIC ANALYSIS"
+              "title": "Outline of WINDOWS FUNDAMENTALS"
             }
           },
           {
@@ -358,14 +358,14 @@
   },
   "active": "af42e3cb962d2202",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
+    "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
-    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
-    "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
