@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KEY VAULT AND ENCRYPTION"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -343,11 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "aeca4e200cec6ebb",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
     "Pasted image 20260125171441.png",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
     "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
     "Pasted image 20260125170257.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
@@ -390,7 +390,6 @@
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "ASSETS/Pasted image 20251203150324.png",
-    "Pasted image 20251203143305.png",
     "Untitled.canvas"
   ]
 }
