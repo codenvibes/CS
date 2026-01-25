@@ -221,13 +221,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -358,7 +356,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "356121f780c5efb0",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
