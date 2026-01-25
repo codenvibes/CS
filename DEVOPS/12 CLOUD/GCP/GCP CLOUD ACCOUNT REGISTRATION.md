@@ -41,29 +41,13 @@ The free account will give you:
 
 1. Create a Google/Gmail account or use an existing Google email account.
 
-2. Registration Confirmation: Once you have completed these step, your account registration
+2. Registration Confirmation: Once you have completed these step, your account registration will be processed and you can access the services immediately.
 
-will be processed and you can access the services immediately.
+3. Log in to Google Cloud console [https://console.cloud.google.com/](https://console.cloud.google.com/) using the email address and password you used in registration.
 
-3. Log in to Google Cloud console [https://console.cloud.google.com/](https://console.cloud.google.com/) using the email address
+4. To complete your Free Trial signup, you must provide a credit card or other payment method to set up a Cloud Billing account and verify your identity. Don't worry, setting up a Cloud Billing account does not enable Google to charge you. You are not charged unless you explicitly enable billing by upgrading your Cloud Billing account to a paid account. You can upgrade to a paid account at any time during the trial. After you have upgraded, you can still use any remaining credits (within the 90-day period).
 
-and password you used in registration.
-
-4. To complete your Free Trial signup, you must provide a credit card or other payment method
-
-to set up a Cloud Billing account and verify your identity. Don't worry, setting up a Cloud
-
-Billing account does not enable Google to charge you. You are not charged unless you
-
-explicitly enable billing by upgrading your Cloud Billing account to a paid account. You can
-
-upgrade to a paid account at any time during the trial. After you have upgraded, you can still
-
-use any remaining credits (within the 90-day period).
-
-5. Confirm your operational account by looking for the Free trial status banner at the top of
-
-the page.
+5. Confirm your operational account by looking for the Free trial status banner at the top of the page.
 
 6. **Provide evidence (upload as PDF)** showing your operational account capturing a screen shot of your free trial subscription working.
 
