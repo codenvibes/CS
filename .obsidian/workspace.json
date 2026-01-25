@@ -200,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#3-HOW_THE_WEB_WORKS  ",
+                "query": "tag:SA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -226,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -358,7 +357,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "208b62d6bd0b3ab0",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
