@@ -25,7 +25,8 @@ Here is an updated link for the Cloudgoat repo on github: [https://github.com/R
 
 https://drive.google.com/file/d/1ZP1PH29fCRT9pg28b6iNdJf9U2MyG6uK/view
 
-Video Part 1
+[Video Part 1](https://www.youtube.com/watch?v=_plladeB-uY)
+[Video Part 2](https://www.youtube.com/watch?v=6NV3F6mDpGs)
 <div align="center">
 <br>
 <br>
