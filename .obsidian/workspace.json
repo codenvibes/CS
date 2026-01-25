@@ -116,12 +116,12 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
+                        "file": "00 COURSES/THM/PRE SECURITY.md",
                         "mode": "source",
                         "source": false
                       },
                       "icon": "lucide-file",
-                      "title": "MAL MALWARE INTRODUCTORY"
+                      "title": "PRE SECURITY"
                     }
                   }
                 ],
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
+                "file": "00 COURSES/THM/PRE SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MAL MALWARE INTRODUCTORY"
+              "title": "Outline of PRE SECURITY"
             }
           },
           {
@@ -359,6 +359,7 @@
   },
   "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
     "00 COURSES/THM/PRE SECURITY.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/COURSES.base",
@@ -391,7 +392,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/13 WINDOWS SECURITY.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/12 DESKTOP EXPERIENCE VS. SERVER CORE.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/11 WINDOWS SUBSYSTEM FOR LINUX (WSL).md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/10 MICROSOFT MANAGEMENT CONSOLE (MMC).md",
     "00 COURSES/HTB",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
