@@ -34,14 +34,12 @@
                   {
                     "id": "6b2536b183f7f9a6",
                     "type": "leaf",
-                    "pinned": true,
                     "state": {
                       "type": "bases",
                       "state": {
-                        "file": "09 SOFT SKILLS & CAREER/PIRP.base",
-                        "viewName": "INTERVIEWS"
+                        "file": "SOFT SKILLS & CAREER/PIRP.base",
+                        "viewName": "PREP"
                       },
-                      "pinned": true,
                       "icon": "lucide-layout-grid",
                       "title": "PIRP"
                     }
@@ -62,7 +60,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 1
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -275,13 +274,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/COURSES.base",
+                "file": "SOFT SKILLS & CAREER/PIRP.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline of PIRP"
             }
           },
           {
@@ -343,13 +342,14 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "6b2536b183f7f9a6",
   "lastOpenFiles": [
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "SOFT SKILLS & CAREER/PIRP.base",
+    "COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR.md",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
-    "COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AWS/Untitled",
@@ -384,10 +384,8 @@
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/2. NETWORKING.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/2. IAM.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/03 THE BENEFITS OF USING CLOUD SERVICES.md",
-    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/02 CLOUD MODELS.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS",
-    "DEVOPS/12 CLOUD/OCI",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
