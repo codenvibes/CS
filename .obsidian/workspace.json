@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/CONFIGURING SITE-TO-SITE VPNS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of CONFIGURING SITE-TO-SITE VPNS"
             }
           },
           {
@@ -357,11 +357,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "356121f780c5efb0",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/CONFIGURING SITE-TO-SITE VPNS.md",
     "01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "04 EXPLOITATION/WEB_EXPLOITATION/L2 MAC FLOODING & ARP SPOOFING.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKET TRACER WLAN CONFIGURATION.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/VLANS AND SECURE SWITCH CONFIGURATION.md",
