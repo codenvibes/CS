@@ -33,19 +33,22 @@
       "icon": "lucide-lock",
       "unsynced": [
         "f8771b0a364a4c92"
-      ]
+      ],
+      "color": "blue"
     },
     "DEVOPS": {
       "icon": "lucide-code",
       "unsynced": [
         "f8771b0a364a4c92"
-      ]
+      ],
+      "color": "green"
     },
     "QUICK NOTES": {
       "icon": "lucide-pen-box",
       "unsynced": [
         "f8771b0a364a4c92"
-      ]
+      ],
+      "color": "orange"
     },
     "SOFT SKILLS & CAREER": {
       "icon": "lucide-network",
