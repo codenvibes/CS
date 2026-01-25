@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of PASSIVE RECONNAISSANCE"
             }
           },
           {
@@ -357,10 +357,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "8089db5984bed9f9",
+  "active": "af42e3cb962d2202",
   "lastOpenFiles": [
-    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
