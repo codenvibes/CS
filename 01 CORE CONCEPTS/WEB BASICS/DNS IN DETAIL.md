@@ -1,8 +1,7 @@
 ---
 tags:
-  - "#THM-PRE_SECURITY"
-  - HOW_THE_WEB_WORKS
   - THM
+  - THM-PRE_SECURITY
 link:
 description:
 ---
