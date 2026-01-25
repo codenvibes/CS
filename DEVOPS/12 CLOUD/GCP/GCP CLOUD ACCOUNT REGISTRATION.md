@@ -32,10 +32,12 @@ The free account will give you:
 - Limited time T2A Free Trial: During your Free Trial period, when you use resources covered by the Free Tier, the Free Tier usage is not charged against your Free Trial credits.
 
 - Free Tier: All Google Cloud customers can use select Google Cloud products—like Compute Engine, Cloud Storage, and BigQuery—free of charge, within specified monthly usage limits. When you stay within the Free Tier limits, these resources are not charged against your Free Trial credits or to your Cloud Billing account's payment method after your trial ends.
+<div align="center">
+<br>
+<br>
+</div>
 
-  
-
-Steps to follow:
+### Steps to follow:
 
 1. Create a Google/Gmail account or use an existing Google email account.
 
@@ -63,7 +65,7 @@ use any remaining credits (within the 90-day period).
 
 the page.
 
-6. **Provide evidence (upload as PDF)** showing your operational account capturing a screen shot of your free trial subscription working.
+6. **Provide evidence (upload as PDF)** showing your operational account capturing a screen shot of your free trial subscription working.
 
 For more information: [https://cloud.google.com/free/docs/free-cloud-features#free-trial](https://cloud.google.com/free/docs/free-cloud-features#free-trial)
 
