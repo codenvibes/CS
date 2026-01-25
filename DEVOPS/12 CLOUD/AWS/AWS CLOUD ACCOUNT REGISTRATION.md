@@ -29,6 +29,10 @@ The free account will give you:
 - Services with a short term trial are free to use for a specified period of time or up to a one-time limit depending on the service selected. 
 
 **NOTE:** Details on the limits and services provided free are detailed in each category on the Free Tier page.  If your use exceeds the free tier limits, you pay standard, pay-as-you-go service rates.
+<div align="center">
+<br>
+<br>
+</div>
 
 ### Steps to follow:
 
