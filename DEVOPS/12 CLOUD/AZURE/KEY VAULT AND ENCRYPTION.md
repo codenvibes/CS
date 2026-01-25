@@ -36,6 +36,11 @@ Create a completion report with a cover page that captures your name and program
 **Name your report in this format: firstname_surname_adm no**
 
 **And as pdf**
+
+![[Pasted image 20260125171441.png]]
+
+ - [az-500-10_azuredeploy.json](https://learning.cybershujaa.co.ke/pluginfile.php/20140/mod_assign/introattachment/0/az-500-10_azuredeploy.json?forcedownload=1)
+ - [program.cs](https://learning.cybershujaa.co.ke/pluginfile.php/20140/mod_assign/introattachment/0/program.cs?forcedownload=1)
 <div align="center">
 <br>
 <br>
