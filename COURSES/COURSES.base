@@ -3,7 +3,7 @@ views:
     name: THM
     filters:
       and:
-        - file.folder == "00 COURSES/THM"
+        - file.folder == "COURSES/THM"
     order:
       - file.name
     sort:
@@ -25,7 +25,7 @@ views:
     name: CYBER SHUJAA
     filters:
       and:
-        - file.folder == "00 COURSES/CYBER SHUJAA"
+        - file.folder == "COURSES/CYBER SHUJAA"
     image: note.image
     imageFit: contain
     cardSize: 280
