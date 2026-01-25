@@ -272,13 +272,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of WHITE-BOARD"
+              "title": "Outline"
             }
           },
           {
@@ -340,8 +339,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "21fce08000a30866",
+  "active": "356121f780c5efb0",
   "lastOpenFiles": [
+    "QUICK NOTES/WHITE-BOARD.md",
+    "ASSETS/Pasted image 20260107115449.png",
     "00 COURSES/COURSES.base",
     "CYBER/README.md",
     "DEVOPS/README.md",
@@ -365,7 +366,6 @@
     "DEVOPS/11 CONTAINER ORCHESTRATION",
     "DEVOPS/10 CONTAINERIZATION",
     "DEVOPS/08 INFRASTRUCTURE AS CODE (IAC)",
-    "DEVOPS",
     "CYBER/CS JOURNAL.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
@@ -387,7 +387,6 @@
     "ASSETS/Pasted image 20251203064331.png",
     "ASSETS/Pasted image 20251203062833.png",
     "ASSETS/Pasted image 20251203062735.png",
-    "ASSETS/Pasted image 20251203061345.png",
     "Untitled.canvas"
   ]
 }
