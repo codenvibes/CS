@@ -12,5 +12,6 @@
   "trashOption": "none",
   "showUnsupportedFiles": true,
   "showLineNumber": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "attachmentFolderPath": "ASSETS"
 }
