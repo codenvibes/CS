@@ -1,3 +1,4 @@
+- [ ] CLEAN UP TAGS
 - [ ] Re-read all the files in the **Network Fundamentals** folder carefully — don’t skim this time as you move everything into [[NETWORKING FUNDAMENTALS]]
 - [ ] Re-read all the files in the **Windows** folder carefully — don’t skim this time! 
 - [ ] Create tags for TOOLS and LABS and delete the index notes respectively.
