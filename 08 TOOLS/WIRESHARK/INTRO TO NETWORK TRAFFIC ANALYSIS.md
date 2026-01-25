@@ -2,8 +2,7 @@
 tags:
   - HTB
   - JUNIOR_CYBERSECURITY_ANALYST
-  - CYBERSHUJAA
-  - CNS
+  - CYBER_SHUJAA_CNS
 link: https://academy.hackthebox.com/module/details/81
 description: This module introduces network traffic analysis in a general sense for both offensive and defensive security practitioners. Defenders can use network traffic analysis to collect and analyze real-time and historical data of what is happening on the network. Network traffic analysis can also be used by both sides to search for vulnerable protocols and ciphers in use. We will cover principles of network traffic analysis and usage of traffic analysis tools such as Wireshark and tcpdump.
 ---

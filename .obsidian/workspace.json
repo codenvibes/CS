@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                    "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DNS IN DETAIL"
+                  "title": "INTRO TO NETWORK TRAFFIC ANALYSIS"
                 }
               }
             ],
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DNS IN DETAIL"
+              "title": "Outline of INTRO TO NETWORK TRAFFIC ANALYSIS"
             }
           },
           {
@@ -359,12 +359,13 @@
   },
   "active": "af42e3cb962d2202",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+    "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
-    "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/THM/PRE SECURITY.md",
     "05 DEFENSIVE SECURITY/MAL MALWARE INTRODUCTORY.md",
     "00 COURSES/COURSES.base",
@@ -374,7 +375,6 @@
     "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "13 CTFS & LABS/CTFS & LABS.base",
     "QUICK NOTES/TODO.md",
     "08 TOOLS/WIRESHARK",
