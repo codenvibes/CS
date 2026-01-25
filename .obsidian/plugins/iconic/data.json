@@ -30,7 +30,13 @@
   "tabIcons": {},
   "fileIcons": {
     "CYBER": {
-      "icon": "lucide-folder-lock",
+      "icon": "lucide-lock",
+      "unsynced": [
+        "f8771b0a364a4c92"
+      ]
+    },
+    "DEVOPS": {
+      "icon": "lucide-code",
       "unsynced": [
         "f8771b0a364a4c92"
       ]
