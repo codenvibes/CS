@@ -3,5 +3,6 @@
     "zoom",
     "font"
   ],
-  "cssTheme": "GitHub Theme"
+  "cssTheme": "GitHub Theme",
+  "showRibbon": false
 }
