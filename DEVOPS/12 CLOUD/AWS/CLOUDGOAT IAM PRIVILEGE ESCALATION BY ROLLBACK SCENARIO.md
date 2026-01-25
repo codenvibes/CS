@@ -19,5 +19,7 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
+## Assignment: CloudGoat IAM Privilege Escalation by Rollback Scenario
+
 ## References
 

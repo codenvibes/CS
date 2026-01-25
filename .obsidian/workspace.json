@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/AWS/CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO"
             }
           },
           {
@@ -343,11 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "5d99ab491bdb066a",
   "lastOpenFiles": [
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO.md",
     "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "ASSETS/Pasted image 20260125164756.png",
     "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
