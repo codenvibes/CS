@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -357,10 +357,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "9daf8aa66a63add8",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
     "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
+    "Pasted image 20260125170257.png",
+    "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "ASSETS/Pasted image 20260125165838.png",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT IAM PRIVILEGE ESCALATION BY ROLLBACK SCENARIO.md",
@@ -398,13 +399,11 @@
     "DEVOPS/12 CLOUD",
     "CYBER/CS JOURNAL.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY06 - MALWARE ANALYSIS - EGG-XECUTABLE.md",
-    "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "ASSETS/Pasted image 20251203150324.png",
     "Pasted image 20251203143305.png",
-    "Pasted image 20251203142927.png",
     "Untitled.canvas"
   ]
 }
