@@ -169,6 +169,19 @@
         "type": "tabs",
         "children": [
           {
+            "id": "5451534be122d60e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
             "id": "8089db5984bed9f9",
             "type": "leaf",
             "state": {
@@ -195,8 +208,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -331,7 +343,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "d6e3d74256db3bbc",
+  "active": "5451534be122d60e",
   "lastOpenFiles": [
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
