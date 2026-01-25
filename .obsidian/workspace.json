@@ -143,12 +143,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AZURE/Untitled.md",
+                    "file": "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "KEY VAULT AND ENCRYPTION"
                 }
               }
             ],
@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of KEY VAULT AND ENCRYPTION"
             }
           },
           {
@@ -343,11 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "aeca4e200cec6ebb",
   "lastOpenFiles": [
-    "DEVOPS/12 CLOUD/AZURE/Untitled.md",
-    "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
+    "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
     "Pasted image 20260125170257.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE FIREWALL.md",
     "ASSETS/Pasted image 20260125165838.png",
