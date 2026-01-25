@@ -271,13 +271,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of COURSES"
+              "title": "Outline"
             }
           },
           {
@@ -339,8 +338,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "356121f780c5efb0",
   "lastOpenFiles": [
+    "00 COURSES/COURSES.base",
+    "CYBER/README.md",
     "DEVOPS/README.md",
     "DEVOPS/CONTAINERIZATION",
     "DEVOPS/13 MONITORING & OBSERVABILITY",
@@ -375,8 +376,6 @@
     "CYBER/13 CTFS & LABS/THM/OVERPASS.md",
     "CYBER/13 CTFS & LABS/THM/FOWSNIFF CTF.md",
     "CYBER/13 CTFS & LABS/HTB/SOULMATE.md",
-    "CYBER/13 CTFS & LABS/H4K-IT 2025/SCRIPT.md",
-    "CYBER/12 AI & CYBERSECURITY/03 INTRODUCTION TO AI SECURITY TESTING.md",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
