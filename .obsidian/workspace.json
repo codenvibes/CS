@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+                    "file": "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "INTRO TO NETWORK TRAFFIC ANALYSIS"
+                  "title": "LAB - BUILD A SWITCH AND ROUTER NETWORK"
                 }
               }
             ],
@@ -225,7 +225,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125
+    "width": 359.703125,
+    "collapsed": true
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -288,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
+                "file": "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INTRO TO NETWORK TRAFFIC ANALYSIS"
+              "title": "Outline of LAB - BUILD A SWITCH AND ROUTER NETWORK"
             }
           },
           {
@@ -356,10 +357,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "af42e3cb962d2202",
   "lastOpenFiles": [
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
-    "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
