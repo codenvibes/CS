@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "DNS IN DETAIL"
+                  "title": "WEB REQUESTS"
                 }
               }
             ],
@@ -290,13 +290,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DNS IN DETAIL"
+              "title": "Outline of WEB REQUESTS"
             }
           },
           {
@@ -360,8 +360,8 @@
   },
   "active": "af42e3cb962d2202",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/THM/PRE SECURITY.md",
