@@ -16,7 +16,7 @@ views:
     name: HACKVISER
     filters:
       and:
-        - file.folder == "00 COURSES/HACKVISER"
+        - file.folder == "COURSES/HACKVISER"
     image: note.image
     cardSize: 300
     imageFit: contain
@@ -34,7 +34,7 @@ views:
     name: HTB
     filters:
       and:
-        - file.folder == "00 COURSES/HTB"
+        - file.folder == "COURSES/HTB"
     image: note.image
-    cardSize: 250
+    cardSize: 270
     imageAspectRatio: 0.65
