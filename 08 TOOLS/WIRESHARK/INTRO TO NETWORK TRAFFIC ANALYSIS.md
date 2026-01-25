@@ -20,8 +20,8 @@ description: This module introduces network traffic analysis in a general sense 
 <br>
 </div>
 <!-- PAGE BREAK -->
-
 <div style="page-break-after: always;"></div>
+
 ## Network Traffic Analysis
 <div align="center">
 <br>
