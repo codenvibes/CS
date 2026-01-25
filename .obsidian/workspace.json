@@ -143,12 +143,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
+                    "file": "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "AWS CLOUD ACCOUNT REGISTRATION"
+                  "title": "CLOUDGOAT VULNERABLE_LAMBDA"
                 }
               }
             ],
@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
+                "file": "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AWS CLOUD ACCOUNT REGISTRATION"
+              "title": "Outline of CLOUDGOAT VULNERABLE_LAMBDA"
             }
           },
           {
@@ -343,11 +343,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "ac2b3b805e939258",
   "lastOpenFiles": [
+    "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AWS/Untitled",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "Pasted image 20260125172017.png",
     "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
     "Pasted image 20260125171441.png",
@@ -359,7 +361,6 @@
     "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
     "ASSETS/Pasted image 20260125164756.png",
     "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
-    "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
     "00 COURSES/COURSES.base",
