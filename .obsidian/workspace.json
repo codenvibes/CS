@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
+                    "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "PASSIVE RECONNAISSANCE"
+                  "title": "DNS IN DETAIL"
                 }
               }
             ],
@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
+                "file": "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PASSIVE RECONNAISSANCE"
+              "title": "Outline of DNS IN DETAIL"
             }
           },
           {
@@ -359,9 +359,9 @@
   },
   "active": "af42e3cb962d2202",
   "lastOpenFiles": [
+    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
-    "03 RECONNAISSANCE & ENUMERATION/RECONNAISSANCE/PASSIVE RECONNAISSANCE.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",

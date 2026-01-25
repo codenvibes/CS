@@ -3,8 +3,7 @@ tags:
   - THM
   - THM-PRE_SECURITY
   - HOW_THE_WEB_WORKS
-  - CYBERSHUJAA
-  - CNS
+  - CYBER_SHUJAA_CNS
 link:
 description:
 ---
