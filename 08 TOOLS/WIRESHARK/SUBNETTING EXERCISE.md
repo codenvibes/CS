@@ -29,6 +29,8 @@ Complete the given subnetting exercises. First, you could start by watching the 
 	- First and last usable IP addresses
 	- Broadcast address (broadcast ID)
 	- Hosts per subnet
+	
+	![[Pasted image 20260125123055.png]]
 <div align="center">
 <br>
 <br>
