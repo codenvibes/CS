@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUDGOAT VULNERABLE_LAMBDA"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -343,11 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ac2b3b805e939258",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
+    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
-    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AWS/Untitled",
     "Pasted image 20260125172017.png",
