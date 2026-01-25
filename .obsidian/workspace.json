@@ -143,12 +143,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
+                    "file": "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "AWS CLOUD ACCOUNT REGISTRATION"
+                  "title": "GCP CLOUD ACCOUNT REGISTRATION"
                 }
               }
             ],
@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of GCP CLOUD ACCOUNT REGISTRATION"
             }
           },
           {
@@ -343,12 +343,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "5d99ab491bdb066a",
   "lastOpenFiles": [
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
+    "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "00 COURSES/COURSES.base",
     "DEVOPS/README.md",
     "DEVOPS/12 CLOUD/GCP",
