@@ -200,7 +200,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:JUNIOR_CYBERSECURITY_ANALYST",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -221,7 +221,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
