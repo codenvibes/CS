@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ROLE-BASED ACCESS CONTROL"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -343,10 +343,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "5d99ab491bdb066a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
+    "ASSETS/Pasted image 20260125164756.png",
+    "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "ASSETS/Pasted image 20260125163436.png",
@@ -382,7 +383,6 @@
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY07 - NETWORK DISCOVERY - SCAN-TA CLAUSE.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY04 - AI IN SECURITY - OLD SAINT NICK.md",
     "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY05 - SANTA’S LITTLE IDOR.md",
-    "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY02 - PHISHING - MERRY CLICKMAS.md",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
@@ -390,7 +390,6 @@
     "Pasted image 20251203143305.png",
     "Pasted image 20251203142927.png",
     "ASSETS/Pasted image 20251203064331.png",
-    "ASSETS/Pasted image 20251203062833.png",
     "Untitled.canvas"
   ]
 }

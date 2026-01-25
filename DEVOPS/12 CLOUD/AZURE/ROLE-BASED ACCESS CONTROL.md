@@ -32,6 +32,8 @@ This week, we will be completing the lab that explores the **Role Based Access
 ### Submission Instructions:
 
 Create a completion report with a cover page that captures your name and program details. Create a section for each of the labs that should be completed. As you complete each lab, provide evidence of completion by capturing screenshots of your task completions. Ensure your write-ups and screenshots demonstrate enough detail to confirm your engagement in completing the lab as shown below.
+
+![[Pasted image 20260125164756.png]]
 <div align="center">
 <br>
 <br>
