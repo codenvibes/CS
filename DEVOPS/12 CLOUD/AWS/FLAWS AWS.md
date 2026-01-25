@@ -35,7 +35,7 @@ Use this as it contains guides for both linux and windows
 
 [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)  
 
-**Lab**  
+### Lab
 
 flaws.cloud  [http://flaws.cloud/](http://flaws.cloud/)  
 
