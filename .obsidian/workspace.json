@@ -156,12 +156,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+                    "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "EXAMINE TCPIP AND OSI MODELS IN ACTION"
+                  "title": "LAB - BUILD A SWITCH AND ROUTER NETWORK"
                 }
               }
             ],
@@ -288,13 +288,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
+                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of EXAMINE TCPIP AND OSI MODELS IN ACTION"
+              "title": "Outline of LAB - BUILD A SWITCH AND ROUTER NETWORK"
             }
           },
           {
@@ -356,8 +356,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "344cbeb398d80eda",
+  "active": "356121f780c5efb0",
   "lastOpenFiles": [
+    "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/CONFIGURING SITE-TO-SITE VPNS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/PACKET TRACER",
@@ -376,7 +377,6 @@
     "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/LAB – USE WIRESHARK TO VIEW NETWORK TRAFFIC.md",
-    "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "01 CORE CONCEPTS/WEB BASICS/DNS IN DETAIL.md",
     "00 COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "00 COURSES/THM/PRE SECURITY.md",
