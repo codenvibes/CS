@@ -143,12 +143,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
+                    "file": "DEVOPS/12 CLOUD/AWS/Untitled.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "ROLE-BASED ACCESS CONTROL"
+                  "title": "Untitled"
                 }
               }
             ],
@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/AWS/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -343,12 +343,13 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "5d99ab491bdb066a",
   "lastOpenFiles": [
     "DEVOPS/12 CLOUD/AZURE/ROLE-BASED ACCESS CONTROL.md",
+    "DEVOPS/12 CLOUD/AWS/Untitled.md",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "ASSETS/Pasted image 20260125164756.png",
     "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
