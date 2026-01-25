@@ -225,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -357,7 +356,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "af42e3cb962d2202",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
     "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
