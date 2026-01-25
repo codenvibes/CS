@@ -41,14 +41,14 @@
       "unsynced": [
         "f8771b0a364a4c92"
       ],
-      "color": "gray"
+      "color": "blue"
     },
     "CYBER": {
       "icon": "lucide-lock",
       "unsynced": [
         "f8771b0a364a4c92"
       ],
-      "color": "blue"
+      "color": "red"
     },
     "DEVOPS": {
       "icon": "lucide-code",
