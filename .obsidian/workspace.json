@@ -124,8 +124,7 @@
                       "title": "CLOUD AND NETWORK SECURITY"
                     }
                   }
-                ],
-                "currentTab": 2
+                ]
               }
             ],
             "direction": "horizontal"
@@ -200,7 +199,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CYBERSHUJAA  ",
+                "query": "tag:JUNIOR_CYBERSECURITY_ANALYST",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -289,13 +288,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
+                "file": "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CYBERSHUJAA TRAINER"
+              "title": "Outline of JUNIOR CYBERSECURITY ANALYST"
             }
           },
           {
@@ -357,8 +356,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "f12cdeede3ae0432",
+  "active": "8089db5984bed9f9",
   "lastOpenFiles": [
+    "09 SOFT SKILLS & CAREER/INTERVIEWS/CYBERSHUJAA TRAINER.md",
     "05 DEFENSIVE SECURITY/WIRELESS NETWORK SECURITY.md",
     "01 CORE CONCEPTS/WEB BASICS/WEB REQUESTS.md",
     "08 TOOLS/WIRESHARK/SUBNETTING EXERCISE.md",
@@ -391,7 +391,6 @@
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/02 OPERATING SYSTEM STRUCTURE.md",
-    "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/14 SKILLS ASSESSMENT - WINDOWS FUNDAMENTALS.md",
     "00 COURSES/HTB",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
