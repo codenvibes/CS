@@ -142,10 +142,14 @@
                 "id": "356121f780c5efb0",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "DEVOPS/README.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "README"
                 }
               }
             ],
@@ -272,12 +276,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DEVOPS/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
