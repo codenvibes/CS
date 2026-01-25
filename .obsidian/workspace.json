@@ -62,7 +62,8 @@
                       "title": "WHITE-BOARD"
                     }
                   }
-                ]
+                ],
+                "currentTab": 2
               },
               {
                 "id": "eb7c5c7906b2a9d3",
@@ -271,12 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "QUICK NOTES/WHITE-BOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of WHITE-BOARD"
             }
           },
           {
@@ -338,7 +340,7 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "356121f780c5efb0",
+  "active": "21fce08000a30866",
   "lastOpenFiles": [
     "00 COURSES/COURSES.base",
     "CYBER/README.md",
