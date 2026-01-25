@@ -214,7 +214,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#WINDOWS_EVENT_LOGS_",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
