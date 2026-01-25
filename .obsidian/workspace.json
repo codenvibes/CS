@@ -169,19 +169,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "344cbeb398d80eda",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "8089db5984bed9f9",
             "type": "leaf",
             "state": {
@@ -275,13 +262,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
+                "file": "COURSES/COURSES.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUDGOAT VULNERABLE_LAMBDA"
+              "title": "Outline of COURSES"
             }
           },
           {
@@ -343,10 +330,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ac2b3b805e939258",
+  "active": "d6e3d74256db3bbc",
   "lastOpenFiles": [
-    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
+    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "DEVOPS/12 CLOUD/AWS/Untitled",
