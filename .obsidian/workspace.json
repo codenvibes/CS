@@ -225,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.703125,
-    "collapsed": true
+    "width": 359.703125
   },
   "right": {
     "id": "26820c7e22c27caf",
@@ -357,8 +356,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "344cbeb398d80eda",
   "lastOpenFiles": [
+    "08 TOOLS/PACKET TRACER",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/CONFIGURING SITE-TO-SITE VPNS.md",
     "01 CORE CONCEPTS/WEB BASICS/INTRODUCTION TO WEB APPLICATIONS.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
@@ -391,7 +391,6 @@
     "ASSETS/Packet Tracer Investigating the TCPIP and OSI Models in Action.pdf",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/OSI MODEL.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/NETWORK STANDARDS, MODELS & PROTOCOLS.md",
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
     "00 COURSES/HTB",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
     "13 CTFS & LABS/THM/AOC 2025",
