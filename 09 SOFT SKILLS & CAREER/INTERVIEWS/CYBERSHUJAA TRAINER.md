@@ -1,7 +1,6 @@
 ---
 tags:
   - INTERVIEW
-  - CYBERSHUJAA
 image: https://cybershujaa.co.ke/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcybershujaa-logo.f9e17b4e.png&w=384&q=75
 ---
 > Thank you once again for interviewing with us, we truly enjoyed getting to know you and learning more about your background.
