@@ -54,13 +54,15 @@
       "icon": "lucide-network",
       "unsynced": [
         "f8771b0a364a4c92"
-      ]
+      ],
+      "color": "purple"
     },
     "TEMPLATES": {
       "icon": "lucide-layout-template",
       "unsynced": [
         "f8771b0a364a4c92"
-      ]
+      ],
+      "color": "pink"
     }
   },
   "bookmarkIcons": {},
