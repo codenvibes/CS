@@ -143,12 +143,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR.md",
+                    "file": "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "AZURE MONITOR"
+                  "title": "AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL"
                 }
               }
             ],
@@ -275,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                "file": "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLOUD AND NETWORK SECURITY"
+              "title": "Outline of AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL"
             }
           },
           {
@@ -343,11 +343,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6613dbf2ab63638d",
+  "active": "ac2b3b805e939258",
   "lastOpenFiles": [
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR.md",
-    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
+    "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "COURSES/COURSES.base",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
@@ -384,7 +385,6 @@
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/2. IAM.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/03 THE BENEFITS OF USING CLOUD SERVICES.md",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/02 CLOUD MODELS.md",
-    "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS/04 CLOUD SERVICE TYPES.md",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS",
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS",
     "DEVOPS/12 CLOUD/OCI",
