@@ -38,7 +38,7 @@
                       "type": "bases",
                       "state": {
                         "file": "SOFT SKILLS & CAREER/PIRP.base",
-                        "viewName": "REPORTS"
+                        "viewName": "PREP"
                       },
                       "icon": "lucide-layout-grid",
                       "title": "PIRP"
@@ -186,7 +186,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:REPORT_WRITING",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
