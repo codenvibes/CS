@@ -3,7 +3,7 @@ views:
     name: PREP
     filters:
       and:
-        - file.inFolder("09 SOFT SKILLS & CAREER/INTERVIEW_PREP")
+        - file.inFolder("SOFT SKILLS & CAREER/INTERVIEWS")
   - type: cards
     name: INTERVIEWS
     filters:
