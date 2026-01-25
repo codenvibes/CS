@@ -289,13 +289,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -357,10 +357,11 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "ac2b3b805e939258",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
+    "Pasted image 20260125172017.png",
+    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AZURE/KEY VAULT AND ENCRYPTION.md",
     "Pasted image 20260125171441.png",
     "DEVOPS/12 CLOUD/AZURE/NETWORK SECURITY GROUPS AND APPLICATION SECURITY GROUPS.md",
@@ -400,11 +401,9 @@
     "DEVOPS/12 CLOUD/GENERAL CLOUD CONCEPTS",
     "DEVOPS/12 CLOUD/OCI",
     "DEVOPS/12 CLOUD",
-    "CYBER/CS JOURNAL.md",
     "ASSETS/Pasted image 20260125123055.png",
     "Pasted image 20260125123234.png",
     "ASSETS/Screenshot_20250704_201212_Instagram.jpg",
-    "ASSETS/Pasted image 20251203150324.png",
     "Untitled.canvas"
   ]
 }

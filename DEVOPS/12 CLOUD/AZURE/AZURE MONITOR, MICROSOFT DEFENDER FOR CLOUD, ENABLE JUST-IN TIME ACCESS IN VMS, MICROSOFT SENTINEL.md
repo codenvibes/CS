@@ -36,6 +36,8 @@ Create a completion report with a cover page that captures your name and program
 **Name your report in this format: firstname_surname_adm no**
 
 **And as pdf**
+
+![[Pasted image 20260125172017.png]]
 <div align="center">
 <br>
 <br>
