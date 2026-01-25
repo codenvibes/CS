@@ -1,5 +1,6 @@
 ---
 tags:
+  - CYBER_SHUJAA_CNS
 link:
 description:
 ---
