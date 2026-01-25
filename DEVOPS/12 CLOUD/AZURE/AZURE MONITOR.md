@@ -32,8 +32,8 @@ description:
 - **_Lab Tasks_** section that demonstrates your completion of the lab tasks as outlined in the lab instructions file. Provide screenshots to support your task completion.
 - A **_conclusion_** section, written in your own words, captures a reflective summary of what you have learned and your experience.
 
-  
-**LAB GUIDE**
+
+[**LAB GUIDE**](https://drive.google.com/file/d/1kPKmTIB3F_me0FGYRrhtfqJ6PpOOGB-P/view?t=5)
 <div align="center">
 <br>
 <br>
