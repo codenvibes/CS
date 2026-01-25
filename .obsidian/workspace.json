@@ -303,13 +303,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/VLANS AND SECURE SWITCH CONFIGURATION.md",
+                "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VLANS AND SECURE SWITCH CONFIGURATION"
+              "title": "Outline of CLOUD AND NETWORK SECURITY"
             }
           },
           {
@@ -371,10 +371,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "6caf9220c32ada6a",
+  "active": "6613dbf2ab63638d",
   "lastOpenFiles": [
-    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/VLANS AND SECURE SWITCH CONFIGURATION.md",
+    "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/SUBNETTING EXERCISE.md",
