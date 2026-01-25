@@ -23,7 +23,7 @@
                     "state": {
                       "type": "bases",
                       "state": {
-                        "file": "00 COURSES/COURSES.base",
+                        "file": "COURSES/COURSES.base",
                         "viewName": "CYBER SHUJAA"
                       },
                       "pinned": true,
@@ -103,7 +103,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+                        "file": "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
                         "mode": "source",
                         "source": false
                       },
@@ -345,7 +345,7 @@
   },
   "active": "344cbeb398d80eda",
   "lastOpenFiles": [
-    "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
+    "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "DEVOPS/12 CLOUD/AWS/CLOUDGOAT VULNERABLE_LAMBDA.md",
     "DEVOPS/12 CLOUD/AWS/AWS CLOUD ACCOUNT REGISTRATION.md",
     "DEVOPS/12 CLOUD/AZURE/AZURE MONITOR, MICROSOFT DEFENDER FOR CLOUD, ENABLE JUST-IN TIME ACCESS IN VMS, MICROSOFT SENTINEL.md",
@@ -363,7 +363,7 @@
     "DEVOPS/12 CLOUD/GCP/GCP CLOUD ACCOUNT REGISTRATION.md",
     "ASSETS/Pasted image 20260125163436.png",
     "DEVOPS/12 CLOUD/AZURE/AZURE CLOUD ACCOUNT REGISTRATION.md",
-    "00 COURSES/COURSES.base",
+    "COURSES/COURSES.base",
     "DEVOPS/README.md",
     "DEVOPS/12 CLOUD/GCP",
     "DEVOPS/12 CLOUD/AWS",

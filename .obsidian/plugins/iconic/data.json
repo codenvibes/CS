@@ -36,6 +36,13 @@
       ],
       "color": "yellow"
     },
+    "COURSES": {
+      "icon": "lucide-book-open",
+      "unsynced": [
+        "f8771b0a364a4c92"
+      ],
+      "color": "gray"
+    },
     "CYBER": {
       "icon": "lucide-lock",
       "unsynced": [
