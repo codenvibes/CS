@@ -2,8 +2,7 @@
 tags:
   - HTB
   - JUNIOR_CYBERSECURITY_ANALYST
-  - CYBERSHUJAA
-  - CNS
+  - CYBER_SHUJAA_CNS
 link: https://academy.hackthebox.com/module/details/35
 description: This module introduces the topic of HTTP web requests and how different web applications utilize them to communicate with their backends.
 ---
