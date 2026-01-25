@@ -170,12 +170,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "08 TOOLS/PACKET TRACER/Untitled.md",
+                    "file": "08 TOOLS/PACKET TRACER/CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Untitled"
+                  "title": "CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI"
                 }
               }
             ],
@@ -303,13 +303,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 TOOLS/PACKET TRACER/Untitled.md",
+                "file": "08 TOOLS/PACKET TRACER/CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI"
             }
           },
           {
@@ -374,7 +374,7 @@
   "active": "1a75a50bbfc2913f",
   "lastOpenFiles": [
     "08 TOOLS/PACKET TRACER/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
-    "08 TOOLS/PACKET TRACER/Untitled.md",
+    "08 TOOLS/PACKET TRACER/CONFIGURE ASA BASIC SETTINGS AND FIREWALL USING THE CLI.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/PACKET TRACER/EXAMINE TCPIP AND OSI MODELS IN ACTION.md",
     "08 TOOLS/PACKET TRACER/CONFIGURING SITE-TO-SITE VPNS.md",
