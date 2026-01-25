@@ -303,13 +303,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
+                "file": "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of JUNIOR CYBERSECURITY ANALYST"
+              "title": "Outline of INTRO TO NETWORK TRAFFIC ANALYSIS"
             }
           },
           {
@@ -371,8 +371,9 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "1ed32a33f41cf25f",
+  "active": "be960be7af27966d",
   "lastOpenFiles": [
+    "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "00 COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
     "08 TOOLS/WIRESHARK/INTRO TO NETWORK TRAFFIC ANALYSIS.md",
     "08 TOOLS/WIRESHARK/LAB - BUILD A SWITCH AND ROUTER NETWORK.md",
@@ -391,7 +392,6 @@
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/PACKETS & FRAMES.md",
     "01 CORE CONCEPTS/NETWORKING FUNDAMENTALS/10 SUBNETTING.md",
     "00 COURSES/THM/CYBER SECURITY 101.md",
-    "00 COURSES/HTB/JUNIOR CYBERSECURITY ANALYST.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/WINDOWS FUNDAMENTALS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/04 NTFS VS. SHARE PERMISSIONS.md",
     "01 CORE CONCEPTS/OPERATING SYSTEMS/WINDOWS/01 INTRODUCTION TO WINDOWS.md",
