@@ -1,5 +1,6 @@
 ---
 tags:
+  - HTB_JUNIOR_CYBERSECURITY_ANALYST
 link: https://academy.hackthebox.com/module/details/49
 description: This module covers the fundamentals required to work comfortably with the Windows operating system.
 ---
