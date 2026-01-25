@@ -20,7 +20,7 @@ description:
 <!-- PAGE BREAK -->
 <div style="page-break-after: always;"></div>
 
-## Subnetting Exercises
+## Subnetting Exercise
 <div align="center">
 <br>
 <br>
