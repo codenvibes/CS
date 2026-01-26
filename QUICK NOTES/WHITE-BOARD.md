@@ -29,9 +29,8 @@ TryHackMe has recently **updated the “Introduction to Cyber Security” room**
 
 The link on **Moodle has now been updated** to point to the new version of the room.
 
-- ✅ If you **already completed and submitted** the _old_ version, **that is absolutely fine** — no action is needed.
-    
-- 🆕 If you **have not yet completed** the room, please make sure you use the **new version linked on Moodle**.
-    
+- If you **already completed and submitted** the _old_ version, **that is absolutely fine** — no action is needed.
 
-If you have any questions or are unsure which version you completed, feel free to ask.
+- If you **have not yet completed** the room, please make sure you use the **new version linked on Moodle**.
+
+If you have any questions, feel free to ask.
