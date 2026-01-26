@@ -20,3 +20,8 @@ Topics:
 
 
 creating an AI app on a cloud platform
+
+
+
+https://tryhackme.com/room/digitalforensicsfundamentals
+https://tryhackme.com/room/introwebapplicationsecurity
