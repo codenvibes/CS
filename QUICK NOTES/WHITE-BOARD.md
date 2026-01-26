@@ -23,7 +23,7 @@ creating an AI app on a cloud platform
 
 
 
-📢 **Update: Introduction to Cyber Security (TryHackMe)**
+📢 **Update: WK 2 ASSIGNMENT 1 Introduction to Cyber Security (TryHackMe)**
 
 TryHackMe has recently **updated the “Introduction to Cyber Security” room**.
 
