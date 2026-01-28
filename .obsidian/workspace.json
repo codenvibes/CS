@@ -64,14 +64,13 @@
                     "id": "61cb0fa6208d953e",
                     "type": "leaf",
                     "state": {
-                      "type": "markdown",
+                      "type": "bases",
                       "state": {
-                        "file": "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
-                        "mode": "source",
-                        "source": false
+                        "file": "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+                        "viewName": "THM"
                       },
-                      "icon": "lucide-file",
-                      "title": "AOC DAY01 - LINUX CLI - SHELLS BELLS"
+                      "icon": "lucide-layout-grid",
+                      "title": "CTFS & LABS"
                     }
                   }
                 ],
@@ -273,13 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
+                "file": "QUICK NOTES/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AOC DAY01 - LINUX CLI - SHELLS BELLS"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -341,9 +340,10 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "61cb0fa6208d953e",
+  "active": "10dd2c9178155b52",
   "lastOpenFiles": [
     "CYBER/13 CTFS & LABS/CTFS & LABS.base",
+    "CYBER/13 CTFS & LABS/THM/AOC 2025/AOC DAY01 - LINUX CLI - SHELLS BELLS.md",
     "QUICK NOTES/WHITE-BOARD.md",
     "COURSES/CYBER SHUJAA/SECURITY ANALYST.md",
     "COURSES/CYBER SHUJAA/CLOUD AND NETWORK SECURITY.md",
@@ -387,7 +387,6 @@
     "DEVOPS/CONTAINERIZATION",
     "DEVOPS/13 MONITORING & OBSERVABILITY",
     "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/7. SECURITY.md",
-    "DEVOPS/12 CLOUD/OCI/OCI FOUNDATIONS/8. GOVERNANCE & ADMINISTRATION.md",
     "Untitled.canvas"
   ]
 }
